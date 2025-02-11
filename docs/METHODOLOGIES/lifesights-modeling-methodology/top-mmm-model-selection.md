@@ -16,17 +16,4 @@ The method assigns weights to key parameters based on their impact on overall mo
 
 Example :
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d47cc5aa65d2125e5db99008b82f3e302039b312d1609d9e4cd00a5e81567021-image.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/d47cc5aa65d2125e5db99008b82f3e302039b312d1609d9e4cd00a5e81567021-image.png" />
