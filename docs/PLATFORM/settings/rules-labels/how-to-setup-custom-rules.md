@@ -12,15 +12,7 @@ metadata:
 next:
   description: ''
 ---
-[block:embed]
-{
-  "url": "",
-  "provider": "",
-  "href": "",
-  "typeOfEmbed": "youtube"
-}
-[/block]
-
+<Embed url="" provider="" href="" typeOfEmbed="youtube" title="undefined" />
 
 <br />
 
@@ -32,39 +24,11 @@ next:
 
 1. Navigate to the "Settings" section on your workspace and click on the 'Rules and Labeling' Tab.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1db5cf42f3752a6284da5ead5b816fe787266a05adde81427cd06e54c033001f-rues.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/1db5cf42f3752a6284da5ead5b816fe787266a05adde81427cd06e54c033001f-rues.jpg" />
 
 2. Click on `Create Rules` to begin setting up a new custom rule.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/30689ff99c04093c6eb28e870d3a77d428a6dc3e7c7b2046f978748bd37a7a94-cr.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/30689ff99c04093c6eb28e870d3a77d428a6dc3e7c7b2046f978748bd37a7a94-cr.jpg" />
 
 2. **Define the Action**: The first step in creating a rule is selecting the appropriate option based on where you want your rule to have an impact. You can choose from the following options:
    1. Channels
@@ -79,7 +43,7 @@ next:
 7. You can also add more conditions by clicking on 'Select’. For each additional condition, you'll need to choose how it relates to the others:
    1. Or: The action will be executed if either of the conditions is met.
    2. And: All conditions must be met for the action to be executed.
-8. **Determine the outcome: **After setting your conditions, you'll need to decide what happens when those conditions are met. There are two main actions you can take:
+8. **Determine the outcome:** After setting your conditions, you'll need to decide what happens when those conditions are met. There are two main actions you can take:
    1. Exclude: This option allows you to ignore certain traffic events from your attribution data, effectively excluding them from analysis.
    2. Label as: This option allows for altering the display name of a record, enabling the renaming of entries such as changing "facebook" to "fb", which results in the display name of the row being updated. When three entries, "fb", "meta", and "facebook", are all labeled as "facebook", the interface consolidates them into a single row, displaying aggregated data for clarity.
    3. Group as : It consolidates multiple entries under a unified category without altering their names. Using the above example, grouping "fb", "meta", and "facebook" under "facebook" creates a single, expandable parent row in the user interface. This row shows aggregated data, with the original three entries detailed underneath.
