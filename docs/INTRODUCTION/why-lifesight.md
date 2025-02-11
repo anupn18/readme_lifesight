@@ -14,11 +14,11 @@ In today’s rapidly evolving marketing landscape, e-commerce brands face numero
 
 **Why Choose Lifesight**
 
-- Unbiased Measurement: Operates independently from media buying platforms, ensuring impartial and accurate insights.
-- Comprehensive Integration: Combines multiple advanced measurement methodologies into a single, unified platform.
-- Real-Time Insights: Provides up-to-the-minute data and analytics, enabling swift and informed decision-making.
-- AI-Driven Optimization: Utilizes artificial intelligence to forecast trends and automate optimization processes, maximizing ROI with minimal manual intervention.
-- Future-Proof and Privacy-Ready: Designed to comply with the latest data protection regulations, ensuring data privacy and adaptability to future market changes.
+* Unbiased Measurement: Operates independently from media buying platforms, ensuring impartial and accurate insights.
+* Comprehensive Integration: Combines multiple advanced measurement methodologies into a single, unified platform.
+* Real-Time Insights: Provides up-to-the-minute data and analytics, enabling swift and informed decision-making.
+* AI-Driven Optimization: Utilizes artificial intelligence to forecast trends and automate optimization processes, maximizing ROI with minimal manual intervention.
+* Future-Proof and Privacy-Ready: Designed to comply with the latest data protection regulations, ensuring data privacy and adaptability to future market changes.
 
 **The Measurement Competitive Advantage**
 
