@@ -26,11 +26,11 @@ The challenge lies in determining the optimal combination of these hyperparamete
 
 Nevergrad stands out for its comprehensive suite of derivative-free optimization algorithms, including:
 
-- Evolution strategies
-- Differential evolution
-- Particle swarm optimization
-- Cobyla
-- Bayesian optimization
+* Evolution strategies
+* Differential evolution
+* Particle swarm optimization
+* Cobyla
+* Bayesian optimization
 
 At its core, Nevergrad operates by accepting a user-defined function that returns a specific value—be it Mean Absolute Percentage Error (MAPE), Normalized Root Mean Square Error (NRMSE), or any other relevant Key Performance Indicator (KPI). The user specifies the hyperparameters to be optimized, selects an optimization algorithm, and determines the number of trials to run.
 
