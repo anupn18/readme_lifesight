@@ -21,25 +21,11 @@ Lifesight allows you to monitor the progress of your marketing goals effectively
 5. Once you're done, navigate to `Analyze > Goals`
 6. You should be able to track your outcome KPI (Revenue, Leads, etc).
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9489f24e31f02a8adb26bd3d6db57988f772f0dfb5bc75b7977e20f17fc4473f-readme_pics_2.jpg",
-        "",
-        "goals tab"
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/9489f24e31f02a8adb26bd3d6db57988f772f0dfb5bc75b7977e20f17fc4473f-readme_pics_2.jpg" />
 
 <br />
 
-> 📘 You can track multiple marketing goals at the same time. 
-> 
-> - The Goal KPI should be selected while creating a MMM model. The outcome KPI must be mapped and uploaded during model creation to track the desired KPI as a goal.
-> - If you select more than 1 default scenario for the same goal KPI, Lifesight automatically selects the plan that has less aggressive contraints to track in the Goals tab.
+> 📘 You can track multiple marketing goals at the same time.
+>
+> * The Goal KPI should be selected while creating a MMM model. The outcome KPI must be mapped and uploaded during model creation to track the desired KPI as a goal.
+> * If you select more than 1 default scenario for the same goal KPI, Lifesight automatically selects the plan that has less aggressive contraints to track in the Goals tab.
