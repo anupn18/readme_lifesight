@@ -10,7 +10,8 @@ metadata:
 next:
   description: ''
 ---
-> 📘 Version tagging data models is a public beta feature that’s subject to quick, iterative changes. As a result, the latest product version may differ from the contents of this document.  
+> 📘 Version tagging data models is a public beta feature that’s subject to quick, iterative changes. As a result, the latest product version may differ from the contents of this document.
+>
 > Tagging Dashboard versions are generally available.
 
 Add a tag to a Dashboard or data model version to create a read-only view of that version of the document. You can then share the tagged version with another team for their exclusive use, use the tagged Dashboard version to support an embed, or implement tagged versions for version control as part of a development lifecycle for a Dashboard or data model.
@@ -27,41 +28,13 @@ All Dashboards and data models have Draft and Published versions, and all change
 
 You can tag a specific document version to indicate something about the status of that document version. For example, tag a version of a Dashboard to indicate that the contents need to be reviewed for accuracy, or that it is ready to be used in production.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/7083cafc918011bba8c173bf3f91b072bd5920985e451c21a10eab8328fc3227-4be75c3ec3cb8eaefd59cade127457cb1258bb6afa73e321f0aa15e50a019c95-version-tag-workflow.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/7083cafc918011bba8c173bf3f91b072bd5920985e451c21a10eab8328fc3227-4be75c3ec3cb8eaefd59cade127457cb1258bb6afa73e321f0aa15e50a019c95-version-tag-workflow.png" />
 
 You can also version tag data model documents, and use a similar workflow to tag specific data model versions for testing or production use.
 
 You can continue iterating on the draft version while the tagged version is being reviewed. Changes made to the untagged versions (draft and published) do not affect the tagged version.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/22b1567bc5b79b980d08feafbbc5c3d78e7c1d40ecb38f4d00f1f1f4da097850-f2.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/22b1567bc5b79b980d08feafbbc5c3d78e7c1d40ecb38f4d00f1f1f4da097850-f2.png" />
 
 <br />
 
@@ -83,8 +56,8 @@ If you want to integrate version tagging in Lifesight with the source control pl
 
 When you tag a version of your Dashboard that relies on a materialized data source, the tagged version might not use the materialized data source.
 
-- Materialized dataset: The materialized dataset is not used by the tagged version of the Dashboard. Instead, the tagged version of the Dashboard relies on a copy of the dataset made when the tag was applied.
-- Materialized data model: The materialized data model is used unless you use a tagged version of the data model, such as when swapping sources for the tagged Dashboard version. Tagged versions of data models cannot be materialized.
+* Materialized dataset: The materialized dataset is not used by the tagged version of the Dashboard. Instead, the tagged version of the Dashboard relies on a copy of the dataset made when the tag was applied.
+* Materialized data model: The materialized data model is used unless you use a tagged version of the data model, such as when swapping sources for the tagged Dashboard version. Tagged versions of data models cannot be materialized.
 
 | Object            | Is materialized version used?       | Details                                                                                                                                                |
 | :---------------- | :---------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -100,8 +73,8 @@ You can tag a version of a Dashboard or a data model. When you tag a document, y
 
 To tag a document version, the following must be true
 
-- Your user is granted Can Edit permissions on the document.
-- The account type assigned to your user is granted the Apply Tag and Create, edit, and publish Dashboards permissions.
+* Your user is granted Can Edit permissions on the document.
+* The account type assigned to your user is granted the Apply Tag and Create, edit, and publish Dashboards permissions.
 
 Some tags might be protected and require additional permissions to set on a document. To set a protected tag, you must also be an admin or be granted access to set the protected tag. If you do not have access to set the protected tag, you can send a request for it to be added.
 
@@ -112,25 +85,11 @@ To set a tag on a document, follow these steps.
 1. Open the document and locate the version that you want to tag:
    1. To tag the latest published version of the document, click the caret () next to the document name and select Tag this published version. If the document is in draft and has unpublished edits, you instead see Tag latest published version.
    2. To tag the latest draft of the document, while editing the document, select the caret () next to the document version and select Tag this version.
-   3. To tag a specific version of the document, open the version history of the document by selecting the caret next to the document name > Version history, then locate the version you want to tag. Click  More > Set tag on this version.
-   The Set Tag on Version modal appears.
+   3. To tag a specific version of the document, open the version history of the document by selecting the caret next to the document name > Version history, then locate the version you want to tag. Click  More > Set tag on this version.\
+      The Set Tag on Version modal appears.
 2. For Choose Tag, select a tag.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/bc031280910b82052aa1ef9ccc735f04576394cabac74e3ca547c22955b9f1e5-97d7e8a-Screenshot_2024-05-29_at_9.12.41_AM.png",
-        "",
-        ""
-      ],
-      "align": "left"
-    }
-  ]
-}
-[/block]
-
+<Image align="left" src="https://files.readme.io/bc031280910b82052aa1ef9ccc735f04576394cabac74e3ca547c22955b9f1e5-97d7e8a-Screenshot_2024-05-29_at_9.12.41_AM.png" />
 
 <br />
 
@@ -154,8 +113,8 @@ To set a tag on a document, follow these steps.
 
 If you choose a protected tag that you do not have permission to apply, you're prompted to send a request to approvers for the tag:
 
-- For Why are you requesting to set this tag?, enter the message you want to include in the email request.
-- Click Request Tag on Version.  
+* For Why are you requesting to set this tag?, enter the message you want to include in the email request.
+* Click Request Tag on Version.\
   Lifesight sends an email to members that can approve the request.
 
 3. For a version tagged Dashboard, if you want to grant Can view permissions on the data sources used in the Dashboard, select the checkbox for Allow user to use data sources when they "Save as". If this checkbox is not selected, users can access the tagged version of the Dashboard without data.
@@ -170,8 +129,8 @@ When you apply a tag to a Dashboard or data model, you can set the tag as the de
 To remove a tag from a document version:
 
 1. Open the document.
-2. From the document header menu, select the caret  > Version history.  
-   [optional] To collapse the details changes for each version, select the caret next to the most recent version.
+2. From the document header menu, select the caret  > Version history.\
+   \[optional] To collapse the details changes for each version, select the caret next to the most recent version.
 3. Locate the tagged version and select  More > Remove this tag. The tagged version is shown on the canvas when you remove the tag.
 
 ## Swap the source of a tagged Dashboard version
@@ -180,8 +139,8 @@ To swap the source of a tagged Dashboard version, for example to use a test data
 
 The steps are different if your Dashboard uses a data model for the data source or not:
 
-- Swap the data model source used by a tagged Dashboard version.
-- Swap the dataset or connection source used by a tagged Dashboard version.
+* Swap the data model source used by a tagged Dashboard version.
+* Swap the dataset or connection source used by a tagged Dashboard version.
 
 ### Swap the data model source used by a tagged Dashboard version
 
@@ -194,8 +153,8 @@ Tag the data model and swap the source
 1. Open the data model for editing, then choose the version to tag:
    1. To tag the latest published version of the document, click the caret () next to the document name and select Tag this published version. If the document is in draft and has unpublished edits, you instead see Tag latest published version.
    2. To tag the latest draft of the document, while editing the document, select the caret () next to the document version and select Tag this version.
-   3. To tag a specific version of the document, open the version history of the document by selecting the caret next to the document name > Version history, then locate the version you want to tag. Click  More > Set tag on this version.
-   The Set Tag on Version modal appears.
+   3. To tag a specific version of the document, open the version history of the document by selecting the caret next to the document name > Version history, then locate the version you want to tag. Click  More > Set tag on this version.\
+      The Set Tag on Version modal appears.
 2. For Choose Tag, choose a tag to apply to the data model. For clarity, choose the same tag that you plan to use with the Dashboard.
 3. Select the checkbox for Swap sources of the tagged version.
 4. Click Set Tag.
@@ -225,8 +184,8 @@ To select a different connection path, database, or schema for a tagged Dashboar
 2. For Choose Tag, choose the tag to apply to the Dashboard version.
 3. Check Swap sources of the tagged version and click Set Tag.
 4. In the Modify sources modal, click the dropdown under Sources of Tagged Dashboard to change the data source.
-5. [optional] To choose a different database or schema in the selected connection, hover over the database or schema name and select Modify to choose a different database or schema, then select Confirm.
-6. Click Swap and tag.  
+5. \[optional] To choose a different database or schema in the selected connection, hover over the database or schema name and select Modify to choose a different database or schema, then select Confirm.
+6. Click Swap and tag.\
    The tagged version of the Dashboard is updated to use the new connection. If your Dashboard uses a dataset, a copy of the dataset is created on the new connection.
 
 ## Publish changes to a tagged Dashboard version
@@ -243,10 +202,10 @@ To update the "testing" tagged version of the Dashboard, do the following:
 4. For the version, select  More > Restore version as draft.
 5. Make your desired changes in the draft.
 6. When you finish making changes, publish your changes.
-7. In the Dashboard header menu, open Version history if it is no longer open.  
+7. In the Dashboard header menu, open Version history if it is no longer open.\
    In the version history, you see a line item for Restored version from <date>, then additional changes listed above that version.
-8. For the current version that contains your changes, select  More > Set tag on this version.  
-   The latest version is tagged, and the contents are updated to match.  
+8. For the current version that contains your changes, select  More > Set tag on this version.\
+   The latest version is tagged, and the contents are updated to match.\
    The version that was previously tagged is listed with a grayed-out version of the version tag.
 9. If you had other changes that you want to preserve, return to the version before you restored the tagged version as the latest draft, and select  More > Restore version as draft.
 
@@ -260,7 +219,7 @@ For example, if you want to promote a tagged Dashboard version from the "staging
 4. In the Dashboard header, select the version menu () and select Move tag to, then select the "Production" tag.
 5. In the Set tag on version modal, select any relevant options, then select Set Tag. The "Production" tag is added to the version.
 6. Next, remove the "Staging" tag from the version. In the version history, locate the "Staging" tag, then select  More > Remove this tag.
-7. In the modal, acknowledge that users granted access only to this tagged version, or embeds that use the link to the tagged version, lose access to the tagged version after removing the tag by selecting Remove.  
+7. In the modal, acknowledge that users granted access only to this tagged version, or embeds that use the link to the tagged version, lose access to the tagged version after removing the tag by selecting Remove.\
    The version appears with a current tag of "Production" and a previous tag of "Staging".
 
 ## Share tagged versions of a Dashboard or data model
@@ -299,10 +258,10 @@ Permissions set at the workspace and folder level are inherited by the Dashboard
 
 If you want to link directly to a tagged version of a Dashboard, for example to embed the tagged version of the Dashboard, reference the tag name in the URL.
 
-For example, if you add a staging tag to a Dashboard, the URL for the Dashboard version tagged with staging contains the following:  
+For example, if you add a staging tag to a Dashboard, the URL for the Dashboard version tagged with staging contains the following:\
 `/Dashboard/My-Dashboard-{Dashboard_id}/tag/staging`
 
-The same construct applies for embeds. The staging tag is appended to the URL:  
+The same construct applies for embeds. The staging tag is appended to the URL:\
 `/embed/{embed_id}/tag/staging`
 
 Like other URL parameters, version tag names with a space or special characters are encoded. For example, `staging%20copy` for a version tag named "Staging Copy".
