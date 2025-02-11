@@ -26,6 +26,6 @@ When uploading Geo Test data via CSV or Integrated method, ensure your data foll
 
 ## Minimum data requirements to run a geo test:
 
-- Historical KPI Data of at least 6 months
-- Dates
-- Geographies
+* Historical KPI Data of at least 6 months
+* Dates
+* Geographies
