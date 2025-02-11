@@ -18,10 +18,10 @@ Snap’s Conversions API (CAPI) is a structured, privacy-centric interface that 
 
 ## Benefits of using the Snapchat CAPI
 
-- Emphasis on Privacy:The Conversions API prioritizes privacy, offering you the ability to selectively share data at your discretion.
-- Enhanced Optimization: The data provided to Snapchat through the Conversions API enhances the efficiency and effectiveness of your campaign strategies, leading to more cost-effective actions.
-- Targeting Capabilities: With the Conversions API, you can swiftly create custom audiences using first-party data, enabling the formation of Lookalike audiences or re-engaging previous customers.
-- Sophisticated Measurement: The Conversions API facilitates a deeper understanding of your campaign's impact across various channels, integrating advanced measurement methods like Conversion Lift for more nuanced insights.
+* Emphasis on Privacy:The Conversions API prioritizes privacy, offering you the ability to selectively share data at your discretion.
+* Enhanced Optimization: The data provided to Snapchat through the Conversions API enhances the efficiency and effectiveness of your campaign strategies, leading to more cost-effective actions.
+* Targeting Capabilities: With the Conversions API, you can swiftly create custom audiences using first-party data, enabling the formation of Lookalike audiences or re-engaging previous customers.
+* Sophisticated Measurement: The Conversions API facilitates a deeper understanding of your campaign's impact across various channels, integrating advanced measurement methods like Conversion Lift for more nuanced insights.
 
 <br />
 
@@ -63,7 +63,7 @@ Your Snapchat Access Token is a unique string used to authenticate graph API cal
 When setting up the Snapchat CAPI, Lifesight passes some events on to the channel as default data points, with an option to add more. The comprehensive list is as below:
 
 1. PURCHASE
-2. ADD_CART
-3. VIEW_CONTENT
-4. PAGE_VIEW
-5. CUSTOMER_Registered
+2. ADD\_CART
+3. VIEW\_CONTENT
+4. PAGE\_VIEW
+5. CUSTOMER\_Registered
