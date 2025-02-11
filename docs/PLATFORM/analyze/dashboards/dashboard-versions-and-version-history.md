@@ -16,8 +16,8 @@ Dashboard version history contains a list of all previously published versions o
 
 ## Requirements
 
-- Dashboard version history, including edit history and any edits to the current draft, is only available for users with Can Edit permission on a Dashboard.
-- Only users with Can Edit permission can restore old versions and changes to a Dashboard.
+* Dashboard version history, including edit history and any edits to the current draft, is only available for users with Can Edit permission on a Dashboard.
+* Only users with Can Edit permission can restore old versions and changes to a Dashboard.
 
 Edit history is not available for changes made before December 13, 2022. Beginning on December 13, 2022, all organizations with Live Edit enabled track edits in the edit history. Edits made before Live Edit is enabled remain untracked.
 
@@ -25,15 +25,15 @@ Edit history is not available for changes made before December 13, 2022. Beginni
 
 When you open a Dashboard, the current version is listed in the Dashboard header:
 
-- If you're viewing a published Dashboard, the version is PUBLISHED.
-- If you're viewing a tagged version, the name of the version tag is shown.
-- If you open the Dashboard for editing, the version is DRAFT.
+* If you're viewing a published Dashboard, the version is PUBLISHED.
+* If you're viewing a tagged version, the name of the version tag is shown.
+* If you open the Dashboard for editing, the version is DRAFT.
 
 A Dashboard can have one of the following versions:
 
-- Draft: While you are editing a Dashboard, it is in draft mode and the changes are visible only to you and others currently editing the Dashboard.
-- Published: To make changes visible to others with view or explore access to the Dashboard, you publish it.
-- Tagged: If you want to have a read-only version of a Dashboard available to specific users or for a specific purpose, you can apply a tag to a specific Dashboard version. For example, you may tag a Dashboard as "Development" or "Production".
+* Draft: While you are editing a Dashboard, it is in draft mode and the changes are visible only to you and others currently editing the Dashboard.
+* Published: To make changes visible to others with view or explore access to the Dashboard, you publish it.
+* Tagged: If you want to have a read-only version of a Dashboard available to specific users or for a specific purpose, you can apply a tag to a specific Dashboard version. For example, you may tag a Dashboard as "Development" or "Production".
 
 ## Open version history for a dashboard
 
@@ -42,7 +42,7 @@ When you make changes to a Dashboard, the changes appear in the version history.
 You must have Can Edit permissions on the Dashboard to view the version history.
 
 1. Open a Dashboard.
-2. Click the drop-down next to the document name, then select Version History. You can also select the name of the current version, then select View version history. 
+2. Click the drop-down next to the document name, then select Version History. You can also select the name of the current version, then select View version history.\
    The version history panel opens and displays the latest version and its changes. Previously published versions are listed below, and the version corresponding to the currently published version is labeled Current.
 3. Review the detailed edit history for a specific version by clicking the chevron next to the version timestamp, or see the Dashboard as it was for a specific version or change by selecting it.
 4. To return to the latest version of the Dashboard, select Go back to the latest version.
@@ -69,7 +69,7 @@ You can restore your Dashboard draft to a specific change in the edit history fo
 
 > 📘 If your Dashboard contains input tables and you restore your Dashboard to a previous change in the version history, the input table contents are not restored to that point in time and instead reflect the latest changes.
 
-Instead, you can restore the published version closest to the specific change, and then restore the specific change.  
+Instead, you can restore the published version closest to the specific change, and then restore the specific change.\
 To revert your draft to a previous change in the edit history, do the following:
 
 1. Open the version history for a Dashboard.
@@ -82,8 +82,8 @@ To revert your draft to a previous change in the edit history, do the following:
 
 When reviewing the version history for a Dashboard, you can perform several actions on previously published versions. Select More to do any of the following:
 
-- Select Restore version as a draft to restore the version as a draft. See Restore a draft to a previously published version.
-- Select Edit name and description to change the name and description of a version. By default, a version is listed by timestamp.
-- Select Save as a new Dashboard to save the version as a new Dashboard.
-- Select the Copy link to copy a link to the previous Dashboard version. Only users with access to the Dashboard can view the link.
-- Set a tag on the version.
+* Select Restore version as a draft to restore the version as a draft. See Restore a draft to a previously published version.
+* Select Edit name and description to change the name and description of a version. By default, a version is listed by timestamp.
+* Select Save as a new Dashboard to save the version as a new Dashboard.
+* Select the Copy link to copy a link to the previous Dashboard version. Only users with access to the Dashboard can view the link.
+* Set a tag on the version.
