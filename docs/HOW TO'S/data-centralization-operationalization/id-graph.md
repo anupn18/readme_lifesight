@@ -29,17 +29,17 @@ Lifesight's first-party identity graph is the backbone of its data collection pr
 
 Data Captured by Lifesight
 
-- IP Address
-- User Agent
-- Ephemeral Identifiers such as click IDs
-- Email
-- Phone
+* IP Address
+* User Agent
+* Ephemeral Identifiers such as click IDs
+* Email
+* Phone
 
 Data Assigned by Lifesight
 
-- Anonymous ID (unique Lifesight ID for each anonymous profile)
-- Profile ID
-- Session ID (unique Lifesight ID for each user session)
+* Anonymous ID (unique Lifesight ID for each anonymous profile)
+* Profile ID
+* Session ID (unique Lifesight ID for each user session)
 
 ## Agnostic of First Party Cookies
 
