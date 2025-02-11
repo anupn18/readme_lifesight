@@ -14,22 +14,7 @@ At Lifesight we can compare different scenarios under one plan itself.
 
 Different constraints can be used to create different scenarios. Types of constraint available is Current, Conservative, Moderate , Aggressive , and Manual. Initial Budget for different constraints is calculated on business understanding which acts as a reference point for the budget optimizer and optimizes the spends for further forecasting calculations.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/e5b482c44a41431aa5ed317655de4fdad2eb5a3da726a6ea8708fbc11d122548-Screenshot_2024-09-02_at_12.45.48_PM.png",
-        "",
-        ""
-      ],
-      "align": "center",
-      "border": true
-    }
-  ]
-}
-[/block]
-
+<Image align="center" className="border" border={true} src="https://files.readme.io/e5b482c44a41431aa5ed317655de4fdad2eb5a3da726a6ea8708fbc11d122548-Screenshot_2024-09-02_at_12.45.48_PM.png" />
 
 <br />
 
@@ -63,186 +48,51 @@ To evaluate the impact of various constraints within a single plan, we use July 
 
 1. The forecasted revenue and recommendations using the Current Constraint are as follows for **Scenario 1**:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/76fd2f5f012fab0b2d1f8c12b1ed1549b6387665d162a9536470f4b113bf0303-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "border": true
-    }
-  ]
-}
-[/block]
-
+<Image align="center" className="border" border={true} src="https://files.readme.io/76fd2f5f012fab0b2d1f8c12b1ed1549b6387665d162a9536470f4b113bf0303-image.png" />
 
 <br />
 
 #### Recommendations:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8b090bee580fba5eb2af4018e9ab51ed53693e00b18527ebaf8db3b602cb9b2d-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "border": true
-    }
-  ]
-}
-[/block]
+<Image align="center" className="border" border={true} src="https://files.readme.io/8b090bee580fba5eb2af4018e9ab51ed53693e00b18527ebaf8db3b602cb9b2d-image.png" />
 
+2. **Scenario 2:** The forecasted revenue and recommendations using conservative constraints for same:
 
-2. **Scenario 2: **The forecasted revenue and recommendations using conservative constraints for same:
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d6ef8641c26ea39160db97e0a0813e43ad8f2d20681905b9f2f24cf791143f24-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "border": true
-    }
-  ]
-}
-[/block]
-
+<Image align="center" className="border" border={true} src="https://files.readme.io/d6ef8641c26ea39160db97e0a0813e43ad8f2d20681905b9f2f24cf791143f24-image.png" />
 
 <br />
 
 #### Recommendations:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/77cc95c200795d562476462450e87cf60deb06c0fdd9ffb5c4fe87fd2fb50a0c-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "border": true
-    }
-  ]
-}
-[/block]
-
+<Image align="center" className="border" border={true} src="https://files.readme.io/77cc95c200795d562476462450e87cf60deb06c0fdd9ffb5c4fe87fd2fb50a0c-image.png" />
 
 <br />
 
-3. **Scenario 3: **The forecasted revenue and recommendations using Moderate constraint for the same:
+3. **Scenario 3:** The forecasted revenue and recommendations using Moderate constraint for the same:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/65db6be9d99bdbea35a1575c470cb0ca746901676204edccfe1630d28265b81f-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "border": true
-    }
-  ]
-}
-[/block]
-
+<Image align="center" className="border" border={true} src="https://files.readme.io/65db6be9d99bdbea35a1575c470cb0ca746901676204edccfe1630d28265b81f-image.png" />
 
 #### Recommendations:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/ff7a9964d123a21d65afc26ab1d6695895f2516335cb67301da5ecd3026d827c-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "border": true
-    }
-  ]
-}
-[/block]
-
+<Image align="center" className="border" border={true} src="https://files.readme.io/ff7a9964d123a21d65afc26ab1d6695895f2516335cb67301da5ecd3026d827c-image.png" />
 
 <br />
 
 <br />
 
-4. **Scenario 4: **The forecasted revenue and recommendations using Aggressive for same:
+4. **Scenario 4:** The forecasted revenue and recommendations using Aggressive for same:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9d10d6cac1c46c473849e9fef2c60f792beb1802f2983db055e760ae50947d8a-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "border": true
-    }
-  ]
-}
-[/block]
-
+<Image align="center" className="border" border={true} src="https://files.readme.io/9d10d6cac1c46c473849e9fef2c60f792beb1802f2983db055e760ae50947d8a-image.png" />
 
 #### Recommendations:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d1788189cbc4c5b3fb6f376c9a14b98528bb0f083639f20fe325a470becfceed-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "border": true
-    }
-  ]
-}
-[/block]
-
+<Image align="center" className="border" border={true} src="https://files.readme.io/d1788189cbc4c5b3fb6f376c9a14b98528bb0f083639f20fe325a470becfceed-image.png" />
 
 <br />
 
-5. **Scenario 5: **The forecasted revenue and recommendations using Manual constraint and using planned spend as $269,306:
+5. **Scenario 5:** The forecasted revenue and recommendations using Manual constraint and using planned spend as $269,306:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/edaf5f5f62eaab0f668dc6f6f63d15013bec147d89fce271b7412b84eefe3457-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "border": true
-    }
-  ]
-}
-[/block]
-
+<Image align="center" className="border" border={true} src="https://files.readme.io/edaf5f5f62eaab0f668dc6f6f63d15013bec147d89fce271b7412b84eefe3457-image.png" />
 
 <br />
 
