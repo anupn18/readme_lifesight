@@ -14,21 +14,7 @@ The Model tab gives insights into your MMM model accuracy and performance.
 
 <br />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/27d161fc482addcced2b6656f58da39ae19433539ccb5d582b9e7e1e122d96da-model_tab.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/27d161fc482addcced2b6656f58da39ae19433539ccb5d582b9e7e1e122d96da-model_tab.jpg" />
 
 ***
 
@@ -40,15 +26,15 @@ The Model tab gives insights into your MMM model accuracy and performance.
 
 <br />
 
-- **R² (R-squared):**  
+* **R² (R-squared):**\
   A statistical measure that shows how well the model explains the variation in the data. Higher values indicate a better fit between the model and the data.
-- **NRMSE (Normalized Root Mean Squared Error):**  
+* **NRMSE (Normalized Root Mean Squared Error):**\
   The Normalized Root Mean Square Error is also referred to as the prediction error indicates how accurate the model’s predictions are. Lower values represent more accurate predictions. It measures the square root of the average squared differences between predicted and actual outcomes.
-- **Actual Revenue:**  
+* **Actual Revenue:**\
   The real revenue generated during a specific period.
-- **Predicted Revenue:**  
+* **Predicted Revenue:**\
   The revenue estimated by the model based on input data.
-- **Estimation Error (%):**  
+* **Estimation Error (%):**\
   The Mean Absolute Percentage Error for experiments is activated when calibrating and is referred to as the calibration error. The percentage difference between the actual and predicted revenue, showing how far off the model's predictions are from reality.
 
 <br />
@@ -73,9 +59,9 @@ Additionally, if the model can consistently make accurate predictions over time,
 
 A summary of the insights from all tests conducted over the last quarter is available. The data is presented in intervals of the last 4 weeks, 6 weeks, 8 weeks, 10 weeks, and 12 weeks. These insights include:
 
-- **Predicted Revenue or Predicted Conversions:** The outcomes forecasted by the model.
-- **Actual Revenue or Actual Conversions:** The real-world results during the validation period.
-- **Estimation Error (%): **The percentage difference between the predicted and actual outcomes.
+* **Predicted Revenue or Predicted Conversions:** The outcomes forecasted by the model.
+* **Actual Revenue or Actual Conversions:** The real-world results during the validation period.
+* **Estimation Error (%):** The percentage difference between the predicted and actual outcomes.
 
 By examining these insights, you can evaluate the model's accuracy and make necessary adjustments to improve its predictive capabilities.
 
@@ -111,8 +97,8 @@ View the immediate and carryover conversion effect distributed over time. The ch
 
 This chart breaks down the impact of media spending on revenue into two distinct categories: Immediate and carryover contributions. It allows you to discern when the majority of a campaign's effects are realized.
 
-- **Immediate Contribution:** This refers to the percentage of direct effect of media spending within the same period it is spent. For instance, if an advertisement runs in week 1 of June, the immediate contribution is the revenue directly generated from this advertisement in week one of June itself.
-- **Carryover Contribution: **This involves the percentage residual effects of past media spending that continue to influence revenue beyond the initial period of the spend. This phenomenon is also known as adstock. Conceptually, carryover effects are similar to brand equity metrics such as ad recall or campaign.
+* **Immediate Contribution:** This refers to the percentage of direct effect of media spending within the same period it is spent. For instance, if an advertisement runs in week 1 of June, the immediate contribution is the revenue directly generated from this advertisement in week one of June itself.
+* **Carryover Contribution:** This involves the percentage residual effects of past media spending that continue to influence revenue beyond the initial period of the spend. This phenomenon is also known as adstock. Conceptually, carryover effects are similar to brand equity metrics such as ad recall or campaign.
 
 <br />
 
