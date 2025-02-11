@@ -26,8 +26,8 @@ This document will provide a detailed explanation of **mROAS**, how it is calcul
 mROAS = (Marginal KPI) / (Marginal Spend)
 ```
 
-- **Marginal KPI**: The increase in the relevant KPI (e.g., revenue, conversions, installs) that comes from the next dollar (or any currency unit) spent on a particular channel.
-- **Marginal Spend**: The incremental increase in the spend for that channel.
+* **Marginal KPI**: The increase in the relevant KPI (e.g., revenue, conversions, installs) that comes from the next dollar (or any currency unit) spent on a particular channel.
+* **Marginal Spend**: The incremental increase in the spend for that channel.
 
 > 📘 mROAS helps answer the question: **"For the next dollar I spend, which channel will provide the highest KPI growth?"**
 
@@ -38,11 +38,11 @@ mROAS = (Marginal KPI) / (Marginal Spend)
 While traditional ROAS gives an overall view of how efficiently a campaign is driving a KPI, **mROAS** allows marketers to drill down and optimize their budget by focusing on **marginal efficiency**. Here's why mROAS is critical in the context of marketing mix optimization:
 
 1. **Optimization of Budget Allocation**:
-   - Traditional ROAS focuses on the past performance of the entire campaign, but mROAS provides a **forward-looking view**. By using mROAS, Lifesight helps businesses allocate future budgets to channels that offer the best return for the next dollar spent in terms of relevant KPIs like **revenue**, **conversions**, **installs**, or **store visits**.
+   * Traditional ROAS focuses on the past performance of the entire campaign, but mROAS provides a **forward-looking view**. By using mROAS, Lifesight helps businesses allocate future budgets to channels that offer the best return for the next dollar spent in terms of relevant KPIs like **revenue**, **conversions**, **installs**, or **store visits**.
 2. **Diminishing Returns & Saturation**:
-   - Channels tend to experience **diminishing returns** after a certain point. With mROAS, you can understand when additional spending on a channel will yield diminishing KPI returns, enabling smarter decisions around increasing or decreasing ad spend on specific channels.
+   * Channels tend to experience **diminishing returns** after a certain point. With mROAS, you can understand when additional spending on a channel will yield diminishing KPI returns, enabling smarter decisions around increasing or decreasing ad spend on specific channels.
 3. **Precise Decision-Making**:
-   - mROAS allows for **fine-tuned adjustments** to your marketing mix. Instead of scaling back or increasing ad spend on entire channels based on past performance, mROAS shows you the **marginal effect** of small adjustments, ensuring more precise decision-making.
+   * mROAS allows for **fine-tuned adjustments** to your marketing mix. Instead of scaling back or increasing ad spend on entire channels based on past performance, mROAS shows you the **marginal effect** of small adjustments, ensuring more precise decision-making.
 
 ***
 
@@ -101,11 +101,11 @@ At Lifesight, we visualize **saturation curves** for each media channel to show 
 
 ### Key Points on Saturation Curves:
 
-- **Carryover**: This point on the curve reflects the impact of past campaigns (the "carryover effect"). Even without current spend, the channel will still generate some KPI growth due to the lingering effects of past investments.
+* **Carryover**: This point on the curve reflects the impact of past campaigns (the "carryover effect"). Even without current spend, the channel will still generate some KPI growth due to the lingering effects of past investments.
 
-- **Initial Spend**: The current level of spend and its associated KPI is plotted to give a benchmark for comparison.
+* **Initial Spend**: The current level of spend and its associated KPI is plotted to give a benchmark for comparison.
 
-- **Optimized Spend**: Based on mROAS, we can calculate the **optimal spend point**—where the channel generates the highest KPI return per incremental dollar spent.
+* **Optimized Spend**: Based on mROAS, we can calculate the **optimal spend point**—where the channel generates the highest KPI return per incremental dollar spent.
 
 These curves provide a clear representation of when it makes sense to **increase**, **decrease**, or **maintain** spending on a particular channel.
 
@@ -124,8 +124,8 @@ The goal of mROAS is to ensure that marketing budgets are **optimally allocated*
 
 ### Example of Budget Reallocation:
 
-- **Channel A** has an mROAS of 2.0, meaning every additional dollar spent yields $2 in revenue.
-- **Channel B** has an mROAS of 4.0, meaning every additional dollar spent yields $4 in revenue.
+* **Channel A** has an mROAS of 2.0, meaning every additional dollar spent yields $2 in revenue.
+* **Channel B** has an mROAS of 4.0, meaning every additional dollar spent yields $4 in revenue.
 
 In this case, it would make sense to **shift budget from Channel A to Channel B** until the mROAS converges and the marginal returns between the two channels are balanced.
 
@@ -137,8 +137,8 @@ As we continue to optimize the allocation of marketing budgets, the **mROAS acro
 
 ### Key Points:
 
-- **Equilibrium State**: When mROAS for all channels reaches a similar value, indicating that the budget is distributed in the most efficient way possible.
-- **Continuous Monitoring**: While achieving equilibrium is ideal, ongoing monitoring is essential to account for changes in external factors (e.g., seasonality, market conditions) and maintain optimal budget allocation.
+* **Equilibrium State**: When mROAS for all channels reaches a similar value, indicating that the budget is distributed in the most efficient way possible.
+* **Continuous Monitoring**: While achieving equilibrium is ideal, ongoing monitoring is essential to account for changes in external factors (e.g., seasonality, market conditions) and maintain optimal budget allocation.
 
 ***
 
