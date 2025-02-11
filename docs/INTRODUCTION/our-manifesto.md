@@ -58,12 +58,12 @@ Privacy regulations/technology, new media channels, macroeconomic conditions & c
 
 Today’s marketers are facing a dual challenge: preserving user privacy while still being able to measure and optimize their marketing campaigns effectively. The rise in strict privacy regulations and tech limitations is making it increasingly difficult to use traditional, user-level and identifier-based measurements. These changes are causing seismic shifts in how marketers operate and will cause severe disruptions.
 
-- Ad waste is only going to get much worse if new measurement approaches are not adopted.
-- The ability to reach the target audience is diminished significantly
-- The cost of acquiring customers is going to keep rising with adtech giants having the upper 1P data and ability to charge their “tax”
-- More devices and browsers will continue to implement privacy technology
-- Privacy enhancing tech like clean rooms and sandboxes are temporary workarounds to “identify” users and only works with complex partnerships.
-- Existing tools like GA4, in-platform reporting, MTA platforms are only going to diminish in quality further.
+* Ad waste is only going to get much worse if new measurement approaches are not adopted.
+* The ability to reach the target audience is diminished significantly
+* The cost of acquiring customers is going to keep rising with adtech giants having the upper 1P data and ability to charge their “tax”
+* More devices and browsers will continue to implement privacy technology
+* Privacy enhancing tech like clean rooms and sandboxes are temporary workarounds to “identify” users and only works with complex partnerships.
+* Existing tools like GA4, in-platform reporting, MTA platforms are only going to diminish in quality further.
 
 ## Why we built Lifesight
 
@@ -71,13 +71,13 @@ It is our mission to democratize causal AI-powered marketing measurement tools f
 
 When we set out to build this new platform, we looked at the gaps that remain in the market (along with measurement inaccuracies) and clear patterns started to emerge. This new breed of measurement platform has to do more than just measure marketing. 
 
-- Most businesses don’t have access to data engineers, data scientists and analytics experts.
-- Marketers mainly had access to marketing and sales, with near zero visibility into other business data
-- Marketers and analysts struggle with data wrangling, transformations, analysis etc.
-- Traditional marketing mix modeling was outdated, slow and expensive
-- In-platform incrementality testing was inaccurate and inconsistent
-- Machine learning tools and complete business data was only accessible to data scientists
-- Most AI/ML projects fail within the organization and are almost never utilized for decision making.
+* Most businesses don’t have access to data engineers, data scientists and analytics experts.
+* Marketers mainly had access to marketing and sales, with near zero visibility into other business data
+* Marketers and analysts struggle with data wrangling, transformations, analysis etc.
+* Traditional marketing mix modeling was outdated, slow and expensive
+* In-platform incrementality testing was inaccurate and inconsistent
+* Machine learning tools and complete business data was only accessible to data scientists
+* Most AI/ML projects fail within the organization and are almost never utilized for decision making.
 
 Of course things were different at large digital native brands who have everything the average business doesn’t. 
 
