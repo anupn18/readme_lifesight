@@ -20,13 +20,13 @@ Lifesight’s Custom Web SDK and Custom web hook integrations helps capture the 
 
 The website operator must add the tracking pixel to the website’s HTML code or use a tag manager such as Google Tag Manager. 
 
-_Note : The below document assumes the use of Google Tag Manager to set up the client side SDK._
+*Note : The below document assumes the use of Google Tag Manager to set up the client side SDK.*
 
 If a user visits the website and performs actions on the website, the SDK captures these as client side events based on the tags, triggers and variables configured in the Google tag manager tag implementation.  These are some of the attributes that we auto track.
 
-- identifiers : Lifesight assigns anonymous_id (also persisted in the browser’s local storage) to every visitor
-- page_view : Lifesight auto tracks every Page Views along with meta information about the page
-- marketing identifiers : Lifesight captures facebook , google, snap identifiers - their first party cookies and click IDs
+* identifiers : Lifesight assigns anonymous\_id (also persisted in the browser’s local storage) to every visitor
+* page\_view : Lifesight auto tracks every Page Views along with meta information about the page
+* marketing identifiers : Lifesight captures facebook , google, snap identifiers - their first party cookies and click IDs
 
 **Step 1 :  Set up the Custom JS SDK as a Custom HTML Tag on Google Tag Manager**
 
@@ -41,12 +41,12 @@ In your Google Tag Manager , please place the below script as Custom HTML tag. T
 
 <br />
 
-_Note - This trigger (Page View - Window Loaded) is for a SPA websites ( React JS / Next JS based Websites). For regular websites, Page View trigger will suffice_
+*Note - This trigger (Page View - Window Loaded) is for a SPA websites ( React JS / Next JS based Websites). For regular websites, Page View trigger will suffice*
 
-**Step 2 :** For every event that you wish to pass to Lifesight (besides page_view which is auto-tracked), you need to create the required variables, triggers and tags that need to be configured for sending the data through our Identify and Track calls.  
-\_Note : You do not need to configure page views as the data for page view is auto tracked and sent._
+**Step 2 :** For every event that you wish to pass to Lifesight (besides page*view which is auto-tracked), you need to create the required variables, triggers and tags that need to be configured for sending the data through our Identify and Track calls.\
+\_Note : You do not need to configure page views as the data for page view is auto tracked and sent.*
 
-For example :  
+For example :\
 **Data Layer Variables** that are configured using the form elements in the website code. 
 
 <br />
@@ -67,16 +67,16 @@ For example :
 
 | **Lifesight Pixel Event Name** | **Lifesight** **Display Name** | **Customer’s Event Name** | **Description**                                                                                    |
 | ------------------------------ | ------------------------------ | ------------------------- | -------------------------------------------------------------------------------------------------- |
-| product_view                   | Viewed Product                 | Product Viewed            | When a Product is viewed.                                                                          |
-| add_to_cart                    | Added to Cart                  | Added to Cart             | When an item is added to the shopping cart.                                                        |
-| checkouts_create               | Created Checkout               | Checkout Created          | When the checkout process is started.                                                              |
-| form_submit                    | Submitted Form                 | Form Submitted            | When a form is submitted for newsletter subscription or zero party survey data form fill.          |
-| thank_you_page_view            | Viewed Thank You Page          | Thank You Page Viewed     | The Thank you Page viewed by the user right when the order is completed after the payment is done. |
+| product\_view                  | Viewed Product                 | Product Viewed            | When a Product is viewed.                                                                          |
+| add\_to\_cart                  | Added to Cart                  | Added to Cart             | When an item is added to the shopping cart.                                                        |
+| checkouts\_create              | Created Checkout               | Checkout Created          | When the checkout process is started.                                                              |
+| form\_submit                   | Submitted Form                 | Form Submitted            | When a form is submitted for newsletter subscription or zero party survey data form fill.          |
+| thank\_you\_page\_view         | Viewed Thank You Page          | Thank You Page Viewed     | The Thank you Page viewed by the user right when the order is completed after the payment is done. |
 
-_Note : If you wish to track more events, get in touch with our product specialist to set it up for you_
+*Note : If you wish to track more events, get in touch with our product specialist to set it up for you*
 
-While configuring the events, make sure you use the same event naming convention mentioned in the above table. Some examples given below in detail.  
-For example : If you want to track add to carts, the way to call the tag in the Google Tag manager is lifesight.track ( "add_to_cart", {identifiers…}) 
+While configuring the events, make sure you use the same event naming convention mentioned in the above table. Some examples given below in detail.\
+For example : If you want to track add to carts, the way to call the tag in the Google Tag manager is lifesight.track ( "add\_to\_cart", \{identifiers…}) 
 
 **Examples of Identify Calls** 
 
@@ -151,7 +151,7 @@ sample function call:
 lifesight.track('product_list_view'); //
 ```
 
-Example of **product_view payload - Track call** 
+Example of **product\_view payload - Track call** 
 
 Payload: 
 
@@ -190,7 +190,7 @@ Note: Additional fields if needed can be configured added upon request of the cl
 
 ![Screenshot 2023-10-17 at 8.15.37 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4007e2ae-19ec-4b65-bde1-bde98f77fbb3/b36e9c4f-0786-4bc9-997a-12616353069b/Screenshot_2023-10-17_at_8.15.37_PM.png)
 
-Example of **add_to_cart event payload - Track call**
+Example of **add\_to\_cart event payload - Track call**
 
 ```jsx
 lifesight.track ( "add_to_cart",
@@ -208,7 +208,7 @@ lifesight.track ( "add_to_cart",
 )
 ```
 
-Example of **cart_view event payload - Track call**
+Example of **cart\_view event payload - Track call**
 
 ```jsx
 lifesight.track('**cart_view**', {
@@ -241,7 +241,7 @@ lifesight.track('**cart_view**', {
 
 ```
 
-Example of **thank_you_page_view event payload - Track call**
+Example of **thank\_you\_page\_view event payload - Track call**
 
 ```jsx
 lifesight.track("thank_you_page_view")
