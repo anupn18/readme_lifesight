@@ -18,8 +18,8 @@ By default, the system uses calculated weights for each channel (e.g., Facebook,
 
 ## Anchor Attribution Methodology
 
-- Platform conversions, 
-- Lifesight UTM conversions.
+* Platform conversions, 
+* Lifesight UTM conversions.
 
 <br />
 
