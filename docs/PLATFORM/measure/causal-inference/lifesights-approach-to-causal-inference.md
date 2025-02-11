@@ -20,18 +20,18 @@ Our journey begins with the critical inputs of Data and Business Knowledge. This
 
 At Lifesight, we utilize the DECI (Deep End to End of Causal Inference) framework to underpin our approach to causal inference. This framework integrates both causal discovery and estimation processes into a cohesive end-to-end flow. 
 
-1. #### Causal Discovery: 
+1. #### Causal Discovery:
    Causal discovery is a critical process aimed at identifying causal relationships between variables within observational data. The main objective is to uncover a network of causal relationships that aligns with both the collected data and predefined causal assumptions.
-2. #### Directed Acyclic Graph (DAG): 
+2. #### Directed Acyclic Graph (DAG):
    The causal relationships are depicted in a Directed Acyclic Graph (DAG), where nodes represent variables and edges signify causal connections.
-3. #### Bayesian Approach: 
+3. #### Bayesian Approach:
    The DECI framework adopts a Bayesian methodology for causal discovery, incorporating prior knowledge and constraints to refine the search for causal relationships.
 
 We employ a hybrid approach, combining Score and Constraint-based algorithms, to construct causal graphs. This method leverages causal assumptions to establish a preliminary graph, which is then refined using data-driven techniques.
 
 **Score-Based Algorithm** searches for a causal graph that both aligns with the observational data and adheres to the specified constraints. To further refine the causal graph, we utilize Non-Linear Additive Noise Models, allowing for the correction of the graph to reveal true causal relationships, even from purely observational data.
 
-## Causal Estimation 
+## Causal Estimation
 
 Following the Causal Discovery, the DECI framework proceeds to Causal Estimation. This stage focuses on quantifying the Average Treatment Effects (ATE) using the established DAG.
 
