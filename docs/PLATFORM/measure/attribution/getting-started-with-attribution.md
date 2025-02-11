@@ -14,9 +14,9 @@ This guide will walk you through the steps to set up attribution tracking using 
 
 ## Step 1: Connect Your Store/Website
 
-- For Shopify Users:  
+* For Shopify Users:\
   Connect your Shopify store by entering your store name and granting admin access. For detailed instructions, refer to the \[[Shopify Integration Guide](https://docs.lifesight.io/docs/how-to-connect-shopify-with-lifesight)].
-- For Other Platforms or Custom Websites:  
+* For Other Platforms or Custom Websites:\
   Add the Lifesight Pixel (a JavaScript snippet) to your website's code to enable conversion tracking. For a step-by-step guide, refer to the \[[Lifesight Pixel Implementation Guide](https://docs.lifesight.io/docs/javascript-sdk)].
 
 ## Step 2: Connect Your Marketing Channels
