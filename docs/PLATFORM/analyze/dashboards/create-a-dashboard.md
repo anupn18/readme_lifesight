@@ -48,9 +48,9 @@ A Dashboard template is a Lifesight document type that allows you to use, reuse,
 
 To create a copy of an existing Dashboard:
 
-- Click the caret button to the right of the Dashboard title in the header.
-- Select Save as.  
+* Click the caret button to the right of the Dashboard title in the header.
+* Select Save as.\
   Lifesight opens the Save a Copy modal.
-- (Optional) Enter a new Name.
-- (Optional) Select a Destination.
-- Click Save.
+* (Optional) Enter a new Name.
+* (Optional) Select a Destination.
+* Click Save.
