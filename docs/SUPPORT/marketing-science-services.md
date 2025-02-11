@@ -16,8 +16,8 @@ next:
 
 You can reach out to our **support team** to avail dedicated marketing science services to manage your accounts and workspaces.
 
-- Experienced marketing scientists who are ex-Nielsen, Ipsos, Kantar, etc.
-- Trained to build comprehensive causal models custom for your business
-- Fully managed service with regular catch ups and reporting
-- Customer support team on standby for questions
-- Affordable monthly retainer with dedicated team members
+* Experienced marketing scientists who are ex-Nielsen, Ipsos, Kantar, etc.
+* Trained to build comprehensive causal models custom for your business
+* Fully managed service with regular catch ups and reporting
+* Customer support team on standby for questions
+* Affordable monthly retainer with dedicated team members
