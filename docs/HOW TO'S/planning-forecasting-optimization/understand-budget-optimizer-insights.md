@@ -18,21 +18,7 @@ The budget optimizer within the MMM framework can be configured to optimize spen
 
 The **Current vs. Optimized Budget** plot provides a comparative view of the existing overall spend alongside the recommended optimized spend across various channels. The optimization process may suggest increasing the budget for certain channels while reducing it for others, depending on their respective performance and potential for returns. Additionally, different constraints can be applied based on the specific business context, allowing for a tailored approach to budget optimization that aligns with strategic objectives.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/eea04caef2b324499098310f3526be363b8161188982e421ccb01ccd7816fac6-Screenshot_2024-09-02_at_3.49.34_PM.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/eea04caef2b324499098310f3526be363b8161188982e421ccb01ccd7816fac6-Screenshot_2024-09-02_at_3.49.34_PM.png" />
 
 <br />
 
@@ -42,21 +28,7 @@ The **Saturation Curve** represents the point at which additional marketing spen
 
 In **Marketing Mix Modeling (MMM)**, understanding the Saturation vs. Diminishing Curve is crucial for optimizing budget allocation across different channels. By modeling these curves, businesses can determine the point at which increasing spend in a particular channel no longer delivers proportional returns, allowing them to reallocate resources to more efficient channels or strategies. This insight is essential for maximizing the overall effectiveness of marketing efforts while avoiding unnecessary overspending.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/797e7d23d9c210b7bebae891773275a12d61874dc92846468de69386bbb35414-Screenshot_2024-09-02_at_4.02.36_PM.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/797e7d23d9c210b7bebae891773275a12d61874dc92846468de69386bbb35414-Screenshot_2024-09-02_at_4.02.36_PM.png" />
 
 <br />
 
