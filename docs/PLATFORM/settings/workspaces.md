@@ -18,21 +18,7 @@ Users with the permission of "Admin" can create multiple workspaces within an ac
 
 1. Click your workspace name on the top right and select `Settings` from the dropdown menu.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/5fe467e9dd5df92d1146ac4d91a2fec1fe0cf92e201491fc7332929149e70c22-readme_pics_1.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/5fe467e9dd5df92d1146ac4d91a2fec1fe0cf92e201491fc7332929149e70c22-readme_pics_1.jpg" />
 
 2. Switch to the "Workspace" tab
 
