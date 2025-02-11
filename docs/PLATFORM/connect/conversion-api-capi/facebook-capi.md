@@ -40,7 +40,7 @@ Event data is enriched using the First Party ID graph and enriched data is passe
 
 In order to set up your CAPI, you will need the following fields from your Facebook Account
 
-Meta Pixel ID  
+Meta Pixel ID\
 Your Meta pixel ID is a code snippet that tracks your website visitor activity. To locate the code:
 
 1. Go to your Facebook Events Manager
@@ -93,5 +93,5 @@ When setting up the Facebook CAPI, Lifesight passes some events on to the channe
 
 <br />
 
-> Further reading  
-> If you’re looking for more information, we recommend you go through the following resources: <https://developers.facebook.com/docs/marketing-api/conversions-api/>
+> Further reading\
+> If you’re looking for more information, we recommend you go through the following resources: [https://developers.facebook.com/docs/marketing-api/conversions-api/](https://developers.facebook.com/docs/marketing-api/conversions-api/)
