@@ -34,8 +34,8 @@ When budget constraints are **narrow**, they tightly limit how much the spend on
 
 #### Example: This is a sample example of one of the marketing channels for our customer :
 
-- **Narrow Bound (0.7–1.5x of current spend):** The allocator suggests a budget decrease from 5% to 3.5%. This conservative adjustment is due to the tight constraint, which restricts the ability to explore higher or lower spending levels that might yield better returns.
-- **Wide Bound (0.1–2.5x of current spend):** When the constraint is loosened, the allocator can explore a broader range of spending options. In this case, it finds that increasing the spending to 12.4% would be more optimal. The wider bound allows the allocator to move along the saturation curve and find a point where the mROAS is higher, leading to a more effective allocation.
+* **Narrow Bound (0.7–1.5x of current spend):** The allocator suggests a budget decrease from 5% to 3.5%. This conservative adjustment is due to the tight constraint, which restricts the ability to explore higher or lower spending levels that might yield better returns.
+* **Wide Bound (0.1–2.5x of current spend):** When the constraint is loosened, the allocator can explore a broader range of spending options. In this case, it finds that increasing the spending to 12.4% would be more optimal. The wider bound allows the allocator to move along the saturation curve and find a point where the mROAS is higher, leading to a more effective allocation.
 
 <br />
 
