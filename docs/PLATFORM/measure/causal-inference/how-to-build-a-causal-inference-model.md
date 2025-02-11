@@ -42,8 +42,8 @@ Map the schema by associating your input data with Lifesight's data types.
 
 On this page, all plausible relationships between the variables selected on the features page are displayed, except the date section. This capability enables you to refine the model by concentrating on the causal links that are most pertinent to their investigation. The relationships are categorized into two types:
 
-- **Potential Relationships:** These denote possible causal relations that might exist between two variables.
-- **Forbidden Relationships:** These are relationships that have been explicitly identified by the user as lacking a causal nature.
+* **Potential Relationships:** These denote possible causal relations that might exist between two variables.
+* **Forbidden Relationships:** These are relationships that have been explicitly identified by the user as lacking a causal nature.
 
 Lifesight automatically detects and selects all plausible relationships between the variables chosen on the features page. Users can review and adjust these selections if needed
 
