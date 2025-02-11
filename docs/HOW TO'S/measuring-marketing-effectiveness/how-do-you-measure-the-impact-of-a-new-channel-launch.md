@@ -12,9 +12,9 @@ next:
 ---
 ## Problem
 
-- When you launch a new channel, the lack of historical performance makes it difficult for MMM to provide useful insights.
-- For the MMM model, these new channels may seem statistically insignificant and might not allocate enough resources to them, leading to inefficient spending and potential over-reliance on existing channels.
-- Modern brands often allocate only a small portion of their marketing budget to new channels because they are typically testing them out or are uncertain of their effectiveness. This conservative approach, while logical, can make it harder to gauge the true impact of these channels. A key reason for this difficulty is the **adstocking effect**: where the full impact of advertising spend doesn't happen immediately but builds up over time. As a result, the performance data collected early on may not fully reflect the channel’s potential, leading to incomplete insights.
+* When you launch a new channel, the lack of historical performance makes it difficult for MMM to provide useful insights.
+* For the MMM model, these new channels may seem statistically insignificant and might not allocate enough resources to them, leading to inefficient spending and potential over-reliance on existing channels.
+* Modern brands often allocate only a small portion of their marketing budget to new channels because they are typically testing them out or are uncertain of their effectiveness. This conservative approach, while logical, can make it harder to gauge the true impact of these channels. A key reason for this difficulty is the **adstocking effect**: where the full impact of advertising spend doesn't happen immediately but builds up over time. As a result, the performance data collected early on may not fully reflect the channel’s potential, leading to incomplete insights.
 
 ### Example
 
