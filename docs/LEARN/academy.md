@@ -16,21 +16,7 @@ The academy provides foundational and advanced courses, helping users improve th
 
 ## Explore the Lifesight Academy: [\<https://www.lifesight.io/academy>](https://lifesight.io/academy/)
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c49f42c4730c3849e4148bc513f81f5d2aad1b9c73a198401cdd4abf89d21acf-academy_thumbail.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/c49f42c4730c3849e4148bc513f81f5d2aad1b9c73a198401cdd4abf89d21acf-academy_thumbail.png" />
 
 <br />
 
@@ -38,19 +24,6 @@ The academy provides foundational and advanced courses, helping users improve th
 
 We've launched 1 course to date:
 
-- **Modern Marketing Measurement Foundations** - This course is catered around learning the basics of marketing measurement principles.
+* **Modern Marketing Measurement Foundations** - This course is catered around learning the basics of marketing measurement principles.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/41818b3812bbc05e9bf9fb4516575bbc3fed5b3585aec89ae43224d50698a7ee-Slice_10.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/41818b3812bbc05e9bf9fb4516575bbc3fed5b3585aec89ae43224d50698a7ee-Slice_10.png" />
