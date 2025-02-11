@@ -14,21 +14,7 @@ next:
 ---
 In the Overview section, you can view and conduct a preliminary analysis based on the historical data you have uploaded. Understanding these reports is crucial for gaining actionable insights into your marketing performance.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/5380b9ae3099a005d9befe90fbcb5e16b49272fcb4e392fe84e7661eda0d26c9-c_over.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/5380b9ae3099a005d9befe90fbcb5e16b49272fcb4e392fe84e7661eda0d26c9-c_over.jpg" />
 
 ## Version
 
