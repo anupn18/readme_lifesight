@@ -30,13 +30,13 @@ NRMSE = RMSE / Range of Actual Values
 
 Where:
 
-- **RMSE** (Root Mean Squared Error) is calculated as:
+* **RMSE** (Root Mean Squared Error) is calculated as:
 
-  [block:image]{"images":[{"image":["https://files.readme.io/8c74a0a345036973175d3934cdfa8cf8753d739b257027e7daf0c1dd274e96fc-image.png",null,""],"align":"center","sizing":"60% "}]}[/block]
+  <Image align="center" width="60% " src="https://files.readme.io/8c74a0a345036973175d3934cdfa8cf8753d739b257027e7daf0c1dd274e96fc-image.png" />
 
-  Here, $y_i$ represents the actual values, $\\hat{y_i}$ the predicted values, and $n$ the number of observations.
+  Here, $y\_i$ represents the actual values, $\\hat\{y\_i}$ the predicted values, and $n$ the number of observations.
 
-- **Range of Actual Values** is typically the difference between the maximum and minimum values in the dataset:
+* **Range of Actual Values** is typically the difference between the maximum and minimum values in the dataset:
 
   ```
   Range = max(y) - min(y)
@@ -58,8 +58,8 @@ This graph illustrates how NRMSE compares predicted values to actual values, wit
 
 ## Interpretation
 
-- **Lower NRMSE**: Indicates a model with better predictive accuracy relative to the scale of the data.
-- **Higher NRMSE**: Suggests that the model's predictions are less accurate relative to the data range.
+* **Lower NRMSE**: Indicates a model with better predictive accuracy relative to the scale of the data.
+* **Higher NRMSE**: Suggests that the model's predictions are less accurate relative to the data range.
 
 **Note**: There's no universal threshold for a "good" NRMSE, as it depends on the specific context of your marketing data and goals.
 
@@ -76,15 +76,15 @@ In MMM, NRMSE helps evaluate how well the model performs in predicting actual bu
 
 ### Advantages:
 
-- Scale-independent, allowing for fair comparisons across different datasets
-- Provides a clear measure of model accuracy relative to data variability
-- Useful for comparing models with different units or scales of measurement
+* Scale-independent, allowing for fair comparisons across different datasets
+* Provides a clear measure of model accuracy relative to data variability
+* Useful for comparing models with different units or scales of measurement
 
 ### Limitations:
 
-- Can be sensitive to outliers in the dataset
-- May not fully capture the nuances of model performance in complex marketing scenarios
-- Should be used in conjunction with other metrics for a comprehensive model evaluation
+* Can be sensitive to outliers in the dataset
+* May not fully capture the nuances of model performance in complex marketing scenarios
+* Should be used in conjunction with other metrics for a comprehensive model evaluation
 
 ## Best Practices
 
@@ -97,7 +97,7 @@ When using NRMSE in Marketing Mix Modeling:
 
 By considering NRMSE along with other relevant metrics, marketers can gain a comprehensive view of their model's performance and its effectiveness in guiding marketing strategies.
 
-**Definition:**  
+**Definition:**\
 NRSME is a normalized version of the Root Mean Squared Error (RMSE). RMSE measures the average magnitude of the errors between predicted and observed values. NRSME adjusts this measure to be on a scale relative to the range or variance of the actual data, making it easier to interpret across different datasets or contexts.
 
 **Formula:**
@@ -106,25 +106,25 @@ NRSME = RMSE / Range of Actual Values
 
 where:
 
-- **RMSE** is calculated as:
+* **RMSE** is calculated as:
 
-  [block:image]{"images":[{"image":["https://files.readme.io/8c74a0a345036973175d3934cdfa8cf8753d739b257027e7daf0c1dd274e96fc-image.png",null,""],"align":"center","sizing":"60% "}]}[/block]
+  <Image align="center" width="60% " src="https://files.readme.io/8c74a0a345036973175d3934cdfa8cf8753d739b257027e7daf0c1dd274e96fc-image.png" />
 
-  with \( y_i \) being the actual values, \( \\hat{y_i} \) being the predicted values, and \( n \) being the number of observations.
+  with \( y\_i \) being the actual values, \( \\hat\{y\_i} \) being the predicted values, and \( n \) being the number of observations.
 
-- **Range of Actual Values** is typically the difference between the maximum and minimum values in the dataset.
+* **Range of Actual Values** is typically the difference between the maximum and minimum values in the dataset.
 
-**Purpose:**  
+**Purpose:**\
 NRSME provides a standardized way to assess the prediction accuracy of the model. By normalizing RMSE, it accounts for the scale of the data, making it easier to compare models across different datasets or marketing contexts.
 
 ![](https://files.readme.io/aa5fa7fdccd9b4ce71bff300862a6644b0c091ed849cebfc135fc3704e24e9bc-image.png)
 
 **Interpretation:**
 
-- A lower NRSME indicates a model with better predictive accuracy relative to the scale of the data.
-- A higher NRSME suggests that the model's predictions are less accurate relative to the data range.
+* A lower NRSME indicates a model with better predictive accuracy relative to the scale of the data.
+* A higher NRSME suggests that the model's predictions are less accurate relative to the data range.
 
-**Use in MMM:**  
+**Use in MMM:**\
 In Marketing Mix Modeling, NRSME helps evaluate how well the model is performing in terms of its ability to predict actual business outcomes (e.g., sales, ROI) based on marketing inputs. It’s particularly useful for comparing the performance of different models or assessing improvements over time.
 
 By considering NRSME along with other metrics like R-squared and MAPE, marketers can get a comprehensive view of the model’s performance and its effectiveness in guiding marketing strategies.
