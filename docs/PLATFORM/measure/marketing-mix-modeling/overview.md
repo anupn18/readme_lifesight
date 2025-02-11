@@ -14,19 +14,7 @@ next:
 ---
 In the Overview tab, you can view your overall marketing performance reports and conduct a preliminary analysis based on historical data you have uploaded or integrated. Understanding these reports is crucial for gaining actionable insights into your marketing performance.
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F3bgL3m-io78%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D3bgL3m-io78&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F3bgL3m-io78%2Fhqdefault.jpg&key=7788cb384c9f4d5dbbdbeffd9fe4b92f&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=3bgL3m-io78",
-  "title": "Analyze your Marketing Mix Model | Lifesight",
-  "favicon": "https://www.youtube.com/favicon.ico",
-  "image": "https://i.ytimg.com/vi/3bgL3m-io78/hqdefault.jpg",
-  "provider": "https://www.youtube.com/",
-  "href": "https://www.youtube.com/watch?v=3bgL3m-io78",
-  "typeOfEmbed": "youtube"
-}
-[/block]
-
+<Embed url="https://www.youtube.com/watch?v=3bgL3m-io78" title="Analyze your Marketing Mix Model | Lifesight" favicon="https://www.youtube.com/favicon.ico" image="https://i.ytimg.com/vi/3bgL3m-io78/hqdefault.jpg" provider="youtube.com" href="https://www.youtube.com/watch?v=3bgL3m-io78" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252F3bgL3m-io78%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D3bgL3m-io78%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252F3bgL3m-io78%252Fhqdefault.jpg%26key%3D7788cb384c9f4d5dbbdbeffd9fe4b92f%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 <br />
 
@@ -36,22 +24,7 @@ Here's a list of the different fields in the MMM Overview tab:
 
 Select the date range from your MMM input data to view insights for the selected period.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/ff21ccb8abd431b5d755f03c9547bf58eb70c376ea001f6b20aa0dfea87175d8-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "600px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="600px" src="https://files.readme.io/ff21ccb8abd431b5d755f03c9547bf58eb70c376ea001f6b20aa0dfea87175d8-image.png" />
 
 <br />
 
@@ -65,27 +38,14 @@ You can select any model from the list of top 5 models based on paid contributio
 
 Click the `Settings` icon to view the top 5 models. This allows stakeholders to review and select the best model based on their business needs. Learn more about how top models are shortlisted here.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/fc1775c7d2f4a677a108bbc81b205181ec1bd40a137028a24a73f39f56067562-image.png",
-        null,
-        "Model versions"
-      ],
-      "align": "center",
-      "caption": "Model versions"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Model versions" align="center" src="https://files.readme.io/fc1775c7d2f4a677a108bbc81b205181ec1bd40a137028a24a73f39f56067562-image.png">
+  Model versions
+</Image>
 
 <br />
 
 > ❗️ If you change the default selected model, the Optimize for KPI won't be accessible in the Planner.
-> 
+>
 > You will have to contact the marketing science team to enable optimize for KPI in the Planner.
 
 These metrics ensure robust model fit and accuracy, helping stakeholders choose the most appropriate model for strategic use.
@@ -138,9 +98,9 @@ By clicking on a specific cell, you can visualize the detailed correlation scatt
 
 While interpreting a scatter diagram, the given below points should be taken into consideration:
 
-- **Dense or Scattered Points:** If the plotted points are close to each other, then you can expect a high degree of correlation between the two variables. However, if the plotted points are widely scattered, then you can expect a poor correlation between the variables.
-- **Trend or No Trend:** If the points plotted on the scatter diagram show any trend either upward or downward, then it can be said that the variables are correlated. However, if the plotted points do not show any trend, then it can be said that the variables are uncorrelated.
-- **Upward or Downward Trend:** If the plotted points show an upward trend rising from the lower left-hand corner of the graph and going upward to the upper right-hand corner, then the correlation is positive. It means that the two variables move in the same direction. However, if the plotted points show a downward trend from the upper left-hand corner of the graph to the lower right-hand corner, then the correlation is negative. It means that the two variables move in the opposite direction.
-- **Perfect Correlation:** If the points plotted on the scatter diagram lie on a straight line and have a positive slope, then it can be said that the correlation is perfect and positive. However, if the points plotted lie on a straight line and have a negative slope, then it can be said that the correlation is perfect and negative.
+* **Dense or Scattered Points:** If the plotted points are close to each other, then you can expect a high degree of correlation between the two variables. However, if the plotted points are widely scattered, then you can expect a poor correlation between the variables.
+* **Trend or No Trend:** If the points plotted on the scatter diagram show any trend either upward or downward, then it can be said that the variables are correlated. However, if the plotted points do not show any trend, then it can be said that the variables are uncorrelated.
+* **Upward or Downward Trend:** If the plotted points show an upward trend rising from the lower left-hand corner of the graph and going upward to the upper right-hand corner, then the correlation is positive. It means that the two variables move in the same direction. However, if the plotted points show a downward trend from the upper left-hand corner of the graph to the lower right-hand corner, then the correlation is negative. It means that the two variables move in the opposite direction.
+* **Perfect Correlation:** If the points plotted on the scatter diagram lie on a straight line and have a positive slope, then it can be said that the correlation is perfect and positive. However, if the points plotted lie on a straight line and have a negative slope, then it can be said that the correlation is perfect and negative.
 
 If most of the points are dense and show a trend, a few outliers may lead to a lower correlation number, but they are well correlated.
