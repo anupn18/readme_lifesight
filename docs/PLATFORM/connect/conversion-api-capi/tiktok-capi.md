@@ -30,20 +30,20 @@ In order to set up your CAPI, you will need the following from your TikTok accou
 The below section will walk you through the process of finding those in the Events Manager on TikTok.
 
 > 📘 ## Setting up your TikTok pixel
-> 
+>
 > In case you haven’t set up a TikTok pixel already, here’s how you can get started:
-> 
+>
 > Go to TikTok Ads manager
-> 
+>
 > After logging in, hover over "Tools" on the navigation bar, and find "Management", then click on "Events".
-> 
+>
 > Click on the "Manage" button under "Web Events".
-> 
-> Click on the "Partner setup" button under "Web Events".  
+>
+> Click on the "Partner setup" button under "Web Events".\
 > Note: Selecting Partner Setup takes you to a page where you can select different supported TikTok partners for your integration, such as Shopify and Google Tag Manager. You will be able to see Lifesight as one of the Partners under CDP.
-> 
+>
 > Click on the "Lifesight" to set up the Pixel integration.
-> 
+>
 > Create an overarching Pixel Name that will hold events regardless of the integration method you end up selecting later on (namely, Pixel, Events API). Make sure to give your pixel a name- The maximum character length is 128 characters, including spaces.
 
 <br />
@@ -141,7 +141,7 @@ You can optionally enter a test event code as part of your sync configuration. N
 1. In Events Manager, click the pixel to view its configuration details.
 2. In the Test Events tab, click the test code button in Step 2 of the Test Server Events section to copy the code.
 3. Follow steps from the previous section and trigger a test event.
-4. Go to the Test Events tab of the pixel in Events Manager, and look for the test event in the Event Activity section. Any issues with the payload will show up to help you resolve the issues.  
+4. Go to the Test Events tab of the pixel in Events Manager, and look for the test event in the Event Activity section. Any issues with the payload will show up to help you resolve the issues.\
    ​
 
    ![](https://files.readme.io/b645965-image.png)
@@ -168,7 +168,7 @@ When setting up the TikTok CAPI, Lifesight passes some events on to the channel 
 
 <br />
 
-> Further reading  
+> Further reading\
 > If you’re looking for more information, we recommend you go through the following resources:
 >
-> <https://business-api.tiktok.com/portal/docs?id=1739584855420929>
+> [https://business-api.tiktok.com/portal/docs?id=1739584855420929](https://business-api.tiktok.com/portal/docs?id=1739584855420929)
