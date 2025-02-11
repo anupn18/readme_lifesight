@@ -24,15 +24,15 @@ Imagine you're a chef trying to perfect a recipe. You have various ingredients a
 
 At **Lifesight**, we support various KPIs that are essential for businesses to measure performance and optimize campaigns. These include:
 
-- **Revenue**
-- **Conversions**
-- **Installs**
-- **Orders**
-- **Store Visits**
-- **Registrations**
-- **Reach**
-- **Subscriptions**
-- **Admissions**
+* **Revenue**
+* **Conversions**
+* **Installs**
+* **Orders**
+* **Store Visits**
+* **Registrations**
+* **Reach**
+* **Subscriptions**
+* **Admissions**
 
 These KPIs serve as the dependent variables in our marketing mix models, helping marketers understand the contributions of each channel or activity to the overall business success.
 
@@ -46,10 +46,10 @@ Sales (or any KPI) = Baseline + Marketing Effects + External Factors + Error
 
 Where:
 
-- **Baseline**: The expected performance without any marketing efforts.
-- **Marketing Effects**: The impact of various marketing activities, like ads, promotions, and social media campaigns.
-- **External Factors**: Elements outside of your control, such as the economy, weather, or competitor actions.
-- **Error**: The unexplained variance (because no model is perfect).
+* **Baseline**: The expected performance without any marketing efforts.
+* **Marketing Effects**: The impact of various marketing activities, like ads, promotions, and social media campaigns.
+* **External Factors**: Elements outside of your control, such as the economy, weather, or competitor actions.
+* **Error**: The unexplained variance (because no model is perfect).
 
 <br />
 
@@ -79,9 +79,9 @@ Sales(t) = Baseline + Σ(TV Spend(t-i) × Decay^i × TV Effect) + Σ(Social Medi
 
 Where:
 
-- `t` is the current time period.
-- `i` represents previous time periods (days, weeks, etc.).
-- `Decay` is a coefficient that shows how quickly the impact of each marketing activity diminishes over time.
+* `t` is the current time period.
+* `i` represents previous time periods (days, weeks, etc.).
+* `Decay` is a coefficient that shows how quickly the impact of each marketing activity diminishes over time.
 
 This method allows marketers to understand how long the effects of a campaign last and when the optimal time is to launch a new one.
 
