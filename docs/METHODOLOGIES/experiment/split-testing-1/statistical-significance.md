@@ -40,14 +40,14 @@ The confidence interval is like a threshold you set for how confident you need t
 There are various statistical tests available depending on the data characteristics. Below are the steps used at Lifesight for performing statistical tests in split testing :
 
 1. **Check for Normality**
-   - Use the **Shapiro-Wilk test** to determine if the data for treatments is normally distributed.
+   * Use the **Shapiro-Wilk test** to determine if the data for treatments is normally distributed.
 
 2. **If Data is Normally Distributed**
-   - **Check for Variance** between treatment and control groups:
-     - If the variances are the same, use the **Two-Sample t-test** to assess statistical significance.
-     - If the variances are different, use **Welch's t-test**.
+   * **Check for Variance** between treatment and control groups:
+     * If the variances are the same, use the **Two-Sample t-test** to assess statistical significance.
+     * If the variances are different, use **Welch's t-test**.
 
 3. **If Data is Not Normally Distributed**
-   - Use the **Mann-Whitney test** to assess statistical significance.
+   * Use the **Mann-Whitney test** to assess statistical significance.
 
 ![](https://files.readme.io/fab5f102e6d173404796149aafec18b5ed588477d7a5b06a6d3f9884e4dde53a-image.png)
