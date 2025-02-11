@@ -20,9 +20,9 @@ The Event Impact Summary feature allows you to analyze the effectiveness of prev
 
 **Key Insights:**
 
-- **Promotion Impact:** Determine if a promotion genuinely drove sales growth or simply shifted sales from other periods, helping you avoid cannibalization.
-- **Marketing Attribution:** Discover how much of your results came directly from the promotion itself compared to your marketing activities.
-- **Post-Campaign Insights:** Analyze the effect of past events on your overall business performance and apply these learnings to optimize future campaigns.
+* **Promotion Impact:** Determine if a promotion genuinely drove sales growth or simply shifted sales from other periods, helping you avoid cannibalization.
+* **Marketing Attribution:** Discover how much of your results came directly from the promotion itself compared to your marketing activities.
+* **Post-Campaign Insights:** Analyze the effect of past events on your overall business performance and apply these learnings to optimize future campaigns.
 
 ### 2. Forecaster: Anticipate Future Trends
 
@@ -30,9 +30,9 @@ The Forecaster tool enables you to project the potential impact of upcoming holi
 
 **How to Use:**
 
-- **Add Future Events:** Utilize the tool to introduce events for upcoming holidays or promotions, allowing you to forecast their potential influence on your business.
-- **Optimize Dates:** Experiment with different dates to schedule your promotions when they are expected to deliver the strongest results.
-- **Strategic Planning:** Plan around event impacts to decide whether you should align new promotions with holidays or other key moments in the market for maximum impact.
+* **Add Future Events:** Utilize the tool to introduce events for upcoming holidays or promotions, allowing you to forecast their potential influence on your business.
+* **Optimize Dates:** Experiment with different dates to schedule your promotions when they are expected to deliver the strongest results.
+* **Strategic Planning:** Plan around event impacts to decide whether you should align new promotions with holidays or other key moments in the market for maximum impact.
 
 ### 3. Optimizer: Enhance Your Marketing Efficiency
 
@@ -40,16 +40,16 @@ With the Optimizer tool, you can adjust the timing of future event impacts and l
 
 **Key Features:**
 
-- **Automated Optimization:** The Optimizer suggests the most efficient allocation of your marketing budget, taking into consideration the timing of holidays, promotions, and key events.
-- **Scenario Planning:** Modify the dates of your planned promotions, and the Optimizer will adjust your marketing strategy accordingly, providing insights into the best spend allocation for different scenarios.
-- **Increased ROI:** Use the Optimizer to reduce wasteful spend, ensuring that your budget is focused on the periods that deliver the highest return on investment, especially during key promotional windows.
+* **Automated Optimization:** The Optimizer suggests the most efficient allocation of your marketing budget, taking into consideration the timing of holidays, promotions, and key events.
+* **Scenario Planning:** Modify the dates of your planned promotions, and the Optimizer will adjust your marketing strategy accordingly, providing insights into the best spend allocation for different scenarios.
+* **Increased ROI:** Use the Optimizer to reduce wasteful spend, ensuring that your budget is focused on the periods that deliver the highest return on investment, especially during key promotional windows.
 
 ***
 
 ## Best Practices for Holiday & Promotion Planning
 
-- **Leverage Historical Insights:** Before planning a new promotion, use the Event Impact Summary to assess how similar past events performed. This can help you refine your approach and set realistic expectations.
-- **Explore Different Scenarios:** Use the Forecaster to test a variety of dates and event combinations to better predict outcomes, helping you refine the timing of your promotions for maximum success.
-- **Maximize Efficiency:** Always utilize the Optimizer to ensure your marketing spend is deployed most efficiently. This allows you to avoid overspending during periods of high organic traffic and focus your budget when it can drive the most value.
+* **Leverage Historical Insights:** Before planning a new promotion, use the Event Impact Summary to assess how similar past events performed. This can help you refine your approach and set realistic expectations.
+* **Explore Different Scenarios:** Use the Forecaster to test a variety of dates and event combinations to better predict outcomes, helping you refine the timing of your promotions for maximum success.
+* **Maximize Efficiency:** Always utilize the Optimizer to ensure your marketing spend is deployed most efficiently. This allows you to avoid overspending during periods of high organic traffic and focus your budget when it can drive the most value.
 
 By using Lifesight’s Event Impact Summary, Forecaster, and Optimizer tools, you’ll enhance your ability to plan and execute successful holiday and promotional campaigns, leading to smarter marketing strategies and improved returns.
