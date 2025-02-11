@@ -12,14 +12,7 @@ next:
 ---
 Having a media mix plan aligned with target revenue is crucial for meeting business goals. It ensures that marketing efforts are strategically directed toward the channels that generate the highest returns. By continuously adjusting the plan based on performance, companies stay on track, make the most of their budgets, and hit their revenue targets efficiently. Without a clear plan, efforts risk becoming scattered and less effective.
 
-[block:embed]
-{
-  "url": "",
-  "typeOfEmbed": "youtube",
-  "provider": "embed"
-}
-[/block]
-
+<Embed url="" typeOfEmbed="youtube" provider="" title="undefined" href="" />
 
 <br />
 
