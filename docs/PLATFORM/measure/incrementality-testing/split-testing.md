@@ -26,12 +26,12 @@ Audience split testing is an advanced technique used in Incrementality Experimen
 
 ## Key Components in Split Tests:
 
-- Control Group: The group exposed to the original version (baseline) to measure against.
-- Test Group: The group that experiences the new variation to assess its effectiveness.
+* Control Group: The group exposed to the original version (baseline) to measure against.
+* Test Group: The group that experiences the new variation to assess its effectiveness.
 
 ## Benefits of Split Testing:
 
-- Data-Driven Optimization: Make decisions based on concrete performance metrics rather than guesswork.
-- Performance Insights: Identify which variations improve user experience or drive more conversions.
-- Reduced Risk: Test new ideas on a subset of your audience before rolling them out to everyone.
-- Maximized ROI: Focus resources on strategies proven to work, improving overall marketing effectiveness.
+* Data-Driven Optimization: Make decisions based on concrete performance metrics rather than guesswork.
+* Performance Insights: Identify which variations improve user experience or drive more conversions.
+* Reduced Risk: Test new ideas on a subset of your audience before rolling them out to everyone.
+* Maximized ROI: Focus resources on strategies proven to work, improving overall marketing effectiveness.
