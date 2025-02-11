@@ -42,45 +42,45 @@ Conversion Value = Last Interaction Value
 
 The process for both First Touch and Last Touch Attribution involves several key steps:
 
-1. **Data Collection:**  
+1. **Data Collection:**\
    Gather data on all customer interactions across various channels. This can be done by setting up Lifesight Pixel or connecting your Shopify store.
 
-2. **Define Attribution Period:**  
+2. **Define Attribution Period:**\
    Set the lookback window or attribution window. This is the time period before a conversion during which touchpoints are considered for attribution.
-   - For example, a 30-day attribution window means only touchpoints within 30 days prior to the conversion are considered.
-   - The attribution period can vary based on the typical sales cycle length, product type, or industry norms.
+   * For example, a 30-day attribution window means only touchpoints within 30 days prior to the conversion are considered.
+   * The attribution period can vary based on the typical sales cycle length, product type, or industry norms.
 
 3. **Touchpoint Identification:**  
-   - For First Touch: Identify the initial interaction for each converted customer within the attribution period.
-   - For Last Touch: Determine the final interaction before each conversion within the attribution period.
+   * For First Touch: Identify the initial interaction for each converted customer within the attribution period.
+   * For Last Touch: Determine the final interaction before each conversion within the attribution period.
 
-4. **Credit Assignment:**  
+4. **Credit Assignment:**\
    Assign 100% of the conversion value to the identified touchpoint.
 
-5. **Analysis:**  
+5. **Analysis:**\
    Aggregate data to understand which channels are performing best according to the chosen model.
 
-6. **Reporting:**  
+6. **Reporting:**\
    Generate reports and visualizations to communicate findings.
 
 ### Example of Attribution Period Impact:
 
 Consider a customer journey over 45 days:
 
-- **Day 1:** Clicked on a Google Ad  
-- **Day 20:** Visited via organic search  
-- **Day 40:** Clicked on a Facebook Ad  
-- **Day 45:** Made a purchase
+* **Day 1:** Clicked on a Google Ad  
+* **Day 20:** Visited via organic search  
+* **Day 40:** Clicked on a Facebook Ad  
+* **Day 45:** Made a purchase
 
 With a 30-day attribution window:
 
-- **First Touch Attribution:** Organic search gets 100% credit (Google Ad is outside the window)
-- **Last Touch Attribution:** Facebook Ad gets 100% credit
+* **First Touch Attribution:** Organic search gets 100% credit (Google Ad is outside the window)
+* **Last Touch Attribution:** Facebook Ad gets 100% credit
 
 With a 60-day attribution window:
 
-- **First Touch Attribution:** Google Ad gets 100% credit
-- **Last Touch Attribution:** Facebook Ad gets 100% credit
+* **First Touch Attribution:** Google Ad gets 100% credit
+* **Last Touch Attribution:** Facebook Ad gets 100% credit
 
 This example illustrates how the choice of attribution period can significantly affect which touchpoint receives credit for the conversion.
 
@@ -113,7 +113,7 @@ To effectively implement Single Touch Attribution, you need:
 3. Clicks on a retargeting display ad (Day 5)
 4. Purchases after clicking an email (Day 7)
 
-**First Touch Attribution:** Google Ad gets 100% credit  
+**First Touch Attribution:** Google Ad gets 100% credit\
 **Last Touch Attribution:** Email gets 100% credit
 
 ### 8.2 Edge Case: Multiple Purchases in One Session
@@ -127,8 +127,8 @@ To effectively implement Single Touch Attribution, you need:
 
 **Methodology:**
 
-- **First Touch:** Facebook Ad gets 100% credit for both purchases
-- **Last Touch:** Direct traffic gets 100% credit for both purchases
+* **First Touch:** Facebook Ad gets 100% credit for both purchases
+* **Last Touch:** Direct traffic gets 100% credit for both purchases
 
 **Challenge:** Determining if the direct traffic should get full credit for both purchases or if it should be split.
 
@@ -142,8 +142,8 @@ To effectively implement Single Touch Attribution, you need:
 
 **Methodology Challenge:** 
 
-- Accurate cross-device tracking is crucial for correct attribution.
-- If cross-device tracking is not implemented, this journey might be seen as three separate user journeys, leading to incorrect attribution.
+* Accurate cross-device tracking is crucial for correct attribution.
+* If cross-device tracking is not implemented, this journey might be seen as three separate user journeys, leading to incorrect attribution.
 
 ### 8.4 Edge Case: Long Sales Cycle with Multiple Touches
 
@@ -157,9 +157,9 @@ To effectively implement Single Touch Attribution, you need:
 
 **Methodology Consideration:**
 
-- **First Touch:** Webinar gets 100% credit
-- **Last Touch:** Final sales call gets 100% credit
-- **Challenge:** The long sales cycle and multiple meaningful interactions make single touch attribution less representative of the true customer journey.
+* **First Touch:** Webinar gets 100% credit
+* **Last Touch:** Final sales call gets 100% credit
+* **Challenge:** The long sales cycle and multiple meaningful interactions make single touch attribution less representative of the true customer journey.
 
 ### 8.5 Edge Case: Offline and Online Interaction Mix
 
@@ -172,8 +172,8 @@ To effectively implement Single Touch Attribution, you need:
 
 **Methodology Challenge:**
 
-- Tracking the offline touchpoint (TV ad and store visit) and connecting it to the online journey is complex.
-- Without proper offline-online connection, the First Touch might incorrectly be attributed to the online search.
+* Tracking the offline touchpoint (TV ad and store visit) and connecting it to the online journey is complex.
+* Without proper offline-online connection, the First Touch might incorrectly be attributed to the online search.
 
 ## 9. Best Practices
 
