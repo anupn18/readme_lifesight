@@ -1,0 +1,86 @@
+---
+title: Model selection
+excerpt: ''
+deprecated: false
+hidden: false
+metadata:
+  title: ''
+  description: ''
+  robots: index
+next:
+  description: ''
+---
+Our model generates thousands of model IDs, from which we determine the `best model` using a combination of our experience and a custom ranking algorithm. This ranking method is inspired by the stacking method commonly used in ensemble techniques, where the outputs of multiple base models (level-0) are used as input for a higher-level model (level-1) to enhance predictive accuracy.
+
+## Ranking Methodology
+
+We have developed a custom ranking approach that uses **Regression Model-based weights**. These weights help us rank the models based on several important factors, allowing us to identify the most optimal model for a specific situation.
+
+### Key Features Used for Ranking
+
+Our ranking algorithm evaluates models based on several key metrics, including:
+
+- **nRMSE (Normalized Root Mean Squared Error)**: Measures the average error between predicted and actual values, normalized to make comparisons easier across models.
+- **Trend**: Measures how well the model captures long-term patterns in the data.
+- **Seasonality**: Assesses the model's ability to identify recurring patterns, such as weekly or yearly cycles.
+- **Holidays**: Captures the effect of irregular events like holidays that can temporarily impact the trends.
+- **Spends (normalized per channel)**: Reflects the budget allocated to each channel, making them comparable by normalizing the values.
+- **R-squared (Rsq)**: Shows how well the model explains the variation in the data.
+- **Channel Impact Divergence Index (CDID)**: A custom metric that measures how much the impact of a particular channel deviates from others in the media mix.
+
+By evaluating models based on these features, we calculate metrics like **contribution percentage**, **ROI (Return on Investment)**, and **error**. These metrics help us recommend the most effective solution.
+
+## Methodology of Ranking Method Algorithm
+
+Our ranking method involves a structured process to select the best model. The methodology includes the following steps:
+
+### 1. Filtering SolIDs Using Business Criteria
+
+First, we filter solIDs (model IDs) based on a **business sense filter**. Only solIDs with **ROAS (Return on Advertising Spend)** values higher than the 25th percentile across all media channels are selected for further ranking. This ensures that only high-performing models are considered.
+
+For example, if the 25th percentile for ROAS across Facebook, Google, and YouTube is 1.0, only solIDs with values greater than 1.0 across all three channels are selected.
+
+### 2. Regression to Determine Weights
+
+To rank the selected solIDs, we perform a **regression analysis** where the target output is `Rsq_train` (how well the model fits the training data). The independent variables include the other key metrics such as **nRMSE**, **Trend**, **Seasonality**, and **CDID (Channel Impact Divergence Index)**.
+
+- The goal is to **maximize Rsq_train** and **Rsq_val** (model accuracy on validation data) while minimizing **nRMSE** and **CDID**.
+- The coefficients derived from this regression are used as **weights** for each parameter. These weights represent the importance of each feature when evaluating model performance.
+
+### 3. Ranking the Models
+
+Once we have the weights from the regression analysis, we apply them to the filtered solIDs. Each solID is then scored based on how well it performs across the weighted parameters.
+
+### 4. Selecting the Top-Ranked Model
+
+After scoring all solIDs, the model with the highest score is selected as the **top-ranked model**. This model is recommended as the most effective solution based on the key business metrics.
+
+## Advantages of the Ranking Algorithm
+
+### 1. Data-Driven Optimization
+
+The ranking algorithm leverages regression-based weighting to ensure that model selection is grounded in objective, data-driven insights. By maximizing key metrics like **R-squared (Rsq)** while minimizing errors like **nRMSE** and divergence metrics like **CDID**, the algorithm identifies the most accurate and reliable models. This ensures that the selected model performs well both on training data and when generalized to unseen data.
+
+### 2. Business-Relevant Filtering
+
+One of the most impactful features of the algorithm is its ability to filter models using **business-relevant metrics**, such as ROAS across multiple channels. By applying a business logic filter (e.g., selecting only models with ROAS values above the 25th percentile), the algorithm ensures that only models with real business value and strong ROI potential are considered. This step aligns model selection with financial and strategic goals, making it highly actionable for decision-making.
+
+### 3. Scalability and Efficiency
+
+The algorithm is built to handle the ranking and analysis of **thousands of models** efficiently. Its ability to process large-scale data and evaluate numerous solutions ensures that it can be applied to complex datasets without sacrificing performance. This scalability is crucial for businesses that deal with a high volume of models and need rapid, reliable selection processes.
+
+### 4. Customizability for Specific Use Cases
+
+The ranking methodology is highly **customizable**, which is essential for adapting the algorithm to specific business scenarios. New features or performance criteria can be easily incorporated, and the weighting of variables can be adjusted to reflect unique industry needs. This ensures that the algorithm can be tailored for different objectives, such as maximizing ROI, improving predictive accuracy, or optimizing media spend.
+
+### 5. Enhanced Predictive Performance and Model Reliability
+
+By prioritizing models that maximize fit (**Rsq**) and minimize errors (**nRMSE** and **CDID**), the algorithm selects models that provide more accurate predictions and are more reliable in making future forecasts. This reduces the risk of **overfitting** and ensures that the chosen model performs well in real-world scenarios, leading to better business outcomes and improved decision-making.
+
+### 6. Balanced Media Channel Insights
+
+The incorporation of the **Channel Impact Divergence Index (CDID)** ensures that the model's predictions reflect a **balanced impact across all media channels**. This prevents any one channel from disproportionately influencing the results, which is crucial for optimizing media spend. By identifying the models that fairly allocate contribution across multiple channels, businesses can make more informed and balanced investment decisions.
+
+### 7. Transparent and Interpretable Results
+
+One of the major strengths of the ranking algorithm is its **transparency**. The use of regression coefficients as weights for each feature provides clear insight into how each parameter influences the final ranking. This interpretability fosters trust among stakeholders, as they can see exactly why a particular model was chosen, making the decision process more understandable and aligned with business logic.
