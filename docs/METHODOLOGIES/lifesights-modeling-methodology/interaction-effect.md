@@ -20,9 +20,9 @@ Interaction effects occur when the combined influence of two or more marketing c
 
 #### Key Points:
 
-- Synergistic Effects: When two channels work together to produce a greater effect than the sum of their individual contributions.
-- Antagonistic Effects: When one channel’s effectiveness reduces the impact of another.
-- Context-Dependent: Interaction effects can vary based on factors such as timing, audience, and market conditions.
+* Synergistic Effects: When two channels work together to produce a greater effect than the sum of their individual contributions.
+* Antagonistic Effects: When one channel’s effectiveness reduces the impact of another.
+* Context-Dependent: Interaction effects can vary based on factors such as timing, audience, and market conditions.
 
 #### Why Interaction Effects Matter in MMM
 
@@ -30,20 +30,20 @@ Understanding and accounting for interaction effects in MMM is crucial for sever
 
 #### Accurate Attribution:
 
-- Holistic Understanding: Interaction effects provide a more comprehensive view of how marketing channels influence each other and contribute to overall performance.
-- Preventing Misattribution: Ignoring interaction effects can lead to incorrect attribution of sales to individual channels, skewing performance metrics.
+* Holistic Understanding: Interaction effects provide a more comprehensive view of how marketing channels influence each other and contribute to overall performance.
+* Preventing Misattribution: Ignoring interaction effects can lead to incorrect attribution of sales to individual channels, skewing performance metrics.
 
 #### Optimized Marketing Strategies:
 
-- Strategic Synergies: Identifying positive interactions allows businesses to leverage synergistic combinations of channels for enhanced effectiveness.
-- Mitigating Negative Interactions: Recognizing and addressing negative interactions helps in refining marketing strategies to prevent channels from undermining each other.
+* Strategic Synergies: Identifying positive interactions allows businesses to leverage synergistic combinations of channels for enhanced effectiveness.
+* Mitigating Negative Interactions: Recognizing and addressing negative interactions helps in refining marketing strategies to prevent channels from undermining each other.
 
 #### Enhanced ROI Calculation:
 
-- Precise Measurement: By accounting for interaction effects, businesses can calculate the true ROI of each marketing channel, leading to more informed budget allocations.
-- Resource Efficiency: Optimizing based on accurate interaction assessments ensures that marketing resources are invested where they yield the highest returns.
+* Precise Measurement: By accounting for interaction effects, businesses can calculate the true ROI of each marketing channel, leading to more informed budget allocations.
+* Resource Efficiency: Optimizing based on accurate interaction assessments ensures that marketing resources are invested where they yield the highest returns.
 
 #### Informed Decision-Making:
 
-- Data-Driven Insights: Interaction effects offer deeper insights into the complexities of marketing dynamics, enabling more nuanced and effective decision-making.
-- Future Planning: Understanding interactions aids in forecasting future performance and planning integrated marketing campaigns.
+* Data-Driven Insights: Interaction effects offer deeper insights into the complexities of marketing dynamics, enabling more nuanced and effective decision-making.
+* Future Planning: Understanding interactions aids in forecasting future performance and planning integrated marketing campaigns.
