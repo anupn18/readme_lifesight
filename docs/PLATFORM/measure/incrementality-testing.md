@@ -12,31 +12,17 @@ next:
 ---
 The Experiments dashboard gives you an overview of all the experiments run on Lifesight.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8dd4877c49e5db5b3b2b19f13044d92516f9a7e7b71c2d726d4802b73720cf97-exp_dash.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/8dd4877c49e5db5b3b2b19f13044d92516f9a7e7b71c2d726d4802b73720cf97-exp_dash.jpg" />
 
 ## Key Components
 
 1. **Name** - The name of the Experiment you set while creating an experiment
 2. **Type** - Could be either Geo/Split test based on the experiment type.
-3. **Outcome/KPI **- Mentions the outcome KPI the experiment was run for (could be Revenue, Conversions, Store Lift, etc)
+3. **Outcome/KPI** - Mentions the outcome KPI the experiment was run for (could be Revenue, Conversions, Store Lift, etc)
 4. **Platform** - Mentions the platforms on which the experiment was run.
 5. **Status** - Indicates the current stage of the experiment.
 6. **Significance** - Shows if the experiment was statistically significant or not. 
-7. **Last Processed **- Shows the last date on which the experiment was processed.
+7. **Last Processed** - Shows the last date on which the experiment was processed.
 
 <br />
 
