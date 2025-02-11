@@ -14,23 +14,9 @@ Once the model's status transitions to "success," the Causal Graph will be acces
 
 ## Causal Discovery Graph
 
-The Causal Discovery Graph is depicted as a Directed Acyclic Graph (DAG), where each node represents a variable, and each directed edge indicates a causal relationship between variables. The graph visualizes the relationships between different variables (e.g., marketing spends, events) and how they potentially affect a target variable (in this case, Revenue_Size_Rupiah). Arrows between nodes represent causal relationships, indicating the direction and strength of the effect between variables.
+The Causal Discovery Graph is depicted as a Directed Acyclic Graph (DAG), where each node represents a variable, and each directed edge indicates a causal relationship between variables. The graph visualizes the relationships between different variables (e.g., marketing spends, events) and how they potentially affect a target variable (in this case, Revenue\_Size\_Rupiah). Arrows between nodes represent causal relationships, indicating the direction and strength of the effect between variables.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/589b22bfc81d103d547513345980c2f09a44cb51ae5c5bbfc1145b0350993e93-dag.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/589b22bfc81d103d547513345980c2f09a44cb51ae5c5bbfc1145b0350993e93-dag.jpg" />
 
 ## Graph Filtering Menu
 
@@ -46,7 +32,7 @@ Adjust the confidence level of the edges (causal relationships) shown in the gra
 
 View a list of relationships between variables, categorized into different types (e.g., potential or forbidden).The variables on the left side of the arrow represent the cause, and the variable on the right represents the effect. 
 
-_For example, digital_spend → Revenue_Size_Rupiah suggests that digital spending potentially influences revenue size._
+*For example, digital\_spend → Revenue\_Size\_Rupiah suggests that digital spending potentially influences revenue size.*
 
 ### ATE (Average Treatment Effect)
 
