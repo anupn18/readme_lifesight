@@ -30,14 +30,14 @@ To begin editing an existing Dashboard, click Edit in the Dashboard header.
 
 After the Dashboard enters Edit mode:
 
-- The Edit button changes to an Editing menu.
-- The version menu changes from PUBLISHED to DRAFT.
-- The header displays a list of all users currently in Edit mode.
-- Click a user’s icon to navigate to the element they have selected (if they have one selected).
-- Dashboard elements show the name of the user or users who are currently selecting the element.
-- The editor panel and sidebar appear on the left side of the page.
-- Changes you make to the draft automatically save to the live draft shared by all editors.
-- If an editor clicks Publish, Lifesight publishes all drafted changes, including changes drafted by all editors on the live draft.
+* The Edit button changes to an Editing menu.
+* The version menu changes from PUBLISHED to DRAFT.
+* The header displays a list of all users currently in Edit mode.
+* Click a user’s icon to navigate to the element they have selected (if they have one selected).
+* Dashboard elements show the name of the user or users who are currently selecting the element.
+* The editor panel and sidebar appear on the left side of the page.
+* Changes you make to the draft automatically save to the live draft shared by all editors.
+* If an editor clicks Publish, Lifesight publishes all drafted changes, including changes drafted by all editors on the live draft.
 
 ## Preview drafted changes
 
