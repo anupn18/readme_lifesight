@@ -12,28 +12,14 @@ next:
 ---
 The Purchases tab in Attribution features three charts—Orders, Products, and Geo Insights. Here's how each component contributes:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/086056492661d946ed4e108841b349b3a53cd7a0d5690a8d39a9fb593167d3ff-purchases.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/086056492661d946ed4e108841b349b3a53cd7a0d5690a8d39a9fb593167d3ff-purchases.jpg" />
 
 <br />
 
 Users can filter their data using Attribution Period, Attribution Model, Attribution Window, Attribution Method, Channel Filter and Objective/Medium.
 
-- **Channels Filter: **This allows you to categorize orders based on the UTM source value. Examples include Facebook, Google, among others. Utilizing this filter will enable you to understand the performance of different marketing channels effectively.
-- **Objective(s)/Medium Filter:** Employ this filter to sort orders by their UTM Medium values. This feature is particularly useful in analyzing the medium through which the customers were acquired, such as through specific advertising objectives or campaigns.
+* **Channels Filter:** This allows you to categorize orders based on the UTM source value. Examples include Facebook, Google, among others. Utilizing this filter will enable you to understand the performance of different marketing channels effectively.
+* **Objective(s)/Medium Filter:** Employ this filter to sort orders by their UTM Medium values. This feature is particularly useful in analyzing the medium through which the customers were acquired, such as through specific advertising objectives or campaigns.
 
 ## Orders
 
@@ -45,21 +31,7 @@ Order Sorting: By default, orders are arranged in descending order of their time
 
 Customer ID: For further insights, the Customer IDs are interactive. Clicking on it will redirect you to the Orders tab inside the Profile Insights page.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/40997e0fa7e5f6d18ee110f4aea3a05d7def29c9e7a7de4ed01da7e65e528219-orders.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/40997e0fa7e5f6d18ee110f4aea3a05d7def29c9e7a7de4ed01da7e65e528219-orders.jpg" />
 
 ## Products
 
@@ -69,21 +41,7 @@ Revenue and Orders: Shows total revenue and the number of orders for each varian
 
 Attributed Channel: The final column reveals the percentage of credit allocated to each advertising channel, according to global filters, providing insights into advertising effectiveness.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c344c369fe96b9b41c2477ea3423dac17068bb98e2ab7aa65a97e78c2c46d542-product.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/c344c369fe96b9b41c2477ea3423dac17068bb98e2ab7aa65a97e78c2c46d542-product.jpg" />
 
 ## Geo Insights
 
@@ -93,21 +51,7 @@ Total Revenue: Details the total revenue generated from each State/City.
 
 Attributed Channel: The last column, indicates the percentage of credit allocated to each advertising channel for each State/City, according to global filters, providing insights into advertising effectiveness.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/56f915685b444f43ecc677e755887472f3a767f6fbf1e38dc0881e86ec2a68f6-geo.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/56f915685b444f43ecc677e755887472f3a767f6fbf1e38dc0881e86ec2a68f6-geo.jpg" />
 
 <br />
 
