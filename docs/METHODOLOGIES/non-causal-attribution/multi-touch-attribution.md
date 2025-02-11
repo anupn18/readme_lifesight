@@ -38,19 +38,19 @@ W(t) = W(0) * (1/2)^(t/t_half)
 
 Where:
 
-- `W(t)` = weightage at time t
-- `W(0)` = 1 (full weightage)
-- `t` = time in days
-- `t_half` = 7 (standard half-life for time-decay attribution)
+* `W(t)` = weightage at time t
+* `W(0)` = 1 (full weightage)
+* `t` = time in days
+* `t_half` = 7 (standard half-life for time-decay attribution)
 
 ### Example:
 
 Consider the following sequence of interactions before a conversion:
 
-- Google (4 days ago)
-- Instagram (2 days ago)
-- Facebook (1 day ago)
-- Email (day of conversion)
+* Google (4 days ago)
+* Instagram (2 days ago)
+* Facebook (1 day ago)
+* Email (day of conversion)
 
 Applying the formula:
 
@@ -80,16 +80,16 @@ The U-Shaped model, also known as the Position-Based model, emphasizes the first
 
 Consider the following touchpoints:
 
-- Google Search (first touchpoint)
-- Instagram
-- Facebook
-- Email (last touchpoint)
+* Google Search (first touchpoint)
+* Instagram
+* Facebook
+* Email (last touchpoint)
 
 The U-Shaped model might assign:
 
-- **40%** credit to the first touchpoint (Google Search)
-- **20%** credit distributed equally among the middle touchpoints (Instagram and Facebook)
-- **40%** credit to the last touchpoint (Email)
+* **40%** credit to the first touchpoint (Google Search)
+* **20%** credit distributed equally among the middle touchpoints (Instagram and Facebook)
+* **40%** credit to the last touchpoint (Email)
 
 ## Linear Attribution Model
 
@@ -99,10 +99,10 @@ The Linear Attribution model distributes credit equally across all touchpoints, 
 
 For the same sequence:
 
-- Google Search
-- Instagram
-- Facebook
-- Email
+* Google Search
+* Instagram
+* Facebook
+* Email
 
 Each touchpoint would receive **25%** of the conversion credit.
 
@@ -122,19 +122,19 @@ MTA addresses several challenges faced by marketers:
 
 Implementing Multi-Touch Attribution involves several steps:
 
-1. **Data Collection**:  
+1. **Data Collection**:\
    Gather comprehensive data from all marketing channels, including interactions, spend, and conversions.
 
-2. **Model Selection**:  
+2. **Model Selection**:\
    Choose the appropriate MTA model (Time Decay, U-Shaped, Linear, etc.) based on your business goals and customer journey insights.
 
-3. **Data Integration**:  
+3. **Data Integration**:\
    Integrate data from various channels to ensure a holistic view of the customer journey.
 
-4. **Attribution Calculation**:  
+4. **Attribution Calculation**:\
    Apply the selected MTA model to distribute conversion credit across touchpoints.
 
-5. **Analysis and Optimization**:  
+5. **Analysis and Optimization**:\
    Analyze the results to identify the most effective channels and touchpoints, and adjust your marketing strategies accordingly.
 
 ## Challenges and Limitations
@@ -151,13 +151,13 @@ While Multi-Touch Attribution provides a more comprehensive view of marketing ef
 
 ## Comparison with Other Attribution Methods
 
-1. **Single-Touch Attribution**:  
+1. **Single-Touch Attribution**:\
    While simpler to implement, single-touch models often provide an incomplete picture of the customer journey. MTA offers a more balanced and detailed view.
 
-2. **Last-Click Attribution**:  
+2. **Last-Click Attribution**:\
    Last-click models give all credit to the final touchpoint, often undervaluing upper-funnel activities. MTA provides a holistic view of all touchpoints.
 
-3. **Causal Attribution**:  
+3. **Causal Attribution**:\
    Causal Attribution goes beyond MTA by incorporating incremental impact analysis, offering a more detailed understanding of the true effect of marketing activities.
 
 ## Conclusion
