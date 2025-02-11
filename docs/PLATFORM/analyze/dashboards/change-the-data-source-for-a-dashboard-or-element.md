@@ -18,8 +18,8 @@ You can also change or swap the data source of a Dashboard automatically, based 
 
 ## Requirements
 
-- You must be granted Can use data permission for the connection that you want to change to.
-- You must have Can edit or Can explore permissions on the Dashboard.
+* You must be granted Can use data permission for the connection that you want to change to.
+* You must have Can edit or Can explore permissions on the Dashboard.
 
 ## Swap the data source for a Dashboard
 
@@ -33,13 +33,13 @@ You can swap the data source for all elements in a Dashboard, for example to cha
    2. Search for or browse to a new data source, then click Select.
    3. Select the next data source that needs to be matched and repeat these steps.
    4. After all data sources without matches have been matched to a new data source, select Swap.
-5. If none of your data sources need to be manually matched, select Swap Now.  
+5. If none of your data sources need to be manually matched, select Swap Now.\
    The Dashboard updates to use the new data source. Any elements without matching data sources display an error.
 
 > 📘 If your Dashboard contains input tables or custom SQL elements, the data source and connection for those elements is not swapped. Instead, you must recreate the elements with the new connection as the data source.
-> 
-> - For an input table, create an input table with the new connection then copy and paste the data from the old input table to the new one.
-> - For a custom SQL element, create a new SQL element and write equivalent SQL against the new data connection.
+>
+> * For an input table, create an input table with the new connection then copy and paste the data from the old input table to the new one.
+> * For a custom SQL element, create a new SQL element and write equivalent SQL against the new data connection.
 
 ## Change the data source for an element
 
@@ -51,7 +51,7 @@ After selecting an element in Edit or Explore mode, you can change the data sour
 
 1. From the Dashboard canvas, select More > Element source > Change source. Or, at the bottom of the Element properties panel, locate the name of the data source and select  > Change source.
 2. Search for or browse to a new data source for the element.
-3. [optional] Preview the data source to choose specific columns, then click Add.
+3. \[optional] Preview the data source to choose specific columns, then click Add.
 4. Select the data source to finish changing the data source.
 
 The data element updates. If your element contains a calculated column that references a column that does not exist in the new data source, the calculated column displays an "unknown column".
