@@ -26,5 +26,5 @@ Select your refresh frequency to either be daily, weekly or monthly, and specify
 
 The MMM model will refresh automatically based on the set frequency.
 
-- Select `Settings` button from the top-right to update the refresh frequency or data type.
-- Click the `Refresh` button to refresh your data manually.
+* Select `Settings` button from the top-right to update the refresh frequency or data type.
+* Click the `Refresh` button to refresh your data manually.
