@@ -24,21 +24,21 @@ You are now all set to leverage your store data and build experiences based on c
 
 ## How to Install and Enable Lifesight on Shopify
 
-- Visit the Shopify App Store.
-- If prompted, log in with the store where you want to install Lifesight.
-- In the search bar, type 'Lifesight.'
-- Click on "Lifesight: Attribution & MMM" from the search results.
-- Select the "Install" option.
-- If prompted, log into the Shopify account with permissions to install applications on Shopify Admin.
-- Click on "Install" to complete the installation.
+* Visit the Shopify App Store.
+* If prompted, log in with the store where you want to install Lifesight.
+* In the search bar, type 'Lifesight.'
+* Click on "Lifesight: Attribution & MMM" from the search results.
+* Select the "Install" option.
+* If prompted, log into the Shopify account with permissions to install applications on Shopify Admin.
+* Click on "Install" to complete the installation.
 
 ### Additional Steps for Enabling Tracking
 
-- Log into your Shopify store and navigate to the "Online Store" section.
-- Click on "Customize Theme" to access the theme customization options.
-- In the customization menu, select the "App Embeds" section on the left.
-- Enable the "Lifesight SDK" and "Lifesight SDK Schema" toggles to activate Lifesight tracking.
-- Click "Save" to apply your changes and successfully integrate Lifesight tracking.
+* Log into your Shopify store and navigate to the "Online Store" section.
+* Click on "Customize Theme" to access the theme customization options.
+* In the customization menu, select the "App Embeds" section on the left.
+* Enable the "Lifesight SDK" and "Lifesight SDK Schema" toggles to activate Lifesight tracking.
+* Click "Save" to apply your changes and successfully integrate Lifesight tracking.
 
 <br />
 
