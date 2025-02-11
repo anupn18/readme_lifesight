@@ -16,18 +16,6 @@ Customer Profiles are comprehensive individual records that centralize and organ
 
 ## View interactive demo
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/628393008591c23e165496774fbc1d96c2db388ab765ccbcd25c528bed0b82c2-image.png",
-        null,
-        null
-      ],
-      "align": "center",
-      "caption": "[Click here](https://lifesight.storylane.io/share/6cqpomjwhc6c) to view demo in fullscreen"
-    }
-  ]
-}
-[/block]
+<Image alt="[Click here](https://lifesight.storylane.io/share/6cqpomjwhc6c) to view demo in fullscreen" align="center" src="https://files.readme.io/628393008591c23e165496774fbc1d96c2db388ab765ccbcd25c528bed0b82c2-image.png">
+  [Click here](https://lifesight.storylane.io/share/6cqpomjwhc6c) to view demo in fullscreen
+</Image>
