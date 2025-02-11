@@ -12,31 +12,17 @@ next:
 ---
 Once the model's status transitions to "Success," the Causal Graph will be accessible for users to view in the Insights tab.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/92539a05a4ee426f1cd9730a290fb128d4672d14c422f4235ee9cff50508693e-c_ing.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/92539a05a4ee426f1cd9730a290fb128d4672d14c422f4235ee9cff50508693e-c_ing.jpg" />
 
 ## Filters in Insights
 
 The filters are global and apply to all charts and tables in the Insights tab.
 
-- **Cause: ** View a list of all Cause varaibles. Choose 1 or multiple causes to view them in the matrix.
-- **Effect:** View a list of all Effects varaibles. Choose 1 or multiple causes to view them in the matrix.
-- **Relation:** Filter your relations by Increasing, Decreasing or select All relations.
-- **ATE:** Filter the matrix by excluding relations below the mentioned input ATE value
-- **Confidence:** Filter the matrix by Confidence score.
+* **Cause:** View a list of all Cause varaibles. Choose 1 or multiple causes to view them in the matrix.
+* **Effect:** View a list of all Effects varaibles. Choose 1 or multiple causes to view them in the matrix.
+* **Relation:** Filter your relations by Increasing, Decreasing or select All relations.
+* **ATE:** Filter the matrix by excluding relations below the mentioned input ATE value
+* **Confidence:** Filter the matrix by Confidence score.
 
 Click `Apply` to apply your filter to the Casual Impact Matrix.
 
@@ -56,4 +42,4 @@ ATE quantifies the average influence of altering one variable on another across 
 
 ![](https://files.readme.io/7058f7d7760b50fa7def5d0db0ea86c4b2d7d0f0911d79aabfb43b374fd9544d-image.png)
 
-- <br />
+* <br />
