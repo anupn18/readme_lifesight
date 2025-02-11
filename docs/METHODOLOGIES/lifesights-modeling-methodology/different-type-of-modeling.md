@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-- Hierarchichal Modeling
-- Granular Modeling
-- Additive Modeling
-- Nested Modeling
+* Hierarchichal Modeling
+* Granular Modeling
+* Additive Modeling
+* Nested Modeling
