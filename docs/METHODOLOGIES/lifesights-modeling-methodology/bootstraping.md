@@ -18,9 +18,9 @@ Bootstrapping is a powerful statistical technique to estimate the uncertainty of
 
 ### Key Concepts of Bootstrapping:
 
-- **Sampling with Replacement**: In bootstrapping, random samples are taken from the **original dataset** with replacement, meaning that the same observation can be included multiple times in the resampled datasets.
-- **Resampling to Estimate Uncertainty**: By repeatedly resampling the dataset, you simulate what it would be like to draw different samples from the population. This allows you to assess how much the estimate might vary if you observed different data.
-- **Standard Error Estimation**: Bootstrapping gives a way to compute the **standard error** of a statistic (such as ROAS or CPA). The standard deviation of the bootstrapped estimates is used as an estimate of the standard error.
+* **Sampling with Replacement**: In bootstrapping, random samples are taken from the **original dataset** with replacement, meaning that the same observation can be included multiple times in the resampled datasets.
+* **Resampling to Estimate Uncertainty**: By repeatedly resampling the dataset, you simulate what it would be like to draw different samples from the population. This allows you to assess how much the estimate might vary if you observed different data.
+* **Standard Error Estimation**: Bootstrapping gives a way to compute the **standard error** of a statistic (such as ROAS or CPA). The standard deviation of the bootstrapped estimates is used as an estimate of the standard error.
 
 ## Traditional Approach vs. Bootstrap Approach
 
@@ -47,12 +47,12 @@ Instead of relying on theoretical distributions, bootstrapping constructs an emp
 Lifesight uses bootstrapping to introduce confidence intervals for ROAS and CPA metrics by:
 
 1. **Finding Optimal Models**: 
-   - Lifesight calculates ** optimal models**, identifying models that strike the best balance between accuracy and generalizability.
+   * Lifesight calculates **optimal models** , identifying models that strike the best balance between accuracy and generalizability.
 2. **Clustering Models**: 
-   - Using clustering techniques such as **k-means**, Lifesight identifies groups of models with similar **hyperparameters**. This ensures that each cluster represents a set of models with comparable behavior across channels.
+   * Using clustering techniques such as **k-means**, Lifesight identifies groups of models with similar **hyperparameters**. This ensures that each cluster represents a set of models with comparable behavior across channels.
 3. **Bootstrap Sampling**:
-   - For each cluster of models and for each channel, Lifesight performs **bootstrap resampling** on the calculated **ROIs**.
-   - From this, Lifesight calculates the **confidence intervals** and **standard error** for each channel's ROAS or CPA.
+   * For each cluster of models and for each channel, Lifesight performs **bootstrap resampling** on the calculated **ROIs**.
+   * From this, Lifesight calculates the **confidence intervals** and **standard error** for each channel's ROAS or CPA.
 
 This approach allows for a more robust understanding of how marketing investments perform across channels, offering a deeper level of insight than a single point estimate can provide.
 
