@@ -20,11 +20,11 @@ Error estimation is vital for ensuring the accuracy of any measurement or predic
 
 Estimation errors typically fall into three categories:
 
-- **Bias (Systematic Errors)**: These occur when the model consistently overestimates or underestimates the true value. Bias is introduced due to incorrect assumptions or faulty measurement techniques and does not cancel out over multiple observations.
+* **Bias (Systematic Errors)**: These occur when the model consistently overestimates or underestimates the true value. Bias is introduced due to incorrect assumptions or faulty measurement techniques and does not cancel out over multiple observations.
 
-- **Variance (Random Errors)**: These errors are caused by random fluctuations in the data or measurement process. Unlike bias, variance affects the spread of predictions and tends to average out over time.
+* **Variance (Random Errors)**: These errors are caused by random fluctuations in the data or measurement process. Unlike bias, variance affects the spread of predictions and tends to average out over time.
 
-- **Irreducible Error**: This is the error inherent in the system that cannot be reduced, no matter how well the model is designed. It arises due to unpredictable variations in the data that cannot be accounted for by the model.
+* **Irreducible Error**: This is the error inherent in the system that cannot be reduced, no matter how well the model is designed. It arises due to unpredictable variations in the data that cannot be accounted for by the model.
 
 Understanding these three types of estimation errors helps practitioners identify where improvements can be made in model accuracy and prediction reliability.
 
@@ -32,32 +32,32 @@ Understanding these three types of estimation errors helps practitioners identif
 
 Estimation errors can arise from various factors, including:
 
-- **Poor Quality or Incomplete Data**: Missing data, outliers, and measurement inaccuracies can skew predictions and lead to errors.
-- **Incorrect Assumptions or Model Specifications**: Using an inappropriate model (e.g., a linear model for a nonlinear relationship) can introduce bias and result in significant errors.
-- **Small Sample Sizes**: Smaller datasets are more susceptible to random variations, which can inflate estimation errors.
+* **Poor Quality or Incomplete Data**: Missing data, outliers, and measurement inaccuracies can skew predictions and lead to errors.
+* **Incorrect Assumptions or Model Specifications**: Using an inappropriate model (e.g., a linear model for a nonlinear relationship) can introduce bias and result in significant errors.
+* **Small Sample Sizes**: Smaller datasets are more susceptible to random variations, which can inflate estimation errors.
 
 ### How to Quantify Estimation Error
 
 To assess the accuracy of estimates, several commonly used metrics can help measure estimation error, such as:
 
-- **Mean Absolute Error (MAE)**:
-  - MAE measures the average of the absolute differences between predicted and actual values.
-  - Formula:  
+* **Mean Absolute Error (MAE)**:
+  * MAE measures the average of the absolute differences between predicted and actual values.
+  * Formula:\
     MAE = (1/n) \* Σ |Predicted - Actual|
 
-- **Mean Squared Error (MSE)**:
-  - MSE calculates the average of the squared differences between predicted and actual values.
-  - Formula:  
+* **Mean Squared Error (MSE)**:
+  * MSE calculates the average of the squared differences between predicted and actual values.
+  * Formula:\
     MSE = (1/n) \* Σ (Predicted - Actual)²
 
-- **Root Mean Squared Error (RMSE)**:
-  - RMSE is the square root of the MSE and provides an estimate of the standard deviation of the prediction errors.
-  - Formula:  
-    RMSE = √[(1/n) * Σ (Predicted - Actual)²]
+* **Root Mean Squared Error (RMSE)**:
+  * RMSE is the square root of the MSE and provides an estimate of the standard deviation of the prediction errors.
+  * Formula:\
+    RMSE = √[(1/n) \* Σ (Predicted - Actual)²][(1/n) * Σ (Predicted - Actual)²]
 
 > 📘 At Lifesight, we specifically calculate estimation error using the following formula:
-> 
-> - **Estimation Error** = (Predicted Revenue - Actual Revenue) / Actual Revenue
+>
+> * **Estimation Error** = (Predicted Revenue - Actual Revenue) / Actual Revenue
 
 ### Reducing Estimation Errors
 
@@ -65,16 +65,16 @@ Both systematic and random errors can be mitigated through careful model design 
 
 #### Reducing Systematic Errors:
 
-- **Model Selection and Validation**: Choosing the correct model type and using techniques like cross-validation can help minimize bias introduced by poor assumptions.
+* **Model Selection and Validation**: Choosing the correct model type and using techniques like cross-validation can help minimize bias introduced by poor assumptions.
 
-- **Data Cleaning and Preprocessing**: Properly handling missing data, outliers, and other anomalies is crucial for reducing systematic error. Ensuring accurate data collection methods also helps avoid bias.
+* **Data Cleaning and Preprocessing**: Properly handling missing data, outliers, and other anomalies is crucial for reducing systematic error. Ensuring accurate data collection methods also helps avoid bias.
 
-- **Experiment Design**: When designing experiments or collecting data, it's important to avoid known biases (e.g., calibration errors in instruments) and ensure uniformity in how data is gathered.
+* **Experiment Design**: When designing experiments or collecting data, it's important to avoid known biases (e.g., calibration errors in instruments) and ensure uniformity in how data is gathered.
 
 #### Reducing Random Errors:
 
-- **Increase Sample Size**: Larger sample sizes help reduce the impact of random noise and make estimates more reliable.
+* **Increase Sample Size**: Larger sample sizes help reduce the impact of random noise and make estimates more reliable.
 
-- **Averaging Multiple Observations**: Taking multiple measurements and averaging the results helps reduce the influence of random variations.
+* **Averaging Multiple Observations**: Taking multiple measurements and averaging the results helps reduce the influence of random variations.
 
-- **Improve Consistency**: Ensuring that the same methods and conditions are applied during data collection can help reduce random variability.
+* **Improve Consistency**: Ensuring that the same methods and conditions are applied during data collection can help reduce random variability.
