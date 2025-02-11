@@ -14,28 +14,14 @@ next:
 ---
 MMM Refresh and recalibration ensures it continues to provide accurate and actionable insights. As market dynamics, consumer behavior, and external conditions change over time, it is essential to keep the model updated and fine-tuned. By regularly refreshing the model with the latest data and recalibrating its parameters, marketers can maintain accuracy, optimize spend allocation, and ensure the model remains a reliable tool for driving business growth.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/53307ad5b29545bca4d65540615b72e2b3b9efa8fa99fb4330ee55d44ef78d8b-refresh.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/53307ad5b29545bca4d65540615b72e2b3b9efa8fa99fb4330ee55d44ef78d8b-refresh.jpg" />
 
 <br />
 
 ## Overview
 
-- **Refresh** - Shows you the current model refresh version. For example if a model is refreshed twice then the Refresh field would have a value "Refreshed Model-2" in place.
-- **Compare to** - Refers to which model you are comparing the latest Refresh model with. By default Lifesight sets it as 'Main Model' to view how the refreshed insights compare with the main model.
+* **Refresh** - Shows you the current model refresh version. For example if a model is refreshed twice then the Refresh field would have a value "Refreshed Model-2" in place.
+* **Compare to** - Refers to which model you are comparing the latest Refresh model with. By default Lifesight sets it as 'Main Model' to view how the refreshed insights compare with the main model.
 
 <br />
 
@@ -53,9 +39,9 @@ The Validation period is different and set for backtesting purposes. This can be
 
 The Refresh insights table shows the latest model refresh insights vs the selected previously selected model insights for every channel and category. Seamlessly view the following metrics:
 
-- **Changes in Contribution** - View how channel and tactic contribution changed after the model refresh.
-- **Changes in KPI **- View the latest business KPI (Revenue/Orders...) channel-wise based on the latest contribution percentage.
-- **Changes in overall spend **- View the increase spends due to the model refresh.
+* **Changes in Contribution** - View how channel and tactic contribution changed after the model refresh.
+* **Changes in KPI** - View the latest business KPI (Revenue/Orders...) channel-wise based on the latest contribution percentage.
+* **Changes in overall spend** - View the increase spends due to the model refresh.
 
 ![](https://files.readme.io/4ca3c4e13bef5756d07e3ef31d3495661899b528ea6f8a7e6a8354723e6a4e2e-image.png)
 
