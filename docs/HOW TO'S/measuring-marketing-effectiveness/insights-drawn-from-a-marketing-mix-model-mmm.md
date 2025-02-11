@@ -24,7 +24,7 @@ So, it is calculated as: **ROI** :- **Incremental profit** / **Marketing spend**
 
 **Effectiveness of Marketing Channels:**
 
-- **Impact of Each Channel:** Identify which marketing channels (e.g., TV, digital, print, social media) have the most significant impact on sales or other key performance indicators (KPIs).
-- **ROI Analysis:** Assess the return on investment (ROI) for each channel to determine where marketing dollars are best spent.
+* **Impact of Each Channel:** Identify which marketing channels (e.g., TV, digital, print, social media) have the most significant impact on sales or other key performance indicators (KPIs).
+* **ROI Analysis:** Assess the return on investment (ROI) for each channel to determine where marketing dollars are best spent.
 
 So, In a nutshell, it can be drawn as an insight that **The Higher the effectiveness , The Better the ROI** for that particular campaign. If a campaign has performed better so that means it has been effective throughtout the execution year.
