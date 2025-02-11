@@ -18,8 +18,8 @@ next:
 
 Calibration improves the reliability of MMM by adjusting model predictions based on external benchmarks, which can include:
 
-- **Experimental Data**: Results from A/B tests, randomized controlled trials (RCTs), or geolift scale up or holdout experiments provide a "ground truth" for how marketing activities drive outcomes. If the model's predictions differ from these results, calibration can adjust the estimates to better reflect reality.
-- **Platform conversion lift studies **: Many platforms (e.g., Facebook, Google, YouTube) provide their own conversion lift studies . The results of these studies can be used for calibration as well.
+* **Experimental Data**: Results from A/B tests, randomized controlled trials (RCTs), or geolift scale up or holdout experiments provide a "ground truth" for how marketing activities drive outcomes. If the model's predictions differ from these results, calibration can adjust the estimates to better reflect reality.
+* **Platform conversion lift studies** : Many platforms (e.g., Facebook, Google, YouTube) provide their own conversion lift studies . The results of these studies can be used for calibration as well.
 
 <br />
 
@@ -31,24 +31,24 @@ Calibration improves the reliability of MMM by adjusting model predictions based
 
 `Our` **Attribute Quality Score Methodology** helps identify which channels or tactics require calibration to improve accuracy and performance. The methodology assesses several key factors:
 
-- **Spend Variation:** Does the `channel/tactic` exhibit enough variation in spend to generate meaningful insights?
-- **Quantification in the MMM Model:** Is the channel accurately represented in the MMM model? This is evaluated by:
-  - **ROI Estimation:** Can we estimate the ROI with confidence?
-    - If the channel's contribution is `0%`, we recommend conducting experiments to gather more data.
-    - If the ROI estimates show a wide standard error or confidence interval, it indicates the need for calibration to enhance estimate accuracy.
+* **Spend Variation:** Does the `channel/tactic` exhibit enough variation in spend to generate meaningful insights?
+* **Quantification in the MMM Model:** Is the channel accurately represented in the MMM model? This is evaluated by:
+  * **ROI Estimation:** Can we estimate the ROI with confidence?
+    * If the channel's contribution is `0%`, we recommend conducting experiments to gather more data.
+    * If the ROI estimates show a wide standard error or confidence interval, it indicates the need for calibration to enhance estimate accuracy.
 
 After running an MMM model, the **Attribute Quality Score** provides guidance on which channels to prioritize for experimentation.
 
-_Note - Though Lifesight generates right hypotheses which should be tested - so as to improve the overall measurement efficacy - marketers can come with their own hypotheses and get them validated through Lifesight's experiments module_
+*Note - Though Lifesight generates right hypotheses which should be tested - so as to improve the overall measurement efficacy - marketers can come with their own hypotheses and get them validated through Lifesight's experiments module*
 
 ### Types of Experiments
 
 You can conduct various types of experiments to gather better insights , some of the experiments are mentioned below :     
 
-- Geolift experiment.
-- Split Testing.
-- Conversion Lift Studies.
-- A/B Testing.
+* Geolift experiment.
+* Split Testing.
+* Conversion Lift Studies.
+* A/B Testing.
 
 <br />
 
@@ -72,9 +72,9 @@ Lifesight's approach to model calibration is unique in the industry. We refer to
 
 **Coarse Calibration**
 
-In Coarse calibration, hyper-parameters are picked so as to minimise the distance between **MMM Inferred Lift** and the actual **Causal Lift** obtained from the experiment. This acts _similar_ to setting a prior and retraining the model.
+In Coarse calibration, hyper-parameters are picked so as to minimise the distance between **MMM Inferred Lift** and the actual **Causal Lift** obtained from the experiment. This acts *similar* to setting a prior and retraining the model.
 
-**MAPE (Coarse) = [Sigma ( |ROI from MMM - ROI from Lift| )] / N**
+**MAPE (Coarse) =[Sigma ( |ROI from MMM - ROI from Lift| )] / N**
 
 Coarse calibration is applied in these scenarios
 
@@ -84,10 +84,10 @@ Coarse calibration is applied in these scenarios
 
 **Fine Calibration**
 
-This is the recommended approach to calibration (wherever possible). In this approach, Lifesight's calibration function minimises the distance between  **MMM Inferred Lift** and the actual **Causal Lift**  _for the specific period of testing_ 
+This is the recommended approach to calibration (wherever possible). In this approach, Lifesight's calibration function minimises the distance between  **MMM Inferred Lift** and the actual **Causal Lift**  *for the specific period of testing* 
 
-**MAPE (Fine) = [Sigma ( |ROI from MMM,k - ROI from Lift,k| )] / N**  
-_(where k is the period(s) for which calibration is applied)_
+**MAPE (Fine) =[Sigma ( |ROI from MMM,k - ROI from Lift,k| )] / N**\
+*(where k is the period(s) for which calibration is applied)*
 
 Fine Calibration is applied in these scenarios
 
