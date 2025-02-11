@@ -32,10 +32,10 @@ Change the size of your browser to see the design in desktop or mobile sizes. Th
 
 ### View synced vs unsynced mobile layouts
 
-If you resize the browser to the mobile size, a message appears to alert you as to whether the canvas is set to synchronize mobile and desktop layouts.  
+If you resize the browser to the mobile size, a message appears to alert you as to whether the canvas is set to synchronize mobile and desktop layouts.\
 `Synced mobile layout. To edit the mobile layout, please unsync with the desktop layout. Switch to customized`
 
-When you choose Switch to customized, the layouts are no longer in sync.  
+When you choose Switch to customized, the layouts are no longer in sync.\
 `Unsynced mobile layout. Changes made to the mobile or desktop layout will not affect the other. Sync with desktop.`
 
 Choose Editing and select Show desktop viewport or Show mobile viewport icons to preview the layout size for each viewport.
@@ -86,11 +86,11 @@ You can share or split the space used by an element by dragging and dropping ano
 
 Each element has a menu with different options depending on the type of element. Select the element and choose  More. For example, the menu for a date range control has the following options:
 
-- Comment: Add a comment to the control.
-- Duplicate: Create a copy of the control on the same page, below the original element.
-- Copy element: Copies the element to the clipboard, for pasting in another page or below another element.
-- Paste element below: Paste the element from Copy element to below the selected element.
-- Move to: Move the element to a new or existing page.
-- Change control type: Changes the type of control to a related type of control.
-- Include nulls: Include nulls when displaying the control.
-- Delete element: Removes the element from the page.
+* Comment: Add a comment to the control.
+* Duplicate: Create a copy of the control on the same page, below the original element.
+* Copy element: Copies the element to the clipboard, for pasting in another page or below another element.
+* Paste element below: Paste the element from Copy element to below the selected element.
+* Move to: Move the element to a new or existing page.
+* Change control type: Changes the type of control to a related type of control.
+* Include nulls: Include nulls when displaying the control.
+* Delete element: Removes the element from the page.
