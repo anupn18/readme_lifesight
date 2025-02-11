@@ -25,9 +25,9 @@ Our platform combines these three critical methodologies to provide a comprehens
 
 Lifesight uses a combination of marketing measurement methods to **triangulate** your marketing effectiveness.
 
-- **Marketing Mix Modeling** - Estimates the incremental contribution of ALL marketing initiatives, along with other organic, contextual and baseline factors
-- **Incrementality Testing** - Estimates the incremental lift for channels, tactics and strategies that can be used to validate hypotheses & calibrate models
-- **Causal Attribution** - Estimates & adjusts real-time attribution reports using incrementality factor & marginality factor to help marketers optimize granular campaign, ad group & ads.
+* **Marketing Mix Modeling** - Estimates the incremental contribution of ALL marketing initiatives, along with other organic, contextual and baseline factors
+* **Incrementality Testing** - Estimates the incremental lift for channels, tactics and strategies that can be used to validate hypotheses & calibrate models
+* **Causal Attribution** - Estimates & adjusts real-time attribution reports using incrementality factor & marginality factor to help marketers optimize granular campaign, ad group & ads.
 
 ### Triangulation at Work:
 
@@ -35,68 +35,137 @@ Lifesight uses a combination of marketing measurement methods to **triangulate**
 
 <br />
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "From",
-    "h-1": "To",
-    "h-2": "Interaction",
-    "0-0": "MMM",
-    "0-1": "CA",
-    "0-2": "MMM generates **\"Temporal\" Incrementality Factor** & **Marginality Factor** for calibration of attribution numbers. This enables better optimization decisioning at granular levels",
-    "1-0": "MMM",
-    "1-1": "IT",
-    "1-2": "MMM can generate right hypotheses that needs validation with Incrementality Tests. Hypotheses are generated after looking at multiple factors such as variations, number of observations, multicolinearity, etc... in the input data provided to the MMM Models  \nMMM also provides IT with slope of saturation and time-shift effect - which could be used to adjust experiment lift to find the actual lift",
-    "2-0": "IT",
-    "2-1": "MMM",
-    "2-2": "Incrementality Tests can provide with the lift numbers to calibrate MMM. Helps in building better MMM models with causal awareness. Lifesight's approach to model calibration is unique - with both coarse and fine calibration [calibration](https://docs.lifesight.io/docs/calibration).",
-    "3-0": "CA",
-    "3-1": "MMM",
-    "3-2": "Attribution provides granular and real time data, which enables operationalisation of MMM insights at granular levels in real time basis",
-    "4-0": "IT",
-    "4-1": "CA",
-    "4-2": "Incrementality Tests generates ** Incrementality Factor**  for calibration of attribution numbers. This enables better optimization decisioning at granular levels",
-    "5-0": "CA",
-    "5-1": "IT",
-    "5-2": "Attribution data can notify for major fluctuations in platform reported numbers, helping marketers hypothesize better for Incrementality Tests"
-  },
-  "cols": 3,
-  "rows": 6,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "left" }}>
+        From
+      </th>
 
+      <th style={{ textAlign: "left" }}>
+        To
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Interaction
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        MMM
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        CA
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        MMM generates **"Temporal" Incrementality Factor** & **Marginality Factor** for calibration of attribution numbers. This enables better optimization decisioning at granular levels
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        MMM
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        IT
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        MMM can generate right hypotheses that needs validation with Incrementality Tests. Hypotheses are generated after looking at multiple factors such as variations, number of observations, multicolinearity, etc... in the input data provided to the MMM Models\
+        MMM also provides IT with slope of saturation and time-shift effect - which could be used to adjust experiment lift to find the actual lift
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        IT
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        MMM
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Incrementality Tests can provide with the lift numbers to calibrate MMM. Helps in building better MMM models with causal awareness. Lifesight's approach to model calibration is unique - with both coarse and fine calibration [calibration](https://docs.lifesight.io/docs/calibration).
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        CA
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        MMM
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Attribution provides granular and real time data, which enables operationalisation of MMM insights at granular levels in real time basis
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        IT
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        CA
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Incrementality Tests generates **Incrementality Factor**  for calibration of attribution numbers. This enables better optimization decisioning at granular levels
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        CA
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        IT
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Attribution data can notify for major fluctuations in platform reported numbers, helping marketers hypothesize better for Incrementality Tests
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 ### AI-Powered Analytics:
 
-- Artificial Intelligence and Machine Learning: Lifesight leverages AI and machine learning algorithms to analyze vast amounts of data, identify patterns, and predict future trends. This enables automated optimization recommendations that help you stay ahead of the curve and adapt to changing market conditions.
-- Predictive Forecasting: Our AI-driven forecasting tools provide insights into future marketing performance, allowing you to make proactive adjustments to your strategies.
+* Artificial Intelligence and Machine Learning: Lifesight leverages AI and machine learning algorithms to analyze vast amounts of data, identify patterns, and predict future trends. This enables automated optimization recommendations that help you stay ahead of the curve and adapt to changing market conditions.
+* Predictive Forecasting: Our AI-driven forecasting tools provide insights into future marketing performance, allowing you to make proactive adjustments to your strategies.
 
 ### Data Centralization & Operationalization:
 
-- Seamless Integration of Data Sources: Lifesight centralizes data from various marketing channels, CRM systems, and analytics tools, eliminating data silos and ensuring a unified data ecosystem.
-- Operational Efficiency: By operationalizing your data, we streamline workflows and automate processes, enabling your marketing teams to focus on strategic decision-making rather than data management.
+* Seamless Integration of Data Sources: Lifesight centralizes data from various marketing channels, CRM systems, and analytics tools, eliminating data silos and ensuring a unified data ecosystem.
+* Operational Efficiency: By operationalizing your data, we streamline workflows and automate processes, enabling your marketing teams to focus on strategic decision-making rather than data management.
 
 ### Real-Time Insights and Reporting:
 
-- Live Dashboards: Access real-time data and performance metrics through customizable dashboards, providing immediate visibility into your marketing efforts.
-- Detailed Reporting: Generate comprehensive reports that offer deep insights into campaign performance, channel effectiveness, and overall marketing ROI.
+* Live Dashboards: Access real-time data and performance metrics through customizable dashboards, providing immediate visibility into your marketing efforts.
+* Detailed Reporting: Generate comprehensive reports that offer deep insights into campaign performance, channel effectiveness, and overall marketing ROI.
 
 ### Privacy and Compliance:
 
-- Data Security: Lifesight prioritizes data security with robust encryption, regular security audits, and compliance with data protection regulations like GDPR and CCPA.
-- Future-Proof Design: Our platform is built to adapt to evolving data privacy laws and market trends, ensuring that your marketing strategies remain compliant and effective.
+* Data Security: Lifesight prioritizes data security with robust encryption, regular security audits, and compliance with data protection regulations like GDPR and CCPA.
+* Future-Proof Design: Our platform is built to adapt to evolving data privacy laws and market trends, ensuring that your marketing strategies remain compliant and effective.
 
 ### Customer Support and Success:
 
-- Dedicated Support Team: Our expert support team is available 24/7 to assist you with any questions or issues, ensuring a smooth and seamless experience.
-- Ongoing Training and Resources: Access to a wealth of resources, including tutorials, webinars, and best practice guides, to help you maximize the potential of Lifesight’s platform.
+* Dedicated Support Team: Our expert support team is available 24/7 to assist you with any questions or issues, ensuring a smooth and seamless experience.
+* Ongoing Training and Resources: Access to a wealth of resources, including tutorials, webinars, and best practice guides, to help you maximize the potential of Lifesight’s platform.
 
 ### Continuous Innovation:
 
-- R&D Investment: Lifesight continuously invests in research and development to enhance our platform’s capabilities and introduce new features that meet the evolving needs of our clients.
-- Client Feedback Integration: We actively seek and incorporate client feedback to improve our platform and ensure it delivers the highest value to our users.
+* R\&D Investment: Lifesight continuously invests in research and development to enhance our platform’s capabilities and introduce new features that meet the evolving needs of our clients.
+* Client Feedback Integration: We actively seek and incorporate client feedback to improve our platform and ensure it delivers the highest value to our users.
