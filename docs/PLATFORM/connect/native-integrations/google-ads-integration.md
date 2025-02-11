@@ -14,18 +14,7 @@ next:
 
 Google Ads offers advertising placements in search result pages, videos, mobile apps, and other partnered web pages. With the integration with Google Ads, you can view your Google Ads campaign performance in Lifesight, create segments of your users, and push the segments as custom audiences back to the Google Ads platform.
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FQx4awQVquEA%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DQx4awQVquEA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FQx4awQVquEA%2Fhqdefault.jpg&key=7788cb384c9f4d5dbbdbeffd9fe4b92f&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
-  "url": "http://www.youtube.com/watch?v=Qx4awQVquEA",
-  "title": "Google Ads Integration",
-  "image": "https://i.ytimg.com/vi/Qx4awQVquEA/hqdefault.jpg",
-  "provider": "https://www.youtube.com/",
-  "href": "http://www.youtube.com/watch?v=Qx4awQVquEA",
-  "typeOfEmbed": "youtube"
-}
-[/block]
-
+<Embed url="http://www.youtube.com/watch?v=Qx4awQVquEA" title="Google Ads Integration" image="https://i.ytimg.com/vi/Qx4awQVquEA/hqdefault.jpg" provider="youtube.com" href="http://www.youtube.com/watch?v=Qx4awQVquEA" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FQx4awQVquEA%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DQx4awQVquEA%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FQx4awQVquEA%252Fhqdefault.jpg%26key%3D7788cb384c9f4d5dbbdbeffd9fe4b92f%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 <br />
 
@@ -34,111 +23,26 @@ Google Ads offers advertising placements in search result pages, videos, mobile 
 1. Navigate to the Integrations tab in the left-hand menu bar.
 2. In the search field, type "Google Ads" to locate the integration.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a6e37774d3c381544a9a2cbc123579a4265fb7d1ecefeda2574e34d1eafb9bb1-Screenshot_2024-09-23_at_12.40.30_PM.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/a6e37774d3c381544a9a2cbc123579a4265fb7d1ecefeda2574e34d1eafb9bb1-Screenshot_2024-09-23_at_12.40.30_PM.png" />
 
 2. Click on the Google Ads tile and click on the "Connect to Google" button to begin the integration process.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/285694a5acd67a4446f7e3127955411cada9c1cf92d4a132e446e7df188f8165-Screenshot_2024-09-23_at_12.40.49_PM.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/285694a5acd67a4446f7e3127955411cada9c1cf92d4a132e446e7df188f8165-Screenshot_2024-09-23_at_12.40.49_PM.png" />
 
 3. You will be redirected to log into your Google Ads account and allow access to certain scopes.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/b26f52f24efc2ce977c8618cd8cfd32a96a5101272cd16c54f34c038dec186dc-Screenshot_2024-09-23_at_12.41.08_PM.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/b26f52f24efc2ce977c8618cd8cfd32a96a5101272cd16c54f34c038dec186dc-Screenshot_2024-09-23_at_12.41.08_PM.png" />
 
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/49b2da6a1a39a97d3650d5764e227c4781608e8dc5e70ae1afb45ab531defaa9-Screenshot_2024-09-23_at_12.41.56_PM.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/49b2da6a1a39a97d3650d5764e227c4781608e8dc5e70ae1afb45ab531defaa9-Screenshot_2024-09-23_at_12.41.56_PM.png" />
 
 4. Once you have successfully logged in, the status of the integration will change to ‘partial’ on the Integration page.
 5. Click on the Google Ads tile and select an ad account you want to use with the workspace.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a886fcdd9de1835eb10a2371230433e0c70428d73f9691df21e181a4ad61c101-Screenshot_2024-09-23_at_12.42.48_PM.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/a886fcdd9de1835eb10a2371230433e0c70428d73f9691df21e181a4ad61c101-Screenshot_2024-09-23_at_12.42.48_PM.png" />
 
 6. The status will get changed to ‘Active’ and the ad data from the designated account will be available in the Attribution dashboard for unified reporting.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/462ba3b7a582b5ae69861901ea7f62368618b219696f728778f6f4b9c5a8a62b-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "500px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="500px" src="https://files.readme.io/462ba3b7a582b5ae69861901ea7f62368618b219696f728778f6f4b9c5a8a62b-image.png" />
 
 <br />
 
