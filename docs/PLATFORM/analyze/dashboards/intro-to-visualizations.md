@@ -1,0 +1,1572 @@
+---
+title: Visualizations
+excerpt: ''
+deprecated: false
+hidden: true
+metadata:
+  title: ''
+  description: ''
+  robots: index
+next:
+  description: ''
+---
+Visualizations are graphical data elements that add visual context to your analysis. They allow you to create, explore, and view your data in a more focused and digestible format.
+
+By adding visualizations to a Dashboard, you can reveal patterns, trends, outliers, and correlations crucial to creating a compelling data narrative. Build each visualization to deliver specific data insights and answer important questions that help you make better business decisions.
+
+This document introduces the types of visualizations Lifesight offers and explains where to configure element properties and formatting.
+
+## Visualization types
+
+Effective visualizations are essential to telling meaningful data stories, but choosing the right types of visualizations can be a challenge. Consider the data type you want to visualize, the questions you need to answer, and the users who will view and consume your analysis.
+
+The following information can help you choose visualizations for a clear and detailed narrative.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/198b2482933253d90deb9053f434b4ea862ef0e9ec74d701b70e0aa0923214af-bar-chart.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "200px"
+    }
+  ]
+}
+[/block]
+
+
+### Bar chart
+
+Show how values vary across categories or groups of data. Compare values against each other, to a reference mark, or as proportions of a whole.
+
+<br />
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/c54b09d9b0cbb31bfa5b5096a9bf41cad0c1e26c33e1c86bacd0573b19036f1a-line-chart.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "200px"
+    }
+  ]
+}
+[/block]
+
+
+### Line chart
+
+Show how the values of one or more metrics change over time. Spot trends and identify anomalies in your dataset.
+
+<br />
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/30fa2601202cc3848c00efe99299f7b9108ee0086d616a232e9e7b964374df8d-kpi-chart.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "200px"
+    }
+  ]
+}
+[/block]
+
+
+### KPI chart
+
+Highlight a single metric value to measure performance or progress toward a goal. Summarize the total value for a specific period, compare the value over time, or measure it against a benchmark or target.
+
+<br />
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/ba95bbeb64f3641e2812f7b9b5413617970ed638917cc4ff2e978ca48e853b2a-area-chart.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "200px"
+    }
+  ]
+}
+[/block]
+
+
+### Area chart
+
+Illustrate the magnitude or cumulative values of one or more metrics over time. Compare categories or groups of data, or evaluate the data composition or part-to-whole relationship.
+
+<br />
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/aab8dc4d1c616c95fa3c813d49d803a502159960d011bb249374e175de6b029b-scatter-plot.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "200px"
+    }
+  ]
+}
+[/block]
+
+
+### Scatter plot
+
+Demonstrate the presence and strength of a correlation between metrics. Analyze patterns, understand distribution, and identify outliers in your dataset.
+
+<br />
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/60fa2afef846d4c82cb33d0cd63197fa4fe5357ac048de0fd84dfd1020f66b0a-combo-chart.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "200px"
+    }
+  ]
+}
+[/block]
+
+
+### Combo chart
+
+Combine bar, line, area, and/or point marks to compare multiple types of metrics. Evaluate the relationship to identify correlations and variations between the datasets.
+
+<br />
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/a7115fc0e2e051208cf5a65e915169785535eaf72c7c2aaf355e7df1086eb662-box-chart.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "200px"
+    }
+  ]
+}
+[/block]
+
+
+### Box chart
+
+Show the value distribution of one or more metrics. Mark the minimum, median, and maximum values, and identify outliers in your dataset.
+
+<br />
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/84c59d0fb3644092f29a398710d7a7d6e3aed1ce70048c5a15c8fd057dd2a9b9-donut-chart.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "200px"
+    }
+  ]
+}
+[/block]
+
+
+### Pie and Donut charts
+
+Portray values as proportions of a whole to convey the data distribution and part-to-whole relationship.
+
+<br />
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/48d1359699f63e08ad5beeeac0c04d73c6c603c68818e1f71966150245e083ad-sankey-diagram.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "200px"
+    }
+  ]
+}
+[/block]
+
+
+### Sankey diagram
+
+Show how data flows and changes throughout a process or system. Compare the movements and proportions of data across different paths to analyze distributions, workflow, networks, and more.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/65a4245144d2ab3c3ba98c7a58247a5eb6e6ce0f2e37ad28af13f9e167bfe45c-funnel-chart.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "200px"
+    }
+  ]
+}
+[/block]
+
+
+### Funnel chart
+
+Measure values across sequential stages in a linear process. Gain insight into inputs across stages, identify bottlenecks and other issues, and assess the overall health of the process.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/0cd69a7c76eb0d90a9cbe77742ab449923115432be6dac353eb55b4651cba3b6-gauge-chart.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "200px"
+    }
+  ]
+}
+[/block]
+
+
+### Gauge chart
+
+Measure a single-value metric against a radial scale. Evaluate growth, assess performance, and track progress toward a goal.
+
+<br />
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/439528e63c7d19175c8107d0a05557c8ad5ae34093edec645c0ca55ff1d9f002-3ad246e-thumbnail-no-border.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "200px"
+    }
+  ]
+}
+[/block]
+
+
+### Waterfall chart
+
+Show changes in one or two categories of data over a time period.
+
+<br />
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/3c2a2fc00b70dc4ce2b76422327f8a9324eb02965471e5059a7fbeb128df2bfc-region-map.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "200px"
+    }
+  ]
+}
+[/block]
+
+
+### Region map
+
+Illustrate data distribution by region, including country, state, county, and city. Compare scale to identify variability and patterns across distinct geographical areas.
+
+<br />
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/566599936bc92960e038f265d7d2b31eaccd92e69be36bab8ab5ade9167f1e8b-point-map.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "200px"
+    }
+  ]
+}
+[/block]
+
+
+### Point map
+
+Illustrate data distribution with precise positioning based on latitude and longitude coordinates. Reveal geospatial patterns and identify outliers in your dataset.
+
+<br />
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/dde4d336c4138c2b06862b1bede65c8a439bae06da611cb5f401e98ec5f0a909-geography-map.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "200px"
+    }
+  ]
+}
+[/block]
+
+
+### Geography map
+
+Illustrate geospatial objects on a map using geography (WKT) or variant (GeoJSON) data. Demonstrate data distribution, reveal patterns, illustrate spatial networks, or assess data variability across distinct geographical areas.
+
+<br />
+
+## Custom configurations
+
+Visualizations feature various properties and formatting options that determine how your data is represented. With a wide range of customizable configurations, you can enhance your visualizations and ensure they present meaningful and actionable information.
+
+### Properties
+
+The Element Properties panel requires selecting a visualization type and configuring source columns to define chart properties, including axis categories, metrics, colors, and tooltips.
+
+You can convert data value types, change the data aggregation or truncation, and customize chart markers and tooltips. Depending on the visualization type selected, you may also have options to change the chart orientation, modify data stacking, and add trellis rows and columns.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/4f7888933c15d9a9c9ebb29bd7acd694e23dc115a17a20ff2f2cd9e526fb970b-aad3c8f-1.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "border": true
+    }
+  ]
+}
+[/block]
+
+
+```
+                                                    _Element properties panel in Edit mode_
+```
+
+### Formatting
+
+The  Element format panel allows you to customize the appearance of various components, including the visualization title’s content, size, and alignment. Depending on the visualization type selected, you may also be able to format the background, axes, legend, data labels, reference marks, trend lines, and more.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/7b02071ca40dc414baf0ca81cc4535cce58664c61060c8f080228ccd04f07f93-7cd7232-2.png",
+        "",
+        ""
+      ],
+      "align": "center"
+    }
+  ]
+}
+[/block]
+
+
+```
+                                                  _Element format panel in Edit model_
+```
+
+<br />
+
+## Build a bar chart
+
+Bar charts are typically used to compare values across categories or groups of data. Create basic single-series bar charts, or build advanced charts to compare multiple variables, measure values against reference marks, evaluate parts of a whole, and more.
+
+This document details basic bar chart requirements and introduces key properties and format options to help you enhance your Dashboard visualizations.
+
+> 📘 Use cases examples:
+> 
+> - Store analytics: Measure total sales by product category to identify top and bottom-performing categories.
+> - Marketing analytics: Track unique website page views by ad referral site (such as LinkedIn and GoogleAds) to understand ad performance trends and referral site effectiveness.
+> - Accounting analytics: Monitor travel expenses by spend category to understand travel spend and identify categories that exceed expectations.
+> - Education analytics (histogram): Count student exam results by score range to analyze frequency distribution and understand performance variability.
+
+### User requirements
+
+The ability to create bar charts and other visualizations requires the following:
+
+1. You must be assigned an account type with the Edit Dashboard and/or Explore Dashboard permission enabled.
+2. You must be the Dashboard owner or be granted Can explore or Can edit
+
+### Basic bar chart requirements
+
+To plot a bar chart, configure the following properties in the  Element properties tab:
+
+**Chart**   Chart type displayed in the Dashboard  
+**X-axis**  Source column that defines the x-axis (horizontal axis) categories or variable  
+**Y-axis**  Source column that defines the y-axis (vertical axis) categories or variable
+
+In a bar chart, one axis typically represents ordinal or nominal categories (like stages, regions, and departments) presented as vertical or horizontal bars. The other axis represents a variable that measures a value (like sales, leads, expenses) for each category and determines the height or length of the corresponding bar. The type of data affiliated with each axis depends on the chart orientation, which you can modify at any time.
+
+> 📘 At the core of every visualization is an underlying data table (derived from the data source) that supplies the information visualized by the chart. As you build a bar chart, Lifesight automatically calculates and structures the data to map the element properties to source columns in the underlying data table.
+
+### Add a bar chart
+
+Create a new visualization element and designate it as a bar chart.
+
+1. Open a Dashboard in Explore or Edit mode and add a new visualization element.
+2. In the Visualization property, click the dropdown field and select Bar from the list.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/bfec19a6f47b0def7d1c5ec75a25f4e7a55cc024b0e2ad4afc80a0be41f6aaa6-bar_visualization-type.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "500px"
+    }
+  ]
+}
+[/block]
+
+
+<br />
+
+### Define the categories
+
+Configure a source column to define the chart categories.
+
+When building a vertical bar chart (default orientation), apply the following steps to the X-axis property. When building a horizontal bar chart, apply the steps to the Y-axis property.
+
+1. In the applicable axis property, click Add column and select an option from the menu:
+
+   - To generate categories based on distinct values in an existing column, search or scroll the Select column list and select the preferred column name.
+   - To generate categories based on a custom formula, select New column and enter the formula in the toolbar. For example, when building a histogram, create a custom formula using the BinRange or BinFixed function to generate categories based on value ranges.
+
+   [block:image]{"images":[{"image":["https://files.readme.io/322d2330320608aeb6a501f6a85ba8c52bb8ab04391c3d639f61069fd18d4db8-bar_define-categories_step-1.png","",""],"align":"center","sizing":"700px"}]}[/block]
+2. [optional] Control how the source column data is categorized and displayed in the chart:
+   - Hover over the source column name, then click the caret () to open the column menu.
+   - Hover over any of the following items, then select the preferred option:
+     - **Truncate date**	Categorize date values by the selected interval or unit of measure.
+     - **Transform**	Convert the column to the selected data value type .
+     - **Format**	         Display axis and data labels in the selected format.
+
+> 📘 Availability of column menu items and corresponding options varies depending on the column’s data value type (for example, Truncate date is available for date values only).
+
+### Define the variable
+
+Configure a source column to define the chart variable. Lifesight automatically aggregates values associated with the same chart category.
+
+Apply the following steps to the Y-axis property when building a vertical bar chart (default orientation) or the X-axis property when building a horizontal bar chart. 
+
+1. In the applicable axis property, click  Add calculation and select an option from the menu:
+   - To aggregate values of an existing column, search or scroll the Aggregate column list and select the preferred column name.
+   - To calculate values based on a custom formula, select New column and enter the formula in the toolbar.
+   - To count the number of rows associated with each category, select Row count.
+2. [optional] Control how the source column data is calculated and displayed in the chart:
+   - Hover over the source column name, then click the caret to open the column menu.
+   - Hover over any of the following items, then select the preferred option:
+     - **Set aggregate**	Calculate values based on the selected aggregation method.
+     - **Transform**	Convert the column to the selected data value type.
+     - **Format** 	         Display axis and data labels in the selected format.
+3. [optional] Repeat the previous steps to add multiple y-axis source columns. Lifesight plots the columns as stacked or clustered series.
+4. [optional] Lifesight auto-generates source column names and chart titles to reflect the visualized data, but you can customize these fields as needed:
+   - To rename a source column, double-click the column name in the X-axis or Y-axis property, then enter a new name. Changes are reflected in the default chart title.
+   - To edit the chart title, double-click the title in the visualization, then enter a new title.
+
+### Advanced bar chart properties and formatting
+
+Lifesight features various properties and format options that give you the flexibility to build advanced bar charts and variations, including stacked, percent stacked, clustered (grouped), and dual-axis bar charts.
+
+The following sections introduce configurations that can enhance your bar charts and help you deliver specific insights with meaningful and actionable information.
+
+### Change orientation and stacking
+
+Change bar chart orientation and stacking in the  Element properties > Visualization property to optimize the way you compare data across and within categories.
+
+**Orientation**
+
+- **Vertical** - Categorize data on the x-axis and measure values on the y-axis to create vertical bar marks.
+- **Horizontal** - Categorize data on the y-axis and measure values on the x-axis to create horizontal bar marks.
+
+**Stacking**
+
+- **No stacking **- Plot multiple data series as separate bars within categories. Compare values across and within categories in the resulting clustered bar chart.
+- **Stacked** - Plot multiple data series as cumulative bar segments. Compare subcategory contributions to each category’s total sum value in the resulting stacked bar chart.
+- **Stacked 100%** - Plot multiple data series as stacked bars totaling 100% of each category’s total sum value. Compare subcategory distribution in the resulting percent stacked bar chart.
+
+### Configure mark colors
+
+You can configure the bar mark colors in the Element properties > Marks > Color tab to differentiate data, highlight specific values, use color to split bar values by category, or apply a color scale.
+
+**Mark color**
+
+- **Single color** - For each data series, enter a hex code or select an option from the color palette or color picker.
+- **By category** - Select a source column to define color categories, then select or customize a color palette for the resulting stacks or clusters.
+- **By scale** - Select a source column to define the color scale, then select a color range to apply to the marks.
+
+> 📘 Multiple variables in the y-axis (in a vertical bar chart) or x-axis (in a horizontal bar chart) result in a stacked or clustered bar chart in which each data series represents a measure of a different variable. The **By category** color setting can also generate bar stacks or clusters, but the resulting series represent sub-categories (within the configured chart categories) that measure the same variable.
+
+### Add conditional formatting
+
+When you select Single color in the  Element properties > Marks > Color tab, you can configure formatting rules (+ Add rule) that determine bar mark colors according to value-based conditions. This creates exceptions to the single-color selection, allowing you to highlight values that meet the specified conditions.
+
+_Example_:
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/c826ba5532c7058642da5d99f961863f0ca8ab868340df89bd4a4fad1ca97a3f-bar_marks_color_conditional-formatting.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "300px"
+    }
+  ]
+}
+[/block]
+
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/8eb14f1d84a0fd5970c436f8b5ed6e0c51faa4f903f7a694b8fc86c7307932b5-bar_conditional-formatting.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "400px"
+    }
+  ]
+}
+[/block]
+
+
+<br />
+
+<br />
+
+<br />
+
+> 📘 When the conditions of multiple rules are met, Lifesight applies the formatting rules in order of precedence, from top to bottom. Drag and drop rule blocks to reorder them as needed.
+
+### Customize tooltip fields and values
+
+Customize chart mark tooltip fields in the Element properties > Marks > Tooltip tab to display the most relevant metrics and data attributes. For more information, see Customize chart mark tooltip fields in this document.
+
+When you apply chart stacking, you can also customize tooltips in the  Element format > Tooltip section to display the variable value as a percentage of the cumulative stack.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/9adb65b8daf5efe35c403e9c011524ce09cf15884f178d20bbdc5db012ebabea-bar_format_tooltip.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "400px"
+    }
+  ]
+}
+[/block]
+
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/f330a174259fd9e310b0f0a81a125d4a77ef465e99c975bc08406a8199ddb692-Screenshot_2025-01-30_at_10.49.40_AM.png",
+        "",
+        ""
+      ],
+      "align": "center"
+    }
+  ]
+}
+[/block]
+
+
+<br />
+
+### Resize gap width
+
+Resize gaps between bar marks in the Element format > Gaps section. Gap widths are auto-sized to optimize readability, but Lifesight gives you the flexibility to customize bar chart spacing.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/bef6075b476826beea98aa17f09f42030eac3364e23dd2f6173b8e0ddd7337dd-bar_format_gap-width.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "400px"
+    }
+  ]
+}
+[/block]
+
+
+<br />
+
+<br />
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/681b437240ddb05af7f24a0109278b87a49b27d9998a111abebf5aa05cb2e59b-Screenshot_2025-01-30_at_10.51.47_AM.png",
+        "",
+        ""
+      ],
+      "align": "center"
+    }
+  ]
+}
+[/block]
+
+
+## Build a line chart
+
+Line charts are typically used to assess how values change over time. Create basic single-line charts to spot trends and identify anomalies in your dataset. You can also build advanced multi-line charts to analyze and compare multiple variables over the same period of time.
+
+This document details basic line chart requirements and introduces key properties and format options to help you enhance your Dashboard visualizations.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/21ad974331dc9601c01fc9bfc3768fece161cf0b205a24c499b0db8bad8007a9-2915739-line-graph.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "400px"
+    }
+  ]
+}
+[/block]
+
+
+<br />
+
+> 📘 Use cases example:
+> 
+> - Consumer packaged goods (CPG) analytics: Compare monthly profit margins by product category to understand profit trends and gain insight into overall business profitability.
+> - Manufacturing analytics: Track machine uptime percentage by the hour to identify productivity lapses and reliability issues.
+> - Air travel analytics: Assess monthly percentage of on-time flight departures by airline to understand seasonal patterns and compare operational efficiency across companies.
+
+### User Requirements
+
+The ability to create line charts and other visualizations requires the following:
+
+- You must be assigned an account type with the Edit Dashboard and/or Explore Dashboard permission enabled.
+- You must be the Dashboard owner or be granted Can explore or Can edit Dashboard permission.
+
+### Dashboard prerequisite
+
+Before you can build a line chart, you must add a new visualization element and select a data source.
+
+At the core of every visualization is an underlying data table (derived from the data source) that supplies the information visualized by the chart. Lifesight automatically groups, aggregates, and calculates the underlying data to create source columns for various visualization properties as you build a line chart. You can view the underlying data table while configuring the chart to see how the data is applied.
+
+> 📘 Line charts support up to 25,000 data points. If the configurations result in a data set that exceeds this limit, the chart displays the first 25,000 data points, and a warning message indicates that the chart is incomplete. To reduce the number of data points, aggregate the values or apply data filters to the visualization or source element.
+
+### Basic line chart requirements
+
+To plot a line chart, configure the following properties in the Element properties panel:
+
+**Chart**   Chart type displayed in the Dashboard  
+**X-axis**  Source column that defines the x-axis (horizontal axis) categories  
+**Y-axis**  Source column that defines the y-axis (vertical axis) variable
+
+In a line chart, the x-axis typically represents time-based categories (like dates, months, years) that correspond with individual data points. The y-axis represents a variable that measures a value (like sales, leads, expenses) for each category and determines the vertical placement of each data point.
+
+### Select the visualization type
+
+Once you add a new visualization to a Dashboard, select the visualization type:
+
+- In the Visualization property, click the dropdown field and select Line from the list.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/227169b22640dcc45657a1bea3501d7a2344e62e6e2c0d325c9d2e3ed85e6ddc-a4c77f1-line_visualization-type.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "400px"
+    }
+  ]
+}
+[/block]
+
+
+<br />
+
+### Define the x-axis categories
+
+Configure a source column to define the x-axis categories.
+
+1. In the X-axis property, click Add column and select an option from the menu:
+
+- To generate categories based on distinct values in an existing column, search or scroll the Select column list and select the preferred column name.
+- To generate categories based on a custom formula, select New column and enter the formula in the toolbar.
+
+2. [optional] Control how the source column data is categorized and displayed in the chart:
+
+- Hover over the source column name, then click the caret () to open the column menu.
+- Hover over any of the following items, then select the preferred option:
+  - **Truncate date**  Categorize date values by the selected interval or unit of measure.
+  - **Transform**        Convert the column to the selected data value type.
+  - **Format**              Display axis and data labels in the selected format.
+
+### Define the y-axis variable
+
+Configure a source column to define the y-axis variable. Lifesight automatically aggregates values associated with the same x-axis category.
+
+1. In the Y-axis property, click Add calculation and select an option from the menu:
+
+- To aggregate values of an existing column, search or scroll the Aggregate column list and select the preferred column name.
+- To calculate values based on a custom formula, select New column and enter the formula in the toolbar.
+- To count the number of rows associated with each category, select Row count.
+
+> 📘 You can also select an existing column by dragging and dropping a column name from the Columns list to the Y-axis property.
+
+2. [optional] Control how the source column data is calculated and displayed in the chart:
+
+- Hover over the source column name, then click the caret () to open the column menu.
+- Hover over any of the following items, then select the preferred option:
+  - **Set aggregate**  Calculate values based on the selected aggregation method.
+  - **Transform**         Convert the column to the selected data value type.
+  - **Format**               Display axis and data labels in the selected format.
+
+> 📘 To plot the source column data without aggregating values, clear the Aggregate values checkbox in the Y-axis property. If this results in an incomplete chart that exceeds the 25,000 data point limit, reaggregate the values or apply data filters to reduce the number of data points.
+
+<br />
+
+3. [optional] Repeat the previous steps to configure multiple y-axis source columns. Lifesight plots each as a separate line series on the chart.
+4. [optional] Lifesight auto-generates source column names and chart titles to reflect the visualized data, but you can customize these fields as needed:
+
+- To rename a source column, double-click the column name in the X-axis or Y-axis property, then enter a new name. Changes are reflected in the default chart title.
+- To edit the chart title, double-click the title in the visualization, then enter a new title.
+
+> 📘 Lifesight auto-generates the default chart title only. Once the title is customized, it no longer reflects changes to source columns and their names.
+
+### Advanced line chart properties
+
+Lifesight features various properties and format options that give you the flexibility to build advanced line charts and variations, including multi-line, step-line, and dual-axis line charts.
+
+The following sections introduce configurations that can enhance your line charts and help you deliver specific insights with meaningful and actionable information.
+
+**Configure mark colors**
+
+Configure line mark colors in the Element properties > Marks > Color tab to differentiate data, highlight associations, or add a color category.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/6e7c16fda1e9765035d4b8570877ccb8e22ce03cf829b5a2ee5f1627bc026ccf-6f4f6ed-line_marks_color.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "400px"
+    }
+  ]
+}
+[/block]
+
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/7e5d7ec5af5014f4048ea0a9f90fc705999621e94d567358178b45d419e1aeca-Screenshot_2025-01-30_at_11.19.15_AM.png",
+        "",
+        ""
+      ],
+      "align": "center"
+    }
+  ]
+}
+[/block]
+
+
+> 📘 Multiple variables in the y-axis result in a multi-line chart in which each data series represents a measure of a different variable. The By category color setting can also generate a multi-line chart, but the resulting series represent sub-categories (within the x-axis categories) that measure the same variable.
+
+### Customize line style
+
+Customize line styles in the  Element format > Line Style section. When the line chart contains multiple y-axis variables, you can modify the different data series individually or together.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/a4b3b4452ce8b0055d356968daf4d30be52f076b24da0f9066d109b4b864c5dd-dfe5197-line_format_line-style.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "300px"
+    }
+  ]
+}
+[/block]
+
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+In addition to customizing the line pattern (solid, dashed, or dotted) and weight (1-5px), you can choose the type of interpolation path:
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/45f8d40bf9dceaf344ee05f8e489ae700050ceccc9c7514352f104050bd25416-Screenshot_2025-01-30_at_11.21.51_AM.png",
+        "",
+        ""
+      ],
+      "align": "left"
+    }
+  ]
+}
+[/block]
+
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+You can also show or hide individual data points and control how the line chart handles null values:
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/648e537d85488b652b7194c9dce629366f42e851bb8495bde4632d6476516dcb-Screenshot_2025-01-30_at_11.23.29_AM.png",
+        "",
+        ""
+      ],
+      "align": "center"
+    }
+  ]
+}
+[/block]
+
+
+By default, line charts hide distinct data points between line connections. If you select the Show points checkbox, you can display the points and customize their size (2-15px) and shape:
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/9c84b70d3515d61f344c8108d4cfe612d417f8c23c71a8108dbecfb80b73ed24-Screenshot_2025-01-30_at_11.24.34_AM.png",
+        "",
+        ""
+      ],
+      "align": "center"
+    }
+  ]
+}
+[/block]
+
+
+## Build a KPI chart
+
+> 📘 Lifesight's KPI visualization element has replaced the Single Value visualization (SVV) option.
+
+Key performance indicator (KPI) charts highlight single metric values typically used to measure performance or progress toward goals. Create a KPI chart to summarize the total value of a metric for a specific period, or include additional data to compare the metric’s value over time and measure it against a benchmark or target value.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/b96f85ff9b7c2faa59626c38e1b470e251caa85da3ae067b35c912edf864dde5-kpi-chart_intro.png",
+        "",
+        ""
+      ],
+      "align": "center"
+    }
+  ]
+}
+[/block]
+
+
+> 📘 Use cases example:
+> 
+> - Marketing analytics: Track click-through rates to highlight email campaign performance over time.
+> - Executive Dashboarding: Measure monthly year-over-year revenue to understand how the current month’s revenue compares to the previous year benchmark.
+> - Manufacturing analytics: Report cycle time to analyze the amount of time it takes a product to complete the manufacturing process.
+
+### User requirements
+
+The ability to create KPI charts and other visualizations requires the following:
+
+- You must be assigned an account type with the Edit Dashboard and/or Explore Dashboard permission enabled.
+- You must be the Dashboard owner or be granted Can explore or Can edit Dashboard permission.
+
+> 📘 If you’re granted Can explore access to the Dashboard, you can create and modify visualization properties and formatting in Explore mode, but you cannot publish your changes.
+
+### KPI chart variations
+
+Lifesight’s KPI charts allow you to track and display metrics in various ways depending on how you configure the element properties.
+
+**Static variations**
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/8ecc993e4f860cd2babb7987e12d4cdf6d28d3826a8a9b229212e66209a9fdc9-kpi_chart-variations_summary-value.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "400px"
+    }
+  ]
+}
+[/block]
+
+
+**Summary value**  
+Summarize the metric's global value to understand overall performance or magnitude.
+
+The KPI chart highlights the global summary, which aggregates the metric values across the entire dataset.
+
+Required element properties:  
+Value
+
+<br />
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/ea621d40abfc8a7b8642aef65f6a2773a2fe2259ed5ef733e1c6ec3b2e6695ff-kpi_chart-variations_summary-value-comparison.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "400px"
+    }
+  ]
+}
+[/block]
+
+
+**Benchmark summary comparison**  
+Summarize a metric's global value against a benchmark or target value. Assess relative performance and gain insight into patterns, relationships, and correlations.
+
+The KPI chart highlights the global summary, which aggregates the metric values across the entire dataset. It also displays a comparison as a percentage, delta, or absolute value.
+
+<br />
+
+Required element properties:  
+Value  
+Comparison (Column)
+
+**Time series variations**
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/94c31b637b7157bab8c6f3692d1120c1ac491c6d6c00335fc72be61132d6f492-kpi_chart-variations_period-value.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "400px"
+    }
+  ]
+}
+[/block]
+
+
+**Period value**  
+Measure a metric's period value to analyze performance during a specific time interval (like week, month, or year).
+
+The KPI chart highlights the latest period value or global summary, and it can display a trend line that illustrates patterns and changes across sequential time periods.
+
+<br />
+
+<br />
+
+Required element properties:  
+Value  
+Timeline
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/3be0b513100b1fb6a67817411d2cf1413e2fd9f8f82fe2c3880a1534f329dfda-kpi_chart-variations_period-comparison.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "400px"
+    }
+  ]
+}
+[/block]
+
+
+**Period comparison**  
+Measure a metric’s value in one period (like week, month, or year) against another to perform a sequential or period-over-period comparison.
+
+The KPI chart highlights the latest period value or global summary, and it can display the comparison as a percentage, delta, or absolute value. It can also include a trend line that illustrates patterns and changes over time.
+
+Required element properties:  
+Value  
+Timeline  
+Comparison (Period)
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/48b4c2ee5e3b86f4ae1b2fe54296dadd9c2478e91e1b0984102e3aa354c956ee-kpi_chart-variations_period-value-comparison.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "400px"
+    }
+  ]
+}
+[/block]
+
+
+**Benchmark period comparison**  
+Compare a metric's period value against a benchmark or target to assess relative performance and gain insight into patterns, relationships, and correlations.
+
+The KPI chart highlights the latest period value or global summary, and it can display a comparison as a percentage, delta, or absolute value. It can also include a trend line for both values to illustrate patterns and changes over time.
+
+Required element properties:  
+Value  
+Timeline  
+Comparison (Column)
+
+> 📘 When loading or refreshing a Dashboard, Lifesight typically sends a separate query for each data element. If the Dashboard contains multiple static KPI charts (summary value and benchmark summary comparison variations) that share a data source, Lifesight employs query batching. This consolidates the data requests from all applicable KPI charts into a single query to reduce query processing overhead and optimize performance. Time series KPI charts (period value, period comparison, and benchmark period comparison variations) send separate queries to the database and aren't included in query batching.
+
+### Basic KPI chart configurations
+
+Build a basic KPI chart by configuring the following element properties:
+
+- **Chart**             Chart type displayed in the Dashboard
+- **Value**             Calculation that determines the metric value
+- **Timeline**        Date data that defines the reporting period
+- **Comparison**  Period or calculation that defines the comparison value
+
+> 📘 At the core of every visualization element is its underlying data, which supplies the information the chart visualizes. As you build a KPI chart, Lifesight automatically calculates and structures your data to associate element properties with columns ("source columns") in the underlying data table.
+> 
+> When you configure a property by aggregating an existing column, adding a custom formula or value, or applying the row count, Lifesight creates a new source column.  
+> For information about how to view the underlying data while you configure the chart, see Maximize or minimize a data element.
+
+### Add a KPI chart element
+
+Create a visualization element and designate it as a KPI chart.
+
+> 📘 You can also create a new KPI chart directly from a summary value in a table element. Right-click the table summary to open the menu, then select Create KPI element.
+
+1. Open a Dashboard in Explore or Edit mode and add a new visualization element.
+2. In the Visualization property, click the dropdown field and select KPI from the list.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/e6bfe7e17f489fe2e9dedb4839fd92a154aa60d49ba6e4394b5aafd953729dfb-kpi_visualization-type.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "450px"
+    }
+  ]
+}
+[/block]
+
+
+### Calculate the metric
+
+Configure the Value property to calculate the metric. This configuration is required to build any KPI chart variation.
+
+1. In the Value property, click  Add calculation, then use one of the following methods to calculate the metric:
+
+- To aggregate the values of an existing column, search or scroll the Aggregate column list and select the preferred column.
+- To add a custom calculation or value, select Add new column, then enter the calculation or value in the formula bar.
+- To count the number of rows in the underlying dataset, select Row count.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/166fb0995ce0f06ed6094da9804431674f618fb30da77271c884458dce0930f7-kpi_define-metric-value_step-1a.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "450px"
+    }
+  ]
+}
+[/block]
+
+
+When the Timeline property is not configured, the chart displays the metric's global summary value, which aggregates all data points in the resulting Value property source column. If you deselect the Aggregate values checkbox, one value from the column is selected and displayed instead of a global summary.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/e444241b6f838d33c3d3c7b1a01f5bdfdf26c05c3c16c20e483c7922b7597974-kpi_define-metric-value_step-1b.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "450px"
+    }
+  ]
+}
+[/block]
+
+
+When you add a metric, the values are automatically aggregated and the Aggregate values checkbox is selected
+
+2. [optional] If you want to control how the metric is measured and formatted, leave the Aggregate values checkbox selected and adjust the aggregate, data type, or format of the metric value using the column menu or formula toolbar:
+   - In the Value property, hover over the column name, then click the caret () to open the column menu.
+   - Hover over any of the following items and select the preferred option:
+
+- **Set aggregate**  Measure the metric based on the selected aggregation method.
+- **Transform**         Convert the column to the selected data value type.
+- **Format**               Display the metric value in the selected format.
+
+For example, you can format a sum of profit KPI to display using SI units:
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/612d284beb624181e408f9728e95dfb867a28f8fa871aee0feb68af39f7127e2-kpi_define-metric-value_step-2a.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "450px"
+    }
+  ]
+}
+[/block]
+
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/cb633e4b7f53632df1be5cba401841bf2c4776318a24a6f9bcc83b1f912c023e-kpi_define-metric-value_step-2b.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "450px"
+    }
+  ]
+}
+[/block]
+
+
+### Define the reporting period
+
+Configure the Timeline property to define the reporting period for the time series. This configuration is required to build a period value, period comparison, or benchmark period comparison KPI chart.
+
+1. In the Timeline property, click  Add column, then use one of the following methods to define the reporting period:
+
+- To derive the period from an existing date column, search or scroll the Select column list and select the preferred column.
+- To create a period based on a new date column, select Add new column, then enter a date function or value in the formula bar.
+
+> 📘 The Timeline property supports date columns only. You cannot select or create a column that does not contain date data.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/5c77af915bfeb169ed2c1b8f432970e5e32ae97cdc0945442acd2be9bb7abef0-kpi_define-measurable-period_step-1a.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "450px"
+    }
+  ]
+}
+[/block]
+
+
+When a source column is added to the Timeline property, two changes occur in the chart:
+
+- The chart now displays the metric's latest period value, which aggregates the Value property source column data for the most recent period. To change the default display value to the global summary, proceed to the next step.
+- If the element layout size allows, the chart displays a trend line, which you can hover over to view previous period values. 
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/a2ee1ca657e378e9d6d2f666e52c2cd9d372a16b2912c79c856441220e56530b-kpi_define-measurable-period_step-1b.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "450px"
+    }
+  ]
+}
+[/block]
+
+
+2. [optional] Change the default display type (the value displayed when not interacting with the trend line):
+
+- In the Value property, hover over the source column name, then click the caret () to open the column menu.
+- Hover over Default display type and select an option:
+
+  - **Latest period**       Display the aggregate value for the most recent period in the time series.
+  - **Global summary**  Display the aggregate value for all periods in the time series.
+
+  [block:image]{"images":[{"image":["https://files.readme.io/570141eecf83606effe8ecf6bb555ce33faf4c5423596fdfda56a1c8147565ee-kpi_define-period_change-default-display-type.png","",""],"align":"center","sizing":"450px"}]}[/block]
+
+3. [optional] Control how the period is measured and formatted:
+
+- In the Timeline property, hover over the column name, then click the caret () to open the column menu.
+- Hover over any of the following items and select the preferred option:
+  - **Truncate date**    Measure the metric value based on the selected period.
+  - **Format**                Display the period date in the selected format.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/1016dffa7485d729e3e3dc0cdd883e62ad276bb3547cc3558dfdea9f73a7b22a-kpi_define-measurable-period_step-2.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "450px"
+    }
+  ]
+}
+[/block]
+
+
+### Select a comparison period
+
+Configure the Comparison > Period property to measure a sequential or period-over-period comparison for the metric. This configuration is required to build a period comparison KPI chart.
+
+When the benchmark or target value is null (for example, the first week in a sequential week-over-week analysis), the comparison value and label are hidden.
+
+1. In the Comparison property, enable the Period option. If a source column is configured in the Timeline property, the option is automatically enabled.
+2. Open the dropdown and select a type of period comparison.
+
+> 📘 Configuring a column in the Timeline property automatically engages the Comparison property. To build a KPI chart that highlights the period value of a metric without displaying a comparison, ensure the dropdown is set to None.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/94fad8e1c28ad387b16de2700cf91d9f8b4465f1542ef074fe1b4e9ca56949ac-kpi_define-comparison-period_step-2a.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "450px"
+    }
+  ]
+}
+[/block]
+
+
+By default, a comparison value displays as a percentage. To instead display a delta or absolute value, customize the comparison in the Element format panel.
+
+### Select a comparison value
+
+Configure the Comparison > Column property to measure the metric against a benchmark or target value. This configuration is required to build a benchmark summary comparison or benchmark period comparison KPI chart.
+
+1. In the Comparison property, click  Add calculation, then use one of the following methods to calculate the benchmark or target value:
+
+- To aggregate values in an existing column, search or scroll the Aggregate column list and select the preferred column.
+- To add a custom calculation or value, select Add new column, then enter the calculation or value in the formula bar.
+- To count the number of rows in the underlying dataset, select Row count.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/0c75ed3df0a6b9a3a3e9b0a939913794e040c1618d1aaebdd9b87917a6e07877-kpi_define-comparison-value_step-2a.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "450px"
+    }
+  ]
+}
+[/block]
+
+
+By default, a comparison value displays as a percentage. To instead display a delta or absolute value, customize the comparison in the Element format panel.
+
+2. [optional] Control how the benchmark or goal is measured and formatted:
+
+- In the Comparison property, hover over the column name, then click the caret () to open the column menu.
+- Hover over any of the following items and select the preferred option:
+
+  - **Set aggregate**     Measure the metric based on the selected aggregation method.
+  - **Transform**            Convert the column to the selected data value type.
+
+  [block:image]{"images":[{"image":["https://files.readme.io/0c139ef5f82550a663c26a1a02e8efc774d2e2043fd53d02c0b4ee017a5e3385-kpi_define-comparison-value_step-3.png","",""],"align":"center","sizing":"450px"}]}[/block]
+
+<br />
+
+### Advanced KPI chart properties and formatting
+
+Lifesight features various properties and format options that give you the flexibility to build detailed KPI charts.
+
+The following sections introduce configurations that can enhance your charts and help you deliver specific insights with meaningful and actionable information.
+
+### Change the value color
+
+Change the metric value’s font color in the  Element properties > Marks > Color tab. This determines the default color of the metric value, which can be overridden by conditional formatting rules.
+
+> 📘 The Color property (including conditional formatting) applies to the metric value only and doesn’t affect the element title or comparison font.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/9ea1d100491d87d725e55bff54cdeaa1f5613be56ac1b8bd7528f2cf8ba31181-kpi_properties_marks_color.png",
+        "",
+        ""
+      ],
+      "align": "left"
+    }
+  ]
+}
+[/block]
+
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/623903e1870db02b53c516b3a81f4f766189632f9f63e3c3a581d3bb90169c52-kpi_marks_color.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "300px"
+    }
+  ]
+}
+[/block]
+
+
+<br />
+
+### Add conditional formatting
+
+Configure formatting rules rules (click + Add rule) in the  Element properties > Marks > Color tab to change the metric value’s font color according to value-based conditions. This allows you to highlight or emphasize the value when it meets the specified conditions.
+
+### Customize the value font
+
+Customize the metric value’s font weight, color, and size in the  Element format > Value section.
+
+> 📘 The Value format settings apply to the metric value only and don’t affect the element title or comparison font. If you change the font color in this section, the font color is also changed in the element’s Color property.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/37153d9a20617383321c6780829fe654b2ef76f6c431f8b519cf487c94736b2c-kpi_format_value.png",
+        "",
+        ""
+      ],
+      "align": "center"
+    }
+  ]
+}
+[/block]
+
+
+<br />
+
+### Customize the comparison display
+
+Customize the comparison display in the  Element format > Comparison section.
+
+In addition to modifying the color indicators, you can change the font size of the comparison value, show or hide the label, and customize the label content.  
+You can also select the type of comparison displayed and identify the favorable direction of the comparison. The Direction setting determines when the Good color, Neutral color, and Bad color indicators apply to the comparison value.  
+Display
+
+% difference from  
+Display the percent of increase or decrease relative to the comparison value.
+
+Difference from  
+Display the numerical increase or decrease relative to the comparison value.
+
+% of  
+Display the percent of the comparison value.
+
+Absolute  
+Display the absolute value of the comparison period or column.
+
+Direction
+
+Higher is better  
+Apply the Good color selection to increased comparative values and the Bad color selection to decreased comparative values.
+
+Lower is better  
+Apply the Good color selection to decreased comparative values and the Bad color selection to increased comparative values.
+
+None  
+Apply no color indicator to the comparative value.
+
+Customize the trend line  
+Customize the trend line in the  Element format > Trend section.
+
+In addition to showing and hiding the trend line, you can select the trend line shape (line or area) and customize its colors.  
+Shape
+
+Line  
+Area
+
+You can also enable tooltips on hover, display the x-axis with timeline tick marks and labels, and display the y-axis with grid lines and labels.  
+Display options
+
+Show tooltip  
+Show timeline axis  
+Show y-axis
+
+Customize the chart layout  
+Customize the chart layout in the  Element format > Layout section.
+
+Change the alignment of the text components, and select the location of the title and comparison value.
