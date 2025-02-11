@@ -20,9 +20,9 @@ Saturation transformation is used to mathematically model this phenomenon in mar
 
 Saturation is crucial for optimizing advertising spend. If saturation is not taken into account, a marketing model might overestimate the effectiveness of additional ad spend, leading to **inefficient budget allocation**. Understanding saturation helps marketers:
 
-- **Avoid wasteful spending**: By knowing when additional ad spend on a channel will yield minimal returns.
-- **Maximize ROI**: Ensuring that every additional dollar spent generates meaningful impact.
-- **Balance media channels**: Distribute budget across channels more effectively, especially when one channel is nearing saturation.
+* **Avoid wasteful spending**: By knowing when additional ad spend on a channel will yield minimal returns.
+* **Maximize ROI**: Ensuring that every additional dollar spent generates meaningful impact.
+* **Balance media channels**: Distribute budget across channels more effectively, especially when one channel is nearing saturation.
 
 In essence, saturation transformation allows marketers to model the **non-linear relationship** between ad spend and consumer response, ensuring that budget decisions are made based on realistic expectations of performance.
 
@@ -61,18 +61,18 @@ Saturation(t) = 1 / (1 + (Gamma / Spend(t))^Alpha)
 
 Where:
 
-- **Saturation(t)** is the transformed response after applying saturation.
-- **Spend(t)** is the advertising spend in period `t`.
-- **Gamma (γ)** controls the **inflexion point** of the curve, or the point where diminishing returns start.
-- **Alpha (α)** controls the **shape** of the curve, determining whether the response curve is more **S-shaped** or **C-shaped**.
+* **Saturation(t)** is the transformed response after applying saturation.
+* **Spend(t)** is the advertising spend in period `t`.
+* **Gamma (γ)** controls the **inflexion point** of the curve, or the point where diminishing returns start.
+* **Alpha (α)** controls the **shape** of the curve, determining whether the response curve is more **S-shaped** or **C-shaped**.
 
 ### How Alpha (α) and Gamma (γ) Work:
 
-- **Alpha (α)**: 
-  - A higher value of **alpha** creates a steeper S-shape, meaning that the response grows quickly at the start and then flattens out sharply as saturation kicks in. 
-  - A lower value of **alpha** produces a more gradual, C-shaped curve, where the response flattens more slowly.
-- **Gamma (γ)**: 
-  - Controls the **inflexion point**—the point on the curve where the response starts to saturate. A lower **gamma** means that saturation starts early (with a lower spend), while a higher **gamma** shifts the inflexion point, indicating that higher spend is required before diminishing returns occur.
+* **Alpha (α)**: 
+  * A higher value of **alpha** creates a steeper S-shape, meaning that the response grows quickly at the start and then flattens out sharply as saturation kicks in. 
+  * A lower value of **alpha** produces a more gradual, C-shaped curve, where the response flattens more slowly.
+* **Gamma (γ)**: 
+  * Controls the **inflexion point**—the point on the curve where the response starts to saturate. A lower **gamma** means that saturation starts early (with a lower spend), while a higher **gamma** shifts the inflexion point, indicating that higher spend is required before diminishing returns occur.
 
 ***
 
@@ -88,8 +88,8 @@ Let’s say you’re running an online video campaign. Initially, as you increas
 
 In this case:
 
-- A **high alpha** would create a steep, S-shaped curve, indicating that returns increase rapidly and then drop off sharply.
-- A **high gamma** would delay the point at which saturation occurs, meaning that the channel can handle higher levels of investment before returns start to diminish.
+* A **high alpha** would create a steep, S-shaped curve, indicating that returns increase rapidly and then drop off sharply.
+* A **high gamma** would delay the point at which saturation occurs, meaning that the channel can handle higher levels of investment before returns start to diminish.
 
 ### 2. **C-Shaped Curve**:
 
@@ -101,8 +101,8 @@ If you’re running a paid search campaign for a niche product, increasing the b
 
 In this case:
 
-- A **low alpha** produces a C-shaped curve, reflecting a gradual decline in effectiveness.
-- A **low gamma** means that saturation starts early, meaning that even a modest level of spend leads to diminishing returns.
+* A **low alpha** produces a C-shaped curve, reflecting a gradual decline in effectiveness.
+* A **low gamma** means that saturation starts early, meaning that even a modest level of spend leads to diminishing returns.
 
 ***
 
@@ -122,8 +122,8 @@ Suppose your saturation analysis shows that spending $50,000 on Facebook ads del
 
 Saturation analysis allows marketers to adjust their strategies for different types of campaigns:
 
-- **Short-term campaigns**: Channels like search or display ads may reach saturation quickly, so you can focus on maximizing impact within a narrow window.
-- **Long-term brand-building campaigns**: Channels like TV, radio, or video may take longer to saturate, allowing for sustained investment over time without quickly reaching diminishing returns.
+* **Short-term campaigns**: Channels like search or display ads may reach saturation quickly, so you can focus on maximizing impact within a narrow window.
+* **Long-term brand-building campaigns**: Channels like TV, radio, or video may take longer to saturate, allowing for sustained investment over time without quickly reaching diminishing returns.
 
 ### 3. **Understanding Marginal ROI**
 
@@ -141,21 +141,21 @@ The correct choice of parameters in the Hill function depends on the characteris
 
 ### High Alpha (S-shaped curve):
 
-- **Best for brand-building campaigns**: When you need repeated exposures before consumer response kicks in.
-- **Ideal for high-reach channels**: Such as TV, radio, and online video, where the goal is to build awareness and reach a large audience before saturation.
+* **Best for brand-building campaigns**: When you need repeated exposures before consumer response kicks in.
+* **Ideal for high-reach channels**: Such as TV, radio, and online video, where the goal is to build awareness and reach a large audience before saturation.
 
 ### Low Alpha (C-shaped curve):
 
-- **Best for highly targeted digital campaigns**: Where even small increases in spend generate diminishing returns.
-- **Ideal for niche products**: Where the target audience is small, and the saturation point is reached quickly.
+* **Best for highly targeted digital campaigns**: Where even small increases in spend generate diminishing returns.
+* **Ideal for niche products**: Where the target audience is small, and the saturation point is reached quickly.
 
 ### High Gamma:
 
-- **Best for channels with higher tolerance for spend**: Channels like TV or video where saturation occurs only after substantial investment.
+* **Best for channels with higher tolerance for spend**: Channels like TV or video where saturation occurs only after substantial investment.
 
 ### Low Gamma:
 
-- **Best for early saturation channels**: Channels like paid search or display ads, where the saturation point occurs after relatively low spend.
+* **Best for early saturation channels**: Channels like paid search or display ads, where the saturation point occurs after relatively low spend.
 
 ***
 
