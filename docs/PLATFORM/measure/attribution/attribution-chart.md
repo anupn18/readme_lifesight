@@ -22,22 +22,7 @@ This dropdown field lets users, choose any Attribution metric across any of thes
 4. **Ad Groups** - Select 1 or multiple ad groups from all your connected Attribution channels to view your selected metric
 5. **Ads** - Choose any 1 or multiple ads from all your connected Attribution channels to view your selected metric
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f45a8bc278156e0a8bc8bb543696d5453be4ffd13944209520b914c2e018a00e-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "600px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="600px" src="https://files.readme.io/f45a8bc278156e0a8bc8bb543696d5453be4ffd13944209520b914c2e018a00e-image.png" />
 
 <br />
 
@@ -60,22 +45,7 @@ Users can choose any metric, time period, attribution model or attribution windo
 
 Plot your metrics on a daily, weekly or monthly basis based on your preference. 
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/95c427964605eaedb49078d222380986da40e57ff37d6f4c2282b5d90b7eb64b-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "200px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="200px" src="https://files.readme.io/95c427964605eaedb49078d222380986da40e57ff37d6f4c2282b5d90b7eb64b-image.png" />
 
 <br />
 
@@ -89,18 +59,4 @@ Plot your metrics on a daily, weekly or monthly basis based on your preference.
 
 <br />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/ee295c9cefbdc08ba5ba7e52298e68e6d7f26db983d0ff6c1945b72e652f235c-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "400px"
-    }
-  ]
-}
-[/block]
+<Image align="center" width="400px" src="https://files.readme.io/ee295c9cefbdc08ba5ba7e52298e68e6d7f26db983d0ff6c1945b72e652f235c-image.png" />
