@@ -12,21 +12,7 @@ next:
 ---
 What-if analysis enables users to explore the potential impacts of various scenarios on their marketing strategies. This methodology assesses the outcomes of different actions, interventions, or treatments in a structured manner, providing valuable foresight into future possibilities.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/42c84b9e0add3521edb53a33f4893d47c5a9ba6793055d5fe73d22fd98d997fa-wha.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/42c84b9e0add3521edb53a33f4893d47c5a9ba6793055d5fe73d22fd98d997fa-wha.jpg" />
 
 ## Version
 
@@ -36,10 +22,10 @@ What-if analysis enables users to explore the potential impacts of various scena
 
 asdasd
 
-- Scenario name - 
-- Variable - 
-- Current value - 
-- Target Value - 
+* Scenario name - 
+* Variable - 
+* Current value - 
+* Target Value - 
 
 Click `Analyze` to simulate the results of the causal model.
 
@@ -47,10 +33,10 @@ Click `Analyze` to simulate the results of the causal model.
 
 asdfasdfasdf
 
-- Name - 
-- Created at - 
-- Current KPI - 
-- Predicted KPI - 
+* Name - 
+* Created at - 
+* Current KPI - 
+* Predicted KPI - 
 
 # How to create a What-if Scenario
 
