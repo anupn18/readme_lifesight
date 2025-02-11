@@ -14,22 +14,9 @@ Audience segments are crucial for any data-driven marketing strategy, enabling b
 
 ## View interactive demo
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/af2ab0e0dc83b97766c1290be610ce624ad0753f4d37e4a953f8ac1e035a2c6a-image.png",
-        null,
-        "[Click here](https://lifesight.storylane.io/share/j0eqxm1xjrsp) to view interactive demo in fullscreen"
-      ],
-      "align": "center",
-      "caption": "[Click here](https://lifesight.storylane.io/share/j0eqxm1xjrsp) to view interactive demo in fullscreen"
-    }
-  ]
-}
-[/block]
-
+<Image alt="[Click here](https://lifesight.storylane.io/share/j0eqxm1xjrsp) to view interactive demo in fullscreen" align="center" src="https://files.readme.io/af2ab0e0dc83b97766c1290be610ce624ad0753f4d37e4a953f8ac1e035a2c6a-image.png">
+  [Click here](https://lifesight.storylane.io/share/j0eqxm1xjrsp) to view interactive demo in fullscreen
+</Image>
 
 <br />
 
