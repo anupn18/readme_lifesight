@@ -17,21 +17,7 @@ Traditional ML approaches can primarily only detect trends and patterns. It is n
 
 Associations (in Data) can be thought of as a function of Causation and Bias. Causal Inference techniques provides us with certain tools and approaches to handle the Bias part, so that Associations can be used to infer Causation.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/4cadd1816a961fc41de87e669e12f4d7990fa0db1f30fd468224611ba71e638a-Screenshot_2025-01-22_at_12.29.42_PM.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/4cadd1816a961fc41de87e669e12f4d7990fa0db1f30fd468224611ba71e638a-Screenshot_2025-01-22_at_12.29.42_PM.png" />
 
 \_[Causal Inference could be thought of as the process to address the Bias algorithmically ]\_
 
@@ -68,21 +54,7 @@ This is how we go about introducing causality into our process
 3. We use a combination of Ridge Regression, Nested Models & Hierarchical models to quasi-causally understand the marginal, incremental and average effects of all the interactions
 4. We also incorporate experiment result through a [calibration](https://docs.lifesight.io/docs/calibration) process to incorporate causal inputs to the model
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/80ddbc93d67b5819125d4b614bdd1dabc097838d5d1b20eb99e0e7793c1f08f4-DAGg.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/80ddbc93d67b5819125d4b614bdd1dabc097838d5d1b20eb99e0e7793c1f08f4-DAGg.jpg" />
 
 <br />
 
