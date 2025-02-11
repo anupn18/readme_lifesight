@@ -18,8 +18,8 @@ In this article, we’ll explain how Lifesight calculates Return on Ad Spend (RO
 
 ROAS (Return on Ad Spend) is an important metric that tells you how much revenue you earn for each dollar you spend on advertising. There are two main ways ROAS is calculated:
 
-- **Platform ROAS**: This is the ROAS calculated directly by advertising platforms like Google Ads or Facebook Ads. It uses platform-attributed revenue divided by the total spend on the platform.
-- **Lifesight ROAS**: Calculated by tracking customer journeys with Lifesight’s SDK. Lifesight's ROAS gives you a more accurate view of revenue attribution by factoring in interactions across devices and touchpoints.
+* **Platform ROAS**: This is the ROAS calculated directly by advertising platforms like Google Ads or Facebook Ads. It uses platform-attributed revenue divided by the total spend on the platform.
+* **Lifesight ROAS**: Calculated by tracking customer journeys with Lifesight’s SDK. Lifesight's ROAS gives you a more accurate view of revenue attribution by factoring in interactions across devices and touchpoints.
 
 ### How Platform ROAS is Calculated
 
@@ -31,9 +31,9 @@ Here, the revenue and spend data are obtained directly from the platform once yo
 
 #### Example:
 
-- Ad Spend: $1,000
-- Revenue attributed by platform: $5,000
-- **Platform ROAS** = $5,000 / $1,000 = 5.0
+* Ad Spend: $1,000
+* Revenue attributed by platform: $5,000
+* **Platform ROAS** = $5,000 / $1,000 = 5.0
 
 This means for every $1 spent, you earned $5 in revenue according to the platform.
 
@@ -59,9 +59,9 @@ By using first-party data, Lifesight’s calculation provides a more holistic un
 
 #### Example:
 
-- Ad Spend: $1,000
-- Revenue attributed by Lifesight: $7,000
-- **Lifesight ROAS** = $7,000 / $1,000 = 7.0
+* Ad Spend: $1,000
+* Revenue attributed by Lifesight: $7,000
+* **Lifesight ROAS** = $7,000 / $1,000 = 7.0
 
 This means Lifesight shows that for every $1 spent, you're actually earning $7, offering a more comprehensive understanding of your marketing performance.
 
