@@ -20,17 +20,17 @@ Geo Experiments use geographical locations to create test and control groups to 
 
 ## Key Components in Geo tests:
 
-- Control Regions: Areas where no changes are made, serving as a baseline.
-- Test Regions: Areas where marketing interventions are applied.
+* Control Regions: Areas where no changes are made, serving as a baseline.
+* Test Regions: Areas where marketing interventions are applied.
 
 ## Geo-testing includes two approaches:
 
-- Holdout experiment: Marketing is withheld from the control group to establish a baseline.
-- Scale-up experiment: After positive initial results, the campaign is expanded with more budget for the treatment group.
+* Holdout experiment: Marketing is withheld from the control group to establish a baseline.
+* Scale-up experiment: After positive initial results, the campaign is expanded with more budget for the treatment group.
 
 ## Benefits of Geo-testing:
 
-- Market insights: Understand how regional differences impact campaign performance.
-- Data-driven decisions: Make informed choices based on actual results, not assumptions.
-- Risk reduction: Test changes in a controlled setting to minimize risk.
-- Improved ROI: Optimize budget allocation by identifying successful strategies in specific regions.
+* Market insights: Understand how regional differences impact campaign performance.
+* Data-driven decisions: Make informed choices based on actual results, not assumptions.
+* Risk reduction: Test changes in a controlled setting to minimize risk.
+* Improved ROI: Optimize budget allocation by identifying successful strategies in specific regions.
