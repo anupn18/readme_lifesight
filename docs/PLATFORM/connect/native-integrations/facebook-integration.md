@@ -1,0 +1,327 @@
+---
+title: Facebook
+excerpt: ''
+deprecated: false
+hidden: false
+metadata:
+  title: ''
+  description: ''
+  robots: index
+next:
+  description: ''
+---
+## Overview
+
+Facebook is a social media network that connects people. By sharing content like text status posts, images, videos, and external links like blog posts, Facebook users can contribute ideas and join conversations with other people.This integration aims to improve advertising outcomes by enabling enhanced campaign targeting, personalization, and optimized advertising returns. 
+
+**The key features of the integration include -**
+
+- **Custom Audience Sync:** Segments can be pushed as a custom audience to the Facebook ad platform. This approach enhances targeting and retargeting efforts, ensuring ads reach the most relevant audience.
+- **Data Integration:** The integration allows seamless transfer of data (historical spend, clicks, impressions, etc.) to the attribution and MMM modules. This process is crucial for tracking and analyzing the effectiveness of advertising campaigns and also for creating integrated MMM models.
+- **Campaign Performance Insights:** Users have the advantage of accessing their Facebook Ads campaign performance data directly within the Attribution dashboard. This feature provides valuable insights and analytics, making it easier to measure the success of campaigns and make data-driven decisions.
+
+## Use Cases
+
+1. **Expand advertising reach on Facebook** - By seamlessly synchronizing audience data from Lifesight to Facebook Ads Audiences, you can create targeted advertising campaigns that reach a more relevant audience and increase brand exposure on the platform.
+2. **Enhance campaign targeting and personalization **- You can create custom audience segments based on demographics, user behavior, or preferences captured in Lifesight and deliver personalized ad experiences to these specific segments. This will increase engagement, drive conversion, and maximize campaign effectiveness. 
+3. **Optimize advertising ROI through data-driven insights **- By analyzing the performance data of Facebook Ads in Lifesight Attribution and MMM, you can make data-driven decisions to optimize your campaigns, allocate budgets effectively, and achieve a higher return on investment.
+
+***
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/26b517dfaf906226cc38279b720602024e28c9259d46857a990e32e62b301268-klaviyo.png",
+        "",
+        ""
+      ],
+      "align": "center"
+    }
+  ]
+}
+[/block]
+
+
+## Integrating Facebook to your Lifesight workspace
+
+1. Navigate to the Integrations tab in the left-hand menu bar.
+2. In the search field, type in "Facebook" to locate the integration for this application.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/6b90338-ScreenShot_Tool_-20240605133752.png",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "700px"
+    }
+  ]
+}
+[/block]
+
+
+3. Click on the Facebook tile and click on the `Connect` button to begin the integration process.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/4101762038c1c4a4ba3a76fd4038168277deeb7f80016a5e77e5d267c2b49ac3-image.png",
+        null,
+        ""
+      ],
+      "align": "center",
+      "sizing": "700px"
+    }
+  ]
+}
+[/block]
+
+
+<br />
+
+4. You will be redirected to log into your Facebook account and allow access to certain scopes. Confirm your Facebook login using the personal account tied to your Facebook business account. Ensure you are logged in to the correct account and click Continue as...
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/17bda6b-1.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "300px"
+    }
+  ]
+}
+[/block]
+
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+5. Choose which page you want Lifesight to access and click continue.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/7d67f75-1_1.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "400px"
+    }
+  ]
+}
+[/block]
+
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+6. Review the permissions on the next page and click Save.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/c5da22b-Untitled_design_1_1.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "400px"
+    }
+  ]
+}
+[/block]
+
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+7. You'll receive a success message in Facebook. Click Ok to be redirected to Lifesight.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/f597cdd-2.png",
+        "",
+        ""
+      ],
+      "align": "left",
+      "sizing": "400px"
+    }
+  ]
+}
+[/block]
+
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+8. Once you have successfully logged in, the status of the integration will change to ‘partial’ on the Integration page.
+9. Click on the Facebook tile and select one or more ad accounts you want to use with the workspace.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/f1c27a86e9e6cc3251d9b28effee104da7049adaa7303c4388408fd4c1e334e0-Screenshot_2024-09-23_at_12.25.26_PM.png",
+        "",
+        ""
+      ],
+      "align": "center"
+    }
+  ]
+}
+[/block]
+
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/c3a9ffad34430820737533fd31b9753e4a03c5e846848ed9495be2654462047b-Screenshot_2024-09-23_at_12.25.47_PM.png",
+        "",
+        ""
+      ],
+      "align": "center"
+    }
+  ]
+}
+[/block]
+
+
+<br />
+
+10. You will be re-directed to the integration page, and the status will update to 'Active'.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/1109392f662889c6b7859096520050d64a72c3c08c762aff831e5c9d4d949a4f-image.png",
+        null,
+        ""
+      ],
+      "align": "center",
+      "sizing": "500px"
+    }
+  ]
+}
+[/block]
+
+
+***
+
+<br />
+
+## View your synced Facebook data
+
+1. Click on the Facebook integration tile to view the synchronized data. View spend, impression, click, pROAS and more metrics.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/73b3d753800f1939f07f3219dfef2de4343cf372f7947faee5c84debde962e64-fb.jpg",
+        "",
+        ""
+      ],
+      "align": "center"
+    }
+  ]
+}
+[/block]
+
+
+2. View Facebook Conversion events in the "Conversions" tab.
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/53e4215bc0d451af825af63b57172585559515370d72031007de0a04c6eddfa7-cone.jpg",
+        "",
+        ""
+      ],
+      "align": "center"
+    }
+  ]
+}
+[/block]
