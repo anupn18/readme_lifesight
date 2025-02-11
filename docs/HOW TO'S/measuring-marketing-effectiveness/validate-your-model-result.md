@@ -65,16 +65,16 @@ Backtesting is done during the initial model build. The model is repeatedly retr
 
 To ensure consistent accuracy over time, a robust MMM process should include:
 
-- **Automated Weekly Runs**: Regular updates to the model help keep it aligned with the latest data.
-- **Parameter Saving for Forecasting**: Saving model parameters each week allows for accurate future forecasts.
-- **Rolling Forecast Accuracy Tests**: Continuously testing the model’s predictions against actual outcomes (e.g., checking the 60-day accuracy on a model trained 60 days ago) helps validate its reliability.
+* **Automated Weekly Runs**: Regular updates to the model help keep it aligned with the latest data.
+* **Parameter Saving for Forecasting**: Saving model parameters each week allows for accurate future forecasts.
+* **Rolling Forecast Accuracy Tests**: Continuously testing the model’s predictions against actual outcomes (e.g., checking the 60-day accuracy on a model trained 60 days ago) helps validate its reliability.
 
 Accurate backtests build confidence that the model will make reliable forecasts in the future and that its parameters, such as ROI estimates, are trustworthy.
 
 Different businesses will experience varying levels of backtest error due to:
 
-- The inherent “noise” in the business, which depends on factors like industry and KPI selection.
-- The influence of external factors, such as interest rates or consumer trends, which might not be predicted by the MMM.
+* The inherent “noise” in the business, which depends on factors like industry and KPI selection.
+* The influence of external factors, such as interest rates or consumer trends, which might not be predicted by the MMM.
 
 If you encounter high forecast errors or significant changes in weekly outcomes, reaching out for expert support can help diagnose and refine your model.
 
