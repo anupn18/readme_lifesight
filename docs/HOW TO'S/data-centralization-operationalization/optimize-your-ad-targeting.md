@@ -18,16 +18,16 @@ In today's competitive digital landscape, effective ad targeting is crucial for 
 
 The first step in optimizing ad targeting is to create meaningful segments using Lifesight's advanced audience segmentation tools. Lifesight allows you to build dynamic segments based on a wide range of criteria, including demographics, interests, behaviors, and location.
 
-- **Demographic Segmentation**: Group customers based on age, gender, income, and location. For example, a luxury brand might create a segment of affluent millennials living in urban areas.
-- **Behavioral Segmentation**: Identify segments based on customer behaviors, such as purchase history, website interactions, and engagement with previous campaigns.
-- **Psychographic Segmentation**: Consider customers' lifestyles, values, and interests. For instance, a travel company might target adventure seekers versus luxury travelers.
+* **Demographic Segmentation**: Group customers based on age, gender, income, and location. For example, a luxury brand might create a segment of affluent millennials living in urban areas.
+* **Behavioral Segmentation**: Identify segments based on customer behaviors, such as purchase history, website interactions, and engagement with previous campaigns.
+* **Psychographic Segmentation**: Consider customers' lifestyles, values, and interests. For instance, a travel company might target adventure seekers versus luxury travelers.
 
 ## **Tailor Your Messaging for Each Segment**
 
 With your segments defined in Lifesight, it's essential to tailor your messaging to resonate with each group. Personalized content is more likely to capture attention and drive conversions.
 
-- **Use Relevant Language**: Craft messages that speak directly to the interests and pain points of each segment. For example, highlight exclusive offers for high-end products when targeting affluent customers.
-- **Visual Consistency**: Ensure that your ad visuals are consistent with the messaging and brand identity to create a cohesive experience across all touchpoints.
+* **Use Relevant Language**: Craft messages that speak directly to the interests and pain points of each segment. For example, highlight exclusive offers for high-end products when targeting affluent customers.
+* **Visual Consistency**: Ensure that your ad visuals are consistent with the messaging and brand identity to create a cohesive experience across all touchpoints.
 
 ## **Activate Segments for Ad Targeting**
 
