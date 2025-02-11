@@ -14,21 +14,7 @@ next:
 ---
 The purpose of the Goals tab is to track forecasted vs actual conversions based on the default scenario set for each MMM outcome (revenue, orders, leads, etc.)
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/ff8dfb4a983f029f35e3c6caeb87b829b1a36c21a1727f12f3349d96603fa672-gao.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/ff8dfb4a983f029f35e3c6caeb87b829b1a36c21a1727f12f3349d96603fa672-gao.jpg" />
 
 > 👍 The Goals tab becomes active after you select a [Default Scenario](https://docs.lifesight.io/docs/default-scenario) from your Scenario Planner.
 
@@ -36,22 +22,9 @@ The purpose of the Goals tab is to track forecasted vs actual conversions based 
 
 ## View interactive demo
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c4b16cd2907abf2fdfec9aca3694aadfdd49ad9d3c93645c91394b2d5845f7bb-image.png",
-        null,
-        null
-      ],
-      "align": "center",
-      "caption": "[Click here](https://lifesight.storylane.io/share/penggyfs4rb1) to view demo in fullscreen"
-    }
-  ]
-}
-[/block]
-
+<Image alt="[Click here](https://lifesight.storylane.io/share/penggyfs4rb1) to view demo in fullscreen" align="center" src="https://files.readme.io/c4b16cd2907abf2fdfec9aca3694aadfdd49ad9d3c93645c91394b2d5845f7bb-image.png">
+  [Click here](https://lifesight.storylane.io/share/penggyfs4rb1) to view demo in fullscreen
+</Image>
 
 <br />
 
@@ -64,7 +37,7 @@ The purpose of the Goals tab is to track forecasted vs actual conversions based 
 ![](https://files.readme.io/9392059b832aef031619050c9d7ce5ffc6286f9f353968fc5d7c3a9399133909-image.png)
 
 2. **Goals** - View multiple goals for each KPI based on your selected Default Scenario.
-3. **Goal Tracker **- View Actual VS Forecasted KPIs and their percentage of completion. Also, view your Planned spend vs Actual spend vs spend utilization percentage. This helps you understand if you are underspending/over spending in hitting your goals.
+3. **Goal Tracker** - View Actual VS Forecasted KPIs and their percentage of completion. Also, view your Planned spend vs Actual spend vs spend utilization percentage. This helps you understand if you are underspending/over spending in hitting your goals.
 
 ![](https://files.readme.io/42436e79141f9ee244f7917c8df2a5262ec657c9f2b9bbcf2add7f6af5a9bfda-image.png)
 
