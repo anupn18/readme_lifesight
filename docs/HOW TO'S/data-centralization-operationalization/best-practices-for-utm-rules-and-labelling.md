@@ -50,8 +50,8 @@ In the Lifesight platform, go to **Settings** → **Rules & Labels** to access t
 
 To create a new rule, click the **Add Rule** button. You can define the following:
 
-- **Group by UTM Parameters**: Use UTM parameters like `utm_source`, `utm_medium`, `utm_campaign` to create rules for labeling or grouping channels.
-- **Use Campaign Hierarchy Data**: Utilize data from the **Ad Insights** table, such as campaign name or ad set name, to define more detailed rules.
+* **Group by UTM Parameters**: Use UTM parameters like `utm_source`, `utm_medium`, `utm_campaign` to create rules for labeling or grouping channels.
+* **Use Campaign Hierarchy Data**: Utilize data from the **Ad Insights** table, such as campaign name or ad set name, to define more detailed rules.
 
 #### Step 3: Define Your Rule Criteria
 
@@ -71,11 +71,11 @@ Once you’ve defined your rule, click **Save**. It may take a few minutes for y
 
 #### Example: Grouping UTM Sources with Rules & Labels
 
-As can be seen in the following example, there are multiple utm_sources for Youtube influencer namely: `Youtube_Influencer`  `Youtubeb_Inf` `Youtube_Inf`
+As can be seen in the following example, there are multiple utm\_sources for Youtube influencer namely: `Youtube_Influencer`  `Youtubeb_Inf` `Youtube_Inf`
 
 ![](https://files.readme.io/7a955c8ae91cc521afe4125588945af62ec8ba52ae50fd18747ecd4543cd02d3-image.png)
 
-We'll create a Rule to group all of these utm_sources under one label:
+We'll create a Rule to group all of these utm\_sources under one label:
 
 ![](https://files.readme.io/b3b17906e0a07385c338136b7dbef2e2a166c100c5abb5af9476e35e842f5c84-image.png)
 
@@ -83,7 +83,7 @@ Once the rule is created and active, you can start seeing the aggregated numbers
 
 ![](https://files.readme.io/0ec4416df180f838e3f69b4b77b541eb18baa5d7f8bb78fdcd147e66966d138b-image.png)
 
-You can also see the breakdown from individual utm_sources under the label by clicking on the down arrow:
+You can also see the breakdown from individual utm\_sources under the label by clicking on the down arrow:
 
 ![](https://files.readme.io/b195c9ff5f6967a843fd43ac85433b783779e1702925c715b7b30e8dae913813-image.png)
 
@@ -95,13 +95,13 @@ Once you’ve created your rules, you can manage them under the **Settings** →
 
 ### Best Practices for Using Rules & Labels
 
-- **Establish Naming Conventions Early**: Set up clear guidelines for UTM parameter usage across your marketing team to avoid discrepancies in the first place. Use **Rules & Labels** to correct any inconsistencies that slip through.
+* **Establish Naming Conventions Early**: Set up clear guidelines for UTM parameter usage across your marketing team to avoid discrepancies in the first place. Use **Rules & Labels** to correct any inconsistencies that slip through.
 
-- **Review and Update Regularly**: As your campaigns evolve, your UTM structure may change. Regularly audit your attribution reports and update your rules to ensure they continue to reflect your current marketing efforts.
+* **Review and Update Regularly**: As your campaigns evolve, your UTM structure may change. Regularly audit your attribution reports and update your rules to ensure they continue to reflect your current marketing efforts.
 
-- **Avoid Overcomplication**: While it’s tempting to create multiple complex rules, try to keep things simple. Grouping and labeling should streamline your reporting, not make it more complex.
+* **Avoid Overcomplication**: While it’s tempting to create multiple complex rules, try to keep things simple. Grouping and labeling should streamline your reporting, not make it more complex.
 
-- **Use Labels for High-Level Analysis**: Labels are a great way to simplify reporting at a higher level. For example, you could label all UTM sources related to paid social as “Paid Social” for a more straightforward view of overall social media performance.
+* **Use Labels for High-Level Analysis**: Labels are a great way to simplify reporting at a higher level. For example, you could label all UTM sources related to paid social as “Paid Social” for a more straightforward view of overall social media performance.
 
 ### Conclusion
 
