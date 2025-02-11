@@ -16,7 +16,7 @@ Dashboards support both ad hoc data exploration and complex long-term reporting.
 
 ## **Ad hoc data exploration**
 
-New, unsaved Dashboards are also referred to as explorations. Explorations are ideal for ad hoc analysis, when you want to explore your data and move on without saving your work for future use.  
+New, unsaved Dashboards are also referred to as explorations. Explorations are ideal for ad hoc analysis, when you want to explore your data and move on without saving your work for future use.\
 To save an exploration as a published Dashboard, click Save as in the exploration's header.
 
 ## **Dashboard modes: Edit, Explore, and View**
@@ -25,7 +25,7 @@ Published Dashboards can be accessed in three different modes: Edit, Explore, an
 
 ## **Drafts and publishing**
 
-Edits made to a Dashboard are automatically saved as a shared, live draft. Multiple editors can collaborate on a single draft in real time. All active editors see a list of other users currently in Edit mode and the element they each have selected.  
+Edits made to a Dashboard are automatically saved as a shared, live draft. Multiple editors can collaborate on a single draft in real time. All active editors see a list of other users currently in Edit mode and the element they each have selected.\
 Clicking Publish publishes all drafted changes to the Dashboard. This includes changes drafted by all editors on the live draft.
 
 ## **Version history**
