@@ -16,8 +16,8 @@ Lifesight's copy-and-paste functionality allows you to replicate elements in var
 
 The ability to copy and paste elements requires the following:
 
-- You must be assigned an account type with the Explore Dashboards or Create, edit, and publish Dashboards permission enabled.
-- You must be the Dashboard owner or be granted Can explore or Can edit Dashboard permission.
+* You must be assigned an account type with the Explore Dashboards or Create, edit, and publish Dashboards permission enabled.
+* You must be the Dashboard owner or be granted Can explore or Can edit Dashboard permission.
 
 ## Copy and paste an element
 
