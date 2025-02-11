@@ -16,22 +16,9 @@ Lifesight's integrations seamlessly connect our platform with your favorite tool
 
 ## View interactive demo
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/31e173f08da6ae8124f7436b6aaf2ae6183de3a8fd6324711fea5cddc9b0d681-image.png",
-        null,
-        null
-      ],
-      "align": "center",
-      "caption": "[Click here](https://lifesight.storylane.io/share/l3iaoryggsg2) to view interactive demo in fullscreen"
-    }
-  ]
-}
-[/block]
-
+<Image alt="[Click here](https://lifesight.storylane.io/share/l3iaoryggsg2) to view interactive demo in fullscreen" align="center" src="https://files.readme.io/31e173f08da6ae8124f7436b6aaf2ae6183de3a8fd6324711fea5cddc9b0d681-image.png">
+  [Click here](https://lifesight.storylane.io/share/l3iaoryggsg2) to view interactive demo in fullscreen
+</Image>
 
 <br />
 
@@ -39,7 +26,7 @@ Lifesight's integrations seamlessly connect our platform with your favorite tool
 
 1. [Facebook integration](https://docs.lifesight.io/docs/facebook-integration)
 2. [TikTok integration](https://docs.lifesight.io/docs/tiktok-integration)
-3. [Pinterest integration](<>)
+3. [Pinterest integration]()
 4. [Adroll integration](https://docs.lifesight.io/docs/adroll-integration)
 5. [Amazon integration](https://docs.lifesight.io/docs/amazon-ads-integration)
 6. [Criteo integration](https://docs.lifesight.io/docs/criteo-integration)
