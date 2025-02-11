@@ -16,7 +16,7 @@ The purpose of webhooks is to establish a bridge between disparate applications,
 
 <br />
 
-> _To illustrate the process of webhooks in action, consider this scenario: An individual visits your online store, places an order for stationery valued at $10, and completes the purchase. At this juncture, an event has been triggered—a signal that something of significance has occurred which necessitates notification. This is the cue for the webhook._
+> *To illustrate the process of webhooks in action, consider this scenario: An individual visits your online store, places an order for stationery valued at $10, and completes the purchase. At this juncture, an event has been triggered—a signal that something of significance has occurred which necessitates notification. This is the cue for the webhook.*
 
 <br />
 
