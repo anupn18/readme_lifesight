@@ -29,20 +29,20 @@ Lifesight offers data localization at the workspace level, which means that ever
 
 **Workspace-specific BigQuery datasets:**
 
-- For each client, Lifesight sets up a dedicated BigQuery dataset, which serves as the Data Warehouse (DWH) for storing all of the client's data.
-- This dataset includes multiple tables that hold various types of data relevant to the client's operations.
-- The only exceptions are access-related data and some summarized statistics, which are non-sensitive and may reside outside the main DWH.
+* For each client, Lifesight sets up a dedicated BigQuery dataset, which serves as the Data Warehouse (DWH) for storing all of the client's data.
+* This dataset includes multiple tables that hold various types of data relevant to the client's operations.
+* The only exceptions are access-related data and some summarized statistics, which are non-sensitive and may reside outside the main DWH.
 
 <br />
 
 **Regional support and data storage:**
 
-- Data localization is implemented at the workspace level. This means that if a client requires data to be localized, Lifesight will create a separate workspace for each geographic region the client operates in.
-- Currently, Lifesight supports data localization in the following regions where we can create BigQuery instances in Google Cloud Platform (GCP):
-- United States
-- Asia Pacific
-- Europe
-- Middle East and Africa
+* Data localization is implemented at the workspace level. This means that if a client requires data to be localized, Lifesight will create a separate workspace for each geographic region the client operates in.
+* Currently, Lifesight supports data localization in the following regions where we can create BigQuery instances in Google Cloud Platform (GCP):
+* United States
+* Asia Pacific
+* Europe
+* Middle East and Africa
 
 <br />
 
@@ -50,18 +50,18 @@ Lifesight offers data localization at the workspace level, which means that ever
 
 1. **Client requirement assessment:**
 
-- Lifesight works closely with the client to understand their data localization requirements, including specific regions where data needs to be stored.
-- Based on this assessment, Lifesight determines the number of workspaces needed and the appropriate geographic regions for data storage.
+* Lifesight works closely with the client to understand their data localization requirements, including specific regions where data needs to be stored.
+* Based on this assessment, Lifesight determines the number of workspaces needed and the appropriate geographic regions for data storage.
 
 2. **Workspace creation and configuration:**
 
-- Separate workspaces are created for each region where data localization is required.
-- For each workspace, a dedicated BigQuery dataset is set up within the specified region. This ensures that all data for that workspace is stored within the chosen geographic location.
+* Separate workspaces are created for each region where data localization is required.
+* For each workspace, a dedicated BigQuery dataset is set up within the specified region. This ensures that all data for that workspace is stored within the chosen geographic location.
 
 3. **Data management and compliance:**
 
-- Lifesight ensures that all data within each workspace is managed according to the client’s data governance policies and regional compliance requirements.
-- Regular audits and checks are conducted to ensure that data remains localized as per the client’s specifications.
+* Lifesight ensures that all data within each workspace is managed according to the client’s data governance policies and regional compliance requirements.
+* Regular audits and checks are conducted to ensure that data remains localized as per the client’s specifications.
 
 > 📘 Note - Once a specific region is chosen to store workspace data. The client cannot migrate their data to a different region. A client will have to start fresh and create a new workspace to accommodate the new data localization requirements.
 
@@ -69,21 +69,21 @@ Lifesight offers data localization at the workspace level, which means that ever
 
 ## Benefits
 
-1. **Compliance with regional regulations:**  
+1. **Compliance with regional regulations:**\
    By localizing data storage to specific geographic regions, Lifesight helps clients comply with regional data protection and privacy laws, such as GDPR in Europe, CCPA in the United States.
 
-<!----->
+{/*-*/}
 
-1. **Enhanced data security:**  
+1. **Enhanced data security:**\
    Clients using Lifesight’s localized Google Cloud instance automatically benefit from data security policies and standards offered by Google Cloud.
-2. **Optimized performance:**  
+2. **Optimized performance:**\
    Data localization can lead to improved performance and reduced latency, as data is stored closer to where it is needed and used.
 
 <br />
 
 ## Security & privacy compliance
 
-- ISO 27001
-- AICPA SOC 2
-- GDPR
-- CCPA
+* ISO 27001
+* AICPA SOC 2
+* GDPR
+* CCPA
