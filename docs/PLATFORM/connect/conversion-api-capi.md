@@ -30,28 +30,28 @@ Using traditional client side tracking only leads to signal loss due to browser 
 
 ## Pain points without CAPI setup
 
-- Inability to build complete retargeting lists
-- Inability to use AI to target ads to new customers
-- Inability to accurately attribute conversions to generate in-platform reports
-- Inability to deliver dynamic product ads effectively
-- High Cost Per Conversion
-- High CPM
-- Low ROAS
-- Unable to scale their ad channel
+* Inability to build complete retargeting lists
+* Inability to use AI to target ads to new customers
+* Inability to accurately attribute conversions to generate in-platform reports
+* Inability to deliver dynamic product ads effectively
+* High Cost Per Conversion
+* High CPM
+* Low ROAS
+* Unable to scale their ad channel
 
 ## Features
 
-- Server-side tracking: Send 100% conversion events to ad channels.
-- Identity resolution/ID Graph
-- Event enrichment
-- Enable/Disable the events you want to send
+* Server-side tracking: Send 100% conversion events to ad channels.
+* Identity resolution/ID Graph
+* Event enrichment
+* Enable/Disable the events you want to send
 
 ## Benefits
 
-- Set up server-side tracking of CAPI in minutes
-- Only send conversions that matter to you
-- Improved ad channel performance
-- Improved in-platform attribution reporting
-- Lower Cost Per Conversion
-- Increased ROAS
-- Lower CPM
+* Set up server-side tracking of CAPI in minutes
+* Only send conversions that matter to you
+* Improved ad channel performance
+* Improved in-platform attribution reporting
+* Lower Cost Per Conversion
+* Increased ROAS
+* Lower CPM
