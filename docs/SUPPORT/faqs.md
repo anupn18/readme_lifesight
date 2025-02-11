@@ -206,19 +206,19 @@ The [Budget Optimizer](https://docs.lifesight.io/docs/budget-optimizer-1) helps 
 
 Experiments are controlled processes to test marketing hypotheses such as:
 
-- What is the effectiveness of my current media investment on business KPIs?
-- How much can I scale my media investments before seeing diminishing returns?
-- Which ad creative have better ROI?
+* What is the effectiveness of my current media investment on business KPIs?
+* How much can I scale my media investments before seeing diminishing returns?
+* Which ad creative have better ROI?
 
 Experiments compare conversions with and without marketing activities, to determine the incremental impact of marketing efforts.
 
 ## What do Experiment results help with?
 
-- Isolate impact of a channel from external factors to understand the true lift impact of a channel
-- Enable fair comparisons between channels by understanding the true impact of a channel
-- Allocate budgets based on incremental lift provided by various channels
-- Reduce and potentially eliminate misapprehension of correlation as causation in marketing
-- Calibrate MMM models to make them causally aware
+* Isolate impact of a channel from external factors to understand the true lift impact of a channel
+* Enable fair comparisons between channels by understanding the true impact of a channel
+* Allocate budgets based on incremental lift provided by various channels
+* Reduce and potentially eliminate misapprehension of correlation as causation in marketing
+* Calibrate MMM models to make them causally aware
 
 ## Limitations of Experiments
 
@@ -266,11 +266,11 @@ Attribution is crucial for optimizing marketing efforts and budget allocation. B
 
 Lifesight supports multiple attribution models, including:
 
-- First-Touch Attribution: Credits the first interaction a user has with your brand.
-- Last-Touch Attribution: Credits the final interaction before a conversion.
-- Linear Attribution: Distributes credit equally across all touchpoints in the user journey.
-- Time Decay Attribution: Gives more credit to touchpoints closer to the conversion event.
-- Custom Attribution: Allows you to define a unique attribution model tailored to your business.
+* First-Touch Attribution: Credits the first interaction a user has with your brand.
+* Last-Touch Attribution: Credits the final interaction before a conversion.
+* Linear Attribution: Distributes credit equally across all touchpoints in the user journey.
+* Time Decay Attribution: Gives more credit to touchpoints closer to the conversion event.
+* Custom Attribution: Allows you to define a unique attribution model tailored to your business.
 
 ## How is data collected for Attribution?
 
@@ -278,7 +278,7 @@ Lifesight collects data from various marketing channels such as web, mobile, soc
 
 ## Can I customize my Attribution model?
 
-Yes, Lifesight allows you to create custom attribution models. You can define how much weight should be given to each touchpoint based on your business goals or user behavior patterns. This flexibility ensures that your attribution aligns with your specific needs. _Contact our support to upload your own attribution weights._
+Yes, Lifesight allows you to create custom attribution models. You can define how much weight should be given to each touchpoint based on your business goals or user behavior patterns. This flexibility ensures that your attribution aligns with your specific needs. *Contact our support to upload your own attribution weights.*
 
 ## What is Multi-Touch Attribution?
 
@@ -296,27 +296,27 @@ Yes, Lifesight supports offline conversion tracking. You can integrate offline t
 
 Some common challenges include:
 
-- Cross-device tracking: Users often interact with multiple devices during their journey, which can complicate attribution unless properly accounted for.
-- Data silos: Attribution relies on accurate data from multiple sources. When data is siloed or not integrated properly, attribution accuracy may be affected.
-- Model bias: Different attribution models can assign credit differently, and understanding the best model for your business is crucial.  
+* Cross-device tracking: Users often interact with multiple devices during their journey, which can complicate attribution unless properly accounted for.
+* Data silos: Attribution relies on accurate data from multiple sources. When data is siloed or not integrated properly, attribution accuracy may be affected.
+* Model bias: Different attribution models can assign credit differently, and understanding the best model for your business is crucial.\
   Lifesight helps mitigate these challenges by offering robust cross-channel and cross-device tracking and supporting integrations with various data sources.
 
 ## How can I troubleshoot discrepancies in my Attribution data?
 
 Discrepancies in attribution data may arise from:
 
-- Data collection issues: Ensure all touchpoints and channels are properly tracked.
-- Inconsistent timeframes: Compare data from consistent time periods across platforms.
-- Attribution model differences: Be aware that different models will yield different results. Make sure you're comparing data within the same attribution model.  
+* Data collection issues: Ensure all touchpoints and channels are properly tracked.
+* Inconsistent timeframes: Compare data from consistent time periods across platforms.
+* Attribution model differences: Be aware that different models will yield different results. Make sure you're comparing data within the same attribution model.\
   If you encounter ongoing issues, you can contact Lifesight support for assistance.
 
 ## What reports are available in Lifesight Attribution?
 
 Lifesight offers a range of reports to help you analyze your attribution data, including:
 
-- Channel performance: Insights into how different channels contribute to conversions.
-- Path analysis: Visualizations of user journeys and touchpoints leading to conversions.
-- Conversion tracking: Detailed tracking of conversions attributed to various campaigns and touchpoints.  
+* Channel performance: Insights into how different channels contribute to conversions.
+* Path analysis: Visualizations of user journeys and touchpoints leading to conversions.
+* Conversion tracking: Detailed tracking of conversions attributed to various campaigns and touchpoints.\
   You can customize these reports based on your attribution model and business requirements.
 
 ## What is Causal attribution?
