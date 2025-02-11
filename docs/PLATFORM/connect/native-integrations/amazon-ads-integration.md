@@ -14,32 +14,18 @@ next:
 
 Lifesight and Amazon Ads integration aims to improve advertising outcomes by enabling enhanced campaign targeting, personalization, and optimized advertising returns. The key features of the integration include -
 
-- Data Integration: The integration allows seamless transfer of data (historical spend, clicks, impressions, etc.) to the attribution and MMM modules. This process is crucial for tracking and analyzing the effectiveness of advertising campaigns and also for creating integrated MMM models.
-- Campaign Performance Insights: Users have the advantage of accessing their Amazon Ads campaign performance data directly within the Attribution dashboard. This feature provides valuable insights and analytics, making it easier to measure the success of campaigns and make data-driven decisions.
+* Data Integration: The integration allows seamless transfer of data (historical spend, clicks, impressions, etc.) to the attribution and MMM modules. This process is crucial for tracking and analyzing the effectiveness of advertising campaigns and also for creating integrated MMM models.
+* Campaign Performance Insights: Users have the advantage of accessing their Amazon Ads campaign performance data directly within the Attribution dashboard. This feature provides valuable insights and analytics, making it easier to measure the success of campaigns and make data-driven decisions.
 
 <br />
 
 ## Use Case
 
-- Optimize advertising ROI through data-driven insights - By analyzing the campaign performance data of Amazon Ads in Lifesight Attribution and MMM, you can make data-driven decisions to optimize your campaigns, allocate budgets effectively, and achieve a higher return on investment.
+* Optimize advertising ROI through data-driven insights - By analyzing the campaign performance data of Amazon Ads in Lifesight Attribution and MMM, you can make data-driven decisions to optimize your campaigns, allocate budgets effectively, and achieve a higher return on investment.
 
 ***
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/83c7e920904c2aa4d9d83db107bc048ff78bf8a83fd18277fb7dcab5d545064d-amazon.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/83c7e920904c2aa4d9d83db107bc048ff78bf8a83fd18277fb7dcab5d545064d-amazon.png" />
 
 ## Integrating Amazon Ads on your workspace
 
