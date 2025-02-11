@@ -16,14 +16,14 @@ Imagine you’re running an experiment where you want to see if a campaign made 
 
 Imagine you have:
 
-- **60 users** in the treatment group (saw the campaign).
-- **40 users** in the control group (did not see the campaign).
-- Each user spends **$10**.
+* **60 users** in the treatment group (saw the campaign).
+* **40 users** in the control group (did not see the campaign).
+* Each user spends **$10**.
 
 At first glance, you might think the treatment group outperformed the control group because:
 
-- Total spend in treatment group = `60 users * $10 = $600`
-- Total spend in control group = `40 users * $10 = $600`
+* Total spend in treatment group = `60 users * $10 = $600`
+* Total spend in control group = `40 users * $10 = $600`
 
 However, these groups are not the same size, so we need to **normalize** for a fair comparison.
 
