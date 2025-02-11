@@ -14,21 +14,7 @@ next:
 ---
 Once you have configured your workspace, invite your teammates to work on analyzing and optimizing your marketing efforts collaboratively. You can add users by inviting them to your workspace. 
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/50ce6daffd6f98bb13d2ec4595668b043ded1439dd819615411a86ce6553c880-user.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/50ce6daffd6f98bb13d2ec4595668b043ded1439dd819615411a86ce6553c880-user.jpg" />
 
 ## Add a new user:
 
@@ -37,22 +23,7 @@ Once you have configured your workspace, invite your teammates to work on analyz
 3. Click on `Invite User` button in the upper right corner.
 4. Add the email ID of the person you’re looking to invite and mention the user access level.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/98a4cbef1dfdb3cdbdcc5364b848ae59df2b353137a72052606e8d2b94f222d3-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "500px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="500px" src="https://files.readme.io/98a4cbef1dfdb3cdbdcc5364b848ae59df2b353137a72052606e8d2b94f222d3-image.png" />
 
 <br />
 
@@ -68,23 +39,23 @@ Once you have configured your workspace, invite your teammates to work on analyz
 <br />
 
 > 👍 What happens next for the invited user?
-> 
+>
 > 1. The invited user gets a signup email immediate with the **subject line: Invitation from Lifesight**
-> 
+>
 > ![](https://files.readme.io/31b15c74e9d0f46e0698484323cad1a64052983f26f7a46079fd129e3d7c77cc-image.png)
-> 
+>
 > 2. Next, verify your email ID and click on the "sign in to Lifesight" link.
-> 
+>
 > ![](https://files.readme.io/928dea7e8198cfe2ba58a0006150a44c320d2fd734ced48d8ec877bb973a6c90-image.png)
-> 
+>
 > 3. You will be taken to the platform signup page where you have to enter your name and set a password.
-> 
+>
 > ![](https://files.readme.io/048c2b5155431bbbe6e956638a5b18304d225a94b53f862a3e1d9514e25c4f98-image.png)
-> 
+>
 > 4. Complete the process by clicking the `Join Lifesight` button to view the Lifesight platform homepage.
 
 > ❗️ The signup link expires in 6 hours
-> 
+>
 > The admin will have resend an invite to the same user again through the [invite process](https://docs.lifesight.io/docs/add-remove-new-users#add-a-new-user)
 
 ***
