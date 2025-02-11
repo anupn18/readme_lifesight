@@ -12,8 +12,8 @@ next:
 ---
 # Steps to Integrate with Snowflake
 
-- In your Snowflake account, Go to `+` and click on `SQL Worksheet`
-- Once done, paste the following in a New SQL Worksheet 
+* In your Snowflake account, Go to `+` and click on `SQL Worksheet`
+* Once done, paste the following in a New SQL Worksheet 
 
 ```
 -- Create a New User for Lifesight
@@ -56,10 +56,10 @@ GRANT ROLE LS_ADMIN TO USER Lifesight;
 ALTER USER Lifesight SET DEFAULT_ROLE = "LS_ADMIN";
 ```
 
-- Execute all the commands in the above worksheet
-- Provide Lifesight with the following information to complete the integration:
-  - Database Name
-  - Schema Name
-  - Table Name
-  - Region
-- Lifesight support will reach out to you once the integration is ready
+* Execute all the commands in the above worksheet
+* Provide Lifesight with the following information to complete the integration:
+  * Database Name
+  * Schema Name
+  * Table Name
+  * Region
+* Lifesight support will reach out to you once the integration is ready
