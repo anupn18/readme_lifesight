@@ -14,21 +14,7 @@ next:
 ---
 Lifesight users can now ensure GDPR compliance by managing personal data through the Delete or Export feature. This feature allows you to manage historical profiles and event-related data efficiently. By leveraging this functionality, Lifesight users can safeguard personal data and ensure GDPR compliance.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d13db45a4de0f74f184d8e6a31e461d67a7298d5a07a6ad855f86cadb46856d8-com.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/d13db45a4de0f74f184d8e6a31e461d67a7298d5a07a6ad855f86cadb46856d8-com.jpg" />
 
 ### What is GDPR compliance?
 
@@ -38,9 +24,9 @@ GDPR compliance means adhering to EU rules for processing, storing, and handling
 
 ### The GDPR focuses on three essential areas for protecting your personal data:
 
-- To comply with GDPR, you must obtain consent from users for marketing campaigns.
-- It is essential to protect personal data adequately to ensure compliance.
-- If requested, you must promptly delete, correct, or restrict personal data.
+* To comply with GDPR, you must obtain consent from users for marketing campaigns.
+* It is essential to protect personal data adequately to ensure compliance.
+* If requested, you must promptly delete, correct, or restrict personal data.
 
 ***
 
