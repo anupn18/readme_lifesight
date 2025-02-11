@@ -20,21 +20,21 @@ Lifesight unifies fragmented data across marketing and sales channels, creating 
 
 The Connect Module categorizes data integrations into the following types, each tailored to address specific aspects of your marketing ecosystem:
 
-Advertising  
-Marketing Automation  
-Customer Relationship Management (CRM)  
-E-commerce  
-Marketplaces  
-Point of Sale (POS)  
-Retail Media  
-Analytics  
-Data Warehouses  
-Mobile Measurement Partners (MMP)  
-Connected TV (CTV) & Over-The-Top (OTT)  
-Payments  
-Accounting  
-Affiliates  
-Order Management Systems (OMS) and Inventory  
+Advertising\
+Marketing Automation\
+Customer Relationship Management (CRM)\
+E-commerce\
+Marketplaces\
+Point of Sale (POS)\
+Retail Media\
+Analytics\
+Data Warehouses\
+Mobile Measurement Partners (MMP)\
+Connected TV (CTV) & Over-The-Top (OTT)\
+Payments\
+Accounting\
+Affiliates\
+Order Management Systems (OMS) and Inventory\
 Custom API/Webhooks
 
 <br />
@@ -45,6 +45,6 @@ The ability to centralize and organize customer data is critical for gaining ins
 
 ### Customer Segments, Profiles & Consent
 
-- Customer segments allow you to group individuals based on specific criteria such as behavior, preferences, or demographics. By organizing customers into targeted segments, businesses can tailor their communication strategies and marketing campaigns more effectively. This feature enables you to create dynamic or static segments based on real-time or historical data, improving precision and engagement. [Segments/Lists](https://docs.lifesight.io/docs/segments)
-- Customer profiles offer a comprehensive view of each individual by compiling all relevant information into a single profile. This includes details like contact information, interaction history, purchase behavior, and preferences. Profiles help you track customer journeys, allowing for more personalized interactions and better customer relationship management. You can also leverage this data to create more refined segments and target users with highly relevant content. [Profiles](https://docs.lifesight.io/docs/profiles)
-- Managing customer consent is essential for maintaining trust and complying with data privacy regulations such as GDPR and CCPA. The consent management feature allows you to track and manage the permissions customers provide regarding how their data is used. This ensures that your business adheres to privacy laws while offering customers control over their data preferences. With this feature, you can easily update, track, and document consent statuses for each individual. [Consent](https://docs.lifesight.io/docs/compliance)
+* Customer segments allow you to group individuals based on specific criteria such as behavior, preferences, or demographics. By organizing customers into targeted segments, businesses can tailor their communication strategies and marketing campaigns more effectively. This feature enables you to create dynamic or static segments based on real-time or historical data, improving precision and engagement. [Segments/Lists](https://docs.lifesight.io/docs/segments)
+* Customer profiles offer a comprehensive view of each individual by compiling all relevant information into a single profile. This includes details like contact information, interaction history, purchase behavior, and preferences. Profiles help you track customer journeys, allowing for more personalized interactions and better customer relationship management. You can also leverage this data to create more refined segments and target users with highly relevant content. [Profiles](https://docs.lifesight.io/docs/profiles)
+* Managing customer consent is essential for maintaining trust and complying with data privacy regulations such as GDPR and CCPA. The consent management feature allows you to track and manage the permissions customers provide regarding how their data is used. This ensures that your business adheres to privacy laws while offering customers control over their data preferences. With this feature, you can easily update, track, and document consent statuses for each individual. [Consent](https://docs.lifesight.io/docs/compliance)
