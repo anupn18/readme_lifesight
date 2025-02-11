@@ -32,7 +32,7 @@ There are different ways to assign users to these groups. In this document, we w
 2. **Assign Split Percentages**: Choose the percentage of users for the Treatment and Control groups (e.g., 70% Treatment, 30% Control).
 3. **Random Assignment Process**: Users are assigned to groups based on a random process that adheres to the specified percentage.
 
-### Example : 
+### Example :
 
 Assume you have an audience of 100 users and wish to assign 70% to the Treatment group and 30% to the Control group. Each user is randomly assigned to one of the groups according to the defined split.
 
@@ -54,9 +54,9 @@ Assume you have an audience of 100 users and wish to assign 70% to the Treatment
 
 Suppose your audience consists of 100 users, divided into three age groups:
 
-- **Age Group 1** (18-25 years): 30 users
-- **Age Group 2** (26-40 years): 40 users
-- **Age Group 3** (41+ years): 30 users
+* **Age Group 1** (18-25 years): 30 users
+* **Age Group 2** (26-40 years): 40 users
+* **Age Group 3** (41+ years): 30 users
 
 You want a 50/50 split between Treatment and Control groups for each age group.
 
@@ -80,6 +80,6 @@ You want a 50/50 split between Treatment and Control groups for each age group.
 <br />
 
 > 📘 **Note:**
-> 
-> - At Lifesight, we offer both **Random Assignment** and **Stratified Random Assignment** methodologies.
-> - By default, Random Assignment is applied. However, if you have specific variables that need to be balanced (e.g., age), we can enable Stratified Random Assignment to ensure these characteristics are evenly distributed across groups.
+>
+> * At Lifesight, we offer both **Random Assignment** and **Stratified Random Assignment** methodologies.
+> * By default, Random Assignment is applied. However, if you have specific variables that need to be balanced (e.g., age), we can enable Stratified Random Assignment to ensure these characteristics are evenly distributed across groups.
