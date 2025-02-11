@@ -14,33 +14,33 @@ The Lifesight Identity Graph is a powerful tool that enables businesses to conne
 
 ## Key Features
 
-- Unified Customer Profiles: Consolidate data from multiple channels and platforms to create a 360-degree view of your customers.
-- Cross-device Identification: Identify and track user behavior across devices (desktop, mobile, tablet, etc.), ensuring consistent and accurate attribution.
-- Data Privacy & Compliance: Ensure data is handled securely and in compliance with privacy regulations such as GDPR and CCPA.
-- Real-time Data Resolution: Resolve fragmented data in real-time, keeping customer profiles up to date as new data flows in.
-- Scalable Data Matching: Use probabilistic and deterministic matching techniques to accurately connect data across billions of profiles, ensuring high accuracy even at scale.
+* Unified Customer Profiles: Consolidate data from multiple channels and platforms to create a 360-degree view of your customers.
+* Cross-device Identification: Identify and track user behavior across devices (desktop, mobile, tablet, etc.), ensuring consistent and accurate attribution.
+* Data Privacy & Compliance: Ensure data is handled securely and in compliance with privacy regulations such as GDPR and CCPA.
+* Real-time Data Resolution: Resolve fragmented data in real-time, keeping customer profiles up to date as new data flows in.
+* Scalable Data Matching: Use probabilistic and deterministic matching techniques to accurately connect data across billions of profiles, ensuring high accuracy even at scale.
 
 ## Use Cases
 
-- Omnichannel Marketing Personalization: Leverage unified profiles to deliver personalized marketing messages across multiple channels such as email, social media, websites, and apps.
-- Cross-channel Attribution: Improve attribution accuracy by linking customer interactions across touchpoints, leading to better insights into which campaigns and channels are driving results.
-- Customer Journey Mapping: Track users across devices and channels to understand the full customer journey, enabling better decision-making in marketing and product development.
-- Customer Retargeting: Use the Identity Graph to target users across platforms with personalized offers and ads, improving the likelihood of conversions.
+* Omnichannel Marketing Personalization: Leverage unified profiles to deliver personalized marketing messages across multiple channels such as email, social media, websites, and apps.
+* Cross-channel Attribution: Improve attribution accuracy by linking customer interactions across touchpoints, leading to better insights into which campaigns and channels are driving results.
+* Customer Journey Mapping: Track users across devices and channels to understand the full customer journey, enabling better decision-making in marketing and product development.
+* Customer Retargeting: Use the Identity Graph to target users across platforms with personalized offers and ads, improving the likelihood of conversions.
 
 ## How the Identity Graph Works
 
-1. Data Ingestion  
+1. Data Ingestion\
    Lifesight collects user data from various sources such as website visits, app usage, CRM systems, social media platforms, transaction records, and more. The data can come from both first-party and third-party sources.
 
-2. Data Matching  
+2. Data Matching\
    Once the data is ingested, Lifesight uses deterministic and probabilistic data matching techniques to identify connections between different data points:
    1. Deterministic Matching: Links data using unique identifiers such as email addresses, phone numbers, or device IDs. This method ensures high accuracy in matching.
    2. Probabilistic Matching: Uses behavioral patterns, location data, and other factors to infer relationships between anonymous data points, providing insights where deterministic methods are unavailable.
 
-3. Real-time Resolution  
+3. Real-time Resolution\
    The Lifesight Identity Graph resolves customer identities in real-time. Whether a user logs into your app from a new device or makes a purchase in-store, their profile is immediately updated, ensuring you always have the most accurate data for targeting and personalization.
 
-4. Data Privacy & Security  
+4. Data Privacy & Security\
    Lifesight is built with privacy in mind. All data within the Identity Graph is encrypted, and Lifesight adheres to the highest data protection standards such as GDPR, CCPA, and HIPAA, ensuring that customer information is always secure and handled in compliance with regulations.
 
 ***
