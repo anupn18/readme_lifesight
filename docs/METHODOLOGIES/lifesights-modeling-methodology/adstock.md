@@ -22,9 +22,9 @@ For example, when someone sees an ad on TV today, they might not make a purchase
 
 Understanding adstock is crucial because it helps measure the **true impact** of your advertising campaigns. Without adstock, marketing models would only capture the immediate effects of ads, ignoring the longer-term influence. By accounting for adstock, you can:
 
-- **Measure long-term ROI**: Capture delayed consumer responses.
-- **Optimize media planning**: Understand how long the effects of your ads last.
-- **Improve budget allocation**: Invest more effectively in ads that have lasting impacts.
+* **Measure long-term ROI**: Capture delayed consumer responses.
+* **Optimize media planning**: Understand how long the effects of your ads last.
+* **Improve budget allocation**: Invest more effectively in ads that have lasting impacts.
 
 In marketing analytics, especially in **Marketing Mix Modeling (MMM)**, adstock is used to measure both the **short-term** and **long-term** effects of advertising across different media channels.
 
@@ -44,16 +44,16 @@ Adstock(t) = Advertising(t) + DecayRate * Adstock(t-1)
 
 Where:
 
-- **Adstock(t)** is the total advertising effect in period `t`.
-- **Advertising(t)** is the ad spend in period `t`.
-- **DecayRate** is a value between 0 and 1, representing the fraction of the previous period’s ad effect that carries over.
+* **Adstock(t)** is the total advertising effect in period `t`.
+* **Advertising(t)** is the ad spend in period `t`.
+* **DecayRate** is a value between 0 and 1, representing the fraction of the previous period’s ad effect that carries over.
 
 ### Example:
 
 Let’s say you spend $1000 on advertising in Week 1, and the **decay rate** is 0.7 (70% of the effect carries over to the next week). In this case:
 
-- **Week 1**: $1000 (full effect from Week 1).
-- **Week 2**: $700 (70% of Week 1’s effect carries over).
+* **Week 1**: $1000 (full effect from Week 1).
+* **Week 2**: $700 (70% of Week 1’s effect carries over).
 
 This approach allows you to measure not just the immediate effects of advertising but also the residual impact on future periods.
 
@@ -88,19 +88,19 @@ Where **DecayRate** is a constant value between 0 and 1. A higher decay rate (e.
 
 If you spend $1000 on ads in Week 1 and the decay rate is 0.5 (50% of the ad effect carries over to the next week):
 
-- **Week 1**: $1000 (full ad effect).
-- **Week 2**: $500 (50% of Week 1’s effect).
-- **Week 3**: $250 (50% of Week 2’s effect), and so on.
+* **Week 1**: $1000 (full ad effect).
+* **Week 2**: $500 (50% of Week 1’s effect).
+* **Week 3**: $250 (50% of Week 2’s effect), and so on.
 
 #### Key Characteristics:
 
-- **Simplicity**: Only requires one parameter—the decay rate—making it easy to implement.
-- **Constant Decay**: Assumes that the ad effect decays at the same rate each period, which is suitable for channels where ads have short-term impacts.
+* **Simplicity**: Only requires one parameter—the decay rate—making it easy to implement.
+* **Constant Decay**: Assumes that the ad effect decays at the same rate each period, which is suitable for channels where ads have short-term impacts.
 
 #### Best Use Cases:
 
-- **Digital media**: Search ads, display ads, or social media campaigns where consumers respond quickly.
-- **Frequent, short-term campaigns**: Works well when the goal is to drive immediate consumer action.
+* **Digital media**: Search ads, display ads, or social media campaigns where consumers respond quickly.
+* **Frequent, short-term campaigns**: Works well when the goal is to drive immediate consumer action.
 
 ***
 
@@ -120,26 +120,26 @@ Adstock(t) = Advertising(t) + WeibullPDF(t)
 
 Where:
 
-- **Shape**: Determines whether the ad effect decays immediately or peaks after a delay.
-- **Scale**: Determines the rate at which the ad effect decays after peaking.
+* **Shape**: Determines whether the ad effect decays immediately or peaks after a delay.
+* **Scale**: Determines the rate at which the ad effect decays after peaking.
 
 #### Example:
 
 Consider a TV ad for a high-value product. The shape parameter allows for a delayed peak in consumer response:
 
-- **Week 1**: The ad is shown, but immediate consumer response is low.
-- **Weeks 2-3**: The effect peaks as consumers begin considering the product.
-- **Weeks 4 onwards**: The ad effect gradually decays as fewer consumers recall the ad.
+* **Week 1**: The ad is shown, but immediate consumer response is low.
+* **Weeks 2-3**: The effect peaks as consumers begin considering the product.
+* **Weeks 4 onwards**: The ad effect gradually decays as fewer consumers recall the ad.
 
 #### Key Characteristics:
 
-- **Lagged Effect**: Allows the ad effect to increase after a delay, which is ideal for high-value or high-consideration products.
-- **Flexible Decay**: Offers more control over how the ad effect decays, making it suitable for offline media.
+* **Lagged Effect**: Allows the ad effect to increase after a delay, which is ideal for high-value or high-consideration products.
+* **Flexible Decay**: Offers more control over how the ad effect decays, making it suitable for offline media.
 
 #### Best Use Cases:
 
-- **High-consideration products**: Cars, appliances, or services where consumers take time before making a decision.
-- **Offline media**: TV, radio, or print campaigns where immediate consumer action is not expected.
+* **High-consideration products**: Cars, appliances, or services where consumers take time before making a decision.
+* **Offline media**: TV, radio, or print campaigns where immediate consumer action is not expected.
 
 ***
 
@@ -147,8 +147,8 @@ Consider a TV ad for a high-value product. The shape parameter allows for a dela
 
 The choice of adstock model depends on the nature of your advertising campaign and the media channel you're using:
 
-- **Geometric Adstock**: Best for **digital channels** (search, display, social media) where the consumer response is quick and predictable.
-- **Weibull PDF Adstock**: Best for **high-consideration purchases** (cars, electronics) or **offline media** (TV, radio) where consumer action might be delayed.
+* **Geometric Adstock**: Best for **digital channels** (search, display, social media) where the consumer response is quick and predictable.
+* **Weibull PDF Adstock**: Best for **high-consideration purchases** (cars, electronics) or **offline media** (TV, radio) where consumer action might be delayed.
 
 ***
 
