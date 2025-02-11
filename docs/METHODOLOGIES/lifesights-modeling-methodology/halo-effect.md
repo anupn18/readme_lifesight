@@ -20,7 +20,7 @@ The Halo Effect is a cognitive bias where the perception of one positive attribu
 
 #### Key Points:
 
-Bias in Attribution: The halo effect causes marketers to attribute positive results to all activities of a successful channel, not just the effective ones.  
+Bias in Attribution: The halo effect causes marketers to attribute positive results to all activities of a successful channel, not just the effective ones.\
 Distorted Insights: This bias can distort the insights derived from MMM, leading to misguided strategic decisions and budget allocations.
 
 ### Why is the Halo Effect Important in MMM?
@@ -29,15 +29,15 @@ Understanding and mitigating the halo effect is essential for several reasons:
 
 #### Accurate Attribution:
 
-- True Performance Measurement: The halo effect can obscure the true performance of individual marketing channels, making it difficult to assess their actual impact.
-- Resource Allocation: Misattributed effectiveness can lead to inefficient allocation of marketing budgets, investing more in channels that appear effective due to bias rather than actual performance.
+* True Performance Measurement: The halo effect can obscure the true performance of individual marketing channels, making it difficult to assess their actual impact.
+* Resource Allocation: Misattributed effectiveness can lead to inefficient allocation of marketing budgets, investing more in channels that appear effective due to bias rather than actual performance.
 
 #### Strategic Decision-Making:
 
-- Informed Strategies: Without accounting for the halo effect, strategies based on flawed data can hinder business growth and ROI.
-- Competitive Advantage: Accurate insights free from bias provide a competitive edge, enabling more precise and effective marketing strategies.
+* Informed Strategies: Without accounting for the halo effect, strategies based on flawed data can hinder business growth and ROI.
+* Competitive Advantage: Accurate insights free from bias provide a competitive edge, enabling more precise and effective marketing strategies.
 
 #### Optimizing Marketing Spend:
 
-- Maximized ROI: Proper attribution ensures that marketing spend is directed towards channels that genuinely drive results, maximizing overall ROI.
-- Reduced Waste: Prevents overspending on ineffective channels influenced by the halo effect, reducing marketing waste.
+* Maximized ROI: Proper attribution ensures that marketing spend is directed towards channels that genuinely drive results, maximizing overall ROI.
+* Reduced Waste: Prevents overspending on ineffective channels influenced by the halo effect, reducing marketing waste.
