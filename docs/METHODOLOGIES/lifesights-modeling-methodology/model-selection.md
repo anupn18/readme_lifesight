@@ -20,13 +20,13 @@ We have developed a custom ranking approach that uses **Regression Model-based w
 
 Our ranking algorithm evaluates models based on several key metrics, including:
 
-- **nRMSE (Normalized Root Mean Squared Error)**: Measures the average error between predicted and actual values, normalized to make comparisons easier across models.
-- **Trend**: Measures how well the model captures long-term patterns in the data.
-- **Seasonality**: Assesses the model's ability to identify recurring patterns, such as weekly or yearly cycles.
-- **Holidays**: Captures the effect of irregular events like holidays that can temporarily impact the trends.
-- **Spends (normalized per channel)**: Reflects the budget allocated to each channel, making them comparable by normalizing the values.
-- **R-squared (Rsq)**: Shows how well the model explains the variation in the data.
-- **Channel Impact Divergence Index (CDID)**: A custom metric that measures how much the impact of a particular channel deviates from others in the media mix.
+* **nRMSE (Normalized Root Mean Squared Error)**: Measures the average error between predicted and actual values, normalized to make comparisons easier across models.
+* **Trend**: Measures how well the model captures long-term patterns in the data.
+* **Seasonality**: Assesses the model's ability to identify recurring patterns, such as weekly or yearly cycles.
+* **Holidays**: Captures the effect of irregular events like holidays that can temporarily impact the trends.
+* **Spends (normalized per channel)**: Reflects the budget allocated to each channel, making them comparable by normalizing the values.
+* **R-squared (Rsq)**: Shows how well the model explains the variation in the data.
+* **Channel Impact Divergence Index (CDID)**: A custom metric that measures how much the impact of a particular channel deviates from others in the media mix.
 
 By evaluating models based on these features, we calculate metrics like **contribution percentage**, **ROI (Return on Investment)**, and **error**. These metrics help us recommend the most effective solution.
 
@@ -44,8 +44,8 @@ For example, if the 25th percentile for ROAS across Facebook, Google, and YouTub
 
 To rank the selected solIDs, we perform a **regression analysis** where the target output is `Rsq_train` (how well the model fits the training data). The independent variables include the other key metrics such as **nRMSE**, **Trend**, **Seasonality**, and **CDID (Channel Impact Divergence Index)**.
 
-- The goal is to **maximize Rsq_train** and **Rsq_val** (model accuracy on validation data) while minimizing **nRMSE** and **CDID**.
-- The coefficients derived from this regression are used as **weights** for each parameter. These weights represent the importance of each feature when evaluating model performance.
+* The goal is to **maximize Rsq\_train** and **Rsq\_val** (model accuracy on validation data) while minimizing **nRMSE** and **CDID**.
+* The coefficients derived from this regression are used as **weights** for each parameter. These weights represent the importance of each feature when evaluating model performance.
 
 ### 3. Ranking the Models
 
