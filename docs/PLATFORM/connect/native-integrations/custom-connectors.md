@@ -19,25 +19,10 @@ Custom connectors let you send and receive data using APIs and webhooks that are
 1. Navigate to Connect > Integrations from the left-hand menu.
 2. Search for "Custom Connector" to locate the integration.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/42ec03eafc2177afeeda606124d2dc811912f8a263167d165b2a7114ec774a98-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "400px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="400px" src="https://files.readme.io/42ec03eafc2177afeeda606124d2dc811912f8a263167d165b2a7114ec774a98-image.png" />
 
 > 🚧 Need help setting up a custom integration?
-> 
+>
 > Lifesight marketing science services help you connect, ingest and transform your data from any sources using custom APIs and webhooks based on your requirement.
 
 3. Name your integration and click "Begin Setup" (you can change the name while configuring your connector)
@@ -62,25 +47,10 @@ Custom connectors let you send and receive data using APIs and webhooks that are
 1. Navigate to Connect > Integrations from the left-hand menu.
 2. Search for "Custom Connector" to locate the integration.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/42ec03eafc2177afeeda606124d2dc811912f8a263167d165b2a7114ec774a98-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "400px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="400px" src="https://files.readme.io/42ec03eafc2177afeeda606124d2dc811912f8a263167d165b2a7114ec774a98-image.png" />
 
 > 🚧 Need help setting up a custom integration?
-> 
+>
 > Lifesight marketing science services help you connect, ingest and transform your data from any sources using custom APIs and webhooks based on your requirement.
 
 3. Name your integration and click "Begin Setup" (you can change the name while configuring your connector)
