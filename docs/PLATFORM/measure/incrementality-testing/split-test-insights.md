@@ -20,8 +20,8 @@ For an apples-to-apples comparison, toggle 'Show normalized control' to scale th
 
 Here's what you can infer from the above Split Test to measure Store Visit Lift.
 
-- Snapchat had a negative Lift of 6.93% which resulted in 432 fewer Store Lifts after being exposed to the campaign.
-- Pinterest had a negative Lift of 14.62% which resulted in 912 fewer Store Lifts after being exposed to the campaign.
+* Snapchat had a negative Lift of 6.93% which resulted in 432 fewer Store Lifts after being exposed to the campaign.
+* Pinterest had a negative Lift of 14.62% which resulted in 912 fewer Store Lifts after being exposed to the campaign.
 
 <br />
 
@@ -38,26 +38,12 @@ Now that you've run an Experiment successfully and the results make sense to you
 5. Scroll to the bottom of the Configuration page to view the Calibration table.
 6. Enter the results of your Experiment here and click the `Re-configure` button to confirm your changes.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/81472ddd76dab98659c6d7b7c752ce8073b26973ddf79695c197878963fa65ec-calibration.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/81472ddd76dab98659c6d7b7c752ce8073b26973ddf79695c197878963fa65ec-calibration.jpg" />
 
 7. A new model with the recalibrated changes will be created with the refresh version number mentioned in the model name.
 
 ![](https://files.readme.io/1cf072f1b2d24e9510d6520d8c09728c2176bb74a9316c89af89c4c584de590a-image.png)
 
 > 📘 Note
-> 
+>
 > Whenever a model is refreshed or calibrated, a new model is created. This is done in case you added the incorrect experiment results or ran a failed experiment whose results you are not happy with. Users can deleted the refreshed model and seamlessly return to their main model without having the create a new model from scratch.
