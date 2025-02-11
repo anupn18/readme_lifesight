@@ -18,23 +18,23 @@ Optimization refers to the process of **maximizing** or **minimizing** a functio
 
 ### Understanding Modeling Issues:
 
-- **What to look for in setting up an optimization problem?**
-- **What features are advantageous or disadvantageous?**
-- **What devices/tricks of formulation are available?**
-- **How can problems usefully be categorized?**
+* **What to look for in setting up an optimization problem?**
+* **What features are advantageous or disadvantageous?**
+* **What devices/tricks of formulation are available?**
+* **How can problems usefully be categorized?**
 
 ### Analysis of Solutions:
 
-- **What is meant by a "solution?"**
-- **When do solutions exist, and when are they unique?**
-- **How can solutions be recognized and characterized?**
-- **What happens to solutions under perturbations?**
+* **What is meant by a "solution?"**
+* **When do solutions exist, and when are they unique?**
+* **How can solutions be recognized and characterized?**
+* **What happens to solutions under perturbations?**
 
 ### Numerical Methods:
 
-- **How can solutions be determined by iterative schemes of computation?**
-- **What modes of local simplification of a problem are convenient or appropriate?**
-- **How can different solution techniques be compared and evaluated?**
+* **How can solutions be determined by iterative schemes of computation?**
+* **What modes of local simplification of a problem are convenient or appropriate?**
+* **How can different solution techniques be compared and evaluated?**
 
 <br />
 
@@ -50,7 +50,7 @@ Lifesight currently employs three key objective functions for hyperparameter opt
 
 ### NRMSE (Normalized Root Mean Square Error)
 
-This metric quantifies the prediction error. Lifesight enables time-series validation by splitting the dataset into training, validation, and test sets. When time-series validation is not employed, the training error (**nrmse_train**) serves as the objective function during evolutionary iterations. With time-series validation, the validation error (**nrmse_val**) becomes the objective function, while the test error (**nrmse_test**) assesses out-of-sample predictive performance.
+This metric quantifies the prediction error. Lifesight enables time-series validation by splitting the dataset into training, validation, and test sets. When time-series validation is not employed, the training error (**nrmse\_train**) serves as the objective function during evolutionary iterations. With time-series validation, the validation error (**nrmse\_val**) becomes the objective function, while the test error (**nrmse\_test**) assesses out-of-sample predictive performance.
 
 ### DECOMP.RSSD (Decomposition Root Sum of Squared Distance)
 
@@ -78,7 +78,7 @@ The lambda parameter, representing the penalty term in ridge regression, is opti
 
 ### Validation
 
-The train_size parameter, representing the proportion of data used for training, is also optimized.
+The train\_size parameter, representing the proportion of data used for training, is also optimized.
 
 ## Pareto-Optimality in Model Selection
 
