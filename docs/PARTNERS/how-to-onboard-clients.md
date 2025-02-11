@@ -36,9 +36,9 @@ Agencies can create and manage individual workspaces for each brand onboarded to
 
 Once the initial workspaces are created, agencies can add more as needed. To do this, navigate to the left-hand menu:
 
-- Click on `Workspace name > Settings`
+* Click on `Workspace name > Settings`
 
-_Example: The screenshot below shows two active workspaces for Acme Retail and Acme Gaming._
+*Example: The screenshot below shows two active workspaces for Acme Retail and Acme Gaming.*
 
 ![](https://files.readme.io/798b88e630edd7a2011299911eceb6ae59bfa00501ebb29ab7f20c6a2b2b07d4-image.png)
 
@@ -49,13 +49,13 @@ _Example: The screenshot below shows two active workspaces for Acme Retail and A
 Once the workspaces are created, agencies can follow the steps below to invite clients and manage their access:
 
 1. **Inviting Users to a Workspace**
-   - After creating a workspace for a brand or client, open the specific workspace and navigate to `Settings`. From there, you can [invite users to the workspace](https://docs.lifesight.io/docs/user-roles) and manage their roles and permissions.
+   * After creating a workspace for a brand or client, open the specific workspace and navigate to `Settings`. From there, you can [invite users to the workspace](https://docs.lifesight.io/docs/user-roles) and manage their roles and permissions.
 
 2. **Setting Up Data Integrations**
-   - Guide clients through the [data integration process](https://docs.lifesight.io/docs/native-integrations). Ensure that all relevant data sources are correctly connected to the platform for seamless tracking and optimization.
+   * Guide clients through the [data integration process](https://docs.lifesight.io/docs/native-integrations). Ensure that all relevant data sources are correctly connected to the platform for seamless tracking and optimization.
 
 3. **Defining Brand/Client Outcomes**
-   - Work with clients to set clear KPIs, such as conversion rates, ROI, and marketing efficiency metrics. This helps define the objectives Lifesight will optimize for.
+   * Work with clients to set clear KPIs, such as conversion rates, ROI, and marketing efficiency metrics. This helps define the objectives Lifesight will optimize for.
 
 4. **Showcasing Marketing Performance Improvements**
-   - Use Lifesight's transparent dashboard to show brands their marketing performance before and after using the platform. This data-driven approach helps build trust and credibility, enabling agencies to demonstrate business outcomes and gain more marketing budget from their clients.
+   * Use Lifesight's transparent dashboard to show brands their marketing performance before and after using the platform. This data-driven approach helps build trust and credibility, enabling agencies to demonstrate business outcomes and gain more marketing budget from their clients.
