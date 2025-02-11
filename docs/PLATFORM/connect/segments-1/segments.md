@@ -14,41 +14,13 @@ next:
 
 Segments are simply contacts grouped by defining a set of conditions based on their behavior or identity. While lists are static, meaning they grow when people subscribe to the list or when you add contacts to the list. Segments grow dynamically as people fulfill a set of conditions or shrink as people do not meet the conditions. 
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/3ce7a3332d6a6b5599dd966209edaa31c6a56bc9946df9c50732df887d433419-seg.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/3ce7a3332d6a6b5599dd966209edaa31c6a56bc9946df9c50732df887d433419-seg.jpg" />
 
 ## What are Lists?
 
 A list is a curated collection of contacts who share a specific attribute or have been intentionally grouped. Lists are static and only expand when people subscribe or are manually added.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f00d154a6fdfa846dd361bdc5cf5c35c54b88a52b8788ddfa83a5fb5897fa7e7-lists.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/f00d154a6fdfa846dd361bdc5cf5c35c54b88a52b8788ddfa83a5fb5897fa7e7-lists.jpg" />
 
 Lists allow you to categorize contacts based on the types of messages they're interested in, such as newsletters, announcements, or alerts. This makes lists an invaluable asset in marketing for targeted messaging and campaigns. 
 
