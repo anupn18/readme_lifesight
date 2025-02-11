@@ -50,9 +50,9 @@ If you have your own custom attribution weights for each channel, you can submit
 
 3. **Adjustments for Missing Channels**: If a journey includes channels for which no custom weights are provided (e.g., Axio in the following journey), Lifesight uses a **Multi-Touch Linear Model** to estimate the missing channel’s contribution. For example:
 
-   - **Journey**: `[Facebook] >[Google] >[Facebook] >[TikTok] > [Axio]`
-   - **Weights (Provided)**: Facebook - 0.3, Google - 0.5, TikTok - 0.2
-   - **Estimation for Axio**: Based on the linear model, Axio's coefficient is normalized to fit within the overall weight distribution, ensuring the sum of all channel weights equals 1.
+   * **Journey**: `[Facebook] >[Google] >[Facebook] >[TikTok] > [Axio]`
+   * **Weights (Provided)**: Facebook - 0.3, Google - 0.5, TikTok - 0.2
+   * **Estimation for Axio**: Based on the linear model, Axio's coefficient is normalized to fit within the overall weight distribution, ensuring the sum of all channel weights equals 1.
 
 4. **Final Weights**: Once the coefficients for all channels are normalized, the final readjusted weights for this journey will look like this:
 
@@ -72,29 +72,29 @@ After the weights have been uploaded, you can start viewing the custom attributi
 #### Step-by-Step Process
 
 1. **Access the Attribution Dashboard**:
-   - Navigate to the **Attribution** section in the Lifesight platform.
-   - Select the **Algorithmic Attribution** model from the available options.
+   * Navigate to the **Attribution** section in the Lifesight platform.
+   * Select the **Algorithmic Attribution** model from the available options.
 
 2. **View Attribution Results**:
 
-   - On the dashboard, you will now see the attribution insights for your channels based on the custom weights provided. 
-   - The weights will be reflected in the attribution of revenue, conversions, and other key performance metrics across different channels.
+   * On the dashboard, you will now see the attribution insights for your channels based on the custom weights provided. 
+   * The weights will be reflected in the attribution of revenue, conversions, and other key performance metrics across different channels.
 
 3. **Filter by Custom Weights**:
-   - You can filter the results by **Channel**, **Date Range** to see how the custom weights impact your attribution.
-   - Lifesight will display the **attributed revenue** and other metrics for each channel based on the custom weights you provided.
+   * You can filter the results by **Channel**, **Date Range** to see how the custom weights impact your attribution.
+   * Lifesight will display the **attributed revenue** and other metrics for each channel based on the custom weights you provided.
 
 ### Normalization of Weights
 
 When custom weights are applied, Lifesight ensures that the weights are normalized for each customer journey. Here's a breakdown of how normalization works in Lifesight:
 
 1. **Normalization of Channel Weights**:
-   - For each journey, the custom weights are normalized to ensure that the total attribution credit across all channels equals 1.
-   - Example: In a journey where the total sum of custom weights is 1.2, Lifesight adjusts the channel weights accordingly, dividing each by 1.2 to make sure the sum equals 1.
+   * For each journey, the custom weights are normalized to ensure that the total attribution credit across all channels equals 1.
+   * Example: In a journey where the total sum of custom weights is 1.2, Lifesight adjusts the channel weights accordingly, dividing each by 1.2 to make sure the sum equals 1.
 
 2. **Normalization of Objective and Campaign-Level Weights**:
-   - Lifesight also calculates objective and campaign-level coefficients by multiplying the custom channel weights with the linear fractions derived from the customer journey.
-   - These coefficients are further normalized to ensure the total attribution across objectives or campaigns equals 1.
+   * Lifesight also calculates objective and campaign-level coefficients by multiplying the custom channel weights with the linear fractions derived from the customer journey.
+   * These coefficients are further normalized to ensure the total attribution across objectives or campaigns equals 1.
 
 ### Conclusion
 
