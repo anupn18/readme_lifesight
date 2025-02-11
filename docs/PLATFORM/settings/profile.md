@@ -10,21 +10,7 @@ metadata:
 next:
   description: ''
 ---
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9685b630b949cc0fc5bfa461d01048187ee344757df21f1cd5c8e39d3ec82ff9-dem.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/9685b630b949cc0fc5bfa461d01048187ee344757df21f1cd5c8e39d3ec82ff9-dem.jpg" />
 
 1. Click on the `Profile Name` in the bottom left of the Lifesight dashboard.
 
