@@ -24,16 +24,16 @@ Selecting the optimal base period for forecasting involves understanding the und
 
 **Seasonality** refers to periodic fluctuations in data that occur at regular intervals, such as weekly, monthly.
 
-**Example : **
+**Example :**
 
 The second graph (above) illustrates the seasonal component of the data:
 
-- Clear cyclical pattern that repeats annually
-- Peaks around $400K to $600K
-- Troughs around -$400K to -$600K
-- This pattern suggests strong yearly seasonality in the revenue data.
+* Clear cyclical pattern that repeats annually
+* Peaks around $400K to $600K
+* Troughs around -$400K to -$600K
+* This pattern suggests strong yearly seasonality in the revenue data.
 
-  **In these cases, you can select the `past year same month` as the `optimize based on` period for forecasting.**
+  **In these cases, you can select the`past year same month` as the `optimize based on` period for forecasting.**
 
 > 📘 **Note**: Our model can identify seasonality and trends in your data and provide you with a comprehensive chart.
 
@@ -43,14 +43,14 @@ The second graph (above) illustrates the seasonal component of the data:
 
 **Trend** represents the long-term direction in the data, indicating whether values are generally increasing or decreasing over time.
 
-**Example : **
+**Example :**
 
 The third graph shows the overall trend of the revenue:
 
-- A gradual, steady increase over time
-- Starts around $700K at the beginning of the period
-- Ends around $850K by the end of the period
-- This indicates a slow but consistent growth in the underlying business
+* A gradual, steady increase over time
+* Starts around $700K at the beginning of the period
+* Ends around $850K by the end of the period
+* This indicates a slow but consistent growth in the underlying business
 
 <br />
 
@@ -58,12 +58,12 @@ The third graph shows the overall trend of the revenue:
 
 **Holiday Effects** are anomalies or deviations from normal patterns that occur around holidays or special events.
 
-**Example : **
+**Example :**
 
-- The bottom graph represents the impact of holidays or special events:
-- Mostly flat around $0, indicating no effect for much of the year
-- Occasional sharp spikes, with two major ones reaching about $1.5M
-- These spikes likely correspond to specific holidays or events that dramatically boost revenue
+* The bottom graph represents the impact of holidays or special events:
+* Mostly flat around $0, indicating no effect for much of the year
+* Occasional sharp spikes, with two major ones reaching about $1.5M
+* These spikes likely correspond to specific holidays or events that dramatically boost revenue
 
 <br />
 
@@ -77,6 +77,6 @@ If you are forecasting for a month or quarter :
 4. **If the data is not seasonal and there is a flat trend:** Take the latest month as the base period.
 
 > 📘 Note
-> 
-> - You can understand why the proper base period is required, here.
-> - If you are not able to figure out the proper base period, please reach out to [support@lifesight.io](mailto:support@lifesight.io) or the respective account manager assigned to you.
+>
+> * You can understand why the proper base period is required, here.
+> * If you are not able to figure out the proper base period, please reach out to [support@lifesight.io](mailto:support@lifesight.io) or the respective account manager assigned to you.
