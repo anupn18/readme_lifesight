@@ -45,24 +45,30 @@ Use the Hide page and Unhide page options to quickly update the page visibility 
 
 <br />
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "",
-    "h-1": "",
-    "0-0": "Hide Page",
-    "0-1": "Hides page from all users accessing the workbook in View or Explore mode.  \n_Available when the page is currently visible to all users._",
-    "1-0": "Unhide Page",
-    "1-1": "Shows page to all users accessing the Dashboard in any mode.  \n_Available when the page is currently hidden from all or select users and teams._"
-  },
-  "cols": 2,
-  "rows": 2,
-  "align": [
-    "left",
-    "left"
-  ]
-}
-[/block]
+<HTMLBlock>{`
+<table style="width: 100%; border-collapse: collapse;">
+<thead>
+<tr>
+  <th style="border: 1px solid #ddd; padding: 8px;"></th>
+  <th style="border: 1px solid #ddd; padding: 8px;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>Hide Page</p>
+</td>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>Hides page from all users accessing the workbook in View or Explore mode.<br><em>Available when the page is currently visible to all users.</em></p>
+</td>
+</tr>
+<tr>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>Unhide Page</p>
+</td>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>Shows page to all users accessing the Dashboard in any mode.<br><em>Available when the page is currently hidden from all or select users and teams.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+`}</HTMLBlock>
 
 
 ## Customize page visibility
