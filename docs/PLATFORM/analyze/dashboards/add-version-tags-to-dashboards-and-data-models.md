@@ -65,7 +65,7 @@ When you tag a version of your Dashboard that relies on a materialized data sour
 | Data model        | ✅ Materialized version is used.     | The tagged version of the Dashboard uses the data model, remaining in sync with any changes made to the data model and using the materialized results. |
 | Tagged data model | ❌ Materialized version is not used. | The tagged version of the Dashboard uses a tagged version of the data model, which cannot be materialized at this time.                                |
 
-## Tag a Dashboard or data model version
+## Tag a Dashboard or data model version 
 
 You can tag a version of a Dashboard or a data model. When you tag a document, you create a read-only version of the document that you can then share with others or embed.
 
@@ -203,7 +203,7 @@ To update the "testing" tagged version of the Dashboard, do the following:
 5. Make your desired changes in the draft.
 6. When you finish making changes, publish your changes.
 7. In the Dashboard header menu, open Version history if it is no longer open.\
-   In the version history, you see a line item for Restored version from <date>, then additional changes listed above that version.
+   In the version history, you see a line item for Restored version from `<date>`, then additional changes listed above that version.
 8. For the current version that contains your changes, select  More > Set tag on this version.\
    The latest version is tagged, and the contents are updated to match.\
    The version that was previously tagged is listed with a grayed-out version of the version tag.
