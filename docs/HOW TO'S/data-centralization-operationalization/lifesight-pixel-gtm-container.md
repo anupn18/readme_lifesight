@@ -20,20 +20,7 @@ The user imports the Lifesight container into their GTM account and will get all
 
 ### **In case you are not familiar with the Google GTM terms**
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9a8407b62782e61cf30038dea96aed27530e92910158fa65c6e415ad59354e5b-Nov_21_Screenshot_from_Notion.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/9a8407b62782e61cf30038dea96aed27530e92910158fa65c6e415ad59354e5b-Nov_21_Screenshot_from_Notion.png" />
 
 
 Standard E-commerce Events 
@@ -318,7 +305,7 @@ Sign Up
 
 ```jsx
 {
-    "event": "Signup Completed",
+    "event": "Signup Completed", 
     "ecommerce": {
             "SignupCompleted": {
                "identifiers":
@@ -409,4 +396,4 @@ Login
 }
 ```
 
-**Note: At least 1 of the identifiers {customer_id, email or phone} must be passed in the Identify call.**
+**Note: At least 1 of the identifiers `{customer_id, email or phone}` must be passed in the Identify call.**
