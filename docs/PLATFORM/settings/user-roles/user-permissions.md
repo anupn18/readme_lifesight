@@ -37,37 +37,39 @@ next:
 |         | Re-Discover Causal Model  | ✅       | ✅     | ✅             | ✅       | ❌      |
 |         | What-If Analysis Creation | ✅       | ✅     | ✅             | ✅       | ❌      |
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Feature",
-    "h-1": "Access",
-    "h-2": "Manager",
-    "h-3": "Admin",
-    "h-4": "Billing admin",
-    "h-5": "Support",
-    "h-6": "Viewer",
-    "0-0": "Attribution  ",
-    "0-1": "Toggle for Campaigns,  \nAdGroups and Ads",
-    "0-2": "✅",
-    "0-3": "✅",
-    "0-4": "✅",
-    "0-5": "❌",
-    "0-6": "❌"
-  },
-  "cols": 7,
-  "rows": 1,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<HTMLBlock>{`
+<table style="width: 100%; border-collapse: collapse;">
+<thead>
+<tr>
+  <th style="border: 1px solid #ddd; padding: 8px;">Feature</th>
+  <th style="border: 1px solid #ddd; padding: 8px;">Access</th>
+  <th style="border: 1px solid #ddd; padding: 8px;">Manager</th>
+  <th style="border: 1px solid #ddd; padding: 8px;">Admin</th>
+  <th style="border: 1px solid #ddd; padding: 8px;">Billing admin</th>
+  <th style="border: 1px solid #ddd; padding: 8px;">Support</th>
+  <th style="border: 1px solid #ddd; padding: 8px;">Viewer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>Attribution  </p>
+</td>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>Toggle for Campaigns,<br>AdGroups and Ads</p>
+</td>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>✅</p>
+</td>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>✅</p>
+</td>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>✅</p>
+</td>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>❌</p>
+</td>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>❌</p>
+</td>
+</tr>
+</tbody>
+</table>
+`}</HTMLBlock>
 
 
 ***
