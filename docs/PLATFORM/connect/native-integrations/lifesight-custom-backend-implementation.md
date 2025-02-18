@@ -26,29 +26,42 @@ POST https://moda-transform-webhook-data-prd-7jirubb0.uc.gateway.dev/transform-w
 
 ### Query Parameters
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Key",
-    "h-1": "Value",
-    "0-0": "key",
-    "0-1": "API Key for Lifesight’s endpoint - Will be shared when implementation begins",
-    "1-0": "workspace",
-    "1-1": "Workspace name for the account created for you on Lifesight",
-    "2-0": "source",
-    "2-1": "Source of data - Will be shared when implementation begins",
-    "3-0": "event_name",
-    "3-1": "POSSIBLE VALUES:  \norders_create, orders_updated, orders_fulfilled, orders_partially_fulfilled, orders_paid, orders_cancelled, checkouts_create, checkouts_update, customers_create, customers_update"
-  },
-  "cols": 2,
-  "rows": 4,
-  "align": [
-    null,
-    null
-  ]
-}
-[/block]
-
+<HTMLBlock>{`
+<table style="width: 100%; border-collapse: collapse;">
+<thead>
+<tr>
+  <th style="border: 1px solid #ddd; padding: 8px;">Key</th>
+  <th style="border: 1px solid #ddd; padding: 8px;">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>key</p>
+</td>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>API Key for Lifesight’s endpoint - Will be shared when implementation begins</p>
+</td>
+</tr>
+<tr>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>workspace</p>
+</td>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>Workspace name for the account created for you on Lifesight</p>
+</td>
+</tr>
+<tr>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>source</p>
+</td>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>Source of data - Will be shared when implementation begins</p>
+</td>
+</tr>
+<tr>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>event_name</p>
+</td>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>POSSIBLE VALUES:<br>orders_create, orders_updated, orders_fulfilled, orders_partially_fulfilled, orders_paid, orders_cancelled, checkouts_create, checkouts_update, customers_create, customers_update</p>
+</td>
+</tr>
+</tbody>
+</table>
+`}</HTMLBlock>
 
 ## Orders
 
