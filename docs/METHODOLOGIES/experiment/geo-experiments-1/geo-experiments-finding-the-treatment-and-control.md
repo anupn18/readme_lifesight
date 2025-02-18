@@ -14,7 +14,7 @@ next:
 ---
 Geo-experiments offer a unique approach for evaluating the impact of marketing efforts on a regional scale. Unlike traditional, user-based experiments, geo-experiments assign treatment and control across entire regions, allowing for broader observations. 
 
-### 1. Overview: Geo vs. User-Level Experiments
+### 1. Overview: Geo vs. User-Level Experiments 
 
 Geo-experiments differ fundamentally from user-level experiments in terms of assignment, measurement, and application. The following table summarises the distinctions between the two types:
 
