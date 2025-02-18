@@ -12,20 +12,9 @@ next:
 ---
 Once a model has been calibrated, a Calibration Insights Tab becomes available for the calibrated models. This tab provides detailed information about the calibration process, including:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/274878df5301cf510178c51d6ab560b03215abcfd322b5f2c18667156cbbfe7a-calibration_tab.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+
+<Image align="center" src="https://files.readme.io/274878df5301cf510178c51d6ab560b03215abcfd322b5f2c18667156cbbfe7a-calibration_tab.jpg" />
+
 
 Incorporating Recent Observations: If users want to add recent experimental results or observations, they can only do so after the model has been successfully created. At this point, they can use the `Calibrate` button to add these recent results and recalibrate the model.
 
