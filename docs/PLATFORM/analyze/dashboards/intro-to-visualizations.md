@@ -191,7 +191,7 @@ The ability to create bar charts and other visualizations requires the following
 To plot a bar chart, configure the following properties in the  Element properties tab:
 
 **Chart**   Chart type displayed in the Dashboard\
-**X-axis**  Source column that defines the x-axis (horizontal axis) categories or variable\
+**X-axis**  Source column that defines the x-axis (horizontal axis) categories or variable
 **Y-axis**  Source column that defines the y-axis (vertical axis) categories or variable
 
 In a bar chart, one axis typically represents ordinal or nominal categories (like stages, regions, and departments) presented as vertical or horizontal bars. The other axis represents a variable that measures a value (like sales, leads, expenses) for each category and determines the height or length of the corresponding bar. The type of data affiliated with each axis depends on the chart orientation, which you can modify at any time.
@@ -234,7 +234,7 @@ When building a vertical bar chart (default orientation), apply the following st
 
 Configure a source column to define the chart variable. Lifesight automatically aggregates values associated with the same chart category.
 
-Apply the following steps to the Y-axis property when building a vertical bar chart (default orientation) or the X-axis property when building a horizontal bar chart. 
+Apply the following steps to the Y-axis property when building a vertical bar chart (default orientation) or the X-axis property when building a horizontal bar chart.
 
 1. In the applicable axis property, click  Add calculation and select an option from the menu:
    * To aggregate values of an existing column, search or scroll the Aggregate column list and select the preferred column name.
@@ -362,7 +362,7 @@ At the core of every visualization is an underlying data table (derived from the
 To plot a line chart, configure the following properties in the Element properties panel:
 
 **Chart**   Chart type displayed in the Dashboard\
-**X-axis**  Source column that defines the x-axis (horizontal axis) categories\
+**X-axis**  Source column that defines the x-axis (horizontal axis) categories
 **Y-axis**  Source column that defines the y-axis (vertical axis) variable
 
 In a line chart, the x-axis typically represents time-based categories (like dates, months, years) that correspond with individual data points. The y-axis represents a variable that measures a value (like sales, leads, expenses) for each category and determines the vertical placement of each data point.
@@ -549,7 +549,7 @@ The KPI chart highlights the global summary, which aggregates the metric values 
 <br />
 
 Required element properties:\
-Value\
+Value
 Comparison (Column)
 
 **Time series variations**
@@ -566,7 +566,7 @@ The KPI chart highlights the latest period value or global summary, and it can d
 <br />
 
 Required element properties:\
-Value\
+Value
 Timeline
 
 <Image align="left" width="400px" src="https://files.readme.io/3be0b513100b1fb6a67817411d2cf1413e2fd9f8f82fe2c3880a1534f329dfda-kpi_chart-variations_period-comparison.png" />
@@ -577,8 +577,8 @@ Measure a metric’s value in one period (like week, month, or year) against ano
 The KPI chart highlights the latest period value or global summary, and it can display the comparison as a percentage, delta, or absolute value. It can also include a trend line that illustrates patterns and changes over time.
 
 Required element properties:\
-Value\
-Timeline\
+Value
+Timeline
 Comparison (Period)
 
 <Image align="left" width="400px" src="https://files.readme.io/48b4c2ee5e3b86f4ae1b2fe54296dadd9c2478e91e1b0984102e3aa354c956ee-kpi_chart-variations_period-value-comparison.png" />
@@ -589,8 +589,8 @@ Compare a metric's period value against a benchmark or target to assess relative
 The KPI chart highlights the latest period value or global summary, and it can display a comparison as a percentage, delta, or absolute value. It can also include a trend line for both values to illustrate patterns and changes over time.
 
 Required element properties:\
-Value\
-Timeline\
+Value
+Timeline
 Comparison (Column)
 
 > 📘 When loading or refreshing a Dashboard, Lifesight typically sends a separate query for each data element. If the Dashboard contains multiple static KPI charts (summary value and benchmark summary comparison variations) that share a data source, Lifesight employs query batching. This consolidates the data requests from all applicable KPI charts into a single query to reduce query processing overhead and optimize performance. Time series KPI charts (period value, period comparison, and benchmark period comparison variations) send separate queries to the database and aren't included in query batching.
@@ -668,7 +668,7 @@ Configure the Timeline property to define the reporting period for the time seri
 When a source column is added to the Timeline property, two changes occur in the chart:
 
 * The chart now displays the metric's latest period value, which aggregates the Value property source column data for the most recent period. To change the default display value to the global summary, proceed to the next step.
-* If the element layout size allows, the chart displays a trend line, which you can hover over to view previous period values. 
+* If the element layout size allows, the chart displays a trend line, which you can hover over to view previous period values.
 
 <Image align="center" width="450px" src="https://files.readme.io/a2ee1ca657e378e9d6d2f666e52c2cd9d372a16b2912c79c856441220e56530b-kpi_define-measurable-period_step-1b.png" />
 
@@ -766,10 +766,10 @@ Customize the metric value’s font weight, color, and size in the  Element form
 
 ### Customize the comparison display
 
-Customize the comparison display in the  Element format > Comparison section.
+Customize the comparison display in the  **Element format > Comparison section.**
 
 In addition to modifying the color indicators, you can change the font size of the comparison value, show or hide the label, and customize the label content.\
-You can also select the type of comparison displayed and identify the favorable direction of the comparison. The Direction setting determines when the Good color, Neutral color, and Bad color indicators apply to the comparison value.\
+You can also select the type of comparison displayed and identify the favorable direction of the comparison. The Direction setting determines when the Good color, Neutral color, and Bad color indicators apply to the comparison value.
 Display
 
 % difference from\
@@ -808,7 +808,7 @@ You can also enable tooltips on hover, display the x-axis with timeline tick mar
 Display options
 
 Show tooltip\
-Show timeline axis\
+Show timeline axis
 Show y-axis
 
 Customize the chart layout\
