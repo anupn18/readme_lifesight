@@ -768,6 +768,8 @@ Customize the metric value’s font weight, color, and size in the  Element form
 
 Customize the comparison display in the  **Element format > Comparison section.**
 
+<Image align="center" src="https://files.readme.io/7bed6bad332f27b0923bb3b848df8ffe800206f9d5c6e214c4133ea29192c268-kpi_format_comparison.png" />
+
 In addition to modifying the color indicators, you can change the font size of the comparison value, show or hide the label, and customize the label content.\
 You can also select the type of comparison displayed and identify the favorable direction of the comparison. The Direction setting determines when the Good color, Neutral color, and Bad color indicators apply to the comparison value.
 Display
