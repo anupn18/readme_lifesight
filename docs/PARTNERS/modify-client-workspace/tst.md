@@ -7,6 +7,8 @@ metadata:
 ---
 Visualizations are graphical data elements that add visual context to your analysis. They allow you to create, explore, and view your data in a more focused and digestible format. test
 
+no test
+
 By adding visualizations to a Dashboard, you can reveal patterns, trends, outliers, and correlations crucial to creating a compelling data narrative. Build each visualization to deliver specific data insights and answer important questions that help you make better business decisions.
 
 This document introduces the types of visualizations Lifesight offers and explains where to configure element properties and formatting.
