@@ -772,8 +772,14 @@ Customize the comparison display in the  **Element format > Comparison section.*
 
 <Image align="center" src="https://files.readme.io/af258895364531dc903e6d772e354d45fe7e15b64e0b90e9464683d573297d30-kpi_format_comparison.png" />
 
-In addition to modifying the color indicators, you can change the font size of the comparison value, show or hide the label, and customize the label content.\
+<br />
+
+In addition to modifying the color indicators, you can change the font size of the comparison value, show or hide the label, and customize the label content.
+
 You can also select the type of comparison displayed and identify the favorable direction of the comparison. The Direction setting determines when the Good color, Neutral color, and Bad color indicators apply to the comparison value.
+
+<Image align="center" src="https://files.readme.io/34f25a9c6fec88c90ab3b30c4214b290bb6cf64e82d0e842cead6b9d4e63964b-Screenshot_2025-03-05_at_5.11.26_PM.png" />
+
 Display
 
 % difference from\
