@@ -131,7 +131,7 @@ Illustrate data distribution by region, including country, state, county, and ci
 
 ### Point map
 
-Illustrate data distribution with precise positioning based on latitude and longitude coordinates. Reveal geospatial patterns and identify outliers in your dataset.
+Illustrate data distribution with precise positioning based on latitude and longitude coordinates. Reveal geospatial patterns andsdfvsdfv identify outliers in your dataset.
 
 <br />
 
