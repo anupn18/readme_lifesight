@@ -63,7 +63,7 @@ Illustrate the magnitude or cumulative values of one or more metrics over time. 
 
 ### Scatter plot
 
-Demonstrate the presence and strength of a correlation between metrics. Analyze patterns, understand distribution, and identify outliers in your dataset.
+Demonstrate the presence and strength of a correlation between metricssdfvsdfv. Analyze patterns, understand distribution, and identify outliers in your dataset.
 
 <br />
 
