@@ -11,6 +11,12 @@ no testіваміваміва
 
 dfvdsfvsdfdsdfvsdfvsdfv
 
+sdfvsdfvdsfv
+
+sdfvsdfvsdfv
+
+sdfvsdfvsdfvsdfv
+
 By adding visualizations to a Dashboard, you can reveal patterns, trends, outliers, and correlations crucial to creating a compelling data narrative. Build each visualization to deliver specific data insights and answer important questions that help you make better business decisions.
 
 This document introduces the types of visualizations Lifesight offers and explains where to configure element properties and formatting.
