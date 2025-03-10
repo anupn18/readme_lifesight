@@ -1135,3 +1135,144 @@ Configure a source column to define the data path variable. Lifesight automatica
 > 📘 Lifesight auto-generates the default chart title only. Once the title is customized, it no longer reflects changes to source columns and their names. For information about title customization, see Customize element title.
 
 4. \[optional] In the  Element properties > Marks > Color section, select or customize a color palette to apply to the category nodes and paths.
+
+<Image align="center" src="https://files.readme.io/9e226b7677e09b1e317410c552e35a9a3455877f76533167ac0700c6d2b5ffa6-10cd47b-9.png" />
+
+## Build a funnel chart
+
+Funnel charts are typically used to measure values across sequential stages in a linear process. Create funnel charts to evaluate inputs across each stage and discover potential issues and bottlenecks in a workflow.
+
+This document details basic funnel chart requirements and introduces key properties and format options to help you enhance your Dashboard visualizations.
+
+<Image align="center" width="450px" src="https://files.readme.io/aa5e1b46884c8f84fee03d93fb235ed41d3acec69ca39e4c725c5888390681ed-2c15a8a-1.png" />
+
+> 📘 Example use cases:
+>
+> * Marketing analytics: Monitor an email campaign pipeline to understand where most prospects are being lost, then assess opportunities for greater conversion.
+> * Sales analytics: Track the number of prospects in each stage of the sales cycle to identify where most prospects are currently held, then assess investments in specific sales motions.
+> * HR analytics: Analyze recruiting process stages by demographics (like age, gender, and application submitted) to measure pipeline dropoff rate for specific candidate groups, then determine if dropoff exceeds expectations and indicates a need for process refinement.
+
+### User requirements
+
+The ability to create funnel charts and other visualizations requires the following:
+
+* You must be assigned an account type with the Edit Dashboard and/or Explore Dashboard permission enabled.
+* You must be the Dashboard owner or be granted Can explore or Can edit Dashboard permission.
+
+> 📘 If you're granted Can explore access to the Dashboard, you can create and modify visualization properties and formatting in Explore mode, but you cannot publish your changes.
+
+### Dashboard prerequisite
+
+Before you can build a funnel chart, you must add a new visualization element and select a data source.
+
+At the core of every visualization is an underlying data table (derived from the data source) that supplies the information visualized by the chart. As you build a funnel chart, Lifesight automatically groups, aggregates, and calculates the underlying data to create source columns for various visualization properties. You can view the underlying data table while configuring the chart to see how the data is applied.
+
+### Basic funnel chart requirements
+
+To display a funnel chart, configure the following properties in the  Element properties panel:
+
+* Chart - chart type displayed in the Dashboard
+* Stage - source column that defines the stages
+* Value - source column that defines the variable
+
+In a funnel chart, stages reference nominal categories (like campaign pipeline, sales pipeline, recruitment stages) presented as a horizontal bars. A variable measures a value (like number of leads, prospects, candidates) for each stage and determines the width of each bar.
+
+The first stage, shown at the top of the chart, typically represents the initial input of the process and corresponds with the largest stage value (and widest bar). Because value dropoff occurs as data flows through the process, each stage measures a subset of the previous stage value. As a result, the chart progressively narrows and creates a funnel shape.
+
+### Select the chart type
+
+Once you add a new chart to a Dashboard, select the chart type:
+
+* In the Visualization property, click the dropdown field and select Funnel from the list.
+
+<Image align="center" src="https://files.readme.io/8796d78e10c100564cbe094f0916388bdb82554f70e9c59d6ae2fdc5dfd70e6d-d4675b9-2.png" />
+
+### Define the stages
+
+Select a source column to define the stages.
+
+> 📘 When your data source includes a single column with stage names as values, follow the steps below and add this column to the Stage property. Alternatively, if the data source breaks down each stage as a distinct column of data, skip this step and aggregate the individual stage columns in the Value property (see Define the Variable).
+
+1. In the Stage property, click + Add column and select an option from the menu:
+
+* To generate stage names based on distinct values in an existing column, search or scroll the Select column list and select the preferred column name.
+* To generate stage names based on a custom formula, select New column and enter a formula in the toolbar.
+
+<Image align="center" src="https://files.readme.io/d97302b537f2664c2e8569bdc5b7e1e3a65df0ae9b8cd1efd19844e825a09d10-3d946a5-3.png" />
+
+### Define the variable
+
+Configure a source column to define the variable. Lifesight automatically aggregates column values associated with the same stage.
+
+1. In the Value property, click + Add calculation and select an option from the menu:
+
+   * To aggregate values of an existing column, search or scroll the Aggregate column list and select the preferred column name.
+   * To calculate values based on a custom formula, select New column and enter a formula in the toolbar.
+   * To count the number of rows associated with each stage, select Row count.
+
+   <Image align="center" src="https://files.readme.io/dd60377412d5c34b0e927d09f52f021118b7a7a98c98c75f75b0881a9f275a73-e27470a-4.png" />
+2. \[optional] Control how the source column data is calculated and displayed in the chart:
+   1. Hover over the source column name, then click the caret () to open the column menu.
+   2. Hover over any of the following items and select the preferred option:
+      * Set aggregate - Calculate values based on the selected aggregation method.
+      * Transform - Convert the column to the selected data value type.
+      * Format - Display data labels in the selected format.
+      > 📘 To plot the source column data without aggregating values, clear the Aggregate values checkbox in the Value property. If this results in an incomplete chart that exceeds the 25,000 data point limit, reaggregate the values or apply data filters to reduce the number of data points.
+
+<Image align="center" src="https://files.readme.io/946a373e6180fd8482d6cbb157c09298afb1526a7f646e0ceb4cb975d228d2f9-096013a-5.png" />
+
+3. \[optional] Repeat the previous steps to configure multiple stage value source columns. Lifesight plots the columns as stacked series on the chart.
+
+<Image align="center" src="https://files.readme.io/1fc9b677acbd19af3420581c46915cc09c0981e821a0091cab08553841478a6b-1957dac-6.png" />
+
+4. \[optional] Lifesight auto-generates source column names and chart titles to reflect the visualized data, but you can customize these fields as needed:
+   * To rename a source column, double-click the column name in the Stage or Value property, then enter a new name. Changes are reflected in the default chart title.
+   * To edit the chart title, double-click the title in the visualization, then enter a new title.
+
+<Image align="center" src="https://files.readme.io/69b8669559aedea641ef1a2bbea1cb4fc77f581fc86a927fae51f73907c24415-53f9d41-7.png" />
+
+### Advanced funnel chart properties and formatting
+
+Lifesight features various properties and format options that give you the flexibility to build detailed funnel charts.
+
+The following sections introduce configurations that can enhance your charts and help you deliver specific insights with meaningful and actionable information.
+
+### Configure mark colors
+
+Configure chart mark colors in the  Element properties > Marks > Color tab to differentiate data.
+
+<Image align="center" src="https://files.readme.io/368330edd0b3677f0b7a4a33a56f833f5262c0bf64c6f36a4f24b81e72e62282-Screenshot_2025-03-10_at_3.38.56_PM.png" />
+
+By category\
+If only one source column is configured in the Value property, the chart defaults to categorical colors that represent stages.
+If multiple source columns are configured in the Value property, the chart defaults to stacked series with categorical colors that represent each of those columns.
+To change the default categorical color variable, select a source column, then select or customize a color palette.
+
+By scale\
+Select a source column to define a scaled color variable, then select a color range to apply to the marks.
+
+Customize data labels\
+Customize data labels representing conversion rates, stage values, and stage names in the  Element format > Data labels section.
+
+In addition to showing or hiding the different types of data labels, you can customize the font size and color of each.\
+You can also select the position of each data label type relative to the chart marks:
+Left
+Inline
+Right
+
+📘\
+The funnel chart’s Color property may determine the availability of specific data labels and positions. For example, stage names can only be displayed inline when the chart features categorical colors that represent stages (see the By category details in Configure mark colors).
+When you show conversion rates, you can choose a Percentage style option to determine how conversion rates are calculated:
+Percentage style
+% of total
+Calculates the value of each stage against the value of the first stage (total value at the top of the funnel).
+Current stage / first stage = conversion rate
+% of prior
+Calculates the value of each stage against the value of the preceding stage.
+Current stage / preceding stage = conversion rate
+
+All funnel chart format options\
+Background
+Title
+Legend
+Data labels
