@@ -838,20 +838,24 @@ You can also select the type of comparison displayed and identify the favorable 
 
 Customize the trend line in the  Element format > Trend section.
 
-In addition to showing and hiding the trend line, you can select the trend line shape (line or area) and customize its colors.\
-Shape
+<Image align="center" src="https://files.readme.io/f369ed0801946b205d2f7e10432a6820b2ba88a3672262a1e62f8aa813df4453-kpi_format_trend.png" />
 
-Line\
-Area
+In addition to showing and hiding the trend line, you can select the trend line shape (line or area) and customize its colors.
 
-You can also enable tooltips on hover, display the x-axis with timeline tick marks and labels, and display the y-axis with grid lines and labels.\
-Display options
+<Image align="center" src="https://files.readme.io/bba83be4d63e4f670b9622ab35bcfb9cf07f4ad3049575ffc55cc61302b37442-Screenshot_2025-03-10_at_11.17.11_AM.png" />
 
-Show tooltip\
-Show timeline axis
-Show y-axis
+You can also enable tooltips on hover, display the x-axis with timeline tick marks and labels, and display the y-axis with grid lines and labels.
 
-Customize the chart layout\
+<Image align="center" src="https://files.readme.io/081c02eceef7c23be3cd9970f5423c76b1083c814bbb2d42e852c149de4135c2-Screenshot_2025-03-10_at_11.17.53_AM.png" />
+
+### Customize the chart layout
+
 Customize the chart layout in the  Element format > Layout section.
 
+<Image align="center" src="https://files.readme.io/dcd9c56ccbd12d2fd40337a8511466477803fc87aece6f2aed646823228c1e2e-kpi_format_layout.png" />
+
 Change the alignment of the text components, and select the location of the title and comparison value.
+
+<Image align="center" src="https://files.readme.io/7851c41f95e6f328e0b1a84a4c949594ceec46f936578e1dbce8145bfec7b67a-Screenshot_2025-03-10_at_11.19.38_AM.png" />
+
+<Image align="center" src="https://files.readme.io/f89d38f41a01bbfa9f69ed53ff6b30db9abd869e2cf0e721974189982e77e0b7-Screenshot_2025-03-10_at_11.20.08_AM.png" />
