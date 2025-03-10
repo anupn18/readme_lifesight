@@ -859,3 +859,179 @@ Change the alignment of the text components, and select the location of the titl
 <Image align="center" src="https://files.readme.io/7851c41f95e6f328e0b1a84a4c949594ceec46f936578e1dbce8145bfec7b67a-Screenshot_2025-03-10_at_11.19.38_AM.png" />
 
 <Image align="center" src="https://files.readme.io/f89d38f41a01bbfa9f69ed53ff6b30db9abd869e2cf0e721974189982e77e0b7-Screenshot_2025-03-10_at_11.20.08_AM.png" />
+
+## Build a scatter plot
+
+Scatter plots are typically used to demonstrate a correlation (or lack thereof) between two different variables. Create basic scatter plots to assess patterns, trends, and outliers in your dataset. You can also build advanced charts to include additional variables, plot trend lines, and display data points across quadrants.
+
+This document details basic scatter plot requirements and introduces key properties and format options to help you enhance your Dashboard visualizations.
+
+<Image align="center" width="450px" src="https://files.readme.io/16334d95cf1f60c758c2b667abf02e6e2202a3b928c28f29d856c20e922b79ff-4a3a572-1.png" />
+
+> 📘 Example use cases:
+>
+> Education analytics: Assess college grades and post-college income to determine a possible correlation between academic performance and job earnings.
+>
+> Environmental health analytics: Compare metro health index scores by neighborhood air pollution amount to analyze patterns and identify areas needing intervention.
+>
+> Retail analytics: Track price changes and sales amounts by profit to understand consumer response to price changes and identify where pricing did not affect profit.
+
+### User requirements
+
+The ability to create scatter plots and other visualizations requires the following:
+
+* You must be assigned an account type with the Edit Dashboard and/or Explore Dashboard permission enabled.
+* You must be the Dashboard owner or be granted Can explore or Can edit Dashboard permission.
+
+### Dashboard prerequisite
+
+Before you can build a scatter plot, you must add a new visualization element and select a data source.
+
+At the core of every visualization is an underlying data table (derived from the data source) that supplies the information visualized by the chart. As you build a scatter plot, Lifesight automatically groups, aggregates, and calculates the underlying data to create source columns for various visualization properties. You can view the underlying data table while configuring the chart to see how the data is applied.
+
+> 📘 Scatter plots support up to 25,000 data points. If the configurations result in a data set that exceeds this limit, the chart displays the first 25,000 data points, and a warning message indicates that the chart is incomplete. To reduce the number of data points, aggregate the values or apply data filters to the visualization or source element.
+
+### Basic scatter plot requirements
+
+To display a scatter plot, configure the following properties in the Element properties tab:
+
+* Visualization - chart type displayed in the Dashboard
+* X-axis - source column that defines the x-axis (horizontal axis) variable
+* Y-axis - source column that defines the y-axis (vertical axis) variable
+
+In a scatter plot, data points express the intersection of different variables on the x- and y-axis (like revenue and COGS, temperature and precipitation, page views and clicks).
+
+### Select the visualization type
+
+Once you add a new visualization to a Dashboard, select the visualization type:
+
+* In the Visualization property, click the dropdown field and select Scatter from the list.
+
+<Image align="center" src="https://files.readme.io/af3fb57db1ed0c4c2fb79bf104f28439ce5ed41afdf8057539ef2aaffbb9b97f-d78616a-2.png" />
+
+> 📘 You can also use this dropdown field to convert an existing visualization to a different type. Lifesight retains all property and format configurations shared by the initial and new type. Unshared properties and formatting are not saved or restored if you further convert the visualization.
+
+### Define the x-axis variable
+
+Configure a source column to define the x-axis variable.
+
+1. In the X-axis property, click + Add column and select an option from the menu:
+
+* To plot values from an existing column, search or scroll the Select column list and select the preferred column name.
+* To plot values based on a custom formula, select New column and enter a formula in the toolbar.
+
+<Image align="center" src="https://files.readme.io/6f959326d80344cc5ca19feb3546e065e47297e73ff94bae331e6d2c2ed24496-11bb699-3.png" />
+
+2. \[optional] Control how the source column data is grouped and displayed in the chart:
+
+* Hover over the source column name, then click the caret () to open the column menu.
+* Hover over any of the following items, then select the preferred option
+  * Truncate date - Group date values by the selected interval or unit of measure.
+  * Transform - Convert the column to the selected data value type.
+  * Format - Display axis and data labels in the selected format.
+  > 📘 Availability of column menu items and corresponding options varies depending on the column’s data value type (for example, Truncate date is available for date values only).
+
+<Image align="center" src="https://files.readme.io/5b34b38b5056a721f61b677737d6138ab0726808a88033b6efa438fa573e54fc-046b373-4.png" />
+
+### Define the y-axis variable
+
+Configure a source column to define the y-axis variable. Lifesight aggregates y-axis values that correlate with the same x-axis value.
+
+1. In the Y-axis property, click + Add calculation and select an option from the menu:
+
+* To aggregate values of an existing column, search or scroll the Aggregate column list and select the preferred column name.
+* To calculate values based on a custom formula, select New column and enter the formula in the toolbar.
+* To count the number of rows associated with each category, select Row count.
+
+<Image align="center" src="https://files.readme.io/189e67cce56027699a2b8b90613c4c9615fac3dd12db1d79cbe33a492d8c266f-22cff53-5.png" />
+
+2. \[optional] Control how the source column data is calculated and displayed in the chart:
+
+* Hover over the source column name, then click the caret () to open the column menu.
+* Hover over any of the following items, then select the preferred option:
+  * Set aggregate - Calculate values based on the selected aggregation method.
+  * Transform - Convert the column to the selected data value type.
+  * Format - Display axis and data labels in the selected format.
+  > 📘 To plot the source column data without aggregating values, clear the Aggregate values checkbox in the Y-axis property. If this results in an incomplete chart that exceeds the 25,000 data point limit, reaggregate the values or apply data filters to reduce the number of data points.
+
+<Image align="center" src="https://files.readme.io/a8d211f9d3fa88628689b1e9235b0c70c37ee8bdcebd7a5c24b609aa2744b045-cdb77a6-6.png" />
+
+3. \[optional] Repeat the previous steps to add multiple y-axis source columns. Lifesight plots each as a separate point series on the chart.
+
+<Image align="center" src="https://files.readme.io/48a38559c32a943af89a718f91dbc4e42bbfafd2116b64c6087865d0ac207541-62915fa-7.png" />
+
+4. \[optional] Lifesight auto-generates source column names and chart titles to reflect the visualized data, but you can customize these fields as needed:
+   * To rename a source column, double-click the column name in the X-axis or Y-axis property, then enter a new name. Changes are reflected in the default chart title.
+   * To edit the chart title, double-click the title in the visualization, then enter a new title.
+
+### Advanced scatter plot properties and formatting
+
+Lifesight features various properties and format options that give you the flexibility to build advanced scatter plots and variations, including bubble charts and quadrant charts.
+
+The following sections introduce configurations that can enhance your scatter plots and help you deliver specific insights with meaningful and actionable information.
+
+### Configure mark colors
+
+Configure point mark colors in the Element properties > Marks > Color tab to differentiate data, add a color category, or create a color scale.
+
+<Image align="center" width="300px" src="https://files.readme.io/aa761672ef2d30e26bf3bf55a8342c50010c90ac446739076baf1c5292a67611-ba82973-9.png" />
+
+<Image align="center" src="https://files.readme.io/04afa1690df0245715f37ea4c6b434da3e900742e889a57a53c3b3d0e7956b21-Screenshot_2025-03-10_at_12.05.39_PM.png" />
+
+> 📘 Multiple variables in the y-axis result in a multi-series scatter plot in which each data series represents a measure of a different variable. The By category color setting can also generate a multi-series scatter plot, but the resulting series represent sub-categories that measure the same variable.
+>
+> 💡As with axis variables, you can control how color category and color scale source column data is calculated and displayed in the chart.
+
+### Add conditional formatting
+
+When you select Single color in the Element properties > Marks > Color tab, you can configure formatting rules (+ Add rule) that determine point mark colors according to value-based conditions. This creates exceptions to the single-color selection, allowing you to highlight values that meet the specified conditions.
+
+<Image align="left" src="https://files.readme.io/70fe2bf7cc7f10539126862c986c01761db718285728749eb75421a7f39ebbe7-37515e1-10.png" />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+Example:
+
+<Image align="center" src="https://files.readme.io/d5ead4e93088d2501cf320d1351dde5fb2760c4058ca6c72edac58074fc11edd-Screenshot_2025-03-10_at_12.08.09_PM.png" />
+
+### Configure mark size
+
+Configure point mark size in the  Element properties > Marks > Size tab to add a size variable and create a bubble chart.
+
+<Image align="center" src="https://files.readme.io/08af2a73436e173c420a8f1e0fd70b15eef7f079f8e0dd2bd6d9f4df4ae8c439-b372aa7-11.png" />
+
+Select a source column to define the size variable. Lifesight aggregates values that correlate with the same x-axis value, then proportions the points based on an auto-generated size range. To modify the relative sizing, see Customize Point Style below.
+
+<Image align="center" src="https://files.readme.io/98259c6b106ef78f100f46070ed755dbd2be95782da40a939d65fbe196d7d3de-5883395-12.png" />
+
+> 📘 As with the axis variables, you can control how the size variable source column data is calculated and displayed in the chart.
+
+### Customize point style
+
+Customize point styles in the  Element format > Point style section. When the scatter plot contains multiple y-axis variables, you can modify the different data series individually or together.
+
+<Image align="center" src="https://files.readme.io/2b2e4cf12e433be4c920b8f4b0f0b61be7c8f6afecbc2339560532a72626ae00-c5e565b-13.png" />
+
+By default, scatter plot points are circular. You can change the point shape to differentiate multiple data series:
+
+<Image align="center" src="https://files.readme.io/04ab36fcd9988f462c2b10f53c768c5b1fcd6fecb57d260723fcbf35eaf4c256-Screenshot_2025-03-10_at_12.12.59_PM.png" />
+
+If the chart doesn’t include a size variable, you can customize the point size in pixels (2-15px) to optimize readability. Otherwise, you can apply relative sizing to change the minimum point size in the range:
+
+<Image align="center" src="https://files.readme.io/8fc00b20b6577c16d736b18b9664cf2c9d8d9a4660fb29119b2d42e62a40fb1a-Screenshot_2025-03-10_at_12.13.42_PM.png" />
+
+### Add reference marks
+
+Add reference marks in the Element format > Reference marks section to demarcate goals, baselines, or other benchmarks. With scatter plots, you can also use reference marks to create quadrant charts.
+
+<Image align="center" src="https://files.readme.io/d1e97cf4a537759aa39da2cb1441501815b327888f83f6cada0293945c5fa008-11b8678-14.png" />
+
+<Image align="center" src="https://files.readme.io/28c297edec5ab46ebcc9da6434f46f1a41b04804c0a1ddf997a149f64fb43a51-Screenshot_2025-03-10_at_12.14.58_PM.png" />
