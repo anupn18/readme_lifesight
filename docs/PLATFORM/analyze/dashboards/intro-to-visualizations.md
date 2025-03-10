@@ -1421,3 +1421,120 @@ Customize gauge marks (gauge, needle, and target) in the  Element format > Gauge
 <Image align="center" src="https://files.readme.io/6da000c4362efd09379a3fcc4b619c37a4ca90e26afcd1470627370b0d8fcb88-Screenshot_2025-03-10_at_4.34.07_PM.png" />
 
 <Image align="center" src="https://files.readme.io/56c2e28280add6c39b09f6b4b9f193d3cca58596425b67ee06a7b6ed7026fd98-Screenshot_2025-03-10_at_4.34.24_PM.png" />
+
+## Build a geography map
+
+Geography maps (Map - Geography visualization type) support datasets with geography data (WKT format) or variant data (GeoJSON format) and are typically used to illustrate geospatial objects on a map. Create a connection map to display spatial networks, correlations, and relationships, or build a choropleth map to identify variability and patterns across distinct geographic areas.
+
+<Image align="left" src="https://files.readme.io/60e104810e143395526b4181d8ad28ce6b321e932cc23678cd4304ab2c281526-geography-map.png" />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+> 📘 Example use cases:
+>
+> * Land use analytics: Represent land parcels by zoning code to identify land use patterns and conflicts with proximal areas
+> * Marketing analytics: Quantify customers across specific regions to analyze customer distribution and understand market reach.
+> * Environmental analytics: Map oil and gas pipelines to assess proximity to residential areas and natural resources.
+
+### User requirements
+
+The ability to create geography maps and other visualizations requires the following:
+
+* You must be assigned an account type with the Create, edit, and publish Dashboards and/or Explore Dashboards permission enabled.
+* You must be the Dashboard owner or be granted Can explore or Can edit Dashboard permission.
+
+If you’re granted Can explore access to the Dashboard, you can create and modify visualization properties and formatting in Explore mode, but you cannot publish your changes.
+
+### Data prerequisites
+
+A geography map requires one of the following data types:
+
+* Geography data (WKT)
+* Variant data (GeoJSON)
+
+If your dataset isn’t compatible, you may be able to use functions (such as type or geography functions) to convert data to a supported type. Alternatively, when building a choropleth map, you can also use the Map - Region visualization.
+
+### Geography map variations
+
+<Image align="center" src="https://files.readme.io/49f919cc53126e319d74bc1a880066030ba857e4fef41d204964a03b0be9c4d0-Screenshot_2025-03-10_at_4.46.17_PM.png" />
+
+> 📘 The Map - Geography visualization doesn't support point (link) maps.
+>
+> However, you can build point maps using the Map - Point visualization if your dataset contains geospatial data that represents points.\
+> If points are represented by the geography data type, use the Latitude and Longitude functions to extract the coordinates from the WKT format. If points are represented by the variant data type, select the Extract columns option in the column menu to extract the coordinates from the GeoJSON format. You can then plot the extracted data in the Map - Point visualization.
+
+### Basic geography map configurations
+
+Geography maps require the following element properties:
+
+* Visualization: chart type used to illustrate the data
+* Geography: source column that defines the geospatial objects
+
+> 📘 At the core of every visualization is an underlying data table (derived from the data source) that supplies the information visualized by the chart. As you build a geography map, Lifesight automatically calculates and structures the data to map the element properties to source columns in the underlying data table. For information about how to view the underlying data while you configure the chart, see Maximize or Minimize a Data Element.
+
+### Add a geography map
+
+Create a new visualization element and designate it as a geography map.
+
+* Open a Dashboard in Explore or Edit mode and add a new visualization element.
+* In the new element’s Visualization property, click the dropdown field and select Map - Geography from the list.
+
+<Image align="center" src="https://files.readme.io/ff41d39ec00840a029cc7186da981f1dcc55c8d58105d9615902c30763cd4cc1-geography_select-visualization-type.png" />
+
+### Define the geospatial objects
+
+Configure a source column that defines the geospatial objects (lines or polygons) representing landmarks, routes, regions, or other features. The column must contain geography data in WKT format or variant data in GeoJSON format.
+
+1. In the Geography property, click  Add column and select an option from the menu:
+
+   * To map objects from an existing column, search or scroll the Select geography/variant column list and select the column name.
+   * To create a new column using a custom formula, select Add new column and enter the formula or value in the toolbar.
+
+   <Image align="center" src="https://files.readme.io/3ac6681bf48b19e344c0bb87a8e657322c577b117237403425c79bba88dc9d7d-geography_select-geography-source-column.png" />
+
+When the Geography property is configured, the map illustrates the geospatial objects represented by the source column data.
+
+<Image align="center" src="https://files.readme.io/2dfee7d0a10610c34041b8ed9c9d06df1c1ab0ac99d2bc7e8139588f2541da48-geography_illustrate-geospatial-objects.png" />
+
+### Advanced geography map properties and formatting
+
+#### Configure mark colors
+
+Configure the line or polygon mark colors in the  Element properties > Marks > Color tab to visualize patterns, highlight variations, improve readability, and more.
+
+<Image align="center" src="https://files.readme.io/92098ecd97a73efe27d2e23eacf8246352d7ae8e7e36bbef4f24e20c53868fec-Screenshot_2025-03-10_at_4.50.54_PM.png" />
+
+### Customize tooltip fields
+
+Configure source columns in the  Element properties > Marks > Tooltip property to add fields to the map tooltips.\
+If a source column is configured in the Marks > Color property, its values are automatically displayed in the tooltips. For information about changing tooltip defaults and adding fields, see Customize chart mark tooltips fields.
+
+<Image align="center" src="https://files.readme.io/a1237d23891f51c3798f1ced25a1abadf78626ef352205b486434281358062fd-geography_marks_tooltip_add.png" />
+
+### Change map style
+
+Change the base style of your map in the Element format > Map style section.
+
+<Image align="center" src="https://files.readme.io/600d213c9c0b31524d19a75c51ceefbb09c8912ea064fb639a6db3f9afe5386c-geography_format_map-style.png" />
+
+<Image align="center" src="https://files.readme.io/8ec05a6cbedf116b9e32dd9b17a4f84610731e630eebd20120da4a4e98378c20-Screenshot_2025-03-10_at_5.20.01_PM.png" />
+
+<Image align="center" src="https://files.readme.io/7b3f47e37249bf0af7c8d09617db03f701814d5e2cc0cb7101a0dac4e03b07f3-Screenshot_2025-03-10_at_5.20.13_PM.png" />
+
+<Image align="center" src="https://files.readme.io/b0e650834423f5807022c934b50a6bb23b3980cac5a521c44e8cfdafda916b9b-Screenshot_2025-03-10_at_5.20.25_PM.png" />
