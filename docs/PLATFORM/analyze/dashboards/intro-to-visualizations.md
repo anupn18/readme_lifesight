@@ -1269,3 +1269,155 @@ You can also select the position of each data label type relative to the chart m
 When you show conversion rates, you can choose a Percentage style option to determine how conversion rates are calculated:
 
 <Image align="center" src="https://files.readme.io/21e033cc5230885725681fde8e7a0f45ff4cbec1fb88e2091a0c24b918243f60-Screenshot_2025-03-10_at_3.42.59_PM.png" />
+
+## Build a gauge chart
+
+Gauge charts are typically used to display a measurable value against a radial scale. Create gauge charts to evaluate growth, assess performance, or track progress toward a goal.
+
+This document details basic gauge chart requirements and introduces key properties and format options to help you enhance your Dashboard visualizations.
+
+<Image align="center" src="https://files.readme.io/64db0959a8c704f9af711219fd30f7d9087a4a6e4b0ed2ea5cd5b8d5daef1b72-fda7059-1.png" />
+
+> 📘 Example use cases:
+>
+> * IT analytics: Measure implementation completion (as a percentage) to track a project’s progress.
+> * Manufacturing analytics: Track machine uptime (as a percentage) to monitor equipment performance.
+> * Customer experience (CX) analytics: Measure the net promoter score (NPS) for individual stores or customer service teams to gain insight into customer engagement and loyalty.
+
+### User requirements
+
+The ability to create gauge charts and other visualizations requires the following:
+
+* You must be assigned an account type with the Edit Dashboard and/or Explore Dashboard permission enabled.
+* You must be the Dashboard owner or be granted Can explore or Can edit Dashboard permission.
+
+> 📘 If you're granted Can explore access to the Dashboard, you can create and modify visualization properties and formatting in Explore mode, but you cannot publish your changes.
+
+### Dashboard prerequisite
+
+Before you can build a gauge chart, you must add a new visualization element and select a data source.
+
+At the core of every visualization is an underlying data table (derived from the data source) that supplies the information visualized by the chart. As you build a gauge chart, Lifesight automatically aggregates the underlying data to calculate values for the visualization properties. You can view the underlying data table while configuring the chart to see the unaggregated data.
+
+### Basic gauge chart requirements
+
+To display a gauge chart, configure the following properties in the  Element properties panel:
+
+* Visualization: chart type displayed in the Dashboard
+* Value: source column that defines the measurable value
+* Minimum: source column that defines the minimum gauge value
+* Maximum: source column that defines the maximum gauge value
+
+In a gauge chart, a single value is measured on a radial scale. The minimum and maximum values determine the range of the gauge and provide reference points for assessing the measurable value.
+
+### Select the visualization type
+
+After you add a new visualization to a Dashboard, select the visualization type:
+
+* In the Visualization property, click the dropdown field and select Gauge from the list.
+
+<Image align="center" src="https://files.readme.io/4c81162ac477800fee688e88b331d7418d8de23d20620a1b64d26c2f67f3dfbe-f8b6c27-2.png" />
+
+> 📘 You can also use this dropdown field to convert an existing visualization to a different type. Lifesight retains all property and format configurations shared by the initial and new type. Unshared properties and formatting are not saved or restored if you further convert the visualization.
+
+### Define the measurable value
+
+Configure a source column to define the measurable value.
+
+1. In the Value property, click + Add calculation and select an option from the menu:
+   * To aggregate the values of an existing column, search or scroll the Aggregate column list and select the preferred column name.
+   * To apply a custom formula or constant value, select New column and enter the formula or value in the toolbar.
+   * To count the number of rows in the data source, select Row count.
+   > 📘 You can also select or replace an existing column by dragging and dropping a column name from the Columns list to the Value property.
+2. \[optional] Control how the data is calculated and displayed in the chart:
+   1. Hover over the source column name, then click the caret () to open the column menu.
+   2. Hover over any of the following items, then select the preferred option:
+
+      * Set aggregate - Calculate the value based on the selected aggregation method.
+      * Transform - Convert the column to the selected data value type.
+      * Format - Display the data label in the selected format.
+
+      <Image align="center" src="https://files.readme.io/8c18579f8ea7bdd1da6962869950fd51c8c1b3c77c2480819a1373671b314dc2-614dfc9-4.png" />
+
+> 📘 You can also use the toolbar to change the aggregation method (using the formula) and data label format.
+
+### Define the gauge range
+
+Configure a source column to define the minimum and maximum gauge values.
+
+1. In the Minimum property, click + Add calculation and select an option from the menu:
+   * To aggregate the values of an existing column, search or scroll the Aggregate column list and select the preferred column name.
+   * To apply a custom formula or constant value, select New column and enter the formula or value in the toolbar.
+   * To count the number of rows in the data source, select Row count.
+   > 📘 You can also select or replace an existing column by dragging and dropping a column name from the Columns list to the Minimum property.
+
+<Image align="center" src="https://files.readme.io/110d1cc9eeebbfd94db392e83b4e5f576ad05e98f801eb5cdb5a7976267caf02-e1a3940-5.png" />
+
+2. In the Maximum property, click  Add calculation and select an option from the menu:
+   * To aggregate the values of an existing column, search or scroll the Aggregate column list and select the preferred column name.
+     * To apply a custom formula or constant value, select New column and enter the formula or value in the toolbar.
+     * To count the number of rows in the data source, select Row count.
+     > 📘 You can also select or replace an existing column by dragging and dropping a column name from the Columns list to the Maximum property.
+
+<Image align="center" src="https://files.readme.io/ebb7398234aff03533f1e4ee6f6bd2c54fd8e431fa9918a4acd19cc1ebdaf47f-8d82137-6.png" />
+
+3. \[optional] Lifesight auto-generates source column names and chart titles to reflect the visualized data, but you can customize these fields as needed:
+   * To rename a source column, double-click its name in the Value, Minimum, or Maximum property, then enter a new name. Changes to the Value property are reflected in the default chart title.
+   * To edit the chart title, double-click the title in the visualization, then enter a new title.
+   > 📘 Lifesight auto-generates the default chart title only. Once the title is customized, it no longer reflects changes to the Value property.
+
+<Image align="center" src="https://files.readme.io/b36274dfd6386e10e2e6de953ca765b974761f70add3f8bc0c7a5c385f6890d5-3db1dc7-gauge_define-gauge-range_step-3.png" />
+
+### Advanced gauge chart properties and formatting
+
+Lifesight features various properties and format options that give you the flexibility to build detailed gauge charts.
+
+The following sections introduce configurations that can enhance your charts and help you deliver specific insights with meaningful and actionable information.
+
+### Configure target value
+
+Configure a target value in the  Element properties > Target property to mark a goal or benchmark on the gauge. The Target property can be configured in the same way as the Value, Minimum, and Maximum properties.
+
+<Image align="center" src="https://files.readme.io/c040435b84d5d4826597f82dd5295135b725344308af9e46c18098d5a8727587-8c7263d-8.png" />
+
+### Configure chart colors
+
+Configure chart colors in the  Element properties > Color property.
+
+<Image align="center" src="https://files.readme.io/4f200bc08c4a0f0999ff4b73c8fb4ad5ae5f8eac665a3de5c929d2785909e42c-Screenshot_2025-03-10_at_4.21.51_PM.png" />
+
+### Add conditional formatting
+
+When you select Single color in the  Element properties > Color property, you can configure formatting rules (+ Add rule) that determine the gauge fill or gauge scale color according to value- or percentage-based conditions.
+
+By default, conditional formatting applies to the gauge fill color (representing the measurable value), but you can apply rules to the gauge scale by selecting the Show color on gauge checkbox. This option hides the gauge fill and conditionally formats segments of the gauge based on values or percentages along the radial scale.
+
+Example:
+
+<Image align="center" width="600px" src="https://files.readme.io/0e8258a2402bfdc0d4d7f071acb06b369251fa74db7d492e894f52fda93a2bce-Screenshot_2025-03-10_at_4.23.48_PM.png" />
+
+> 📘 When the conditions of multiple rules are met, Lifesight applies the formatting rules in order of precedence, from top to bottom. Drag and drop rule blocks to reorder them as needed.
+
+When you create a value-based rule, Lifesight evaluates the measure or gauge scale value. If the value meets the conditions defined in the Formatting rule fields, the color selected in the Style field applies to the gauge fill or gauge scale.
+
+Example:
+
+<Image align="center" src="https://files.readme.io/dab824991eb865a6841e65703a2bfa42875f8f42b4c90600d614c1c7c6564b8e-Screenshot_2025-03-10_at_4.24.56_PM.png" />
+
+When you create a percentage-based rule, Lifesight evaluates the measure or gauge scale value relative (as a percentage) to the maximum or target value, depending on the rule configuration. If the percentage meets the conditions defined in the Formatting rules field, the color selected in the Style field applies to the gauge fill or gauge scale.
+
+<Image align="center" src="https://files.readme.io/e0612f9de9fa63e9dbdb98db0bad4147ad2149b809cb68886a096aef682ddf04-28dd9bf-12.png" />
+
+Example:
+
+<Image align="center" src="https://files.readme.io/42a69d065afaee78adffaa1dd3c1dfab380f652bf86d5fb3dd16992b8afc1ec1-Screenshot_2025-03-10_at_4.26.26_PM.png" />
+
+### Customize gauge marks
+
+Customize gauge marks (gauge, needle, and target) in the  Element format > Gauge marks section.
+
+<Image align="left" src="https://files.readme.io/0e5c7ad12bcf27e2507b25ddea29a7b32e0f7ae63f6451a152f9ac31aa7eacd9-6262e83-14.png" />
+
+<Image align="center" src="https://files.readme.io/6da000c4362efd09379a3fcc4b619c37a4ca90e26afcd1470627370b0d8fcb88-Screenshot_2025-03-10_at_4.34.07_PM.png" />
+
+<Image align="center" src="https://files.readme.io/56c2e28280add6c39b09f6b4b9f193d3cca58596425b67ee06a7b6ed7026fd98-Screenshot_2025-03-10_at_4.34.24_PM.png" />
