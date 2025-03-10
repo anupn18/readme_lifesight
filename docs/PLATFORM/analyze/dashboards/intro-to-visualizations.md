@@ -1035,3 +1035,103 @@ Add reference marks in the Element format > Reference marks section to demarcate
 <Image align="center" src="https://files.readme.io/d1e97cf4a537759aa39da2cb1441501815b327888f83f6cada0293945c5fa008-11b8678-14.png" />
 
 <Image align="center" src="https://files.readme.io/28c297edec5ab46ebcc9da6434f46f1a41b04804c0a1ddf997a149f64fb43a51-Screenshot_2025-03-10_at_12.14.58_PM.png" />
+
+## Build a Sankey diagram
+
+Sankey diagrams are typically used to assess the flow and change of data between stages in a process or system. Create simple Sankey diagrams to demonstrate data distribution, workflows, networks, and more, or build advanced multi-level diagrams to analyze complex data relationships and identify changes in variables across stages, categories, or periods.
+
+This document details basic Sankey diagram requirements and introduces key properties and format options to help you enhance your Dashboard visualizations.
+
+> 📘 Example use cases:
+>
+> * Energy analytics: Measure electricity load and consumption to understand facility performance and gain insight into the origins and transformation of energy.
+> * Financial analytics: Track annual spend by department, division, and expense category to understand the flow of money and analyze budget vs. spend distribution.
+> * Marketing analytics: Follow website visitor activity by parent domain and subsequent page visits to understand user navigation and assess website architecture deficiencies.
+
+### User requirements
+
+The ability to create Sankey diagrams and other visualizations requires the following:
+
+* You must be assigned an account type with the Edit Dashboard and/or Explore Dashboard permission enabled.
+* You must be the Dashboard owner or be granted Can explore or Can edit Dashboard permission.
+
+### Dashboard prerequisite
+
+Before you can build a Sankey diagram, you must add a new visualization element and select a data source.
+
+At the core of every visualization is an underlying data table (derived from the data source) that supplies the information visualized by the chart. As you build a Sankey diagram, Lifesight automatically groups, aggregates, and calculates the underlying data to create source columns for various visualization properties. You can view the underlying data table while configuring the chart to see how the data is applied.
+
+> 📘 Sankey diagrams support up to 25,000 data points. If the configurations result in a data set that exceeds this limit, the chart displays the first 25,000 data points, and a warning message indicates that the chart is incomplete. To reduce the number of data points, aggregate the values or apply data filters to the visualization or source element.
+
+### Basic Sankey diagram requirements
+
+To create a Sankey diagram, configure the following properties in the Element properties panel:
+
+* Visualization - chart type displayed in the Dashboard
+* Stages - source columns that define the stages and categories
+* Value - source column that defines the data path variable
+
+In a Sankey diagram, stages consist of categories presented as individual rectangular nodes that represent data flow start and end points. Data paths illustrate the direction and quantity of data (like energy consumption, expense, page visitors) flowing between categories, with path widths proportional to the value of the data path variable.
+
+### Select the visualization type
+
+Once you add a new visualization to a Dashboard, select the visualization type:
+
+> 📘 In the Visualization property, click the dropdown field and select Sankey from the list.\
+> You can also use this dropdown field to convert an existing visualization to a different type. Lifesight retains all property and format configurations shared by the initial and new type. Unshared properties and formatting are not saved or restored if you further convert the visualization.
+
+### Define the stages and categories
+
+Configure source columns to define the stages and categories.
+
+1. In the Stage property, click  Add column and select an option from the menu:
+
+* To generate stage categories based on distinct values in an existing column, search or scroll the Select column list and select the preferred column name.
+* To generate stage categories based on a custom formula, select New column and enter the formula in the toolbar.
+
+> 📘 You can also select or replace an existing column by dragging and dropping a column name from the Columns list to the Stage property.
+
+<Image align="center" src="https://files.readme.io/81adfbb509abeb5956113a65ef3840a2a87ee9e72f30a8ecf2d56bbfd63934c7-3d946a5-3.png" />
+
+2. \[optional] Control how the source column data is categorized and displayed in the chart:
+   1. Hover over the source column name, then click the caret () to open the column menu.
+   2. Hover over any of the following items, then select the preferred option:
+      * Truncate date - Categorize date values by the selected interval or unit of measure.
+      * Transform - Convert the column to the selected data value type.
+      * Format - Display data labels in the selected format.
+      > 📘 Availability of column menu items and corresponding options varies depending on the column’s data value type (for example, Truncate date is available for date values only).
+3. Repeat the previous steps to configure additional stages (a minimum of two stages are required).
+   > 📘 Lifesight charts the stages (as start and end points) in order of precedence, from top to bottom. Drag and drop source column names in the Stage property to reorder them as needed.
+
+<Image align="center" src="https://files.readme.io/acc3fdc1b19ee51dd143228112f81d3638299dc222bbc1cbffe6b8c62e03b0b4-02e110a-5.png" />
+
+### Define the variable
+
+Configure a source column to define the data path variable. Lifesight automatically aggregates column values associated with the initial stage categories to measure the data flow starting points. Within each of these categories, Lifesight aggregates values associated with the subsequent stage categories, then plots these measures as data paths to the end points.
+
+1. In the Value property, click  Add calculation and select an option from the menu:
+
+   * To aggregate values of an existing column, search or scroll the Aggregate column list and select the preferred column name.
+   * To calculate values based on a custom formula, select New column and enter a formula in the toolbar.
+   * To count the number of rows associated with each stage name, select Row count.
+
+   <Image align="center" src="https://files.readme.io/f4bc50e42998bc37dcfa7b8e8c0b58cbfdc52ceed02ef7713546c1400156aa68-e95a80b-6.png" />
+
+   > 📘 You can also select an existing column by dragging and dropping a column name from the Columns list to the Value property.
+2. \[optional] Control how the source column data is calculated and displayed in the chart:
+   1. To open the column menu, click the caret () to the right of the source column name.
+   2. Hover over any of the following items and select the preferred option:
+      * Set aggregate - Calculate values based on the selected aggregation method.
+      * Transform - Convert the column to the selected data value type.
+      * Format - Display data labels in the selected format.
+      > 📘 You can also use the toolbar to change the aggregation method (using the formula) and data label format. If the configurations results in an incomplete chart that exceeds the 25,000 data point limit, apply data filters to reduce the number of data points.
+3. \[optional] Lifesight auto-generates source column names and chart titles to reflect the visualized data, but you can customize these fields as needed:
+
+   1. To rename a source column, double-click the column name in the Stage or Value property, then enter a new name. Changes are reflected in the default chart title.
+   2. To edit the chart title, double-click the title in the visualization, then enter a new title.
+
+   <Image align="center" src="https://files.readme.io/084c40dffdfa26c3717fdd83275d28c4a981e339ace8e91be1cf5cac01dc0fbe-7feb851-8.png" />
+
+> 📘 Lifesight auto-generates the default chart title only. Once the title is customized, it no longer reflects changes to source columns and their names. For information about title customization, see Customize element title.
+
+4. \[optional] In the  Element properties > Marks > Color section, select or customize a color palette to apply to the category nodes and paths.
