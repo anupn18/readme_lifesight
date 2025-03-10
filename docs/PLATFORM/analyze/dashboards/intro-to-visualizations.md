@@ -1243,36 +1243,29 @@ Configure chart mark colors in the  Element properties > Marks > Color tab to di
 
 <Image align="center" src="https://files.readme.io/368330edd0b3677f0b7a4a33a56f833f5262c0bf64c6f36a4f24b81e72e62282-Screenshot_2025-03-10_at_3.38.56_PM.png" />
 
-By category\
-If only one source column is configured in the Value property, the chart defaults to categorical colors that represent stages.
-If multiple source columns are configured in the Value property, the chart defaults to stacked series with categorical colors that represent each of those columns.
-To change the default categorical color variable, select a source column, then select or customize a color palette.
+### Customize data labels
 
-By scale\
-Select a source column to define a scaled color variable, then select a color range to apply to the marks.
-
-Customize data labels\
 Customize data labels representing conversion rates, stage values, and stage names in the  Element format > Data labels section.
+
+<Image align="left" src="https://files.readme.io/c690130ce9e0c6cb8d155216165871b6162d8804edb9ca47f5e197a971f82f30-Data_labels_SS.png" />
 
 In addition to showing or hiding the different types of data labels, you can customize the font size and color of each.\
 You can also select the position of each data label type relative to the chart marks:
-Left
-Inline
-Right
 
-📘\
-The funnel chart’s Color property may determine the availability of specific data labels and positions. For example, stage names can only be displayed inline when the chart features categorical colors that represent stages (see the By category details in Configure mark colors).
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<Image align="center" src="https://files.readme.io/ae7fb995fc3a64e6288146fa6baef093eda0ef036d1aeb9e7331a40bffa6ac15-Screenshot_2025-03-10_at_3.41.02_PM.png" />
+
+> 📘 The funnel chart’s Color property may determine the availability of specific data labels and positions. For example, stage names can only be displayed inline when the chart features categorical colors that represent stages (see the By category details in Configure mark colors).
+
 When you show conversion rates, you can choose a Percentage style option to determine how conversion rates are calculated:
-Percentage style
-% of total
-Calculates the value of each stage against the value of the first stage (total value at the top of the funnel).
-Current stage / first stage = conversion rate
-% of prior
-Calculates the value of each stage against the value of the preceding stage.
-Current stage / preceding stage = conversion rate
 
-All funnel chart format options\
-Background
-Title
-Legend
-Data labels
+<Image align="center" src="https://files.readme.io/21e033cc5230885725681fde8e7a0f45ff4cbec1fb88e2091a0c24b918243f60-Screenshot_2025-03-10_at_3.42.59_PM.png" />
