@@ -1582,30 +1582,32 @@ Create a new visualization element and designate it as a waterfall chart.
 
 <Image align="center" src="https://files.readme.io/304267926798d84bd21392136377792ccfcc00b386dfefb29bd17d7d3f764c80-68785d3-waterfall-in-menu_1.png" />
 
-📘\
-You can also use this dropdown field to convert an existing visualization to a different type. Lifesight retains all property and format configurations shared by the initial and new type. Properties and formatting not shared by the new type are not retained.
-Define the categories
+> 📘 You can also use this dropdown field to convert an existing visualization to a different type. Lifesight retains all property and format configurations shared by the initial and new type. Properties and formatting not shared by the new type are not retained.
+
+### Define the categories
+
 Define the categories for the chart by configuring a source column to use. Because waterfall charts are best for showing change over time, select a date column:
-In the X-axis property, click  Add column and select an option from the menu:
-To generate categories based on distinct values in an existing column, search or scroll the Select column list and select the column name.
-To generate categories based on a custom formula, select New column and enter the formula in the toolbar.
-Select or replace an existing column by dragging and dropping a column name from the Columns list to the applicable axis property.
-\[optional] Adjust how the source column data is categorized and displayed in the chart:
-Hover over the source column name, then click the caret () to open the column menu.
-Hover over any of the following items, then select option you want to use:
-Truncate date - Categorize date values by the selected interval or unit of measure.
-Transform - Convert the column to the selected data value type.
-Format - Display axis and data labels in the selected format.
-📘
-Availability of column menu items and corresponding options varies depending on the data type of the column. For example, Truncate date is only available for date values.
-Define the variable
-Define the chart variable, or what has changed over time, by configuring a source column. When you add a source column, Lifesight automatically aggregates values associated with the same chart category.
-In the Y-axis property, click  Add calculation and select an option from the menu:
-To aggregate values of an existing column, search or scroll the Aggregate column list and select the column name.
-To calculate values based on a custom formula, select New column and enter the formula in the toolbar.
-To use a count the number of rows associated with each category, select Row count.
-📘
-This visualization supports up to 25,000 data points. If the configurations result in a data set that exceeds this limit, the visualization displays the first 25,000 data points, and a warning message indicates that the chart is incomplete. To reduce the number of data points, aggregate the values or apply data filters to the visualization or source element.
+
+1. In the X-axis property, click  Add column and select an option from the menu:
+   * To generate categories based on distinct values in an existing column, search or scroll the Select column list and select the column name.
+   * To generate categories based on a custom formula, select New column and enter the formula in the toolbar.
+   Select or replace an existing column by dragging and dropping a column name from the Columns list to the applicable axis property.\
+   \[optional] Adjust how the source column data is categorized and displayed in the chart:
+   Hover over the source column name, then click the caret () to open the column menu.
+   Hover over any of the following items, then select option you want to use:
+   Truncate date - Categorize date values by the selected interval or unit of measure.
+   Transform - Convert the column to the selected data value type.
+   Format - Display axis and data labels in the selected format.
+   📘
+   Availability of column menu items and corresponding options varies depending on the data type of the column. For example, Truncate date is only available for date values.
+   Define the variable
+   Define the chart variable, or what has changed over time, by configuring a source column. When you add a source column, Lifesight automatically aggregates values associated with the same chart category.
+   In the Y-axis property, click  Add calculation and select an option from the menu:
+   To aggregate values of an existing column, search or scroll the Aggregate column list and select the column name.
+   To calculate values based on a custom formula, select New column and enter the formula in the toolbar.
+   To use a count the number of rows associated with each category, select Row count.
+   📘
+   This visualization supports up to 25,000 data points. If the configurations result in a data set that exceeds this limit, the visualization displays the first 25,000 data points, and a warning message indicates that the chart is incomplete. To reduce the number of data points, aggregate the values or apply data filters to the visualization or source element.
 
 💡\
 You can also select an existing column by dragging and dropping a column name from the Columns list to the applicable axis property.
