@@ -2070,7 +2070,7 @@ Lifesight's Map - Geography visualization requires a geography or variant data c
 GeoJSON data must also have "coordinates" nested within a "geometry" key in order to be plotted. In GeoJSON and our geography type, the coordinate order is always longitude, latitude.
 
 Examples\
-For example, given the following GeoJSON data:\
+For example, given the following GeoJSON data:
 \{ "geometry": \{"coordinates": \[-94.042964, 33.019219] } }
 
 Below is a non-working example, even though it is valid GeoJSON, as it lacks the "geometry" key:
@@ -2208,3 +2208,35 @@ By default, Lifesight displays shared x-axis labels for each column (cartesian c
 3. To change the shared components, configure the X-axis, Y-axis, and Color legends fields:
    * To share the axis values or legend, select the checkbox.
    * To display the axis values or legend in each panel, clear the checkbox.
+
+## Explain visualizations with AI (Beta)
+
+The Explain visualization feature uses AI to instantly generate a description of any chart. Details can include key insights, observations, data distribution summaries, and other context that can enhance your understanding of visualized data and help drive informed decisions.
+
+This document introduces AI-generated explanations for visualizations and explains how to access and utilize the feature.
+
+### System and user requirements
+
+The ability to explain a visualization with AI requires the following:
+
+* The OpenAI integration must be configured for your organization.
+* If using Azure OpenAI, the GPT-4 Turbo with Vision model (gpt-4-turbo-2024-04-09) must be configured in the OpenAI integration.
+* You must be assigned an account type with the Use AI features permission enabled.
+
+### About AI-generated explanations
+
+When you use the Explain visualization feature, Lifesight captures a snapshot of the chart and passes this image, along with the chart’s underlying data, to your OpenAI model. The model then processes the information and analyzes the context to generate an explanation of the data visualized by the chart. Lifesight presents this explanation and allows you to provide feedback about the results, which can be used to improve future responses.
+
+### Explain a visualization
+
+1. Open a Dashboard in any mode.
+2. Hover over or select the visualization you want to explain.
+3. In the element toolbar, click  More to open the element menu, then select Explain visualization.
+
+<Image align="center" src="https://files.readme.io/95d25c3e40256cf841b20ce6f54bf1599f7a6339df675dd1479fd35ead5af77b-finish1.png" />
+
+1. The Explain visualization modal displays the explanation in real time, as it's generated. Utilize or interact with the results as needed:
+   * Click  Copy text, then save or share the results (for example, paste it into a text element to supplement the visualization).
+   * Click Helpful or Not helpful and submit additional details to help improve future responses.
+
+<Image align="center" src="https://files.readme.io/1a20a91f5037f67e4ece31639adec0a945417cc0ad8f43021e6141e61ad8fb1c-finish2.png" />
