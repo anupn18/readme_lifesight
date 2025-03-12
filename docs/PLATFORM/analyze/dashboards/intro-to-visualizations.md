@@ -1882,3 +1882,94 @@ The following format categories are available for combo charts:
 * Trend lines
 * Data labels
 * Area/line style
+
+## Box and whisker charts
+
+Box and whisker charts display the distribution of a set of values along an axis. They are also commonly known as box plots.
+
+### Requirements
+
+To create a data element, you must have Can Edit access to the individual Dashboard and be in Edit mode.\
+Many exploratory actions are also supported in Explore mode; see Dashboard modes.
+
+### Anatomy of a Box & Whisker chart
+
+Box and whisker charts break data into quartiles. The upper quartile, median, and lower quartile make up what we refer to as box. The entire spread from whisker minimum to whisker maximum, including the box, accounts for the statistically central range of data. This is called the interquartile range (IQR) and is calculated as Q3 - Q1. Data points that fall out of the IQR are called outliers.
+
+* Maximum: The data point with the highest value below Q3 + 1.5\_IQR
+* Upper Quartile: Values contained in the upper 25% of data.
+* Median: The data range's midpoint.
+* Lower Quartile: Values contained in the lower 25% of data.
+* Minimum: The data point with the lowest value above Q1 - 1.5\_IQR
+* Outliers: Values that fall above or below the IQR. Outliers are calculated as is > Q3 + 1.5\_IQR and is \< Q1 - 1.5\_IQR
+
+<Image align="center" width="600px" src="https://files.readme.io/ace203c6549f82da9134b6a702d2216ea3212a7b2a0ade5757ccf0356f2b9728-Screenshot_2025-03-12_at_3.24.21_PM.png" />
+
+### Plot a Box and Whisker Chart
+
+Visualizations can be created via the PAGE ELEMENTS section of your Dashboard's editor panel or directly from an existing data element.
+
+Visualized data will not display on the page canvas until all required plot fields are defined.
+
+Add columns to open fields using either the field's + menu or dragging and dropping the column.
+
+### Fields
+
+* X-AXIS (1 column)\
+  Categorical data is first grouped by the column on the X-AXIS.
+* Y-AXIS (1+ columns)\
+  Columns added to the visualization’s Y-AXIS are aggregated by default. Aggregation type (e.g. Sum vs Count) is dependent on the original column’s value type.
+  In some cases, you will want to uncheck the AGGREGATE VALUES option. Aggregating the value on the Y-AXIS value will give you an option to SPLIT BY.
+* SPLIT BY (1 column - optional)\
+  Creates a second grouping under the first grouping (defined on the X-AXIS).
+
+Example: In the screenshot below, the X-AXIS is set to \[Store State], grouping the rows of data into states. The column on the Y-AXIS, \[Store Sales] defines the numerical range of the plotted data. The column added to SPLIT BY, \[Store Name], acts as a grouping below \[Store State]. In other words, data is grouped by state and then each state's data is grouped by (aka "split by") individual stores' names. Points on the y-axis represent the aggregate \[Store Sales] values listed under the second, "split by", grouping.
+
+<Image align="center" src="https://files.readme.io/99724bb20ff007e2d23cafb4ef2b6d509514b317beb7d8db09aecf63864f97fd-Screenshot_2025-03-12_at_3.37.02_PM.png" />
+
+### Marks
+
+* COLOR
+* TOOLTIP (1+ columns)
+
+### Display Orientation (Horizontal vs Vertical)
+
+Box and whisker charts can be displayed both vertically and horizontally.
+
+To select your chart’s orientation, select either the display vertical ( viz-box-vertical.svg ) or display horizontal ( viz-box-horizontal.svg ) icon button in the chart’s editor panel view.
+
+<Image align="center" src="https://files.readme.io/1c79642169ea1b7a2e7ab4c600716f6c3e7e884231a2ab8615d371fc25bdc4a5-4dbe6bb-5_1.png" />
+
+### Format Options
+
+Before you start: This action uses the editor panel. If you have not done so already, open the editor panel from either Explore or Edit mode.
+
+To begin editing an visualization’s format options:
+
+1. Select  Element format in the side navigation.
+2. Select a format option to view and edit its settings.
+
+The following format categories are available for box and whisker charts:
+
+* BACKGROUND
+* TITLE
+* X-AXIS
+* Y-AXIS
+* LEGEND
+* BOX SHAPE
+* DATA LABELS
+* REFERENCE MARKS
+
+### Customize Point Display Options
+
+Before you start: This action uses the editor panel. If you have not done so already, open the editor panel from either Explore or Edit mode.
+
+1. Select  Element format in the side navigation.
+2. Click BOX SHAPE.
+3. Select BOX SHAPE formatting from the options presented:
+   * The Show points checkbox is checked by default. Uncheck to hide all points.
+   * If Show points is selected, you can choose:
+     * Outliers only – Shows only the points that fall outside the box.
+     * All points – Shows all points, regardless of position.
+
+<Image align="center" src="https://files.readme.io/957a0332e2da71b6809d8f265476c51cda02364b572a24720cfccc7725b511f1-2a33b62-7.png" />
