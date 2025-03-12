@@ -2069,8 +2069,8 @@ Lifesight's Map - Geography visualization requires a geography or variant data c
 
 GeoJSON data must also have "coordinates" nested within a "geometry" key in order to be plotted. In GeoJSON and our geography type, the coordinate order is always longitude, latitude.
 
-Examples &#x20;
-For example, given the following GeoJSON data:
+Examples\
+For example, given the following GeoJSON data:\
 \{ "geometry": \{"coordinates": \[-94.042964, 33.019219] } }
 
 Below is a non-working example, even though it is valid GeoJSON, as it lacks the "geometry" key:
@@ -2086,3 +2086,125 @@ If your GeoJSON is structured like the non-working example, you can use Lifesigh
 This example invokes Snowflake's "object\_construct" function to perform this:
 
 <Image align="center" src="https://files.readme.io/67acac48e2624238bfab81648b9af9873f8bfdcc60ab890b12be8344f9832d28-Screenshot_2025-03-12_at_4.06.08_PM.png" />
+
+## Create and format trellis charts
+
+Trellis charts (also known as small multiples or panel charts) allow you to compare and analyze multiple subsets of data within a single visualization element. The subsets are represented by smaller charts (or panels) arranged in rows and columns based on specific data dimensions. The division of data and resulting grid-like structure make it easier to identify patterns, trends, and relationships that can help you uncover valuable insights within large, complex datasets.
+
+<Image align="center" src="https://files.readme.io/879a821c1170a5bf6d3c771bf4f7c6c9058b5cb019f22101dc95a37165416052-Screenshot_2025-03-12_at_4.18.51_PM.png" />
+
+This document introduces the concept and structure of trellis charts and explains how to use them to add clarity and value to your visualizations.
+
+The following visualization types support trellising:
+
+* Bar charts
+* Line charts
+* Area charts
+* Scatter plots
+* Pie charts
+* Donut charts
+* Combo charts
+
+### User requirements
+
+The ability to create and format trellis charts requires the following:
+
+* You must be assigned an account type with the Edit Dashboard and/or Explore Dashboard permission enabled.
+* You must be the Dashboard owner or be granted Can explore or Can edit Dashboard permission.
+
+### Understanding trellis charts
+
+Trellis charts enable you to quickly and effectively visualize multidimensional data subsets and explore them from different angles. Although you could build an individual visualization element for each data subset, you can quickly create a trellis chart that offers several advantages that contribute to data coherence and ease of use, including the following:
+
+* Organization: Data subsets are presented in a logical, organized structure that facilitates systematic comparison and exploration.
+* Scalability: Data updates, including new attributes introduced to the dataset, are seamlessly incorporated into the chart’s dimensions.
+* Consistency: The shared underlying data ensures consistent application of filters and aggregations, while the use of a single visualization provides uniformity in scale, format, and styling.
+
+### Trellis rows and columns
+
+In a trellis chart, rows (vertical divisions) represent one dimension, while columns (horizontal divisions) represent another. The individual panels represent the intersections of specific row and column attributes, which visualize data subsets that are more digestible and easily compared in the context of the dimensions and corresponding attributes.
+
+### Non-trellis vs. trellis
+
+The following charts demonstrate how trellising can enhance data visualization.
+
+No trellising: This initial chart shows a basic view that compares total revenue per fiscal year from 2019 to 2023. The stacked bars differentiate revenue for each product family, providing an additional dimension to explore within and across each year.
+
+<Image align="center" src="https://files.readme.io/f1021f59e9e1753c0403136ad1be0122495848e2defab12aee21efc02f1be640-trellis-chart_no-trellising.png" />
+
+Trellis columns: This second chart incorporates trellis columns to deepen the analysis. You can still analyze total revenue by fiscal year and product family, but the additional dimension allows you to compare these data points within and across smaller data subsets based on store region.
+
+<Image align="center" src="https://files.readme.io/3cff60d06ca7cb253c1f1e6abe5dfe609bf9875516e51031f1a569ad1027c4ab-trellis-chart_trellis-columns.png" />
+
+Trellis rows and columns: This final chart incorporates trellis rows and columns for even more granular data subsets. As with the previous chart, you can still analyze total revenue by fiscal year and product family, but the two additional dimensions allow you to compare data points within and across data subsets based on the intersections of store regions and product types.
+
+While the grid structure makes it easy to compare revenue between data subsets that share a common store region or product type (shared attributes across the same row or column), you can also obtain meaningful insights by exploring data points across the complete grid.
+
+<Image align="center" src="https://files.readme.io/596f7c9a83c1635b4374fbf7607e3c6ef5df5df12ca0c44681300b2045e522c8-trellis-chart_trellis-rows-and-columns.png" />
+
+### Create a trellis chart
+
+1. Open a Dashboard in Explore or Edit mode and build a basic visualization.
+2. In the Element properties panel, select the Marks > Trellis tab.
+3. To create a vertical comparison of data subsets, click  Add column in the Trellis row property, then use one of the following methods to define the row dimensions:
+   * To derive dimensions from an existing column in the data source, search or scroll the Select column list and select the preferred option.
+   * To create dimensions based on a new column, select Add new column, then enter a function or value in the formula bar.
+
+> 📘 You can also select an existing column by dragging and dropping a column name from the Columns list to the Trellis row property.
+
+4. To create a horizontal comparison of data subsets, click  Add column in the Trellis column property, then use one of the following methods to define the column dimensions:
+   * To derive dimensions from an existing column in the data source, search or scroll the Select column list and select the preferred option.
+   * To create dimensions based on a new column, select Add new column, then enter a function or value in the formula bar.
+
+> 📘 You can also select an existing column by dragging and dropping a column name from the Columns list to the Trellis column property.
+
+### Create a trellis chart with multiple series (Beta)
+
+> 📘 This documentation describes a public beta feature and is under construction. This documentation should not be considered part of our published documentation until this notice, and the corresponding Beta flag on the feature in the Lifesight service, are removed. As with any beta feature, the feature discussed below is subject to quick, iterative changes. The latest experience in the Lifesight service might differ from the contents of this document.\
+> Beta features are subject to the Beta features disclaimer.
+
+If your chart is a bar, line, area, or scatter chart containing multiple series, such as both Revenue and Cost, you can create a trellis chart for the series:
+
+1. Open a Dashboard in Explore or Edit mode and build a chart with at least two data series.
+
+<Image align="center" src="https://files.readme.io/7dab5ca76e16e77eabd2c438373aa81dac35e13cb98e522addeb1cc91cd264b8-0e5fa5b5702dd7d3b4a692f5b27e7b3eaa3b09df27ac688167af4f62a6da5c62-bar-by-series_1.png" />
+
+2. In the  Element properties panel, select the Marks > Trellis tab.
+3. For Trellis by, select Series.
+
+<Image align="center" src="https://files.readme.io/d3c78789fd9f1ce883f725f7f4708fe3e7927648ecfd4c503ffda156b629be39-d9f408b2bd484c52adc2e164648ff3e68213f646554da548316d4fc654323022-trellis-by.png" />
+
+For Direction, select Row (default) or Column.
+
+<Image align="center" src="https://files.readme.io/ceaaec07995327173abe3535ee9a13e1b6ed98a2a542205f231920ed26405107-377a575a7ac3ab44c3041b5a10ae5cf37ff7d164fa23ca18d4d5188e3d119d8f-simple-series-trellis.png" />
+
+### Customize trellis titles and labels
+
+You can change the visibility of trellis titles and labels, customize the chart title, font size, and font color as needed.
+
+1. Open a Dashboard in Explore or Edit mode and select the visualization element you want to modify.
+2. Select  Element format in the side navigation, then click Trellis to expand the section.
+3. Modify the available options for the trellis:
+   * To modify the size of the trellis tiles within the visualization, modify the Tile size. You can choose Auto or Compact.
+   * For a trellis chart with rows or columns, you can choose to show or hide a border between rows and columns. To show the border, select the checkbox for Show row border or Show column border. To hide the border, clear the checkbox.
+4. Configure the title and label for the trellis rows or columns in the chart:
+   * To show the title, select the checkbox for Show title. To hide the title, clear the checkbox.
+   * To show the label, select the checkbox for Show label. To hide the label, clear the checkbox.
+   * If you show a title or label, enter the title or label in the relevant text field.
+   * To change the font size and color of trellis titles and labels, use the formatting tools:
+
+<Image align="left" width="550px" src="https://files.readme.io/f4ccb0b3ad4150634b8c869c0e3f7bab46024324d203cd044f43c1dd1f17b2d6-Screenshot_2025-03-12_at_5.43.41_PM.png" />
+
+<br />
+
+<br />
+
+### Customize shared trellis components
+
+By default, Lifesight displays shared x-axis labels for each column (cartesian charts only), shared y-axis labels for each row (cartesian charts only), and a shared legend for the entire grid. You can customize the trellis format to use shared components or display separate labels and legends for each panel.
+
+1. Open a Dashboard in Explore or Edit mode and select the visualization element you want to modify.
+2. Select  Element format in the side navigation, then click Trellis to expand the section.
+3. To change the shared components, configure the X-axis, Y-axis, and Color legends fields:
+   * To share the axis values or legend, select the checkbox.
+   * To display the axis values or legend in each panel, clear the checkbox.
