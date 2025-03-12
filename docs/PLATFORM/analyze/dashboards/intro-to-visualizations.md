@@ -1591,111 +1591,102 @@ Define the categories for the chart by configuring a source column to use. Becau
 1. In the X-axis property, click  Add column and select an option from the menu:
    * To generate categories based on distinct values in an existing column, search or scroll the Select column list and select the column name.
    * To generate categories based on a custom formula, select New column and enter the formula in the toolbar.
-   Select or replace an existing column by dragging and dropping a column name from the Columns list to the applicable axis property.\
-   \[optional] Adjust how the source column data is categorized and displayed in the chart:
-   Hover over the source column name, then click the caret () to open the column menu.
-   Hover over any of the following items, then select option you want to use:
-   Truncate date - Categorize date values by the selected interval or unit of measure.
-   Transform - Convert the column to the selected data value type.
-   Format - Display axis and data labels in the selected format.
-   📘
-   Availability of column menu items and corresponding options varies depending on the data type of the column. For example, Truncate date is only available for date values.
-   Define the variable
-   Define the chart variable, or what has changed over time, by configuring a source column. When you add a source column, Lifesight automatically aggregates values associated with the same chart category.
-   In the Y-axis property, click  Add calculation and select an option from the menu:
-   To aggregate values of an existing column, search or scroll the Aggregate column list and select the column name.
-   To calculate values based on a custom formula, select New column and enter the formula in the toolbar.
-   To use a count the number of rows associated with each category, select Row count.
-   📘
-   This visualization supports up to 25,000 data points. If the configurations result in a data set that exceeds this limit, the visualization displays the first 25,000 data points, and a warning message indicates that the chart is incomplete. To reduce the number of data points, aggregate the values or apply data filters to the visualization or source element.
+   Select or replace an existing column by dragging and dropping a column name from the Columns list to the applicable axis property.
+2. \[optional] Adjust how the source column data is categorized and displayed in the chart:
+   * Hover over the source column name, then click the caret () to open the column menu.
+   * Hover over any of the following items, then select option you want to use:
+     * Truncate date - Categorize date values by the selected interval or unit of measure.
+     * Transform - Convert the column to the selected data value type.
+     * Format - Display axis and data labels in the selected format.
+     > 📘 Availability of column menu items and corresponding options varies depending on the data type of the column. For example, Truncate date is only available for date values.
 
-💡\
-You can also select an existing column by dragging and dropping a column name from the Columns list to the applicable axis property.
-\[optional] Adjust how the source column data is calculated and displayed in the chart:
-Hover over the source column name, then click the caret () to open the column menu.
-Hover over any of the following items, then select the option you want to use:
-Set aggregate - Calculate values based on the selected aggregation method.
-Transform - Convert the column to the selected data value type.
-Format - Display axis and data labels in the selected format.
-📘
-To plot the source column data without aggregating values, clear the Aggregate values checkbox in the Y-axis property. If this results in an incomplete chart that exceeds the 25,000 data point limit, aggregate the values again or apply data filters to reduce the number of data points.
-💡
-You can also use the toolbar to change the aggregation method (using the formula) and data label format.
-\[optional] Repeat the previous steps to add additional y-axis source columns and create a stacked waterfall chart.
+### Define the variable
+
+Define the chart variable, or what has changed over time, by configuring a source column. When you add a source column, Lifesight automatically aggregates values associated with the same chart category.
+
+1. In the Y-axis property, click  Add calculation and select an option from the menu:
+   * To aggregate values of an existing column, search or scroll the Aggregate column list and select the column name.
+   * To calculate values based on a custom formula, select New column and enter the formula in the toolbar.
+   * To use a count the number of rows associated with each category, select Row count.
+   > 📘 This visualization supports up to 25,000 data points. If the configurations result in a data set that exceeds this limit, the visualization displays the first 25,000 data points, and a warning message indicates that the chart is incomplete. To reduce the number of data points, aggregate the values or apply data filters to the visualization or source element.
+
+<Image align="center" src="https://files.readme.io/969a63f48bb36d39a9b9fee6254f2502d3bd03552e67b67c4a5cfe665153484a-29cba4a-waterfall-add-column-x.png" />
+
+2. \[optional] Adjust how the source column data is calculated and displayed in the chart:
+   * Hover over the source column name, then click the caret () to open the column menu.
+   * Hover over any of the following items, then select the option you want to use:
+     * Set aggregate - Calculate values based on the selected aggregation method.
+     * Transform - Convert the column to the selected data value type.
+     * Format - Display axis and data labels in the selected format.
+     > 📘 To plot the source column data without aggregating values, clear the Aggregate values checkbox in the Y-axis property. If this results in an incomplete chart that exceeds the 25,000 data point limit, aggregate the values again or apply data filters to reduce the number of data points.
+3. \[optional] Repeat the previous steps to add additional y-axis source columns and create a stacked waterfall chart.
+
 By default, a waterfall chart shows the sum of values over time. If you only have one y-axis source column, you can change the display formatting to show the difference in values across each period. See Customize waterfall shape.
-Customize your waterfall chart
+
+### Customize your waterfall chart
+
 Lifesight auto-generates source column names and chart titles to reflect the visualized data, but you can customize these fields as needed:
-To rename a source column, double-click the column name in the X-axis or Y-axis property, then enter a new name. Changes are reflected in the default chart title.
-To edit the chart title, double-click the title in the visualization, then enter a new title.
-📘
-Lifesight auto-generates a default chart title. After you customize the title, the chart title no longer reflects changes to source columns and their names.
-Advanced waterfall chart properties and formatting
+
+* To rename a source column, double-click the column name in the X-axis or Y-axis property, then enter a new name. Changes are reflected in the default chart title.
+* To edit the chart title, double-click the title in the visualization, then enter a new title.
+  > 📘 Lifesight auto-generates a default chart title. After you customize the title, the chart title no longer reflects changes to source columns and their names.
+
+### Advanced waterfall chart properties and formatting
+
 Lifesight features various properties and format options that give you the flexibility to build advanced waterfall charts, including stacked waterfall charts.
+
 The following sections introduce configurations that can enhance your charts and help you deliver specific insights with meaningful and actionable information.
-Change stacking
+
+### Change stacking
+
 When you add multiple source columns, the values are stacked by default. You can change the chart formatting to remove the stacking.
 
-Stacking
+<Image align="center" src="https://files.readme.io/1ab1e4f7d640f59d90349bf884664ea245e7e9c6cd27553304ad954adf4890de-Screenshot_2025-03-12_at_12.19.48_PM.png" />
 
-No stacking\
-Plot multiple data series as separate waterfall charts with subtotals for each series.
+### Configure mark colors
 
-Stacked\
-Plot multiple data series as cumulative waterfall segments. Compare subcategory contributions to each category’s total sum value in the resulting stacked waterfall chart.
-
-Configure mark colors\
 Configure waterfall mark colors in the  Element properties > Marks > Color tab to differentiate data and highlight specific values.
 
-By series\
-Select a color for the increase, decrease, and total values for the waterfall chart. For information about adding formatting rules, see Add conditional formatting in this document.
+<Image align="center" src="https://files.readme.io/b824ac9784f19bd87098343cbddda50a335f8405fee3828e0ab6dda0a8993af4-Screenshot_2025-03-12_at_12.29.19_PM.png" />
 
-Add conditional formatting\
+### Add conditional formatting
+
 In the  Element properties > Marks > Color tab, you can configure formatting rules (+ Add rule) that determine waterfall mark colors according to value-based conditions, in addition to the increase and decrease colors used for the waterfall chart.
 
-Example:
+<Image align="center" src="https://files.readme.io/ce63f11e3fd95e4e6b817efc1e5b3f41a71916a88d0e02fb683bfc2f6c6a97d8-Screenshot_2025-03-12_at_12.30.30_PM.png" />
 
-💡\
-When the conditions of multiple rules are met, Lifesight applies the formatting rules in order of precedence, from top to bottom. Drag and drop rule blocks to reorder them as needed.
-Customize tooltip fields and values
-Customize chart mark tooltip fields in the  Element properties > Marks > Tooltip tab to display the most relevant metrics and data attributes. For more information, see Customize chart mark tooltip fields.
+> 📘 When the conditions of multiple rules are met, Lifesight applies the formatting rules in order of precedence, from top to bottom. Drag and drop rule blocks to reorder them as needed.
+
+### Customize tooltip fields and values
+
+Customize chart mark tooltip fields in the  Element properties > Marks > Tooltip tab to display the most relevant metrics and data attributes.
+
 For example, you can customize the default tooltip by removing the X-axis chart value from the tooltip and adding a new aggregate column, showing a distinct count of SKU numbers, in the Tooltip tab.
-Default
-Custom column in tooltip
 
-Customize waterfall shape\
+<Image align="center" src="https://files.readme.io/981e3efd372331996fa483dc701c37fb3d979134aa2599a9d5acf42c81973725-Screenshot_2025-03-12_at_12.32.01_PM.png" />
+
+### Customize waterfall shape
+
 You can customize the shape of the waterfall. In  Element format, select Waterfall shape and configure the available options.
-Set the calculation to display
+
+### Set the calculation to display
+
 You can only choose the calculation to display for waterfall charts that display one source column (are not stacked).
 
-Sum displays the sum of the values over time.
+<Image align="center" src="https://files.readme.io/b4520fa816f07296396b5e7fcd77e398e65093cc77f2176533f2d32dbc48d774-Screenshot_2025-03-12_at_12.33.12_PM.png" />
 
-Difference displays the difference in values between each period.
+### Configure the start value
 
-Configure the start value\
 Choose from several options for the start value of your waterfall chart:
 
-First value in data uses the first value in the data as the starting point for the chart. Default value.
+<Image align="center" src="https://files.readme.io/60f808ddd41817af9771df043a26f8d8edbb0eedd02414cab9d8aa63141ff9fc-Screenshot_2025-03-12_at_12.38.28_PM.png" />
 
-None does not display a start value and the first value in the data displays as part of the waterfall.
+### Configure the end value
 
-Custom uses a constant value or an aggregated column as the starting value. If you select a Custom start value, you can customize the start value label.
+<Image align="center" src="https://files.readme.io/7a1fbd743da9dc70bb5c124ae32656e78dbdb4a6ec4a83a26878e4e8cfdca62d-Screenshot_2025-03-12_at_12.39.27_PM.png" />
 
-Configure the end value
+### Show connector lines
 
-Select the Show end value checkbox to display an end value. The end value is shown by default.
-
-For End value label, enter a label to describe the end value on the waterfall chart.
-
-Show connector lines\
 Select the Show connector line checkbox to show a line connecting the values on the waterfall chart. You can then select a Connector line color.
-Default
-With connector lines
 
-All waterfall chart format options\
-Background
-Title
-X-axis
-Y-axis
-Legend
-Data labels
-Reference marks
+<Image align="center" src="https://files.readme.io/cade9aacfe70a50239719f3fe30e456bf7328fb1c50591c556fa3715c37077f9-Screenshot_2025-03-12_at_12.40.03_PM.png" />
