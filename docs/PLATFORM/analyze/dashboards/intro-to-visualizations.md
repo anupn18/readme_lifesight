@@ -1745,3 +1745,140 @@ Before you start: This action uses the editor panel. If you have not done so alr
 * Legend
 * Reference Marks
 * Area Shape
+
+## Combo charts
+
+Combo charts are a type of visualization that uses a mixture of chart types. Lifesight combo charts support bars, lines, areas, and scatter plots.
+
+### Requirements
+
+* You must be assigned an account type with the Edit Dashboard and/or Explore Dashboard permission enabled.
+* You must be the Dashboard owner or be granted Can explore or Can edit Dashboard permission.
+
+> 📘 If you're granted Can explore access to the Dashboard, you can create and modify visualization properties and formatting in Explore mode, but you cannot publish your changes.
+
+### Plot a combo chart
+
+To plot a combo chart, configure the following properties in the Element properties tab:
+
+<Image align="left" width="600px" src="https://files.readme.io/7c09c3c962b2c54d82bddcd7c559b44bbc750b048c0d2324f1f0af5e72803795-Screenshot_2025-03-12_at_2.59.30_PM.png" />
+
+<br />
+
+<br />
+
+<br />
+
+The chart is empty until all properties are configured.
+
+### Add a combo chart to a Dashboard
+
+1. Open a Dashboard in Explore or Edit mode and add a new visualization element.
+2. In the Visualization property, click the dropdown field and select Combo from the list.
+
+### Define the x-axis categories
+
+Configure a source column to define the x-axis categories.
+
+1. In the X-axis property, click  Add column and select an option from the menu:
+   * To generate categories based on distinct values in an existing column, search or scroll the Select column list and select the preferred column name.
+   * To generate categories based on a custom formula, select New column and enter the formula in the toolbar
+2. \[optional] Control how the source column data is categorized and displayed in the chart:
+   * Hover over the source column name, then click the caret () to open the column menu.
+   * Hover over any of the following items, then select the preferred option:
+     * Truncate date - Categorize date values by the selected interval or unit of measure.
+     * Transform - Convert the column to the selected data value type.
+     * Format - Display axis and data labels in the selected format.
+
+> 📘 Availability of column menu items and corresponding options varies depending on the column’s data value type (for example, Truncate date is available for date values only).
+
+### Define the y-axis variable
+
+Configure a source column to define the y-axis variable. Lifesight automatically aggregates values associated with the same x-axis category, and the aggregation type depends on the data type of the column.
+
+By default, the first column placed on the y-axis is displayed as a bar chart and all additional columns are plotted as lines.
+
+1. In the Y-axis property, click  Add calculation and select an option from the menu
+
+* To aggregate values of an existing column, search or scroll the Aggregate column list and select the preferred column name.
+* To calculate values based on a custom formula, select New column and enter the formula in the toolbar.
+* To count the number of rows associated with each category, select Row count.
+
+2. \[optional] Control how the source column data is calculated and displayed in the chart:
+   * Hover over the source column name, then click the caret () to open the column menu.
+   * Hover over any of the following items, then select the preferred option:
+     * Set aggregate - Calculate values based on the selected aggregation method.
+     * Transform - Convert the column to the selected data value type.
+     * Format - Display axis and data labels in the selected format.
+
+> 📘 To plot the source column data without aggregating values, clear the Aggregate values checkbox in the Y-axis property. If this results in an incomplete chart that exceeds the 25,000 data point limit, reaggregate the values or apply data filters to reduce the number of data points.
+
+3. \[optional] Repeat the previous steps to configure multiple y-axis source columns. Lifesight plots each further column as a separate line series on the chart, but you can change the shape of any plotted column from the column menu. See Change the chart type for a plotted column).
+4. \[optional] Lifesight auto-generates source column names and chart titles to reflect the visualized data, but you can customize these fields as needed:
+   * To rename a source column, double-click the column name in the X-axis or Y-axis property, then enter a new name. Changes are reflected in the default chart title.
+   * To edit the chart title, double-click the title in the visualization, then enter a new title.
+
+> 📘 Lifesight auto-generates the default chart title. After the title is customized, it no longer reflects changes to source columns and their names.
+
+<Image align="center" src="https://files.readme.io/32ca3034429b0d9c9d2e87bf8ef724f0be5918b2461c4caf2dfc2249dbcc46ba-e522f53-combo-nice.png" />
+
+### Combo chart properties
+
+You can configure the following properties for combo charts:
+
+* Set up colors.
+* Customize tooltip fields and values.
+* Use a trellis format.
+
+### Configure a chart color by category (Beta)
+
+> 📘 This documentation describes a public beta feature and is under construction. This documentation should not be considered part of our published documentation until this notice, and the corresponding Beta flag on the feature in the Lifesight service, are removed. As with any beta feature, the feature discussed below is subject to quick, iterative changes. The latest experience in the Lifesight service might differ from the contents of this document.\
+> Beta features are subject to the Beta features disclaimer.
+
+If your combo chart includes bars, you can set a column to use as a category and split the bar colors by category.
+
+Configure combo chart colors in the  Element properties > Marks > Color tab.
+
+You can use color to differentiate data, highlight specific column values, and split the chart bars by category.
+
+<Image align="center" src="https://files.readme.io/b058724da565954c79ff39728e50e2c429c54bc49facada65a8f646984e70422-Screenshot_2025-03-12_at_3.12.30_PM.png" />
+
+> 📘 Multiple variables in the y-axis result in a stacked or clustered bar series in which each data series represents a measure of a different variable. The By category color setting can also generate bar stacks or clusters, but the resulting series represent sub-categories within the configured chart categories that measure the same variable.
+
+### Change the chart type for a plotted column
+
+The chart type for a column plotted on a combo chart can be one of four options: bar, line, area, or scatter.
+
+Before you start: This action uses the editor panel. If you have not done so already, open the editor panel from either Explore or Edit mode.
+
+To change the chart type, do the following:
+
+1. In the editor panel, hover over the column and click the caret.\
+   The column menu opens.
+2. In the Shape submenu, choose Bar, Line, Area, or Point.
+
+<Image align="center" src="https://files.readme.io/de420a19bb135e879139ffcdd8913a08455edbb429d3c025c52e808a96f6e90d-5ff3589-combo-line-chart-choose.png" />
+
+### Format options
+
+To begin editing a visualization’s format options:
+
+* Before you start: This action uses the editor panel. If you have not done so already, open the editor panel from either Explore or Edit mode.
+  * Select  Element format in the side navigation.
+  * Select a format option to view and edit its settings.
+
+### Format categories
+
+The following format categories are available for combo charts:
+
+* Element style
+* Title
+* X-axis
+* Y-axis
+  * You can add a secondary y-axis for a column on the left or right side of the chart.
+* Legend
+* Gaps
+* Reference marks
+* Trend lines
+* Data labels
+* Area/line style
