@@ -1590,8 +1590,8 @@ Define the categories for the chart by configuring a source column to use. Becau
 
 1. In the X-axis property, click  Add column and select an option from the menu:
    * To generate categories based on distinct values in an existing column, search or scroll the Select column list and select the column name.
-   * To generate categories based on a custom formula, select New column and enter the formula in the toolbar.
-   Select or replace an existing column by dragging and dropping a column name from the Columns list to the applicable axis property.
+   * To generate categories based on a custom formula, select New column and enter the formula in the toolbar.\
+     Select or replace an existing column by dragging and dropping a column name from the Columns list to the applicable axis property.
 2. \[optional] Adjust how the source column data is categorized and displayed in the chart:
    * Hover over the source column name, then click the caret () to open the column menu.
    * Hover over any of the following items, then select option you want to use:
@@ -1690,3 +1690,58 @@ Choose from several options for the start value of your waterfall chart:
 Select the Show connector line checkbox to show a line connecting the values on the waterfall chart. You can then select a Connector line color.
 
 <Image align="center" src="https://files.readme.io/cade9aacfe70a50239719f3fe30e456bf7328fb1c50591c556fa3715c37077f9-Screenshot_2025-03-12_at_12.40.03_PM.png" />
+
+## Area charts
+
+### Plot an Area Chart
+
+Visualizations can be created via the PAGE ELEMENTS section of your Dashboard's editor panel or directly from an existing data element.\
+Visualized data will not display on the page canvas until all required plot fields are defined.
+Add columns to open fields and marks using either the field's + menu or dragging and dropping the column.
+
+### Required Fields
+
+* X-AXIS (1+ columns)
+* Y-AXIS (1+ columns)\
+  Columns added to the Y-AXIS field are aggregated by default. Aggregation type (e.g. Sum vs Count) is dependent on the original column’s value type (e.g. text, number, date, etc).
+  For example, a numeric column such as 'Sales Amount' will create a new calculated column, 'Sum of Sales Amount' (e.g. Sum(\[Sales Amount])).
+
+### Marks
+
+* COLOR
+* TOOLTIP
+* TRELLIS
+
+### Stacked Area Chart Variations
+
+Area charts support three stack variations:
+
+* No Stacking - Areas start from the X axis and might overlap
+* Stacked - Areas stack on top of each other
+* Stacked 100% - All areas add up to 100% of the area
+
+### Create a stacked area chart
+
+Before you start: This action uses the editor panel. If you have not done so already, open the editor panel from either Explore or Edit mode.
+
+1. In the editor panel, add a column to the COLOR field.
+2. \[optional] Select one of the three stack options from the top of the chart’s editor panel view.
+
+<Image align="center" src="https://files.readme.io/0e579ca36d621194b513b90f4fbf574b5c40b8a70aebf423703ab9f086f638db-7a28136-1.png" />
+
+### Format Options
+
+To begin editing an visualization’s format options:\
+Before you start: This action uses the editor panel. If you have not done so already, open the editor panel from either Explore or Edit mode.
+
+1. Select  Element format in the side navigation
+2. Select a format option to view and edit its settings.\
+   The following format options are available for area charts:
+
+* Background
+* Title
+* X-Axis Scale
+* X-Axis Scale
+* Legend
+* Reference Marks
+* Area Shape
