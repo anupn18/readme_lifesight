@@ -1580,6 +1580,8 @@ Create a new visualization element and designate it as a waterfall chart.
 1. Open a Dashboard in Explore or Edit mode and add a new visualization element.
 2. In the Visualization property, click the dropdown field and select Waterfall from the list.
 
+<Image align="center" src="https://files.readme.io/304267926798d84bd21392136377792ccfcc00b386dfefb29bd17d7d3f764c80-68785d3-waterfall-in-menu_1.png" />
+
 📘\
 You can also use this dropdown field to convert an existing visualization to a different type. Lifesight retains all property and format configurations shared by the initial and new type. Properties and formatting not shared by the new type are not retained.
 Define the categories
