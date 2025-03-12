@@ -2235,7 +2235,7 @@ When you use the Explain visualization feature, Lifesight captures a snapshot of
 
 <Image align="center" src="https://files.readme.io/95d25c3e40256cf841b20ce6f54bf1599f7a6339df675dd1479fd35ead5af77b-finish1.png" />
 
-1. The Explain visualization modal displays the explanation in real time, as it's generated. Utilize or interact with the results as needed:
+4. The Explain visualization modal displays the explanation in real time, as it's generated. Utilize or interact with the results as needed:
    * Click  Copy text, then save or share the results (for example, paste it into a text element to supplement the visualization).
    * Click Helpful or Not helpful and submit additional details to help improve future responses.
 
