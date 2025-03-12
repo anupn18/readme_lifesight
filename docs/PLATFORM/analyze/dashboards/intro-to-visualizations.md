@@ -1905,6 +1905,8 @@ Box and whisker charts break data into quartiles. The upper quartile, median, an
 
 <Image align="center" width="600px" src="https://files.readme.io/ace203c6549f82da9134b6a702d2216ea3212a7b2a0ade5757ccf0356f2b9728-Screenshot_2025-03-12_at_3.24.21_PM.png" />
 
+<br />
+
 ### Plot a Box and Whisker Chart
 
 Visualizations can be created via the PAGE ELEMENTS section of your Dashboard's editor panel or directly from an existing data element.
@@ -2194,6 +2196,8 @@ You can change the visibility of trellis titles and labels, customize the chart 
    * To change the font size and color of trellis titles and labels, use the formatting tools:
 
 <Image align="left" width="550px" src="https://files.readme.io/f4ccb0b3ad4150634b8c869c0e3f7bab46024324d203cd044f43c1dd1f17b2d6-Screenshot_2025-03-12_at_5.43.41_PM.png" />
+
+<br />
 
 <br />
 
