@@ -1973,3 +1973,62 @@ Before you start: This action uses the editor panel. If you have not done so alr
      * All points – Shows all points, regardless of position.
 
 <Image align="center" src="https://files.readme.io/957a0332e2da71b6809d8f265476c51cda02364b572a24720cfccc7725b511f1-2a33b62-7.png" />
+
+## Pie and donut charts
+
+Pie and donut charts are a good way to visualize data as a percentage of a total.
+
+### Requirements
+
+* To create a data element, you must have Can Edit access to the individual Dashboard and be in Edit mode.
+* Many exploratory actions are also supported in Explore mode.
+
+### Plot options
+
+You can create pie and donut charts charts from the PAGE ELEMENTS section of your Dashboard's editor panel, or directly from an existing data element.
+
+<Image align="center" src="https://files.readme.io/ca27ebb5e793c7fa12aa1d0ba663a688d5b8ef3d31000e56840500e43754192c-445e066-1_1.png" />
+
+### Required fields
+
+* COLOR (1 column)
+* VALUE (1+ columns)\
+  Columns added to the VALUE field are aggregated by default. Aggregation type (e.g. Sum vs Count) is dependent on the original column’s value type (e.g. text, number, date, etc).
+  Example: A numeric column \[Sales Amount] will create a new calculated column \[Sum of Sales Amount].
+
+### Marks
+
+* TOOLTIP: choose columns to show when hovering over points in the chart
+* TRELLIS: select columns to serve as Trellis Rows or Columns, splitting the chart into separate charts
+
+### Donut hole value
+
+> 📘 This documentation describes a public beta feature and is under construction. This documentation should not be considered part of our published documentation until this notice, and the corresponding Beta flag on the feature in the Lifesight service, are removed. As with any beta feature, the feature discussed below is subject to quick, iterative changes. The latest experience in the Lifesight service might differ from the contents of this document.\
+> Beta features are subject to the Beta features disclaimer.
+
+If you're creating a donut chart, you can optionally add a KPI to the hole of the donut.
+
+1. Select the element.\
+   The editor panel opens to the Element properties section.
+2. For Donut hole value, select the + to add a calculation.
+3. Add a new column, select the row count, or choose a column to aggregate and display in the donut hole.\
+   The aggregate value appears with the column name as a default label. You can format the value using the format options.
+
+<Image align="center" src="https://files.readme.io/874cc3c0f12d56ef7562bd17ec56089bfca88cb38579bc2f974c9fcd9be15da2-2c6d519-better-donut-hole.png" />
+
+### Format options
+
+To start editing the format options for a visualization:
+
+Before you start: This action uses the editor panel. If you have not done so already, open the editor panel from either Explore or Edit mode.
+
+1. In the editor panel, select  Element format.
+2. Select a format option to view and edit its settings.
+
+The following format categories are available for pie and donut charts:
+
+* BACKGROUND
+* TITLE
+* LEGEND
+* DATA LABELS
+* DONUT HOLE (only for donut charts)
