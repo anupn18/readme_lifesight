@@ -2032,3 +2032,57 @@ The following format categories are available for pie and donut charts:
 * LEGEND
 * DATA LABELS
 * DONUT HOLE (only for donut charts)
+
+## Maps
+
+### Plot a map
+
+Maps are visualizations and can be created via the PAGE ELEMENTS section of your Dashboard's editor panel or directly from an existing data element.
+
+Visualized data will not display on the page canvas until all required plot fields are defined.
+
+Add columns to open fields using either the field's + menu or dragging and dropping the column.
+
+### Map types
+
+Dashboards support three distinct map types: Region, Point and Geography.
+
+You should choose your map type based on your available data and the results you wish to see. For example, if you want to map a text column \[State] with cell values like "Colorado" and "California", you should choose a Region map type.
+
+### Map - Region
+
+Region maps require a single text column in the Region property. Column values must match one of the following region types and be consistent within the column.
+
+> 📘 Region values are not case sensitive. For example, the value for the state of California can be California, california, CA, Ca, or ca. However, all values in the column should use the same supported identifier and capitalization for data consistency.
+
+<Image align="center" src="https://files.readme.io/bb9faca135ec18a690f79b6b3012daf41f9c449a482cc7dba622159d673af802-Screenshot_2025-03-12_at_4.02.00_PM.png" />
+
+### Map - Point
+
+Point maps require a number column on both the map's LATITUDE and LONGITUDE fields.
+
+### Map - Geography
+
+WKT and JSON formats allow the storage of more complex geographical data than simple numeric lat/long columns.
+
+Lifesight's Map - Geography visualization requires a geography or variant data column on the map's Geography field. If your WKT or GeoJSON data is stored as a text column (abc), you can convert it using the Geography or Variant function.
+
+GeoJSON data must also have "coordinates" nested within a "geometry" key in order to be plotted. In GeoJSON and our geography type, the coordinate order is always longitude, latitude.
+
+Examples &#x20;
+For example, given the following GeoJSON data:
+\{ "geometry": \{"coordinates": \[-94.042964, 33.019219] } }
+
+Below is a non-working example, even though it is valid GeoJSON, as it lacks the "geometry" key:
+
+<Image align="center" src="https://files.readme.io/f78c3a16a5587f8e44837e0a73e7a410ed56c12bdfed353ece0e058aeaac7c4a-Screenshot_2025-03-12_at_4.04.27_PM.png" />
+
+This is a working example:
+
+<Image align="center" src="https://files.readme.io/bcba2b22fdcf1ffa3861f689fbf2626d05ab82ae47e492c0bda96ec03ad457ac-Screenshot_2025-03-12_at_4.05.19_PM.png" />
+
+If your GeoJSON is structured like the non-working example, you can use Lifesight's CallVariant passthrough function to prepend the "geometry" key.
+
+This example invokes Snowflake's "object\_construct" function to perform this:
+
+<Image align="center" src="https://files.readme.io/67acac48e2624238bfab81648b9af9873f8bfdcc60ab890b12be8344f9832d28-Screenshot_2025-03-12_at_4.06.08_PM.png" />
