@@ -1,11 +1,11 @@
 - test-hypotheses-generation
 - spend-test
 - geo-testing
+- geo-experiment-creation
 - split-testing
 - create-a-split-test
 - split-test-data-schema
 - split-test-insights
-- geo-experiment-creation
 - analyze-geo-test-results
 - geo-test-data-schema
 - calibrate-mmm-using-experiment-results
