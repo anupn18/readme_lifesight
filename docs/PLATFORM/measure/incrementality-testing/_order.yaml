@@ -1,10 +1,10 @@
 - test-hypotheses-generation
 - spend-test
+- geo-testing
 - split-testing
 - create-a-split-test
 - split-test-data-schema
 - split-test-insights
-- geo-testing
 - geo-experiment-creation
 - analyze-geo-test-results
 - geo-test-data-schema
