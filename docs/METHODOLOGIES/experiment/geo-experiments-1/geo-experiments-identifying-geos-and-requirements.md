@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-Geo-experiments require careful selection of **experimental units**, or **geos**, to ensure accurate, localized measurement. This article explains how to structure geo-experiments in the United States, focusing on **Designated Market Areas (DMAs)** and other geo-set options. LifeSight provides support in choosing the right geo granularity for various countries to maximize precision and relevance.
+Geo-experiments require careful selection of **experimental units**, or **geos**, to ensure accurate, localized measurement. This article explains how to structure geo-experiments in the United States, focusing on **Designated Market Areas (DMAs)** and other geo-set options. Lifesight provides support in choosing the right geo granularity for various countries to maximize precision and relevance.
 
 ## Identifying Geos
 
@@ -39,13 +39,13 @@ DMAs provide a **middle-ground** for U.S.-based geo-experiments, especially for 
 
 To achieve reliable results, follow these best practices:
 
-1. **Target Ads by Geo**  
+1. **Target Ads by Geo**
    * Ensure ads are delivered only within selected geos (states, DMAs, etc.) to maintain distinct test and control groups.
 
-2. **Track Local Metrics**  
+2. **Track Local Metrics**
    * Measure outcomes like conversions and sales within each geo to capture regional effects.
 
-3. **Minimize Spillover**  
+3. **Minimize Spillover**
    * Choose geos with natural boundaries (such as DMAs) to avoid spillover effects where treatment influences neighboring areas.
 
 ## Choosing the Right Geo Granularity
