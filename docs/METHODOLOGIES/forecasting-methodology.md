@@ -7,20 +7,22 @@ metadata:
 ---
 # Forecasting Approach
 
-## Table of Contents
-
-* [Overview](#overview)
-* [Key Components](#key-components)
-  * [Multi-Model Approach](#multi-model-approach)
-  * [Incrementality Adjustment from MMM](#incrementality-adjustment-from-mmm)
-  * [Diminishing Returns Consideration](#diminishing-returns-consideration)
-* [Benefits](#benefits)
-* [Use Cases](#use-cases)
-* [Contact](#contact)
-
-## Overview
+## Forecasting Methodology
 
 Our forecasting methodology leverages a **multi-model approach**, incorporating insights from **Marketing Mix Modeling (MMM)** to enhance accuracy. The forecast is adjusted based on **incrementality insights from MMM** and accounts for **diminishing returns** in ad spend.
+
+We approach the forecasting problem as a combination of two key questions:
+
+1. **How much of the KPI can be expected?**
+2. **How should the budget be allocated to achieve that KPI?**
+
+The KPI is modeled as a function of both paid and non-paid components:
+
+$$ &#x20;
+\text\{KPI} = f(\text\{paid component}) + f(\text\{transformed non-paid component}) + f(\text\{non-transformed non-paid component})
+$$ &#x20;
+
+This structure ensures that both **marketing investments (paid components)** and **external factors (non-paid components)** are appropriately accounted for, providing a holistic and data-driven approach to forecasting.
 
 ## Key Components
 
