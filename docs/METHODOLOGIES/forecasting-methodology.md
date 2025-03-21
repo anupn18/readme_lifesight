@@ -19,7 +19,7 @@ We approach the forecasting problem as a combination of two key questions:
 The KPI is modeled as a function of both paid and non-paid components:
 
 $$ &#x20;
-\text\{KPI} = f(\text\{paid component}) + f(\text\{transformed non-paid component}) + f(\text\{non-transformed non-paid component})
+KPI = f(P\_\{\text\{paid}}) + f(N\_\{\text\{transformed}}) + f(N\_\{\text\{raw}})
 $$ &#x20;
 
 This structure ensures that both **marketing investments (paid components)** and **external factors (non-paid components)** are appropriately accounted for, providing a holistic and data-driven approach to forecasting.
