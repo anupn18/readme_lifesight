@@ -58,8 +58,8 @@ Selecting the appropriate geo level depends on your objectives, data availabilit
 
 ***
 
-### How LifeSight Can Help
+### How Lifesight Can Help
 
-LifeSight’s expertise supports precise geo-selection tailored to your experiment and business goals. By analyzing MMM insights and regional market dynamics, LifeSight guides you in choosing the right geos for effective measurement and targeting, whether working with states, DMAs, or custom geo-sets. Our platform also offers support for geo-experiments across various countries, taking local media structures and market nuances into account.
+Lifesight’s expertise supports precise geo-selection tailored to your experiment and business goals. By analyzing MMM insights and regional market dynamics, Lifesight guides you in choosing the right geos for effective measurement and targeting, whether working with states, DMAs, or custom geo-sets. Our platform also offers support for geo-experiments across various countries, taking local media structures and market nuances into account.
 
-With LifeSight, you can set up efficient geo-experiments, minimize interference, and gain insights that empower better marketing decisions and higher ROI.
+With Lifesight, you can set up efficient geo-experiments, minimize interference, and gain insights that empower better marketing decisions and higher ROI.
