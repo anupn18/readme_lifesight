@@ -1,7 +1,7 @@
 ---
 title: Geo Experiments - Insights
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
