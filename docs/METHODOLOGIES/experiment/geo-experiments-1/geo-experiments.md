@@ -30,6 +30,6 @@ Step 1: Remove the most recent X (configurable) data points to simulate a “tes
 
 Step 2: Use earlier data to build a synthetic control—a weighted combination of control regions that mirrors the test group’s pre-treatment behavior.
 
-Step 3: Apply a hypothetical lift (e.g., 5%) to the test regions during the “removed” month and assess whether a relibable effect can be detected against the synthetic control.
+Step 3: Apply a hypothetical lift (e.g., 5%) to the test regions during the “removed” month and assess whether a reliable effect can be detected against the synthetic control.
 
-This process quantifies how large an effect must be to achieve high power (e.g., 80%) under real-world conditions, accounting for geographic heterogeneity and temporal trends. By iterating over different effect sizes, the power analysis process helps identifies the MDE that balances practical relevance and statistical feasibility.
+This process quantifies how large an effect must be to achieve high power (e.g., 80%) under real-world conditions, accounting for geographic heterogeneity and temporal trends. By iterating over different effect sizes, the power analysis process helps identify the MDE that balances practical relevance and statistical feasibility.
