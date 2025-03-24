@@ -54,8 +54,8 @@ Google scale-up experiments recreate campaigns for test markets, with adaptation
 2. **Budget Allocation Calculation**:
    * Calculate total budget across all original campaigns
    * Calculate ratio of each campaign's budget to total budget
-   * Apply these ratios to the experiment investment to determine new test budgets
-   For example:
+   * Apply these ratios to the experiment investment to determine new test budgets\
+     For example:
    * Original Campaigns: Campaign A ($100/day), Campaign B ($50/day), Campaign C ($50/day)
    * Total Original Budget: $200/day
    * Experiment Investment: $600/day
