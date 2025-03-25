@@ -112,7 +112,3 @@ By integrating these insights, our forecasting methodology provides **realistic 
 * Budget allocation and planning
 * Performance forecasting for marketing campaigns
 * ROI estimation with a data-driven approach
-
-## Contact
-
-For further details or to integrate this forecasting methodology into your workflow, please contact our analytics team.
