@@ -21,22 +21,16 @@ We approach the forecasting problem as a combination of two key questions:
 <br />
 
 ```
-     $$ KPI = f(P_{\text{paid}}) + f(N_{\text{transformed}}) + f(N_{\text{raw}}) $$
-```
+     KPI = f(paid_media_component) + f(non_paid_media_transformed)+ f(non_paid_media_non_trsnsformed)
 
-<br />
-
-```
-```
-
-<br />
+where,
+  paid_media_component : represents the paid component (e.g., ad spend).
+  non_paid_media_transformed : represents the transformed non-paid component (e.g., organic traffic).  
+  non_paid_media_non_trsnsformed : represents the transformed non-paid component (e.g., organic traffic adjusted for seasonality).  
 
 ```
-```
 
-### Understanding Channel Saturation in Measurement Models
-
-<br />
+### Understanding Channel Saturation in Measurement Models and How we incorporate this into Forecasting :
 
 While the concept of saturation is straightforward—additional spending does not always result in higher **marginal reach**—its implementation in modeling presents challenges.
 
