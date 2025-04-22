@@ -50,7 +50,7 @@ The process for both First Touch and Last Touch Attribution involves several key
    * For example, a 30-day attribution window means only touchpoints within 30 days prior to the conversion are considered.
    * The attribution period can vary based on the typical sales cycle length, product type, or industry norms.
 
-3. **Touchpoint Identification:**  
+3. **Touchpoint Identification:**
    * For First Touch: Identify the initial interaction for each converted customer within the attribution period.
    * For Last Touch: Determine the final interaction before each conversion within the attribution period.
 
@@ -67,9 +67,9 @@ The process for both First Touch and Last Touch Attribution involves several key
 
 Consider a customer journey over 45 days:
 
-* **Day 1:** Clicked on a Google Ad  
-* **Day 20:** Visited via organic search  
-* **Day 40:** Clicked on a Facebook Ad  
+* **Day 1:** Clicked on a Google Ad
+* **Day 20:** Visited via organic search
+* **Day 40:** Clicked on a Facebook Ad
 * **Day 45:** Made a purchase
 
 With a 30-day attribution window:
@@ -94,13 +94,13 @@ To effectively implement Single Touch Attribution, you need:
 4. **Channel Information:** Comprehensive data about all marketing channels and campaigns.
 5. **Time Window:** Defined attribution window for associating touchpoints with conversions.
 
-## 6. Advantages and Limitations
+## 6) Advantages and Limitations
 
-[Content remains the same as in the previous version]
+\[Content remains the same as in the previous version]
 
 ## 7. Use Cases and Industry Applications
 
-[Content remains the same as in the previous version]
+\[Content remains the same as in the previous version]
 
 ## 8. Examples and Edge Cases
 
@@ -140,7 +140,7 @@ To effectively implement Single Touch Attribution, you need:
 2. Visits the website on their desktop computer (Day 3)
 3. Makes a purchase on their tablet (Day 5)
 
-**Methodology Challenge:** 
+**Methodology Challenge:**
 
 * Accurate cross-device tracking is crucial for correct attribution.
 * If cross-device tracking is not implemented, this journey might be seen as three separate user journeys, leading to incorrect attribution.
@@ -175,15 +175,7 @@ To effectively implement Single Touch Attribution, you need:
 * Tracking the offline touchpoint (TV ad and store visit) and connecting it to the online journey is complex.
 * Without proper offline-online connection, the First Touch might incorrectly be attributed to the online search.
 
-## 9. Best Practices
-
-[Content remains the same as in the previous version]
-
-## 10. Common Pitfalls and How to Avoid Them
-
-[Content remains the same as in the previous version]
-
-## 11. Conclusion
+## 9. Conclusion
 
 Single Touch Attribution, whether First Touch or Last Touch, offers a straightforward approach to understanding marketing impact. While it has limitations, especially in complex, multi-touch customer journeys, its simplicity makes it a valuable tool for quick insights and decision-making in many scenarios.
 
