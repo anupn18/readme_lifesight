@@ -16,7 +16,7 @@ next:
 ---
 ## Causal tab
 
-The **Anchor Attribution** dropdown lets you choose the *reference* attribution data set that all incrementality results in the **Causal** tab will be calibrated against.\
+The **Anchor Attribution** dropdown lets you choose the *reference* attribution data set that all incrementality results will be calibrated against.\
 By selecting an anchor, you ensure that incremental results produced by your chosen measurement system(s) —**Marketing Mix Modeling (MMM)** or **Experiments / Lift tests**— are incorporated into the signal-based attribution numbers you care about most.
 
 **Why this matters** When you anchor incrementality numbers to a concrete attribution source you enable an apples-to-apples comparison across channels and tactics.
