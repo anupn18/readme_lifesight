@@ -10,7 +10,7 @@ metadata:
 ---
 Salesforce Commerce Cloud is a robust, cloud-based eCommerce platform that not only powers your online store but also streamlines product management, supports multi-site operations, and delivers seamless omnichannel experiences. Integrated within the Salesforce ecosystem and enhanced by AI-driven insights from Salesforce Einstein, it enables personalized, data-driven interactions at scale.
 
-Building on this strong foundation, our Lifesight integration unifies essential data from Orders, Customers, Inventory, and Products. This consolidated view empowers you to make smarter decisions, optimize operations, and create truly personalized customer experiences.
+Our Lifesight integration unifies essential data from Orders, Customers, Inventory, and Products. This consolidated view empowers you to make smarter decisions, optimize operations, and create truly personalized customer experiences.
 
 **Key Features**
 
