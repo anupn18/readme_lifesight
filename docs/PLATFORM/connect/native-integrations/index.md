@@ -12,13 +12,11 @@ metadata:
 next:
   description: ''
 ---
-Lifesight's integrations seamlessly connect our platform with your favorite tools and systems. These pre-built connections eliminate manual data transfers, reduce setup time, and ensure smooth data flow between your existing tech stack to your dedicated data warehouse on Lifesight. 
+Lifesight's integrations seamlessly connect our platform with your favorite tools and systems. These pre-built connections eliminate manual data transfers, reduce setup time, and ensure smooth data flow between your existing tech stack to your dedicated data warehouse on Lifesight.
 
 ## View interactive demo
 
-<Image alt="[Click here](https://lifesight.storylane.io/share/l3iaoryggsg2) to view interactive demo in fullscreen" align="center" src="https://files.readme.io/31e173f08da6ae8124f7436b6aaf2ae6183de3a8fd6324711fea5cddc9b0d681-image.png">
-  [Click here](https://lifesight.storylane.io/share/l3iaoryggsg2) to view interactive demo in fullscreen
-</Image>
+<Image align="center" alt="[Click here](https://lifesight.storylane.io/share/l3iaoryggsg2) to view interactive demo in fullscreen" border={false} caption="[Click here](https://lifesight.storylane.io/share/l3iaoryggsg2) to view interactive demo in fullscreen" src="https://files.readme.io/31e173f08da6ae8124f7436b6aaf2ae6183de3a8fd6324711fea5cddc9b0d681-image.png" />
 
 <br />
 
@@ -26,7 +24,7 @@ Lifesight's integrations seamlessly connect our platform with your favorite tool
 
 1. [Facebook integration](https://docs.lifesight.io/docs/facebook-integration)
 2. [TikTok integration](https://docs.lifesight.io/docs/tiktok-integration)
-3. [Pinterest integration]()
+3. [Pinterest integration](https://docs.lifesight.io/docs/pinterest-integration#/)
 4. [Adroll integration](https://docs.lifesight.io/docs/adroll-integration)
 5. [Amazon integration](https://docs.lifesight.io/docs/amazon-ads-integration)
 6. [Criteo integration](https://docs.lifesight.io/docs/criteo-integration)
@@ -38,7 +36,7 @@ Lifesight's integrations seamlessly connect our platform with your favorite tool
 12. [Snapchat integration](https://docs.lifesight.io/docs/snapchat-integration)
 13. [X integration (Twitter)](https://docs.lifesight.io/docs/x-integration)
 14. [Klaviyo integration](https://docs.lifesight.io/docs/klaviyo-integration)
-15. [DV360 integration](https://docs.lifesight.io/docs/dv360-integration) 
+15. [DV360 integration](https://docs.lifesight.io/docs/dv360-integration)
 16. [Custom SDK](https://docs.lifesight.io/docs/lifesight-pixel-js-sdk)
 17. [Google Sheets](https://docs.lifesight.io/docs/google-sheets-integration)
 18. [Custom Webhook](https://docs.lifesight.io/docs/integrating-with-custom-webhooks)
