@@ -166,23 +166,6 @@ Implementing causal attribution involves several key steps:
 
 <br />
 
-<br />
-
-* **If the percentage change > +5%**: The recommendation is to **Scale Up Spend**.
-* **If the percentage change \< -5%**: The recommendation is to **Reduce Spend**.
-* **Otherwise (between -5% and +5%, inclusive)**: The recommendation is to **Maintain Spend**.
-
-**Example:**
-
-For a tactic T1:
-
-* Current Spend = $10,000
-* Recommended Spend = $15,000
-* Percentage Change = (($15,000 - $10,000) / $10,000) \* 100% = +50%
-* Recommendation: **Scale Up Spend** by $5,000 (50% of current spend).
-
-<br />
-
 ## In-Depth Examples
 
 Let's explore two detailed examples to illustrate the power of causal attribution:
