@@ -81,7 +81,7 @@ Let's break down the components:
 
 To effectively visualize data on Lifesight, a benchmark must be defined. Lifesight utilizes two distinct benchmark categories:
 
-> 📘 To set a new benchmark for Causal Attribution, you should adhere to the following conditions:
+> 📘 When setting a new benchmark for Causal Attribution, ensure you meet the following conditions:
 >
 > 1. Integrate the ad channels you use
 > 2. At least 1 scenario adopted ( If you want to use a scenario as benchmark, else ignore)
