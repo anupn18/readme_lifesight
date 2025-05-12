@@ -94,9 +94,7 @@ To effectively visualize data on Lifesight, a benchmark must be defined. Lifesig
    4. **iROAS**
    5. **mCPA (Orders)** - Use this if you your KPI is Orders
 
-![](https://files.readme.io/e54d81dc9d4d18e8febf0fc4084544bee5607104ca076c9e5dff37a0de12478c-image.png)
-
-<br />
+![](https://files.readme.io/eccf66057bc02c0d3dc0c3384389e76de4061f28162181a62fd0c7ea95603890-causal_inference.png)
 
 The recommendations for adjusting spend at the ad channel level (campaign, ad set, or ad) are determined by the chosen benchmark category.
 
