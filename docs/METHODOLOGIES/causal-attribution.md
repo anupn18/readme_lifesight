@@ -77,6 +77,68 @@ Let's break down the components:
 4. **Platform Conversions**:\
    The conversion numbers reported by the ad platform; this includes metrics like Revenue, Orders, Leads, Signups, Registrations, Add to Carts, App Installs and Custom Conversions.
 
+***
+
+To effectively visualize data on Lifesight, a benchmark must be defined. Lifesight utilizes two distinct benchmark categories:
+
+> 📘 To set a new benchmark for Causal Attribution, you should adhere to the following conditions:
+>
+> 1. Integrate the ad channels you use
+> 2. At least 1 scenario adopted ( If you want to use a scenario as benchmark, else ignore)
+
+1. **Scenario-Based:** those derived from a scenario created using MMM Model
+2. **Non-Scenario Based:**  Those created independent of scenarios. These consists of:
+   1. **mCPA (Registration)** - Use this if you your KPI is Registrations
+   2. **mCPA (Leads)** - Use this if you your KPI is Leads
+   3. **mROAS** - Use this if you your KPI is Revenue
+   4. **iROAS**
+   5. **mCPA (Orders)** - Use this if you your KPI is Orders
+
+![](https://files.readme.io/e54d81dc9d4d18e8febf0fc4084544bee5607104ca076c9e5dff37a0de12478c-image.png)
+
+<br />
+
+The recommendations for adjusting spend at the ad channel level (campaign, ad set, or ad) are determined by the chosen benchmark category.
+
+### 1. Scenario-Based Benchmarks
+
+When using scenario-based benchmarks, recommendations are based on the percentage difference between the **current spend** and the **optimized (or recommended) spend**.
+
+* **If the percentage change > +5%**: The recommendation is to **Scale Up Spend**.
+* **If the percentage change \< -5%**: The recommendation is to **Reduce Spend**.
+* **Otherwise (between -5% and +5%, inclusive)**: The recommendation is to **Maintain Spend**.
+
+**Example (Scenario-Based):**
+
+Consider Tactic T1:
+
+* Current Spend = $10,000
+* Recommended Spend (Optimized Spend) = $15,000
+* Percentage Change = `(($15,000 - $10,000) / $10,000) * 100% = +50%`
+* Since +50% is greater than +5%, the recommendation is to **Scale Up Spend** by $5,000 (which is the difference, or 50% of the current spend). The same is shown for all the various campaigns, adsets and ads part of the tactic.
+
+### 2. Non-Scenario Based Benchmarks
+
+When using non-scenario based benchmarks, recommendations are determined by comparing the performance metric of a channel or tactic (such as Marginal Return on Ad Spend - mROAS, or Incremental Return on Ad Spend - iROAS) against a predefined benchmark value set in the **benchmarks modal.**
+
+* **If the performance metric (e.g., mROAS or iROAS) for the channel or tactic is below the benchmark value set in the modal**: The recommendation is to **Reduce Spend**.
+* **If the performance metric (e.g., mROAS or iROAS) for the channel or tactic is above the benchmark value set in the modal**: The recommendation is to **Scale Up Spend**.
+
+**Example (Non-Scenario Based):**
+
+Assume the benchmark MROAS set in the benchmarks modal is **3.5**.
+
+* **Scenario A: Tactic T2**
+  * Actual MROAS for Tactic T2 = **2.8**
+  * Since 2.8 (Actual mROAS) is less than 3.5 (Benchmark MROAS), the recommendation for Tactic T2 is to **Reduce Spend**.
+
+* **Scenario B: Tactic T3**
+  * Actual iROAS for Tactic T3 = **4.2** (assuming iROAS is the chosen metric for this tactic)
+  * Benchmark iROAS set in modal = **3.5** (assuming the same benchmark value applies or is set for iROAS)
+  * Since 4.2 (Actual iROAS) is greater than 3.5 (Benchmark iROAS), the recommendation for Tactic T3 is to **Scale Up Spend**.
+
+<br />
+
 ## Implementation Process
 
 Implementing causal attribution involves several key steps:
@@ -101,6 +163,25 @@ Implementing causal attribution involves several key steps:
 
 7. **Ongoing Calibration**:\
    Regularly update the model with new data and refine it based on changing market conditions and business objectives.
+
+<br />
+
+<br />
+
+* **If the percentage change > +5%**: The recommendation is to **Scale Up Spend**.
+* **If the percentage change \< -5%**: The recommendation is to **Reduce Spend**.
+* **Otherwise (between -5% and +5%, inclusive)**: The recommendation is to **Maintain Spend**.
+
+**Example:**
+
+For a tactic T1:
+
+* Current Spend = $10,000
+* Recommended Spend = $15,000
+* Percentage Change = (($15,000 - $10,000) / $10,000) \* 100% = +50%
+* Recommendation: **Scale Up Spend** by $5,000 (50% of current spend).
+
+<br />
 
 ## In-Depth Examples
 
