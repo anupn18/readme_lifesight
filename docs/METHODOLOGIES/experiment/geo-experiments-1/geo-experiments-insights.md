@@ -48,6 +48,10 @@ The observed lift is statistically significant and can be confidently attributed
 **Low Confidence (e.g., below 90%)**: **Fail to reject** the null hypothesis, accept **H₁**\
 The observed lift might be due to chance or natural variance rather than the intervention.
 
+<Image align="center" border={true} caption="Fig. 1. Insights page with dummy data" src="https://files.readme.io/794130b640cab06e6328e1d4dfd2476c5b290847563047ff6ac9c47ab346a0ca-image.png" />
+
+<br />
+
 ## Post-treatment window
 
 It's important to include a post-experiment or post-treatment window to capture the delayed effects of advertising efforts, particularly when there's a significant lag between ad exposure and the resulting conversions.
