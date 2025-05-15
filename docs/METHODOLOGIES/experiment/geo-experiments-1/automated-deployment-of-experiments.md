@@ -7,7 +7,7 @@ excerpt: >-
   channel or tactic are chosen. Based on the channel, the following actions are
   taken.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
