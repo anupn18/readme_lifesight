@@ -17,7 +17,7 @@ TikTok is a popular social media app that allows users to create, watch, and sha
 1. **Custom Audience Sync:** Segments can be pushed as a custom audience to the TikTok ad platform. This approach enhances targeting and retargeting efforts, ensuring ads reach the most relevant audience.
 2. **Data Integration:** The integration allows seamless transfer of data (historical spend, clicks, impressions, etc.) to the attribution and MMM modules. This process is crucial for tracking and analyzing the effectiveness of advertising campaigns and also for creating integrated MMM models.
 3. **Campaign Performance Insights:** Users have the advantage of accessing their TikTok Ads campaign performance data directly within the Attribution dashboard. This feature provides valuable insights and analytics, making it easier to measure the success of campaigns and make data-driven decisions.
-4. **Synching Conversion Events:** Lifesight also allows advertisers to share their website conversion events with TikTok via TikTok Conversions API. Check out the step-by-step integration guide here. 
+4. **Synching Conversion Events:** Lifesight also allows advertisers to share their website conversion events with TikTok via TikTok Conversions API. Check out the step-by-step integration guide here.
 
 <br />
 
@@ -39,10 +39,20 @@ TikTok is a popular social media app that allows users to create, watch, and sha
 1. Navigate to the Integrations tab in the left-hand menu bar.
 2. In the search field, type in "Tiktok" to locate the integration.
 3. Click on the Tiktok tile and click on the "Connect" button to begin the integration process.
+
+   <Image align="left" className="border" border={true} width="60% " src="https://files.readme.io/d9c79ceebb33baca65fa6a736b2e124e5dbefe48c08a85a10181494851476f77-image.png" />
+
+   <br />
+
+   <br />
 4. You will be redirected to log into your Tiktok account and will be prompted to allow access to certain scopes. Click on confirm to authorize.
+
+   ![](https://files.readme.io/181cbb6f5f7d96fecbce74f084606b88a6be1f47a2ee6a650f0642de1a921fe8-image.png)
+
+   <br />
 5. Once you have successfully logged in, the integration status will change to ‘partial’ on the Integration page.
 6. Select an ad account you want to use with the workspace. (Currently, it is not possible to change the selection without the Lifesight support team’s intervention.)
-7. The status will get changed to ‘Active’ and the ad data from the designated account will be available in the Attribution dashboard for unified reporting. 
+7. The status will get changed to ‘Active’ and the ad data from the designated account will be available in the Attribution dashboard for unified reporting.
 
 <br />
 
