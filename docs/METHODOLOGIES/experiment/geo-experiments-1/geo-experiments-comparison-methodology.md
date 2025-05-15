@@ -1,5 +1,5 @@
 ---
-title: 'Geo Experiments: Comparison Methodology'
+title: 'Geo Experiments: Comparison between methodologies'
 excerpt: ''
 deprecated: false
 hidden: false
