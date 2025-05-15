@@ -12,11 +12,11 @@ next:
 ---
 ## Overview
 
-X is a social media network that connects people. By sharing content like text status posts, images, videos, and external links like blog posts, X users can contribute ideas and join conversations with other people. This integration aims to improve advertising outcomes by enabling enhanced campaign targeting, personalization, and optimized advertising returns. 
+X is a social media network that connects people. By sharing content like text status posts, images, videos, and external links like blog posts, X users can contribute ideas and join conversations with other people. This integration aims to improve advertising outcomes by enabling enhanced campaign targeting, personalization, and optimized advertising returns.
 
 ***
 
-## Integrating Facebook to your Lifesight workspace
+## Integrating X (Twitter) to your Lifesight workspace
 
 1. Navigate to the Integrations tab in the left-hand menu bar.
 2. In the search field, type in "X" to locate the integration for this application.
@@ -24,7 +24,7 @@ X is a social media network that connects people. By sharing content like text s
 
 <Image align="center" src="https://files.readme.io/e945bcfaa8ffb56885febdc28b0a1a49a7212c8902f507c9c84113f2a6721ae6-1_2.png" />
 
-4. You will be redirected to log into your X account and allow access to certain scopes. 
+4. You will be redirected to log into your X account and allow access to certain scopes.
 5. Review the permissions on the next page and click Authorize app.
 
 <br />
