@@ -1,5 +1,5 @@
 ---
-title: Geo Experiments - Insights
+title: Geo Experiments - Insights & Validation
 deprecated: false
 hidden: false
 metadata:
@@ -65,3 +65,10 @@ This window lets us compute additional adjusted iROAS and iCPA numbers.
 Adjusted Incremental ROAS (**Adj. iROAS**) is calculated as the (difference in revenue between treatment and control including the post-treatment period) divided by (difference in spend between the treatment and control including the post-treatment period).
 
 Adjusted Incremental CPA (**Adj. iCPA**), is calculated as the (difference in spend between the treatment and control including the post-treatment period) divided by (difference in conversions between treatment and control including the post-treatment period)
+
+## Validation
+
+| **ERROR TYPE**               | **WHAT IT MEANS IN A GEO EXPERIMENT**                                                                                            | **LIKELY ROOT CAUSES**                                                                                                                                                                    | **GEOLIFT SAFEGUARDS**                                                                                                                                                                                                                                                 |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Type I (False Positive)**  | Conclude the intervention produced incremental conversions when the true effect is zero; report “lift” that is just random noise | Mismatched or too-few control geos; seasonal or competitive shocks hitting test/control unequally; premature peeking at results; loose significance threshold; poor synthetic-control fit | Synthetic/augmented synthetic control uses all non-treated geos to match pre-test trend, reducing bias; pre-test MAPE diagnostics flag bad fits; conformal inference calibrate p-values; market-selection algorithm picks splits with lowest expected prediction error |
+| **Type II (False Negative)** | Fail to detect a real lift— the experiment declares “no effect” even though treated geos gained conversions                      | Too few test geos or insufficient spend; short test duration; noisy conversion KPI; small true effect below minimum detectable effect                                                     | Power-planning tools (Market selection, power functions) simulate duration, spend and geo count to reach ≥80 % power; synthetic control lowers residual variance, tightening confidence intervals                                                                      |
