@@ -165,7 +165,7 @@ Hold-out tests exclude test markets from live campaigns to estimate geo-lift. Th
 6. **Platform Constraints & Logging**:
 
    * Daily/lifetime budget thresholds are enforced.
-   * All actions are logged to a geo\_experiment\_action\_logs store for monitoring and rollback.
+   * All actions are logged to a datastore for monitoring and rollback.
 
 Additional capabilities:
 
