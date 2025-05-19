@@ -24,8 +24,10 @@ When uploading Geo Test data via CSV or Integrated method, ensure your data foll
 
 <br />
 
-## Minimum data requirements to run a geo test:
+## Data requirements to run a geo test:
 
-* Historical KPI Data of at least 6 months
-* Dates
-* Geographies
+Available options:
+
+* For most robust multiple objective design of experiment, 2 years of historical data is recommended.
+* For experiments where multiple objectives are to be tested, 1 year of historical data is recommended.
+* For non-seasonal businesses to test out a single objective, 3-6 months of historical data is recommended.
