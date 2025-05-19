@@ -41,6 +41,12 @@ Once the channels and tactics to experiment on are decided, a decision to scale 
 
 Collect historical data for selected geographic regions covering the pre-experiment baseline period.
 
+Available options:
+
+* Robust Multiple Objective Experiments: 2 years
+* Multiple Objective Experiments: 1 year
+* Single Objective Experiments (recommended for Non-Seasonal Businesses): 3-6 months
+
 Lifesight supports the following methods of data input to run an experiment:
 
 * Upload (csv file)
