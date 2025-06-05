@@ -1,5 +1,5 @@
 ---
-title: MMM
+title: Marketing Mix Models
 deprecated: false
 hidden: true
 metadata:
