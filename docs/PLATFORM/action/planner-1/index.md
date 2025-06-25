@@ -16,7 +16,7 @@ The next step after model creation is to create a plan. Once the model is finali
 
 ## View interactive demo
 
-<Image align="center" alt="[Click here](https://lifesight.storylane.io/share/zeim5lbjqjtm) to view demo in fullscreen" border={false} caption="<Anchor label=&#x22;Click here&#x22; target=&#x22;_blank&#x22; href=&#x22;https://lifesight.io/demo-hub/planner/&#x22;>Click here</Anchor> to view demo in fullscreen" src="https://files.readme.io/cc5ee313400ef5255c7c4a1a69e3920f4b75d11fcd6849efe8ed91bc49b7053a-image.png" />
+<Image align="center" alt="[Click here](https://lifesight.io/demo-hub/planner/) to view demo in fullscreen" border={false} caption="<Anchor label=&#x22;Click here&#x22; target=&#x22;_blank&#x22; href=&#x22;https://lifesight.io/demo-hub/planner/&#x22;>Click here</Anchor> to view demo in fullscreen" src="https://files.readme.io/cc5ee313400ef5255c7c4a1a69e3920f4b75d11fcd6849efe8ed91bc49b7053a-image.png" />
 
 ***
 
