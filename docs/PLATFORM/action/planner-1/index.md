@@ -16,9 +16,7 @@ The next step after model creation is to create a plan. Once the model is finali
 
 ## View interactive demo
 
-<Image alt="[Click here](https://lifesight.storylane.io/share/zeim5lbjqjtm) to view demo in fullscreen" align="center" src="https://files.readme.io/cc5ee313400ef5255c7c4a1a69e3920f4b75d11fcd6849efe8ed91bc49b7053a-image.png">
-  [Click here](https://lifesight.storylane.io/share/zeim5lbjqjtm) to view demo in fullscreen
-</Image>
+<Image align="center" alt="[Click here](https://lifesight.storylane.io/share/zeim5lbjqjtm) to view demo in fullscreen" border={false} caption="<Anchor label=&#x22;Click here&#x22; target=&#x22;_blank&#x22; href=&#x22;https://lifesight.io/demo-hub/planner/&#x22;>Click here</Anchor> to view demo in fullscreen" src="https://files.readme.io/cc5ee313400ef5255c7c4a1a69e3920f4b75d11fcd6849efe8ed91bc49b7053a-image.png" />
 
 ***
 
@@ -36,7 +34,7 @@ The next step after model creation is to create a plan. Once the model is finali
 
 ## Archive plan
 
-This lets you organize plans to keep the most relevant ones in your dashboard. 
+This lets you organize plans to keep the most relevant ones in your dashboard.
 
 ### To Archive a model
 
