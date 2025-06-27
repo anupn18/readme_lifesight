@@ -101,13 +101,48 @@ This section provides a detailed breakdown of how different aspects of your mark
 >
 > ![](https://files.readme.io/496ed821dd0834c968a47760c110511b8b88718f175ceb5205ec16d910c6dcd9-image.png)
 
-## Share of spend vs Revenue with incremental ROAS
+## Contribution Waterfall Chart
 
-This section compares the share of marketing spend with the share of revenue generated. It also highlights the Incremental ROAS, helping you identify which channels or tactics are delivering the highest returns.
+The Contribution Waterfall chart provides a clear, aggregate view of how your total business outcomes are built. It visualizes how the baseline performance is augmented by the contributions from each of your marketing channels and other categories over the entire selected time period.
 
-![](https://files.readme.io/4706aa3fc2a529ba6b189164b2d253047df636f8a299472c6c57f3b68f93f98a-image.png)
+In simple terms, it tells the story of your revenue, starting from the foundation (`Baseline`) and stacking the incremental impact of each marketing activity on top to reach your total.
 
-<br />
+![](https://files.readme.io/9ccb9c44e779fb81392d1bcb08189a54717c5d3e6611c0332b2593956388fb9c-image.png)
+
+### How to Read the Chart
+
+* **Starting Point (`Baseline`):** The chart begins with your baseline, which represents the predictable revenue or conversions you would have achieved without any marketing influence. This is the foundation of your business performance.
+* **Building Blocks (Channels):** Each subsequent block represents the incremental value added by a specific paid channel (e.g., `Meta`, `Google`, `Snapchat`) or category (e.g., `Contextual`, `Organic`).
+* **Understanding Scale:** The length of each block is proportional to its contribution, making it easy to see at a glance which channels are your heaviest hitters and how your marketing efforts stack up against your baseline. This high-level view is perfect for quickly communicating the overall structure of your marketing engine to stakeholders.
+
+## Performance Plot
+
+The Performance Plot is your strategic command center for budget allocation. It serves a powerful view, plotting the efficiency of each marketing tactic against its share of the total budget. This allows you to instantly identify which channels are true growth drivers, which are ripe for more investment, and which may need re-evaluation.
+
+![](https://files.readme.io/b1a3411abd9039ad40a9c7ea922f49138e6ad63f6516d0a9960832011b584ca9-image.png)
+
+### Reading the Plot: Efficiency vs. Investment
+
+The plot is designed to be intuitive, helping you balance two critical questions: "How effective is this channel?" and "How much am I investing in it?"
+
+* **Y-Axis (Efficiency):`Incremental ROAS` or `CPA`**\
+  This vertical axis measures the return you get from each tactic. For revenue-focused models, it shows `iROAS` (higher is better). For conversion-focused models, it shows `CPA` (lower is better).
+
+  > **Note:** The chart automatically inverts the `CPA` axis, so for both metric types, **the top of the chart always represents the best-performing, most efficient channels.**
+
+* **X-Axis (Investment):`Share of Spend (%)`**\
+  This horizontal axis shows the percentage of your total marketing budget allocated to each tactic. Tactics further to the right have a larger share of your investment.
+
+### Deriving Strategic Insights
+
+By analyzing a tactic's position on the chart, you can quickly categorize its performance and decide on the next steps:
+
+* **Leaders (Top-Right):** *High Efficiency, High Investment.* These are your proven winners. You are investing significantly in them, and they are delivering strong returns. The goal here is to maintain and optimize their performance.
+* **Opportunities (Top-Left):** *High Efficiency, Low Investment.* These tactics are highly effective but may be underfunded. They represent a significant growth opportunity. Ask yourself: "Can we scale our investment here to capture more value?"
+* **Re-evaluate (Bottom-Right):** *Low Efficiency, High Investment.* This is a critical area for review. These tactics consume a large portion of your budget but provide poor returns. It's time to investigate what's wrong and consider optimizing the strategy or reallocating the budget.
+* **Niche / Testing (Bottom-Left):** *Low Efficiency, Low Investment.* These may be experimental channels, new tactics, or smaller, niche platforms. The low investment is appropriate for their current return, and the goal is to monitor them and see if they can be moved into the "Opportunities" quadrant over time.
+
+To get the exact numbers behind the visualisation, simply **hover over any tactic** on the plot to see a detailed tooltip with its specific `Spend`, `Incremental Revenue`, and `iROAS`.
 
 ## Incremental Revenue over Category Trends
 
