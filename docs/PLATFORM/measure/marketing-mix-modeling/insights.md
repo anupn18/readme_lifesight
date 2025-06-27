@@ -40,6 +40,36 @@ The Insights tab is designed to help you analyse and understand the performance 
 
 <br />
 
+## Metric Comparison Chart
+
+The Metric Comparison Chart is a powerful visualization tool that allows you to plot and compare any two key metrics from your MMM model on a single timeline. This flexibility is crucial for uncovering deeper insights and understanding the complex relationships between different aspects of your marketing performance. Instead of viewing metrics in isolation, you can now directly analyze how one metric influences another over time.
+
+For instance, you can now answer critical strategic questions like:
+
+* How did my `iROAS` change when I increased my `Total Spend` last quarter?
+* Is there a direct correlation between the `Incremental Revenue` from marketing and the `Total Revenue` of the business?
+* How does the performance of a specific channel like Google compare against my overall `Total Revenue`?
+
+To get started, simply select your primary metric from the **Source** dropdown and a second metric from the **Compare To** dropdown.
+
+### Dynamic Filtering for Granular Analysis
+
+To help you drill down into specific areas of your marketing, the chart offers granular filtering. When you select a metric like `iROAS`, you can choose to view it for all your activities combined, or you can isolate specific **Channels** (e.g., Google, Meta, Tiktok) and even **Platforms/ Tactics** within those channels (e.g., Google BOF, Google MOF). You can even drill down to Organic & Contextual variables that were fed in the model.
+
+This allows for highly specific comparisons, such as analyzing the `iROAS` for your Google Brand campaigns against your overall `Total Spend`.
+
+### Available Metrics for Comparison
+
+You can compare any two of the following core metrics to customize your analysis:
+
+* `Baseline Revenue`
+* `Total Revenue (Actual)`
+* `Incremental Revenue (Total)`
+* `Total Spend`
+* `iROAS`
+* `Blended ROAS`
+* `pROAS`
+
 ## Contribution Breakdown
 
 This section provides a detailed breakdown of how different aspects of your marketing strategy are contributing to your business KPIs (Revenue, Orders, Leads...)
