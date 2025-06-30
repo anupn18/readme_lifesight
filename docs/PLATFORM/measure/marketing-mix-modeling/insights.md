@@ -148,7 +148,7 @@ To get the exact numbers behind the visualisation, simply **hover over any tacti
 
 This part of the Insights tab breaks down the incremental revenue by different categories, allowing you to see which areas are driving the most value over time.
 
-![](https://files.readme.io/9c65002b1d99340be2a21b92cde669a59b9e98ce6b4dd0f79218816dedee405c-image.png)
+![](https://files.readme.io/c3b4ba93f61e47ffdea1777dff929127bd633dbaf6d7d1f641cb939a5b92d8f8-image.png)
 
 ## Platform Marketing Contributions over Time
 
@@ -186,7 +186,7 @@ Toggle from the table view to the Bump Chart to see the story of your channel pe
   * **A line moving down:** The channel's rank is declining relative to others.
   * **A flat line:** The channel is maintaining a stable rank.
 
-The Bump Chart excels at answering strategic questions like: "Did Meta overtake Google as our top-contributing channel this year?" or "Is TikTok's influence consistently growing, even if its total revenue is still small?" It turns your data into a clear narrative of which channels are gaining momentum and which are losing ground.
+The Bump Chart excels at answering strategic questions like: "Did Meta overtake Google as our top-contributing channel this year?" or "Is TikTok's influence consistently growing, even if its total incremental revenue is still small?" It turns your data into a clear narrative of which channels are gaining momentum and which are losing ground.
 
 ## Incremental ROAS Analysis
 
