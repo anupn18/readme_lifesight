@@ -38,8 +38,6 @@ The Insights tab is designed to help you analyse and understand the performance 
   **Total Incremental ROAS = Total Incremental revenue / Total Spend**
 * **`Immediate vs Carryover`**: This metric represents the percentage split of your ad spend between Immediate & Carryover.  The Immediate value represents the percentage of total spend that resulted in an immediate impact. A higher value indicates quicker returns from ad spend. Whereas the Carryover value represents the percentage of total spend that contributes to long-term effects over time. A higher value suggests sustained impact beyond the initial period.
 
-<br />
-
 ## Metric Comparison Chart
 
 The Metric Comparison Chart is a powerful visualization tool that allows you to plot and compare any two key metrics from your MMM model on a single timeline. This flexibility is crucial for uncovering deeper insights and understanding the complex relationships between different aspects of your marketing performance. Instead of viewing metrics in isolation, you can now directly analyze how one metric influences another over time.
