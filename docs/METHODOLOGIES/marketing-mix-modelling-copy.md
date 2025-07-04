@@ -2,7 +2,7 @@
 title: Marketing Mix Modelling (COPY)
 excerpt: A Comprehensive Guide on Marketing Mix Modelling
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
