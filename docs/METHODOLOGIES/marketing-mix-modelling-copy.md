@@ -1,16 +1,26 @@
 ---
-title: Marketing Mix Modelling (COPY)
+title: Causal Modelling
 excerpt: A Comprehensive Guide on Marketing Mix Modelling
 deprecated: false
 hidden: true
 metadata:
   robots: index
+next:
+  pages:
+    - title: Original paper on the idea of Marketing Mix
+      type: link
+      url: >-
+        https://www.guillaumenicaise.com/wp-content/uploads/2013/10/Borden-1984_The-concept-of-marketing-mix.pdf
 ---
 In today's ever-changing business landscape, making smart marketing decisions isn't just beneficial—it's essential. We all invest heavily in various marketing channels like TV, radio, digital ads, and social media to connect with our audience. But here's the million-dollar question: Which of these channels are driving incremental sales and giving you the best bang for your buck? That's where Marketing Mix Modeling (MMM) comes into play.
 
-For Brands that have access to historical data, MMM is the shortest route to measure incrementality. Lifesight's approach to MMM is causally informed a combination of quasi-causal inference from observational data and causal inference from experiments (which is used for model calibration)
+For Brands that have access to historical data, MMM is the shortest route to measure incrementality.
 
-Let's dive into what MMM is all about, why it's a game-changer, and how it can work wonders for your business. 
+Lifesight's approach to MMM combines the techniques of Structural Causal Modeling, Ridge Regression & Ensemble Forecasting to create a system that's based on Causal ML and combines a robust system of inference with a sophisticated system of prediction.
+
+<Image align="center" src="https://files.readme.io/ac34d8dda306454c652a4a905fb2c881ce7e1a8434d32b5c8befa0e1344572f6-Modeling_Playbook.jpg" />
+
+Let's dive into what MMM is all about, why it's a game-changer, and how it can work wonders for your business.
 
 ## The Basics: What is Marketing Mix Modelling?
 
@@ -37,13 +47,14 @@ These KPIs serve as the dependent variables in our marketing mix models, helping
 Let's start with a basic equation:
 
 ```text
-Sales (or any KPI) = Baseline + Marketing Effects + External Factors + Error
+Sales (or any KPI) = Baseline + Marketing Effects + Control Variables + External Factors + Error
 ```
 
 Where:
 
 * **Baseline**: The expected performance without any marketing efforts.
 * **Marketing Effects**: The impact of various marketing activities, like ads, promotions, and social media campaigns.
+* **Control Variables**: Other control variables that influences the outcome such as price changes, google trends, app ranking
 * **External Factors**: Elements outside of your control, such as the economy, weather, or competitor actions.
 * **Error**: The unexplained variance (because no model is perfect).
 
@@ -94,6 +105,10 @@ Sales = Baseline + (TV Spend^0.7 × TV Effect) + (Social Media Spend^0.8 × Soci
 ```
 
 The exponents (0.7 and 0.8) signify the diminishing returns for TV ads and social media, respectively. In practice, this shows that each additional dollar spent is less effective than the previous one.
+
+<br />
+
+### Step 4: Nested Effects - for Mediators and Confounders
 
 <br />
 
