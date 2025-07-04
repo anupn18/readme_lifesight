@@ -120,7 +120,7 @@ While MMM is a powerful tool, it does come with challenges:
 2. **Multicollinearity**: When marketing channels are highly correlated, it becomes difficult to separate their individual impacts. For example, if TV ads and social media are often used together, it’s hard to isolate the effect of each.
 3. **External Factors**: Events like economic downturns, competitor actions, or weather conditions can influence marketing effectiveness but are difficult to account for.
 4. **Long-term Effects**: Brand-building activities often have long-term impacts that are difficult to measure using short-term models.
-5. **Feature Selection** : We need to include the right set of features/variables in the model to make the right inference. More features will create overfitting problem, Not including the right [confounders/mediators/colliders ](https://docs.lifesight.io/docs/causality-in-mmm) will comprise causal reasoning, adding random variables will introduce noise and cause poor fit
+5. **Feature Selection** : We need to include the right set of features/variables in the model to make the right inference. More features will create overfitting problem, Not including the right [confounders/mediators/colliders ](https://docs.lifesight.io/docs/causality-in-mmm) will compromise causal reasoning, adding random variables will introduce noise and cause poor fit
 
 <br />
 
