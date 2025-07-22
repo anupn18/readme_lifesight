@@ -1,5 +1,5 @@
 ---
-title: MMM Refresh
+title: Model Refresh
 excerpt: >-
   Lifesight's MMM refresh provides real time MMM insights for agile decision
   making.
@@ -12,7 +12,7 @@ metadata:
 next:
   description: ''
 ---
-MMM Refresh and recalibration ensures it continues to provide accurate and actionable insights. As market dynamics, consumer behavior, and external conditions change over time, it is essential to keep the model updated and fine-tuned. By regularly refreshing the model with the latest data and recalibrating its parameters, marketers can maintain accuracy, optimize spend allocation, and ensure the model remains a reliable tool for driving business growth.
+MMM Refresh ensures it continues to provide accurate and actionable insights. A Model Refresh is necessary if the input data fed to the model was using CSV upload or if the integrated data sources don't automatically refresh the model periodically.
 
 <Image align="center" src="https://files.readme.io/53307ad5b29545bca4d65540615b72e2b3b9efa8fa99fb4330ee55d44ef78d8b-refresh.jpg" />
 
@@ -27,9 +27,9 @@ MMM Refresh and recalibration ensures it continues to provide accurate and actio
 
 ## Actual vs Predicted Revenue
 
-View when a Model Refresh had happened to see changes in actual vs predicted revenue. A successful model refresh would result in better model accuracy after a refresh. 
+View when a Model Refresh had happened to see changes in actual vs predicted revenue. A successful model refresh would result in better model accuracy after a refresh.
 
-The count of Refresh is indicated by R1, R2, R3 and so on for reference. Each Refresh period is highlighted using different colors. 
+The count of Refresh is indicated by R1, R2, R3 and so on for reference. Each Refresh period is highlighted using different colors.
 
 The Validation period is different and set for backtesting purposes. This can be modified by mentioning the Training Size in the Configuration tab while creating an MMM model.
 
@@ -55,6 +55,6 @@ The Refresh insights table shows the latest model refresh insights vs the select
 
 Upon initiating a refresh, the model status will change to 'Refresh in Progress' and later to 'Refresh Success' within 5–10 minutes. The 'last refreshed' column will also be updated to reflect the most recent refresh date. Note that models can be refreshed multiple times as needed.
 
-You can also configure the refresh frequency on the `Configure your model` page during model creation. 
+You can also configure the refresh frequency on the `Configure your model` page during model creation.
 
 ![](https://files.readme.io/52431c7c9c0bb284370d2e01e8428848f1e6e21c1a8c5fe7e270601286f4d392-image.png)
