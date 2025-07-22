@@ -2,7 +2,7 @@
 title: Google sheets MMM data integration
 excerpt: View steps to automatically refresh and pull data from your MMM Google sheet
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
