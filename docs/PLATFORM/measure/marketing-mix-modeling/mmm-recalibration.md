@@ -18,7 +18,7 @@ next:
 
 1. Navigate to the model you want to Retrain from the MMM page.
 2. Click the ‘Retrain’ button on the top right corner.
-3. Follow the same process as creating a new model [creating a new model]()
+3. Follow the same process as creating a new model [creating a new model](https://docs.lifesight.io/update/docs/model-creation#/)
 4. Click on ‘Finish’.
 5. A new model is created with the status "Training in Progress" in the MMM dashboard.
 6. Once the Refresh is completed, the status changes to "Success" in the MMM dashboard.
