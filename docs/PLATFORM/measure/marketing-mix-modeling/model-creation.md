@@ -18,9 +18,9 @@ Marketing Mix Modeling (MMM) can account for a variety of variables that influen
 
 ## View interactive demo
 
-<Image align="center" alt="[Click here](https://lifesight.storylane.io/share/9lrpw2mpon3t) to view demo in fullscreen" border={false} caption="[Click here](https://lifesight.storylane.io/share/9lrpw2mpon3t) to view demo in fullscreen" src="https://files.readme.io/b2830eaa51e6692a18a996cea50adcbd04d899d8fe2eebe9248d04e1f6e0afea-image.png" />
+<Embed typeOfEmbed="iframe" url="https://lifesight.storylane.io/share/2ckzf7dpatbk" html="false" iframe="true" href="https://lifesight.storylane.io/share/2ckzf7dpatbk" height="600px" width="800px" />
 
-***
+<br />
 
 # TL;DR: Steps to create a MMM model
 
