@@ -12,16 +12,15 @@ metadata:
 next:
   description: ''
 ---
-Once you have configured your workspace, invite your teammates to work on analyzing and optimizing your marketing efforts collaboratively. You can add users by inviting them to your workspace. 
+Once you have configured your workspace, invite your teammates to work on analyzing and optimizing your marketing efforts collaboratively. You can add users by inviting them to your workspace.
 
-<Image align="center" src="https://files.readme.io/50ce6daffd6f98bb13d2ec4595668b043ded1439dd819615411a86ce6553c880-user.jpg" />
+<Image align="center" className="border" border={true} src="https://files.readme.io/f0adc2f9141a5143ee9b802ab78f8c4ad04eefcce168927e94aaf691ff0798bb-invite_users.png" />
 
 ## Add a new user:
 
-1. Select `Settings` from the dropdown menu when you click on your workspace name on the top left of the dashboard. 
-2. Select the `Users` tab.
-3. Click on `Invite User` button in the upper right corner.
-4. Add the email ID of the person you’re looking to invite and mention the user access level.
+1. Select`Settings` from the bottom of the navigation bar on the left side.
+2. In the Users tab, click on the `Invite User` button in the upper right corner.
+3. Add the email ID of the person you’re looking to invite and mention the user access level.
 
 <Image align="center" width="500px" src="https://files.readme.io/98a4cbef1dfdb3cdbdcc5364b848ae59df2b353137a72052606e8d2b94f222d3-image.png" />
 
@@ -29,10 +28,10 @@ Once you have configured your workspace, invite your teammates to work on analyz
 
 > 📘 Learn more about user permissions [here](https://docs.lifesight.io/docs/user-permissions)
 
-5. Click on the `Add` button to add the new user to a invite list.
-6. Repeat this step to add more people that you’d like to invite to your workspace.
-7. You can delete any entries by clicking on the delete button on the left of the email ID.
-8. Click on `Send Invite` to send a workspace invite email to the mentioned users.
+4. Click on the `Add` button to add the new user to a invite list.
+5. Repeat this step to add more people that you’d like to invite to your workspace.
+6. You can delete any entries by clicking on the delete button on the left of the email ID.
+7. Click on `Send Invite` to send a workspace invite email to the mentioned users.
 
 **Congratulations! You have invited your team to your workspace and are all set to collaborate on your upcoming projects.**
 
