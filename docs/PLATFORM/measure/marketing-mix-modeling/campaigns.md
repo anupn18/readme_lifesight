@@ -1,5 +1,5 @@
 ---
-title: MMM Campaigns
+title: Campaigns tab
 excerpt: Giving campaign level insights using Triangulation Methodology
 deprecated: false
 hidden: false
