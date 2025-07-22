@@ -31,7 +31,7 @@ You can navigate to the Channel Deep Dive for a specific channel in two ways:
 
 ### Key Metrics
 
-This section provides a quick snapshot of the channel's aggregate performance over the selected `{{DATE_RANGE}}`.
+This section provides a quick snapshot of the channel's aggregate performance over the selected timeframe of data
 
 * **Incremental Output KPI**: The total incremental impact (e.g., Revenue, Orders, Installs) attributed to Channel or Tactic by the model.
 * **Spend**: The total amount spent on the channel during the selected period.
@@ -66,28 +66,3 @@ This chart is a powerful tool for understanding the efficiency and saturation po
 * **Dashed Line (Avg. Revenue)**: This line represents the average revenue across all spend levels, providing a clear benchmark to assess the performance of each spend bucket.
 
 Your goal is to find the "sweet spot": a spend bucket that delivers a high revenue and can be achieved with reasonable frequency.
-
-### Practical Use Cases
-
-Here are a few ways you can use the insights from the Channel Deep Dive page to make smarter budget decisions for any channel:
-
-#### **1. Identifying Diminishing Returns**
-
-Look at the **Spend vs. Shifted Revenue** chart. Do the bars (Revenue) get progressively smaller or flatten out as the spend buckets increase? This is a classic sign of saturation or diminishing returns, where spending more money is not delivering a proportional increase in your `{{OUTPUT_KPI}}`. This suggests you should consider capping your budget for this channel or tactic.
-
-#### **2. Finding Budget Reallocation Opportunities**
-
-Open the Channel Deep Dive pages for two different channels or tactics side-by-side.
-
-* If **Tactic A** shows high spend frequency in a low-performing (low revenue bar) bucket...
-* And **Tactic B** shows a high-performing revenue bucket that has a low spend frequency...
-
-You have a clear opportunity. Consider reallocating budget from the saturated Tactic A to the more promising Tactic B to maximize your overall `{{OUTPUT_KPI}}`.
-
-#### **3. Investigating Performance Anomalies**
-
-If the **Outlier Detection** table flags a specific date, use the **Revenue and Spend Trend Analysis** chart to investigate.
-
-* Filter the date range to focus on that period.
-* Did a huge spike in spend result in a corresponding lift in `{{OUTPUT_KPI}}`? Or was it wasted?
-* This helps you validate the impact of specific events (like a flash sale or campaign launch) and identify potential data reporting errors that need to be corrected.
