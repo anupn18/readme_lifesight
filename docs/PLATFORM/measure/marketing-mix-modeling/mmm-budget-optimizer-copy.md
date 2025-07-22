@@ -8,64 +8,86 @@ hidden: false
 metadata:
   robots: index
 ---
-The **Channel Deepdive** tab  provides a granular view of your marketing channel performance. Its primary purpose is to help you move beyond high-level summaries and understand the specific spending patterns, revenue generation, and efficiency of each individual channel.
+## Channel Deep Dive
 
-Use this tab to answer critical questions such as:
+### Overview
 
-* Which channel is generating the most revenue?
-* What is the typical spend for my key channels, and are there any unusual deviations?
-* Is there a clear relationship between how much I spend on a channel and the revenue it produces?
-* How does the delayed impact of advertising (ad lag) affect a channel's perceived performance?
+The **Channel Deep Dive** tab provides a granular view of an individual marketing channel's or tactic's performance within your Marketing Mix Model. Use this page to understand how a channel contributes to the model's output KPI — typically Revenue, orders, or Installs — to analyze its spend efficiency, detect anomalies, and discover optimization opportunities.
 
-## Key Components and Metrics
+### Accessing the Channel Deep Dive
 
-The Channel Deepdive tab is composed of several powerful widgets and visualizations designed to give you a comprehensive understanding of your channel data.
+You can navigate to the Channel Deep Dive for a specific channel in two ways:
 
-### Channel Performance Analysis
+1. **Through Model Insights tab**: In the **Contribution** table, simply click on the name of any channel or tactic. You will be taken directly to the deep dive page for that selection.
+2. **Direct Filtering**: Navigate to the **Channel Deepdive** tab and and select the channel you wish to analyze.
 
-This central view breaks down performance by individual channel. For each channel, you can analyze:
+<br />
 
-* **Total Revenue:** The total revenue attributed to the channel within the selected timeframe.
-* **Total Spend:** The total amount spent on the channel.
-* **Spend Analysis:** This provides context for your spending habits by showing the **Minimum**, **Average**, and **Maximum** spend observed for the channel across the different time periods in your data.
+#### View Interactive Demo
 
-### Outlier Analysis
+<Embed typeOfEmbed="iframe" url="https://lifesight.storylane.io/share/j7ievh1jxxoa" html="false" iframe="true" href="https://lifesight.storylane.io/share/j7ievh1jxxoa" width="900px" height="600px" />
 
-This feature automatically flags unusual spending activity to help you identify potential issues or opportunities.
+<br />
 
-* **Outliers:** Data points that fall outside the expected range of spending for a channel.
-* **Analysis Levels:** The platform highlights these outliers at multiple levels of granularity: **Overall**, **Yearly**, **Quarterly**, and **Monthly**, allowing you to pinpoint exactly when the unusual activity occurred.
+### Key Metrics
 
-### Spend vs. Revenue Chart
+This section provides a quick snapshot of the channel's aggregate performance over the selected `{{DATE_RANGE}}`.
 
-This is a standard scatter plot that helps you visualize the direct relationship between spend and revenue for a selected channel.
+* **Incremental Output KPI**: The total incremental impact (e.g., Revenue, Orders, Installs) attributed to Channel or Tactic by the model.
+* **Spend**: The total amount spent on the channel during the selected period.
+* **Impressions & Clicks**: The total volume of impressions and clicks registered for this channel.
+* **Observations/Total**: The total number of observations (e.g., days or weeks) for this channel in the model.
+* **Spend Range**: The minimum, maximum, and average spend recorded for a single data point within the timeframe.
 
-* **X-Axis:** Represents the **Spend**.
-* **Y-Axis:** Represents the **Revenue**.
-* **Interpretation:** Ideally, you want to see a positive correlation where an increase in spend leads to a corresponding increase in revenue. This chart helps you identify the point of diminishing returns, where additional spend no longer generates proportional revenue.
+### Revenue and Spend Trend Analysis
 
-### Spend vs. Shifted Revenue Chart
+This chart displays the relationship between your spend on the selected Channel and the attributed output KPI over time. It allows you to visualize trends, seasonality, and the immediate impact of spending changes on performance.
 
-This advanced chart provides a more accurate view of performance by accounting for the natural delay between advertising spend and customer conversion.
+Use this chart to see if peaks in your spending correspond with peaks in your output KPI.
 
-* **Shifted Revenue:** This metric calculates revenue by applying a **7-day lookback window**. This means it correlates the spend from a specific day with the revenue generated over the following 7 days, capturing the lag effect of your ads.
-* **Purpose:** By comparing this chart to the standard **Spend vs. Revenue** chart, you can better understand the true impact of channels that may have a longer consideration cycle.
+<br />
 
-## How to Interpret and Use the Insights
+### Outlier Detection
 
-The data in the Channel Deepdive tab is designed to be actionable. Here are a few ways you can use these insights to inform your strategy:
+The Outliers table automatically flags data points where spending was unusually high or low compared to the channel's typical behavior. This helps you quickly identify and investigate potential data errors or significant one-off events.
 
-* **Budget Optimization:** Use the channel performance data to reallocate budget from lower-performing channels to those with higher revenue generation and a stronger spend-to-revenue correlation.
-* **Performance Monitoring:** Use the **Outlier Analysis** to investigate sudden spikes or drops in spending. This can help you catch campaign configuration errors or identify unexpectedly successful tactics.
-* **Strategic Planning:** Analyze the **Spend vs. Shifted Revenue** chart to justify investment in channels that may not show immediate returns but prove valuable over a slightly longer timeframe.
+> **How Outliers are Calculated**\
+> A data point is flagged as an outlier if its spend is **1.6 times greater than the Interquartile Range (IQR)** of the channel's spend for the selected period. This statistical measure helps to reliably identify significant deviations from the norm.
 
-## Frequently Asked Questions (FAQ)
+### Spend vs. Shifted Revenue
 
-**Q: What is the definition of 'Shifted Revenue' and why is it important?**\
-A: **Shifted Revenue** is a metric that accounts for ad lag by correlating spend with the revenue generated over a subsequent 7-day period. It is important because many customers do not convert immediately after seeing an ad. This metric provides a fairer and more accurate assessment of a channel's performance by capturing delayed conversions.
+This chart is a powerful tool for understanding the efficiency and saturation point of your channel's spend. It groups your spending into buckets and shows the resulting revenue and frequency for each.
 
-**Q: How does the platform determine if a data point is an outlier?**\
-A: Outliers are identified using a proprietary statistical model that analyzes historical spending patterns for each channel. Any spend that deviates significantly from the established norm is flagged as an outlier.
+**How to Interpret this Chart:**
 
-**Q: Can I change the 7-day window for the Spend vs. Shifted Revenue chart?**\
-A: Currently, the 7-day window is a fixed setting designed to provide a standardized view of ad lag effects based on industry benchmarks.
+* **X-Axis (Spend Buckets)**: Your historical spending is grouped into ranges (e.g., `$10.7K - $22.3K`).
+* **Bars (Shifted Revenue)**: The height of each bar shows the average revenue generated when your spend fell within that specific bucket.
+* **Line (Spend Frequency)**: The line graph indicates how many times (i.e., data points) your spend has fallen into each bucket. This shows you where you most frequently operate.
+* **Dashed Line (Avg. Revenue)**: This line represents the average revenue across all spend levels, providing a clear benchmark to assess the performance of each spend bucket.
+
+Your goal is to find the "sweet spot": a spend bucket that delivers a high revenue and can be achieved with reasonable frequency.
+
+### Practical Use Cases
+
+Here are a few ways you can use the insights from the Channel Deep Dive page to make smarter budget decisions for any channel:
+
+#### **1. Identifying Diminishing Returns**
+
+Look at the **Spend vs. Shifted Revenue** chart. Do the bars (Revenue) get progressively smaller or flatten out as the spend buckets increase? This is a classic sign of saturation or diminishing returns, where spending more money is not delivering a proportional increase in your `{{OUTPUT_KPI}}`. This suggests you should consider capping your budget for this channel or tactic.
+
+#### **2. Finding Budget Reallocation Opportunities**
+
+Open the Channel Deep Dive pages for two different channels or tactics side-by-side.
+
+* If **Tactic A** shows high spend frequency in a low-performing (low revenue bar) bucket...
+* And **Tactic B** shows a high-performing revenue bucket that has a low spend frequency...
+
+You have a clear opportunity. Consider reallocating budget from the saturated Tactic A to the more promising Tactic B to maximize your overall `{{OUTPUT_KPI}}`.
+
+#### **3. Investigating Performance Anomalies**
+
+If the **Outlier Detection** table flags a specific date, use the **Revenue and Spend Trend Analysis** chart to investigate.
+
+* Filter the date range to focus on that period.
+* Did a huge spike in spend result in a corresponding lift in `{{OUTPUT_KPI}}`? Or was it wasted?
+* This helps you validate the impact of specific events (like a flash sale or campaign launch) and identify potential data reporting errors that need to be corrected.
