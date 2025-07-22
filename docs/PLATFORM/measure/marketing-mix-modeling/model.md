@@ -14,7 +14,7 @@ The Model tab gives insights into your MMM model accuracy and performance.
 
 <br />
 
-<Image align="center" src="https://files.readme.io/27d161fc482addcced2b6656f58da39ae19433539ccb5d582b9e7e1e122d96da-model_tab.jpg" />
+<Image align="center" src="https://files.readme.io/b2d7d6fa3178a762ffba6c76234a16026fc5679984753037fe31b2ccdfff0ceb-Screenshot_2025-07-22_at_5.12.19_PM.png" />
 
 ***
 
@@ -22,12 +22,12 @@ The Model tab gives insights into your MMM model accuracy and performance.
 
 ## Summary
 
-![](https://files.readme.io/f2d886133e7bb6b6acf2c36d26e887ed5f27a893a5f09ce750b75071d1c9bc7e-image.png)
+<Image align="center" src="https://files.readme.io/72f557dd63670b10bd725afa9229fea81bf42be21dae9d03b8af66a633610307-Screenshot_2025-07-22_at_5.13.31_PM.png" />
 
 <br />
 
-* **R² (R-squared):**\
-  A statistical measure that shows how well the model explains the variation in the data. Higher values indicate a better fit between the model and the data.
+* **Accuracy**\
+  The model's accuracy is calculated based on how the model's predictions have performed on the last 4 - 12 weeks of unseen data points. This method of accuracy calculation is known as Median Holdout Accuracy.
 * **NRMSE (Normalized Root Mean Squared Error):**\
   The Normalized Root Mean Square Error is also referred to as the prediction error indicates how accurate the model’s predictions are. Lower values represent more accurate predictions. It measures the square root of the average squared differences between predicted and actual outcomes.
 * **Actual Revenue:**\
@@ -35,7 +35,7 @@ The Model tab gives insights into your MMM model accuracy and performance.
 * **Predicted Revenue:**\
   The revenue estimated by the model based on input data.
 * **Estimation Error (%):**\
-  The Mean Absolute Percentage Error for experiments is activated when calibrating and is referred to as the calibration error. The percentage difference between the actual and predicted revenue, showing how far off the model's predictions are from reality.
+  The percentage difference between the actual and predicted revenue, showing how far off the model's predictions are from reality.
 
 <br />
 
