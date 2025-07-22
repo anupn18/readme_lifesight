@@ -14,7 +14,7 @@ next:
 ---
 In the Overview tab, you can view your overall marketing performance reports and conduct a preliminary analysis based on historical data you have uploaded or integrated. Understanding these reports is crucial for gaining actionable insights into your marketing performance.
 
-<Embed url="https://www.youtube.com/watch?v=3bgL3m-io78" title="Analyze your Marketing Mix Model | Lifesight" favicon="https://www.youtube.com/favicon.ico" image="https://i.ytimg.com/vi/3bgL3m-io78/hqdefault.jpg" provider="youtube.com" href="https://www.youtube.com/watch?v=3bgL3m-io78" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252F3bgL3m-io78%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D3bgL3m-io78%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252F3bgL3m-io78%252Fhqdefault.jpg%26key%3D7788cb384c9f4d5dbbdbeffd9fe4b92f%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
+<Embed url="https://www.youtube.com/watch?v=3bgL3m-io78" href="https://www.youtube.com/watch?v=3bgL3m-io78" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252F3bgL3m-io78%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D3bgL3m-io78%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252F3bgL3m-io78%252Fhqdefault.jpg%26key%3D7788cb384c9f4d5dbbdbeffd9fe4b92f%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 <br />
 
@@ -24,7 +24,7 @@ Here's a list of the different fields in the MMM Overview tab:
 
 Select the date range from your MMM input data to view insights for the selected period.
 
-<Image align="center" width="600px" src="https://files.readme.io/ff21ccb8abd431b5d755f03c9547bf58eb70c376ea001f6b20aa0dfea87175d8-image.png" />
+<Image align="center" width="600px" src="https://files.readme.io/d4b095a1ea3d7c238fde6e61260f5093b51057ed3be257b88295aad53dd72c42-Screenshot_2025-07-22_at_5.08.23_PM.png" />
 
 <br />
 
@@ -38,9 +38,7 @@ You can select any model from the list of top 5 models based on paid contributio
 
 Click the `Settings` icon to view the top 5 models. This allows stakeholders to review and select the best model based on their business needs. Learn more about how top models are shortlisted here.
 
-<Image alt="Model versions" align="center" src="https://files.readme.io/fc1775c7d2f4a677a108bbc81b205181ec1bd40a137028a24a73f39f56067562-image.png">
-  Model versions
-</Image>
+<Image align="center" alt="Model versions" border={false} caption="Model versions" src="https://files.readme.io/998a5d9d64afcae1cb0e326296941e12ddff56248b3726de368e4604674aaa6c-Screenshot_2025-07-22_at_5.06.26_PM.png" />
 
 <br />
 
@@ -88,7 +86,7 @@ Each of your input variables is listed in both the rows and the columns and the 
 
 <br />
 
-By clicking on a specific cell, you can visualize the detailed correlation scatter plot between two variables. 
+By clicking on a specific cell, you can visualize the detailed correlation scatter plot between two variables.
 
 <br />
 
