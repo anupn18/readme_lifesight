@@ -25,9 +25,19 @@ Key aspects of refreshing a model include:
 * **Baseline Stability:** The refreshed model aims to maintain a similar baseline to the original model, ensuring consistent performance.
 * **Media Spend Reflection:** The updated model should accurately capture the impact of media spending changes in the new data period.
 
-**Note:** You can find more about the Refresh Methodology [here](https://docs.lifesight.io/docs/mmm-refresh).
+## How to refresh a model
 
-<br />
+1. Click the `Refresh` button next to the relevant model on the Marketing Mix Models page.
+2. Upload a CSV file with refreshed data that matches the column structure of the original file and contains additional rows.
+3. Click on `Finish`
+
+<Image align="center" className="border" border={true} src="https://files.readme.io/3cf20b93d1d480e2bd733de2595ae5c093cc31d4899e79c41ad01ffa2c417344-Screenshot_2025-07-23_at_12.59.35_AM.png" />
+
+Upon initiating a refresh, the model status will change to 'Refresh in Progress' and later to 'Refresh Success' within 5–10 minutes. The 'last refreshed' column will also be updated to reflect the most recent refresh date. Note that models can be refreshed multiple times as needed.
+
+You can also configure the refresh frequency on the `Configure your model` page during model creation.
+
+![](https://files.readme.io/52431c7c9c0bb284370d2e01e8428848f1e6e21c1a8c5fe7e270601286f4d392-image.png)
 
 <br />
 
@@ -62,13 +72,7 @@ The Refresh insights table shows the latest model refresh insights vs the select
 
 <br />
 
-## How to manually refresh a model
-
-1. Click the `Refresh` button next to the relevant model on the Marketing Mix Models page.
-2. Upload a CSV file with refreshed data that matches the column structure of the original file and contains additional rows.
-3. Click on `Finish`
-
-Upon initiating a refresh, the model status will change to 'Refresh in Progress' and later to 'Refresh Success' within 5–10 minutes. The 'last refreshed' column will also be updated to reflect the most recent refresh date. Note that models can be refreshed multiple times as needed.
+<br />
 
 You can also configure the refresh frequency on the `Configure your model` page during model creation.
 
