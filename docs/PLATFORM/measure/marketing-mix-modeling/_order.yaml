@@ -3,6 +3,7 @@
 - model
 - insights
 - budget-optimizer-1
+- mmm-budget-optimizer-copy
 - campaigns
 - mmm-refresh
 - mmm-recalibration
@@ -10,4 +11,3 @@
 - mmm-input-schema
 - google-sheets-mmm-data-integration
 - mmm-calibration
-- mmm-budget-optimizer-copy
