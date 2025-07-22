@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-The Model tab gives insights into your MMM model accuracy and performance. 
+The Model tab gives insights into your MMM model accuracy and performance.
 
 <br />
 
@@ -43,7 +43,7 @@ The Model tab gives insights into your MMM model accuracy and performance.
 
 ![](https://files.readme.io/f229d559d2d40c3949a7c98a9a76614f6445d06e6bfd46983356387d54a9c7b2-image.png)
 
-Validation is a critical step in ensuring the accuracy and reliability of your marketing mix model (MMM). This process tests the model's ability to predict outcomes based on unseen data, providing confidence in its forecasts and insights. 
+Validation is a critical step in ensuring the accuracy and reliability of your marketing mix model (MMM). This process tests the model's ability to predict outcomes based on unseen data, providing confidence in its forecasts and insights.
 
 ### Backtesting
 
@@ -85,7 +85,7 @@ The saturation curve shows how the incremental impact of a marketing effort decr
 
 ### Time to Conversion
 
-View the immediate and carryover conversion effect distributed over time. The chart shows the percentage impact of a channel ad spend on conversions. This helps understand both short-term and long-term impact of ad channels on conversions to help make media optimization decisions. 
+View the immediate and carryover conversion effect distributed over time. The chart shows the percentage impact of a channel ad spend on conversions. This helps understand both short-term and long-term impact of ad channels on conversions to help make media optimization decisions.
 
 ![](https://files.readme.io/95d6e558893e8422e2df16ada3d4bea5d410380b18edd1951934132fa935c0b4-image.png)
 
