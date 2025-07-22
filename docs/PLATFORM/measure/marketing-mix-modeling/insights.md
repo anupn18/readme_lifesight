@@ -18,7 +18,7 @@ The Insights tab is designed to help you analyse and understand the performance 
 
 <br />
 
-<Embed typeOfEmbed="iframe" url="https://lifesight.storylane.io/share/s5bugj3wpbnh" href="https://lifesight.storylane.io/share/s5bugj3wpbnh" html="false" iframe="true" height="1200px" width="900px" />
+<Embed typeOfEmbed="iframe" url="https://lifesight.storylane.io/share/s5bugj3wpbnh" href="https://lifesight.storylane.io/share/s5bugj3wpbnh" html="false" iframe="true" height="600px" width="900px" />
 
 ***
 
