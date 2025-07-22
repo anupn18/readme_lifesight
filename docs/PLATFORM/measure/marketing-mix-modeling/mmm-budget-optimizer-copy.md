@@ -8,8 +8,6 @@ hidden: false
 metadata:
   robots: index
 ---
-## 1. Overview
-
 The **Channel Deepdive** tab  provides a granular view of your marketing channel performance. Its primary purpose is to help you move beyond high-level summaries and understand the specific spending patterns, revenue generation, and efficiency of each individual channel.
 
 Use this tab to answer critical questions such as:
@@ -19,7 +17,7 @@ Use this tab to answer critical questions such as:
 * Is there a clear relationship between how much I spend on a channel and the revenue it produces?
 * How does the delayed impact of advertising (ad lag) affect a channel's perceived performance?
 
-## 2. Key Components and Metrics
+## Key Components and Metrics
 
 The Channel Deepdive tab is composed of several powerful widgets and visualizations designed to give you a comprehensive understanding of your channel data.
 
@@ -53,7 +51,7 @@ This advanced chart provides a more accurate view of performance by accounting f
 * **Shifted Revenue:** This metric calculates revenue by applying a **7-day lookback window**. This means it correlates the spend from a specific day with the revenue generated over the following 7 days, capturing the lag effect of your ads.
 * **Purpose:** By comparing this chart to the standard **Spend vs. Revenue** chart, you can better understand the true impact of channels that may have a longer consideration cycle.
 
-## 3. How to Interpret and Use the Insights
+## How to Interpret and Use the Insights
 
 The data in the Channel Deepdive tab is designed to be actionable. Here are a few ways you can use these insights to inform your strategy:
 
@@ -61,7 +59,7 @@ The data in the Channel Deepdive tab is designed to be actionable. Here are a fe
 * **Performance Monitoring:** Use the **Outlier Analysis** to investigate sudden spikes or drops in spending. This can help you catch campaign configuration errors or identify unexpectedly successful tactics.
 * **Strategic Planning:** Analyze the **Spend vs. Shifted Revenue** chart to justify investment in channels that may not show immediate returns but prove valuable over a slightly longer timeframe.
 
-## 4. Frequently Asked Questions (FAQ)
+## Frequently Asked Questions (FAQ)
 
 **Q: What is the definition of 'Shifted Revenue' and why is it important?**\
 A: **Shifted Revenue** is a metric that accounts for ad lag by correlating spend with the revenue generated over a subsequent 7-day period. It is important because many customers do not convert immediately after seeing an ad. This metric provides a fairer and more accurate assessment of a channel's performance by capturing delayed conversions.
