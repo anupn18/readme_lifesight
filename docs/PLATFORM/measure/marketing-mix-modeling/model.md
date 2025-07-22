@@ -1,5 +1,5 @@
 ---
-title: MMM Model tab
+title: Model tab
 excerpt: Understand your MMM model accuracy and performance
 deprecated: false
 hidden: false
