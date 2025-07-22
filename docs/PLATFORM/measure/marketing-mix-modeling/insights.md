@@ -2,7 +2,7 @@
 title: MMM Insights tab
 excerpt: >-
   View MMM insights after modeling such as channel contribution, Incrementality,
-  Marginal metrics, and which channel are Causally aware
+  Marginal metrics, and which channels are causally calibrated
 deprecated: false
 hidden: false
 metadata:
@@ -16,18 +16,16 @@ The Insights tab is designed to help you analyse and understand the performance 
 
 ## View interactive demo
 
-<Image align="center" alt="[Click here](https://lifesight.storylane.io/share/ke4crdxvmqm1) to view demo in fullscreen" border={false} caption="[Click here](https://lifesight.storylane.io/share/ke4crdxvmqm1) to view demo in fullscreen" src="https://files.readme.io/dac420c193c1a26178500b676838c5f865f3936166dee2e6ab1f18ad739f8284-image.png" />
+<br />
+
+<Embed typeOfEmbed="iframe" url="https://lifesight.storylane.io/share/s5bugj3wpbnh" href="https://lifesight.storylane.io/share/s5bugj3wpbnh" html="false" iframe="true" height="500px" />
 
 ***
 
-## Key Components of the Insights Tab:
+## Key Filters in the Insights Tab:
 
 * **`Date Range`**: This field allows you to select the specific period you want to analyse. Adjusting the date range can help you focus on particular time frames of interest.
-* **`Version`**: Here, you can see the version of the model currently in use, along with important performance metrics like R² (which indicates how well the model fits the data) and NRMSE (which measures prediction accuracy). These metrics ensure you’re working with a reliable model.
-
-<Image align="center" src="https://files.readme.io/38e496c7a347b645343ba2d46e51eba04ed4ace5a10afd2e16d809a7ba965eff-insights.jpg" />
-
-<br />
+* **`Version`**: Here, you can see the version of the model currently in use, along with important performance metrics like NRMSE (measures prediction accuracy on model input data) and estimation Error (Measures backtesting prediction error on unseen data). These metrics ensure you’re working with a reliable model.
 
 ## Key Metrics Overview
 
