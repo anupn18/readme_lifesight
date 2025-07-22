@@ -1,6 +1,8 @@
 ---
 title: Channel Deepdive
-excerpt: Learn how to allocate optimized budgets with Budget Optimizer powered by MMM
+excerpt: >-
+  Understand revenue contribution trends and investigate spending patterns for a
+  Channel or Tactic
 deprecated: false
 hidden: false
 metadata:
