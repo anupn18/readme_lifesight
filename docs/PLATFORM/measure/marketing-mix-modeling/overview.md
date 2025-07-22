@@ -1,5 +1,5 @@
 ---
-title: MMM Overview tab
+title: Overview tab
 excerpt: >-
   Analyze your MMM metrics summary, platform spends vs KPI graph, MMM model
   input data, and correlation matrix from your MMM model.
