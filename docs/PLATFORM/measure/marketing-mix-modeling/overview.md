@@ -40,12 +40,6 @@ Click the `Settings` icon to view the top 5 models. This allows stakeholders to 
 
 <Image align="center" alt="Model versions" border={false} caption="Model versions" src="https://files.readme.io/998a5d9d64afcae1cb0e326296941e12ddff56248b3726de368e4604674aaa6c-Screenshot_2025-07-22_at_5.06.26_PM.png" />
 
-<br />
-
-> ❗️ If you change the default selected model, the Optimize for KPI won't be accessible in the Planner.
->
-> You will have to contact the marketing science team to enable optimize for KPI in the Planner.
-
 These metrics ensure robust model fit and accuracy, helping stakeholders choose the most appropriate model for strategic use.
 
 <br />
