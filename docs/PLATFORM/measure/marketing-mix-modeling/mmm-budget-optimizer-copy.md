@@ -1,129 +1,71 @@
 ---
-title: MMM Budget Optimizer (COPY)
+title: Channel Deepdive
 excerpt: Learn how to allocate optimized budgets with Budget Optimizer powered by MMM
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-Once the model is ready, you can access the **Budget Optimizer** to optimize your future ad spends. Based on the historical data, the model predicts what should be the optimum distribution of the budget that will bring maximum results.
+## 1. Overview
 
-The model automatically optimizes your budgets for the period of next week. In the report, you can view the optimized budget plan and the estimated performance of your marketing activities as suggested by the marketing mix model.
+The **Channel Deepdive** tab  provides a granular view of your marketing channel performance. Its primary purpose is to help you move beyond high-level summaries and understand the specific spending patterns, revenue generation, and efficiency of each individual channel.
 
-<Image align="center" src="https://files.readme.io/83cac042ca57269679e160143795cd1acdf7cb525bc7b385616a8694217c901e-optimzer.jpg" />
+Use this tab to answer critical questions such as:
 
-<br />
+* Which channel is generating the most revenue?
+* What is the typical spend for my key channels, and are there any unusual deviations?
+* Is there a clear relationship between how much I spend on a channel and the revenue it produces?
+* How does the delayed impact of advertising (ad lag) affect a channel's perceived performance?
 
-## Budget Planning
+## 2. Key Components and Metrics
 
-Optimize channel budget allocation for next month or next quarter. iew channel-wise budget allocation based on the MMM model analysis. 
+The Channel Deepdive tab is composed of several powerful widgets and visualizations designed to give you a comprehensive understanding of your channel data.
 
-![](https://files.readme.io/b79bde4f2205d0eb9902ef9b0cceaddb3bb48ee224e574012619d153feda0483-image.png)
+### Channel Performance Analysis
 
-### Current Budget & Planned Budget
+This central view breaks down performance by individual channel. For each channel, you can analyze:
 
-* **Current budget** - The budget is calculated by analyzing the past spends in the previous month if 'Next Month' is selected, or previous Quarter if 'Next Quarter' is selected.
-* **Planned budget** - Change the percentage of the budget between 50-500% to view where and how much to allocate in each channel for the selected optimization period.
+* **Total Revenue:** The total revenue attributed to the channel within the selected timeframe.
+* **Total Spend:** The total amount spent on the channel.
+* **Spend Analysis:** This provides context for your spending habits by showing the **Minimum**, **Average**, and **Maximum** spend observed for the channel across the different time periods in your data.
 
-<br />
+### Outlier Analysis
 
-### Constraints
+This feature automatically flags unusual spending activity to help you identify potential issues or opportunities.
 
-Constraints help instruct the MMM model on how much it can vary the budget across channels. Aggresive gives maximum control to the model to achieve the most effective media allocation but may not be realistic in a real-world use case for some brands.
+* **Outliers:** Data points that fall outside the expected range of spending for a channel.
+* **Analysis Levels:** The platform highlights these outliers at multiple levels of granularity: **Overall**, **Yearly**, **Quarterly**, and **Monthly**, allowing you to pinpoint exactly when the unusual activity occurred.
 
-* **Conservative:** The existing budget constraints are adjusted to 0.75 times for the lower limit and 1.5 times for the upper limit. 
-* **Moderate:** Budget constraints are modified to 0.5 times for the lower limit and doubled for the upper limit.
-* **Aggressive:** The budget limits are significantly altered to 0.01 times for the lower threshold and 4.99 times for the upper threshold.
+### Spend vs. Revenue Chart
 
-<br />
+This is a standard scatter plot that helps you visualize the direct relationship between spend and revenue for a selected channel.
 
-## Current - Optimized Budget
+* **X-Axis:** Represents the **Spend**.
+* **Y-Axis:** Represents the **Revenue**.
+* **Interpretation:** Ideally, you want to see a positive correlation where an increase in spend leads to a corresponding increase in revenue. This chart helps you identify the point of diminishing returns, where additional spend no longer generates proportional revenue.
 
- View how the Budget Optimizer modifies current media spends vs optimized media spends across your media mix.
+### Spend vs. Shifted Revenue Chart
 
-![](https://files.readme.io/d00d5207767d0d239abb72cef8ca32a0f5fc3ac44bc14c457b502c41d459813e-image.png)
+This advanced chart provides a more accurate view of performance by accounting for the natural delay between advertising spend and customer conversion.
 
-<br />
+* **Shifted Revenue:** This metric calculates revenue by applying a **7-day lookback window**. This means it correlates the spend from a specific day with the revenue generated over the following 7 days, capturing the lag effect of your ads.
+* **Purpose:** By comparing this chart to the standard **Spend vs. Revenue** chart, you can better understand the true impact of channels that may have a longer consideration cycle.
 
-## How to use the Budget Optimizer
+## 3. How to Interpret and Use the Insights
 
-* Select the period you would like to optimize the budget for. The budget period can be set as “Next week” or “Next month”.
-* The platform will distribute the budget across channels as per the best model and you would be able to see current vs optimized ad spend distribution.
-* You also have the option to input Target ROAS (if KPI data type is Revenue) or Target CPA (if KPI data type is anything except Revenue).
-* You can set budget constraints for different platforms to keep your budget within specified limits. You can opt from preset modes—Conservative, Moderate, or Aggressive—to manage your spending.
+The data in the Channel Deepdive tab is designed to be actionable. Here are a few ways you can use these insights to inform your strategy:
 
-<br />
+* **Budget Optimization:** Use the channel performance data to reallocate budget from lower-performing channels to those with higher revenue generation and a stronger spend-to-revenue correlation.
+* **Performance Monitoring:** Use the **Outlier Analysis** to investigate sudden spikes or drops in spending. This can help you catch campaign configuration errors or identify unexpectedly successful tactics.
+* **Strategic Planning:** Analyze the **Spend vs. Shifted Revenue** chart to justify investment in channels that may not show immediate returns but prove valuable over a slightly longer timeframe.
 
-**View the optimized budget plan for the following time period -**
+## 4. Frequently Asked Questions (FAQ)
 
-* **Next Month:** The coming month from the first day through the last day of that month
-* **Next Quater:** The coming Quater from the first day through the last day of that Quater
+**Q: What is the definition of 'Shifted Revenue' and why is it important?**\
+A: **Shifted Revenue** is a metric that accounts for ad lag by correlating spend with the revenue generated over a subsequent 7-day period. It is important because many customers do not convert immediately after seeing an ad. This metric provides a fairer and more accurate assessment of a channel's performance by capturing delayed conversions.
 
-<br />
+**Q: How does the platform determine if a data point is an outlier?**\
+A: Outliers are identified using a proprietary statistical model that analyzes historical spending patterns for each channel. Any spend that deviates significantly from the established norm is flagged as an outlier.
 
-<br />
-
-## Saturation (Diminishing Returns) Curve
-
-The Saturation (Diminishing Returns) Curve shows when increasing spending on a marketing channel leads to smaller returns. Initially, more investment boosts results, but over time, each additional dollar has less impact. This helps marketers optimize spending by identifying when further investment is no longer efficient, ensuring better resource allocation and avoiding overinvestment.
-
-Select the `Filter` dropdown to view channel specific saturation curves or view overall All Platforms saturation curve. 
-
-![](https://files.readme.io/accb4ab194bd36fd78032f0f7e60e77272b5ad4607143103631c5b15b196b83d-image.png)
-
-<br />
-
-<br />
-
-## Recommendations
-
-The Recommendations table shows the budget allocation for various platforms. It compares the current budget with the recommended budget, alongside the corresponding current incremental revenue and predicted incremental revenue (or selected KPI). Additionally, it outlines the current ROAS and the predicted ROAS for each platform.
-
-![](https://files.readme.io/8b1e8ed6f99af306d775a9a4a9e11b7b2f3d0a926915043c7995b24afb296e9c-image.png)
-
-These recommendations are designed to optimize advertising spend and maximize returns. By increasing or adjusting budgets based on the predictions, you can achieve improved performance outcomes. 
-
-*For example, increasing the budget for Google BOF is expected to increase the predicted ROAS from 5.92 to 7.04, reflecting higher potential revenue with the recommended adjustments.*
-
-The budget recommendation workshet can be downloaded in CSV format by clicking  `Download`. The sheet can be shared with your channel managers to implement.
-
-<br />
-
-> 📘 Learn more about reading [budget optimizer insights](https://docs.lifesight.io/docs/understand-budget-optimizer-insights)
-
-***
-
-<br />
-
-## How the Optimizer Works
-
-The Budget Optimizer operates in three primary stages:
-
-### 1. Total Budget Optimization
-
-* **Data Collection**: The Optimizer gathers historical performance data from your advertising campaigns, including metrics such as clicks, impressions, conversions, and cost per acquisition (CPA).
-* **Algorithm Application**: A proprietary algorithm analyzes this data to determine the optimal total budget that is likely to yield the highest ROAS based on your campaign objectives and constraints.
-* **Sensitivity Analysis**: The Optimizer can perform sensitivity analyses to assess how changes in your budget might impact overall performance.
-
-### 2. Budget Allocation per Media Channel
-
-* **Media Performance Evaluation**: The Optimizer evaluates the historical performance of each media channel, considering factors such as click-through rates (CTRs), conversion rates, and cost per click (CPC).
-* **Saturation Curve Analysis**: It analyzes saturation curves for each media channel to identify potential diminishing returns at higher budget levels.
-* **Budget Distribution**: Based on this analysis, the Optimizer recommends a budget allocation for each media channel that is expected to maximize ROAS, while considering factors like channel complementarity and competitive dynamics.
-
-### 3. Real-time Adjustments
-
-* **Campaign Monitoring**: The Optimizer continuously monitors your campaigns' performance in real-time.
-* **Budget Adjustments**: If the Optimizer detects that a particular media channel is underperforming or nearing saturation, it can recommend adjustments to the budget allocation.
-
-## Key Benefits of Using the Budget Optimizer
-
-* **Improved ROAS**: Optimize your budget allocation to significantly increase your Return on Ad Spend.
-* **Data-Driven Decisions**: Leverage actionable insights based on historical data and predictive analytics.
-* **Increased Efficiency**: Automate the budget allocation process, saving time and effort.
-* **Reduced Risk**: Avoid wasting your advertising budget on ineffective channels by identifying potential diminishing returns.
-* **Enhanced Flexibility**: Customize the Optimizer to meet the specific needs of your business and campaigns.
-
-<br />
-
-Our Budget Optimizer is a valuable tool for businesses seeking to optimize their advertising spending and achieve maximum ROI. By leveraging advanced algorithms and data-driven insights, the Optimizer empowers you to make informed decisions and drive your business growth.
+**Q: Can I change the 7-day window for the Spend vs. Shifted Revenue chart?**\
+A: Currently, the 7-day window is a fixed setting designed to provide a standardized view of ad lag effects based on industry benchmarks.
