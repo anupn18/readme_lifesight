@@ -1,5 +1,5 @@
 ---
-title: MMM Insights tab
+title: Insights tab
 excerpt: >-
   View MMM insights after modeling such as channel contribution, Incrementality,
   Marginal metrics, and which channels are causally calibrated
