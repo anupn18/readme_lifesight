@@ -18,6 +18,21 @@ MMM Refresh ensures it continues to provide accurate and actionable insights. A 
 
 <br />
 
+Key aspects of refreshing a model include:
+
+* **Hyperparameter Adjustment:** The model's settings (hyperparameters) are refined based on the proportion of new data to the total dataset. This helps the model adapt to changes in the market.
+* **Objective Function Optimization:** The model is optimized using a combination of metrics to balance accuracy and stability.
+* **Baseline Stability:** The refreshed model aims to maintain a similar baseline to the original model, ensuring consistent performance.
+* **Media Spend Reflection:** The updated model should accurately capture the impact of media spending changes in the new data period.
+
+**Note:** You can find more about the Refresh Methodology [here](https://docs.lifesight.io/docs/mmm-refresh).
+
+<br />
+
+<br />
+
+<br />
+
 ## Overview
 
 * **Refresh** - Shows you the current model refresh version. For example if a model is refreshed twice then the Refresh field would have a value "Refreshed Model-2" in place.
