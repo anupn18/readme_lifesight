@@ -1,6 +1,8 @@
 ---
-title: MMM Recalibration
-excerpt: ''
+title: Model Retraining
+excerpt: >-
+  Modify input data, model parameters, and relationships to create a new model
+  from an existing model
 deprecated: false
 hidden: false
 metadata:
@@ -10,16 +12,16 @@ metadata:
 next:
   description: ''
 ---
-## How to perform a model reconfiguration
+## How to perform a model retraining
 
 <Image align="center" src="https://files.readme.io/3fc8078846a248e70434eccf53391841fcb970939ae5382d33af8d091403aba1-reconfig.jpg" />
 
-1. Navigate to the model you want to Reconfigure from the MMM page.
-2. Click the ‘Reconfigure’ button on the top right corner.
-3. Enter the model name, map data inputs to Platforms for the MMM model to understand the data.
+1. Navigate to the model you want to Retrain from the MMM page.
+2. Click the ‘Retrain’ button on the top right corner.
+3. Follow the same process as creating a new model [creating a new model]()
 4. Click on ‘Finish’.
 5. A new model is created with the status "Training in Progress" in the MMM dashboard.
-6. Once the Refresh is completed, the status changes to "Refresh Success" in the MMM dashboard.
+6. Once the Refresh is completed, the status changes to "Success" in the MMM dashboard.
 
 <Image align="center" src="https://files.readme.io/d9ced717fec1fc08d10c7539d5d104da98cee69a70a98c429e8168cd3e2b01e3-resfresh_status.jpg" />
 
@@ -27,7 +29,7 @@ next:
 
 ## How It Works
 
-* Our refresh function takes an existing model as a starting point and updates it using new data. 
+* Our refresh function takes an existing model as a starting point and updates it using new data.
 * Key aspects of this process include:
   * **Hyperparameter Adjustment:** The model's settings (hyperparameters) are refined based on the proportion of new data to the total dataset. This helps the model adapt to changes in the market.
   * **Objective Function Optimization:** The model is optimized using a combination of metrics to balance accuracy and stability.
@@ -55,6 +57,6 @@ To determine if a new model is necessary, consider the following factors:
 
 * **Model Drift:** Model drift occurs when the underlying patterns in the data that a model was trained on begin to shift over time. This can lead to a decline in the model's predictive accuracy. To mitigate this, we incorporate a drift detection algorithm that continuously monitors the model's performance against new data. If significant drift is detected, the platform suggests creating a new model.
 * **Alignment of Insights and Business Objectives:**
-  * Introducing new products, exploring fresh marketing channels, or shifting business priorities can render existing models outdated. To maintain accuracy, models must adapt to these changes. 
-  * New product launches, for instance, require incorporating fresh data to capture their impact. Similarly, spending on novel marketing channels necessitates model updates to accurately assess their effectiveness. 
+  * Introducing new products, exploring fresh marketing channels, or shifting business priorities can render existing models outdated. To maintain accuracy, models must adapt to these changes.
+  * New product launches, for instance, require incorporating fresh data to capture their impact. Similarly, spending on novel marketing channels necessitates model updates to accurately assess their effectiveness.
   * By continuously evaluating a model's alignment with business goals and making necessary adjustments, organizations can ensure data-driven decisions remain relevant and impactful.
