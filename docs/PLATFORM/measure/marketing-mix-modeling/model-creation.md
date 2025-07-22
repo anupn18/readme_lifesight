@@ -18,15 +18,13 @@ Marketing Mix Modeling (MMM) can account for a variety of variables that influen
 
 ## View interactive demo
 
-<Image alt="[Click here](https://lifesight.storylane.io/share/9lrpw2mpon3t) to view demo in fullscreen" align="center" src="https://files.readme.io/b2830eaa51e6692a18a996cea50adcbd04d899d8fe2eebe9248d04e1f6e0afea-image.png">
-  [Click here](https://lifesight.storylane.io/share/9lrpw2mpon3t) to view demo in fullscreen
-</Image>
+<Image align="center" alt="[Click here](https://lifesight.storylane.io/share/9lrpw2mpon3t) to view demo in fullscreen" border={false} caption="[Click here](https://lifesight.storylane.io/share/9lrpw2mpon3t) to view demo in fullscreen" src="https://files.readme.io/b2830eaa51e6692a18a996cea50adcbd04d899d8fe2eebe9248d04e1f6e0afea-image.png" />
 
 ***
 
 # TL;DR: Steps to create a MMM model
 
-1. Navigate to the MMM module (Measure > MMM). Select `Create Model`. 
+1. Navigate to the MMM module (Measure > MMM). Select `Create Model`.
 2. Name your model in the top-left section.
 3. Upload data using **[CSV template](https://docs.google.com/spreadsheets/d/17UgnDqvQyHz_3XFFa-DSHdk80fudK1mt9p7Stj-xhdI/edit?gid=1368124972#gid=1368124972)** OR **Integrated method** and click `Next`
 4. In the `Features` tab:
@@ -44,7 +42,7 @@ Marketing Mix Modeling (MMM) can account for a variety of variables that influen
    5. Modify model hyper-parameters from Advanced settings (optional)
    6. Finally, selected `Create Model` to create a MMM model.
 
-> 📘 `Advanced settings`
+> 📘 Advanced settings
 >
 > Data & Marketing Scientists can modify model hyper parameters such as **Adstock and Saturation and Calibrate** MMM models from the Advanced setting dropdown in the bottom of the `Configuration` tab.
 
@@ -58,7 +56,7 @@ Marketing Mix Modeling (MMM) can account for a variety of variables that influen
 
 ## Step 1: Upload your data
 
-1. Navigate to the MMM module (Measure > MMM). Select `Create Model`. 
+1. Navigate to the MMM module (Measure > MMM). Select `Create Model`.
 
 <Image align="center" src="https://files.readme.io/77a54c89feb02de0b14c483d373283733035c87801ab2c9940bf92745b99e5b2-creation.jpg" />
 
@@ -81,7 +79,7 @@ Marketing Mix Modeling (MMM) can account for a variety of variables that influen
 >
 > 2. No date should be missing.
 >
-> 3. All the independent variables like spends, impressions, clicks ,organic variables and contextual variables should be numeric. There should be no missing values. 
+> 3. All the independent variables like spends, impressions, clicks ,organic variables and contextual variables should be numeric. There should be no missing values.
 >
 > 4. Replace with 0 if any null values found. Some other method can also be used for null values but for now we can replace with 0.
 >
@@ -99,7 +97,7 @@ Marketing Mix Modeling (MMM) can account for a variety of variables that influen
 
 For the Integrated method, connect ad channels so that data can be pulled directly from the platform. The data connection pulls in ad Insights such as paid media variables data and KPI (Dependent variables) from Events table. To upload offline data, simply collect your data spends and KPIs in a Google sheet in CSV format and integrate the sheet.
 
-* Select the data type you are integrating. In this you need to select data type i.e whether mmm, cogs or custom\_costs. For marketing mix modelling , mmm needs to be selected. 
+* Select the data type you are integrating. In this you need to select data type i.e whether mmm, cogs or custom\_costs. For marketing mix modelling , mmm needs to be selected.
 * Select how often the data needs to be refreshed.
 * Next, authenticate your google account to grant access to Lifesight to read data from Google workspace. Once the authentication is done Google Sheets is integrated and you can see Google Sheets MMM status change to "Active"
 
@@ -120,8 +118,8 @@ If you have uploaded a custom MMM dataset, map the schema by associating your in
 <Image align="center" src="https://files.readme.io/1ab05cf53e505ad1d25febbee3d4cc1cd911bf726857ab732855c96c41026ce1-feature.jpg" />
 
 * Select data (name of the data column in your uploaded sheet), specify the aggregation type whether data in csv file is of daily, weekly or monthly type. Also select the start date.
-* Select the KPI (dependent variable) from the sheet. KPI can be revenue, orders, new customers, sales. Also map the datatype for your KPI. 
-* Select the spends, impressions and clicks for various variables and map with the platform name. These(Spends, impressions, and clicks)  can be available at channel or tactic level.It all depends on which level you are building the model. 
+* Select the KPI (dependent variable) from the sheet. KPI can be revenue, orders, new customers, sales. Also map the datatype for your KPI.
+* Select the spends, impressions and clicks for various variables and map with the platform name. These(Spends, impressions, and clicks)  can be available at channel or tactic level.It all depends on which level you are building the model.
 * Select the organic and contextual variable ,specify it by selecting yes if it is of categorical type. We can also predefine the impact of these variables on  KPI as positive or negative(if you have an idea that these variables should have this impact on KPI) else mark it as neutral.
 
 > 📘 Examples for selecting Impact:
@@ -168,7 +166,7 @@ Modify adstock, and saturation for every channel. Also, calibrate your model thr
 <Image align="center" src="https://files.readme.io/cfdd1615de9311232f64a5cc8d8c3db4e5995454ea4725f2afe88ab8a88031d0-advanced.jpg" />
 
 1. Adjust the adstock transformation for every channel. Choose between 2 types of methods.
-   1. Geometric OR 
+   1. Geometric OR
    2. Flexible (Weibull PDF)
 
 *Note: We recommend selecting "Flexible" as Geometric is a subset of Weibull PDF type for transformation. Lifesight automatically recommends a range for hyperparameters for both linear and flexible adstock transformation.*
@@ -198,7 +196,7 @@ The Calibration tab allows users to enhance their models by incorporating histor
 
 ## Step 5: Finally, select "Create Model"
 
-Once you select `Create model` your Model status changes to "Under training". It typically takes about 1 hour to create a model and get insights. 
+Once you select `Create model` your Model status changes to "Under training". It typically takes about 1 hour to create a model and get insights.
 
 Once the model has run successfully the status changes to "Success".
 
