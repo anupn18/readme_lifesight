@@ -1,8 +1,8 @@
 ---
 title: Insights tab
 excerpt: >-
-  View MMM insights after modeling such as channel contribution, Incrementality,
-  Marginal metrics, and which channels are causally calibrated
+  Understand baseline revenue, channel Incrementality and profit insights from
+  your MMM
 deprecated: false
 hidden: false
 metadata:
