@@ -18,17 +18,13 @@ Marketing Mix Modeling (MMM) is a statistical analysis technique designed to pro
 
 MMM systematically dismantles marketing uncertainty by providing a complete and contextual view of performance.
 
-This shows you the sales generated beyond the baseline you would have achieved anyway.
+> 📘 MMM accounts for external factors like economic conditions, competitive actions, and seasonal variations. This isolates your marketing's performance from general market noise.
 
-✅ Key Capability: By separating the baseline from the incremental lift, MMM reveals the true value created by your marketing efforts.
+MMM moves beyond surface-level metrics to calculate the incremental return of each channel.
 
-<Accordion title="My Accordion Title" icon="fa-info-circle">
-  MMM accounts for external factors like economic conditions, competitive actions, and seasonal variations. This isolates your marketing's performance from general market noise. MMM moves beyond surface-level metrics to calculate the incremental return of each channel.
-</Accordion>
+✅ By separating the baseline from the incremental lift, MMM reveals the true value created by your marketing efforts.
 
-It Provides a Roadmap to Maximize ROI. By understanding the potential of each marketing channel and tactic, MMM provides a clear path forward.
-
-✅ The Result: It helps you confidently allocate media spends to the areas that will maximize your marketing return on investment.
+✅ It helps you confidently allocate media spends to the areas that will maximize your marketing return on investment.
 
 Ultimately, MMM transforms your marketing operation from one based on ambiguity to one driven by a clear, data-backed strategy.
 
