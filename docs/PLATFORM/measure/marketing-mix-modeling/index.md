@@ -1,6 +1,6 @@
 ---
 title: Marketing Mix Modeling
-excerpt: Basics of Marketing Mix Modeling
+excerpt: Understanding Marketing Mix Modeling
 deprecated: false
 hidden: false
 metadata:
