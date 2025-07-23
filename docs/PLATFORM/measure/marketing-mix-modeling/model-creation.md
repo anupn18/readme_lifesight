@@ -106,18 +106,18 @@ If you have uploaded a custom MMM dataset, map the schema by associating your in
 * Select data (name of the data column in your uploaded sheet), specify the aggregation type whether data in csv file is of daily, weekly or monthly type. Also select the start date.
 * Select the KPI (dependent variable) from the sheet. KPI can be revenue, orders, new customers, sales. Also map the datatype for your KPI.
 * Select the spends, impressions and clicks for various variables and map with the platform name. These (Spends, impressions, and clicks)  can be available at channel or tactic level. It all depends on which level you are building the model.
-* Input organic and contextual variables, specify it by selecting yes if it is of categorical type. We can also predefine the impact of these variables on  KPI as positive or negative(if you have an idea that these variables should have this impact on KPI) else mark it as neutral.
+* Input organic and contextual variables, specify the data type of the variable. We can also predefine the impact of these variables on KPI as positive or negative (if you known the impact on KPI) else mark it as neutral.
 
 > 📘 Examples for selecting Impact:
 >
-> * Seasonality would be Positive for an Ice-cream brand whose sales are directly linked with the season.
-> * Holidays would be Positive for a ecommerce brand who heavily relies on Holidays like Christmas, BFCM, New Years.
+> * Own brand promotions would have a positive impact for any ecommerce or retail brand while competitor promotions can have a negative impact.
+> * Holidays would have a positive impact for a consumer electronics business during holidays periods - Christmas, Thanksgiving, and New Years.
 
 <br />
 
-## Step 3: Configure MMM model
+## Configuring a model
 
-In the configuration page select the country, currency, training size, and hyperparameters for variables and callibration.
+In the configuration page select the country, currency, training size, and hyperparameters for variables and calibration.
 
 <Image align="center" src="https://files.readme.io/22d9348a42a491f74b8650ec992f9385a212817c2bb370c7ae965ca42f6c3c6c-config.jpg" />
 
