@@ -22,22 +22,23 @@ Marketing Mix Modeling (MMM) can account for a variety of variables that influen
 
 <br />
 
-# TL;DR: Steps to create a MMM model
+# Steps to create a MMM model
 
-1. Navigate to the MMM module (Measure > MMM). Select `Create Model`.
+1. Navigate to the MMM module (Measure > Models). Select `Create Model`.
 2. Name your model in the top-left section.
-3. Upload data using **[CSV template](https://docs.google.com/spreadsheets/d/17UgnDqvQyHz_3XFFa-DSHdk80fudK1mt9p7Stj-xhdI/edit?gid=1368124972#gid=1368124972)** OR **Integrated method** and click `Next`
+3. Upload data using CSV file ([template](https://docs.google.com/spreadsheets/d/17UgnDqvQyHz_3XFFa-DSHdk80fudK1mt9p7Stj-xhdI/edit?gid=1368124972#gid=1368124972)) or utilize**Integrated Data** and click `Next`
 4. In the `Features` tab:
    1. Map your `Outcome KPI` to `Data type`.
    2. Map your `Paid marketing spend` to a `Platform`
    3. Map your `Paid marketing clicks` to a `Platform`.
    4. Map your `Paid marketing impressions` to `Platform`.
-   5. Map the `Impact` and `Factorial/Categorical` parameter for your `Organic` marketing variable.
-   6. Map the `Impact` and `Factorial/Categorical` parameter for your `Contextual` marketing variable.
+   5. Map the `Impact` and `Factorial/Categorical` parameter for your `Organic` marketing variables.
+   6. Map the `Impact` and `Factorial/Categorical` parameter for your `Contextual` marketing variables.
+   7. Map the `Impact` and `Factorial/Categorical` parameter for your `Halo` marketing variables.
 5. In the `Configure the model` tab.
    1. Select `Aggregation` type - Daily, Weekly, Monthly.
    2. Select `Date` range.
-   3. Enable/Disable Pre-configured contextual variables like `Seasonality, Weekdays, Holidays, Trends, Intercept` and mention the `Impact` (Positive, Negative, Neutral) based on the relation they have with your outcome KPI. (Intuition based)
+   3. Enable/Disable Pre-configured contextual variables like `Seasonality, Weekdays, Holidays, Trends, Intercept` and mention the `Impact` (Positive, Negative, Neutral) based on the relation they have with your outcome KPI. (based on domain/industry knowledge)
    4. Mention the Country, Currency, Refresh Frequency, and Training Size.
    5. Modify model hyper-parameters from Advanced settings (optional)
    6. Finally, selected `Create Model` to create a MMM model.
@@ -48,30 +49,15 @@ Marketing Mix Modeling (MMM) can account for a variety of variables that influen
 
 <br />
 
+Watch the <Anchor label="interactive demo" target="_blank" href="https://lifesight.storylane.io/share/2ckzf7dpatbk">interactive demo</Anchor> for a step by step guidance on creating a Model based on your requirements.
+
 ***
 
 <br />
 
-# Detailed steps to create a MMM model:
+# Guidelines for Model building
 
-## Step 1: Upload your data
-
-1. Navigate to the MMM module (Measure > MMM). Select `Create Model`.
-
-<Image align="center" src="https://files.readme.io/77a54c89feb02de0b14c483d373283733035c87801ab2c9940bf92745b99e5b2-creation.jpg" />
-
-<br />
-
-2. Name your model in the top-left section.
-3. There are two ways to create a model. Users can either:
-   1. Uploading the CSV file (View [MMM Schema template](https://docs.google.com/spreadsheets/d/1kNy-pcGCp6E4G1LbXIZBtB1YItGdD0LcWo3ScwE1wQw/edit?usp=sharing))
-   2. Use an integrated MMM Google sheet.
-
-<Image align="center" src="https://files.readme.io/ee5f7dc7ff334ce1508d06fe30f4c28ae8023aa01db3e27492b83c33904308f4-upload_data_mmm.jpg" />
-
-<br />
-
-### Upload data using CSV file
+### Uploading data using CSV file
 
 > 🚧 Before uploading CSV file some conditions must be checked.
 >
@@ -79,11 +65,11 @@ Marketing Mix Modeling (MMM) can account for a variety of variables that influen
 >
 > 2. No date should be missing.
 >
-> 3. All the independent variables like spends, impressions, clicks ,organic variables and contextual variables should be numeric. There should be no missing values.
+> 3. All the independent variables like spends, impressions, clicks, organic variables and contextual variables should be numeric. There should be no missing values.
 >
-> 4. Replace with 0 if any null values found. Some other method can also be used for null values but for now we can replace with 0.
+> 4. Replace null values with. 0, unless null values are treated using a different method.
 >
-> 5. None of the independent variables count should be 0. If the sum of the column is zero please drop that column before creation of model else error will be thrown.
+> 5. None of the independent variables count should be 0. If the sum of the column is zero please drop that column before creation of model, to avoid encountering an error.
 >
 > 6. Column headers should only contain alphanumeric characters and underscores.
 >
@@ -93,7 +79,7 @@ Marketing Mix Modeling (MMM) can account for a variety of variables that influen
 
 <br />
 
-### Upload data using Integrated method
+### Uploading data using Integrated method
 
 For the Integrated method, connect ad channels so that data can be pulled directly from the platform. The data connection pulls in ad Insights such as paid media variables data and KPI (Dependent variables) from Events table. To upload offline data, simply collect your data spends and KPIs in a Google sheet in CSV format and integrate the sheet.
 
@@ -111,7 +97,7 @@ Before using the Integration method, make sure you setup the [Google Sheets MMM 
 
 <br />
 
-## Step 2: Select Features (Schema Mapping)
+### Selecting Features (Schema Mapping)
 
 If you have uploaded a custom MMM dataset, map the schema by associating your input data with Lifesight's data types. If you are using integrated data, this step is unnecessary.
 
@@ -119,8 +105,8 @@ If you have uploaded a custom MMM dataset, map the schema by associating your in
 
 * Select data (name of the data column in your uploaded sheet), specify the aggregation type whether data in csv file is of daily, weekly or monthly type. Also select the start date.
 * Select the KPI (dependent variable) from the sheet. KPI can be revenue, orders, new customers, sales. Also map the datatype for your KPI.
-* Select the spends, impressions and clicks for various variables and map with the platform name. These(Spends, impressions, and clicks)  can be available at channel or tactic level.It all depends on which level you are building the model.
-* Select the organic and contextual variable ,specify it by selecting yes if it is of categorical type. We can also predefine the impact of these variables on  KPI as positive or negative(if you have an idea that these variables should have this impact on KPI) else mark it as neutral.
+* Select the spends, impressions and clicks for various variables and map with the platform name. These (Spends, impressions, and clicks)  can be available at channel or tactic level. It all depends on which level you are building the model.
+* Input organic and contextual variables, specify it by selecting yes if it is of categorical type. We can also predefine the impact of these variables on  KPI as positive or negative(if you have an idea that these variables should have this impact on KPI) else mark it as neutral.
 
 > 📘 Examples for selecting Impact:
 >
