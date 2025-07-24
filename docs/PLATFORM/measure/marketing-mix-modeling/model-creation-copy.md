@@ -42,7 +42,9 @@ If you are uploading a CSV file, it must meet the following conditions to preven
 >
 > Want to see it in action? Use the interactive demo below to guide you through each step of the model creation process.
 >
-> `[Placeholder for Interactive Demo]`
+> <Embed typeOfEmbed="iframe" url="https://lifesight.storylane.io/share/2ckzf7dpatbk" html="false" iframe="true" href="https://lifesight.storylane.io/share/2ckzf7dpatbk" height="600px" width="800px" />
+>
+>
 
 ***
 
