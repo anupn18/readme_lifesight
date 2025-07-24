@@ -11,180 +11,131 @@ next:
       title: MMM Overview
       type: basic
 ---
-Marketing Mix Modeling (MMM) can account for a variety of variables that influence marketing performance. These include media variables like TV, radio, digital ads, and social media spend, which capture the effect of different channels. MMM also considers external factors such as seasonality, economic conditions, and competitive activity. Additionally, it accounts for internal business factors like pricing, promotions, and product launches, as well as non-media variables like distribution and brand equity. This comprehensive analysis helps determine the contribution of each factor to sales or other KPIs.
+Before You Begin: Data Requirements\
+To ensure a successful model build, your data must be correctly prepared. You can provide data to the Lifesight platform through two methods:
 
-## View interactive demo
+Using Integrated Data\
+For a more automated workflow, you can connect your data sources directly to the platform. To do this, you must first set up the Google Sheets MMM data integration from the Integrations section in the Lifesight dashboard. Once your integration is active, choose Using Integrated data in the upload section to automatically pull all your input data from the connected sheet.
 
-<Embed typeOfEmbed="iframe" url="https://lifesight.storylane.io/share/2ckzf7dpatbk" html="false" iframe="true" href="https://lifesight.storylane.io/share/2ckzf7dpatbk" height="600px" width="800px" />
+[https://files.readme.io/4763a9b700e3f2e1db2a3a0494db28cb23a5a38a3312203440ca47a9bce5c528-integrations.jpg](https://files.readme.io/4763a9b700e3f2e1db2a3a0494db28cb23a5a38a3312203440ca47a9bce5c528-integrations.jpg)" width="700" alt="Integrations Screen"/>
 
-<br />
+Using a CSV File\
+If you are uploading a CSV file, it must meet the following conditions to prevent errors during the model creation process.
 
-# Steps to create a MMM model
+🚧 CSV Formatting Rules
 
-1. Navigate to the MMM module (Measure > Models). Select `Create Model`.
-2. Name your model in the top-left section.
-3. Upload data using CSV file ([template](https://docs.google.com/spreadsheets/d/17UgnDqvQyHz_3XFFa-DSHdk80fudK1mt9p7Stj-xhdI/edit?gid=1368124972#gid=1368124972)) or utilize**Integrated Data** and click `Next`
-4. In the `Features` tab:
-   1. Map your `Outcome KPI` to `Data type`.
-   2. Map your `Paid marketing spend` to a `Platform`
-   3. Map your `Paid marketing clicks` to a `Platform`.
-   4. Map your `Paid marketing impressions` to `Platform`.
-   5. Map the `Impact` and `Factorial/Categorical` parameter for your `Organic` marketing variables.
-   6. Map the `Impact` and `Factorial/Categorical` parameter for your `Contextual` marketing variables.
-   7. Map the `Impact` and `Factorial/Categorical` parameter for your `Halo` marketing variables.
-5. In the `Configure the model` tab.
-   1. Select `Aggregation` type - Daily, Weekly, Monthly.
-   2. Select `Date` range.
-   3. Enable/Disable Pre-configured contextual variables like `Seasonality, Weekdays, Holidays, Trends, Intercept` and mention the `Impact` (Positive, Negative, Neutral) based on the relation they have with your outcome KPI. (based on domain/industry knowledge)
-   4. Mention the Country, Currency, Refresh Frequency, and Training Size.
-   5. Modify model hyper-parameters from Advanced settings (optional)
-   6. Finally, selected `Create Model` to create a MMM model.
+* The file must include a
 
-> 📘 Advanced settings
->
-> Data & Marketing Scientists can modify model hyper parameters such as **Adstock and Saturation and Calibrate** MMM models from the Advanced setting dropdown in the bottom of the `Configuration` tab.
+Date column in yyyy-mm-dd format. Data can be aggregated daily, weekly, or monthly, but there should be no missing dates in the sequence.
 
-<br />
+* All marketing variables (spends, impressions, clicks) and contextual variables must be numeric.
 
-Watch the <Anchor label="interactive demo" target="_blank" href="https://lifesight.storylane.io/share/2ckzf7dpatbk">interactive demo</Anchor> for a step by step guidance on creating a Model based on your requirements.
+* There should be no empty or null values. Replace any nulls with
 
-***
+0. <br />
 
-<br />
+* No marketing variable column should have a sum of zero. If a column's total is zero, please remove it from the dataset before uploading.
 
-# Guidelines for Model building
+* Column headers must only contain alphanumeric characters and underscores (e.g.,
 
-### Uploading data using CSV file
+Facebook\_Spend, not Facebook Spend).
 
-> 🚧 Before uploading CSV file some conditions must be checked.
->
-> 1. Date should be in format [yyyy-mm-dd](http://yy-mm-dd.Date) Date can we daily, weekly or monthly. For weekly data it should start from sunday or monday.
->
-> 2. No date should be missing.
->
-> 3. All the independent variables like spends, impressions, clicks, organic variables and contextual variables should be numeric. There should be no missing values.
->
-> 4. Replace null values with. 0, unless null values are treated using a different method.
->
-> 5. None of the independent variables count should be 0. If the sum of the column is zero please drop that column before creation of model, to avoid encountering an error.
->
-> 6. Column headers should only contain alphanumeric characters and underscores.
->
-> 7. The heading should start with an alphabet only.
->
-> Note: Once the CSV file is ready you can just open in notepad or sublime to check there should be no string values. Sometimes string value gets created in the last rows of CSV file.
+* All column headers must begin with an alphabet character.
 
-<br />
+Interactive Demo\
+📘 View a step-by-step walkthrough
 
-### Uploading data using Integrated method
+Want to see it in action? Use the interactive demo below to guide you through each step of the model creation process.
 
-For the Integrated method, connect ad channels so that data can be pulled directly from the platform. The data connection pulls in ad Insights such as paid media variables data and KPI (Dependent variables) from Events table. To upload offline data, simply collect your data spends and KPIs in a Google sheet in CSV format and integrate the sheet.
+\[Placeholder for Interactive Demo]
 
-* Select the data type you are integrating. In this you need to select data type i.e whether mmm, cogs or custom\_costs. For marketing mix modelling , mmm needs to be selected.
-* Select how often the data needs to be refreshed.
-* Next, authenticate your google account to grant access to Lifesight to read data from Google workspace. Once the authentication is done Google Sheets is integrated and you can see Google Sheets MMM status change to "Active"
+Step 1: Initiate Model Creation and Upload Data\
+Navigate to the MMM module by selecting Measure > Models.
 
-<Image align="center" width="500px" src="https://files.readme.io/543ca39edcb99ddd96d07a96d037fe9da402bcd1d3fe6077f2895948f494ad20-image.png" />
+Click the Create Model button.
 
-<br />
+Enter a unique and descriptive name for your model in the top-left section.
 
-Before using the Integration method, make sure you setup the [Google Sheets MMM data integration](https://docs.lifesight.io/docs/google-sheets-mmm-data-integration) from the Integrations section in the Lifesight dashboard. Once your integration is active, choose "Using Integrated data" in the MMM upload data section to automatically pull all your input data from the integrated MMM data sheet.
+In the upload section, choose your data source:
 
-<Image align="center" src="https://files.readme.io/4763a9b700e3f2e1db2a3a0494db28cb23a5a38a3312203440ca47a9bce5c528-integrations.jpg" />
+Select Using Integrated data if you have configured the Google Sheets integration.
 
-<br />
+Select Upload a file to drag-and-drop or browse for your prepared CSV file.
 
-### Selecting Features (Schema Mapping)
+Click Next.
 
-If you have uploaded a custom MMM dataset, map the schema by associating your input data with Lifesight's data types. If you are using integrated data, this step is unnecessary.
+Step 2: Map Features (Schema Mapping)\
+In this step, you will associate the columns from your dataset with Lifesight's required data types. This is critical for ensuring the model interprets your data correctly.
 
-<Image align="center" src="https://files.readme.io/1ab05cf53e505ad1d25febbee3d4cc1cd911bf726857ab732855c96c41026ce1-feature.jpg" />
+Outcome KPI: Select the primary metric you want to measure, such as revenue, orders, or new\_customers. This is your model's dependent variable.
 
-* Select data (name of the data column in your uploaded sheet), specify the aggregation type whether data in csv file is of daily, weekly or monthly type. Also select the start date.
-* Select the KPI (dependent variable) from the sheet. KPI can be revenue, orders, new customers, sales. Also map the datatype for your KPI.
-* Select the spends, impressions and clicks for various variables and map with the platform name. These (Spends, impressions, and clicks)  can be available at channel or tactic level. It all depends on which level you are building the model.
-* Input organic and contextual variables, specify the data type of the variable. We can also predefine the impact of these variables on KPI as positive or negative (if you known the impact on KPI) else mark it as neutral.
+Paid Marketing Spend: Map the spend or cost columns for each paid media channel (e.g., Facebook\_Spend, Google Search\_Spend) to its corresponding Platform.
 
-> 📘 Examples for selecting Impact:
->
-> * Own brand promotions would have a positive impact for any ecommerce or retail brand while competitor promotions can have a negative impact.
-> * Holidays would have a positive impact for a consumer electronics business during holidays periods - Christmas, Thanksgiving, and New Years.
+Paid Marketing Clicks: Map the clicks columns for each channel to its Platform.
 
-<br />
+Paid Marketing Impressions: Map the impressions columns for each channel to its Platform.
 
-## Configuring a model
+Organic Variables: For non-paid channels like SEO\_Sessions or Direct\_Traffic, map the variable and define its expected Impact (Positive, Negative, or Neutral) on your outcome KPI.
 
-In the configuration page select the country, currency, training size, and hyperparameters for variables and calibration.
+Contextual Variables: For external factors like Competitor\_Promotions or Holiday\_Sales, map the variable and define its Impact.
 
-<Image align="center" src="https://files.readme.io/22d9348a42a491f74b8650ec992f9385a212817c2bb370c7ae965ca42f6c3c6c-config.jpg" />
+📘 What Impact Should I Choose?
 
-1. Select the aggregation type as Daily, Weekly, or Monthly based on your input data and choose the start date.
-2. Toggle Seasonality, Holidays, and Trends as ON/OFF.
-3. Choose your Country, Currency, Refresh frequency, and Training size.
+Positive: Select this if the variable is expected to increase your Outcome KPI. Example: Your own brand's promotional events.
 
-> 📘 Note
->
-> #### Pre-configured Contextual Variables
->
-> Mentioning the impact of these variables helps guide the model on the impact of Seasonality, Holidays, Trends, Intercept on outcome KPIs. The Impact could either be Positive, Negative, or Neutral.
->
-> #### Country, Currency, and Refresh frequency
->
-> * Country - Selecting a country helps the model account for holidays and other country specific data that could improve model accuracy
-> * Currency - Selecting a currency helps show all spends and revenue in the currency of your choice.
-> * Refresh frequency - Select the refresh frequency to keep your model updated in real-time.
->
-> #### Training Size
->
-> Lower bound and Upper bound instruct the model on what percentage of MMM input data to use for training the model. The excluded data from the MMM training process can be used for backtesting and validation to check the model accuracy using real-world data.
->
-> *Example: Lower bound = 0.85; Upper bound = 0.9 - This means the model uses 85-90% of input data for training purposes.*
+Negative: Select this if the variable is expected to decrease your Outcome KPI. Example: A major competitor's promotional campaign.
 
-<br />
+Neutral: Select this if you are unsure or want the model to determine the effect without guidance.
 
-### For advanced users (data/marketing science teams)
+Step 3: Configure Model Settings\
+Here, you will set the core parameters for your model's analysis.
 
-Modify adstock, and saturation for every channel. Also, calibrate your model through experiment results.
+Aggregation: Select Daily, Weekly, or Monthly to match the aggregation of your input data.
 
-<Image align="center" src="https://files.readme.io/cfdd1615de9311232f64a5cc8d8c3db4e5995454ea4725f2afe88ab8a88031d0-advanced.jpg" />
+Date Range: Confirm the start and end dates for the model's analysis.
 
-1. Adjust the adstock transformation for every channel. Choose between 2 types of methods.
-   1. Geometric OR
-   2. Flexible (Weibull PDF)
+Pre-configured Variables: Enable or disable contextual factors like Seasonality, Weekdays, Holidays, and Trends. It is highly recommended to keep these enabled to improve model accuracy.
 
-*Note: We recommend selecting "Flexible" as Geometric is a subset of Weibull PDF type for transformation. Lifesight automatically recommends a range for hyperparameters for both linear and flexible adstock transformation.*
+Country & Currency: Select your primary country of operation and reporting currency. Selecting a country helps the model automatically account for national holidays.
 
-2. Adjust the Saturation level for every channel
-3. Enter Calibration metrics at the bottom of the Configuration tab, only if you have run successful Experiments, else leave it empty. This helps calibrate your MMM model with new insights by adjusting the contribution and incrementality factor for all your channels based on the calibration insights.
+Refresh Frequency: Choose how often you want your model to be updated with new data.
 
-![](https://files.readme.io/cab993174f039fc6179208e08b5bb706604f65743894f5c6e6f0cedeba35d09e-image.png)
+Training Size: Specify the percentage of data to be used for training (e.g., 85%). The remaining data will be used for validation to test the model's accuracy.
 
-<br />
+Step 4: (Optional) Apply Advanced Settings & Calibration\
+This section allows data scientists and advanced users to fine-tune the model's underlying parameters.
 
-> 📘 Note
->
-> In first run of the model we can use the suggested range of hyperparameters and subsequently in next trial we can change the range if needed (if you have the knowledge that for particular channel the range should be something else but it should be under certain range as defined).
->
-> For Calibration select from the platform for what particular channel you want to calibrate. Specify the date(start and end date), spend done on that time period, incremental and confidence level.
+Adstock and Saturation\
+For each marketing channel, you can modify its Adstock and Saturation settings.
 
-<br />
+Adstock: This accounts for the delayed or carryover effect of advertising. You can choose between two transformation methods:
 
-## Step 4: Calibrate your model
+Geometric: A simple decay model.
 
-The Calibration tab allows users to enhance their models by incorporating historical observations or experimental results into the model. This calibration process improves the accuracy and quality of insights generated by the model. Enter your channel, spend, incremental lift, and a confidence score to train your model.
+Flexible (Weibull PDF): A more versatile method that can model more complex decay patterns. We recommend using Flexible.
 
-> 🚧 If you want run a new experiment and calibrate your model, you can select the Re-calibrate button in the MMM model tab to add your new experiment insights.
+Saturation: This models the point of diminishing returns, where additional spend on a channel stops yielding proportional increases in your KPI.
 
-<Image align="center" src="https://files.readme.io/fe47c4c72ad1a26897d746fbf5062807319af65d020314eba3c55520dbac9942-calibrtae.jpg" />
+Calibrate Your Model\
+If you have run marketing experiments (e.g., lift studies, geo-tests), you can use the results to calibrate your MMM. This process anchors the model's results to real-world observations, significantly improving its accuracy.
 
-## Step 5: Finally, select "Create Model"
+To add a calibration insight:
 
-Once you select `Create model` your Model status changes to "Under training". It typically takes about 1 hour to create a model and get insights.
+Click Add Calibration.
 
-Once the model has run successfully the status changes to "Success".
+Select the Platform (channel) the experiment was run on.
 
-<Image align="center" src="https://files.readme.io/80dd6ce3f0da5c4cc8ace65d6b88738cb0b2484eff32e469616a47f885e60889-training.jpg" />
+Specify the Start and End Date of the experiment.
 
-<br />
+Enter the total Spend for that period.
 
-Once you've successfully created a model, it's time to uncover the insights your model generated in the MMM Overview tab.
+Input the observed Incremental lift and the Confidence Level of your experiment's result.
+
+Step 5: Create and Run Your Model\
+Once you have reviewed your configuration:
+
+Click the Create Model button at the bottom of the page.
+
+The model's status will change to "In progress". You will be notified once the model has run successfully and the status changes to "Success".
+
+After your model is created, you can navigate to the MMM Overview tab to uncover insights and analyze your results.
