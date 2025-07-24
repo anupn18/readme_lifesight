@@ -8,10 +8,6 @@ hidden: false
 metadata:
   robots: index
 ---
-## Channel Deep Dive
-
-### Overview
-
 The **Channel Deep Dive** tab provides a granular view of an individual marketing channel's or tactic's performance within your Marketing Mix Model. Use this page to understand how a channel contributes to the model's output KPI — typically Revenue, orders, or Installs — to analyze its spend efficiency, detect anomalies, and discover optimization opportunities.
 
 ### Accessing the Channel Deep Dive
