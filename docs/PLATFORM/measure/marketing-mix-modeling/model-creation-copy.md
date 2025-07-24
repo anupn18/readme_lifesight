@@ -64,6 +64,8 @@ If you are uploading a CSV file, it must meet the following conditions to preven
 
 In this step, you will associate the columns from your dataset with Lifesight's required data types. This is critical for ensuring the model interprets your data correctly.
 
+<Image align="center" src="https://files.readme.io/f72266d482a5328f29280cbcec3c629a6016ef9c4b09be5bc212874b5c881e4f-Model_creation_-_Feature_selection_page.png" />
+
 * **Outcome KPI**: Select the primary metric you want to measure, such as `revenue`, `orders`, or `new_customers`. This is your model's dependent variable.
 * **Paid Marketing Spend**: Map the spend or cost columns for each paid media channel (e.g., `Facebook_Spend`, `Google Search_Spend`) to its corresponding **Platform**.
 * **Paid Marketing Clicks**: Map the clicks columns for each channel to its **Platform**.
@@ -111,7 +113,7 @@ If you have run marketing experiments (e.g., lift studies, geo-tests), you can u
 
 To add a calibration insight:
 
-1. Click **Add Calibration**.
+1. Click **Add Calibration**
 2. Select the **channel**  the experiment was run on.
 3. Specify the **Start and End Date** of the experiment.
 4. Enter the total **Spend** for that period.
