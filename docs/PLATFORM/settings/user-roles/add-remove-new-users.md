@@ -55,7 +55,7 @@ Once you have configured your workspace, invite your teammates to work on analyz
 
 > ❗️ The signup link expires in 6 hours
 >
-> The admin will have resend an invite to the same user again through the [invite process](https://docs.lifesight.io/docs/add-remove-new-users#add-a-new-user)
+> If an invitee's signup link expires, an admin can resend the invitation. Go to the **Expired** section of the **Users** tab, open the menu next to the invitee's email, and select **Resend**.
 
 ***
 
