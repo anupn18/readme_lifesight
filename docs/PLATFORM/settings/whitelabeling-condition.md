@@ -22,7 +22,7 @@ To begin, you need to add an A record to your DNS settings. This will enable the
 * **Type:** A
 * **Value:** `35.208.92.49`
 
-## **Step 2: Provide Required Information - Agency Logo, Sign Up Page Image, Privacy Policy and Terms of Service Documents**
+## **Step 2: Provide Required Information - Agency Logo, Sign In Page Image, Privacy Policy and Terms of Service Documents**
 
 We need some specific information from your agency to complete the onboarding process. Please gather and send us the following:
 
@@ -84,6 +84,7 @@ Lifesight offers several integration options through built-in connectors and app
 * Hubspot
 * Google DV360
 * Judge.me
+* Outbrain
 
 These connectors facilitate seamless integration with various platforms and since these applications require building, testing and thorough review processes, these cannot be white labeled.
 
