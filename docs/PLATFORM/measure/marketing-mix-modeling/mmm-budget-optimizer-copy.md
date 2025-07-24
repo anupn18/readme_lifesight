@@ -33,6 +33,8 @@ You can navigate to the Channel Deep Dive for a specific channel in two ways:
 
 This section provides a quick snapshot of the channel's aggregate performance over the selected timeframe of data
 
+<Image align="center" src="https://files.readme.io/de65979d5cf86bb0b4e0ac6d3c92388684f6a28b0dae4808032175fe27dafae7-ScreenShot_Tool_-20250725000516.png" />
+
 * **Incremental Output KPI**: The total incremental impact (e.g., Revenue, Orders, Installs) attributed to Channel or Tactic by the model.
 * **Spend**: The total amount spent on the channel during the selected period.
 * **Impressions & Clicks**: The total volume of impressions and clicks registered for this channel.
@@ -43,6 +45,8 @@ This section provides a quick snapshot of the channel's aggregate performance ov
 
 This chart displays the relationship between your spend on the selected Channel and the attributed output KPI over time. It allows you to visualize trends, seasonality, and the immediate impact of spending changes on performance.
 
+<Image align="center" src="https://files.readme.io/8275dce7362de4f02f70710d597a369e8cac01d77f71c3975e4c01e24c09df43-ScreenShot_Tool_-20250724235907.png" />
+
 Use this chart to see if peaks in your spending correspond with peaks in your output KPI.
 
 <br />
@@ -51,12 +55,18 @@ Use this chart to see if peaks in your spending correspond with peaks in your ou
 
 The Outliers table automatically flags data points where spending was unusually high or low compared to the channel's typical behavior. This helps you quickly identify and investigate potential data errors or significant one-off events.
 
+<Image align="center" src="https://files.readme.io/00cb276a3d11bca6a549391f27e54cae95806581ebae93ea520e6cce88f2b412-ScreenShot_Tool_-20250724235934.png" />
+
+<br />
+
 > **How Outliers are Calculated**\
-> A data point is flagged as an outlier if its spend is **1.6 times greater than the Interquartile Range (IQR)** of the channel's spend for the selected period. This statistical measure helps to reliably identify significant deviations from the norm.
+> A data point is flagged as an outlier if its spend is **1.5 times greater than the Interquartile Range (IQR)** of the channel's spend for the selected period. This statistical measure helps to reliably identify significant deviations from the norm.
 
 ### Spend vs. Shifted Revenue
 
 This chart is a powerful tool for understanding the efficiency and saturation point of your channel's spend. It groups your spending into buckets and shows the resulting revenue and frequency for each.
+
+<Image align="center" src="https://files.readme.io/86878f8f3de0d69fff82079e4ffa6da869db340373536b3f923a93c30eb0bcdd-ScreenShot_Tool_-20250725002140.png" />
 
 **How to Interpret this Chart:**
 
