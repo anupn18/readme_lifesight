@@ -1,6 +1,6 @@
 ---
 title: Model creation (COPY)
-excerpt: Create your first MMM model in minutes and get incremental insights
+excerpt: Create your first Mix Model in minutes and get incremental insights
 deprecated: false
 hidden: true
 metadata:
@@ -85,6 +85,8 @@ In this step, you will associate the columns from your dataset with Lifesight's 
 
 Here, you will set the core parameters for your model's analysis.
 
+<Image align="center" src="https://files.readme.io/1906821f2aa1362a67ba194e344637ae82f0e4a4218bef183c27dc722c3c17cf-ScreenShot_Tool_-20250724194716.png" />
+
 1. **Aggregation**: Select **Daily**, **Weekly**, or **Monthly** to match the aggregation of your input data.
 2. **Date Range**: Confirm the start and end dates for the model's analysis.
 3. **Pre-configured Variables**: Enable or disable contextual factors like **Seasonality**, **Weekdays**, **Holidays**, and **Trends**. It is highly recommended to keep these enabled to improve model accuracy.
@@ -94,7 +96,7 @@ Here, you will set the core parameters for your model's analysis.
 
 ***
 
-## Step 4: Apply Advanced Settings & Calibration
+## Step 4: Apply Advanced Settings
 
 > 👍 This section allows data scientists and advanced users to fine-tune the model's underlying parameters.
 
@@ -102,14 +104,41 @@ Here, you will set the core parameters for your model's analysis.
 
 For each marketing channel, you can modify its **Adstock** and **Saturation** settings.
 
+<Image align="center" src="https://files.readme.io/f15e689bb2ec794de42fa8c4862c790bf813b936127f75422ff638992d607c06-ScreenShot_Tool_-20250724195223.png" />
+
+<br />
+
 * **Adstock**: This accounts for the delayed or carryover effect of advertising. You can choose between two transformation methods:
   * **Geometric**: A simple decay model.
   * **Flexible (Weibull PDF)**: A more versatile method that can model more complex decay patterns. We recommend using **Flexible**.
 * **Saturation**: This models the point of diminishing returns, where additional spend on a channel stops yielding proportional increases in your KPI.
 
-### Calibrate Your Model
+## Step 5: Define Relationships
 
-If you have run marketing experiments (e.g., lift studies, geo-tests), you can use the results to calibrate your MMM. This process anchors the model's results to real-world observations, significantly improving its accuracy.
+This step is for establishing the causal links between all your input variables (causes) and your outcome KPI (effect). The relationships you define here guide the model in understanding how different factors influence each other and the final result.
+
+<Image align="center" src="https://files.readme.io/9e399d6d44de9d561d3f6751db57e6bd2339fdb71567025d0d64e13a31280d79-ScreenShot_Tool_-20250724195645.png" />
+
+On this screen, you will see two main sections: the **Relationships** table on the left and a visual **Preview** map on the right.
+
+1. **Review the Relationship Pairs**: In the table on the left, review each row, which represents a potential relationship between a **Cause** variable (like `facebook_spend`) and an **Effect** variable (like `Orders`).
+
+2. **Select a Relationship Type**: For each pair, choose one of the three relationship types from the dropdown menu:
+   * **Potential (Direct)**: Select this if you believe the **Cause** variable directly influences the **Effect** variable. For example, the relationship between `Direct` traffic and `Orders` is set as a direct one.
+   * **Potential (Indirect)**: Select this if the **Cause** is likely to influence the **Effect** through an intermediate variable.
+   * **Forbidden**: This is the default for most pairs and indicates that there is no direct causal link between the two variables. For example, `Direct` traffic does not cause `facebook_spend`, so their relationship is forbidden.
+
+3. **Use the Visual Preview**: The graph on the right provides a real-time visualization of the relationships you are defining. Use this map to confirm that the connections and pathways make logical sense. The nodes are color-coded, and the arrows show the direction of influence.
+
+4. **Proceed to the Next Step**: Once you have reviewed and adjusted all the relationships to your satisfaction, click **`Next`** to proceed to the **Calibration** step.
+
+<br />
+
+## Step 6: Calibrate Your Model
+
+If you have run any recent marketing experiments (e.g., lift studies, geo-tests), you can use the results to calibrate your MMM. This process anchors the model's results to real-world observations, significantly improving its accuracy.
+
+<Image align="center" src="https://files.readme.io/0052b0bedd9037e51b89b79f1984711d8b0c10f828d961c6bc26039fcdfe4f7a-ScreenShot_Tool_-20250724201607.png" />
 
 To add a calibration insight:
 
