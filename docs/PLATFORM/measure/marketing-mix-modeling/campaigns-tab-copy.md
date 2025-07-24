@@ -1,5 +1,5 @@
 ---
-title: Campaigns tab (COPY)
+title: Campaigns tab
 excerpt: Understanding the MMM Campaigns Tab
 deprecated: false
 hidden: false
