@@ -1,8 +1,8 @@
 ---
-title: Model creation
+title: Model creation (old)
 excerpt: Create your first MMM model in minutes and get incremental insights
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
