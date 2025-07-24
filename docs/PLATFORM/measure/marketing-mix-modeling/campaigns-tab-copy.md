@@ -17,6 +17,8 @@ At the top of the page, you have two primary filters to refine the data shown in
 
 <Image align="center" src="https://files.readme.io/de45f79804e49f7f2394a7722eb2547dd43754493d44db6d90687932744b8d1c-ScreenShot_Tool_-20250725002507.png" />
 
+<br />
+
 ### Interpreting the Campaign Insights Table
 
 This table is the core of the Campaigns tab, breaking down the performance of each campaign according to the model.
@@ -26,7 +28,11 @@ This table is the core of the Campaigns tab, breaking down the performance of ea
 * **Campaign**: This is the name of the campaign as it appears in the source platform (e.g., "gales-videos-a2f-lat\_leads\_l...").
 * **Tactic**: This is a powerful, user-defined dimension that allows you to group similar campaigns for analysis. As seen in the screenshot, this is commonly used to classify campaigns by their strategic purpose or funnel stage (e.g., `Google BOF`, `Meta MOF`, `Meta TOF`). This is configured by setting up rules in the **Configurations > Mapper** section of the Lifesight platform.
 
+<br />
+
 <Image align="center" src="https://files.readme.io/f9e3bef71419af46e01bfbb316d82e8b3940cd6e8ac2b11a8af5541663db7c15-ScreenShot_Tool_-20250725011315.png" />
+
+<br />
 
 #### Input Metrics
 
@@ -42,6 +48,8 @@ These columns represent the raw input data that is fed into the model for each c
 >
 > * **Platform Metrics (p)**: Represents the outcomes reported directly by the advertising platform's native tracking (e.g., your Meta Pixel or Google Ads tag). This is what the platform ***claims*** the campaign achieved, but it often ignores offline activities and external factors, resulting in an incomplete view.
 > * **Incremental Metrics (i)**: This is the most important metric for measurement. It represents the outcomes that the MMM model has determined happened ***only because*** the campaign ran. It is the true, additional value your marketing delivered, creating a more accurate, granular, and holistic estimate.
+
+<br />
 
 #### Platform Outcomes (`pOrders` & `pCPA`)
 
