@@ -1,8 +1,6 @@
 ---
 title: Overview tab
-excerpt: >-
-  Analyze your MMM metrics summary, platform spends vs KPI graph, MMM model
-  input data, and correlation matrix from your MMM model.
+excerpt: Getting a glimpse of your Mix Model
 deprecated: false
 hidden: false
 metadata:
