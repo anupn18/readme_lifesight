@@ -2,7 +2,7 @@
 title: Model creation (COPY)
 excerpt: Create your first MMM model in minutes and get incremental insights
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 next:
