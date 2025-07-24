@@ -1,8 +1,8 @@
 ---
-title: Model creation (COPY)
+title: Model creation
 excerpt: Create your first Mix Model in minutes and get incremental insights
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 next:
