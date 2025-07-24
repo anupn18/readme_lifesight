@@ -150,7 +150,7 @@ To add a calibration insight:
 
 ***
 
-## Step 5: Create and Run Your Model
+## Step 7: Create and Run Your Model
 
 Once you have reviewed your configuration:
 
