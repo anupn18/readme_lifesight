@@ -1,15 +1,11 @@
 ---
 title: Merging Models
-excerpt: >-
-  Modify input data, model parameters, and relationships to create a new model
-  from an existing model
+excerpt: Unify models for a single truth
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-## Merging Marketing Mix Models
-
 The Lifesight UMM Platform allows you to combine multiple Marketing Mix Models (MMMs) into a single, unified view. This process, known as Model Merging, is a powerful feature that helps you create a holistic and comprehensive understanding of your marketing performance across different business units, regions, or product lines.
 
 ### Why Merge Models?
