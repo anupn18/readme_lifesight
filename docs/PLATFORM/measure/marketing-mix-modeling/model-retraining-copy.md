@@ -1,5 +1,5 @@
 ---
-title: Model Retraining (COPY)
+title: Merging Models
 excerpt: >-
   Modify input data, model parameters, and relationships to create a new model
   from an existing model
@@ -8,51 +8,76 @@ hidden: false
 metadata:
   robots: index
 ---
-## How to perform a model retraining
+## Merging Marketing Mix Models
 
-<Image align="center" src="https://files.readme.io/3fc8078846a248e70434eccf53391841fcb970939ae5382d33af8d091403aba1-reconfig.jpg" />
+The Lifesight UMM Platform allows you to combine multiple Marketing Mix Models (MMMs) into a single, unified view. This process, known as Model Merging, is a powerful feature that helps you create a holistic and comprehensive understanding of your marketing performance across different business units, regions, or product lines.
 
-1. Navigate to the model you want to Retrain from the MMM page.
-2. Click the ‘Retrain’ button on the top right corner.
-3. Follow the same process as creating a new model [creating a new model](https://docs.lifesight.io/update/docs/model-creation#/)
-4. Click on ‘Finish’.
-5. A new model is created with the status "Training in Progress" in the MMM dashboard.
-6. Once the Refresh is completed, the status changes to "Success" in the MMM dashboard.
+### Why Merge Models?
 
-<Image align="center" src="https://files.readme.io/d9ced717fec1fc08d10c7539d5d104da98cee69a70a98c429e8168cd3e2b01e3-resfresh_status.jpg" />
+Traditional marketing measurement often operates in silos, where different models provide separate, and sometimes conflicting, insights. By merging models, you can:
 
-***
+* **Create a Single Source of Truth:** Unify disparate datasets and methodologies to create a single, reliable framework for actionable steering.
+* **Achieve a Holistic View:** Combine insights from various channels, like on- and offline activities, to understand their cross-channel impact and interaction effects.
+* **Enhance Accuracy:** Blend data at a technical level rather than just comparing high-level insights. This leads to more accurate, granular, and unbiased performance estimates.
+* **Improve Budget Allocation:** Make more informed and effective budget decisions based on a comprehensive view of performance, which can lead to a significant increase in sales uplift.
+* **Save Time and Resources:** Merging existing, validated models is significantly faster than building a single, complex model from scratch that includes all the same features and predictor variables.
 
-## How It Works
+### Prerequisites for Merging
 
-* Our refresh function takes an existing model as a starting point and updates it using new data.
-* Key aspects of this process include:
-  * **Hyperparameter Adjustment:** The model's settings (hyperparameters) are refined based on the proportion of new data to the total dataset. This helps the model adapt to changes in the market.
-  * **Objective Function Optimization:** The model is optimized using a combination of metrics to balance accuracy and stability.
-  * **Baseline Stability:** The refreshed model aims to maintain a similar baseline to the original model, ensuring consistent performance.
-  * **Media Spend Reflection:** The updated model should accurately capture the impact of media spending changes in the new data period.
+Before you begin, please ensure the following conditions are met:
 
-**Note:** You can find more about the Refresh Methodology [here](https://docs.lifesight.io/docs/mmm-refresh).
+* **Successful Models:** All models selected for merging must have a `Success` status. The platform will not allow you to merge models that are in progress, have failed, or are still being processed.
+* **Compatible KPIs:** All models selected for merging **must** share the same `Outcome/KPI`. This is a mandatory requirement. The platform will not allow you to merge models with different KPIs, as this would produce an invalid analysis.
 
-## When to Create a New Model
+> ❗️ Model Selection Precondition
+>
+> A shared KPI is a mandatory requirement for merging models. Before starting, ensure all models you intend to combine are aligned to the same, agreed-upon KPI. This ensures the validity and accuracy of the resulting unified model.
 
-### Model Stability
+<br />
 
-* **Consistent Spending:** If your media spend remains relatively stable over a period, a model refresh might provide similar insights to the previous model. However, regular refreshes are still recommended to account for market fluctuations and potential model drift.
+### How to Merge Models: A Step-by-Step Guide
 
-### Model Adoption
+Follow these steps to merge your Marketing Mix Models.
 
-* **Significant Spending Changes:** If you've made substantial changes to your spending across channels, the model's insights might deviate from previous findings. In such cases, building a new model might be necessary.
-* **Market Changes:** Major shifts in the market, such as economic downturns, new competitors, or changes in consumer behavior, can necessitate model updates to maintain accuracy.
-* **Product Launches or Changes:** Introducing new products or making significant changes to existing ones can affect sales and require model adjustments.
-* **Media Channel Changes:** Adding or removing media channels, or making significant changes to channel strategies, can impact model performance.
+#### Step 1: Navigate to the Marketing Mix Models Page
 
-## Determining the Need for a New Model
+From the main navigation menu, select "Marketing Mix Models" to view the list of all available models in your account.
 
-To determine if a new model is necessary, consider the following factors:
+#### Step 2: Initiate the Merge Action
 
-* **Model Drift:** Model drift occurs when the underlying patterns in the data that a model was trained on begin to shift over time. This can lead to a decline in the model's predictive accuracy. To mitigate this, we incorporate a drift detection algorithm that continuously monitors the model's performance against new data. If significant drift is detected, the platform suggests creating a new model.
-* **Alignment of Insights and Business Objectives:**
-  * Introducing new products, exploring fresh marketing channels, or shifting business priorities can render existing models outdated. To maintain accuracy, models must adapt to these changes.
-  * New product launches, for instance, require incorporating fresh data to capture their impact. Similarly, spending on novel marketing channels necessitates model updates to accurately assess their effectiveness.
-  * By continuously evaluating a model's alignment with business goals and making necessary adjustments, organizations can ensure data-driven decisions remain relevant and impactful.
+In the top-right corner of the page, click the **`Merge Model`** button.
+
+<Image align="center" src="https://files.readme.io/4c8527ddf24a2fd71bf4321471b9ccbf3b4f25874edf0d4bfcec4024d1150bfa-ScreenShot_Tool_-20250725082626.png" />
+
+#### Step 3: Select and Name Your New Model
+
+A modal window titled "Merge Models" will appear. Here, you will configure your new unified model:
+
+1. **Name:** Provide a descriptive name for your new merged model in the "Name" field.
+2. **Select Models:** Use the checkboxes to select two or more models from the list that you wish to combine. You can use the search bar to quickly find specific models.
+3. **Confirm:** Once you have named your new model and selected the models to merge, click the **`Confirm`** button.
+
+<br />
+
+<Image align="center" src="https://files.readme.io/9cd837cbd2b81cd25e983b6aa39696f72d110c56f8602363dc701d586d6be43e-ScreenShot_Tool_-20250725082825.png" />
+
+#### Step 4: Monitor the Merging Process
+
+After you confirm, the platform will begin the merging process. You can monitor its status from the main "Marketing Mix Models" list:
+
+* **`Merge In Progress`**: This status indicates that the platform is actively combining the models. This process may take some time depending on the size and complexity of the models selected.
+* **`Merge Success`**: This status confirms that the models have been successfully unified. Your new model is now complete and ready for analysis.
+
+<br />
+
+<Image align="center" src="https://files.readme.io/b34f3010b47042754decda01f0f30fd0e80a33ae51a254a74a2014d65263a38a-ScreenShot_Tool_-20250725082849.png" />
+
+> ⚠️ What if a Merge Fails?
+>
+> If the status shows `Merge Failed`, it indicates an issue during the process. Please verify that all selected models met the prerequisites, especially the requirement for a shared KPI. If the issue persists, contact our support team for assistance.
+
+### Best Practices for Model Merging
+
+* **Start with a Clear Goal:** Define what you want to achieve by merging models. Are you trying to get a complete view of digital and retail sales? Or understand performance across different countries? A clear objective will guide your model selection.
+* **Maintain Data Consistency:** For the most accurate results, ensure that the underlying data, such as date ranges and event definitions, is consistent across the models you plan to merge.
+* **Iterate and Learn:** Model merging is part of a continuous learning process. Use the insights from your merged models to refine your strategies, and use those learnings as a basis for new prior beliefs in future analyses.
