@@ -1,6 +1,8 @@
 ---
-title: MMM input schema (COPY)
-excerpt: Schema to input all variables into your MMM model
+title: Profit & Cost Settings
+excerpt: >-
+  Define your core financial inputs to unlock true, channel-level profit
+  reporting in the UMM platform.
 deprecated: false
 hidden: false
 metadata:
