@@ -16,7 +16,7 @@ Geo Experiments allow you to test changes in marketing strategies across geograp
 
 <br />
 
-<Embed typeOfEmbed="iframe" url="https://lifesight.storylane.io/share/uwyisucnnpa9" html="false" iframe="true" href="https://lifesight.storylane.io/share/uwyisucnnpa9" height="600px" width="800px" />
+<Embed typeOfEmbed="iframe" url="https://lifesight.storylane.io/demo/uwyisucnnpa9?embed=inline" html="false" iframe="true" href="https://lifesight.storylane.io/demo/uwyisucnnpa9?embed=inline" height="600px" width="800px" />
 
 <br />
 
