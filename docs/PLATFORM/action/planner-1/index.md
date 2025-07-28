@@ -36,9 +36,9 @@ The next step after model creation is to create a plan. Once the model is finali
 
 This lets you organize plans to keep the most relevant ones in your dashboard.
 
-### To Archive a model
+### To Archive a plan
 
-Select the Options icon on the right of a model in the dashboard to view the `Archive` option.
+Select the Options icon on the right of a plan in the dashboard to view the `Archive` option.
 
 ![](https://files.readme.io/509f99fc2210c75ef70e751dfe02c8bd1136cdb8c7e2d92bd248a2bbd7a49e23-image.png)
 
