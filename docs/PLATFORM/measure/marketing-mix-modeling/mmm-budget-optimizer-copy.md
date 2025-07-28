@@ -21,7 +21,7 @@ You can navigate to the Channel Deep Dive for a specific channel in two ways:
 
 #### View Interactive Demo
 
-<Embed typeOfEmbed="iframe" url="https://lifesight.storylane.io/share/j7ievh1jxxoa" html="false" iframe="true" href="https://lifesight.storylane.io/share/j7ievh1jxxoa" width="800px" height="600px" />
+<Embed typeOfEmbed="iframe" url="https://lifesight.storylane.io/demo/j7ievh1jxxoa?embed=inline" html="false" iframe="true" href="https://lifesight.storylane.io/demo/j7ievh1jxxoa?embed=inline" width="800px" height="600px" />
 
 <br />
 
