@@ -1,6 +1,6 @@
 ---
-title: MMM input schema (COPY)
-excerpt: Schema to input all variables into your MMM model
+title: Input CSV file format
+excerpt: 'Data Validation & Formatting rules for CSV upload '
 deprecated: false
 hidden: false
 metadata:
@@ -14,14 +14,14 @@ High-quality input data is crucial for MMM to produce accurate and actionable re
 
 <br />
 
-## [MMM schema template](https://docs.google.com/spreadsheets/d/17UgnDqvQyHz_3XFFa-DSHdk80fudK1mt9p7Stj-xhdI/edit?gid=1915444742#gid=1915444742)
+## [MMM CSV sample template](https://docs.google.com/spreadsheets/d/17UgnDqvQyHz_3XFFa-DSHdk80fudK1mt9p7Stj-xhdI/edit?gid=1915444742#gid=1915444742)
 
 **Mandatory Attributes for the MMM model**\
 The header line of the input file must include attribute names, customizable according to business preferences. The essential attributes for MMM include:
 
 * Date (yyyy-mm-dd)
-* Dependent Variable  : Revenue, conversions, etc.
-* Paid Media Variables :  TV spend, Google spend, etc.
+* Output KPI: Revenue, Installs, conversions, etc.
+* Paid Media Variables:  TV spend, Google spend, etc.
 
 <br />
 
@@ -45,7 +45,9 @@ The header line of the input file must include attribute names, customizable acc
       </td>
 
       <td>
-        * Newsletters clicks/opens - Push notifications clicks/opens - Competitor marketing  - Product releases true/false - Price changes  - Social media posts click/impression - Content impression/reach
+        * Newsletters - clicks/opens
+        * Push notifications - clicks/opens
+        * Competitor marketing activities - Product releases, price changes, Social media posts click/impression - Content impression/reach
       </td>
     </tr>
 
