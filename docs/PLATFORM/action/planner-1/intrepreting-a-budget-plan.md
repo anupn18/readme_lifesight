@@ -1,5 +1,8 @@
 ---
 title: Intrepreting a Budget Plan
+excerpt: >-
+  Generating multiple Scenarios, understanding Recommendations and leveraging
+  Budget Worksheet
 deprecated: false
 hidden: true
 metadata:
