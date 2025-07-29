@@ -11,7 +11,7 @@ next:
       title: MMM Overview
       type: basic
 ---
-## Before You Begin: Data Requirements
+## Data Requirements
 
 To ensure a successful model build, your data must be correctly prepared. You can provide data to the Lifesight platform through two methods:
 
@@ -40,7 +40,7 @@ If you are uploading a CSV file, it must meet the following conditions to preven
 
 > 📘 View a step-by-step walkthrough
 >
-> Want to see it in action? Use the interactive demo below to guide you through each step of the model creation process.
+> Use the interactive demo below to guide you through each step of the model creation process
 >
 > <Embed typeOfEmbed="iframe" url="https://lifesight.storylane.io/demo/2ckzf7dpatbk?embed=inline" html="false" iframe="true" href="https://lifesight.storylane.io/demo/2ckzf7dpatbk?embed=inline" height="600px" width="750px" />
 
