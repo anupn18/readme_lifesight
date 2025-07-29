@@ -66,6 +66,8 @@ This chart is a powerful tool for understanding the efficiency and saturation po
 
 <Image align="center" src="https://files.readme.io/86878f8f3de0d69fff82079e4ffa6da869db340373536b3f923a93c30eb0bcdd-ScreenShot_Tool_-20250725002140.png" />
 
+<br />
+
 **How to Interpret this Chart:**
 
 * **X-Axis (Spend Buckets)**: Your historical spending is grouped into ranges (e.g., `$10.7K - $22.3K`).
