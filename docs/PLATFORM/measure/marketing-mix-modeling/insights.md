@@ -36,6 +36,8 @@ The Insights tab is designed to help you analyse and understand the performance 
   **Total Incremental ROAS = Total Incremental revenue / Total Spend**
 * **`Immediate vs Carryover`**: This metric represents the percentage split of your ad spend between Immediate & Carryover.  The Immediate value represents the percentage of total spend that resulted in an immediate impact. A higher value indicates quicker returns from ad spend. Whereas the Carryover value represents the percentage of total spend that contributes to long-term effects over time. A higher value suggests sustained impact beyond the initial period.
 
+<Image align="center" src="https://files.readme.io/63102e830cc7de91be228a503dd363c58a988039e153f6ad18e281d3ccd74985-Model_Insights_page.png" />
+
 ## Metric Comparison Chart
 
 The Metric Comparison Chart is a powerful visualization tool that allows you to plot and compare any two key metrics from your MMM model on a single timeline. This flexibility is crucial for uncovering deeper insights and understanding the complex relationships between different aspects of your marketing performance. Instead of viewing metrics in isolation, you can now directly analyze how one metric influences another over time.
@@ -47,6 +49,8 @@ For instance, you can now answer critical strategic questions like:
 * How does the performance of a specific channel like Google compare against my overall `Total Revenue`?
 
 To get started, simply select your primary metric from the **Source** dropdown and a second metric from the **Compare To** dropdown.
+
+<Image align="center" src="https://files.readme.io/3abaecce5c4ff64027d29be57fe01763a975ee49c1f4258f42072e3d314a56fb-Channel_Comparison_Chart_-_Model_Insights.png" />
 
 ### Dynamic Filtering for Granular Analysis
 
@@ -79,7 +83,7 @@ This section provides a detailed breakdown of how different aspects of your mark
   -Contextual
   -Organic
   -Baseline
-* **`Spend`**: View the total spend (cost) associated with each channel. The amounts are shown in the local currency ($), which represents the total expenditure on that particular category. If there is no expenditure in a category, it is indicated with a dash (-). *Currency can be changed while creating a model in the Configuration (step 3 of model creation)*
+* **`Spend`**: View the total spend associated with each channel. The amounts are shown in the local currency ($), which represents the total expenditure on that particular category. If there is no expenditure in a category, it is indicated with a dash (-). *Currency can be changed while creating a model in the Configuration (step 3 of model creation)*
 * **`Revenue`**: The total revenue generated from each channel. For categories that do not directly generate revenue (like Baseline), this value may be negative or zero.
   * pRevenue - Platform Revenue is fetched from the ad platform itself to view the reported platform metrics. Most platform reports usually under or over-value conversion KPIs.
   * iRevenue - The incremental revenue is calculated by the MMM model. This helps understand the additional revenue contributed solely by a specific marketing channel.
