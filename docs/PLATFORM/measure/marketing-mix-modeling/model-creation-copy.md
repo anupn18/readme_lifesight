@@ -19,8 +19,6 @@ To ensure a successful model build, your data must be correctly prepared. You ca
 
 For a more automated workflow, you can connect your data sources directly to the platform. To do this, you utilize [Google Sheets](https://docs.lifesight.io/docs/google-sheets-mmm-data-integration) and other the connectors from the [integrations](https://docs.lifesight.io/update/docs/native-integrations#/) section in the Lifesight platform. Once your integration is active, choose **Using Integrated data** in the upload section to automatically pull all your input data from integrated platforms.
 
-<img src="https://files.readme.io/4763a9b700e3f2e1db2a3a0494db28cb23a5a38a3312203440ca47a9bce5c528-integrations.jpg" width="700" alt="Integrations Screen" />
-
 ### Using a CSV File
 
 If you are uploading a CSV file, it must meet the following conditions to prevent errors during the model creation process.
@@ -34,7 +32,11 @@ If you are uploading a CSV file, it must meet the following conditions to preven
 > * Column headers must only contain alphanumeric characters and underscores (e.g., `Facebook_Spend`, not `Facebook Spend`).
 > * All column headers must begin with an alphabet character.
 
+Refer to the MMM data Input Schema page for a more details on requirements for CSV file input.
+
 ***
+
+<br />
 
 ## Interactive Demo
 
