@@ -1,6 +1,6 @@
 ---
 title: Model creation
-excerpt: Create your first Mix Model in minutes and get incremental insights
+excerpt: Create a Mix Model in minutes and get incremental insights
 deprecated: false
 hidden: false
 metadata:
