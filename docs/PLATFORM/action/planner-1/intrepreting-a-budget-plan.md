@@ -117,4 +117,4 @@ The platform's power lies in its ability to create and compare multiple scenario
 
 Once you have analyzed your scenarios and are ready to move forward, click the **Save Plan** button in the top-right corner. This will save all your configured scenarios and their corresponding analyses.
 
-> 🚧 Once a plan has been saved, it cannot be edited. The plan contains the multiple scenarios which were generated before saving the plan.
+> 🚧 Once a plan has been saved, it cannot be edited. The plan contains the multiple scenarios which were generated before hitting the 'Save Plan' button .
