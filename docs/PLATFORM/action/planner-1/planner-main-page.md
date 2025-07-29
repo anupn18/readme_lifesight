@@ -26,7 +26,7 @@ The accuracy of these forecasts is directly tied to the underlying model's calib
 * **Incrementality Experiments**: Real-world test results that validate and adjust the model's understanding of causal impact.
 * **Model Refreshes**: Periodic updates to the model to incorporate the latest data and market dynamics.
 
-> 🚧 The reliability of your forecasts in Planner is directly dependent on the accuracy and calibration of the selected MMM. A well-trained and recently refreshed model will yield more dependable projections.
+> 📘 The reliability of your forecasts in Planner is directly dependent on the accuracy and calibration of the selected MMM. A well-trained and recently refreshed model will yield more dependable projections.
 
 ***
 
