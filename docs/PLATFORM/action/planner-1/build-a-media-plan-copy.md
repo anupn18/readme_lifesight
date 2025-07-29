@@ -10,12 +10,13 @@ The Budget Plan feature in the Lifesight UMM Platform allows you to simulate and
 
 ### Step 1: Create a New Plan
 
-To create a new budget plan, start from the main Planner page.
+To create a new budget plan, start from the main Planner page and click the **Create Plan** button to begin the scenario configuration process.
+
+<br />
 
 <Image align="center" src="https://files.readme.io/ce0dd290d359f64f41a8531e8d5d7c0b377b9225a8f792beb72daa4c66cafab2-Planner_Home.png" />
 
-1. Navigate to the **Planner** section from the main platform menu.
-2. Click the **Create Plan** button to begin the scenario configuration process.
+<br />
 
 > 👍 You can also create a plan directly from a specific Marketing Mix Model. Navigate to the **Marketing Mix Models** page, select a model, and click the **Create Plan** button on the top-right.
 
