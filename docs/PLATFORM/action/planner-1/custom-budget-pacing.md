@@ -12,6 +12,8 @@ The Custom Pacing feature in the Planner module gives you granular control over 
 
 > 📘 Custom Pacing overrides the platform's default behavior of pacing your budget evenly, allowing you to align spending with your specific monthly goals. This option can be enabled for forecast periods that are two months or longer.
 
+<Image align="center" src="https://files.readme.io/a2765bccf0df4cc9543901a943b536b875bb16bebf071a085abd3f1572a025bf-Custom_Pacing_Split.png" />
+
 <br />
 
 ### When to Use Custom Pacing
@@ -30,8 +32,6 @@ Consider using Custom Pacing when
 ### How to Configure Custom Pacing
 
 Follow these steps to set up custom pacing for your budget plan:
-
-<Image align="center" src="https://files.readme.io/a2765bccf0df4cc9543901a943b536b875bb16bebf071a085abd3f1572a025bf-Custom_Pacing_Split.png" />
 
 <br />
 
