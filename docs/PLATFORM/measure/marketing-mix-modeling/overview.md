@@ -1,6 +1,6 @@
 ---
 title: Overview tab
-excerpt: Getting a glimpse of your Mix Model
+excerpt: Learn to interpret the reports and charts on the Overview tab
 deprecated: false
 hidden: false
 metadata:
