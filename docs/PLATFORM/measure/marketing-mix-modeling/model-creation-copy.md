@@ -32,7 +32,7 @@ If you are uploading a CSV file, it must meet the following conditions to preven
 > * Column headers must only contain alphanumeric characters and underscores (e.g., `Facebook_Spend`, not `Facebook Spend`).
 > * All column headers must begin with an alphabet character.
 
-Refer to the MMM data Input Schema page for a more details on requirements for CSV file input.
+Refer to this [page](https://docs.lifesight.io/update/docs/mmm-input-schema#/) for a more details on data requirements for CSV file input.
 
 ***
 
