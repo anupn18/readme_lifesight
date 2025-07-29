@@ -31,6 +31,8 @@ This section provides a quick snapshot of the channel's aggregate performance ov
 
 <Image align="center" src="https://files.readme.io/de65979d5cf86bb0b4e0ac6d3c92388684f6a28b0dae4808032175fe27dafae7-ScreenShot_Tool_-20250725000516.png" />
 
+<br />
+
 * **Incremental Output KPI**: The total incremental impact (e.g., Revenue, Orders, Installs) attributed to Channel or Tactic by the model.
 * **Spend**: The total amount spent on the channel during the selected period.
 * **Impressions & Clicks**: The total volume of impressions and clicks registered for this channel.
@@ -54,6 +56,8 @@ Use this chart to see if peaks in your spending correspond with peaks in your ou
 The Outliers table automatically flags data points where spending was unusually high or low compared to the channel's typical behavior. This helps you quickly identify and investigate potential data errors or significant one-off events.
 
 <Image align="center" src="https://files.readme.io/00cb276a3d11bca6a549391f27e54cae95806581ebae93ea520e6cce88f2b412-ScreenShot_Tool_-20250724235934.png" />
+
+<br />
 
 > **How Outliers are Calculated**\
 > A data point is flagged as an outlier if its spend is **1.5 times greater than the Interquartile Range (IQR)** of the channel's spend for the selected period. This statistical measure helps to reliably identify significant deviations from the norm.
