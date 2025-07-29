@@ -41,23 +41,28 @@ The header line of the input file must include attribute names, customizable acc
   <tbody>
     <tr>
       <td>
-        Organic
+        Organic Variables
       </td>
 
       <td>
-        * Newsletters - clicks/opens
-        * Push notifications - clicks/opens
-        * Competitor marketing activities - Product releases, price changes, Social media posts click/impression - Content impression/reach
+        * Newsletter Click Through Rate %
+        * Push notifications Click Through Rate %
+
+        - Social media posts Impressions & Engagement metrics
+        - Blogs impressions
       </td>
     </tr>
 
     <tr>
       <td>
-        Contextual
+        Contextual Variables
       </td>
 
       <td>
-        * Marketing, Promotions, and PR - Advertising - Promotions - PR - Equity - Loyalty - Environmental, Seasonal, and Competition data
+        * Promotions, Loyalty, etc.
+
+        - Environmental and Seasonal factors
+        - Competitor activities - Product releases, price changes, promotions, etc.
       </td>
     </tr>
 
@@ -67,7 +72,10 @@ The header line of the input file must include attribute names, customizable acc
       </td>
 
       <td>
-        * TV spend - Google spend and more - Offline spends
+        * Google Search Spends, Meta Retargeting spends, etc.
+        * Linear TV spends, CTV Spends, etc.
+        * Affiliate Spends, Influencer Spends, KOL Spends, etc.
+        * Event Spends
       </td>
     </tr>
   </tbody>
@@ -77,7 +85,7 @@ The header line of the input file must include attribute names, customizable acc
 
 <br />
 
-## Data schema formatting & validation rules
+## File formatting & Data validation rules
 
 * [ ] **Column Headers:** Must contain only alphanumeric characters and underscores, and must start with an alphabet.
 * [ ] **Date Format:** Dates must be in the YYYY-MM-DD format.
@@ -86,9 +94,8 @@ The header line of the input file must include attribute names, customizable acc
   • Monthly Input: All dates must be the first day of the month."
 * [ ] **Consistent Data Granularity:** Ensure that the granularity (daily, weekly, monthly) is consistent throughout the dataset.
 * [ ] **Data is rolled back to the past date.** For example all the data start from 1st Jan 2024 (which is a Monday) to 7th Jan 2024, should  be rolled back to 2024-01-01 (in case of weekly data)
-* [ ] "**Data Range:** Ensure the data is atleast for 1 year in case of weekly data and daily data, Incase of monthly data the data should be atleast for 3 years.\
-  Note : Recommended range of data should be for 2 years for weekly and daily."
-* [ ] **Handling Missing Data:** Use appropriate techniques to handle missing data, such as interpolation or rolling averages. \[You can reach out to Lifesight Marketing Science team for any support here)
+* [ ] "**Data Range:** 2 years of historical data is recommended in case of weekly data and daily data. For monthly aggregation, 3 years of historical data is recommended.
+* [ ] **Handling Missing Data:** Use appropriate techniques to handle missing data, such as interpolation or rolling averages. (Reach out to your dedicated Marketing Science team for support)
 * [ ] "**Completeness:** There should be no missing dates in the data.\
   Example: For weekly data, each week must have a corresponding date."
 * [ ] "**Missing Values:** If a channel was not used, populate its columns with 0. (There should be no NULL / Empty cells in the file)\
@@ -96,9 +103,11 @@ The header line of the input file must include attribute names, customizable acc
 * [ ] **Positive Integers Only:** All column values (e.g., spend, click, impression) must be positive integers.
 * [ ] **Boolean Values:** Represent boolean columns (e.g., event indicators) with 1 for true and 0 for false.
 * [ ] "**Numeric Values Only:** No non-numeric values are allowed, including empty spaces.\
-  Example: Currency symbols are not needed for spend values."
-* [ ] No Columns should have all Zero values. If it has then we should remove that column itself. For eg : When we pull data on a campaign/objective level for certain date range, We might get some columns with nothing to report.
-* [ ] There should be proper format for the **Final Master file**, For eg: first column should contain date, second column should contain KPI(can be multiple KPI for two models) followed by all the base variables and lastly all the **Media variables**.
+  **Note:** Currency symbols are not needed for spend values."
+* [ ] No Columns should have all values populated as 0
+* [ ] The CSV file should be formatted uniformly with column headers in the first row and each column should contain values which are of the same data type.
+* [ ] The recommended format data
+* [ ] There should be proper format for the **Final Master file**. Eg: first column should contain date, second column should contain KPI (can be multiple KPIs for two models) followed by all the base variables and lastly all the **Media variables**.
 * [ ] It is recommended to delete all the unnecessary empty rows and columns from the master file before uploading into the platform
 * [ ] Ensure that the number of independent variables to the number observations in rows should be of 1:4 range atleast.
 * [ ] Make sure the list of independent variables is exhaustive in the Final Master file which involves incorportation all the types of data including Paid media vars, Organic vars, Seasonality vars, Contextual vars, Trends vars, Sales efforts vars and etc. which has any role in driving the KPI.
