@@ -67,7 +67,7 @@ In this step, you will associate the columns from your dataset with Lifesight's 
 <Image align="center" src="https://files.readme.io/f72266d482a5328f29280cbcec3c629a6016ef9c4b09be5bc212874b5c881e4f-Model_creation_-_Feature_selection_page.png" />
 
 * **Outcome KPI**: Select the primary metric you want to measure, such as `revenue`, `orders`, or `new_customers`. This is your model's dependent variable.
-* **Paid Marketing Spend**: Map the spend or cost columns for each paid media channel (e.g., `Facebook_Spend`, `Google Search_Spend`) to its corresponding **Platform**.
+* **Paid Marketing Variables**: Map the spend, impressions, clicks, and Channel/ Tactic name for each paid media channel (e.g., `Facebook_Spend`, `Google Search_Spend`) to the model.
 * **Paid Marketing Clicks**: Map the clicks columns for each channel to its **Platform**.
 * **Paid Marketing Impressions**: Map the impressions columns for each channel to its **Platform**.
 * **Organic Variables**: For non-paid channels like `SEO_Sessions` or `Direct_Traffic`, map the variable and define its expected **Impact** (Positive, Negative, or Neutral) on your outcome KPI.
