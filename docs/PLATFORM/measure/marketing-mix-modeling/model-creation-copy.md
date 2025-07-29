@@ -17,7 +17,7 @@ To ensure a successful model build, your data must be correctly prepared. You ca
 
 ### Using Integrated Data
 
-For a more automated workflow, you can connect your data sources directly to the platform. To do this, you utilize the [Google Sheets](https://docs.lifesight.io/docs/google-sheets-mmm-data-integration) and other the connectors  from the **[Integrations](https://docs.lifesight.io/update/docs/native-integrations#/)** section in the Lifesight dashboard. Once your integration is active, choose **Using Integrated data** in the upload section to automatically pull all your input data from the connected sheet.
+For a more automated workflow, you can connect your data sources directly to the platform. To do this, you utilize the [Google Sheets](https://docs.lifesight.io/docs/google-sheets-mmm-data-integration) and other the connectors from the [Integrations](https://docs.lifesight.io/update/docs/native-integrations#/) section in the Lifesight platform. Once your integration is active, choose **Using Integrated data** in the upload section to automatically pull all your input data from the connected sheet.
 
 <img src="https://files.readme.io/4763a9b700e3f2e1db2a3a0494db28cb23a5a38a3312203440ca47a9bce5c528-integrations.jpg" width="700" alt="Integrations Screen" />
 
