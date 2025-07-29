@@ -1,5 +1,8 @@
 ---
-title: Planner (Main Page)
+title: 'Planner '
+excerpt: >-
+  Your guide to optimizing marketing spend and maximizing returns with
+  data-driven forecasts
 deprecated: false
 hidden: true
 metadata:
