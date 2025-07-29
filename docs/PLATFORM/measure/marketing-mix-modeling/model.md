@@ -8,7 +8,10 @@ metadata:
   description: ''
   robots: index
 next:
-  description: ''
+  pages:
+    - slug: insights
+      title: Insights tab
+      type: basic
 ---
 The Model tab gives insights into your MMM model accuracy and performance.
 
