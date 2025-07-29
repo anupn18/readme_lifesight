@@ -14,9 +14,9 @@ Planner is one of the key actioning capabilities of the Lifesight Unified Market
 * Simulate the impact of different budget scenarios before committing spend.
 * Make data-driven decisions to optimize your marketing mix for maximum ROI.
 
-***
+<br />
 
-## The Science Behind the Forecast
+## Revenue Forecasts: How it Works
 
 Revenue forecasts are generated based on the robust learnings from a Marketing Mix Model (MMM). The Planner's projections are not just estimates; they are the result of a sophisticated model that understands the historical performance of your marketing channels.
 
