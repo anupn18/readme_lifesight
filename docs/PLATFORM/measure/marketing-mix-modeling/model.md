@@ -41,7 +41,7 @@ The Model tab gives insights into your MMM model accuracy and performance.
 
 ## Actual vs Predicted Revenue chart
 
-![](https://files.readme.io/f229d559d2d40c3949a7c98a9a76614f6445d06e6bfd46983356387d54a9c7b2-image.png)
+<Image align="center" className="border" border={true} src="https://files.readme.io/f229d559d2d40c3949a7c98a9a76614f6445d06e6bfd46983356387d54a9c7b2-image.png" />
 
 Validation is a critical step in ensuring the accuracy and reliability of your marketing mix model (MMM). This process tests the model's ability to predict outcomes based on unseen data, providing confidence in its forecasts and insights.
 
@@ -71,7 +71,7 @@ By examining these insights, you can evaluate the model's accuracy and make nece
 
 View the conversion distribution for every ad channel using ad stock and saturation hyperparameters. Select the `Filter` dropdown to view ad stock, saturation and time to conversion for a channel.
 
-![](https://files.readme.io/986fe5dbc457fc2f162918b6cb8bd7f460b22f2fe9225a34f26ea783d7080f55-image.png)
+<Image align="center" className="border" border={true} src="https://files.readme.io/986fe5dbc457fc2f162918b6cb8bd7f460b22f2fe9225a34f26ea783d7080f55-image.png" />
 
 <br />
 
@@ -87,13 +87,13 @@ The saturation curve shows how the incremental impact of a marketing effort decr
 
 View the immediate and carryover conversion effect distributed over time. The chart shows the percentage impact of a channel ad spend on conversions. This helps understand both short-term and long-term impact of ad channels on conversions to help make media optimization decisions.
 
-![](https://files.readme.io/95d6e558893e8422e2df16ada3d4bea5d410380b18edd1951934132fa935c0b4-image.png)
+<Image align="center" className="border" border={true} src="https://files.readme.io/95d6e558893e8422e2df16ada3d4bea5d410380b18edd1951934132fa935c0b4-image.png" />
 
 <br />
 
 # Immediate VS Carryover effect chart
 
-![](https://files.readme.io/52ff6d249a5bebed38255c1783532ccb5dcef25835fd81d7bdb9e7cc8f00bb6a-image.png)
+<Image align="center" className="border" border={true} src="https://files.readme.io/52ff6d249a5bebed38255c1783532ccb5dcef25835fd81d7bdb9e7cc8f00bb6a-image.png" />
 
 This chart breaks down the impact of media spending on revenue into two distinct categories: Immediate and carryover contributions. It allows you to discern when the majority of a campaign's effects are realized.
 
@@ -106,4 +106,4 @@ This chart breaks down the impact of media spending on revenue into two distinct
 
 Time series data includes components like seasonality, trends, and holidays that impact conversions. This breakdown helps marketers understand how these factors influence MMM results before modeling. You can view these components and choose whether to include them in future models. Additionally, it aids in setting the base period when using the Planner for forecasting.
 
-![](https://files.readme.io/960af9cf18aa58c1c6268d49e5bb1cf94bc1e89fac4692546c36f0e6874aa76c-image.png)
+<Image align="center" className="border" border={true} src="https://files.readme.io/960af9cf18aa58c1c6268d49e5bb1cf94bc1e89fac4692546c36f0e6874aa76c-image.png" />
