@@ -1,6 +1,8 @@
 ---
 title: Model creation
-excerpt: Create a Mix Model in minutes and get incremental insights
+excerpt: >-
+  Your guide to configuring data, selecting variables, and launching your mix
+  model
 deprecated: false
 hidden: false
 metadata:
