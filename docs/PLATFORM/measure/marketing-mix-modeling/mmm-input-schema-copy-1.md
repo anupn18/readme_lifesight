@@ -2,7 +2,7 @@
 title: Input CSV file format
 excerpt: 'Data Validation & Formatting rules for CSV upload '
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
