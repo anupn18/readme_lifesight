@@ -27,7 +27,7 @@ Before you begin, please ensure the following conditions are met:
 
 > ❗️ Model Selection Precondition
 >
-> A shared KPI (eg: Revenue, Orders, etc.) is a mandatory requirement for merging models. Before starting, ensure all models you intend to combine are aligned to the same KPI. This ensures the validity and accuracy of the resulting unified model.
+> A shared outcome KPI (eg: Revenue, Orders, etc.) is a mandatory requirement for merging models. While selecting models for merge, ensure all models you intend to combine are aligned to the same KPI. This ensures the validity and accuracy of the resulting unified model.
 
 <br />
 
