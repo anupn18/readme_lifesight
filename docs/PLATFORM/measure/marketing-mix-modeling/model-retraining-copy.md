@@ -49,8 +49,8 @@ In the top-right corner of the page, click the **`Merge Model`** button.
 
 A modal window titled "Merge Models" will appear. Here, you will configure your new unified model:
 
-1. **Name:** Provide a descriptive name for your new merged model in the "Name" field.
-2. **Select Models:** Use the checkboxes to select two or more models from the list that you wish to combine. You can use the search bar to quickly find specific models.
+1. **Name:** Provide a descriptive name for your new merged model in the `Name` field.
+2. **Select Models:** Use the checkboxes to select two or more models, with the same KPI, from the list. You can use the search bar to find specific models.
 3. **Confirm:** Once you have named your new model and selected the models to merge, click the **`Confirm`** button.
 
 <br />
