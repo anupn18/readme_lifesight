@@ -43,24 +43,20 @@ This section is split into 'Current' (forecast base period) and 'Forecasted' (th
 
 This tab provides actionable insights by comparing your current budget allocation against an optimized version. The charts visualize where you should shift your investments to maximize returns.
 
-#### Media Investment
-
 <br />
 
 <Image align="center" src="https://files.readme.io/c936e63d9abed56b6d58cbb3430a7d729fb503e22a367261fdb3660293265904-Plan_recommendations_2.png" />
+
+<br />
+
+#### Media Investment
 
 This chart shows the recommended media budget for each platform compared to your current plan.
 
 * **Current (light blue bar)**: Your existing or initial budget allocation.
 * **Optimized (dark blue bar)**: The platform's recommended budget to achieve your goals.
-  <br />
+
   Use this to see which channels are over-funded and which have room for more investment.
-
-<br />
-
-#### Media Investment
-
-This chart shows the split of current and optimized budget invested in each platform.
 
 #### Incremental Revenue
 
@@ -88,8 +84,6 @@ The table below the chart provides a summary of the forecasted revenue broken do
 
 <br />
 
-<br />
-
 ### Using the Budget Worksheet Tab
 
 The Budget Worksheet gives you a granular, week-by-week breakdown of the planned budget for each platform. This is the tactical output of your strategic plan.
@@ -106,9 +100,9 @@ The worksheet contains
   >
   > Click the **download icon** in the top-right corner of the worksheet to export the data as a CSV file. This is useful for sharing with your team or importing into other tools.
 
-### Working with Multiple Scenarios
-
 <br />
+
+### Working with Multiple Scenarios
 
 The platform's power lies in its ability to create and compare multiple scenarios. You can model different outcomes based on different budgets or strategic constraints (e.g., a "Conservative" plan vs. a "Moderate" plan).
 
