@@ -54,7 +54,7 @@ These enhancements are designed to make the model more robust and aligned with r
 
 ## Calibration status
 
-| MMM status                                                                                              | Indicator               | Definition                                                                                      |   |   |
-| :------------------------------------------------------------------------------------------------------ | :---------------------- | :---------------------------------------------------------------------------------------------- | - | - |
-| ![](https://files.readme.io/1fe6c550a09880a5eda1ede3325d414f7bd019dbf793bec78fba400f9aa47ab2-image.png) | Calibration in progress | The model changes to this state when a new calibration is applied.                              |   |   |
-| ![](https://files.readme.io/bcb1415d59eb0308044375c53867cf3fb44184a877f1770457364127fb4fa355-image.png) | Calibration success     | The calibration process is complete and the model now shows new insights in the Calibration tab |   |   |
+| MMM status                                                                                              | Indicator               | Definition                                                                                      |
+| :------------------------------------------------------------------------------------------------------ | :---------------------- | :---------------------------------------------------------------------------------------------- |
+| ![](https://files.readme.io/1fe6c550a09880a5eda1ede3325d414f7bd019dbf793bec78fba400f9aa47ab2-image.png) | Calibration in progress | The model changes to this state when a new calibration is applied.                              |
+| ![](https://files.readme.io/bcb1415d59eb0308044375c53867cf3fb44184a877f1770457364127fb4fa355-image.png) | Calibration success     | The calibration process is complete and the model now shows new insights in the Calibration tab |
