@@ -11,8 +11,6 @@ Once you configure channel parameters for a new budget plan, you are directed to
 
 ### Understanding Scenario Key Metrics
 
-<br />
-
 On the left side of the page, you'll find summary cards for each scenario you've created. When you select a scenario, the main dashboard updates to show a detailed view of its key metrics, comparing your current standing with the model's forecast.
 
 <Image align="center" src="https://files.readme.io/1a7f9ba3e173e379ca9150bbe2838a19f933d110b1370f15126b93f5315dbd5a-Custom_paced_plan_w_multiple_scenarios.png" />
