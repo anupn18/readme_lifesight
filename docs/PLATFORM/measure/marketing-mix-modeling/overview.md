@@ -8,7 +8,10 @@ metadata:
   description: ''
   robots: index
 next:
-  description: ''
+  pages:
+    - slug: model
+      title: Model tab
+      type: basic
 ---
 In the Overview tab, you can view your overall marketing performance reports and conduct a preliminary analysis based on historical data you have uploaded or integrated. Understanding these reports is crucial for gaining actionable insights into your marketing performance.
 
