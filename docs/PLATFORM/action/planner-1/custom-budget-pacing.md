@@ -49,6 +49,4 @@ Follow these steps to set up custom pacing for your budget plan:
 
 > ⚠️ The sum of the monthly budget splits in the 'Breakup' column must equal your total Target Budget. The platform will show a validation error if the amounts do not match.
 
-<br />
-
 6. **Run Scenario:** Once your custom pacing is set, click **Run Scenario** to see how your tailored budget allocation impacts the forecast.
