@@ -1,7 +1,10 @@
 ---
 title: Custom Budget Pacing
+excerpt: >-
+  Manually define your monthly budget splits to maximize campaign impact during
+  key periods
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
