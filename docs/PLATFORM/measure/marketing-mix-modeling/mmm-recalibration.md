@@ -26,7 +26,7 @@ Consider retraining your model based on the following factors:
 
 <br />
 
-## How to perform a model retraining
+## How to retrain a model
 
 <Image align="center" src="https://files.readme.io/6eb58053bc744403147ccd9aaeb30f23b1ec850a1c0225c2d57a63d07b69c785-Model_Overview_page.png" />
 
