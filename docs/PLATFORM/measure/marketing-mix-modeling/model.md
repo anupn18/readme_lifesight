@@ -51,7 +51,7 @@ Backtesting is a key component of the validation process. This method involves r
 
 Modify the `Training size` while creating the model to adjust the backtesting period.
 
-![](https://files.readme.io/40b4f1168f25aee24d8c46552ecfec8c6c44ac8db4da16634e7ba1211b284b3e-image.png)
+<Image align="center" src="https://files.readme.io/0cc2a82d07c1c837a3abfea67d12f1c4803586ece4ee2441ac9e5b3cbe13a66c-Backtesting_Accuracy.png" />
 
 Additionally, if the model can consistently make accurate predictions over time, even with changes in marketing budget and other interventions, it provides strong evidence that the model has effectively captured the true causal signals.
 
