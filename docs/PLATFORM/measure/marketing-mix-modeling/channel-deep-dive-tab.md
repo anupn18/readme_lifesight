@@ -17,9 +17,13 @@ You can navigate to the Channel Deep Dive for a specific channel in two ways:
 1. **Through Model Insights tab**: In the **Contribution** table, simply click on the name of any channel or tactic. You will be taken directly to the deep dive page for that selection.
 2. **Direct Filtering**: Navigate to the **Channel Deepdive** tab and and select the channel you wish to analyze.
 
-#### View Interactive Demo
+<br />
+
+### View Interactive Demo
 
 <Embed typeOfEmbed="iframe" url="https://lifesight.storylane.io/demo/j7ievh1jxxoa?embed=inline" html="false" iframe="true" href="https://lifesight.storylane.io/demo/j7ievh1jxxoa?embed=inline" width="800px" height="600px" />
+
+<br />
 
 ### Key Metrics
 
@@ -33,6 +37,8 @@ This section provides a quick snapshot of the channel's aggregate performance ov
 * **Observations/Total**: The total number of observations (e.g., days or weeks) for this channel in the model.
 * **Spend Range**: The minimum, maximum, and average spend recorded for a single data point within the timeframe.
 
+<br />
+
 ### Revenue and Spend Trend Analysis
 
 This chart displays the relationship between your spend on the selected Channel and the attributed output KPI over time. It allows you to visualize trends, seasonality, and the immediate impact of spending changes on performance.
@@ -40,6 +46,8 @@ This chart displays the relationship between your spend on the selected Channel 
 <Image align="center" src="https://files.readme.io/8275dce7362de4f02f70710d597a369e8cac01d77f71c3975e4c01e24c09df43-ScreenShot_Tool_-20250724235907.png" />
 
 Use this chart to see if peaks in your spending correspond with peaks in your output KPI.
+
+<br />
 
 ### Outlier Detection
 
@@ -49,6 +57,8 @@ The Outliers table automatically flags data points where spending was unusually 
 
 > **How Outliers are Calculated**\
 > A data point is flagged as an outlier if its spend is **1.5 times greater than the Interquartile Range (IQR)** of the channel's spend for the selected period. This statistical measure helps to reliably identify significant deviations from the norm.
+
+<br />
 
 ### Spend vs. Shifted Revenue
 
