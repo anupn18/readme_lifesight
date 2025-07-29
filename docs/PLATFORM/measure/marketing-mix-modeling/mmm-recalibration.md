@@ -1,8 +1,6 @@
 ---
 title: Model Retraining
-excerpt: >-
-  Modify input data, model parameters, and relationships to create a new model
-  from an existing model
+excerpt: Learn Why and How to retrain your Marketing Mix Models
 deprecated: false
 hidden: false
 metadata:
@@ -22,15 +20,15 @@ Consider retraining your model based on the following factors:
 
 * **Model Drift:** As the statistical properties of your incoming data shift, a model's performance can degrade. Our platform helps you stay ahead of this by using a built-in drift detection algorithm. This system continuously monitors the model's accuracy on new data and will automatically alert you when significant drift is detected, suggesting that it's time for a new model.
 * **Business and Strategic Alignment:** Your models must evolve with your business goals. Retraining is essential to ensure your model's insights remain impactful when your strategies change. For instance, you should retrain your model after:
-* **Launching new products** to incorporate their data and measure their impact.
-* **Investing in new marketing channels** to accurately assess their effectiveness.
-* **Shifting core business priorities**, which may require the model to optimize for different outcomes.
+  * **Launching new products** to incorporate their data and measure their impact.
+  * **Investing in new marketing channels** to accurately assess their effectiveness.
+  * **Shifting core business priorities**, which may require the model to optimize for different outcomes.
 
 <br />
 
 ## How to perform a model retraining
 
-<Image align="center" src="https://files.readme.io/3fc8078846a248e70434eccf53391841fcb970939ae5382d33af8d091403aba1-reconfig.jpg" />
+<Image align="center" src="https://files.readme.io/6eb58053bc744403147ccd9aaeb30f23b1ec850a1c0225c2d57a63d07b69c785-Model_Overview_page.png" />
 
 1. Navigate to the model you want to Retrain from the MMM page.
 2. Click the ‘Retrain’ button on the top right corner.
@@ -38,18 +36,3 @@ Consider retraining your model based on the following factors:
 4. Click on ‘Finish’.
 5. A new model is created with the status "Training in Progress" in the MMM dashboard.
 6. Once the Refresh is completed, the status changes to "Success" in the MMM dashboard.
-
-<br />
-
-## When to Create a New Model
-
-### Model Stability
-
-* **Consistent Spending:** If your media spend remains relatively stable over a period, a model refresh might provide similar insights to the previous model. However, regular refreshes are still recommended to account for market fluctuations and potential model drift.
-
-### Model Adoption
-
-* **Significant Spending Changes:** If you've made substantial changes to your spending across channels, the model's insights might deviate from previous findings. In such cases, building a new model might be necessary.
-* **Market Changes:** Major shifts in the market, such as economic downturns, new competitors, or changes in consumer behavior, can necessitate model updates to maintain accuracy.
-* **Product Launches or Changes:** Introducing new products or making significant changes to existing ones can affect sales and require model adjustments.
-* **Media Channel Changes:** Adding or removing media channels, or making significant changes to channel strategies, can impact model performance.
