@@ -5,6 +5,11 @@ deprecated: false
 hidden: true
 metadata:
   robots: index
+next:
+  pages:
+    - slug: model-creation-copy
+      title: Model creation
+      type: basic
 ---
 High-quality input data is the foundation of an accurate and actionable Marketing Mix Model (MMM). To ensure the Lifesight UMM Platform can process your data effectively, please adhere to the following formatting and validation guidelines.
 
