@@ -1,114 +1,88 @@
 ---
-title: Input CSV Formatting Guidelines
+title: CSV Data Formatting Guidelines
 excerpt: 'Data Validation & Formatting rules for CSV upload '
 deprecated: false
 hidden: true
 metadata:
   robots: index
 ---
-High-quality input data is crucial for MMM to produce accurate and actionable results. Providing data in the appropriate format and with the right granularity ensures optimal performance.
+High-quality input data is the foundation of an accurate and actionable Marketing Mix Model (MMM). To ensure the Lifesight UMM Platform can process your data effectively, please adhere to the following formatting and validation guidelines.
 
-<br />
+### CSV Template
 
-![](https://files.readme.io/d15e7a89c00714626675b8156bc01292d9cb8d3d98e62465d36b4b0ecf035096-image.png)
+To get started quickly, we recommend using our sample template. It provides a ready-to-use structure for your data.
 
-<br />
-
-### [MMM CSV sample template](https://docs.google.com/spreadsheets/d/17UgnDqvQyHz_3XFFa-DSHdk80fudK1mt9p7Stj-xhdI/edit?gid=1915444742#gid=1915444742)
-
-**Mandatory Attributes for the MMM model**\
-The header line of the input file must include attribute names, customizable according to business preferences. The essential attributes for MMM include:
-
-* Date (yyyy-mm-dd)
-* Output KPI: Revenue, Installs, conversions, etc.
-* Paid Media Variables:  TV spend, Google spend, etc.
-
-<br />
-
-<Table align={["left","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Category
-      </th>
-
-      <th>
-        Input variables
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        Organic Variables
-      </td>
-
-      <td>
-        * Newsletter Click Through Rate %
-        * Push notifications Click Through Rate %
-
-        - Social media posts Impressions & Engagement metrics
-        - Blogs impressions
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        Contextual Variables
-      </td>
-
-      <td>
-        * Promotions, Loyalty, etc.
-
-        - Environmental and Seasonal factors
-        - Competitor activities - Product releases, price changes, promotions, etc.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        Paid media
-      </td>
-
-      <td>
-        * Google Search Spends, Meta Retargeting spends, etc.
-        * Linear TV spends, CTV Spends, etc.
-        * Affiliate Spends, Influencer Spends, KOL Spends, etc.
-        * Event Spends
-      </td>
-    </tr>
-  </tbody>
-</Table>
+[<button>Download MMM CSV Sample Template</button>](https://docs.google.com/spreadsheets/d/17UgnDqvQyHz_3XFFa-DSHdk80fudK1mt9p7Stj-xhdI/edit?gid=1915444742#gid=1915442)
 
 ***
 
+## Data Requirements
+
+Your input file is built on a combination of mandatory and recommended data columns.
+
+### Mandatory Columns
+
+Your CSV file **must** include the following three attributes for the model to run. While you can customize the header names, the data they represent is essential.
+
+* **Date Column:** A date field in `yyyy-mm-dd` format. Example: `{{your_date_column}}`.
+* **KPI Column:** At least one outcome Key Performance Indicator (KPI) you want to measure. Example: `{{your_kpi_column}}` like `Revenue` or `Installs` or `Orders`.
+* **Paid Media Column:** At least one variable representing spend or impressions from a paid media channel. Example: `Google_Spend`, `CTV_Impressions`
+
+### Recommended Additional Columns
+
+> 👍 Enrich Your Model for Deeper Insights
+>
+> Including additional variables from the categories below will significantly improve the model's accuracy and provide a more holistic view of your marketing performance.
+
+| Category                   | Recommended Input Variables                                                                                                                                                                                                 |
+| :------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Organic & Owned**        | `Newsletter_CTR`, `Push_Notification_CTR`, `Social_Media_Impressions`, `Blog_Impressions`, `Social_Engagement_Rate`                                                                                                         |
+| **Contextual & External**  | `Promotions_Active` (as 1/0), `Loyalty_Program_Signups`, `Competitor_Promotions`, `Seasonal_Events` (e.g., Black Friday), `Product_Releases`, `Price_Changes`                                                               |
+| **Paid Media Granularity** | `Google_Search_Clicks`, `Google_Search_Impressions` `Meta_Retargeting_Clicks`, `Meta_Retargeting_Impressions` `Linear_TV_Spend`, `CTV_Spend`, `Affiliate_Spend`, `Influencer_Spend`, `KOL_Spend`, `Event_Sponsorship_Spend` |
+
+***
+
+## Formatting & Validation Checklist
+
+> #### \[!IMPORTANT]
+>
+> Your file must pass all the following validation rules to be successfully uploaded and processed. Please review this checklist carefully.
+
+### File & Header Rules
+
+* [ ] **Column Headers:** Header names must contain only alphanumeric characters and underscores (`_`). They must start with a letter (e.g., `Meta_Spend`, not `_Meta_Spend`).
+* [ ] **No Blank Rows/Columns:** Delete all empty rows and columns from your file.
+* [ ] **No All-Zero Columns:** Ensure no single column contains `0` for all its values.
+
+### Date & Time Rules
+
+* [ ] **Date Format:** All dates must be in the **`YYYY-MM-DD`** format.
+* [ ] **Consistent Frequency:** The time interval between dates must be consistent (daily, weekly, or monthly) throughout the file. Do not mix frequencies.
+* [ ] **Weekly Data Alignment:** Dates for weekly data must represent the first day of the week (either Sunday or Monday). All metrics for a given week (e.g., Jan 1st to Jan 7th) should be aggregated under the date for the first day of that week (e.g., `2024-01-01`).
+* [ ] **Monthly Data Alignment:** Dates for monthly data must be the first day of the month (e.g., `2024-01-01`, `2024-02-01`).
+* [ ] **Complete Date Range:** Ensure there are no missing dates within your chosen frequency. For example, a weekly dataset should not skip any weeks.
+* [ ] **Sufficient Historical Data:** We recommend providing at least **2 years** of historical data for daily or weekly granularity, and **3 years** for monthly granularity.
+
+### Data Value & Integrity Rules
+
+* [ ] **Numeric Values Only:** All metric columns (spend, impressions, clicks, etc.) must contain only numeric values. Do not include currency symbols (e.g., `$`) or commas.
+* [ ] **Positive Values:** All values must be positive integers or zero.
+* [ ] **No Missing Values:** There should be no `NULL` or empty cells. If a channel was not active during a period, its value must be populated with `0`.
+* [ ] **Boolean Values:** For contextual variables that are either on or off (e.g., a promotion), use `1` for true/active and `0` for false/inactive.
+* [ ] **Consistent Data Types:** Ensure all values within a single column are of the same data type.
+
 <br />
 
-## File formatting & Data validation rules
+## Data-to-Feature Ratio Explained
 
-* [ ] **Column Headers:** Must contain only alphanumeric characters and underscores, and must start with an alphabet.
-* [ ] **Date Format:** Dates must be in the YYYY-MM-DD format.
-* [ ] **Date Frequency:** Dates can be daily, weekly, or monthly.\
-  • Weekly Input: All dates must be either Sundays or Mondays (as the start of the week).
-  • Monthly Input: All dates must be the first day of the month."
-* [ ] **Consistent Data Granularity:** Ensure that the granularity (daily, weekly, monthly) is consistent throughout the dataset.
-* [ ] **Data is rolled back to the past date.** For example all the data start from 1st Jan 2024 (which is a Monday) to 7th Jan 2024, should  be rolled back to 2024-01-01 (in case of weekly data)
-* [ ] **Data Range:** 2 years of historical data is recommended in case of weekly data and daily data. For monthly aggregation, 3 years of historical data is recommended.
-* [ ] **Handling Missing Data:** Use appropriate techniques to handle missing data, such as interpolation or rolling averages. (Reach out to your dedicated Marketing Science team for support)
-* [ ] **Completeness:** There should be no missing dates in the data.\
-  Example: For weekly data, each week must have a corresponding date."
-* [ ] **Missing Values:** If a channel was not used, populate its columns with 0. (There should be no NULL / Empty cells in the file)\
-  Ex: If data provided is for 2 years but a channel was introduced only for the last 6 months then for the initial 1.5 years all the spend/impression/clicks should be updated with 0 as value."
-* [ ] **Positive Integers Only:** All column values (e.g., spend, click, impression) must be positive integers.
-* [ ] **Boolean Values:** Represent boolean columns (e.g., event indicators) with 1 for true and 0 for false.
-* [ ] "**Numeric Values Only:** No non-numeric values are allowed, including empty spaces.\
-  **Note:** Currency symbols are not needed for spend values."
-* [ ] **Blanks Rows and Columns:**
+To ensure statistical validity, your dataset must maintain a minimum ratio of data points (rows) to independent variables (columns).
 
-  It is recommended to delete all the unnecessary empty rows and columns from the master file before uploading into the platform
+* **Required Ratio:** 4:1
+* This means for every 1 variable (column), you must have at least 4 observations (rows).
 
-  . No Columns should have all values populated as 0.
-* [ ] **Consistent Data type:** The CSV file should be formatted uniformly with column headers in the first row and each column should contain values which are of the same data type.
-* [ ] **Required Data-to-Feature Ratio:** Ensure that the number of independent variables columns to the number observations in rows is atleast of the ratio 1:4.
-* [ ] **Comprehensive Data Inclusion:** Make sure the list of independent variables is exhaustive in the CSV file which involves incorporation all the types of data including Paid media variables, Organic variables, Seasonality variables, Contextual variables, Trend variables, etc. which has any role in driving the KPI.
+**Example:**\
+If you have **25** columns of independent variables in your CSV, you need at least **100** rows of data.
+
+## Troubleshooting & Support
+
+If you have missing data or need assistance with preparing your file, please reach out to your dedicated Marketing Science team at Lifesight for support. They can provide guidance on the best techniques for handling missing values, such as interpolation or rolling averages, to ensure your model's integrity.
