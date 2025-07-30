@@ -12,7 +12,7 @@ next:
 ---
 # Calibration in Marketing Mix Modelling (MMM)
 
-**Calibration** is a critical process in  that adjusts the model's predictions to align more closely with causal experiments. While MMM uses historical data to estimate the impact of marketing activities, calibration ensures that these predictions are accurate and consistent with more precise experiments.
+**Calibration** is a critical process that adjusts the model's predictions to align more closely with causal experiments. While MMM uses historical data to estimate the impact of marketing activities, calibration ensures that these predictions are accurate and consistent with more precise experiments.
 
 ## Why Calibration is Important
 
@@ -29,7 +29,7 @@ Calibration improves the reliability of MMM by adjusting model predictions based
 
 **Attribute Quality Score** :
 
-`Our` **Attribute Quality Score Methodology** helps identify which channels or tactics require calibration to improve accuracy and performance. The methodology assesses several key factors:
+Our **Attribute Quality Score Methodology** helps identify which channels or tactics require calibration to improve accuracy and performance. The methodology assesses several key factors:
 
 * **Spend Variation:** Does the `channel/tactic` exhibit enough variation in spend to generate meaningful insights?
 * **Quantification in the MMM Model:** Is the channel accurately represented in the MMM model? This is evaluated by:
@@ -43,7 +43,7 @@ After running an MMM model, the **Attribute Quality Score** provides guidance on
 
 ### Types of Experiments
 
-You can conduct various types of experiments to gather better insights , some of the experiments are mentioned below :     
+You can conduct various types of experiments to gather better insights , some of the experiments are mentioned below :
 
 * Geolift experiment.
 * Split Testing.
@@ -74,7 +74,7 @@ Lifesight's approach to model calibration is unique in the industry. We refer to
 
 In Coarse calibration, hyper-parameters are picked so as to minimise the distance between **MMM Inferred Lift** and the actual **Causal Lift** obtained from the experiment. This acts *similar* to setting a prior and retraining the model.
 
-**MAPE (Coarse) =[Sigma ( |ROI from MMM - ROI from Lift| )] / N**
+**MAPE (Coarse) =\[Sigma ( |ROI from MMM - ROI from Lift| )] / N**
 
 Coarse calibration is applied in these scenarios
 
@@ -84,9 +84,9 @@ Coarse calibration is applied in these scenarios
 
 **Fine Calibration**
 
-This is the recommended approach to calibration (wherever possible). In this approach, Lifesight's calibration function minimises the distance between  **MMM Inferred Lift** and the actual **Causal Lift**  *for the specific period of testing* 
+This is the recommended approach to calibration (wherever possible). In this approach, Lifesight's calibration function minimises the distance between  **MMM Inferred Lift** and the actual **Causal Lift**  *for the specific period of testing*
 
-**MAPE (Fine) =[Sigma ( |ROI from MMM,k - ROI from Lift,k| )] / N**\
+**MAPE (Fine) =\[Sigma ( |ROI from MMM,k - ROI from Lift,k| )] / N**\
 *(where k is the period(s) for which calibration is applied)*
 
 Fine Calibration is applied in these scenarios
