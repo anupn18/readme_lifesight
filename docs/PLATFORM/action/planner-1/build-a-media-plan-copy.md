@@ -47,11 +47,13 @@ Constraints set realistic boundaries for how the scenario planner can allocate y
 
 The available modes are:
 
-* **Current**: Uses the current spend levels as a baseline.
+* **Current**: Retains the current spend levels and sets the upper & lower limits to ±5% from the current spend levels.
 * **Conservative**: Narrows the spending range, keeping it close to current levels.
 * **Moderate**: Allows for more flexibility in budget allocation than Conservative mode.
 * **Aggressive**: Provides the widest range for budget allocation, allowing the model to explore more dramatic shifts in spending.
 * **Manual**: Allows you to set specific **Lower Limit** and **Upper Limit** spend values for each individual channel in the table below.
+
+<br />
 
 > ℹ️ **How Constraints are Determined**
 >
