@@ -1,5 +1,5 @@
 ---
-title: Input CSV file format
+title: Input CSV Formatting Guidelines
 excerpt: 'Data Validation & Formatting rules for CSV upload '
 deprecated: false
 hidden: true
