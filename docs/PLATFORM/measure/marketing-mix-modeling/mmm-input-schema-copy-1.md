@@ -13,6 +13,8 @@ next:
 ---
 High-quality input data is the foundation of an accurate and actionable Marketing Mix Model (MMM). To ensure the Lifesight UMM Platform can process your data effectively, please adhere to the following formatting and validation guidelines.
 
+<br />
+
 ### CSV Template
 
 To get started quickly, we recommend using our sample template. It provides a ready-to-use structure for your data.
@@ -25,6 +27,8 @@ To get started quickly, we recommend using our sample template. It provides a re
 
 Your input file is built on a combination of mandatory and recommended data columns.
 
+<br />
+
 ### Mandatory Columns
 
 Your CSV file **must** include the following three attributes for the model to run. While you can customize the header names, the data they represent is essential.
@@ -32,6 +36,8 @@ Your CSV file **must** include the following three attributes for the model to r
 * **Date Column:** A date field in `yyyy-mm-dd` format. Example: `{{your_date_column}}`.
 * **KPI Column:** At least one outcome Key Performance Indicator (KPI) you want to measure. Example: `{{your_kpi_column}}` like `Revenue` or `Installs` or `Orders`.
 * **Paid Media Column:** At least one variable representing spend or impressions from a paid media channel. Example: `Google_Spend`, `CTV_Impressions`
+
+<br />
 
 ### Recommended Additional Columns
 
