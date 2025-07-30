@@ -49,9 +49,7 @@ Your CSV file **must** include the following three attributes for the model to r
 
 ## Formatting & Validation Checklist
 
-> #### \[!IMPORTANT]
->
-> Your file must pass all the following validation rules to be successfully uploaded and processed. Please review this checklist carefully.
+> 🚧 Your file must pass all the following validation rules to be successfully uploaded and processed. Please review this checklist carefully.
 
 ### File & Header Rules
 
