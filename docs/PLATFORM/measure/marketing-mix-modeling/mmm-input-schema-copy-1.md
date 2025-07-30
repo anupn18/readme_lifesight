@@ -14,7 +14,7 @@ High-quality input data is crucial for MMM to produce accurate and actionable re
 
 <br />
 
-## [MMM CSV sample template](https://docs.google.com/spreadsheets/d/17UgnDqvQyHz_3XFFa-DSHdk80fudK1mt9p7Stj-xhdI/edit?gid=1915444742#gid=1915444742)
+### [MMM CSV sample template](https://docs.google.com/spreadsheets/d/17UgnDqvQyHz_3XFFa-DSHdk80fudK1mt9p7Stj-xhdI/edit?gid=1915444742#gid=1915444742)
 
 **Mandatory Attributes for the MMM model**\
 The header line of the input file must include attribute names, customizable according to business preferences. The essential attributes for MMM include:
