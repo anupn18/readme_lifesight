@@ -17,7 +17,7 @@ High-quality input data is the foundation of an accurate and actionable Marketin
 
 To get started quickly, we recommend using our sample template. It provides a ready-to-use structure for your data.
 
-[<button>Download MMM CSV Sample Template</button>](https://docs.google.com/spreadsheets/d/17UgnDqvQyHz_3XFFa-DSHdk80fudK1mt9p7Stj-xhdI/edit?gid=1915444742#gid=1915442)
+[<button>View MMM CSV Sample Template</button>](https://docs.google.com/spreadsheets/d/17UgnDqvQyHz_3XFFa-DSHdk80fudK1mt9p7Stj-xhdI/edit?gid=1915444742#gid=1915442)
 
 ***
 
