@@ -26,7 +26,7 @@ You can calibrate your model at two key stages:
 
 Model calibration can be performed while you are initially setting up and training a new Media Mix Model. This ensures the foundational model is robust and aligned from the outset.
 
-<br />
+![]()
 
 ## Calibrating an Existing Model
 
@@ -47,7 +47,7 @@ Once your model is configured, you can proceed with the calibration process. Thi
 
 1. **Add Calibration Rows:** Click the **Add** button to introduce a new row for calibration input. \[cite: 349]
    2. **Define Calibration Parameters:** For each row, specify the following:\
-      **Channel/Tactic:** Select the specific marketing channel or tactic (e.g., Amazon Ads, Google MOF, Snapchat).\
+      **Channel/Tactic:** Select the specific marketing channel or tactic (e.g., Amazon Ads, Google MOF, Snapchat).
       **Start-End Date:** Define the date range for the calibration data (e.g., \{\{CALIBRATION\_START\_DATE}} - \{\{CALIBRATION\_END\_DATE}}).
       **ROAS:** Enter the Return on Ad Spend (ROAS) value for the chosen channel/tactic (e.g., 2.6).
       **Confidence %:** Set the confidence level for this calibration point (e.g., 90%).
