@@ -8,7 +8,7 @@ hidden: true
 metadata:
   robots: index
 ---
-Planner is one of the key actioning capabilities of the Lifesight Unified Marketing Measurement platform. It is a powerful forecasting and scenario-planning tool that allows you to project business outcomes based on different budget allocations and marketing strategies. By leveraging Planner, you can
+Planner is one of the key actioning capabilities of the Lifesight Unified Marketing Measurement platform. It is a powerful forecasting and budget-planning tool that allows you to project business outcomes based on different budget allocations and marketing strategies. By leveraging Planner, you can
 
 * Forecast potential revenue and other KPIs for future time periods.
 * Simulate the impact of different budget scenarios before committing spend.
