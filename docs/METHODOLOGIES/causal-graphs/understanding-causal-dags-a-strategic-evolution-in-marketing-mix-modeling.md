@@ -5,8 +5,6 @@ hidden: false
 metadata:
   robots: index
 ---
-# Understanding Causal DAG: A Strategic Evolution in Marketing Mix Modeling
-
 ## Introduction
 
 The marketing landscape has evolved dramatically, with businesses managing increasingly complex relationships between channels, tactics, and performance metrics. Traditional approaches to relationship management in regression based Modeling systems often fall short when dealing with the intricate web of modern marketing ecosystems. Causal DAG represents a fundamental paradigm shift that addresses these challenges head-on, providing a structured, hierarchical approach to relationship management that enhances both clarity and control.
