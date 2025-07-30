@@ -46,14 +46,14 @@ To calibrate an existing model:
 Once your model is configured, you can proceed with the calibration process. This involves defining specific parameters for each channel or tactic you wish to calibrate.
 
 1. **Add Calibration Rows:** Click the **Add** button to introduce a new row for calibration input. \[cite: 349]
-   2. &#x20;\*\*Define Calibration Parameters:\*\* For each row, specify the following: &#x20;
-      &#x20;     \*\*Channel/Tactic:\*\* Select the specific marketing channel or tactic (e.g., Amazon Ads, Google MOF, Snapchat).&#x20;
-      &#x20;     \*\*Start-End Date:\*\* Define the date range for the calibration data (e.g., \{\{CALIBRATION\\\_START\\\_DATE}} - \{\{CALIBRATION\\\_END\\\_DATE}}).&#x20;
-      &#x20;     \*\*ROAS:\*\* Enter the Return on Ad Spend (ROAS) value for the chosen channel/tactic (e.g., 2.6).&#x20;
-      &#x20;     \*\*Confidence %:\*\* Set the confidence level for this calibration point (e.g., 90%).&#x20;
-      &#x20;     \*\*Calibration Type:\*\* Select the type of calibration (e.g., Coarse Calibration).&#x20;
+   2. **Define Calibration Parameters:** For each row, specify the following:\
+      **Channel/Tactic:** Select the specific marketing channel or tactic (e.g., Amazon Ads, Google MOF, Snapchat).\
+      **Start-End Date:** Define the date range for the calibration data (e.g., \{\{CALIBRATION\_START\_DATE}} - \{\{CALIBRATION\_END\_DATE}}).
+      **ROAS:** Enter the Return on Ad Spend (ROAS) value for the chosen channel/tactic (e.g., 2.6).
+      **Confidence %:** Set the confidence level for this calibration point (e.g., 90%).
+      **Calibration Type:** Select the type of calibration (e.g., Coarse Calibration).
       3. **Recalibrate the Model:** After inputting all desired calibration parameters, click the **Recalibrate Model** button to apply the changes and update your model.
-         <br />
+   <br />
 
 ## Analyzing Calibration Insights
 
@@ -88,24 +88,3 @@ This table presents a detailed breakdown of the calibration's impact across diff
   <br />
   This table helps you understand precisely how the calibration influenced your model's understanding of each category's performance.
   <br />
-
-## Troubleshooting Common Calibration Issues
-
-<br />
-
-If you encounter issues during model calibration, consider the following:
-
-<br />
-
-```
-```
-
-<br />
-
-* **"Invalid Input Data"**: Check that all numerical fields (ROAS, Confidence %, Training Size) contain valid numbers and that date formats are correct.
-* **"Calibration Failed"**: Verify that the selected Channel/Tactic exists within your model's data. Complex interactions or highly constrained calibration inputs might also lead to issues.
-* **"Unexpected Results"**: If the "Calibrated" values in the insights table differ significantly from expectations, review your "Confidence %" settings and consider if your ROAS inputs are realistic based on historical data or other tests.
-
-<br />
-
-If problems persist, please contact Lifesight Support with details of the issue, including screenshots and any error messages you receive.
