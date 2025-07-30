@@ -78,10 +78,7 @@ Your CSV file **must** include the following three attributes for the model to r
 
 ## Data-to-Feature Ratio Explained
 
-To ensure statistical validity, your dataset must maintain a minimum ratio of data points (rows) to independent variables (columns).
-
-* **Required Ratio:** 4:1
-* This means for every 1 variable (column), you must have at least 4 observations (rows).
+To ensure statistical validity, your dataset must maintain a minimum of 4:1 ratio of data points (rows): independent variables (columns).
 
 **Example:**\
 If you have **25** columns of independent variables in your CSV, you need at least **100** rows of data.
