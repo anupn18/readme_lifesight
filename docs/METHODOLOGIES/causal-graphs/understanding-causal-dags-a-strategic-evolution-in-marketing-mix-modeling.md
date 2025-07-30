@@ -31,6 +31,8 @@ Our foundational principle: **Correlation equals Causation plus Bias**. By expli
 
 Causal DAG uses a two-tier architecture that separates business-level relationship logic from model-specific implementations.
 
+![](https://files.readme.io/f8231cc780dcdec9211c386cabfeadd638839a0ec19f290a1bd577abe9957cb8-image.png)
+
 ### Business Graph (Workspace DAG)
 
 The Workspace DAG serves as the foundational layer that captures your organization's understanding of how marketing variables interact to drive business outcomes. Think of it as your Business Model.
@@ -85,5 +87,3 @@ The transition from pure data-driven analysis to causal thinking empowers decisi
 As marketing continues to evolve in complexity, the organizations that invest in causal thinking and structured relationship management will be best positioned to extract meaningful insights, optimize performance, and drive sustainable growth. Causal DAG provides the foundation for this competitive advantage, transforming relationship management from a necessary complexity into a strategic asset that delivers genuine causal insights.
 
 ***
-
-*For technical implementation details, API documentation, and advanced configuration options, please refer to the Developer Documentation section of your platform.*
