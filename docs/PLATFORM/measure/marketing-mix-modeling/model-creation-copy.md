@@ -19,20 +19,11 @@ To ensure a successful model build, your data must be correctly prepared. You ca
 
 ### Using Integrated Data
 
-For a more automated workflow, you can connect your data sources directly to the platform. To do this, you utilize [Google Sheets](https://docs.lifesight.io/docs/google-sheets-mmm-data-integration) and other the connectors from the [integrations](https://docs.lifesight.io/update/docs/native-integrations#/) section in the Lifesight platform. Once your integration is active, choose **Using Integrated data** in the upload section to automatically pull all your input data from integrated platforms.
+To create a model with an automated workflow, you can connect your data sources directly to the platform. To do this, you  connectors from the [integrations](https://docs.lifesight.io/update/docs/native-integrations#/) section in the Lifesight platform. Once your integration is active, choose **Using Integrated data** in the upload section to automatically pull all your input data from integrated platforms.
 
 ### Using a CSV File
 
-If you are uploading a CSV file, it must meet the following conditions to prevent errors during the model creation process.
-
-> 🚧 CSV Formatting Rules
->
-> * The file must include a **Date** column in `yyyy-mm-dd` format. Data can be aggregated daily, weekly, or monthly, but there should be no missing dates in the sequence.
-> * All marketing variables (spends, impressions, clicks) and contextual variables must be numeric.
-> * There should be no empty or null values. Replace any nulls with `0`.
-> * No marketing variable column should have a sum of zero. If a column's total is zero, please remove it from the dataset before uploading.
-> * Column headers must only contain alphanumeric characters and underscores (e.g., `Facebook_Spend`, not `Facebook Spend`).
-> * All column headers must begin with an alphabet character.
+While the recommended method to create a model is using Integrated data, you can also kickstart your model with historical data stored in a CSV file. To ensure the model is built successfully, it must meet the certain conditions to prevent errors during the model creation process.
 
 Refer to this [page](https://docs.lifesight.io/update/docs/mmm-input-schema#/) for a more details on data requirements for CSV file input.
 
