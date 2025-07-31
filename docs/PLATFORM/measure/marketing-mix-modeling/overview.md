@@ -1,5 +1,5 @@
 ---
-title: Overview tab
+title: Model Overview
 excerpt: Learn to interpret the reports and charts on the Overview tab
 deprecated: false
 hidden: false
