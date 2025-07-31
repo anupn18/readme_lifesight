@@ -1,6 +1,6 @@
 ---
 title: Model attributes
-excerpt: Understand your Mix Model's accuracy, performance, and input data
+excerpt: Understand your Mix Model's performance and input data
 deprecated: false
 hidden: false
 metadata:
@@ -13,7 +13,7 @@ next:
       title: Insights tab
       type: basic
 ---
-The Model tab gives insights into your MMM model accuracy and performance.
+The Model tab helps you interpret your model's performance metrics and understand the relationships betweens its input features.
 
 <br />
 
