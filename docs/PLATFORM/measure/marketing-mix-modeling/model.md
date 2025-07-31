@@ -27,12 +27,12 @@ The Model tab helps you interpret your model's performance metrics and understan
 
 <Image align="center" src="https://files.readme.io/72f557dd63670b10bd725afa9229fea81bf42be21dae9d03b8af66a633610307-Screenshot_2025-07-22_at_5.13.31_PM.png" />
 
-<br />
+The summary section offers a quick look into the model's performance. The metrics displayed in this section are
 
 * **Accuracy**\
   The model's accuracy is calculated based on how the model's predictions have performed on the last 4 - 12 weeks of unseen data points. This method of accuracy calculation is known as Median Holdout Accuracy.
 * **NRMSE (Normalized Root Mean Squared Error):**\
-  The Normalized Root Mean Square Error is also referred to as the prediction error indicates how accurate the model’s predictions are. Lower values represent more accurate predictions. It measures the square root of the average squared differences between predicted and actual outcomes.
+  The Normalized Root Mean Square Error, also referred to as the prediction error, indicates the accuracy of the model’s predictions. Lower values represent more accurate predictions. It measures the square root of the average squared differences between predicted and actual outcomes.
 * **Actual Revenue:**\
   The real revenue generated during a specific period.
 * **Predicted Revenue:**\
