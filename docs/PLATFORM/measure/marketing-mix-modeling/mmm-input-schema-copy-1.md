@@ -27,8 +27,6 @@ To get started quickly, we recommend using our sample template. It provides a re
 
 Your input file is built on a combination of mandatory and recommended data columns.
 
-<br />
-
 ### Mandatory Columns
 
 Your CSV file **must** include the following three attributes for the model to run. While you can customize the header names, the data they represent is essential.
