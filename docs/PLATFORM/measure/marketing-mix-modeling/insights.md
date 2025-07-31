@@ -1,5 +1,5 @@
 ---
-title: Insights tab
+title: Insights
 excerpt: >-
   Understand baseline revenue, channel Incrementality and profit insights from
   your MMM
@@ -15,8 +15,6 @@ next:
 The Insights tab is designed to help you analyse and understand the performance of your marketing activities. It provides a detailed breakdown of your marketing spend, the revenue it generates, and the overall effectiveness of your marketing strategies.
 
 ## View interactive demo
-
-<br />
 
 <Embed typeOfEmbed="iframe" url="https://lifesight.storylane.io/demo/s5bugj3wpbnh?embed=inline" href="https://lifesight.storylane.io/demo/s5bugj3wpbnh?embed=inline" html="false" iframe="true" height="600px" width="800px" />
 
