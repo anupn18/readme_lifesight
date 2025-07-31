@@ -1,6 +1,6 @@
 ---
-title: Model tab
-excerpt: Understand your MMM model accuracy and performance
+title: Model attributes
+excerpt: Understand your Mix Model's accuracy, performance, and input data
 deprecated: false
 hidden: false
 metadata:
