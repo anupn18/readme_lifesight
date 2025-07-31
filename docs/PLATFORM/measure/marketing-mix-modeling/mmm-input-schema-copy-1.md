@@ -13,8 +13,6 @@ next:
 ---
 High-quality input data is the foundation of an accurate and actionable Marketing Mix Model (MMM). To ensure the Lifesight UMM Platform can process your data effectively, please adhere to the following formatting and validation guidelines.
 
-<br />
-
 ### CSV Template
 
 To get started quickly, we recommend using our sample template. It provides a ready-to-use structure for your data.
