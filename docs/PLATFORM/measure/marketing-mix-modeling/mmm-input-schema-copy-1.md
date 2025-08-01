@@ -2,7 +2,7 @@
 title: CSV Data Formatting Guidelines
 excerpt: 'Data Validation & Formatting rules for CSV upload '
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 next:
