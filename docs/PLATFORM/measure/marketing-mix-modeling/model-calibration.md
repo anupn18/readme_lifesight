@@ -16,7 +16,6 @@ Calibrating your model helps to
 * **Improve Accuracy:** Align model predictions with actual incrementality test results for a more precise understanding of marketing effectiveness.
 * **Enhance Actionability:** Ensure the insights from your MMM are directly applicable and reliable for budget allocation and strategic planning.
 * **Incorporate Real-World Learnings:** Integrate the nuanced understanding gained from specific experiments into your overarching model.
-  <br />
 
 # Accessing Model Calibration
 
@@ -26,7 +25,7 @@ You can calibrate your model at two key stages:
 
 Model calibration can be performed while you are initially setting up and training a new Media Mix Model. This ensures the foundational model is robust and aligned from the outset.
 
-![]()
+<Image align="center" src="https://files.readme.io/39406d3787c5e651e3ab07be4aa5408ea49143006da77ad41939518fbe9e816a-Model_creation_-_Calibration_page.png" />
 
 ## Calibrating an Existing Model
 
