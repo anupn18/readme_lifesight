@@ -1,8 +1,6 @@
 ---
 title: Causal flags
-excerpt: >-
-  Understand what different causal flags mean in the MMM Insights Contribution
-  table
+excerpt: Understand what different causal flags mean in your Mix Model
 deprecated: false
 hidden: false
 metadata:
