@@ -1,5 +1,6 @@
 ---
 title: Geo Experiment Creation
+excerpt: Design and Deploy your Geo Experiment
 deprecated: false
 hidden: false
 metadata:
