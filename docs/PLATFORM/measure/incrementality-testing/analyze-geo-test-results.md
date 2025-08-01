@@ -2,7 +2,7 @@
 title: Geo test insights
 excerpt: Learn how to analyze your Geo Test results and use it for MMM calibration
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
