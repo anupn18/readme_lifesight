@@ -1,6 +1,6 @@
 ---
 title: CSV Data Formatting Guidelines
-excerpt: Schema to input all variables into your MMM model
+excerpt: 'Data Validation & Formatting rules for CSV upload '
 deprecated: false
 hidden: false
 metadata:
