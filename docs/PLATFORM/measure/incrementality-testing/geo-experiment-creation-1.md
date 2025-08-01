@@ -8,6 +8,16 @@ metadata:
 ---
 Lifesight's platform allows you to design and deploy geo experiments to accurately measure the incremental impact of your marketing efforts across various ad platforms. This guide walks you through the step-by-step process of designing a new geo experiment.
 
+<br />
+
+<br />
+
+## **Interactive Demo: Designing a Geo Experiment**
+
+<Embed typeOfEmbed="iframe" url="" html="false" iframe="true" />
+
+<br />
+
 ### Initiating a New Experiment
 
 To begin designing your geo experiment, navigate to the **Experiments** section from the main Lifesight UMM dashboard and click on **+ Create Experiment**. You will then be guided through a series of steps: Design, Data, Markets, Campaigns, and Review.
@@ -138,13 +148,3 @@ On the review page, you will see a consolidated view of:
 * **Time Series Decomposition**: A visual representation of observed values over time for both control and treatment groups.
 
 Review all the details carefully. If everything looks correct, you can proceed to launch your experiment.
-
-***
-
-**Interactive Demo: Designing a Geo Experiment**
-
-<Embed typeOfEmbed="iframe" url="" html="false" iframe="true" />
-
-<br />
-
-***
