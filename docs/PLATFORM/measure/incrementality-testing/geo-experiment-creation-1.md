@@ -37,7 +37,7 @@ To create your hypothesis:
 1. Click on **Create Hypothesis** in the "Cell 1" section.
 2. **Hypothesis**: Select the type of incrementality test you want to perform (e.g., "Test Incrementality of Existing Channel").
 3. **Channel / Tactic**: Choose the specific channel or tactic you are testing (e.g., Facebook, Google).
-4. **Expected CVR/CPI/CPC/etc.** (Expected Cost Per Result): Enter your expected value for the chosen metric.
+4. **Expected CPIC** (Expected Cost Per Incremental Customer): Enter your expected value for the chosen metric.
 5. **Expected Lift (%)**: Input the anticipated percentage lift you expect from the experiment.
 6. **Significance Level (%)**: Define the desired statistical significance level for your experiment results.
 7. **Treatment Type**: Select either **Scale-up** or **Hold-out**.
@@ -51,8 +51,8 @@ After defining your hypothesis, you need to select and validate the data that wi
 
 #### Experiment Duration & Historical Timeframe
 
-* **Experiment Duration**: Select the planned duration for your experiment .
-* **Historical Timeframe**: Choose the historical period for data analysis (e.g., 12 months).
+* **Experiment Duration**: Select the planned duration for your experiment.
+* **Historical Timeframe**: Choose the historical period for data analysis
 
 #### Data Upload
 
@@ -85,11 +85,13 @@ Once your data is validated, you will proceed to select your test and control ma
 
 #### Understanding Test and Control Markets
 
-\[cite\_start]In a geo experiment, **Test Markets** are the locations where the experiment's treatment (e.g., new campaign, increased spend) is applied. **Control Markets** are similar locations where the treatment is *not* applied, serving as a baseline for comparison.
+In a geo experiment, **Test Markets** are the locations where the experiment's treatment (e.g., new campaign, increased spend) is applied. **Control Markets** are similar locations where the treatment is *not* applied, serving as a baseline for comparison.
 
 #### Automatic Market Selection
 
 Based on your historical data, Lifesight's platform will propose the best-suited test market sets for your experiment.
+
+<Image align="center" src="https://files.readme.io/946abe09d4d819e01c10300fa5e6c994bc5382b098ec7df09ad5574dc085fc7f-Experiments_Markets_Selection_page.png" />
 
 #### Reviewing Market Cohorts
 
@@ -105,7 +107,7 @@ You can review the suggested market cohorts for each cell of your hypothesis. De
 * **Estimated Bias**: An estimation of potential bias in the market selection\[cite: 4].
 * **Control Markets**: A breakdown of the geographic locations forming the synthetic control group and their respective weights.
 
-You can view the **Time Series Decomposition** to observe historical data trends for both control and treatment groups, which helps ensure the validity of your market selection.
+You can view the **Time Series Decomposition chart**, below the market selection table to observe historical data trends for both control and treatment groups, which helps ensure the validity of your market selection.
 
 ### Step 4: Campaign Deployment
 
@@ -123,12 +125,17 @@ Within the "Campaigns" section, you will map your active campaigns to the respec
 
 The final step before launching your experiment is a comprehensive review of all the configurations. This page provides a summary of your experiment design, data selection, market cohorts, and campaign mappings.
 
+<Image align="center" src="https://files.readme.io/1484d21060a0fecf45523bfddb69ae61b89c7bc160f2e59cb80ecf5c2bbed3fa-Completed_experiment_test_design_page.png" />
+
 On the review page, you will see a consolidated view of:
 
-* \[cite\_start]**Cell Details**: Including the hypothesis, minimum detectable lift, and additional spend\[cite: 4].
-* \[cite\_start]**Test Markets**: The selected markets and their market share\[cite: 4].
-* \[cite\_start]**Control Markets**: The detailed breakdown of the control group composition\[cite: 4].
-* \[cite\_start]**Time Series Decomposition**: A visual representation of observed values over time for both control and treatment groups\[cite: 4].
+* **Cell Details**: Including the hypothesis, minimum detectable lift, and additional spend.
+* **Test Markets**: The selected markets and their market share.
+* **Control Markets**: The detailed breakdown of the control group composition.
+
+<Image align="center" src="https://files.readme.io/a197ff296a57d92ec6ad977caae9ce80bbd6c22a0ba23042a9a68a0abbc6e2d7-Completed_experiment_test_design_page_-_2.png" />
+
+* **Time Series Decomposition**: A visual representation of observed values over time for both control and treatment groups.
 
 Review all the details carefully. If everything looks correct, you can proceed to launch your experiment.
 
@@ -136,6 +143,8 @@ Review all the details carefully. If everything looks correct, you can proceed t
 
 **Interactive Demo: Designing a Geo Experiment**
 
-\[Please insert an embedded interactive demo here that walks through the steps of hypothesis creation, data upload, market selection, and campaign mapping. This could be a guided tour or a clickable simulation of the UI.]
+<Embed typeOfEmbed="iframe" url="" html="false" iframe="true" />
+
+<br />
 
 ***
