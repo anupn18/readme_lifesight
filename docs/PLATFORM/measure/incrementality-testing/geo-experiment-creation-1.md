@@ -14,7 +14,7 @@ Lifesight's platform allows you to design and deploy geo experiments to accurate
 
 ## **Interactive Demo: Designing a Geo Experiment**
 
-<Embed typeOfEmbed="iframe" url="" html="false" iframe="true" />
+<Embed typeOfEmbed="iframe" url="https://lifesight.storylane.io/demo/uwyisucnnpa9?embed=inline" html="false" iframe="true" href="https://lifesight.storylane.io/demo/uwyisucnnpa9?embed=inline" height="600px" width="800px" />
 
 <br />
 
