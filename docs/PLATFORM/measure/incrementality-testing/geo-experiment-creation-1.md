@@ -59,7 +59,7 @@ Lifesight provides flexibility in how you bring your data into the platform:
 
 <Image align="center" src="https://files.readme.io/249d5219534169fd7743f247a85b9de3c44e98b5962903cd850a2633cfccb2dc-Experiment_data_page.png" />
 
-* **Upload CSV**: You can upload a CSV file containing your historical data.
+* **Upload CSV**: You can upload a CSV file containing your historical data. Historical data for experiment design typically needs to contain 3 fields: Date, Geography (State, City, or Zip Code), and output KPI (Eg: Revenue, Orders, Installs, etc.,)
 * **Integrated**: Connect directly to integrated data sources.
 * **Google Sheet**: Link a Google Sheet for data ingestion.
 
