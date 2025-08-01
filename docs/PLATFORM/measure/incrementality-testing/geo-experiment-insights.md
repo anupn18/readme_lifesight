@@ -6,8 +6,6 @@ hidden: false
 metadata:
   robots: index
 ---
-## Interpreting Geo Test Results
-
 Once your geo-distributed experiment has concluded, the Lifesight UMM platform provides a comprehensive results page. This guide will walk you through how to interpret the different components of this page to make confident, data-driven marketing decisions.
 
 ### Navigating the Results Page
@@ -78,7 +76,7 @@ This section quantifies the impact of your test and tells you whether the result
 * **Adjusted Installs Lift %**: This is the core result of your experiment. It represents the percentage increase or decrease in your primary metric in the treatment group compared to the control group, after accounting for pre-test differences and other model adjustments. A negative lift in a hold-out test indicates that the marketing activity was effective.
 * **Statistical Significance**: This percentage tells you how likely it is that the observed lift is a real effect and not due to random chance.
 
-<Callout icon="📘">
+<Callout icon="📘" theme="info">
   **What is Statistical Significance?**\
   A significance level of 90% or higher is generally considered strong. For example, a significance of **94.03%** means there is a 94.03% probability that the measured lift is a real effect caused by your changes. You can be confident in making a decision based on this result.
 </Callout>
