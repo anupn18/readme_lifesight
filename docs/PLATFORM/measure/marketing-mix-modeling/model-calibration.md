@@ -1,5 +1,6 @@
 ---
 title: '[WIP] Model Calibration'
+excerpt: 'Calibrating your Model based on experiment outcomes '
 deprecated: false
 hidden: true
 metadata:
