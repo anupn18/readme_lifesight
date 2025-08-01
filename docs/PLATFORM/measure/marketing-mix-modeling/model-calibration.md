@@ -32,7 +32,7 @@ Model calibration can be performed while you are initially setting up and traini
 
 Calibration can also be done at any point after your model has been fully trained and is operational. This is crucial for continuous optimization and adapting to changing market dynamics or new test results.
 
-<br />
+<Image align="center" src="https://files.readme.io/95c33a8b799458f310bcafedd684b9f908bb3a5e0dfad8b43fb7a092c2a3229f-Model_Overview_page.png" />
 
 To calibrate an existing model:
 
@@ -43,37 +43,33 @@ To calibrate an existing model:
 
 ### Performing Calibration
 
+<Image align="center" src="https://files.readme.io/423d5f6fe8a090448211c7da959b4187a5027192f12daf7a9028df6febedb0be-Model_Calibration_page.png" />
+
 Once your model is configured, you can proceed with the calibration process. This involves defining specific parameters for each channel or tactic you wish to calibrate.
 
-1. **Add Calibration Rows:** Click the **Add** button to introduce a new row for calibration input. \[cite: 349]
-   2. **Define Calibration Parameters:** For each row, specify the following:\
-      **Channel/Tactic:** Select the specific marketing channel or tactic (e.g., Amazon Ads, Google MOF, Snapchat).
-      **Start-End Date:** Define the date range for the calibration data (e.g., \{\{CALIBRATION\_START\_DATE}} - \{\{CALIBRATION\_END\_DATE}}).
-      **ROAS:** Enter the Return on Ad Spend (ROAS) value for the chosen channel/tactic (e.g., 2.6).
-      **Confidence %:** Set the confidence level for this calibration point (e.g., 90%).
-      **Calibration Type:** Select the type of calibration (e.g., Coarse Calibration).
-      3. **Recalibrate the Model:** After inputting all desired calibration parameters, click the **Recalibrate Model** button to apply the changes and update your model.
+1. **Add Calibration Rows:** Click the **Add** button to introduce a new row for calibration input.
+2. **Define Calibration Parameters:** For each row, specify the following:\
+   **Channel/Tactic:** Select the specific marketing channel or tactic (e.g., Amazon Ads, Google MOF, Snapchat).
+   **Start-End Date:** Define the date range for the calibration data (e.g., \{\{CALIBRATION\_START\_DATE}} - \{\{CALIBRATION\_END\_DATE}}).
+   **ROAS:** Enter the Return on Ad Spend (ROAS) value for the chosen channel/tactic (e.g., 2.6).
+   **Confidence %:** Set the confidence level for this calibration point (e.g., 90%).
+   **Calibration Type:** Select the type of calibration (e.g., Coarse Calibration).
+3. **Recalibrate the Model:** After inputting all desired calibration parameters, click the **Recalibrate Model** button to apply the changes and update your model.
    <br />
 
 ## Analyzing Calibration Insights
 
-<br />
+After calibrating a model, a calibrate tab appears alongside the other model tabs. This provides detailed insights into how the adjustments have impacted your model's predictions and key performance indicators.
 
-After calibration, the platform provides detailed insights into how the adjustments have impacted your model's predictions and key performance indicators.
-
-<br />
+<Image align="center" src="https://files.readme.io/3665f27cfe5b1deef2be09ce3ea9e7b9c38cfbea67ff9f6d17a4a110c33675d8-Model_Calibration_Insights.png" />
 
 ### Actual vs. Predicted Revenue Chart
 
 This chart visually compares the "Actual Revenue" against the "Predicted Revenue" over time, allowing you to see the model's accuracy after calibration.
 
-<br />
-
 ### Calibration Input Table
 
 This table summarizes the inputs you provided for calibration, including Platform, Start-End Date, ROAS, Confidence %, and Calibration Type.
-
-<br />
 
 ### Calibration Insights Table
 
