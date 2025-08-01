@@ -1,5 +1,5 @@
 ---
-title: Campaigns tab (old)
+title: Campaigns
 excerpt: Giving campaign level insights using Triangulation Methodology
 deprecated: false
 hidden: true
