@@ -1,5 +1,8 @@
 ---
 title: Profit & Cost Settings
+excerpt: >-
+  Define your core financial inputs to unlock true, channel-level profit
+  reporting
 deprecated: false
 hidden: false
 metadata:
