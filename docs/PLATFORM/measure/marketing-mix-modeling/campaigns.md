@@ -2,7 +2,7 @@
 title: Campaigns
 excerpt: Giving campaign level insights using Triangulation Methodology
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: ''
   description: ''
