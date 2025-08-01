@@ -12,7 +12,7 @@ metadata:
 next:
   description: ''
 ---
-Causal flags in Marketing Mix Modeling (MMM) play a crucial role in determining whether the channels included in the model are causal or not. The identification of causal channels helps in accurately attributing the impact of different marketing activities on business outcomes like revenue, leads, or customer acquisition. This article explains the criteria for evaluating causality in MMM channels and how to handle variables with high interaction effects.
+Causal flags in Marketing Mix Modeling (MMM) play a crucial role in determining whether the channels included in the model are causally calibrated. The identification of causal channels helps in accurately attributing the impact of different marketing activities on business outcomes like revenue, leads, or customer acquisition. This article explains the criteria for evaluating causality in MMM channels and how to handle variables with high interaction effects.
 
 <Image align="center" src="https://files.readme.io/4838795efa963a0039509ccd8628f6116348dc341d31ba526e61d9cf665d76ed-causal_flags.jpg" />
 
