@@ -50,7 +50,7 @@ The Test Design tab also includes powerful visualizations for advanced analysis.
   The power curve shows the probability (Y-axis) of detecting a true effect of a certain size (X-axis) at your given investment level. A steep curve is ideal. It helps you answer questions like, "If the true effect of my media was a 5% lift, what was the chance this test would have detected it?" This is essential for understanding why a test might have been inconclusive.
 </Callout>
 
-***
+<br />
 
 ### The 'Insights' Tab
 
@@ -89,14 +89,12 @@ This section quantifies the impact of your test and tells you whether the result
 
 This time-series graph plots your primary metric (e.g., Installs) for both the Treatment and Control groups over the duration of the experiment.
 
-![Screenshot of the Treatment vs Control time-series chart](http://googleusercontent.com/file_content/2)
+<Image align="center" alt="Screenshot of the Treatment vs Control time-series chart" src="https://files.readme.io/11f67a9d6b4f25a8b1055fd6fe43f197dd729a149dfe8f3610fc0016630275bd-Treatment_vs_Control_chart_-_Experiment_results.png" />
 
 Use this chart to visually inspect performance trends. Look for:
 
 * **Divergence**: A clear and sustained gap between the treatment and control lines after the experiment starts.
 * **Anomalies**: Any sudden, unexpected spikes or dips that might correspond to external events not captured in the model.
-
-<br />
 
 <Callout icon="📘" theme="info">
   **How to Read the Power Curve**\
