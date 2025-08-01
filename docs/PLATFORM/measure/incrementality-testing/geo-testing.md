@@ -1,5 +1,5 @@
 ---
-title: Geo test
+title: Geo Experiment
 excerpt: >-
   Understand the need for geo test and how it can help improve your marketing
   optimization.
