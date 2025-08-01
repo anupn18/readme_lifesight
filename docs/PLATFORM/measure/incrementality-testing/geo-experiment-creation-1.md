@@ -5,13 +5,15 @@ hidden: false
 metadata:
   robots: index
 ---
-Lifesight's Unified Marketing Measurement (UMM) platform allows you to design and deploy geo experiments to accurately measure the incremental impact of your marketing efforts across various ad platforms. This guide walks you through the step-by-step process of designing a new geo experiment.
+Lifesight's platform allows you to design and deploy geo experiments to accurately measure the incremental impact of your marketing efforts across various ad platforms. This guide walks you through the step-by-step process of designing a new geo experiment.
 
 ### Initiating a New Experiment
 
 To begin designing your geo experiment, navigate to the **Experiments** section from the main Lifesight UMM dashboard and click on **+ Create Experiment**. You will then be guided through a series of steps: Design, Data, Markets, Campaigns, and Review.
 
 ### Step 1: Hypothesis Creation
+
+<Image align="center" src="https://files.readme.io/17e3b5e485a4d58ba4bede04e9c5bcacea085ad8c6aae8e0359c4e3baec82647-Experiment_design_page_-_pre-hypothesis.png" />
 
 The first step in designing your experiment is to define your hypothesis and the type of experiment you wish to run.
 
@@ -20,14 +22,14 @@ The first step in designing your experiment is to define your hypothesis and the
 Lifesight supports various experiment types. For geo experiments, you will typically select:
 
 * **Geographic**: Assess lift by varying spend across geographical locations.
-* **Customers**: Assess lift by varying spend across Audience Segments.
-* **Time**: Assess lift by varying spend across Time Periods.
 
 <br />
 
 #### Defining Your Hypothesis
 
-\[cite\_start]Within "Cell 1" (and subsequent cells if you are running a multi-cell experiment), you will create your hypothesis.
+Within "Cell 1" (and subsequent cells if you are running a multi-cell experiment), you will create your hypothesis.
+
+<Image align="center" src="https://files.readme.io/437ed63d871f0ec22014fe2c8a4a3c1addd0addb3c13f742dbdde026c0907842-Experiment_-_hypothesis_creation_page.png" />
 
 To create your hypothesis:
 
@@ -55,6 +57,8 @@ After defining your hypothesis, you need to select and validate the data that wi
 
 Lifesight provides flexibility in how you bring your data into the platform:
 
+<Image align="center" src="https://files.readme.io/249d5219534169fd7743f247a85b9de3c44e98b5962903cd850a2633cfccb2dc-Experiment_data_page.png" />
+
 * **Upload CSV**: You can upload a CSV file containing your historical data.
 * **Integrated**: Connect directly to integrated data sources.
 * **Google Sheet**: Link a Google Sheet for data ingestion.
@@ -71,6 +75,8 @@ Select the Key Performance Indicator (KPI) that your experiment will measure (e.
 #### Data Validation
 
 After selecting your data parameters, click **Validate**. The system will process your data and confirm its suitability for the experiment. A "Validation Successful" message will appear, confirming details like Geographic Granularity, Date Column, Geo Column, Historical Start Date, Historical End Date, and KPI Column.
+
+<Image align="center" src="https://files.readme.io/9067f54586499343f0596772f384ab960bb151a0e8948df8495951bd31d1ea43-Experiment_-_data_validation_successful_page.png" />
 
 ### Step 3: Market Selection
 
