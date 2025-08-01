@@ -1,5 +1,5 @@
 ---
-title: Model attributes
+title: Model Attributes
 excerpt: Understand your Mix Model's performance and input data
 deprecated: false
 hidden: false
