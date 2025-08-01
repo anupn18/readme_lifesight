@@ -1,5 +1,5 @@
 ---
-title: Channel Deep Dive tab
+title: Channel Deep Dive
 excerpt: >-
   Understand revenue contribution trends and investigate spending patterns for a
   Channel or Tactic
