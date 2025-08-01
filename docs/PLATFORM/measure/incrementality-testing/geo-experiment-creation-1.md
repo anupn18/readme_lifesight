@@ -133,16 +133,13 @@ Within the "Campaigns" section, you will map your active campaigns to the respec
 
 The final step before launching your experiment is a comprehensive review of all the configurations. This page provides a summary of your experiment design, data selection, market cohorts, and campaign mappings.
 
-<Image align="center" src="https://files.readme.io/1484d21060a0fecf45523bfddb69ae61b89c7bc160f2e59cb80ecf5c2bbed3fa-Completed_experiment_test_design_page.png" />
+<Image align="center" src="https://files.readme.io/b2561385526a599be8ac63d71a650b1ab24719d4eef2637da4b0d10c883fc493-Experiment_review_page.png" />
 
 On the review page, you will see a consolidated view of:
 
-* **Cell Details**: Including the hypothesis, minimum detectable lift, and additional spend.
+* **Cell Details**: Including the hypothesis, treatment type, minimum detectable lift, and additional spend.
 * **Test Markets**: The selected markets and their market share.
-* **Control Markets**: The detailed breakdown of the control group composition.
-
-<Image align="center" src="https://files.readme.io/a197ff296a57d92ec6ad977caae9ce80bbd6c22a0ba23042a9a68a0abbc6e2d7-Completed_experiment_test_design_page_-_2.png" />
-
+* **Control Markets**: The detailed breakdown of the synthetic control group composition.
 * **Time Series Decomposition**: A visual representation of observed values over time for both control and treatment groups.
 
 Review all the details carefully. If everything looks correct, you can proceed to launch your experiment.
