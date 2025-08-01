@@ -1,5 +1,5 @@
 ---
-title: MMM input schema
+title: CSV Data Formatting Guidelines
 excerpt: Schema to input all variables into your MMM model
 deprecated: false
 hidden: false
