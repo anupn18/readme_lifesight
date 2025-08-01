@@ -16,7 +16,7 @@ Causal flags in Marketing Mix Modeling (MMM) play a crucial role in determining 
 
 ## Understanding Causality in MMM
 
-Causality in an MMM context refers to the model's ability to attribute the effect of a specific marketing channel on a business outcome, like revenue or customer growth. The effectiveness of this attribution depends on the quality and variation of the data provided.
+Causality in a mix model refers to the model's ability to quantifiably attribute the effect of a business outcome to a specific marketing channel. The effectiveness of this attribution depends on the quality and variation of the data provided.
 
 ### Lifesight shows 3 types of causal flags in the MMM Insights UI:
 
