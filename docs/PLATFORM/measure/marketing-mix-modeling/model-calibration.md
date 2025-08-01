@@ -1,8 +1,8 @@
 ---
-title: Model Calibration
+title: Calibration
 excerpt: 'Calibrating your Model based on experiment outcomes '
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
