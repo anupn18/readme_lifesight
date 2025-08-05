@@ -8,7 +8,7 @@ hidden: true
 metadata:
   robots: index
 ---
-In a Marketing Mix Model, **causality** is the measure of confidence that a specific marketing channel is genuinely driving a business outcome. A truly causal model can accurately distinguish the impact of each individual channel, allowing you to understand its true return on investment (ROI). The primary goal of our UMM platform is to identify these causal relationships from your data.
+In a Marketing Mix Model, **causality** is the measure of confidence that a specific marketing channel is genuinely driving a business outcome. A truly causal model can accurately distinguish the impact of each individual channel, allowing you to understand its true return on investment (ROI).
 
 ### Why You Should Care About Causal Flags
 
