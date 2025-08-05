@@ -15,8 +15,6 @@ next:
 ---
 The Model tab helps you interpret your model's performance metrics and understand the relationships betweens its input features.
 
-<br />
-
 <Image align="center" src="https://files.readme.io/b2d7d6fa3178a762ffba6c76234a16026fc5679984753037fe31b2ccdfff0ceb-Screenshot_2025-07-22_at_5.12.19_PM.png" />
 
 ***
