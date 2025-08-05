@@ -1,5 +1,5 @@
 ---
-title: Model Insights
+title: Deriving Insights
 deprecated: false
 hidden: false
 link:
