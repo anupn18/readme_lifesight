@@ -40,6 +40,8 @@ This is the ideal state for a marketing channel in your model.
 * **What It Means:** When spending patterns between two channels are distinct, the model can clearly isolate the incremental contribution of each one. You can have high confidence in the ROI and response curve data for this channel.
 * **Recommended Action:** Use the insights from these channels for budget optimization and forecasting.
 
+<br />
+
 #### Not Causal
 
 This flag indicates that the model cannot confidently distinguish a channel's unique impact.
@@ -47,7 +49,10 @@ This flag indicates that the model cannot confidently distinguish a channel's un
 * **Criteria:** This flag appears due to a few reasons like lower than necessary spends data for the channel, unreasonably high iROAS, inexplicably low iCPA, and lower than necessary variations in spends for the channel.
 * **What It Means:** This often happens when channels behave similarly. For example, when you run a major TV campaign, you might see a simultaneous lift in both "Branded Search" and "Direct Website Traffic," making their spending patterns highly correlated. The model struggles to determine how much credit each channel should get individually.
 * **Recommended Action:** An experiment is needed to establish causality.
-  > ⚠️ To resolve this, you need to create the data variation the model is missing. Running a controlled experiment, like a geo-holdout test where you pause a specific channel in one region, can help the model learn the true incremental impact of that channel.
+
+> ⚠️ To resolve this, you need to create the data variation the model is missing. Running a controlled experiment, like a geo-holdout test where you pause a specific channel in one region, can help the model learn the true incremental impact of that channel.
+
+<br />
 
 #### High Interaction Effect
 
