@@ -30,7 +30,7 @@ Causal flags are your guide to the reliability of the model's findings for each 
 
 ### Understanding the Causal Flags in Lifesight
 
-The platform displays one of three flags for each variable in your model.
+The platform displays one of three flags for each channel or tactic in your model.
 
 #### ### Is Causal
 
