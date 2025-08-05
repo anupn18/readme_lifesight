@@ -32,7 +32,7 @@ Causal flags are your guide to the reliability of the model's findings for each 
 
 The platform displays one of three flags for each channel or tactic in your model.
 
-#### ### Is Causal
+#### Is Causal
 
 This is the ideal state for a marketing channel in your model.
 
@@ -40,7 +40,7 @@ This is the ideal state for a marketing channel in your model.
 * **What It Means:** When spending patterns between two channels are distinct, the model can clearly isolate the incremental contribution of each one. You can have high confidence in the ROI and response curve data for this channel.
 * **Recommended Action:** Use the insights from these channels for budget optimization and forecasting.
 
-#### ### Not Causal (High Correlation)
+#### Not Causal
 
 This flag indicates that the model cannot confidently distinguish a channel's unique impact.
 
@@ -49,7 +49,7 @@ This flag indicates that the model cannot confidently distinguish a channel's un
 * **Recommended Action:** An experiment is needed to establish causality.
   > ⚠️ \*\* To resolve this, you need to create the data variation the model is missing. Running a controlled experiment, like a geo-holdout test where you pause a specific channel in one region, can help the model learn the true incremental impact of that channel.
 
-#### ### High Interaction Effect
+#### High Interaction Effect
 
 This flag warns you that a variable may be distorting your results because it's closely related to your final outcome.
 
