@@ -16,6 +16,18 @@ Causal flags are your guide to the reliability of the model's findings for each 
 
 > ℹ️ \*\*Use these flags to ensure you only invest marketing budget in channels that are proven to drive results for your business.
 
+<br />
+
+### Quick Reference Guide
+
+| Symbol | Causal Flag          | Meaning                                                                                                                                                                                                                                      | Primary Action                                                                                                        |
+| :----- | :------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- |
+|        | **Is Causal**        | High confidence. The model can isolate the channel's impact.                                                                                                                                                                                 | **Trust these insights.** Use for budget allocation.                                                                  |
+|        | **Not Causal**       | The model struggles to find a reliable causal link. This can be due to: <ul><li>High correlation with another channel</li><li>Implausible iROAS/iCPA values</li><li>Not enough data points</li><li>Low variation in channel spends</li></ul> | **Improve data quality.** Vary spends, collect more data, or run a targeted experiment to establish a clearer signal. |
+|        | **High Interaction** | The variable is too similar to your outcome KPI, causing distortion.                                                                                                                                                                         | **Re-classify or remove** the flagged variable from the model.                                                        |
+
+<br />
+
 ### Understanding the Causal Flags in Lifesight
 
 The platform displays one of three flags for each variable in your model.
@@ -26,13 +38,13 @@ This is the ideal state for a marketing channel in your model.
 
 * **Criteria:** The model identifies a channel as causal when there is sufficient data variation and its correlation with other channels is low (specifically, a correlation value below 0.75).
 * **What It Means:** When spending patterns between two channels are distinct, the model can clearly isolate the incremental contribution of each one. You can have high confidence in the ROI and response curve data for this channel.
-* **Recommended Action:** No immediate action is needed. Use the insights from these channels for budget optimization and forecasting.
+* **Recommended Action:** Use the insights from these channels for budget optimization and forecasting.
 
 #### ### Not Causal (High Correlation)
 
 This flag indicates that the model cannot confidently distinguish a channel's unique impact.
 
-* **Criteria:** This flag appears when the correlation between two or more channels is greater than 0.75. This is also known as multicollinearity.
+* **Criteria:** This flag appears due to a few reasons like lower than necessary spends data for the channel, unreasonably high iROAS, inexplicably low iCPA, and lower than necessary variations in spends for the channel.
 * **What It Means:** This often happens when channels behave similarly. For example, when you run a major TV campaign, you might see a simultaneous lift in both "Branded Search" and "Direct Website Traffic," making their spending patterns highly correlated. The model struggles to determine how much credit each channel should get individually.
 * **Recommended Action:** An experiment is needed to establish causality.
   > ⚠️ \*\* To resolve this, you need to create the data variation the model is missing. Running a controlled experiment, like a geo-holdout test where you pause a specific channel in one region, can help the model learn the true incremental impact of that channel.
@@ -47,13 +59,7 @@ This flag warns you that a variable may be distorting your results because it's 
   * **Re-classify the Variable:** If the flagged variable is a crucial business metric that is part of the customer journey to your main KPI, consider marking it as a secondary outcome KPI in your model setup.
   * **Remove the Variable:** If the variable is redundant or incorrectly classified as a marketing driver, removing it from the model will prevent confusion and improve the accuracy of your core marketing insights.
 
-### Quick Reference Guide
 
-| Causal Flag          | Meaning                                                                                                                                                                                                                                      | Primary Action                                                                                                        |
-| :------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- |
-| **Is Causal**        | High confidence. The model can isolate the channel's impact.                                                                                                                                                                                 | **Trust these insights.** Use for budget allocation.                                                                  |
-| **Not Causal**       | The model struggles to find a reliable causal link. This can be due to: <ul><li>High correlation with another channel</li><li>Implausible iROAS/iCPA values</li><li>Not enough data points</li><li>Low variation in channel spends</li></ul> | **Improve data quality.** Vary spends, collect more data, or run a targeted experiment to establish a clearer signal. |
-| **High Interaction** | The variable is too similar to your outcome KPI, causing distortion.                                                                                                                                                                         | **Re-classify or remove** the flagged variable from the model.                                                        |
 
 ### Best Practices for Ensuring Causality
 
