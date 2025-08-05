@@ -14,7 +14,7 @@ In a Marketing Mix Model, **causality** is the measure of confidence that a spec
 
 Causal flags are your guide to the reliability of the model's findings for each channel. They tell you which channel insights you can trust implicitly and which ones require further action or investigation before you reallocate your budget.
 
-> ℹ️ \*\*Use these flags to ensure you only invest marketing budget in channels that are proven to drive results for your business.
+> ℹ️ Use these flags to ensure you only invest marketing budget in channels that are proven to drive results for your business.
 
 <br />
 
