@@ -47,7 +47,7 @@ This flag indicates that the model cannot confidently distinguish a channel's un
 * **Criteria:** This flag appears due to a few reasons like lower than necessary spends data for the channel, unreasonably high iROAS, inexplicably low iCPA, and lower than necessary variations in spends for the channel.
 * **What It Means:** This often happens when channels behave similarly. For example, when you run a major TV campaign, you might see a simultaneous lift in both "Branded Search" and "Direct Website Traffic," making their spending patterns highly correlated. The model struggles to determine how much credit each channel should get individually.
 * **Recommended Action:** An experiment is needed to establish causality.
-  > ⚠️ \*\* To resolve this, you need to create the data variation the model is missing. Running a controlled experiment, like a geo-holdout test where you pause a specific channel in one region, can help the model learn the true incremental impact of that channel.
+  > ⚠️ To resolve this, you need to create the data variation the model is missing. Running a controlled experiment, like a geo-holdout test where you pause a specific channel in one region, can help the model learn the true incremental impact of that channel.
 
 #### High Interaction Effect
 
