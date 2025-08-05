@@ -1,5 +1,5 @@
 ---
-title: Marketing Mix Modelling Overview
+title: Marketing Mix Modelling (Main Page)
 deprecated: false
 hidden: true
 metadata:
