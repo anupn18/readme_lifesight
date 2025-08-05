@@ -4,7 +4,7 @@ excerpt: >-
   Understand what determines whether a channel has a Casual relationship with
   the model
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
