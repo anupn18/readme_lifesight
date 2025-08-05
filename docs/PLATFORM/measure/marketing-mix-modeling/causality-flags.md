@@ -20,11 +20,11 @@ Causal flags are your guide to the reliability of the model's findings for each 
 
 ### Quick Reference Guide
 
-| Symbol | Causal Flag          | Meaning                                                                                                                                                                                                                                      | Primary Action                                                                                                        |
-| :----- | :------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- |
-|        | **Is Causal**        | High confidence. The model can isolate the channel's impact.                                                                                                                                                                                 | **Trust these insights.** Use for budget allocation.                                                                  |
-|        | **Not Causal**       | The model struggles to find a reliable causal link. This can be due to: <ul><li>High correlation with another channel</li><li>Implausible iROAS/iCPA values</li><li>Not enough data points</li><li>Low variation in channel spends</li></ul> | **Improve data quality.** Vary spends, collect more data, or run a targeted experiment to establish a clearer signal. |
-|        | **High Interaction** | The variable is too similar to your outcome KPI, causing distortion.                                                                                                                                                                         | **Re-classify or remove** the flagged variable from the model.                                                        |
+| Symbol                                                                                                  | Causal Flag          | Meaning                                                                                                                                                                                                                                      | Primary Action                                                                                                        |
+| :------------------------------------------------------------------------------------------------------ | :------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- |
+| ![](https://files.readme.io/77f9c4b6b38f9d817a81a98d9149c11610de1d0d4524788a7a6007ff69e7c1f9-image.png) | **Is Causal**        | High confidence. The model can isolate the channel's impact.                                                                                                                                                                                 | **Trust these insights.** Use for budget allocation.                                                                  |
+|                                                                                                         | **Not Causal**       | The model struggles to find a reliable causal link. This can be due to: <ul><li>High correlation with another channel</li><li>Implausible iROAS/iCPA values</li><li>Not enough data points</li><li>Low variation in channel spends</li></ul> | **Improve data quality.** Vary spends, collect more data, or run a targeted experiment to establish a clearer signal. |
+|                                                                                                         | **High Interaction** | The variable is too similar to your outcome KPI, causing distortion.                                                                                                                                                                         | **Re-classify or remove** the flagged variable from the model.                                                        |
 
 <br />
 
@@ -58,8 +58,6 @@ This flag warns you that a variable may be distorting your results because it's 
 * **Recommended Actions:**
   * **Re-classify the Variable:** If the flagged variable is a crucial business metric that is part of the customer journey to your main KPI, consider marking it as a secondary outcome KPI in your model setup.
   * **Remove the Variable:** If the variable is redundant or incorrectly classified as a marketing driver, removing it from the model will prevent confusion and improve the accuracy of your core marketing insights.
-
-
 
 ### Best Practices for Ensuring Causality
 
