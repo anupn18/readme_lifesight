@@ -10,7 +10,7 @@ metadata:
 ---
 In a Marketing Mix Model, **causality** is the measure of confidence that a specific marketing channel is genuinely driving a business outcome. A truly causal model can accurately distinguish the impact of each individual channel, allowing you to understand its true return on investment (ROI).
 
-### Why You Should Care About Causal Flags
+## Why You Should Care About Causal Flags
 
 Causal flags are your guide to the reliability of the model's findings for each channel. They tell you which channel insights you can trust implicitly and which ones require further action or investigation before you reallocate your budget.
 
@@ -18,7 +18,7 @@ Causal flags are your guide to the reliability of the model's findings for each 
 
 <br />
 
-### Quick Reference Guide
+## Quick Reference Guide
 
 | Symbol                                                                                                  | Causal Flag          | Meaning                                                                                                                                                                                                                                      | Primary Action                                                                                                        |
 | :------------------------------------------------------------------------------------------------------ | :------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- |
@@ -28,11 +28,13 @@ Causal flags are your guide to the reliability of the model's findings for each 
 
 <br />
 
-### Understanding the Causal Flags in Lifesight
+## Understanding the Causal Flags in Lifesight
 
 The platform displays one of three flags for each channel or tactic in your model.
 
-#### Is Causal
+<br />
+
+### Is Causal
 
 This is the ideal state for a marketing channel in your model.
 
@@ -42,7 +44,7 @@ This is the ideal state for a marketing channel in your model.
 
 <br />
 
-#### Not Causal
+### Not Causal
 
 This flag indicates that the model cannot confidently distinguish a channel's unique impact.
 
@@ -54,7 +56,7 @@ This flag indicates that the model cannot confidently distinguish a channel's un
 
 <br />
 
-#### High Interaction Effect
+### High Interaction Effect
 
 This flag warns you that a variable may be distorting your results because it's closely related to your final outcome.
 
@@ -64,7 +66,7 @@ This flag warns you that a variable may be distorting your results because it's 
   * **Re-classify the Variable:** If the flagged variable is a crucial business metric that is part of the customer journey to your main KPI, consider marking it as a secondary outcome KPI in your model setup.
   * **Remove the Variable:** If the variable is redundant or incorrectly classified as a marketing driver, removing it from the model will prevent confusion and improve the accuracy of your core marketing insights.
 
-### Best Practices for Ensuring Causality
+## Best Practices for Ensuring Causality
 
 * **Vary Your Spend:** When planning your marketing budget, intentionally create variations in spending across channels over time. This provides the model with clearer signals to learn from.
 * **Design Experiments Proactively:** Don't wait for a "Not Causal" flag. Regularly run controlled experiments to validate the model's findings and uncover deeper insights into channel incrementality.
