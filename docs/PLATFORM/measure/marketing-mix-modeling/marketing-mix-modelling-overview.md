@@ -4,6 +4,11 @@ deprecated: false
 hidden: true
 metadata:
   robots: index
+next:
+  pages:
+    - slug: model-creation
+      title: Model Creation
+      type: basic
 ---
 Causal MMM is the foundational step in building a comprehensive **Unified Marketing Measurement (UMM)** stack on the Lifesight platform. It provides a *top-down*, holistic view of how your marketing efforts work together to drive your business goals, establishing a baseline of truth for all subsequent analyses.
 
