@@ -43,7 +43,7 @@ This section is split into 'Current' (forecast base period) and 'Forecasted' (th
 
 <br />
 
-## Understanding the 'Recommendations' Tab
+## Understanding the Recommendations Tab
 
 This tab provides actionable insights by comparing your current budget allocation against an optimized version. The charts visualize where you should shift your investments to maximize returns.
 
