@@ -1,7 +1,7 @@
 ---
 title: MMM Calibration
 excerpt: View the impact of your recent calibration on model accuracy
-deprecated: false
+deprecated: true
 hidden: true
 metadata:
   title: ''
