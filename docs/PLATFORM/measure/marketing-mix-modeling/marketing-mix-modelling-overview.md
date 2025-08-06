@@ -20,13 +20,13 @@ Causal MMM is the foundational step in building a comprehensive **Unified Market
 
 <br />
 
-## The Lifesight Difference: A More Reliable Approach
+## Lifesight's Causal Mix Modelling Approach
 
 While many MMM solutions exist, they can often feel like a "black box," producing results that are difficult to trust or act upon. At Lifesight, we've developed a transparent and robust methodology designed to build reliable models that generate actionable insights for contribution analysis and spend reallocation.
 
 Our approach is built on three core pillars that work together to create a model that is not only accurate at a point in time but also adapts to the ever-changing market dynamics.
 
-\*\*\<\<Creative depicting the 3 pillars of Causal Modelling on Lifesight>>\*\*
+**\<\<Creative depicting the 3 pillars of Causal Modelling on Lifesight>>**
 
 <br />
 
