@@ -26,9 +26,11 @@ Refer to this [page](https://docs.lifesight.io/update/docs/mmm-input-schema#/) f
 
 <HTMLBlock>{`
 <div>
-        <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-        <button onclick="Storylane.Play({type: 'popup', demo_type: 'image', width: 2560, height: 1245, scale: '0.95', demo_url: 'https://lifesight.storylane.io/demo/2ckzf7dpatbk?embed=popup', padding_bottom: 'calc(48.63% + 25px)'})" class="sl-preview-cta" style="background-color:#9939EB;border:none;border-radius:8px;box-shadow:0px 0px 15px rgba(26, 19, 72, 0.45);color:#FFFFFF;display:inline-block;font-family:Poppins, Arial, sans-serif;font-size:clamp(16px, 1.599vw, 20px);font-weight:600;height:clamp(40px, 3.996vw, 50px);line-height:1.2;padding:0 clamp(15px, 1.776vw, 20px);text-overflow:ellipsis;transform:translateZ(0);transition:background 0.4s;white-space:nowrap;width:auto;z-index:999999;cursor:pointer">TAKE A TOUR</button>
-      </div>
+  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
+  <div class="sl-embed" style="position:relative;padding-bottom:calc(48.63% + 25px);width:100%;height:0;transform:scale(1)">
+    <iframe loading="lazy" class="sl-demo" src="https://lifesight.storylane.io/demo/2ckzf7dpatbk?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
+  </div>
+</div>
 `}</HTMLBlock>
 
 <br />
