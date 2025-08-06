@@ -1,8 +1,8 @@
 ---
 title: Causal flags
 excerpt: Understand what different causal flags mean in your Mix Model
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: ''
   description: ''
