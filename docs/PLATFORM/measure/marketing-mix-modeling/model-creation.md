@@ -22,8 +22,6 @@ While the recommended method to create a model is using Integrated data, you can
 
 Refer to this [page](https://docs.lifesight.io/update/docs/mmm-input-schema#/) for a more details on data requirements for CSV file input.
 
-<br />
-
 ## Interactive Demo
 
 > 📘 View a step-by-step walkthrough
@@ -38,8 +36,6 @@ Refer to this [page](https://docs.lifesight.io/update/docs/mmm-input-schema#/) f
 >   </div>
 > </div>
 > `}</HTMLBlock>
->
->
 
 <br />
 
