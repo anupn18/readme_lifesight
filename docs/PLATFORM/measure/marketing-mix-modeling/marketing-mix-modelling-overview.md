@@ -21,7 +21,7 @@ While many MMM solutions exist, they can often feel like a "black box," producin
 
 Our approach is built on three core pillars that work together to create a model that is not only accurate at a point in time but also adapts to the ever-changing market dynamics.
 
-\<\<Creative depicting the 3 pillars of Causal Modelling on Lifesight>>&#x20;
+\<\<Creative depicting the 3 pillars of Causal Modelling on Lifesight>>
 
 <br />
 
@@ -73,4 +73,3 @@ This overview provides a non-technical introduction to the principles behind Lif
 > 👍  Want to learn more?
 >
 > * Dive deeper into the technical setup in our **\[MMM Implementation Guide]**(Insert\_Link\_Here).
-> * Contact your **Lifesight Account Manager** for a personalized consultation on how MMM can help you achieve your specific business goals.
