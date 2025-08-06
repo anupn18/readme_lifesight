@@ -7,6 +7,11 @@ deprecated: false
 hidden: false
 metadata:
   robots: index
+next:
+  pages:
+    - slug: insights
+      title: Insights
+      type: basic
 ---
 In a Marketing Mix Model, **causality** is the measure of confidence that a specific marketing channel is genuinely driving a business outcome. A truly causal model can accurately distinguish the impact of each individual channel, allowing you to understand its true return on investment (ROI).
 
