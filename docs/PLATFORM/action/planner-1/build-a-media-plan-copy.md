@@ -1,16 +1,12 @@
 ---
-title: Creating a Budget plan
+title: Creating a plan
 excerpt: Step-by-step guide to create a plan
 deprecated: false
 hidden: true
 metadata:
   robots: index
 ---
-The Budget Plan feature in the Lifesight UMM Platform allows you to simulate and forecast the potential impact of different marketing budget allocations. By creating various scenarios based on your existing Marketing Mix Models, you can make informed, data-driven decisions to optimize spend and maximize revenue.
-
-<br />
-
-## Interactive Demo
+The Planner allows you to simulate and forecast the potential impact of different marketing budget allocations. By creating various scenarios based on your existing Marketing Mix Models, you can make informed, data-driven decisions to optimize spend and maximize revenue.
 
 > 📘 Use the interactive demo below to guide you through each step of the plan creation process
 >
