@@ -108,7 +108,7 @@ The worksheet contains
 
 ## Working with Multiple Scenarios
 
-The platform's power lies in its ability to create and compare multiple scenarios. You can model different outcomes based on different budgets or strategic constraints (e.g., a "Conservative" plan vs. a "Moderate" plan).
+The planner's power lies in its ability to create and compare multiple scenarios. You can model different outcomes based on different budgets or strategic constraints (e.g., a "Conservative" plan vs. a "Moderate" plan).
 
 <Image align="center" src="https://files.readme.io/febddf754c97f52f4a1ca6319b444b2e82b6da791f547aced4f1c2a33ba52d3c-Adding_a_new_scenario.png" />
 
