@@ -1,5 +1,5 @@
 ---
-title: Intrepreting a Budget Plan
+title: Intrepreting a Plan
 excerpt: >-
   Generating multiple Scenarios, understanding Recommendations and leveraging
   Budget Worksheet
