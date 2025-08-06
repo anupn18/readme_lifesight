@@ -1,7 +1,7 @@
 ---
 title: MMM Budget Optimizer
 excerpt: Learn how to allocate optimized budgets with Budget Optimizer powered by MMM
-deprecated: false
+deprecated: true
 hidden: true
 metadata:
   title: ''
