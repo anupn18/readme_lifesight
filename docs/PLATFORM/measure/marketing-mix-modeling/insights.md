@@ -18,7 +18,7 @@ The Insights tab is designed to help you analyse and understand the performance 
 
 > 📘 View a step-by-step walkthrough
 >
-> Use the interactive demo below to guide you through each step of the model creation process
+> Use the interactive demo below to guide you through each element of the insights tab
 >
 > <HTMLBlock>{`
 > <div>
@@ -28,8 +28,6 @@ The Insights tab is designed to help you analyse and understand the performance 
 >   </div>
 > </div>
 > `}</HTMLBlock>
->
->
 
 ## Key Filters in the Insights Tab:
 
