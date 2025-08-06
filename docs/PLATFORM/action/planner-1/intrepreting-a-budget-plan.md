@@ -72,7 +72,7 @@ This chart illustrates the incremental Return On Ad Spend for each platform. It 
 
 <br />
 
-## Interpreting the Forecasted Revenue Tab
+## Forecasted Revenue Tab
 
 This tab provides a more detailed, time-based view of the revenue forecast for the selected scenario.
 
