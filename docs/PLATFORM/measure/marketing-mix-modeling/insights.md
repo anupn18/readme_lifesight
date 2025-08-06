@@ -14,8 +14,6 @@ next:
 ---
 The Insights tab is designed to help you analyse and understand the performance of your marketing activities. It provides a detailed breakdown of your marketing spend, the revenue it generates, and the overall effectiveness of your marketing strategies.
 
-## View interactive demo
-
 > 📘 View a step-by-step walkthrough
 >
 > Use the interactive demo below to guide you through each element of the insights tab
