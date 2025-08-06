@@ -39,7 +39,9 @@ Follow these steps to set up custom pacing for your budget plan:
 
 2. **Set Your Target Budget:** In the Goal section, ensure you have selected 'Target Budget' and entered the total amount for your planning period. For this example, let's use a budget of `{{TARGET_BUDGET}}`.
 
-   ![Screenshot of the Target Budget section in Lifesight UMM Platform.](Custom%20Pacing%20Split.png)
+   <Image align="center" alt="Screenshot of the Target Budget section in Lifesight UMM Platform." src="https://files.readme.io/43c25a46fd908a7f12de17611fa80e3ed81c533037f04a2046b413bfd82dea34-Custom_Pacing_Split.png" />
+
+   <br />
 
 3. **Enable Custom Pacing:** Locate the **Custom Pacing** toggle switch next to your Target Budget field and turn it on.
 
