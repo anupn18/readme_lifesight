@@ -12,9 +12,7 @@ The Budget Plan feature in the Lifesight UMM Platform allows you to simulate and
 
 ## Interactive Demo
 
-> 📘 View a step-by-step walkthrough
->
-> Use the interactive demo below to guide you through each step of the plan creation process
+> 📘 Use the interactive demo below to guide you through each step of the plan creation process
 >
 > <HTMLBlock>{`
 > <div>
@@ -24,8 +22,6 @@ The Budget Plan feature in the Lifesight UMM Platform allows you to simulate and
 >   </div>
 > </div>
 > `}</HTMLBlock>
->
->
 
 ### Step 1: Create a New Plan
 
