@@ -1,7 +1,7 @@
 ---
 title: Intrepreting a plan and generating scenarios
 excerpt: >-
-  Generating multiple Scenarios, understanding Recommendations and leveraging
+  Understand Recommendations, generate multiple Scenarios and leverage the
   Budget Worksheet
 deprecated: false
 hidden: true
