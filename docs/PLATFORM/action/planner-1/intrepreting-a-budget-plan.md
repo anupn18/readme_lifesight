@@ -10,9 +10,7 @@ metadata:
 ---
 Once you configure channel parameters for a new budget plan, you are directed to the Plan Analysis page. This is your primary workspace for analyzing budget scenarios, understanding forecasted outcomes, and viewing specific budget recommendations to optimize your marketing spend.
 
-<br />
-
-## Understanding Scenario Key Metrics
+## Key Metrics
 
 On the left side of the page, you'll find summary cards for each scenario you've created. When you select a scenario, the main dashboard updates to show a detailed view of its key metrics, comparing your current standing with the model's forecast.
 
