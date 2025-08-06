@@ -26,7 +26,7 @@ While many MMM solutions exist, they can often feel like a "black box," producin
 
 Our approach is built on three core pillars that work together to create a model that is not only accurate at a point in time but also adapts to the ever-changing market dynamics.
 
-\<\<Creative depicting the 3 pillars of Causal Modelling on Lifesight>>
+\*\*\<\<Creative depicting the 3 pillars of Causal Modelling on Lifesight>>\*\*
 
 <br />
 
@@ -70,10 +70,6 @@ By implementing Lifesight's Causal MMM, you unlock several tangible benefits:
 * **A Foundation for UMM:** Establish the essential, top-down source of truth required to build a complete Unified Marketing Measurement practice.
 
 <br />
-
-## Next Steps
-
-This overview provides a non-technical introduction to the principles behind Lifesight's Causal MMM.
 
 > 👍  Want to learn more?
 >
