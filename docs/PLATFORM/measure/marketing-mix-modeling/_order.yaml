@@ -1,4 +1,5 @@
 - model-creation
+- mmm-input-schema
 - overview
 - model
 - insights
@@ -9,7 +10,6 @@
 - mmm-recalibration
 - model-retraining-copy
 - casual-flags
-- mmm-input-schema
 - google-sheets-mmm-data-integration
 - mmm-calibration
 - model-calibration
