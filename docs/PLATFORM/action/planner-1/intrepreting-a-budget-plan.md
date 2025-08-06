@@ -12,7 +12,7 @@ Once you configure channel parameters for a new budget plan, you are directed to
 
 <br />
 
-### Understanding Scenario Key Metrics
+## Understanding Scenario Key Metrics
 
 On the left side of the page, you'll find summary cards for each scenario you've created. When you select a scenario, the main dashboard updates to show a detailed view of its key metrics, comparing your current standing with the model's forecast.
 
@@ -41,7 +41,7 @@ This section is split into 'Current' (forecast base period) and 'Forecasted' (th
 
 <br />
 
-### Understanding the 'Recommendations' Tab
+## Understanding the 'Recommendations' Tab
 
 This tab provides actionable insights by comparing your current budget allocation against an optimized version. The charts visualize where you should shift your investments to maximize returns.
 
@@ -51,7 +51,7 @@ This tab provides actionable insights by comparing your current budget allocatio
 
 <br />
 
-#### Media Investment
+### Media Investment
 
 This chart shows the recommended media budget for each platform compared to your current plan.
 
@@ -60,17 +60,17 @@ This chart shows the recommended media budget for each platform compared to your
 
   Use this to see which channels are over-funded and which have room for more investment.
 
-#### Incremental Revenue
+### Incremental Revenue
 
 This chart shows the forecasted incremental revenue from each platform. By comparing the 'Current' and 'Optimized' bars, you can see how the recommended budget shifts are expected to impact the revenue driven by each channel.
 
-#### Incremental ROAS
+### Incremental ROAS
 
 This chart illustrates the incremental Return On Ad Spend for each platform. It helps you identify which channels are most efficient and how that efficiency changes with the optimized budget.
 
 <br />
 
-### Interpreting the Forecasted Revenue Tab
+## Interpreting the Forecasted Revenue Tab
 
 This tab provides a more detailed, time-based view of the revenue forecast for the selected scenario.
 
@@ -78,17 +78,17 @@ This tab provides a more detailed, time-based view of the revenue forecast for t
 
 <br />
 
-#### Forecasted Trend
+### Forecasted Trend
 
 The line chart visualizes the expected revenue trend over the duration of your plan. This allows you to anticipate peaks and troughs in performance, which can be useful for aligning marketing activities with sales cycles. The shaded region around the line represents the 95% confidence interval of the forecast.
 
-#### Forecasted Data
+### Forecasted Data
 
 The table below the chart provides a summary of the forecasted revenue broken down by the forecast period intervals (e.g., Q1 and Q2 for a Quarterly forecast). It also explicitly states the **95% Confidence Interval (CI)**, giving you a probable range for the forecasted revenue (`[Lower Bound] - [Upper Bound]`).
 
 <br />
 
-### Using the Budget Worksheet Tab
+## Using the Budget Worksheet Tab
 
 The Budget Worksheet gives you a granular, week-by-week breakdown of the planned budget for each platform. This is the tactical output of your strategic plan.
 
@@ -106,7 +106,7 @@ The worksheet contains
 
 <br />
 
-### Working with Multiple Scenarios
+## Working with Multiple Scenarios
 
 The platform's power lies in its ability to create and compare multiple scenarios. You can model different outcomes based on different budgets or strategic constraints (e.g., a "Conservative" plan vs. a "Moderate" plan).
 
@@ -116,7 +116,7 @@ The platform's power lies in its ability to create and compare multiple scenario
 * **Comparing Scenarios**: Simply click on a different scenario card in the left-hand panel. All the data in the **Recommendations**, **Forecasted Revenue**, and **Budget Worksheet** tabs will instantly update to reflect the selected scenario, allowing for quick and easy comparison.
   <br />
 
-### Saving Your Plan
+## Saving Your Plan
 
 Once you have analyzed your scenarios and are ready to move forward, click the **Save Plan** button in the top-right corner. This will save all your configured scenarios and their corresponding analyses.
 
