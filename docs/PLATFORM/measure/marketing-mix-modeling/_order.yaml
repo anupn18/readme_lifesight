@@ -2,6 +2,7 @@
 - model-creation
 - overview
 - model
+- causality-flags
 - insights
 - budget-optimizer-1
 - channel-deep-dive-tab
@@ -14,5 +15,4 @@
 - casual-flags
 - google-sheets-mmm-data-integration
 - mmm-calibration
-- causality-flags
 - marketing-mix-modelling-overview
