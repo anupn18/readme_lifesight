@@ -1,8 +1,8 @@
 ---
 title: Insights
 excerpt: >-
-  Understand baseline revenue, channel Incrementality and profit insights from
-  your MMM
+  Understand baseline revenue, channel contribution and profit insights from
+  your Mix Model
 deprecated: false
 hidden: false
 metadata:
