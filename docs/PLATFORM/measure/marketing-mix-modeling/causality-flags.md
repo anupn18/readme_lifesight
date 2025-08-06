@@ -1,5 +1,5 @@
 ---
-title: Causality Indicators
+title: Causal Flags
 excerpt: >-
   Understand what determines whether a channel has a Casual relationship with
   the model
