@@ -88,7 +88,7 @@ The table below the chart provides a summary of the forecasted revenue broken do
 
 <br />
 
-## Using the Budget Worksheet Tab
+## Budget Worksheet Tab
 
 The Budget Worksheet gives you a granular, week-by-week breakdown of the planned budget for each platform. This is the tactical output of your strategic plan.
 
