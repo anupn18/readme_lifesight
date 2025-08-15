@@ -1,8 +1,8 @@
 ---
-title: Attribution
+title: Attribution (Main page)
 excerpt: Touch-Based vs. Causal Attribution
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
