@@ -7,7 +7,7 @@ metadata:
 ---
 The Lifesight Tracking Pixel, referred to as **Custom JS** in the platform, is a critical component for understanding user behavior on your website. It is a smart JavaScript snippet that, once installed, identifies and tracks user activities and touchpoints.
 
-This is a foundational step for enabling attribution and measurement on the Lifesight Unified Momentum Marketing (UMM) Platform.
+This is a foundational step for enabling attribution and measurement on the Lifesight UMM Platform.
 
 ### Before You Begin
 
@@ -35,9 +35,7 @@ First, you need to find the Custom JS integration within the Lifesight platform.
 
 #### 2) Choosing Your Setup Method
 
-<br />
-
-After clicking the card, a setup window will appear for your website, \{\{YOUR\\\_WEBSITE\\\_DOMAIN}}. You have two options for installing the tracking pixel.
+After clicking the card, a setup window will appear for your website, \{\{YOUR\_WEBSITE\_DOMAIN}}. You have two options for installing the tracking pixel.
 
 <br />
 
@@ -49,25 +47,25 @@ We will cover both methods in the following sections.
 
 <br />
 
-### Option A: Import GTM Container (Recommended)
+### Option A: Google Tag Manager (Recommended)
 
 <br />
 
-This is the fastest and most recommended method for most users. It uses a pre-built Google Tag Manager container with all the necessary tags, triggers, and variables for common tracking needs.
+This is the fastest and the recommended method to install the tracking chip. It uses a pre-built Google Tag Manager container with all the necessary tags, triggers, and variables for common tracking needs.
 
 1. In the setup window, select the **Import Custom JS GTM Container** option.
-   2. Click the **Download Custom JS Container** button to save the container.json file to your computer.
-      3. Open your **Google Tag Manager** account in a new tab.
-         4. Navigate to the **Admin** section of your GTM container.
-            5. Under the *Container* column, click on **Import Container**.
-               6. Click **Choose container file** and select the file you downloaded from Lifesight.
-                  7. Choose the **Workspace** you want to import into (typically 'Default Workspace').
-                     8. Select the **Merge** import option, and then choose **Overwrite conflicting tags, triggers and variables**. This will update your existing setup without removing your current tags.
-                        9. Review the import preview and click **Confirm**.
-                           10. Finally, click **Submit** and then **Publish** in your GTM workspace to make the changes live on your site.
-                               <br />
-                               *\[Screenshot of the GTM setup instructions in the Lifesight UI]*
-                               <br />
+2. Click the **Download Custom JS Container** button to save the container.json file to your computer.
+3. Open your **Google Tag Manager** account in a new tab.
+4. Navigate to the **Admin** section of your GTM container.
+5. Under the *Container* column, click on **Import Container**.
+6. Click **Choose container file** and select the file you downloaded from Lifesight.
+7. Choose the **Workspace** you want to import into (typically 'Default Workspace').
+8. Select the **Merge** import option, and then choose **Overwrite conflicting tags, triggers and variables**. This will update your existing setup without removing your current tags.
+9. Review the import preview and click **Confirm**.
+10. Finally, click **Submit** and then **Publish** in your GTM workspace to make the changes live on your site.
+    <br />
+    *\[Screenshot of the GTM setup instructions in the Lifesight UI]*
+    <br />
 
 ### Option B: Manual JavaScript Setup
 
@@ -77,14 +75,14 @@ Choose this method if you do not use Google Tag Manager or if you need to create
 
 1. In the setup window, select the **Manual Setup** option.
    2. A JavaScript code snippet will be displayed in a text box.
-      3. &#x20;JavaScript(function (measurement) \{ var script =measurement.createElement('script'); script.setAttribute('src','https\://storage.googleapis.com/measure-insight/measureinsight.min.js');script.setAttribute('async', ''); measurement.head.appendChild(script); })(document); &#x20;
-         &#x20;  &#x20;
-         4. Paste this snippet into the HTML source code of your website. It must be placed before the closing tag on **every page** you wish to track.
-            <br />
-            > **Warning**Placing this script in the footer or body of your HTML may lead to incomplete data collection, as it may not load in time to capture all user activity.
-            <br />
-            *\[Screenshot of the Manual Setup instructions and code snippet in the Lifesight UI]*
-            <br />
+      3. JavaScript(function (measurement) \{ var script =measurement.createElement('script'); script.setAttribute('src','[https://storage.googleapis.com/measure-insight/measureinsight.min.js');script.setAttribute('async](https://storage.googleapis.com/measure-insight/measureinsight.min.js')', ''); measurement.head.appendChild(script); })(document);
+   <br />
+   4. Paste this snippet into the HTML source code of your website. It must be placed before the closing tag on **every page** you wish to track.
+   <br />
+   > **Warning**Placing this script in the footer or body of your HTML may lead to incomplete data collection, as it may not load in time to capture all user activity.
+   <br />
+   *\[Screenshot of the Manual Setup instructions and code snippet in the Lifesight UI]*
+   <br />
 
 ### Verifying Your Installation
 
@@ -98,9 +96,9 @@ After installing the pixel using either method, you can verify that it is loadin
          4. In the filter/search box for the network requests, type measureinsight.
             5. Refresh your webpage.
                6. You should see measureinsight.min.js appear in the list with a status code of 200, which indicates it has loaded successfully.
-                  <br />
-                  *\[Screenshot of the browser's Network tab showing the script loading successfully]*
-                  <br />
+   <br />
+   *\[Screenshot of the browser's Network tab showing the script loading successfully]*
+   <br />
 
 ### Frequently Asked Questions (FAQ)
 
