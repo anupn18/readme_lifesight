@@ -1,6 +1,6 @@
 ---
 title: Lifesight Tracking Pixel
-excerpt: 'Instructions to setup Lifesight Tracking code for attribution '
+excerpt: 'Instructions to setup Lifesight Tracking Pixel for Attribution '
 deprecated: false
 hidden: true
 metadata:
