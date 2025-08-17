@@ -67,7 +67,7 @@ Choose this method if you do not use Google Tag Manager or if you need to create
 
 <br />
 
-<Callout icon="🚧">
+<Callout icon="🚧" theme="warn">
   **Warning**
 
   Placing this script in the footer or body of your HTML may lead to incomplete data collection, as it may not load in time to capture all user activity.
@@ -97,8 +97,6 @@ After installing the pixel using either method, you can verify that it is loadin
 **Q: What data does the tracking pixel collect?**
 
 A: The pixel is designed to collect anonymous and first-party data about user interactions on your website, such as page views, session information, and referral sources. This data is essential for powering Lifesight's attribution models.
-
-<br />
 
 **Q: How long does it take for data to appear in Lifesight?**
 
