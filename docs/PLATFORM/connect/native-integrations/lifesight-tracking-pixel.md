@@ -1,5 +1,5 @@
 ---
-title: Lifesight Tracking Pixel
+title: '[WIP] Lifesight Tracking Pixel'
 deprecated: false
 hidden: true
 metadata:
@@ -30,25 +30,25 @@ You can add the Lifesight Tracking Pixel to your site in two ways: using Google 
 &#x20; \<Tab title="Google Tag Manager (Recommended)">
 This is the easiest and most recommended method for installing the tracking pixel.
 
-1\. \*\*Log in\*\* to your Google Tag Manager (GTM) account.
-2\. Select your website's container and go to \*\*Tags\*\* > \*\*New\*\*.
-3\. Name your tag something memorable, like "Lifesight Tracking Pixel".
-4\. Click on \*\*Tag Configuration\*\* and choose the \*\*Custom HTML\*\* tag type.
-5\. \*\*Copy the code snippet\*\* below and paste it into the HTML field.
-6\. Click on \*\*Triggering\*\* and select the \*\*All Pages\*\* trigger. This ensures the pixel loads on every page of your website.
-7\. \*\*Save\*\* the tag and \*\*Publish\*\* your GTM container.
-&#x20; \<br/>
-&#x20; \</Tab>
-&#x20; \<Tab title="Manual Setup">
-&#x20;   If you don't use Google Tag Manager, you can add the pixel directly to your website's code.
+1. **Log in** to your Google Tag Manager (GTM) account.
+2. Select your website's container and go to **Tags** > **New**.
+3. Name your tag something memorable, like "Lifesight Tracking Pixel".
+4. Click on **Tag Configuration** and choose the **Custom HTML** tag type.
+5. **Copy the code snippet** below and paste it into the HTML field.
+6. Click on **Triggering** and select the **All Pages** trigger. This ensures the pixel loads on every page of your website.
+7. **Save** the tag and **Publish** your GTM container.\
+   \<br/>
+   \</Tab>
+   \<Tab title="Manual Setup">
+   If you don't use Google Tag Manager, you can add the pixel directly to your website's code.
 
-\[!Warning]
+\[!Warning]\
 We recommend having a web developer perform this task to avoid breaking your website's layout or functionality.
 
 Copy the code snippet provided in your Setup popup window.
 
 Access the source code of your website.
 
-Paste the snippet just before the closing \</head> tag on every page of your website. If you use a template or a master include file for your header, you can simply place it there once.
-&#x20; \</Tab>
+Paste the snippet just before the closing \</head> tag on every page of your website. If you use a template or a master include file for your header, you can simply place it there once.\
+\</Tab>
 \</Tabs>
