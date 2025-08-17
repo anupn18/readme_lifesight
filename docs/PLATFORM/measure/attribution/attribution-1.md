@@ -22,7 +22,7 @@ There are several common models for distributing this credit:
 * **Time-Decay:** Gives more credit to touchpoints closer to the conversion.
 * **U-Shaped:** Assigns 40% credit to the first touch and 40% to the last, distributing the remaining 20% to the middle touches.
 
-<Callout icon="ℹ️">
+<Callout icon="ℹ️" theme="info">
   **When to Use Touch-Based Models**
 
   Touch-based attribution is powerful for gaining a deeper understanding of digital touchpoints and optimizing online campaigns in near real-time. However, it has limitations. It often ignores offline activities and external factors, resulting in an incomplete view of your total marketing impact.
@@ -40,7 +40,7 @@ This is not a single model, but rather a **Unified Marketing Measurement (UMM)**
 
 By blending these methodologies, causal attribution can measure the cross-effects between online and offline channels. For example, it can determine how a TV commercial influenced searches and direct website visits, providing a complete and unbiased view of performance.
 
-<Callout icon="👍">
+<Callout icon="👍" theme="okay">
   **Advantages of a Unified Approach**
 
   * **Holistic**: Measures marketing effectiveness across all channels and includes non-marketing factors.
@@ -48,8 +48,6 @@ By blending these methodologies, causal attribution can measure the cross-effect
   * **Flexible**: Handles data with different levels of granularity from various sources.
   * **Reliable**: Uses advanced statistics to get a grip on unreliable results and correct them to obtain more accurate outcomes.
 </Callout>
-
-<br />
 
 <br />
 
