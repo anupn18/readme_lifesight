@@ -12,21 +12,28 @@ next:
 ---
 The Overview Dashboard provides a quick summary of your ad performance across multiple channel. It encompasses both revenue and non-revenue metrics that are fundamental to your business operations.
 
-<Image align="center" src="https://files.readme.io/8a0853cc6a1acbe2f0432806dcbefbce1f62a4c016c72bec4c09c5ec3edc019a-attribution.jpg" />
+<Image align="center" src="https://files.readme.io/3237b57894add4ffa43ea4a763a467f3db1329ef7aa900c876e5f860e4dd7ed7-Screenshot_2025-08-17_at_10.27.50_PM.png" />
 
 ## The Overview tab contains the following sections:
 
 1. Attribution status
 2. Target Benchmark KPI
 3. Metrics Summary
-4. Attribution Chart 
+4. Attribution Chart
 5. Channel Breakdown
 
-## View interactive demo
-
-<Image alt="[Click here](https://lifesight.storylane.io/share/zlwdx65j8qhf) to view demo in fullscreen" align="center" src="https://files.readme.io/94991ede25dd051980b388615e66f144dc327b57799a4c0595c30fb7e6bdbb50-image.png">
-  [Click here](https://lifesight.storylane.io/share/zlwdx65j8qhf) to view demo in fullscreen
-</Image>
+> 📘 View interactive demo
+>
+> <HTMLBlock>{`
+> <div>
+>   <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
+>   <div class="sl-embed" style="position:relative;padding-bottom:calc(54.30% + 25px);width:100%;height:0;transform:scale(1)">
+>     <iframe loading="lazy" class="sl-demo" src="https://lifesight.storylane.io/demo/rwazjqnpw6mr?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
+>   </div>
+> </div>
+> `}</HTMLBlock>
+>
+>
 
 <br />
 
@@ -51,7 +58,7 @@ Target Benchmarks are useful when a business wants to input their Target KPI and
 
 ### Attribution period
 
-Select a date range to apply to your attribution reports. By default, the data is showcased for the previous seven days. 
+Select a date range to apply to your attribution reports. By default, the data is showcased for the previous seven days.
 
 ### Attribution Model
 
@@ -88,7 +95,7 @@ Read more on how View-Through Attribution works (coming soon)
 
 ## Summary of Key Metrics
 
-The Overview dashboard displays the metrics you select by aggregating the touchpoint data, cost data, and event data from various sources. 
+The Overview dashboard displays the metrics you select by aggregating the touchpoint data, cost data, and event data from various sources.
 
 ![](https://files.readme.io/3f56bd3b810df0eeebf0ac330ef2a3efd1537303fedbeab3208f5aef64b25ee5-image.png)
 
@@ -104,7 +111,7 @@ The Overview dashboard displays the metrics you select by aggregating the touchp
 
 > 👍 Attribution Error range (only shown for Causal Attribution models)
 >
-> This metrics highlights the potential discrepancies between platform-reported revenue and Lifesight's calculated revenue. 
+> This metrics highlights the potential discrepancies between platform-reported revenue and Lifesight's calculated revenue.
 >
 > <Image align="center" src="https://files.readme.io/41fd47c46888607e9d2e6734f7d43f1fb37b1f810d43ca1e90ea6fc70d8b0c39-image_1.png" />
 >
@@ -117,11 +124,13 @@ The Overview dashboard displays the metrics you select by aggregating the touchp
 
 Click here to get a detailed explanation in the [Attribution metrics guide]().
 
-> 🤔 How are metrics calculated?
->
-> Hover over each metric name to view the definition and formula used to calculate the metric values. 
->
-> <Image align="center" width="300px" src="https://files.readme.io/0ae1842f6ccc93cbbb8296a0487c57463a7c3393efadaea54c81562280e0a4e9-image.png" />
+<Callout icon="🤔" theme="default">
+  ### How are metrics calculated?
+
+  Hover over each metric name to view the definition and formula used to calculate the metric values.
+
+  <Image align="center" width="300px" src="https://files.readme.io/0ae1842f6ccc93cbbb8296a0487c57463a7c3393efadaea54c81562280e0a4e9-image.png" />
+</Callout>
 
 <br />
 
@@ -141,7 +150,7 @@ Learn more about Attribution charting
 
 ## Channel Breakdown
 
-The Channel Breakdown chart provides a comprehensive view of ad channel performance at a granular level, allowing for drill-down analysis into smaller, more specific subsets. 
+The Channel Breakdown chart provides a comprehensive view of ad channel performance at a granular level, allowing for drill-down analysis into smaller, more specific subsets.
 
 ![](https://files.readme.io/ae92dc3a10164ac5c26311f14328e2a729001ad2cb7fa284d1edcb67ec262818-image.png)
 
@@ -156,11 +165,11 @@ Performance metrics are organized into the following categories:
 <Table align={["left","left"]}>
   <thead>
     <tr>
-      <th style={{ textAlign: "left" }}>
+      <th>
         Metric category
       </th>
 
-      <th style={{ textAlign: "left" }}>
+      <th>
         Metric
       </th>
     </tr>
@@ -168,96 +177,96 @@ Performance metrics are organized into the following categories:
 
   <tbody>
     <tr>
-      <td style={{ textAlign: "left" }}>
+      <td>
         Engagement
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        Clicks\
+      <td>
+        Clicks
         Impressions
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "left" }}>
+      <td>
         Conversions
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        Visits\
-        CPA(Visits)\
-        Signups\
-        CPA( Signups)\
-        Form Submits\
-        CPA (Form Submits)\
-        Add to Carts\
-        CPA (Add to Carts)\
-        pOrder\
+      <td>
+        Visits
+        CPA(Visits)
+        Signups
+        CPA( Signups)
+        Form Submits
+        CPA (Form Submits)
+        Add to Carts
+        CPA (Add to Carts)
+        pOrder
         pCPA
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "left" }}>
+      <td>
         Revenue
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        AOV\
-        pRevenue\
-        UTM Revenue (As captured by pixel + attribution methodology selected in the filters)\
-        Channel vs UTM\
+      <td>
+        AOV
+        pRevenue
+        UTM Revenue (As captured by pixel + attribution methodology selected in the filters)
+        Channel vs UTM
         UTM New Revenue
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "left" }}>
+      <td>
         Purchases
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        Purchases\
-        New Purchases\
-        CPO\
-        CAC\
+      <td>
+        Purchases
+        New Purchases
+        CPO
+        CAC
         LTV/CAC
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "left" }}>
+      <td>
         Spend
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Spend
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "left" }}>
+      <td>
         ROAS (Return on Ad Spend)
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        pROAS\
-        UTM ROAS (As captured by pixel + attribution methodology selected in the filters)\
+      <td>
+        pROAS
+        UTM ROAS (As captured by pixel + attribution methodology selected in the filters)
         UTM NC ROAS (As captured by pixel + attribution methodology selected in the filters)
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "left" }}>
+      <td>
         Time to Convert
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        Conversion rate\
-        Average\
-        25th Percentile\
-        50th Percentile\
-        75th Percentile\
+      <td>
+        Conversion rate
+        Average
+        25th Percentile
+        50th Percentile
+        75th Percentile
         Tmax
       </td>
     </tr>
@@ -268,6 +277,6 @@ Performance metrics are organized into the following categories:
 
 > 📘 Note
 >
-> The "Settings" icon in Name section of the table helps filter the metrics you want to view in your Channel Breakdown table. 
+> The "Settings" icon in Name section of the table helps filter the metrics you want to view in your Channel Breakdown table.
 >
 > <Image align="center" width="400px" src="https://files.readme.io/f407242c1c0eed8ab5a851b1b7387ee78106f9f857466c9a21a17b1e337c9855-image.png" />
