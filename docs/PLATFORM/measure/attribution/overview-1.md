@@ -32,8 +32,6 @@ The Overview Dashboard provides a quick summary of your ad performance across mu
 >   </div>
 > </div>
 > `}</HTMLBlock>
->
->
 
 <br />
 
@@ -49,6 +47,8 @@ The status indicators help understand when was the last Platform data and Attrib
 * **Attribution data** - Hover over the platform data to view when was the last time each of your attribution data was synced. If you make changes to Rules and Labelling, the Attribution data would need to refresh based on the mentioned rules and would show the latest timestamp of the data sync. While data is updating you would see a "Processing" status marked in the Attribution dashboard.
 
 <Image align="center" src="https://files.readme.io/69db8f7a07adb5b6fb7d3890749b07f12987e870043daf863990922a02cf0d89-status.jpg" />
+
+<br />
 
 ### Target Benchmark KPI
 
