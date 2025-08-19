@@ -2,7 +2,7 @@
 title: Facebook lead forms
 excerpt: ''
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
