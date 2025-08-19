@@ -1,5 +1,5 @@
 ---
-title: How to change presets for Causal Attribution?
+title: '[WIP] How to change presets for Causal Attribution?'
 excerpt: >-
   Set foundational models and configure experiments to inform causal Attribution
   insights 
@@ -10,7 +10,7 @@ metadata:
 ---
 The **Causal Settings** page is the central hub for configuring the foundational inputs that power Lifesight's Causal Attribution analysis. By specifying your primary conversion methodology, incorporating Marketing Mix Models (MMM), and inputting experiment results, you can refine the accuracy of your attribution insights.
 
-<Callout icon="👍">
+<Callout icon="👍" theme="okay">
   To configure your Causal Settings, you must have at least one successful Marketing Mix Model (MMM) with a **Default Scenario linked to an output KPI**. Only models meeting this criteria will appear in the MMM list. To set a default scenario, you must **star a scenario within a plan from the Planner page.**
 
   <Image align="center" src="https://files.readme.io/10d667cf167e4b8d82ca35e1eb1c9b2700520746e20d2688cd310e59122dd704-Default_Scenario_Selection_Indicator.png" />
@@ -40,7 +40,7 @@ The table provides a summary of each available model:
 | Column                | Description                                                                                                                            |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | **Model Name**        | The unique name assigned to the Marketing Mix Model.                                                                                   |
-| **Status**            | The current processing state of the model (e.g., `Success`, `Processing`).                                                             |
+| **Status**            | The current processing state of the model (e.g., `Success`).                                                                           |
 | **Input Type**        | How the data for the model was provided (e.g., `upload`, `integrated`).                                                                |
 | **Outcome/KPI**       | The primary Key Performance Indicator the model was built to measure (e.g., `Revenue`, `Orders`).                                      |
 | **R²**                | A statistical measure that indicates how well the model explains the variance in the KPI. A higher value signifies a better fit.       |
