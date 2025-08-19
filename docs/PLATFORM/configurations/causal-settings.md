@@ -1,5 +1,5 @@
 ---
-title: '[WIP] Causal Settings'
+title: How to change presets for Causal Attribution?
 excerpt: >-
   Set foundational models and configure experiments to inform causal Attribution
   insights 
@@ -8,11 +8,13 @@ hidden: true
 metadata:
   robots: index
 ---
-The **Causal Settings** page allows you to configure the foundational inputs that power Causal Attribution. By specifying your primary conversion methodology, incorporating Marketing Mix Models (MMM), and inputting experiment results, you can refine the accuracy of your attribution insights.
+The **Causal Settings** page is the central hub for configuring the foundational inputs that power Lifesight's Causal Attribution analysis. By specifying your primary conversion methodology, incorporating Marketing Mix Models (MMM), and inputting experiment results, you can refine the accuracy of your attribution insights.
 
-> 📘 Prerequisites
->
-> To configure your Causal Settings, you must have at least one successfully processed Marketing Mix Model (MMM) that has also been **set as the default model for its Outcome/KPI**. Only models meeting both criteria will appear in the MMM list on this page. To set an MMM as a default model, check the Star icon on the Marketing Mix Models page.
+<Callout icon="👍">
+  To configure your Causal Settings, you must have at least one successful Marketing Mix Model (MMM) with a **Default Scenario linked to an output KPI**. Only models meeting this criteria will appear in the MMM list. To set a default scenario, you must **star a scenario within a plan from the Planner page.**
+
+  <Image align="center" src="https://files.readme.io/10d667cf167e4b8d82ca35e1eb1c9b2700520746e20d2688cd310e59122dd704-Default_Scenario_Selection_Indicator.png" />
+</Callout>
 
 ***
 
@@ -31,7 +33,7 @@ The **Anchor Attribution Methodology** is the primary conversion dataset that th
 
 #### Marketing Mix Models (MMM)
 
-This section lists the Marketing Mix Models that have been selected as the **default model** for a given Outcome/KPI. Only these designated default models are used as inputs for the causal analysis. The platform leverages the outputs of these models to understand the incremental impact of various marketing channels.
+This section lists the Marketing Mix Models that have a **Default Scenario linked to an output KPI**. Only these designated models are used as inputs for the causal analysis. The default scenario can be set by **starring a scenario within a plan on the Planner page**.
 
 The table provides a summary of each available model:
 
