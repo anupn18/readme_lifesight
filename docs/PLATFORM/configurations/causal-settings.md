@@ -1,10 +1,10 @@
 ---
-title: Causal Settings
+title: '[WIP] Causal Settings'
 excerpt: >-
   Set foundational models and configure experiments to inform causal Attribution
   insights 
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
