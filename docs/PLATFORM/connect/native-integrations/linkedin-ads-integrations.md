@@ -12,7 +12,7 @@ next:
 ---
 ## Overview
 
-Linkedin is a social media network that connects people. By sharing content like text status posts, images, videos, and external links like blog posts, Linkedin users can contribute ideas and join conversations with other people.This integration aims to improve advertising outcomes by enabling enhanced campaign targeting, personalization, and optimized advertising returns. 
+Linkedin is a social media network that connects people. By sharing content like text status posts, images, videos, and external links like blog posts, Linkedin users can contribute ideas and join conversations with other people.This integration aims to improve advertising outcomes by enabling enhanced campaign targeting, personalization, and optimized advertising returns.
 
 **The key features of the integration include -**
 
@@ -20,10 +20,20 @@ Linkedin is a social media network that connects people. By sharing content like
 * **Data Integration:** The integration allows seamless transfer of data (historical spend, clicks, impressions, etc.) to the attribution and MMM modules. This process is crucial for tracking and analyzing the effectiveness of advertising campaigns and also for creating integrated MMM models.
 * **Campaign Performance Insights:** Users have the advantage of accessing their Linkedin Ads campaign performance data directly within the Attribution dashboard. This feature provides valuable insights and analytics, making it easier to measure the success of campaigns and make data-driven decisions.
 
+## Data Lifesight Deals With
+
+The LinkedIn Ads integration brings both audience and campaign data streams into Lifesight for activation and measurement:
+
+**Matched Audience Sync (Outbound)**\
+Push segments from Lifesight into LinkedIn as Matched Audiences to enhance targeting, retargeting, and lookalike modeling.
+
+**Campaign Performance Data (Inbound)**\
+Ingest campaign- and ad-set-level data (e.g., spend, impressions, clicks, conversions, CTR, CPC) into Lifesight’s Attribution and MMM modules. This enables performance tracking, channel comparison, and long-term ROI modeling.
+
 ## Use Cases
 
 1. **Expand advertising reach on Linkedin** - By seamlessly synchronizing audience data from Lifesight to Linkedin Ads Audiences, you can create targeted advertising campaigns that reach a more relevant audience and increase brand exposure on the platform.
-2. **Enhance campaign targeting and personalization** - You can create custom audience segments based on demographics, user behavior, or preferences captured in Lifesight and deliver personalized ad experiences to these specific segments. This will increase engagement, drive conversion, and maximize campaign effectiveness. 
+2. **Enhance campaign targeting and personalization** - You can create custom audience segments based on demographics, user behavior, or preferences captured in Lifesight and deliver personalized ad experiences to these specific segments. This will increase engagement, drive conversion, and maximize campaign effectiveness.
 3. **Optimize advertising ROI through data-driven insights** - By analyzing the performance data of Linkedin Ads in Lifesight Attribution and MMM, you can make data-driven decisions to optimize your campaigns, allocate budgets effectively, and achieve a higher return on investment.
 
 ***
