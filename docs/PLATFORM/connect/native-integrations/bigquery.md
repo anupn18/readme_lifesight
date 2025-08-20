@@ -10,6 +10,22 @@ metadata:
 next:
   description: ''
 ---
+## Overview
+
+[Google BigQuery](https://cloud.google.com/bigquery) is a fully managed, serverless data warehouse that enables scalable analysis of large datasets using SQL. It is widely used by data analysts and engineers for storing, querying, and processing structured data.
+
+The Lifesight–BigQuery integration allows you to connect your datasets stored in BigQuery to the **Lifesight Unified Marketing Measurement (UMM)** platform. Once integrated, Lifesight can ingest your selected dataset tables to unify them with other marketing and business data, enabling comprehensive attribution and measurement.
+
+## Data Being Brought into Lifesight
+
+Lifesight does not automatically ingest all data from your BigQuery project. Instead, it only reads from the **specific tables defined by you during setup**.
+
+This ensures:
+
+* Full control over which datasets and tables are exposed to Lifesight.
+* Compliance with your organization’s data governance and privacy policies.
+* Flexibility to integrate only the data relevant for attribution, MMM, or reporting use cases.
+
 To enable BigQuery data transfer, you need to add Lifesight's service account as a Principal in your Google project's IAM and Admin settings with the `BigQuery Data Viewer` role. Lifesight will then set up the BigQuery Data Transfer on our Google Cloud project to pull in data from your BigQuery dataset.
 
 # Steps to Integrate with BigQuery
@@ -27,7 +43,7 @@ Completing these steps will allow Lifesight to read data from your datasets. Lif
 2. The Dataset ID, and
 3. The Dataset Region (the region in which the dataset resides)
 
-To finish the integration process, click on the BigQuery tile in 
+To finish the integration process, click on the BigQuery tile in
 
 1. Navigate to the Integrations tab in the left-hand menu bar.
 2. In the search field, type in "BigQuery" to locate the integration for this application.
