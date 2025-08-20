@@ -12,7 +12,7 @@ next:
 ---
 ## Overview
 
-Facebook is a social media network that connects people. By sharing content like text status posts, images, videos, and external links like blog posts, Facebook users can contribute ideas and join conversations with other people.This integration aims to improve advertising outcomes by enabling enhanced campaign targeting, personalization, and optimized advertising returns. 
+Facebook is a leading digital advertising platform. By integrating Facebook Ads with Lifesight, marketers can unify audience activation, personalize campaigns, and optimize return on ad spend across the Lifesight Unified Marketing Measurement (UMM) platform.
 
 **The key features of the integration include -**
 
@@ -20,10 +20,27 @@ Facebook is a social media network that connects people. By sharing content like
 * **Data Integration:** The integration allows seamless transfer of data (historical spend, clicks, impressions, etc.) to the attribution and MMM modules. This process is crucial for tracking and analyzing the effectiveness of advertising campaigns and also for creating integrated MMM models.
 * **Campaign Performance Insights:** Users have the advantage of accessing their Facebook Ads campaign performance data directly within the Attribution dashboard. This feature provides valuable insights and analytics, making it easier to measure the success of campaigns and make data-driven decisions.
 
+## Data Lifesight Deals With
+
+Lifesight ingests and activates several data types via the Meta (Facebook) integration:
+
+**Custom Audience Sync (Outbound)**\
+Push segments from Lifesight to Facebook as Custom Audiences to power targeting and suppression.
+
+**Campaign Performance Data (Inbound)**\
+Ingest campaign- and ad-set-level metrics (e.g., spend, impressions, clicks, conversions, pROAS) for unified reporting in Attribution and modeling in MMM.
+
+**Facebook Lead Forms (Inbound)**\
+Collect Lead Ads submissions from Facebook and ingest them into Lifesight for downstream activation and analysis. Typical fields include:
+
+1. Contact info: full name, email, phone
+2. Campaign metadata: ad id, ad set id, campaign id, page id
+3. Form data: form id, form name, question responses (custom fields)
+
 ## Use Cases
 
 1. **Expand advertising reach on Facebook** - By seamlessly synchronizing audience data from Lifesight to Facebook Ads Audiences, you can create targeted advertising campaigns that reach a more relevant audience and increase brand exposure on the platform.
-2. **Enhance campaign targeting and personalization** - You can create custom audience segments based on demographics, user behavior, or preferences captured in Lifesight and deliver personalized ad experiences to these specific segments. This will increase engagement, drive conversion, and maximize campaign effectiveness. 
+2. **Enhance campaign targeting and personalization** - You can create custom audience segments based on demographics, user behavior, or preferences captured in Lifesight and deliver personalized ad experiences to these specific segments. This will increase engagement, drive conversion, and maximize campaign effectiveness.
 3. **Optimize advertising ROI through data-driven insights** - By analyzing the performance data of Facebook Ads in Lifesight Attribution and MMM, you can make data-driven decisions to optimize your campaigns, allocate budgets effectively, and achieve a higher return on investment.
 
 ***
