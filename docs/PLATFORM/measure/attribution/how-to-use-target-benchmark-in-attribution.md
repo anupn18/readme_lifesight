@@ -22,7 +22,7 @@ View powerful insights such as Scale-up, Stop, and Reduce spends across platform
 
 <Image align="center" src="https://files.readme.io/6a2b988a33762f33e793948ef555456116a2e36f0dd52b41e24c7a325ee18645-target_bench.jpg" />
 
-2. A Target window pops up in the screen. 
+2. A Target window pops up in the screen.
 
 ![](https://files.readme.io/05b2d713b7c2c80044526f95b7f2196ac9d3236b76afbe49a1b02a4818692c0b-image.png)
 
