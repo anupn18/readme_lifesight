@@ -2,7 +2,7 @@
 title: Custom Connector
 excerpt: Connect any custom data sources using custom APIs and webhooks
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
