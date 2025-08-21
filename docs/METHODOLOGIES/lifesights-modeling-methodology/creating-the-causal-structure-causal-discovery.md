@@ -5,21 +5,38 @@ hidden: false
 metadata:
   robots: index
 ---
-### Lifesight Platform: A New Paradigm for Marketing Measurement
+### Marketing Mix Modeling (MMM) Methodology
 
-The Lifesight platform stands apart by offering a **holistic and unified approach** to marketing measurement. Unlike fragmented solutions, we seamlessly integrate three critical functions:
+<br />
 
-* **Causal Modeling**: Our platform goes beyond simple correlations to uncover the true **cause-and-effect relationships** between your marketing activities and business outcomes. This gives you a clear understanding of what's actually driving performance.
-* **Experimentation**: We enable you to design and run controlled experiments to validate causal hypotheses and measure the incremental impact of new initiatives.
-* **Causal Attribution**: Our system attributes sales and conversions back to their causal origins, providing a more accurate picture of return on investment (ROI).
+### : Creation of a Causal Structure
 
-This unified orchestration powers your **strategic, tactical, and operational decision-making** at scale, ensuring every action is grounded in robust, causal insights.
+The first phase of the **MMM (Marketing Mix Modeling) methodology** is the **Creation of a Causal Structure**. This is a **discovery step** that aims to understand the underlying data structure by generating a **causal graph** from two years of historical data. The primary goal is to move beyond simple correlations and identify true **causal relationships** between marketing variables, external factors, and key business metrics. The process also validates these relationships with evidence from the data, which helps to avoid common modelling pitfalls.
 
 ***
 
-### Marketing Mix Modeling (MMM) Methodology
+### The Causal Graph
 
-Our  MMM methodology is a sophisticated, three-step process that overcomes the limitations of traditional models by combining the best of causal AI and regression analysis.
+The **causal graph** is a visual representation of how different variables influence each other. Key features of this graph include:
+
+* **Mapping Causal Relationships**: It shows how marketing variables (like TV spend or social media ads) and external factors (like seasonality or competitor activity) impact your business metrics.
+* **Validating Assumptions**: The model automatically verifies the causal assumptions based on the data, ensuring the relationships are supported by evidence and are not just coincidental correlations.
+
+***
+
+### The Three-Perspective Approach
+
+In practice, the hypothesis building and analysis are an iterative process that involves going back and forth between three perspectives to determine the appropriate model structure.
+
+1. **Domain Knowledge**: Hypotheses are first formed based on a deep understanding of how consumers purchase the products or services being modeled. This requires specific domain knowledge in marketing and media to understand temporal relationships, as causality is always a **before/after relationship** in time. Analysts should consult with marketers and media representatives to understand the specific methodologies used for data collection.
+2. **Data Representativeness**: The model's representativeness is evaluated based on the possibility of collecting and measuring the necessary data.
+3. **Model Structure Rules**: The model structure must adhere to specific rules to accurately reflect marketing and media causality:
+   * **Temporal Causality**: The model structure must reflect the **before/after** nature of cause-and-effect relationships.
+   * **Hierarchical Arrangement**: Variables that are in an inclusion relationship should not be placed in the same hierarchy within the model structure.
+   * **Objective Variable Separation**: The model structure for the objective variable should be kept separate.
+   * **Data-Driven Estimation**: Causal graphs are estimated directly from the data, assuming a distribution of functions.
+
+Our  MMM methodology is a three-step process that overcomes the limitations of traditional models by combining the best of causal AI and regression analysis.
 
 #### **Step 1: Creation of  Causal Structure**
 
