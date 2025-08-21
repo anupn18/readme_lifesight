@@ -18,7 +18,7 @@ Think of it as the "source of truth" for your marketing objectives, which the ca
 
 > ⚠️ **Important**
 >
-> You can only have **one** Default Scenario for any given output KPI within a plan. If you set a new scenario as the default, the previous one will automatically lose its default status for that KPI.
+> You can only have **one** Default Scenario for any given output KPI. If you set a new scenario as the default, within the same or different plan, the previous one will automatically lose its default status for that KPI.
 
 ### How to Identify the Default Scenario
 
