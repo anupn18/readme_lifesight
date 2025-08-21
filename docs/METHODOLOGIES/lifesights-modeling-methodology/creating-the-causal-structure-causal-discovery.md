@@ -1,11 +1,19 @@
 ---
 title: Creating the Causal Structure (Causal Discovery )
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
-### Marketing Mix Modeling (MMM) Methodology
+### Lifesight: A Unified Approach to Marketing Measurement
+
+Lifesight is a unified marketing measurement platform that integrates three core functions : Causal Modelling, Experimentation, and Causal Attribution, into a single solution. Unlike traditional fragmented tools, it provides a holistic and accurate view of marketing performance by focusing on causal relationships rather than mere correlations. The platform is designed to empower businesses to make strategic, tactical, and operational decisions at scale, ensuring every action is grounded in reliable, cause-and-effect insights.
+
+<br />
+
+### Lifesight's Causal Modelling Approach :
+
+Our Causal Modelling approach is three step process :
 
 <br />
 
@@ -20,7 +28,7 @@ This process is essential for two reasons:
 * **Mapping Causal Relationships**: The causal graph clearly illustrates how marketing spend (e.g., TV, social media), external influences (e.g., seasonality, competitor actions), and business metrics (e.g., sales) impact one another.
 * **Validating Assumptions**: By automatically verifying these relationships against historical data, the model ensures that the identified connections are not merely coincidental correlations but are supported by strong evidence. This validation prevents common modeling errors and builds a more reliable foundation for your analysis.
 
-### #The Iterative Process of Model Building
+#### The Iterative Process of Model Building
 
 Developing this causal structure is an **iterative process** that requires integrating three key perspectives:
 
