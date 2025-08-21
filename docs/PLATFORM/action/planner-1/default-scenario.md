@@ -14,10 +14,7 @@ The **Default Scenario** in any plan acts as your strategic north star. It repre
 
 Think of it as the "source of truth" for your marketing objectives, which the causal attribution and optimizer engines use to help you refine your campaigns and achieve your goals more effectively.
 
-### Key Characteristics
-
-* **Single Source of Truth:** It provides a clear baseline for performance comparison and optimization.
-* **Drives Recommendations:** The platform's optimizer uses the budget, constraints, and forecasted KPIs from the Default Scenario to generate budget allocation recommendations.
+<br />
 
 > ⚠️ **Important**
 >
