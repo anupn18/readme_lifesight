@@ -33,7 +33,7 @@ View powerful insights such as Scale-up, Maintain, Stop, and Reduce spends acros
 <Callout icon="📘" theme="info">
   Note
 
-  If you have set a default scenario in the planner, you can choose that as your target benchmark to optimize your campaigns and Ads to achieve your scenario goals.
+  If you have set a [default scenario](https://docs.lifesight.io/update/docs/default-scenario#/) in the planner, you can choose that as your target benchmark to optimize your campaigns and Ads to achieve your scenario goals.
 </Callout>
 
 <br />
