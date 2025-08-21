@@ -1,5 +1,5 @@
 ---
-title: '[WIP] How to change presets for Causal Attribution?'
+title: Causal Settings
 excerpt: >-
   Set foundational models and configure experiments to inform causal Attribution
   insights 
@@ -10,13 +10,7 @@ metadata:
 ---
 The **Causal Settings** page is the central hub for configuring the foundational inputs that power Lifesight's Causal Attribution analysis. By specifying your primary conversion methodology, incorporating Marketing Mix Models (MMM), and inputting experiment results, you can refine the accuracy of your attribution insights.
 
-<Callout icon="👍" theme="okay">
-  To configure your Causal Settings, you must have at least one successful Marketing Mix Model (MMM) with a **Default Scenario linked to an output KPI**. Only models meeting this criteria will appear in the MMM list. To set a default scenario, you must **star a scenario within a plan from the Planner page.**
-
-  <Image align="center" src="https://files.readme.io/10d667cf167e4b8d82ca35e1eb1c9b2700520746e20d2688cd310e59122dd704-Default_Scenario_Selection_Indicator.png" />
-</Callout>
-
-***
+<br />
 
 ### Configuring Causal Inputs
 
@@ -29,7 +23,7 @@ The **Anchor Attribution Methodology** is the primary conversion dataset that th
 * **PLATFORM Conversions**: This option uses performance metrics (e.g., ROAS, CPA, CPM) reported directly by the ad platforms as the basis for incrementality calculations.
 * **GA4 Conversions**: This option utilizes the attribution computations performed by the default algorithm set within your connected Google Analytics 4 workspace.
 
-***
+<br />
 
 #### Marketing Mix Models (MMM)
 
@@ -48,7 +42,11 @@ The table provides a summary of each available model:
 | **Created On**        | The date the model was initially created.                                                                                              |
 | **Last Refreshed On** | The date the model was last updated with new data.                                                                                     |
 
-***
+<br />
+
+To learn how to set a default scenario, check out our guide on [default scenario](https://docs.lifesight.io/update/docs/default-scenario#/)
+
+<br />
 
 #### Managing Experiments
 
@@ -66,9 +64,11 @@ You can add the results of experiments conducted on external platforms (e.g., Go
 2. Fill in the details of your experiment in the form that appears.
 3. Click **Confirm** to save the experiment.
 
-> ### Be Careful!
->
+<br />
+
 > Fields marked with an asterisk (`*`) are mandatory and must be filled in to proceed.
+
+<br />
 
 The table below provides a detailed description of each field in the **External Experiments** form:
 
@@ -87,7 +87,7 @@ The table below provides a detailed description of each field in the **External 
 | **Spend (Control group)** \*                   | The total ad spend allocated to the control group during the experiment.                        |
 | **Confidence**                                 | The statistical confidence level of the experiment's result (e.g., `90%`, `95%`).               |
 
-***
+<br />
 
 ### Impact on Causal Attribution
 
