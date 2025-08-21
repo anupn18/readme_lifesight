@@ -9,13 +9,13 @@ metadata:
 
 <br />
 
-### Creation of a Causal Structure
+#### Creation of a Causal Structure
 
 The first phase of the **MMM (Marketing Mix Modeling) methodology** is the **Creation of a Causal Structure**. This is a **Causal discovery step** that aims to understand the underlying data structure by generating a **causal graph** from two years of historical data. The primary goal is to move beyond simple correlations and identify true **causal relationships** between marketing variables, external factors, and key business metrics. The process also validates these relationships with evidence from the data, which helps to avoid common modelling pitfalls.
 
 ***
 
-### The Causal Graph
+#### The Causal Graph
 
 The **causal graph** is a visual representation of how different variables influence each other. Key features of this graph include:
 
