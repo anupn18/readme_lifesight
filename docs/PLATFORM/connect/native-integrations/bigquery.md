@@ -1,6 +1,6 @@
 ---
 title: BigQuery
-excerpt: ''
+excerpt: Integrate Google BigQuery to pull in Marketing data from your data warehouse
 deprecated: false
 hidden: true
 metadata:
