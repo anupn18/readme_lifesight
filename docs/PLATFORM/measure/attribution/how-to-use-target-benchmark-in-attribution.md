@@ -2,7 +2,7 @@
 title: '[WIP] Target benchmark'
 excerpt: >-
   Get automated budget recommendations to optimize campaigns and Ads based on
-  the Target KPI
+  the Target Benchmark
 deprecated: false
 hidden: true
 metadata:
@@ -12,7 +12,7 @@ metadata:
 next:
   description: ''
 ---
-Target Benchmark allows you to measure your current marketing performance against a predefined goal and receive actionable budget optimization recommendations. By setting a target—such as a sales forecast or a specific efficiency metric—you can see how to reallocate your media spend across channels to best achieve that objective.
+Target Benchmark allows you to set a primary marketing goal—such as maximizing revenue or minimizing Cost Per Acquisition (CPA)—and receive data-driven budget allocation recommendations to achieve it.
 
 ### How to Set a Target Benchmark
 
@@ -57,7 +57,7 @@ The recommendations will appear with specific dollar amounts, advising you exact
 
 ### Understanding Recommendations for Touch-Based Attribution
 
-<Callout icon="📘">
+<Callout icon="📘" theme="info">
   When using touch-based attribution models (e.g., Time Decay, Last Touch), the recommendations provided are **directional**.
 </Callout>
 
@@ -84,7 +84,7 @@ The recommendations guide your strategy with the following labels:
 > ⚠️ **Past Scenarios**\
 > When selecting a benchmark, you may see a warning: "The selected scenario is in the past. Recommendations may no longer be relevant." Always ensure your target benchmark is relevant to your current optimization period for the most accurate recommendations.
 
-<Image align="center" alt="Warning message for selecting a past scenario." src="https://files.readme.io/48740361a4795da7bbd3e44603d7d79e9554b3979413df05db455300df27aa34-Target_Benchmark_-_Default_Scenario.png" />
+<Image align="center" alt="Warning message for selecting a past scenario." width="350px" src="https://files.readme.io/48740361a4795da7bbd3e44603d7d79e9554b3979413df05db455300df27aa34-Target_Benchmark_-_Default_Scenario.png" />
 
 <br />
 
