@@ -30,8 +30,6 @@ On the main Planner dashboard, a **star icon** (★) is displayed next to the na
 
 <br />
 
-<br />
-
 ### Setting or Changing the Default Scenario
 
 You can set or update the Default Scenario at any time from within a plan.
