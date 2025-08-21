@@ -13,9 +13,7 @@ Lifesight is a unified marketing measurement platform that integrates three core
 
 ### Lifesight's Causal Modelling Approach :
 
-Our Causal Modelling approach is three step process :
-
-<br />
+Lifesight's Causal Modeling approach is a three-step process that moves beyond traditional statistical methods to provide a more accurate and reliable understanding of marketing's (and other factors) true impact.
 
 ***
 
