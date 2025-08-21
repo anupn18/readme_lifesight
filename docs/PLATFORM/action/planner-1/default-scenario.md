@@ -30,6 +30,8 @@ On the main Planner dashboard, a **star icon** (★) is displayed next to the na
 
 <Image align="center" src="https://files.readme.io/512e663e8f445d98aa2b82fd4dd0fa90c1d56331cd91f8cda0a5372a3ffbbd69-Deafult_Scenario_-_Planner_home_page.png" />
 
+<br />
+
 #### **Inside a Plan**
 
 When you open a plan, the scenario that is currently set as the default will have a **"Default Scenario"** label next to its name in the scenario selector dropdown.
