@@ -9,43 +9,30 @@ metadata:
 
 <br />
 
-#### Creation of a Causal Structure
-
-The first phase of the **MMM (Marketing Mix Modeling) methodology** is the **Creation of a Causal Structure**. This is a **Causal discovery step** that aims to understand the underlying data structure by generating a **causal graph** from two years of historical data. The primary goal is to move beyond simple correlations and identify true **causal relationships** between marketing variables, external factors, and key business metrics. The process also validates these relationships with evidence from the data, which helps to avoid common modelling pitfalls.
-
 ***
 
-#### The Causal Graph
+#### Step 1 : Causal Structure in Marketing Mix Modeling (MMM)
 
-The **causal graph** is a visual representation of how different variables influence each other. Key features of this graph include:
+The first and most critical phase of **Marketing Mix Modeling (MMM)** is the **creation of a causal structure**. This initial step is a **causal discovery process** that moves beyond simple correlation to identify the true cause-and-effect relationships within your data. The goal is to generate a **causal graph** that visually represents how marketing variables, external factors, and business outcomes are causally linked.
 
-* **Mapping Causal Relationships**: It shows how marketing variables (like TV spend or social media ads) and external factors (like seasonality or competitor activity) impact your business metrics.
-* **Validating Assumptions**: The model automatically verifies the causal assumptions based on the data, ensuring the relationships are supported by evidence and are not just coincidental correlations.
+This process is essential for two reasons:
 
-***
+* **Mapping Causal Relationships**: The causal graph clearly illustrates how marketing spend (e.g., TV, social media), external influences (e.g., seasonality, competitor actions), and business metrics (e.g., sales) impact one another.
+* **Validating Assumptions**: By automatically verifying these relationships against historical data, the model ensures that the identified connections are not merely coincidental correlations but are supported by strong evidence. This validation prevents common modeling errors and builds a more reliable foundation for your analysis.
 
-###
+### #The Iterative Process of Model Building
 
-In practice, the hypothesis building and analysis are an iterative process that involves going back and forth between three perspectives to determine the appropriate model structure.
+Developing this causal structure is an **iterative process** that requires integrating three key perspectives:
 
-1. **Domain Knowledge**: Hypotheses are first formed based on a deep understanding of how consumers purchase the products or services being modeled. This requires specific domain knowledge in marketing and media to understand temporal relationships, as causality is always a **before/after relationship** in time. Analysts should consult with marketers and media representatives to understand the specific methodologies used for data collection.
-2. **Data Representativeness**: The model's representativeness is evaluated based on the possibility of collecting and measuring the necessary data.
-3. **Model Structure Rules**: The model structure must adhere to specific rules to accurately reflect marketing and media causality:
-   * **Temporal Causality**: The model structure must reflect the **before/after** nature of cause-and-effect relationships.
-   * **Hierarchical Arrangement**: Variables that are in an inclusion relationship should not be placed in the same hierarchy within the model structure.
-   * **Objective Variable Separation**: The model structure for the objective variable should be kept separate.
-   * **Data-Driven Estimation**: Causal graphs are estimated directly from the data, assuming a distribution of functions.
+1. **Domain Knowledge**: The foundation of any good causal model is a deep understanding of the business and its consumers. Hypotheses about how variables influence one another are first formed based on insights from marketing and media experts. Since causality is inherently a **temporal relationship**, understanding the 'before/after' sequence of events is paramount.
 
-Our  MMM methodology is a three-step process that overcomes the limitations of traditional models by combining the best of causal AI and regression analysis.
+2. **Data-Driven Insights**: This step involves analyzing historical data to validate or refine the initial hypotheses. The model automatically tests the proposed causal links, identifying which relationships are statistically significant and supported by the evidence. This helps uncover hidden dependencies that might not have been obvious from domain knowledge alone.
 
-#### **Step 1: Creation of  Causal Structure**
+3. **Cross-Functional Collaboration**: The final model structure is a product of ongoing collaboration. Analysts work closely with marketers, media planners, and data owners to ensure the model accurately reflects real-world operations and data collection methodologies. This collaborative feedback loop is crucial for building a robust and trustworthy model.
 
-This initial phase is a **discovery step** focused on understanding the underlying structure of your data. Using two years of historical data, our platform automatically generates a **causal graph**.  This graph is a powerful representation that:
+<br />
 
-* **Identifies Causal Relationships**: It visually maps out how different marketing variables (e.g., TV spend, social media ads) and external factors (e.g., seasonality, competitor activity) influence each other and your key business metrics.
-* **Validates Causal Assumptions**: By analyzing the data, the model verifies the validity of these relationships, ensuring we aren't making assumptions that aren't supported by evidence. This prevents common modeling pitfalls where correlation is mistaken for causation.
-
-#### **Step 2: Regression with Causal Priors**
+#### \*\*Step 2: ML Based Inference \*\*
 
 Once the causal graph is established, we run a sophisticated regression model. The key difference here is that the regression is **informed by the causal structure** identified in Step 1.
 
@@ -53,7 +40,7 @@ Once the causal graph is established, we run a sophisticated regression model. T
 * **Flexible and Data-Driven**: Our approach prefers to learn the **true incrementality directly from the data** without imposing strong, rigid assumptions (e.g., fixed adstock or saturation curves). This makes our models more adaptive and accurate. However, the platform is flexible enough to incorporate specific marketer priors or assumptions if desired.
 * **Robustness through Bootstrapping**: To provide confidence in our findings, we employ a **bootstrapping method**. This resampling technique generates thousands of model variations to determine the most probable range for each variable's coefficient, providing a **95% confidence interval**. This statistical rigor ensures the coefficients are stable and reliable.
 
-#### **Step 3: Incrementality-Adjusted Ensemble Forecasting** 🔮
+#### **Step 3: Incrementality-Adjusted Ensemble Forecasting**
 
 This final step bridges the gap between historical inference and future prediction, a common trade-off in many data science projects.
 
