@@ -1,10 +1,10 @@
 ---
-title: Target benchmark
+title: '[WIP] Target benchmark'
 excerpt: >-
   Get automated budget recommendations to optimize campaigns and Ads based on
   the Target KPI
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
