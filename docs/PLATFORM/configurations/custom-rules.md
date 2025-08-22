@@ -1,5 +1,5 @@
 ---
-title: Custom Rules
+title: Rules & Labels
 excerpt: >-
   Create rules to organize and simplify campaigns and ads in the Attribution
   breakdown tab.
