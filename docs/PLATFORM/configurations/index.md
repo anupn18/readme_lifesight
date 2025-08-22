@@ -1,5 +1,8 @@
 ---
-title: '[WIP] Configurations'
+title: Configurations
+excerpt: >-
+  Configure rules, attribution weights, profit calcualtion metrics and casual
+  attribution settings 
 deprecated: false
 hidden: true
 metadata:
@@ -35,13 +38,13 @@ Using UTM Tag rules significantly reduces the need for manual mapping and ensure
 
 ### Rules & Labels
 
-The **Rules & Labels** tab provides a more powerful and flexible way to create custom classifications. While the UTM Tags tab focuses on UTMs, this section allows you to build rules based on any field, such as `Campaign Name`, `Source`, or `Objective`.
+<br />
 
-You can create custom labels and use complex, multi-conditional logic to apply them. This is essential for creating the granular segments needed for in-depth analysis and modeling.
+The UTM Tags tab provides a standardized framework for creating and managing your UTM tags across all major ad platforms. Its primary goal is to ensure your tracking data is consistent and structured correctly before it even enters the Lifesight platform.
 
-**Example:**
+While the platform does not directly generate or modify UTMs within your ad accounts, it provides powerful, platform-specific templates. You can use these templates to construct consistent UTMs, which can then be copied and pasted directly into your live ad campaigns.
 
-* **Rule:** If `Source` is 'facebook' **AND** `Campaign Name` contains 'video\_awareness', then apply the custom label 'Upper Funnel Video'.
+By using these standardized templates, you ensure that the campaign data flowing into the Lifesight UMM Platform is clean and uniform. This greatly improves the accuracy of automatic classification in the Mapper tab and reduces the need for manual adjustments.
 
 ***
 
@@ -49,17 +52,20 @@ You can create custom labels and use complex, multi-conditional logic to apply t
 
 This tab is an advanced section for managing the parameters and weights that power the platform's algorithmic attribution models. It allows you to input "prior beliefs" into the model, which can help guide the attribution calculations based on your business knowledge or previous analyses.
 
-> \[!WARNING]\
-> The settings in the Algorithmic tab directly influence the core calculations of your measurement model. These settings should only be adjusted by users with a deep understanding of the underlying models. Please consult with your Lifesight data science team before making any changes.
+<Callout icon="🚧">
+  #### \[!WARNING]
+
+  The settings in the Algorithmic tab directly influence the core calculations of your measurement model. These settings should only be adjusted by users with a deep understanding of the underlying models. Please consult with your Lifesight data science team before making any changes.
+</Callout>
 
 ***
 
 ### Causal
 
-The **Causal** tab contains settings related to the platform's causal inference models. This is where you can configure parameters for methodologies like incrementality measurement and uplift modeling. These models help you understand the true causal impact of your marketing efforts by comparing campaign performance against control groups, a key component of a unified measurement approach.
+The **Causal** tab contains settings related to the platform's causal inference models. This is where you can configure parameters for causal attribution. These models help you understand the true causal impact of your marketing efforts by indicating which campaigns have a causal impact in helping you achieve your revenue or ROAS goals.
 
 ***
 
 ### Costs
 
-Accurate performance measurement is impossible without accurate cost data. The **Costs** tab is where you can upload, manage, and verify the spend associated with all your marketing campaigns. Ensuring this data is complete and up-to-date is critical for calculating key metrics like Return on Investment (ROI) and for making informed budget allocation decisions.
+Accurate performance measurement is impossible without accurate cost data. The **Costs** tab is where you can input and manage the fixed and variables costs of running your business. This will help in calculating profitability of channels,
