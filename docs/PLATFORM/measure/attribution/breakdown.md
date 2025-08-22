@@ -21,7 +21,7 @@ This feature is essential for a variety of common analysis tasks. Use the Breakd
 
 * Analyze and compare the performance of different marketing channels (e.g., Google, Facebook, TikTok) side-by-side.
 * Drill down into a specific channel to evaluate the effectiveness of its individual campaigns, ad groups, or ads.
-* Review the platform's automated **Tactics** (budget recommendations) for specific marketing activities.
+* Review the platform's automated **Tactics** for specific marketing activities.
 * Compare the **Predicted Revenue (pRevenue)** against the **Incremental Revenue (iRevenue)** to understand the true lift from your marketing spend.
 * Identify top-performing and under-performing assets to inform your budget optimization and reallocation strategies.
 
@@ -63,7 +63,9 @@ This is the core of the Breakdown tab, where you can analyze your performance da
 Use the tabs at the top of the table to switch between different views:
 
 * **Channels:** A high-level view comparing the performance of each marketing channel.
-* **Tactics:** Groups campaigns by the platform's automated recommendations (e.g., "Scale up," "Reduce").
+* **Tactics:** Groups campaigns by the defined tactics on the platform (e.g., Meta TOF, Meta ASC, etc.).
 * **Campaigns:** A detailed view of every campaign across all channels.
 * **Ad Groups:** Drills down further to the ad group level.
 * **Ads:** Provides the most granular view, showing performance data for each individual ad.
+
+<br />
