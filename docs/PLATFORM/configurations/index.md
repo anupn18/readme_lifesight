@@ -1,5 +1,5 @@
 ---
-title: Configurations
+title: '[WIP] Configurations'
 deprecated: false
 hidden: true
 metadata:
