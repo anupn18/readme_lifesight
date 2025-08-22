@@ -48,9 +48,6 @@ Follow these steps to build a new rule from scratch.
    * In the **Action** section, select `Label as`.
    * In the **Value** field, enter the new label you want to assign (e.g., `Google - Search`).
    * Optionally, select an **Icon** to associate with the new label.
-
-![Screenshot of the rule creation interface in Lifesight, showing fields for Source, Condition, Value, and Action.](https://storage.googleapis.com/path/to/your/image/Rules%20&%20Labels%20-%20Prefilled%20Rule.jpg)
-
 7. **Add More Rule Blocks**: You can click `[Add Rule]` to create another block (e.g., **Rule 2**). This allows you to build a comprehensive set of mappings within a single configuration. For example, Rule 1 can handle Google Search, while Rule 2 handles Facebook Ads.
 
 <Image align="center" src="https://files.readme.io/114a26c5ac5b63a204ce2214cf7d530449d72b665f6b8579dc50681a5ad4a212-Rules__Labels_-_Prefilled_Rule.png" />
