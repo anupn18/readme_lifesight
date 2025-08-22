@@ -1,7 +1,7 @@
 ---
 title: Allocation Score
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
