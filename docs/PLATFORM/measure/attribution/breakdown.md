@@ -1,5 +1,8 @@
 ---
-title: '[WIP] Breakdown'
+title: Breakdown
+excerpt: >-
+  Analyse incremental metrics and get causal recommendations at a channel,
+  campaign, and Ad-level
 deprecated: false
 hidden: true
 metadata:
