@@ -12,7 +12,7 @@ The **Configurations** section is the control center for organizing and classify
 
 Each tab within this section provides a specific set of tools to manage how the platform interprets your marketing activities.
 
-***
+<br />
 
 ### Mapper
 
@@ -42,7 +42,7 @@ You can create custom labels and use complex, multi-conditional logic to apply t
 
 * **Rule:** If `Source` is 'facebook' **AND** `Campaign Name` contains 'video\_awareness', then apply the custom label 'Upper Funnel Video'.
 
-***
+<br />
 
 ### Algorithmic
 
@@ -54,13 +54,13 @@ This tab is an advanced section for managing the parameters and weights that pow
   The settings in the Algorithmic tab directly influence the core calculations of your measurement model. These settings should only be adjusted by users with a deep understanding of the underlying models. Please consult with your Lifesight data science team before making any changes.
 </Callout>
 
-***
+<br />
 
 ### Causal
 
 The **Causal** tab contains settings related to the platform's causal inference models. This is where you can configure parameters for causal attribution. These models help you understand the true causal impact of your marketing efforts by indicating which campaigns have a causal impact in helping you achieve your revenue or ROAS goals.
 
-***
+<br />
 
 ### Costs
 
