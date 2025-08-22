@@ -8,7 +8,7 @@ hidden: false
 metadata:
   robots: index
 ---
-Custom Rules are a powerful feature within the Lifesight UMM Platform that allow you to organize and analyze your marketing efforts with greater flexibility. They are utilized in the attribution breakdown tab to group campaigns, ad sets, and ads under a single, meaningful label. This enables you to see aggregated attribution metrics and receive recommendations specifically for these custom groups.
+Custom Rules are a powerful feature within the Lifesight Platform that allow you to organize and analyze your marketing efforts with greater flexibility. They are utilized in the attribution breakdown tab to group campaigns, ad sets, and ads under a single, meaningful label. This enables you to see aggregated attribution metrics and receive recommendations specifically for these custom groups.
 
 For example, you can create a rule to group all campaigns related to your "Summer Sale" under one label, even if they are running on different platforms with different naming conventions.
 
@@ -20,6 +20,8 @@ Setting up custom rules provides several key benefits:
 * **Consistent Naming**: Standardize your campaign taxonomy across different ad platforms by mapping them to unified labels.
 * **Targeted Insights**: Generate attribution metrics and optimization recommendations for specific strategies, products, or regions.
 * **Flexible Analysis**: Quickly pivot your attribution view to analyze performance by marketing objective, promotional event, or any other business logic.
+
+<br />
 
 ### Creating a New Custom Rule
 
@@ -42,6 +44,8 @@ Follow these steps to build a new rule from scratch.
 ![Screenshot of the rule creation interface in Lifesight, showing fields for Source, Condition, Value, and Action.](https://storage.googleapis.com/path/to/your/image/Rules%20&%20Labels%20-%20Prefilled%20Rule.jpg)
 
 7. **Add More Rule Blocks (Optional)**: You can click `[Add Rule]` to create another block (e.g., **Rule 2**). This allows you to build a comprehensive set of mappings within a single configuration. For example, Rule 1 can handle Google Search, while Rule 2 handles Facebook Ads.
+
+<br />
 
 ### Previewing Your Rule
 
