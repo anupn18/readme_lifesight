@@ -1,8 +1,8 @@
 ---
 title: Target benchmark
 excerpt: >-
-  Get automated budget recommendations to optimize campaigns and Ads based on
-  the Target Benchmark
+  Get automated budget recommendations to optimize campaigns and ad sets based
+  on the Target Benchmark
 deprecated: false
 hidden: true
 metadata:
@@ -12,14 +12,14 @@ metadata:
 next:
   description: ''
 ---
-Target Benchmark allows you to set a primary marketing goal—such as maximizing revenue or minimizing Cost Per Acquisition (CPA)—and receive data-driven budget allocation recommendations to achieve it.
+Target Benchmark allows you to set a primary marketing goal - such as maximizing revenue or minimizing Cost Per Acquisition (CPA) - and receive data-driven budget allocation recommendations to achieve it.
 
 ### How to Set a Target Benchmark
 
 Applying a benchmark is a straightforward process from the main Attribution dashboard.
 
 1. Navigate to the **Attribution** section of the platform.
-2. Click the **Target \[Benchmark Name/Metric]** button located at the top-right corner of the dashboard
+2. Click the **Target [Benchmark Name/Metric]** button located at the top-right corner of the dashboard
 
    <Image align="center" width="650px" src="https://files.readme.io/db2cb483984e5b74857ecf8501098bd5c4b1353411256d78f9fa83c4c0681921-Attribution_-_Target_Benchmark_highlighted.png" />
 3. In the **Target** modal that appears, use the **Select a Metric** dropdown to choose your desired benchmark.
