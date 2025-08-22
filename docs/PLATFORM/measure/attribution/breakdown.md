@@ -2,7 +2,7 @@
 title: Breakdown
 excerpt: >-
   Analyse incremental metrics and get causal recommendations at a channel,
-  campaign, ad set and ad level.
+  campaign, ad group and ad level.
 deprecated: false
 hidden: true
 metadata:
