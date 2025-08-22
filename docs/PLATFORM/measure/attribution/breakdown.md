@@ -4,6 +4,11 @@ deprecated: false
 hidden: true
 metadata:
   robots: index
+next:
+  pages:
+    - slug: attribution-metrics-guide
+      title: Attribution metrics guide
+      type: basic
 ---
 The **Breakdown** tab is your primary interface for conducting in-depth campaign and ad performance analysis on the Lifesight Platform. It allows you to move beyond high-level summaries and investigate the effectiveness of your marketing efforts at the most granular levels—from channels down to individual ads. Use this view to understand performance drivers, compare predicted and incremental impact, and make data-driven budget allocation decisions.
 
