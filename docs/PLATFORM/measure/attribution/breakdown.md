@@ -40,8 +40,9 @@ These two filters at the top of the page set the overall context for your analys
 * **Attribution Period:** A date-range selector that defines the time frame for all data displayed in the chart and table below.
 * **Attribution Model:** A dropdown menu to select the model used for attributing conversions.
 
-> i **Causal Attribution Explained**\
-> The **Causal** model uses advanced statistical techniques to determine the true, incremental impact of your marketing efforts. It separates the sales that happened *because* of your ads from sales that would have happened anyway.
+<Callout icon="📘" theme="info">
+  The **Causal** model uses advanced statistical techniques to determine the true, incremental impact of your marketing efforts. It separates the sales that happened *because* of your ads from sales that would have happened anyway.
+</Callout>
 
 #### Performance Chart
 
