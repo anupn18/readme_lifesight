@@ -81,7 +81,8 @@ The recommendations guide your strategy with the following labels:
 
 ### Key Considerations
 
-> ⚠️ **Past Scenarios**\
+> ⚠️ Past Scenarios
+>
 > When selecting a benchmark, you may see a warning: "The selected scenario is in the past. Recommendations may no longer be relevant." Always ensure your target benchmark is relevant to your current optimization period for the most accurate recommendations.
 
 <Image align="center" alt="Warning message for selecting a past scenario." width="350px" src="https://files.readme.io/48740361a4795da7bbd3e44603d7d79e9554b3979413df05db455300df27aa34-Target_Benchmark_-_Default_Scenario.png" />
