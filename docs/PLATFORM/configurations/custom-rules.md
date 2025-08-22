@@ -1,10 +1,10 @@
 ---
-title: Custom Rules
+title: '[WIP] Custom Rules'
 excerpt: >-
   Create rules to classify and simplify campaigns and Ads in the Attribution
   breakdown tab
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
