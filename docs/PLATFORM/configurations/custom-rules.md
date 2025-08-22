@@ -1,5 +1,5 @@
 ---
-title: '[WIP] Custom Rules'
+title: Custom Rules
 excerpt: >-
   Create rules to organize and simplify campaigns and ads in the Attribution
   breakdown tab.
