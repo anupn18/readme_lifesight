@@ -20,6 +20,8 @@ By bringing in your own data via S3, you can significantly enrich your Marketing
 
 To connect your S3 bucket securely, we will first create a dedicated user in your AWS account with the minimum permissions required for Lifesight to read your data. This process involves creating a permissions policy, creating a user, and generating a unique set of access keys.
 
+<br />
+
 #### **Part A: Create a Limited Permission IAM Policy**
 
 This policy explicitly grants Lifesight read only access to a specific S3 bucket.
@@ -53,6 +55,8 @@ This policy explicitly grants Lifesight read only access to a specific S3 bucket
 6. For the **Name**, enter something descriptive like `Lifesight-S3-Read-Access-Policy`.
 7. Click **Create policy** to save.
 
+<br />
+
 #### **Part B: Create a Dedicated IAM User**
 
 Now, you will create a user that will be assigned the policy you just created.
@@ -63,6 +67,8 @@ Now, you will create a user that will be assigned the policy you just created.
 4. On the **Set permissions** page, select **Attach policies directly**.
 5. In the search bar, type the name of the policy you created in Part A (e.g., `Lifesight-S3-Read-Access-Policy`) and check the box next to it.
 6. Click **Next**, then click **Create user**.
+
+<br />
 
 #### **Part C: Generate an Access Key and Secret**
 
@@ -75,7 +81,9 @@ This is the final step in AWS, where you generate the credentials you will use i
 5. Click **Create access key**.
 6. You will now see the **Access key ID** and the **Secret access key**.
 
-### **Steps to Integrate Amazon S3**
+***
+
+### **Steps to Integrate Amazon S3 on Lifesight**
 
 Connecting your S3 bucket is a straightforward configuration process.
 
