@@ -83,15 +83,15 @@ This is the final step in AWS, where you generate the credentials you will use i
 
 ***
 
-### **Steps to Integrate Amazon S3 on Lifesight**
+## **Steps to Integrate in Lifesight**
 
-Connecting your S3 bucket is a straightforward configuration process.
+With your AWS credentials prepared, you can now complete the connection within the Lifesight platform.
 
 1. Navigate to the **Integrations** tab in the Lifesight left side menu bar.
 2. In the search field, type "**Amazon S3**" to locate the integration tile.
 3. Click on the **Amazon S3** tile. A connection modal will appear.
-4. Carefully enter your **Access Key ID**.
+4. Carefully enter the **Access Key ID** you saved from AWS.
 5. Enter the corresponding **Secret Access Key**.
 6. Select your **S3 Bucket Region** from the dropdown menu.
-7. Enter the exact **S3 Bucket Name**.
+7. Enter the exact **S3 Bucket Name** (this must match the one in your IAM policy).
 8. Click **Connect** to finalize the integration.
