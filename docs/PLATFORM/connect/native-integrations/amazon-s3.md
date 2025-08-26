@@ -14,18 +14,66 @@ This feature enables you to bring your unique business data into Lifesight for a
 
 By bringing in your own data via S3, you can significantly enrich your Marketing Mix Models (MMM) and Causal Attribution analyses. This allows you to measure the impact of marketing on a wider range of business outcomes and account for external factors.
 
-### **Prerequisites: Gathering Your S3 Credentials**
+<br />
 
-Before you begin the integration, you must have four pieces of information ready from your Amazon Web Services account:
+### **Setup Instructions in AWS**
 
-* **Access Key ID**
-* **Secret Access Key**
-* **S3 Bucket Region** (e.g., us east 1)
-* **S3 Bucket Name**
+To connect your S3 bucket securely, we will first create a dedicated user in your AWS account with the minimum permissions required for Lifesight to read your data. This process involves creating a permissions policy, creating a user, and generating a unique set of access keys.
 
-> **Security Best Practice**
-> For enhanced security, we strongly recommend creating a dedicated IAM (Identity and Access Management) user in your AWS account. This user should be granted specific, read only permissions for the target S3 bucket (`s3:GetObject` and `s3:ListBucket`). Using credentials from a limited access IAM user instead of your root account credentials is a safer practice that minimizes risk.
+#### **Part A: Create a Limited Permission IAM Policy**
 
+This policy explicitly grants Lifesight read only access to a specific S3 bucket.
+
+1. Open your Amazon IAM console in your AWS account.
+2. Navigate to **Policies** in the left side menu, then click **Create Policy**.
+3. Select the **JSON** tab.
+4. Copy the entire policy text below and paste it into the JSON editor, replacing the existing content. Be sure to replace `{your-bucket-name}` with the actual name of your S3 bucket.
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+        "Effect": "Allow",
+        "Action": [
+                "s3:GetBucketLocation",
+                "s3:GetObject",
+                "s3:ListBucket"
+        ],
+        "Resource": [
+                "arn:aws:s3:::{your-bucket-name}/*",
+                "arn:aws:s3:::{your-bucket-name}"
+        ]
+        }
+    ]
+}
+```
+
+5. Click **Next: Tags**, then **Next: Review**.
+6. For the **Name**, enter something descriptive like `Lifesight-S3-Read-Access-Policy`.
+7. Click **Create policy** to save.
+
+#### **Part B: Create a Dedicated IAM User**
+
+Now, you will create a user that will be assigned the policy you just created.
+
+1. In the IAM console, navigate to **Users** in the left side menu, then click **Add users**.
+2. Enter a **User name**, for example `lifesight-s3-integration-user`.
+3. Click **Next**.
+4. On the **Set permissions** page, select **Attach policies directly**.
+5. In the search bar, type the name of the policy you created in Part A (e.g., `Lifesight-S3-Read-Access-Policy`) and check the box next to it.
+6. Click **Next**, then click **Create user**.
+
+#### **Part C: Generate an Access Key and Secret**
+
+This is the final step in AWS, where you generate the credentials you will use in the Lifesight platform.
+
+1. From the list of users, click on the name of the user you just created.
+2. Navigate to the **Security credentials** tab.
+3. Scroll down to the **Access keys** section and click **Create access key**.
+4. For the use case, select **Third party service** and click **Next**.
+5. Click **Create access key**.
+6. You will now see the **Access key ID** and the **Secret access key**.
 
 ### **Steps to Integrate Amazon S3**
 
