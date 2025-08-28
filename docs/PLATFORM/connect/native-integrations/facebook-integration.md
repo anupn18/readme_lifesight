@@ -10,8 +10,6 @@ metadata:
 next:
   description: ''
 ---
-## Overview
-
 Facebook is a leading digital advertising platform. By integrating Facebook Ads with Lifesight, marketers can unify audience activation, personalize campaigns, and optimize return on ad spend across the Lifesight Unified Marketing Measurement (UMM) platform.
 
 **The key features of the integration include -**
@@ -24,13 +22,13 @@ Facebook is a leading digital advertising platform. By integrating Facebook Ads 
 
 Lifesight ingests and activates several data types via the Meta (Facebook) integration:
 
-**Custom Audience Sync (Outbound)**\
+**Custom Audience Sync (Outbound)**
 Push segments from Lifesight to Facebook as Custom Audiences to power targeting and suppression.
 
-**Campaign Performance Data (Inbound)**\
+**Campaign Performance Data (Inbound)**
 Ingest campaign- and ad-set-level metrics (e.g., spend, impressions, clicks, conversions, pROAS) for unified reporting in Attribution and modeling in MMM.
 
-**Facebook Lead Forms (Inbound)**\
+**Facebook Lead Forms (Inbound)**
 Collect Lead Ads submissions from Facebook and ingest them into Lifesight for downstream activation and analysis. Typical fields include:
 
 1. Contact info: full name, email, phone
