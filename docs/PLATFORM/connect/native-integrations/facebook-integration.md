@@ -12,7 +12,7 @@ next:
 ---
 Facebook is a leading digital advertising platform. By integrating Facebook Ads with Lifesight, marketers can unify audience activation, personalize campaigns, and optimize return on ad spend across the Lifesight Unified Marketing Measurement (UMM) platform.
 
-**The key features of the integration include -**
+**The key features of the integration include**
 
 * **Custom Audience Sync:** Segments can be pushed as a custom audience to the Facebook ad platform. This approach enhances targeting and retargeting efforts, ensuring ads reach the most relevant audience.
 * **Data Integration:** The integration allows seamless transfer of data (historical spend, clicks, impressions, etc.) to the attribution and MMM modules. This process is crucial for tracking and analyzing the effectiveness of advertising campaigns and also for creating integrated MMM models.
