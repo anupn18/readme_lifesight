@@ -1,7 +1,7 @@
 ---
 title: Split test insights
 excerpt: Learn how to analyze your Split Test results and use it for MMM calibration
-deprecated: false
+deprecated: true
 hidden: true
 metadata:
   title: ''
