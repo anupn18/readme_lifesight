@@ -1,7 +1,7 @@
 ---
 title: Test Hypotheses Generation
 excerpt: Test what matters the most !
-deprecated: false
+deprecated: true
 hidden: true
 metadata:
   title: ''
