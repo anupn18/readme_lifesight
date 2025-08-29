@@ -1,7 +1,7 @@
 ---
-title: Outbrain
+title: '[WIP] Outbrain'
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
