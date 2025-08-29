@@ -1,7 +1,7 @@
 ---
 title: Split test
 excerpt: Learn the fundamental concepts of running a Split Test
-deprecated: false
+deprecated: true
 hidden: true
 metadata:
   title: ''
