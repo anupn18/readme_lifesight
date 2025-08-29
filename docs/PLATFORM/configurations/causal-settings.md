@@ -68,7 +68,7 @@ You can add the results of experiments conducted on external platforms (e.g., Go
 
 <br />
 
-<Image align="center" src="https://files.readme.io/aa8b4f3fcc77d3640cdd4c14499e40ce98f4f4e543250dee97122c1c8bf19291-Causal_Settings_-_External_Experiments.png" />
+<Image align="center" width="650px" src="https://files.readme.io/aa8b4f3fcc77d3640cdd4c14499e40ce98f4f4e543250dee97122c1c8bf19291-Causal_Settings_-_External_Experiments.png" />
 
 <br />
 
