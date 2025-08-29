@@ -48,11 +48,9 @@ You can create custom labels and use complex, multi-conditional logic to apply t
 
 This tab is an advanced section for managing the parameters and weights that power the platform's algorithmic attribution models. It allows you to input "prior beliefs" into the model, which can help guide the attribution calculations based on your business knowledge or previous analyses.
 
-<Callout icon="🚧" theme="warn">
-  #### [!WARNING]
-
-  The settings in the Algorithmic tab directly influence the core calculations of your measurement model. These settings should only be adjusted by users with a deep understanding of the underlying models. Please consult with your Lifesight data science team before making any changes.
-</Callout>
+> 🚧 [!WARNING]
+>
+> The settings in the Algorithmic tab directly influence the core calculations of your measurement model. These settings should only be adjusted by users with a deep understanding of the underlying models. Please consult with your Lifesight marketing science team for help with this. 
 
 <br />
 
