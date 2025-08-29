@@ -3,7 +3,7 @@ title: Goals
 excerpt: >-
   Track your overall marketing Goal progress to stay on track to hit your target
   goals.
-deprecated: false
+deprecated: true
 hidden: true
 metadata:
   title: ''
