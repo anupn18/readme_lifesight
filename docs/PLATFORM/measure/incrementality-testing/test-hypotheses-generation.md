@@ -10,9 +10,9 @@ metadata:
 next:
   description: ''
 ---
-Good Experiments should start from Strong Hypotheses. This is extremely important for Businesses. The rigour, resource bandwidth and opportunity cost incurred by experiments make it prohibitive for businesses to chase wrong hypotheses. 
+Good Experiments should start from Strong Hypotheses. This is extremely important for Businesses. The rigour, resource bandwidth and opportunity cost incurred by experiments make it prohibitive for businesses to chase wrong hypotheses.
 
-At Lifesight we offer pre-generated hypotheses that are informed by data fluctuations in attribution and/or **Attribute Quality Flags** from MMM. 
+At Lifesight we offer pre-generated hypotheses that are informed by data fluctuations in attribution and/or **Attribute Quality Flags** from MMM.
 
 ### Attribute Quality Flags
 
