@@ -8,7 +8,7 @@ hidden: true
 metadata:
   robots: index
 ---
-The **Configurations** section is the control center for organizing and classifying your marketing data within the Lifesight Platform. Properly configuring these settings is a crucial first step to ensure your data is correctly grouped, labeled, and prepared for attribution and profit insights. This section allows you to translate raw data from various sources into a structured format, creating a single source of truth suitable for actionable insights.
+The **Configurations** section is the control center for organizing and classifying your marketing data within the Lifesight Platform. Properly configuring these settings is a crucial first step to ensure your data is correctly grouped, labeled, and prepared for attribution and profitability insights. This section allows you to translate raw data from various sources into a structured format, creating a single source of truth suitable for actionable insights.
 
 Each tab within this section provides a specific set of tools to manage how the platform interprets your marketing activities.
 
@@ -40,7 +40,7 @@ You can create custom labels and use complex, multi-conditional logic to apply t
 
 **Example:**
 
-* **Rule:** If `Source` is 'facebook' **AND** `Campaign Name` contains 'video\_awareness', then apply the custom label 'Upper Funnel Video'.
+* **Rule:** If `Source` is 'facebook' **AND** `Campaign Name` contains 'video_awareness', then apply the custom label 'Upper Funnel Video'.
 
 <br />
 
@@ -49,7 +49,7 @@ You can create custom labels and use complex, multi-conditional logic to apply t
 This tab is an advanced section for managing the parameters and weights that power the platform's algorithmic attribution models. It allows you to input "prior beliefs" into the model, which can help guide the attribution calculations based on your business knowledge or previous analyses.
 
 <Callout icon="🚧" theme="warn">
-  #### \[!WARNING]
+  #### [!WARNING]
 
   The settings in the Algorithmic tab directly influence the core calculations of your measurement model. These settings should only be adjusted by users with a deep understanding of the underlying models. Please consult with your Lifesight data science team before making any changes.
 </Callout>
