@@ -1,7 +1,7 @@
 ---
 title: Geo test creation
 excerpt: Run experiments to determine your true marketing ROI & validate strategies
-deprecated: false
+deprecated: true
 hidden: true
 metadata:
   title: ''
