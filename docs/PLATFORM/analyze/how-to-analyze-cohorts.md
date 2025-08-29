@@ -2,7 +2,7 @@
 title: How to analyze Cohorts
 excerpt: Analyze customer cohorts to discover profitable customer cohorts
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
