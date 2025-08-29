@@ -1,7 +1,7 @@
 ---
 title: Calibrate MMM using experiment results
 excerpt: ''
-deprecated: false
+deprecated: true
 hidden: true
 metadata:
   title: ''
