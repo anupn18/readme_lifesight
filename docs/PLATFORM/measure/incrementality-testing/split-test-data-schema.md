@@ -1,7 +1,7 @@
 ---
 title: Split test data schema
 excerpt: ''
-deprecated: false
+deprecated: true
 hidden: true
 metadata:
   title: ''
