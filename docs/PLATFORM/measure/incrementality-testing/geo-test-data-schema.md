@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-When uploading Geo Test data via CSV or Integrated method, ensure your data follows the provided template. A consistent data schema is crucial for tracking performance across geographic regions. Below is a typical schema with key attributes for analysis.
+When uploading Geo Test data via CSV, ensure your data follows the provided template. A consistent data schema is crucial for tracking performance across geographic regions. Below is a typical schema with key attributes for analysis.
 
 ### View [Geo schema template](https://docs.google.com/spreadsheets/d/1kNy-pcGCp6E4G1LbXIZBtB1YItGdD0LcWo3ScwE1wQw/edit?gid=1915444742#gid=1915444742)
 
