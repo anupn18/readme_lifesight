@@ -4,7 +4,7 @@ excerpt: >-
   Track your overall marketing Goal progress to stay on track to hit your target
   goals.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
