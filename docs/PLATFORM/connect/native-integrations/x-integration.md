@@ -1,6 +1,6 @@
 ---
 title: X Ads
-excerpt: 'Integrate your X Ads Accounts with Lifesight '
+excerpt: 'Integrate your X Ads Account with Lifesight '
 deprecated: false
 hidden: false
 metadata:
