@@ -22,7 +22,6 @@ By integrating Meta Ads manager account with Lifesight, marketers can unify audi
 
 **The key features of the integration include**
 
-* **Custom Audience Sync:** Segments can be pushed as a custom audience to the Facebook ad platform. This approach enhances targeting and retargeting efforts, ensuring ads reach the most relevant audience.
 * **Data Integration:** The integration allows seamless transfer of data (historical spend, clicks, impressions, etc.) to the attribution and MMM modules. This process is crucial for tracking and analyzing the effectiveness of advertising campaigns and also for creating integrated MMM models.
 * **Campaign Performance Insights:** Users have the advantage of accessing their Facebook Ads campaign performance data directly within the Attribution dashboard. This feature provides valuable insights and analytics, making it easier to measure the success of campaigns and make data-driven decisions.
 
