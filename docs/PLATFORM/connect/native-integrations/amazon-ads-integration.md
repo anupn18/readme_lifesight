@@ -25,7 +25,7 @@ Lifesight and Amazon Ads integration aims to improve advertising outcomes by ena
 
 <Image align="center" src="https://files.readme.io/83c7e920904c2aa4d9d83db107bc048ff78bf8a83fd18277fb7dcab5d545064d-amazon.png" />
 
-## Integrating Amazon Ads on your workspace
+### Setup Guide
 
 Navigate to the Integrations tab in the left-hand menu bar.
 
