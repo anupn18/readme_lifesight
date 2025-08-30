@@ -10,11 +10,9 @@ metadata:
 next:
   description: ''
 ---
-## Overview
-
 The Lifesight JS SDK also referred to as 'Lifesight Pixel' lets you track customer event data from your website.
 
-Once integrated, the pixel enables Lifesight to capture valuable behavioural data from your visitors, along with a variety of URL parameters such as UTM tags, search keywords, and more. 
+Once integrated, the pixel enables Lifesight to capture valuable behavioural data from your visitors, along with a variety of URL parameters such as UTM tags, search keywords, and more.
 
 Tracking begins even before a customer is identified, and regardless of the devices they use. Our unique algorithm merges multiple touchpoints to create a first-party identity graph, providing you with a deep understanding of their entire journey.
 
@@ -90,11 +88,11 @@ measureinsight.track(eventName, [properties]);
 <Table align={["left","left"]}>
   <thead>
     <tr>
-      <th style={{ textAlign: "left" }}>
+      <th>
         Parameter
       </th>
 
-      <th style={{ textAlign: "left" }}>
+      <th>
         Description
       </th>
     </tr>
@@ -102,22 +100,22 @@ measureinsight.track(eventName, [properties]);
 
   <tbody>
     <tr>
-      <td style={{ textAlign: "left" }}>
+      <td>
         eventName
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        The name of the tracked event. eg) page view, add to cart etc 
+      <td>
+        The name of the tracked event. eg) page view, add to cart etc
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "left" }}>
+      <td>
         properties
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        The event-related properties.\
+      <td>
+        The event-related properties.
         Note: If you do not want to send the properties, pass an empty object (\{}) instead.
       </td>
     </tr>
@@ -128,7 +126,7 @@ measureinsight.track(eventName, [properties]);
 
 # Method 1: Implementing via Google Tag Manager [Recommended]
 
-We assume that you have already created a GTM container for your website. If you don't have a container yet, create one according to the setup and installation guide. ([click here](https://support.google.com/tagmanager/answer/14842164?visit_id=638616419826108612-2864028082\&hl=en\&ref_topic=14841964\&rd=1))
+We assume that you have already created a GTM container for your website. If you don't have a container yet, create one according to the setup and installation guide. ([click here](https://support.google.com/tagmanager/answer/14842164?visit_id=638616419826108612-2864028082&hl=en&ref_topic=14841964&rd=1))
 
 1. ## Step 1: Setting up the Custom JS SDK [Base Tag]
 
@@ -149,14 +147,14 @@ We assume that you have already created a GTM container for your website. If you
 >
 > You can now see whether the system events, such as page view, are flowing in by going back to your Lifesight Workspace and by looking at customer Profiles.
 
-*Note - This trigger (Page View - Window Loaded) is for Single Page Application (SPA) websites ( (ReactS / Next JS based Websites).*
+_Note - This trigger (Page View - Window Loaded) is for Single Page Application (SPA) websites ( (ReactS / Next JS based Websites)._
 
 ![](https://files.readme.io/4c1d035-image.png)
 
 <br />
 
 2. ## 2: Instrumenting additional API calls
-   For every event that you wish to send to Lifesight (apart from page\_view, which gets tracked by deafult), you need to create the required variables, triggers, and tags that need to be configured through our Identify and Track calls. 
+   For every event that you wish to send to Lifesight (apart from page_view, which gets tracked by deafult), you need to create the required variables, triggers, and tags that need to be configured through our Identify and Track calls.
 
 ### Identify Function
 
@@ -171,11 +169,11 @@ Identify calls are fired when a user performs an identifying action like making 
 
 <br />
 
-*Note: You don't need to use the 'identify' function for anonymous visitors. Lifesight already assigns them an anonymous ID, so just 'page' and 'track' calls are enough.*
+_Note: You don't need to use the 'identify' function for anonymous visitors. Lifesight already assigns them an anonymous ID, so just 'page' and 'track' calls are enough._
 
 <br />
 
-Below are all the possible traits users can use (at least one identifier must be passed - customer\_id, email, phone)
+Below are all the possible traits users can use (at least one identifier must be passed - customer_id, email, phone)
 
 ```
 {  
@@ -226,9 +224,9 @@ Below are all the possible traits users can use (at least one identifier must be
 
 ### Track Function
 
-The track call lets you record the user actions along with any properties associated with them. Each user action is called an event. Every event has a name associated with it, for example, Product Reviewed. This event might also have some properties associated with it, like review\_id and rating.
+The track call lets you record the user actions along with any properties associated with them. Each user action is called an event. Every event has a name associated with it, for example, Product Reviewed. This event might also have some properties associated with it, like review_id and rating.
 
-**Example of track call for event product\_view payload**
+**Example of track call for event product_view payload**
 
 ```
 lifesight.track  
@@ -305,23 +303,23 @@ lifesight.track ("form_submit",
 
 ### Examples of standard e-commerce client-side events that you can set up on your tag manager
 
-| Event Name             | Name                  | Name                  | Description                                                                                        |
-| ---------------------- | --------------------- | --------------------- | -------------------------------------------------------------------------------------------------- |
-| product\_view          | Viewed Product        | Product Viewed        | When a Product is viewed.                                                                          |
-| product\_search        | Search                | Search                | When a search is performed.                                                                        |
-| add\_to\_cart          | Added to Cart         | Added to Cart         | When an item is added to the shopping cart.                                                        |
-| product\_list\_view    | Viewed Product List   | Product List Viewed   | When list of products on page, cart or order is viewed.                                            |
-| checkouts\_create      | Created Checkout      | Checkout Created      | When the checkout process is started.                                                              |
-| checkouts\_update      | Updated Checkout      | Checkout Updated      | When the checked list is updated with new set of items.                                            |
-| abandoned\_checkout    | Abandoned Checkout    | Checkout Abandoned    | When payment information is added in the checkout flow.                                            |
-| orders\_paid           | Paid for Order        | Payment Completed     | When a payment is completed.                                                                       |
-| orders\_create         | Placed Order          | Order Placed          | When an order is placed.                                                                           |
-| form\_submit           | Submitted Form        | Form Submitted        | When a form is submitted for newsletter subscription or zero party survey data form fill.          |
-| thank\_you\_page\_view | Viewed Thank You Page | Thank You Page Viewed | The Thank you Page viewed by the user right when the order is completed after the payment is done. |
+| Event Name          | Name                  | Name                  | Description                                                                                        |
+| ------------------- | --------------------- | --------------------- | -------------------------------------------------------------------------------------------------- |
+| product_view        | Viewed Product        | Product Viewed        | When a Product is viewed.                                                                          |
+| product_search      | Search                | Search                | When a search is performed.                                                                        |
+| add_to_cart         | Added to Cart         | Added to Cart         | When an item is added to the shopping cart.                                                        |
+| product_list_view   | Viewed Product List   | Product List Viewed   | When list of products on page, cart or order is viewed.                                            |
+| checkouts_create    | Created Checkout      | Checkout Created      | When the checkout process is started.                                                              |
+| checkouts_update    | Updated Checkout      | Checkout Updated      | When the checked list is updated with new set of items.                                            |
+| abandoned_checkout  | Abandoned Checkout    | Checkout Abandoned    | When payment information is added in the checkout flow.                                            |
+| orders_paid         | Paid for Order        | Payment Completed     | When a payment is completed.                                                                       |
+| orders_create       | Placed Order          | Order Placed          | When an order is placed.                                                                           |
+| form_submit         | Submitted Form        | Form Submitted        | When a form is submitted for newsletter subscription or zero party survey data form fill.          |
+| thank_you_page_view | Viewed Thank You Page | Thank You Page Viewed | The Thank you Page viewed by the user right when the order is completed after the payment is done. |
 
 <br />
 
-While configuring the events, make sure you use the same event naming convention mentioned in the above table. Some examples are given below in detail. The way to call the tag in the Google Tag manager is lifesight.track ( "add\_to\_cart", \{identifiers…})
+While configuring the events, make sure you use the same event naming convention mentioned in the above table. Some examples are given below in detail. The way to call the tag in the Google Tag manager is lifesight.track ( "add_to_cart", \{identifiers…})
 
 ***
 
