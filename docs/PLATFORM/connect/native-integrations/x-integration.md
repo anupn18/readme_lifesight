@@ -14,11 +14,11 @@ X Ads is the advertising platform for the real-time social network X (formerly T
 
 <br />
 
+## Connect your X Ads account
+
 This integration aims to improve advertising outcomes by enabling enhanced campaign targeting, personalization, and optimized advertising returns.
 
-***
-
-## Integrating X (Twitter) to your Lifesight workspace
+### Setup Guide
 
 1. Navigate to the Integrations tab in the left-hand menu bar.
 2. In the search field, type in "X" to locate the integration for this application.
@@ -33,17 +33,7 @@ This integration aims to improve advertising outcomes by enabling enhanced campa
 
 7. You'll receive a success message in Facebook. Click Ok to be redirected to Lifesight.
 
-<Image align="left" width="400px" src="https://files.readme.io/f597cdd-2.png" />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
+<Image align="center" width="400px" src="https://files.readme.io/f597cdd-2.png" />
 
 <br />
 
@@ -52,11 +42,11 @@ This integration aims to improve advertising outcomes by enabling enhanced campa
 8. Once you have successfully logged in, the status of the integration will change to ‘partial’ on the Integration page.
 9. Click on the X tile and select one or more ad accounts you want to use with the workspace.
 
-<Image align="center" src="https://files.readme.io/a5b94d25f25552705f03fcf41239d0152e9ebafeda3f6c4f804edba62f116150-3_1.jpg" />
+<Image align="center" width="550px" src="https://files.readme.io/a5b94d25f25552705f03fcf41239d0152e9ebafeda3f6c4f804edba62f116150-3_1.jpg" />
 
 10. You will be re-directed to the integration page, and the status will update to 'Active'.
 
-![](https://files.readme.io/9a55eb4be561dabc88741d97264d9a6623fa4030993cfad911193175b03b1441-image.png)
+<Image align="center" width="350px" src="https://files.readme.io/9a55eb4be561dabc88741d97264d9a6623fa4030993cfad911193175b03b1441-image.png" />
 
 <br />
 
