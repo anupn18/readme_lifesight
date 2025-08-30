@@ -10,13 +10,11 @@ metadata:
 next:
   description: ''
 ---
-## Overview
-
-Snapchat is a popular messaging app that lets users exchange pictures and videos (called snaps) that are meant to disappear after they're viewed. With the integration, you can view the ad performance of your Snapchat Ads campaigns in Lifesigh, create segments of your users, and push the segments as custom segments back to the platform.
+Snapchat Ads is the advertising platform for the visual messaging app Snapchat, designed for brands to connect with a predominantly Gen Z and Millennial audience. It specializes in immersive, mobile-first advertising through vertical video and pioneering Augmented Reality (AR) experiences. The platform excels at driving brand engagement and interaction in a playful, authentic way.
 
 <Image align="center" src="https://files.readme.io/9626a0d751d6186c571c81b2a6a2d8ca66df815bb5adca7ef95e530033d91ebc-snpachat.png" />
 
-## Integrating Snapchat on your workspace
+### Setup Guide
 
 1. Navigate to the Integrations tab in the left-hand menu bar.
 2. In the search field, type in "Snapchat" to locate the integration for this application.
@@ -29,7 +27,7 @@ Snapchat is a popular messaging app that lets users exchange pictures and videos
 <Image align="center" src="https://files.readme.io/065d8fa212a57b0967e96f2bf51667658d8b362b4df68fdbb1d7895a73775cdb-Screenshot_2024-09-23_at_12.30.38_PM.png" />
 
 5. Once you have successfully logged in, the status of the integration will change to ‘partial’ on the ‘Integration’ page.
-6. Click on the Snapchat tile and select an ad account you want to use with the workspace. 
+6. Click on the Snapchat tile and select an ad account you want to use with the workspace.
 
 <Image align="center" src="https://files.readme.io/9c7b4a00df241495a309fe8ba5884e840161c4417c5c4f962b6aa81fa4d8e636-Screenshot_2024-09-23_at_12.31.02_PM.png" />
 
