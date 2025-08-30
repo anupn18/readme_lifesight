@@ -1,5 +1,5 @@
 ---
-title: Linkedin
+title: LinkedIn
 excerpt: Integrate your LinkedIn Ad Account with Lifesight
 deprecated: false
 hidden: false
@@ -16,7 +16,7 @@ The platform enables businesses to target users based on detailed professional c
 
 <br />
 
-### Connect your Linkedin Ad Account
+### Connect your LinkedIn Ad Account
 
 This integration aims to improve advertising outcomes by enabling enhanced campaign targeting, personalization, and optimized advertising returns.
 
