@@ -26,7 +26,7 @@ You are now all set to leverage your store data and build experiences based on c
 
 <br />
 
-## How to Install and Enable Lifesight on Shopify
+### Setup Guide
 
 * Visit the Shopify App Store.
 * If prompted, log in with the store where you want to install Lifesight.
@@ -36,7 +36,7 @@ You are now all set to leverage your store data and build experiences based on c
 * If prompted, log into the Shopify account with permissions to install applications on Shopify Admin.
 * Click on "Install" to complete the installation.
 
-### Additional Steps for Enabling Tracking
+#### Additional Steps for Enabling Tracking
 
 * Log into your Shopify store and navigate to the "Online Store" section.
 * Click on "Customize Theme" to access the theme customization options.
