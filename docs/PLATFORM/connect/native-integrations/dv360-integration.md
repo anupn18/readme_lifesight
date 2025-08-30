@@ -10,9 +10,13 @@ metadata:
 next:
   description: ''
 ---
+Display & Video 360 (DV360) is Google's enterprise-level demand-side platform (DSP), which is part of the broader Google Marketing Platform. It is designed for large advertisers and media agencies to manage comprehensive, large-scale digital advertising campaigns.
+
+It specializes in the centralized planning, buying, and measurement of programmatic advertising at scale. The platform's core purpose is to provide sophisticated, data-driven control over media buys across the entire open internet, going far beyond just Google's owned-and-operated properties.
+
 <Image align="center" src="https://files.readme.io/c343ff71df1be5c4184b3fe11f957307bc2dc1089d599302748bab944eb091d8-dv360.png" />
 
-## Steps to integrate with DV360
+### Setup Guide
 
 1. Go to Connect > Integrations page from the navigation bar on the left.
 2. Search for "Google DV360" and click on the tile.
