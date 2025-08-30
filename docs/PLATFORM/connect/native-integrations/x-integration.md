@@ -56,6 +56,6 @@ This integration aims to improve advertising outcomes by enabling enhanced campa
 
 ## View your synced X data
 
-1. Click on the X integration tile to view the synchronized data. View spend, impression, click, pROAS and more metrics.
+Click on the X integration tile to view the synchronized data. View spend, impression, click, pROAS and more metrics.
 
 <Image align="center" src="https://files.readme.io/73b3d753800f1939f07f3219dfef2de4343cf372f7947faee5c84debde962e64-fb.jpg" />
