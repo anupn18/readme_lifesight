@@ -1,5 +1,5 @@
 ---
-title: BigQuery
+title: '[WIP] BigQuery'
 excerpt: Integrate Google BigQuery to pull in Marketing data from your data warehouse
 deprecated: false
 hidden: true
@@ -12,7 +12,7 @@ next:
 ---
 [Google BigQuery](https://cloud.google.com/bigquery) is a fully managed, serverless data warehouse that enables scalable analysis of large datasets using SQL. It is widely used by data analysts and engineers for storing, querying, and processing structured data.
 
-The Lifesight–BigQuery integration allows you to connect your datasets stored in BigQuery to the **Lifesight Unified Marketing Measurement (UMM)** platform. Once integrated, Lifesight can ingest your selected dataset tables to unify them with other marketing and business data, enabling comprehensive attribution and measurement.
+The Lifesight–BigQuery integration allows you to connect your datasets stored in BigQuery to the platform. Once integrated, Lifesight can ingest your selected dataset tables to unify them with other marketing and business data, enabling comprehensive attribution and measurement.
 
 ## Data Being Brought into Lifesight
 
@@ -28,7 +28,7 @@ To enable BigQuery data transfer, you need to add Lifesight's service account as
 
 <br />
 
-\<\<Add a screenshot of bq data viewer>>&#x20;
+\<\<Add a screenshot of bq data viewer>> 
 
 # Steps to Integrate with BigQuery
 
