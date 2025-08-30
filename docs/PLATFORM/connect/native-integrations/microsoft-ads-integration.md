@@ -1,6 +1,6 @@
 ---
 title: Microsoft Ads
-excerpt: ''
+excerpt: Integrate your Microsoft Ads account with Lifesight
 deprecated: false
 hidden: false
 metadata:
