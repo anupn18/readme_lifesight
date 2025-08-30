@@ -62,7 +62,7 @@ Collect Lead Ads submissions from Facebook and ingest them into Lifesight for do
 
 4. You will be redirected to log into your Facebook account and allow access to certain scopes. Confirm your Facebook login using the personal account tied to your Facebook business account. Ensure you are logged in to the correct account and click Continue as...
 
-<Image align="left" width="300px" src="https://files.readme.io/17bda6b-1.png" />
+<Image align="center" width="300px" src="https://files.readme.io/17bda6b-1.png" />
 
 <br />
 
