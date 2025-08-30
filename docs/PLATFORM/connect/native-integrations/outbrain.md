@@ -1,10 +1,15 @@
 ---
-title: '[WIP] Outbrain'
+title: Outbrain
+excerpt: Integrate your outbrain account with Lifesight
 deprecated: false
 hidden: true
 metadata:
   robots: index
 ---
+Outbrain is a leading content discovery and native advertising platform. It helps brands promote content like articles, blog posts, and videos on the open web, placing them on the sites of major online publishers. Ads appear in recommendation feeds, often under labels like "Sponsored Stories," matching the look and feel of the host website to create a non-disruptive user experience.
+
+### Connect your Outbrain Account
+
 Integrate your Outbrain advertising account with the Lifesight Platform to pull spend and performance data automatically. This allows you to measure the impact of your Outbrain campaigns alongside all other marketing channels in a single, unified view.
 
 ### Prerequisites
@@ -32,7 +37,7 @@ Follow these steps to connect your Outbrain account:
 
 Once successfully connected, the status of the Outbrain integration will change to **Active** on the Integrations page. The platform will then begin ingesting your data.
 
-> 🚧 ***Token Validity***
+> 🚧 _**Token Validity**_
 >
 > Outbrain API Token is valid for 30 days. Once you connect your Outbrain account to the Lifesight platform, you need to refresh your outbrain token after 30 days.
 
@@ -43,3 +48,5 @@ Once successfully connected, the status of the Outbrain integration will change 
 
 > ⚠️ **Account Not Listed**
 > If you do not see your expected account in the "Select Account" dropdown, ensure that the API Key you are using has the necessary permissions to access that specific advertiser account within Outbrain.
+
+<br />
