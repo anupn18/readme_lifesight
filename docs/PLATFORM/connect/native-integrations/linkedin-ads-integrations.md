@@ -12,8 +12,6 @@ next:
 ---
 LinkedIn Advertising is the B2B advertising platform built into the world's largest professional network. It specializes in helping companies connect with a professional audience to build brand awareness, generate leads, and drive website traffic.
 
-The platform enables businesses to target users based on detailed professional criteria. Ads are delivered directly within the LinkedIn ecosystem, appearing in the main feed, on the sidebar, and in members' inboxes. Formats range from Sponsored Content (native posts and videos) and Sponsored Messaging to Text Ads and dynamic ads personalized to a user's profile information, all designed to engage professionals in a business context.
-
 <br />
 
 ### Connect your LinkedIn Ad Account
