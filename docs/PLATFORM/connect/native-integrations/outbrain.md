@@ -1,6 +1,6 @@
 ---
 title: Outbrain
-excerpt: Integrate your outbrain account with Lifesight
+excerpt: Integrate your Outbrain account with Lifesight
 deprecated: false
 hidden: true
 metadata:
