@@ -10,8 +10,6 @@ metadata:
 next:
   description: ''
 ---
-# Overview
-
 Moloco is an ad optimisation platform that programmatically bids on ad exchanges to ensure the right ads are delivered to the right users. Moloco uses machine learning models to generate signals to bid on ad inventory to serve highly relevant ads to users when they are using popular mobile apps.
 
 <Image align="center" src="https://files.readme.io/c9a7db35f4bfd9edd310174be435d29114e08828a35afaf5ddfda08d0b665e33-molo.png" />
