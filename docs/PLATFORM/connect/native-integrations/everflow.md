@@ -1,7 +1,7 @@
 ---
-title: Everflow
+title: '[WIP] Everflow'
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
