@@ -43,10 +43,14 @@ Once successfully connected, the status of the Outbrain integration will change 
 
 ### Troubleshooting
 
-> ⚠️ **Invalid API Key**
-> If you receive an error after entering your API key, please verify that the key is correct and has not expired. Regenerate the key in your Outbrain account if necessary and try the connection steps again.
+<Callout icon="⚠️" theme="warn">
+  #### **Invalid API Key**
+  If you receive an error after entering your API key, please verify that the key is correct and has not expired. Regenerate the key in your Outbrain account if necessary and try the connection steps again.
+</Callout>
 
-> ⚠️ **Account Not Listed**
-> If you do not see your expected account in the "Select Account" dropdown, ensure that the API Key you are using has the necessary permissions to access that specific advertiser account within Outbrain.
+<Callout icon="⚠️" theme="warn">
+  #### **Account Not Listed**
+  If you do not see your expected account in the "Select Account" dropdown, ensure that the API Key you are using has the necessary permissions to access that specific advertiser account within Outbrain.
+</Callout>
 
 <br />
