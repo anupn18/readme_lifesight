@@ -1,6 +1,6 @@
 ---
 title: Attentive
-excerpt: Integrate with DV360
+excerpt: Integrate your Attentive Account with Lifesight
 deprecated: false
 hidden: false
 metadata:
