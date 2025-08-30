@@ -1,8 +1,8 @@
 ---
 title: Custom APIs
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: ''
   description: ''
