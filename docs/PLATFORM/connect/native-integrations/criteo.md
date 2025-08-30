@@ -6,7 +6,11 @@ hidden: true
 metadata:
   robots: index
 ---
-Criteo is a Commerce Media Platform which specializes in helping ecommerce marketers run dynamic retargeting performance Ads. Connect your Criteo advertising account to the Lifesight Platform to unlock powerful insights into your campaign performance. This integration ingests your Criteo campaign data, allowing you to analyze performance metrics and measure your true marketing impact.
+Criteo is a global commerce media platform specializing in performance marketing and dynamic retargeting. It helps brands re-engage with shoppers who have visited their website or app by delivering personalized product ads across a vast network of online publishers and retailers. Ads are often dynamic, showcasing products a user previously viewed or that are recommended by AI. They appear across websites and apps in formats like banners, videos, and native displays designed to convert interested shoppers.
+
+## Connect your Criteo Account
+
+Connect your Criteo advertising account to the Lifesight Platform to unlock powerful insights into your campaign performance. This integration ingests your Criteo campaign data, allowing you to analyze performance metrics and measure your true marketing impact.
 
 <br />
 
