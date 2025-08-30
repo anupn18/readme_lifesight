@@ -1,5 +1,5 @@
 ---
-title: Google DV360
+title: Google Display & Video 360
 excerpt: Integrate your DV360 account with Lifesight
 deprecated: false
 hidden: false
