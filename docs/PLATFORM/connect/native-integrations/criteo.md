@@ -1,5 +1,6 @@
 ---
 title: '[WIP] Criteo'
+excerpt: 'Connect your Criteo account to the platform '
 deprecated: false
 hidden: true
 metadata:
