@@ -33,20 +33,20 @@ This integration aims to improve advertising outcomes by enabling enhanced campa
 2. In the search field, type in "Facebook" to locate the integration for this application.
 3. Click on the Facebook Lead Forms tile and click on the `Connect` button to begin the integration process.
 
-<Image align="center" src="https://files.readme.io/fc31c8396f6d22e2004f11232f1af7b6c166b5908fa4f74d03fecaaee2c46336-1_3.png" />
+<Image align="center" width="500px" src="https://files.readme.io/fc31c8396f6d22e2004f11232f1af7b6c166b5908fa4f74d03fecaaee2c46336-1_3.png" />
 
 4. You will be redirected to log into your Linkedin account and allow access to certain scopes. Confirm your Linkedin login.
 
-<Image align="center" src="https://files.readme.io/01fd8fc91a8649d5e45584c0787fdd1d0f1a919fe4f113425604aacb23abe720-2_1.png" />
+<Image align="center" width="500px" src="https://files.readme.io/01fd8fc91a8649d5e45584c0787fdd1d0f1a919fe4f113425604aacb23abe720-2_1.png" />
 
 5. Review the permissions on the next page and click 'Allow'.
 
-<Image align="center" src="https://files.readme.io/6c2c822d418dd648b9c5c6ee528067dceb29a67da9e59525d9df1cbd3c2aa290-3.png" />
+<Image align="center" width="450px" src="https://files.readme.io/6c2c822d418dd648b9c5c6ee528067dceb29a67da9e59525d9df1cbd3c2aa290-3.png" />
 
 <br />
 
 6. Once you have successfully logged in, the status of the integration will change to ‘partial’ on the Integration page.
-7. Click on the Facebook tile and select one or more ad accounts you want to use with the workspace.
+7. Click on the LinkedIn tile and select one or more ad accounts you want to use with the workspace.
 
 <Image align="center" src="https://files.readme.io/c681c63e76f24c20c6d4f491b8bc92c630d44a2e25a289fffddafc1c7ed970fe-4_1.jpg" />
 
