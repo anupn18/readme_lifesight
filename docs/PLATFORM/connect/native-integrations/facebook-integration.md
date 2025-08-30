@@ -1,6 +1,6 @@
 ---
-title: 'Meta '
-excerpt: Integrate your Meta Ad Accounts with Lifesight
+title: Meta Ads
+excerpt: Integrate your Meta Ad Manager Accounts with Lifesight
 deprecated: false
 hidden: false
 metadata:
