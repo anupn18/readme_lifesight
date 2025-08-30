@@ -46,14 +46,6 @@ By integrating Meta Ads manager account with Lifesight, marketers can unify audi
 
 <br />
 
-<br />
-
-<br />
-
-<br />
-
-<br />
-
 5. Choose which page you want Lifesight to access and click continue.
 
 <Image align="center" width="400px" src="https://files.readme.io/7d67f75-1_1.png" />
@@ -62,45 +54,9 @@ By integrating Meta Ads manager account with Lifesight, marketers can unify audi
 
 <br />
 
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
 6. Review the permissions on the next page and click Save.
 
 <Image align="center" width="389px" src="https://files.readme.io/c5da22b-Untitled_design_1_1.png" />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
 
 <br />
 
