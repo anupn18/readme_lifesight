@@ -6,7 +6,7 @@ hidden: true
 metadata:
   robots: index
 ---
-Criteo is a Commerce Media Platform which specializes in helping marketers run dynamic retargeting performance Ads. Connect your Criteo advertising account to the Lifesight Platform to unlock powerful insights into your campaign performance. This integration ingests your Criteo campaign data, allowing you to analyze performance metrics and measure your true marketing impact. 
+Criteo is a Commerce Media Platform which specializes in helping marketers run dynamic retargeting performance Ads. Connect your Criteo advertising account to the Lifesight Platform to unlock powerful insights into your campaign performance. This integration ingests your Criteo campaign data, allowing you to analyze performance metrics and measure your true marketing impact.
 
 <br />
 
@@ -32,13 +32,15 @@ Follow these steps to connect your Criteo account to Lifesight:
 4. **Authorize Lifesight in Criteo**
    You will be redirected to a Criteo login page. Enter your Criteo credentials to log in and grant Lifesight permission to access your account data. 
 
+   <Image align="center" src="https://files.readme.io/1c5be1ce10e591dff88aeffb72f1c7cd899f5b9b7ab842f23d92f4cb0273f7fc-Lifesight_App_on_Criteo.png" />
+
    <br />
 
    > ⚠️ Important
    > The permissions you grant will allow Lifesight to manage campaigns, audiences, and creatives, as well as read analytics and catalog data on your behalf. Please review the permissions screen carefully.
 
 5. **Select Your Ad Account**
-   After authorizing, you will be returned to the Lifesight platform. Select the specific Criteo ad account you wish to connect from the dropdown menu. 
+   After authorizing, you will be returned to the Lifesight platform. Select the specific Criteo ad account you wish to connect from the dropdown menu.
 
    <br />
 
