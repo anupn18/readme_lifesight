@@ -10,21 +10,9 @@ metadata:
 next:
   description: ''
 ---
-Attentive is a leading mobile messaging platform, offering personalized, real-time messaging for businesses. The Lifesight \<> Attentive integration enables businesses to leverage advanced customer data from Lifesight to improve marketing automation, personalization, and customer engagement. The key features of the integration include:
+Attentive is a leading conversational commerce and mobile messaging platform specializing in SMS and MMS marketing for e-commerce and retail brands. It focuses on driving significant revenue and fostering customer loyalty by enabling brands to have personalized, two-way conversations with shoppers via text message. The platform is designed to turn subscribers into repeat, high-value customers.
 
-* Data Sync: Synchronize customer data, attributes, and behavioral insights from Lifesight to Attentive, allowing personalized and timely messaging campaigns.
-* Custom Audiences: Create and push segments from Lifesight into Attentive as custom audiences, enabling targeted messaging for increased engagement.
-* Advanced Reporting: Integrate performance metrics from Attentive back into Lifesight, providing a unified view of campaign success, customer journeys, and attribution analysis.
-
-## Use Cases
-
-* Personalized Messaging Campaigns: By using Lifesight's audience data, you can deliver more personalized SMS or email campaigns via Attentive, ensuring relevant communication that resonates with each customer segment.
-* Customer Journey Optimization: Automatically sync customer behavior and segment updates to Attentive, allowing you to trigger timely and relevant campaigns based on user interactions.
-* Enhanced Campaign Attribution: Utilize Lifesight's attribution model to measure the effectiveness of Attentive campaigns and optimize marketing spend.
-
-***
-
-## Steps to integrate with Attentive
+### Setup Guide
 
 1. Go to Connect > Integrations page from the navigation bar on the left.
 2. Search for "Attentive" and click on the tile.
