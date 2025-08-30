@@ -10,11 +10,7 @@ metadata:
 next:
   description: ''
 ---
-Microsoft Advertising (formerly Bing Ads) is an online advertising platform developed by Microsoft, where advertisers bid to display brief ads, service offers, product listings and videos to web users, it provides pay per click advertising on search engines Bing, Yahoo! and DuckDuckGo, as well as on other websites, mobile apps, and videos. This integration aims to improve advertising outcomes by using the power of a popular social media platform,. It enables enhanced campaign targeting, personalization, and optimized advertising returns. The key features of the integration include -
-
-* Custom Audience Sync: Segments can be pushed as a custom audience to the Microsoft ad platform. This approach enhances targeting and retargeting efforts, ensuring ads reach the most relevant audience.
-* Data Integration: The integration allows seamless transfer of data (historical spend, clicks, impressions, etc.) to the attribution and MMM modules. This process is crucial for tracking and analyzing the effectiveness of advertising campaigns and also for creating integrated MMM models.
-* Campaign Performance Insights: Users have the advantage of accessing their Microsoft Ads campaign performance data directly within the Attribution dashboard. This feature provides valuable insights and analytics, making it easier to measure the success of campaigns and make data-driven decisions.
+Microsoft Advertising is a search and digital advertising platform that serves ads across the extensive Microsoft Search and Audience Networks. It specializes in reaching a high-intent audience, often comprised of professionals and established consumers, who are actively searching for products, services, and solutions. This provides advertisers with access to a unique segment of the market that may not be exclusively active on Google.
 
 <br />
 
