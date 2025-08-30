@@ -8,7 +8,7 @@ metadata:
 ---
 Outbrain is a leading content discovery and native advertising platform. It helps brands promote content like articles, blog posts, and videos on the open web, placing them on the sites of major online publishers. Ads appear in recommendation feeds, often under labels like "Sponsored Stories," matching the look and feel of the host website to create a non-disruptive user experience.
 
-### Connect your Outbrain Account
+## Connect your Outbrain Account
 
 Integrate your Outbrain advertising account with the Lifesight Platform to pull spend and performance data automatically. This allows you to measure the impact of your Outbrain campaigns alongside all other marketing channels in a single, unified view.
 
