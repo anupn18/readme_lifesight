@@ -30,9 +30,7 @@ Follow these steps to connect your Outbrain account:
 1. From the Lifesight navigation menu, go to **Integrations**.
 2. Use the search bar to find and select **Outbrain** from the list of advertising platforms.
 3. Click on the Outbrain card to open the connection modal.
-4. In the **"Connect to Outbrain"** window, paste your **API Key** into the designated field and click **Connect**. 
-   <br />
-   > ℹ️ Your credentials are encrypted & can be removed at any time.
+4. In the **"Connect to Outbrain"** window, paste your **API Key** into the designated field and click **Connect**.
 5. A second window will appear. From the **Select Account** dropdown menu, choose the specific Outbrain advertiser account you wish to connect to the platform.
 6. Click **Connect** one final time to authorize the connection.
 
