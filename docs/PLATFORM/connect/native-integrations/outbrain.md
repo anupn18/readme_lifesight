@@ -23,7 +23,7 @@ Before you begin, please ensure you have the following:
 >
 > You can typically generate or find your API Key within the Outbrain platform. Please refer to [Outbrain API's](https://developer.outbrain.com/home-page/amplify-api/documentation/#/reference/authentications) official documentation for more information.
 
-### Connection Steps
+### Setup Guide
 
 Follow these steps to connect your Outbrain account:
 
