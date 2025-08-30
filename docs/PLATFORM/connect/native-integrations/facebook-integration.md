@@ -1,6 +1,6 @@
 ---
-title: Facebook
-excerpt: ''
+title: 'Meta '
+excerpt: Integrate your Meta Ad Accounts with Lifesight
 deprecated: false
 hidden: false
 metadata:
@@ -10,7 +10,11 @@ metadata:
 next:
   description: ''
 ---
-Facebook is a leading digital advertising platform. By integrating Facebook Ads with Lifesight, marketers can unify audience activation, personalize campaigns, and optimize return on ad spend across the Lifesight Unified Marketing Measurement (UMM) platform.
+Meta Ads is the unified advertising platform for Meta's vast ecosystem of social apps, including Facebook, Instagram, Messenger, and WhatsApp. It specializes in connecting businesses with a massive consumer audience by leveraging deep user data on personal interests, life events, and digital behaviors.
+
+The platform allows advertisers to target audiences with incredible precision using criteria like demographics (age, location), interests (hobbies, pages liked), and behaviors (purchase history, device usage). Ads are highly visual and seamlessly integrated across the Meta suite, appearing in feeds, Stories, Reels, and Messenger. Formats include everything from single images and videos to interactive carousels and immersive collection ads, all optimized to drive engagement and direct consumer action from brand awareness to online sales.
+
+By integrating Facebook Ads with Lifesight, marketers can unify audience activation, personalize campaigns, and optimize return on ad spend across the Lifesight Unified Marketing Measurement (UMM) platform.
 
 **The key features of the integration include**
 
