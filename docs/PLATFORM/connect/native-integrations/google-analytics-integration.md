@@ -1,6 +1,6 @@
 ---
 title: Google Analytics
-excerpt: Integrate your Google Analytics Accounts with Lifesight
+excerpt: Integrate your Google Analytics account with Lifesight
 deprecated: false
 hidden: false
 metadata:
