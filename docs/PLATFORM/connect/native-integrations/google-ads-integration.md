@@ -1,6 +1,6 @@
 ---
 title: Google Ads
-excerpt: ''
+excerpt: Integrate your Google Ads Manager account with Lifesight
 deprecated: false
 hidden: false
 metadata:
