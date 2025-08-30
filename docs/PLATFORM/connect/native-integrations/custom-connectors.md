@@ -10,9 +10,7 @@ metadata:
 next:
   description: ''
 ---
-## Overview
-
-The Custom Connector feature allows you to bring data from any external API or Webhook into the Lifesight Unified Marketing Measurement (UMM) platform. This enables you to integrate platforms and systems that are not available as pre-built Lifesight integrations.
+The Custom Connector feature allows you to bring data from any external API or Webhook into the Lifesight platform. This enables you to integrate platforms and systems that are not available as pre-built Lifesight integrations.
 
 With Custom Connectors, you can:
 
@@ -26,19 +24,19 @@ This provides full flexibility to integrate your proprietary or third-party syst
 
 ### Key Capabilities
 
-**APIs & Webhooks Support**\
+**APIs & Webhooks Support**
 Add one or more API endpoints and/or Webhook URLs to fetch or receive data into Lifesight.
 
-**Multiple Configurations per Connector**\
+**Multiple Configurations per Connector**
 Each connector can hold multiple APIs and Webhooks simultaneously, giving you flexibility in managing data ingestion.
 
-**Editable Configurations**\
+**Editable Configurations**
 Modify, update, or extend configurations whenever requirements change, without creating a new connector.
 
-**Run on Demand**\
+**Run on Demand**
 Once configured, click the Run (▶️) button to trigger immediate data fetch from the API.
 
-**Scalable**\
+**Scalable**
 To integrate another platform, simply repeat the connector creation process and set up new APIs/Webhooks.
 
 <br />
