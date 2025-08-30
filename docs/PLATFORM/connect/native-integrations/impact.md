@@ -1,7 +1,7 @@
 ---
-title: Impact
+title: '[WIP] Impact'
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
