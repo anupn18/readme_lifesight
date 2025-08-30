@@ -27,7 +27,7 @@ This integration aims to improve advertising outcomes by enabling enhanced campa
 
 <br />
 
-## Integrating Linkedin ads to your Lifesight workspace
+## Setup Guide
 
 1. Navigate to the Integrations tab in the left-hand menu bar.
 2. In the search field, type in "Facebook" to locate the integration for this application.
