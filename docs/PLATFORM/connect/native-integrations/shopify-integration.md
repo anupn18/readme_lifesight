@@ -12,13 +12,17 @@ metadata:
 next:
   description: ''
 ---
+Shopify is a comprehensive e-commerce platform that provides aspiring entrepreneurs and established businesses with the tools to build, manage, and grow an online retail business. It specializes in simplifying the process of selling goods directly to consumers (D2C) by unifying all aspects of commerce—from website creation to back-office operations—into a single, user-friendly interface.
+
+## Connect your Shopify Account
+
 To integrate your Shopify data and allow Lifesight to collect data from your store and use it in your marketing activities:
 
 1. Install the [Lifesight Shopify app](https://apps.shopify.com/lifesight)
 2. Authorize the data permissions for Lifesight to access your store data
 3. Your data will begin reflecting on your dashboards and in your app’s ‘Profiles’ & 'Segments' modules. The complete integration may take up to 24 hours.
 
-You are now all set to leverage your store data and build experiences based on customer behavior. 
+You are now all set to leverage your store data and build experiences based on customer behavior.
 
 <br />
 
