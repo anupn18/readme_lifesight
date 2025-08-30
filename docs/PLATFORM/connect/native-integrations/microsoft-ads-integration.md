@@ -20,7 +20,7 @@ Microsoft Advertising (formerly Bing Ads) is an online advertising platform deve
 
 <Image align="center" src="https://files.readme.io/d994e4c583a28824b8755a85d6a04f3ca97cae79fe912ae02838d329ac86c71a-ms.png" />
 
-## Setup Guide
+### Setup Guide
 
 1. Navigate to the Integrations tab, in the left-hand menu bar.
 2. In the search field, type in "Microsoft Ads" to locate the integration for this application.
