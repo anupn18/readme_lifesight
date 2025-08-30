@@ -1,6 +1,6 @@
 ---
 title: Snapchat
-excerpt: ''
+excerpt: Integrate your Snapchat Ads Account with Lifesight
 deprecated: false
 hidden: false
 metadata:
