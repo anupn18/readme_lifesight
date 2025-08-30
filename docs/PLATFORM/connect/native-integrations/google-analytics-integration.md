@@ -1,6 +1,6 @@
 ---
 title: Google Analytics
-excerpt: ''
+excerpt: Integrate your Google Analytics Accounts with Lifesight
 deprecated: false
 hidden: false
 metadata:
@@ -10,11 +10,15 @@ metadata:
 next:
   description: ''
 ---
-## Overview
+Google Analytics is a leading web analytics service that tracks and reports website and app traffic. It specializes in providing businesses with critical insights into how users find and interact with their digital properties, helping them understand the customer journey and optimize marketing performance.
 
-Google Analytics provides comprehensive insights into your website and app performance by tracking user behavior, acquisition channels, and conversions. By integrating with platforms like Google Ads, you can monitor the effectiveness of your ad campaigns, create audience segments based on real-time user data, and leverage these insights to refine marketing strategies. With Lifesight's integration, you can further analyze Google Analytics data to optimize audience targeting, push custom segments back into Google Ads, and measure the impact of your marketing efforts across multiple channels.
+<br />
 
-<Embed url="https://www.youtube.com/watch?v=PSBet4Euar4" title="Google Analytics (GA4) integration" favicon="http://www.google.com/favicon.ico" image="https://i.ytimg.com/vi/PSBet4Euar4/hqdefault.jpg" provider="youtube.com" href="https://www.youtube.com/watch?v=PSBet4Euar4" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FPSBet4Euar4%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DPSBet4Euar4%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FPSBet4Euar4%252Fhqdefault.jpg%26key%3D7788cb384c9f4d5dbbdbeffd9fe4b92f%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
+## Connect your Google Analytics Accounts
+
+By integrating with Lifesight, you can further analyze Google Analytics data to optimize audience targeting, push custom segments back into Google Ads, and measure the impact of your marketing efforts across multiple channels.
+
+<Embed url="https://www.youtube.com/watch?v=PSBet4Euar4" href="https://www.youtube.com/watch?v=PSBet4Euar4" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FPSBet4Euar4%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DPSBet4Euar4%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FPSBet4Euar4%252Fhqdefault.jpg%26key%3D7788cb384c9f4d5dbbdbeffd9fe4b92f%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 ***
 
