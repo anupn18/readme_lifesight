@@ -47,9 +47,7 @@ Collect Lead Ads submissions from Facebook and ingest them into Lifesight for do
 
 ***
 
-<Image align="center" src="https://files.readme.io/26b517dfaf906226cc38279b720602024e28c9259d46857a990e32e62b301268-klaviyo.png" />
-
-## Integrating Facebook to your Lifesight workspace
+## Setup Guide
 
 1. Navigate to the Integrations tab in the left-hand menu bar.
 2. In the search field, type in "Facebook" to locate the integration for this application.
@@ -78,7 +76,7 @@ Collect Lead Ads submissions from Facebook and ingest them into Lifesight for do
 
 5. Choose which page you want Lifesight to access and click continue.
 
-<Image align="left" width="400px" src="https://files.readme.io/7d67f75-1_1.png" />
+<Image align="center" width="400px" src="https://files.readme.io/7d67f75-1_1.png" />
 
 <br />
 
@@ -102,7 +100,7 @@ Collect Lead Ads submissions from Facebook and ingest them into Lifesight for do
 
 6. Review the permissions on the next page and click Save.
 
-<Image align="left" width="400px" src="https://files.readme.io/c5da22b-Untitled_design_1_1.png" />
+<Image align="center" width="389px" src="https://files.readme.io/c5da22b-Untitled_design_1_1.png" />
 
 <br />
 
@@ -128,19 +126,7 @@ Collect Lead Ads submissions from Facebook and ingest them into Lifesight for do
 
 7. You'll receive a success message in Facebook. Click Ok to be redirected to Lifesight.
 
-<Image align="left" width="400px" src="https://files.readme.io/f597cdd-2.png" />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
+<Image align="center" width="400px" src="https://files.readme.io/f597cdd-2.png" />
 
 <br />
 
