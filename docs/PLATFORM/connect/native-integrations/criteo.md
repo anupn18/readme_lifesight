@@ -1,5 +1,5 @@
 ---
-title: Criteo Commerce Platform
+title: Criteo
 excerpt: Integrate your Criteo Ad Account with Lifesight
 deprecated: false
 hidden: true
