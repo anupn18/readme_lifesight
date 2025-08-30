@@ -37,19 +37,23 @@ Follow these steps to connect your Outbrain account:
 
 Once successfully connected, the status of the Outbrain integration will change to **Active** on the Integrations page. The platform will then begin ingesting your data.
 
-> 🚧 _**Token Validity**_
->
-> Outbrain API Token is valid for 30 days. Once you connect your Outbrain account to the Lifesight platform, you need to refresh your outbrain token after 30 days.
+<Callout icon="🚧" theme="warn">
+  #### _**Token Validity**_
+
+  Outbrain API Token is valid for 30 days. Once you connect your Outbrain account to the Lifesight platform, you need to refresh your outbrain token after 30 days.
+</Callout>
 
 ### Troubleshooting
 
 <Callout icon="⚠️" theme="warn">
   #### **Invalid API Key**
+
   If you receive an error after entering your API key, please verify that the key is correct and has not expired. Regenerate the key in your Outbrain account if necessary and try the connection steps again.
 </Callout>
 
 <Callout icon="⚠️" theme="warn">
   #### **Account Not Listed**
+
   If you do not see your expected account in the "Select Account" dropdown, ensure that the API Key you are using has the necessary permissions to access that specific advertiser account within Outbrain.
 </Callout>
 
