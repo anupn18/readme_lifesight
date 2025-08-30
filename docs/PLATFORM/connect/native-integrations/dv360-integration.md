@@ -1,6 +1,6 @@
 ---
-title: DV360
-excerpt: Integrate with DV360
+title: Google DV360
+excerpt: Integrate your DV360 account with Lifesight
 deprecated: false
 hidden: false
 metadata:
