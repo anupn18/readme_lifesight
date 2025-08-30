@@ -1,6 +1,6 @@
 ---
-title: X (Twitter)
-excerpt: ''
+title: X Ads
+excerpt: 'Integrate your X Ads Accounts with Lifesight '
 deprecated: false
 hidden: false
 metadata:
@@ -10,9 +10,11 @@ metadata:
 next:
   description: ''
 ---
-## Overview
+X Ads is the advertising platform for the real-time social network X (formerly Twitter), designed for businesses to join and influence public conversations. It specializes in reaching audiences during live events and trending moments, making it powerful for brand awareness, product launches, and event promotion.
 
-X is a social media network that connects people. By sharing content like text status posts, images, videos, and external links like blog posts, X users can contribute ideas and join conversations with other people. This integration aims to improve advertising outcomes by enabling enhanced campaign targeting, personalization, and optimized advertising returns.
+<br />
+
+This integration aims to improve advertising outcomes by enabling enhanced campaign targeting, personalization, and optimized advertising returns.
 
 ***
 
