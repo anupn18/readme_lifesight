@@ -1,7 +1,7 @@
 ---
-title: Awin
+title: '[WIP] Awin'
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
