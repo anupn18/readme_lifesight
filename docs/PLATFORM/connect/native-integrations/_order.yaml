@@ -2,6 +2,7 @@
 - custom-webhooks
 - shopify-integration
 - google-ads-integration
+- google-analytics-integration
 - javascript-sdk
 - facebook-integration
 - x-integration
@@ -11,7 +12,6 @@
 - pinterest-integration
 - tiktok-integration
 - klaviyo-integration
-- google-analytics-integration
 - snapchat-integration
 - criteo-integration
 - microsoft-ads-integration
