@@ -1,6 +1,6 @@
 ---
 title: Linkedin
-excerpt: ''
+excerpt: Integrate your LinkedIn Ad Account with Lifesight
 deprecated: false
 hidden: false
 metadata:
