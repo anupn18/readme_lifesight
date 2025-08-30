@@ -1,6 +1,6 @@
 ---
 title: Amazon Ads
-excerpt: ''
+excerpt: Integrate your Amazon Ads Account with Lifesight
 deprecated: false
 hidden: false
 metadata:
