@@ -3,7 +3,6 @@
 - shopify-integration
 - google-ads-integration
 - google-analytics-integration
-- javascript-sdk
 - facebook-integration
 - x-integration
 - facebook-leads-form-integration
@@ -24,6 +23,7 @@
 - moloco
 - taboola
 - custom-connectors
+- javascript-sdk
 - lifesight-custom-backend-implementation
 - salesforce-commerce-cloud
 - lifesight-tracking-pixel
