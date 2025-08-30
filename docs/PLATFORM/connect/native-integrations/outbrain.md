@@ -2,7 +2,7 @@
 title: Outbrain
 excerpt: Integrate your Outbrain account with Lifesight
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
