@@ -14,18 +14,13 @@ LinkedIn Advertising is the B2B advertising platform built into the world's larg
 
 <br />
 
-### Connect your LinkedIn Ad Account
+## Connect your LinkedIn Ad Account
 
 This integration aims to improve advertising outcomes by enabling enhanced campaign targeting, personalization, and optimized advertising returns.
 
-**The key features of the integration include -**
-
-* **Data Integration:** The integration allows seamless transfer of data (historical spend, clicks, impressions, etc.) to the attribution and MMM modules. This process is crucial for tracking and analyzing the effectiveness of advertising campaigns and also for creating integrated MMM models.
-* **Campaign Performance Insights:** Users have the advantage of accessing their Linkedin Ads campaign performance data directly within the Attribution dashboard. This feature provides valuable insights and analytics, making it easier to measure the success of campaigns and make data-driven decisions.
-
 <br />
 
-## Setup Guide
+### Setup Guide
 
 1. Navigate to the Integrations tab in the left-hand menu bar.
 2. In the search field, type in "Facebook" to locate the integration for this application.
