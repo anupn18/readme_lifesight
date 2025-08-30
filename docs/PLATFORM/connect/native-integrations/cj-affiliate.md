@@ -1,7 +1,7 @@
 ---
-title: CJ Affiliate
+title: '[WIP] CJ Affiliate'
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
