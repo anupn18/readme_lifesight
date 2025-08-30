@@ -10,8 +10,6 @@ metadata:
 next:
   description: ''
 ---
-## Overview
-
 Lifesight and Amazon Ads integration aims to improve advertising outcomes by enabling enhanced campaign targeting, personalization, and optimized advertising returns. The key features of the integration include -
 
 * Data Integration: The integration allows seamless transfer of data (historical spend, clicks, impressions, etc.) to the attribution and MMM modules. This process is crucial for tracking and analyzing the effectiveness of advertising campaigns and also for creating integrated MMM models.
