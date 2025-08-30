@@ -19,7 +19,7 @@ Attentive is a leading conversational commerce and mobile messaging platform spe
 
 <br />
 
-### Create a custom app
+#### Create a custom app
 
 Complete the following steps to create a custom app for your account:
 
@@ -41,7 +41,9 @@ Complete the following steps to create a custom app for your account:
    * **Important!** This is the only time you will be able to copy this API key.
 8. Click **X** to exit the modal after you’ve saved your API key.
 
-### Create a subscription webhook
+<br />
+
+#### Create a subscription webhook
 
 Complete the following steps to create a subscription webhook:
 
