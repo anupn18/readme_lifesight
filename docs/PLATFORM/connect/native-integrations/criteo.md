@@ -2,7 +2,7 @@
 title: Criteo Commerce Platform
 excerpt: Connect your Criteo Ad Account with Lifesight
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
