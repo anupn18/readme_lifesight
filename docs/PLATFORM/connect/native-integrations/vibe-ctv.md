@@ -1,5 +1,5 @@
 ---
-title: Vibe CTV
+title: '[WIP] Vibe CTV'
 deprecated: false
 hidden: true
 metadata:
