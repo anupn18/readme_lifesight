@@ -8,7 +8,7 @@ metadata:
 ---
 Marketing attribution helps you understand which marketing efforts are driving conversions. By implementing a solid attribution strategy, you can accurately measure campaign effectiveness, optimize your spend, and prove the business impact of your activities.
 
-This guide explores two primary approaches to attribution available within the Lifesight UMM Platform: traditional **Touch-Based Attribution** and the more advanced **Causal Attribution** offered by our Unified Measurement framework.
+This guide explores two primary approaches to attribution available within the Lifesight Platform: traditional **Touch-Based Attribution** and the more advanced **Causal Attribution** offered by our Unified Measurement framework.
 
 ### Understanding Touch-Based Attribution
 
@@ -65,5 +65,5 @@ By blending these methodologies, causal attribution can measure the cross-effect
 
 Choosing the right attribution approach depends on your specific goals and the complexity of your marketing efforts.
 
-* Choose ***Touch-Based Attribution*** for tactical, real-time optimization of your digital channels.
-* Choose ***Causal Attribution*** for strategic budget allocation and to get a complete, accurate view of your total marketing ROI across both online and offline channels.
+* Choose _**Touch-Based Attribution**_ for tactical, real-time optimization of your digital channels.
+* Choose _**Causal Attribution**_ for tactical budget allocation and to get a complete, accurate view of your total marketing ROI across both online and offline channels.
