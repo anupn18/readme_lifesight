@@ -5,6 +5,11 @@ deprecated: false
 hidden: true
 metadata:
   robots: index
+next:
+  pages:
+    - slug: intrepreting-a-budget-plan
+      title: Intrepreting a plan
+      type: basic
 ---
 The Planner allows you to simulate and forecast the potential impact of different marketing budget allocations. By creating various scenarios based on your existing Marketing Mix Models, you can make informed, data-driven decisions to optimize spend and maximize revenue.
 
@@ -49,7 +54,7 @@ From the **Select Model** dropdown, choose the successfully calibrated Marketing
 
 Input the following parameters to generate the first scenario for the plan (which will be fixed across the other scenarios added in the next step)
 
-* **Goal**: Select the Goal that needs to be accomplished with the plan. _Target Budget_ is typically selected for finding the best allocation for a specific budget and _Target KPI_ is selected for chasing a KPI (eg: Revenue, orders, etc.) goal.  
+* **Goal**: Select the Goal that needs to be accomplished with the plan. _Target Budget_ is typically selected for finding the best allocation for a specific budget and _Target KPI_ is selected for chasing a KPI (eg: Revenue, orders, etc.) goal.
 * **Set Forecast and Basis Periods**: Select the timeframe for the simulation by selecting a **"Forecast for"** period (e.g., Quarter) and the specific **"Optimized based on"** date range. This basis period tells the model which historical conditions are most similar to your intended forecast period.
 * **Target Budget**: In the Target Budget field, enter the total amount you want the planner to allocate.
 * **Custom Pacing**: Toggle the custom pacing button to unevenly spread your budget across your plan. Refer to  [Custom Budget Pacing](https://docs.lifesight.io/update/docs/custom-budget-pacing#/) for a detailed guide
@@ -77,6 +82,4 @@ The available modes are:
 
 Once you have configured the goal, budget, and constraints to your satisfaction, click the **Run Scenario** button in the top-right corner. This will initiate the simulation process, and the platform will use your inputs to calculate the optimal budget allocation and forecast the results.
 
-### Next Steps
-
-After running the scenario, the platform will generate a detailed forecast. For a complete guide on how to analyze and understand this output, refer Interpreting Scenario Results page.
+<br />
