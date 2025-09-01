@@ -43,14 +43,16 @@ From the **Select Model** dropdown, choose the successfully calibrated Marketing
 
 #### Setting the Goal, Forecast, and Basis Period
 
-<Image align="center" src="https://files.readme.io/a72206b9d0dad933c9c34e3de8baf9b8d8a302db3ae53bf77f3a4cdc9b90a563-Scenario_configuration_page.png" />
+<Image align="center" src="https://files.readme.io/6153457e981f28dbd5ddbefafeeee5914901f907aa3fa00ff06ca7022335cd5b-Planner_-_Scenario_inputs_.png" />
 
 <br />
 
-In the **Goal** section, define the primary objective, budget, and timeframes for your plan.
+Input the following parameters to generate the first scenario for the plan (which will be fixed across the other scenarios added in the next step)
 
-* **Target Budget**: In the Target Budget field, enter the total amount you want the planner to allocate.
+* **Goal**: Select the Goal that needs to be accomplished with the plan. _Target Budget_ is typically selected for finding the best allocation for a specific budget and _Target KPI_ is selected for chasing a KPI (eg: Revenue, orders, etc.) goal.  
 * **Set Forecast and Basis Periods**: Select the timeframe for the simulation by selecting a **"Forecast for"** period (e.g., Quarter) and the specific **"Optimized based on"** date range. This basis period tells the model which historical conditions are most similar to your intended forecast period.
+* **Target Budget**: In the Target Budget field, enter the total amount you want the planner to allocate.
+* **Custom Pacing**: Toggle the custom pacing button to unevenly spread your budget across your plan. Refer to  [Custom Budget Pacing](https://docs.lifesight.io/update/docs/custom-budget-pacing#/) for a detailed guide
 
 #### Defining Spend Constraints
 
