@@ -35,7 +35,7 @@ Applying a benchmark is a straightforward process from the main Attribution dash
   When using  **Causal** attribution, the Target Benchmark feature provides **quantifiable** budget recommendations.
 </Callout>
 
-Because Causal models are powered by Lifesight's advanced Marketing Mix Models and experiments, the platform can calculate the precise monetary adjustments needed to meet your goals.
+Because Causal models are powered by Lifesight's advanced Marketing Mix Models and experiments, the platform can calculate the precise budget adjustments needed to meet your goals.
 
 <Image align="center" src="https://files.readme.io/4b7368af47da073045f92c164e27206ff36122fc7125ecbe2e8b00a41ceda17f-Causal_Attribution_Recommendations.png" />
 
