@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-Snapchat Ads is the advertising platform for the visual messaging app Snapchat, designed for brands to connect with a predominantly Gen Z and Millennial audience. It specializes in immersive, mobile-first advertising through vertical video and pioneering Augmented Reality (AR) experiences. The platform excels at driving brand engagement and interaction in a playful, authentic way.
+Snapchat Ads is designed for brands to connect with a predominantly Gen Z and Millennial audience. It specializes in immersive, mobile-first advertising through vertical video and pioneering Augmented Reality (AR) experiences. The platform excels at driving brand engagement and interaction in a playful, authentic way.
 
 <Image align="center" src="https://files.readme.io/9626a0d751d6186c571c81b2a6a2d8ca66df815bb5adca7ef95e530033d91ebc-snpachat.png" />
 
