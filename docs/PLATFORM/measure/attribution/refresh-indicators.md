@@ -5,7 +5,12 @@ hidden: true
 metadata:
   robots: index
 ---
-To ensure you are making decisions with the most up-to-date information, the Lifesight platform provides clear data freshness indicators. These indicators tell you the status of your data at two critical stages: when it's ingested from your marketing platforms and when it's processed by our attribution models.
+The Attribution dashboard features two key indicators to verify your data's freshness: **Platform Data** and **Attribution Data**.
+
+* **Platform Data** confirms that data is being actively synced with your marketing channels.
+* **Attribution Data** shows the last time this synced data was processed by our models.
+
+This guide breaks down how to interpret each indicator to ensure your data is current.
 
 <br />
 
