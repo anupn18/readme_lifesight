@@ -1,5 +1,5 @@
 ---
-title: Integrations
+title: '[WIP] Integrations'
 deprecated: false
 hidden: true
 metadata:
