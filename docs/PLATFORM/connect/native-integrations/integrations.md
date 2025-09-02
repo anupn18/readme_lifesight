@@ -1,5 +1,5 @@
 ---
-title: '[WIP] Integrations'
+title: '[WIP] Integrations (Main Page)'
 deprecated: false
 hidden: true
 metadata:
