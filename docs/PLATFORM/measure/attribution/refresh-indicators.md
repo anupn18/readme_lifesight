@@ -30,6 +30,8 @@ When all integrations are functioning correctly, the status will show as **Refre
 
 By hovering your mouse over this indicator, a tooltip will appear, showing a detailed breakdown of each connected platform and the timestamp of its last successful data sync.
 
+<br />
+
 > [!NOTE]
 > The timestamp reflects the last moment Lifesight successfully fetched new data from the source platform. It is a direct indicator of the health of that specific integration.
 
