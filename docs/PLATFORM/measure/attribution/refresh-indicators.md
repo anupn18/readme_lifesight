@@ -1,5 +1,5 @@
 ---
-title: '[WIP] Refresh Indicator'
+title: '[WIP] Refresh Indicators'
 deprecated: false
 hidden: true
 metadata:
