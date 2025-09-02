@@ -13,7 +13,7 @@ To ensure you are making decisions with the most up-to-date information, the Lif
 
 You can find both refresh indicators located in the top-right corner of the **Attribution** pages, next to the forecast dropdown menu.
 
-![Location of the Platform and Attribution data refresh indicators](Screenshot%202025-09-02%20at%2012.39.54%E2%80%AFPM.jpg)
+<Image align="center" alt="Location of the Platform and Attribution data refresh indicators" src="https://files.readme.io/e1ee244dca1b62cd44d0b756ca82933f60c9e0704f36c09230db4e166e969662-Refresh_Indicators.png" />
 
 ***
 
