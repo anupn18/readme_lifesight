@@ -33,8 +33,8 @@ By hovering your mouse over this indicator, a tooltip will appear, showing a det
 
 <Image align="center" src="https://files.readme.io/fa786c7007562bf67e01c5ffcfc4c7234a0d463ae2c055bf86c7086bd6509087-Platform_Data_refresh_status.png" />
 
-<Callout icon="👍" theme="okay">
-  The timestamp reflects the last moment data was successfully fetched from the source platform. It is a direct indicator of the health of that specific integration.
+<Callout icon="🚧">
+  The platform data indicator status turns to red when there is a sync issue. Please check the integrations page to check the status of the connector which has a data refresh lag. 
 </Callout>
 
 ***
