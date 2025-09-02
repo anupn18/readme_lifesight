@@ -1,5 +1,5 @@
 ---
-title: Refresh Indicators
+title: '[WIP] Refresh Indicator'
 deprecated: false
 hidden: true
 metadata:
