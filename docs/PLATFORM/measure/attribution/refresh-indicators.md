@@ -1,5 +1,6 @@
 ---
-title: '[WIP] Refresh Indicators'
+title: Refresh Indicators
+excerpt: 'Understand data refresh for Attribution '
 deprecated: false
 hidden: true
 metadata:
