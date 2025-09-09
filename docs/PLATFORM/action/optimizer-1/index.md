@@ -6,7 +6,7 @@ hidden: true
 metadata:
   robots: index
 ---
-The **Optimizer** is a powerful tool designed to help you achieve your forecasted revenue, orders, or any other KPI goals. It provides goal-driven budget recommendations, acts as a central hub for manually controlling your campaign budgets across all your ad platforms, and also progressively rolls out changes to your campaigns to reach the recommended spend, and consequently your revenue goals. 
+The **Optimizer** is a powerful tool designed to help you achieve your forecasted revenue, orders, or any other KPI goals. It provides goal-driven budget recommendations, acts as a central hub for manually controlling your campaign budgets across all your ad platforms, and also progressively rolls out changes to your campaigns to reach the recommended spend, and consequently your revenue goals.
 
 By unifying your campaign data, Optimizer empowers you to move beyond platform-specific silos and make holistic budget decisions that maximize your marketing performance.
 
@@ -25,17 +25,13 @@ By unifying your campaign data, Optimizer empowers you to move beyond platform-s
 
 ### Key Features
 
-#### Automated Goal-Oriented Optimization
+#### Automated Goal-driven Optimization
 
 Optimizer uses your forecasted scenarios, using the Planner, to generate intelligent budget and pacing recommendations. It automatically suggests actions on campaigns and ad sets across multiple channels to ensure you stay on track to meet your revenue and order targets.
 
 #### Unified Cross-Channel Budget Management
 
-Gain a single, unified view of your campaigns from major ad platforms. Instead of logging into each platform separately, you can monitor performance and modify budgets for any campaign or ad set directly from the Optimizer interface.
-
-#### Holistic Campaign View
-
-See the bigger picture of your marketing efforts. The centralized dashboard allows you to compare performance across channels and tactics, helping you understand how your budget is allocated and where opportunities for improvement lie. This holistic perspective is crucial for making smarter, more effective optimization decisions.
+Gain a single, unified view of your campaigns from major ad platforms. Instead of logging into each platform separately, you can monitor and modify budgets for any campaign or ad set directly from the Optimizer.
 
 <br />
 
@@ -50,13 +46,13 @@ To use the Optimizer effectively, it's important to understand these key terms:
 
 <br />
 
-### Understanding the Interface
+### Navigating Optimizer's UI
 
 **Campaigns Tab:** This is the main workspace where you can view your campaigns, filter them, and act on recommendations.
 
 **Logs Tab:** This section provides a complete history of all actions taken through the Optimizer, including automated changes and manual adjustments made by users.
 
-<br />
+<Image align="center" src="https://files.readme.io/35743644c2915d5bb6a3af6450ad06b16e2ceca9f8f98d01bdfa914ab38d08da-Optimizer_-_Scenario_Selector.png" />
 
 #### The Filters Bar
 
