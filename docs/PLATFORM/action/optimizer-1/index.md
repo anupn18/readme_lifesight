@@ -1,5 +1,6 @@
 ---
 title: Optimizer
+excerpt: Action Budget changes to achieve your marketing goals
 deprecated: false
 hidden: true
 metadata:
