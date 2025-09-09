@@ -6,7 +6,7 @@ hidden: true
 metadata:
   robots: index
 ---
-The **Optimizer** is a powerful tool designed to help you achieve your forecasted revenue, orders, or any other KPI goals. It provides both automated, goal-driven budget recommendations and acts as a central hub for manually controlling your campaign budgets across all your ad platforms.
+The **Optimizer** is a powerful tool designed to help you achieve your forecasted revenue, orders, or any other KPI goals. It provides goal-driven budget recommendations, acts as a central hub for manually controlling your campaign budgets across all your ad platforms, and also progressively rolls out changes to your campaigns to reach the recommended spend, and consequently your revenue goals. 
 
 By unifying your campaign data, Optimizer empowers you to move beyond platform-specific silos and make holistic budget decisions that maximize your marketing performance.
 
