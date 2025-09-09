@@ -1,5 +1,5 @@
 ---
-title: Automated Budget Optimization
+title: '[WIP] Automated Budget Optimization'
 deprecated: false
 hidden: true
 metadata:
