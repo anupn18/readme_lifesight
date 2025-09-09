@@ -20,8 +20,6 @@ By unifying your campaign data, Optimizer empowers you to move beyond platform-s
 >   </div>
 > </div>
 > `}</HTMLBlock>
->
->
 
 <br />
 
@@ -39,6 +37,8 @@ Gain a single, unified view of your campaigns from major ad platforms. Instead o
 
 See the bigger picture of your marketing efforts. The centralized dashboard allows you to compare performance across channels and tactics, helping you understand how your budget is allocated and where opportunities for improvement lie. This holistic perspective is crucial for making smarter, more effective optimization decisions.
 
+<br />
+
 ### Core Concepts
 
 To use the Optimizer effectively, it's important to understand these key terms:
@@ -51,8 +51,6 @@ To use the Optimizer effectively, it's important to understand these key terms:
 <br />
 
 ### Understanding the Interface
-
-<br />
 
 **Campaigns Tab:** This is the main workspace where you can view your campaigns, filter them, and act on recommendations.
 
