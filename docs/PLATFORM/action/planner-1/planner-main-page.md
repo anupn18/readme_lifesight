@@ -16,7 +16,7 @@ Planner is one of the key actioning capabilities of the Lifesight platform. It i
 
 <br />
 
-## Revenue Forecasts: How it Works
+### Revenue Forecasts
 
 Revenue forecasts are generated based on the robust learnings from a Marketing Mix Model (MMM). The Planner's projections are not just estimates; they are the result of a sophisticated model that understands the historical performance of your marketing channels.
 
@@ -26,7 +26,7 @@ The accuracy of these forecasts is directly tied to the underlying model's calib
 * **Incrementality Experiments**: Real-world test results that validate and adjust the model's understanding of causal impact.
 * **Model Refreshes**: Periodic updates to the model to incorporate the latest data and market dynamics.
 
-> 📘 The reliability of your forecasts in Planner is directly dependent on the accuracy and calibration of the selected MMM. A well-trained and recently refreshed model will yield more dependable projections.
+> 📘 The reliability of your forecasts in Planner is directly dependent on the accuracy and calibration of the selected marketing mix model. A well-trained and recently refreshed model will yield more dependable projections.
 
 ***
 
