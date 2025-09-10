@@ -19,7 +19,7 @@ This translation from a high-level channel budget to a specific campaign budget 
 >
 > Please note that the Optimizer can only implement recommendations from a budget scenario that has been set as the 'default' in the Planner. This ensures that you are always acting on your primary, approved strategic plan.
 >
-> Refer to this [guide](https://docs.lifesight.io/docs/default-scenario#/) to learn more about default scenario. 
+> Refer to this [guide](https://docs.lifesight.io/docs/default-scenario#/) to learn more about default scenario.
 
 <br />
 
@@ -47,18 +47,16 @@ Once you have reviewed the recommendations and are ready to proceed, you can app
 
 <br />
 
-### Final Confirmation (Budget Summary)
+### Budget Changes Summary
 
 After you click Apply, a Budget Summary dialog box will appear. This is your final confirmation step before the changes are pushed to your ad platforms.
 
 This summary provides a final overview of the changes to be implemented, including:
 
-Overall Impact: Metrics like the change in Expected Spend and the Projected Change percentage.
+**Overall Impact:** Metrics like the change in Expected Spend and the Projected Change percentage.
 
-Detailed Breakdown: A list of all selected campaigns and ad sets, showing the specific change from the Current Value to the New Value.
+**Detailed Breakdown:** A list of all selected campaigns and ad sets, showing the specific change from the Current Value to the New Value.
 
-Review Carefully
+<br />
 
-Any changes confirmed on this screen will be automatically applied to the selected campaigns on your live ad platforms. Please review your changes carefully before proceeding.
-
-Once you have verified the details, click Optimize to start the automated budget adjustments.
+Any changes confirmed on this screen will be automatically applied to the selected campaigns on your live ad platforms. Please review your changes carefully before proceeding. Once you have verified the details, click Optimize to implement the manual and automatic changes. 
