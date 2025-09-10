@@ -11,13 +11,15 @@ The Optimizer bridges the gap between strategic planning and tactical execution 
 
 The Optimizer's intelligence is directly linked to the scenarios you build in the Planner. It takes the channel-level spend allocation computed by a budget scenario and translates it into granular, daily or weekly budget modifications for individual campaigns and ad sets.
 
-This translation from a high-level channel budget to a specific campaign budget is managed by Lifesight's proprietary allocation score, which considers historical performance and other factors to determine the most effective distribution of funds.
+This translation from a high-level channel budget to a specific campaign budget is managed by proprietary Optimizer allocation score, which considers historical performance and other factors to determine the most effective distribution of funds.
 
 <br />
 
 > 📘 Default Scenarios Only
 >
 > Please note that the Optimizer can only implement recommendations from a budget scenario that has been set as the 'default' in the Planner. This ensures that you are always acting on your primary, approved strategic plan.
+>
+> Refer to this [guide](https://docs.lifesight.io/docs/default-scenario#/) to learn more about default scenario. 
 
 <br />
 
