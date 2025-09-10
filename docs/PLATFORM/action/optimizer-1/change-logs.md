@@ -1,6 +1,6 @@
 ---
 title: Logger
-excerpt: Gather all the changes made using the Optimizer
+excerpt: Gather all the changes made using the Optimizer across platforms
 deprecated: false
 hidden: true
 metadata:
