@@ -5,7 +5,7 @@ hidden: true
 metadata:
   robots: index
 ---
-The Optimizer bridges the gap between strategic planning in the Planner and tactical execution on your ad platforms. It translates your high-level budget scenarios into automated, gradual budget adjustments that are progressively rolled out to your campaigns. This progressive approach is designed to safely modify campaign budgets, preventing disruption to ad platform algorithms and avoiding the costly 'learning phase,' ensuring you can efficiently allocate your budget for maximum impact.
+The Optimizer bridges the gap between strategic planning and tactical execution on your ad platforms. It translates your high-level budget scenarios into automated, gradual budget adjustments that are progressively rolled out to your campaigns. This progressive approach is designed to safely modify campaign budgets, preventing disruption to ad platform algorithms and avoiding the costly 'learning phase,' ensuring you can efficiently allocate your budget for maximum impact.
 
 ### How Recommendations are Calculated
 
