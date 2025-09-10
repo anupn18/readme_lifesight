@@ -5,13 +5,9 @@ hidden: true
 metadata:
   robots: index
 ---
-<br />
-
-
 The Optimizer bridges the gap between strategic planning in the Planner and tactical execution on your ad platforms. It translates your high-level budget scenarios into automated, gradual budget adjustments that are progressively rolled out to your campaigns. This progressive approach is designed to safely modify campaign budgets, preventing disruption to ad platform algorithms and avoiding the costly 'learning phase,' ensuring you can efficiently allocate your budget for maximum impact.
 
-### How Recommendations are Calculated 
-
+### How Recommendations are Calculated
 
 The Optimizer's intelligence is directly linked to the scenarios you build in the Planner. It takes the channel-level spend allocation computed by a budget scenario and translates it into granular, daily or weekly budget modifications for individual campaigns and ad sets.
 
@@ -25,8 +21,7 @@ This translation from a high-level channel budget to a specific campaign budget 
 
 <br />
 
-### Configuring Guardrails 
-
+### Configuring Guardrails
 
 To ensure campaign stability and provide you with full control over automated changes, the Optimizer includes several configurable guardrails. These settings prevent drastic budget shifts that could disrupt the learning phase of your campaigns on ad platforms.
 
@@ -38,8 +33,7 @@ To ensure campaign stability and provide you with full control over automated ch
 
 These guardrails can be configured in the Configuration settings page.
 
-### Implementing Budget Recommendations 
-
+### Implementing Budget Recommendations
 
 Once you have reviewed the recommendations and are ready to proceed, you can apply them directly from the Optimizer.
 
@@ -51,8 +45,7 @@ Once you have reviewed the recommendations and are ready to proceed, you can app
 
 <br />
 
-### Final Confirmation (Budget Summary) 
-
+### Final Confirmation (Budget Summary)
 
 After you click Apply, a Budget Summary dialog box will appear. This is your final confirmation step before the changes are pushed to your ad platforms.
 
