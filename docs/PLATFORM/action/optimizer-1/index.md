@@ -64,7 +64,7 @@ The filters bar allows you to refine the list of campaigns displayed on the scre
 
 > 📘 **Note**
 >
-> Only Scenarios which have been marked as the default scenario in a plan are displayed in the scenarios filter inside Optimizer. Learn more about [default scenario](https://docs.lifesight.io/docs/default-scenario#/) in this guide.
+> Only Scenarios which have been marked as the default scenario in a plan are displayed in the scenarios filter inside Optimizer. Learn more about [default scenario](https://docs.lifesight.io/docs/default-scenario#/).
 
 * **Filter Channel:** Narrow the view to campaigns from one or more specific ad channels (e.g., show only Meta campaigns).
 * **Filter Tactic:** Focus on campaigns with a specific strategic purpose (e.g., show only _Retargeting_ campaigns).
