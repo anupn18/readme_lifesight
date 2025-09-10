@@ -1,11 +1,12 @@
 ---
-title: '[WIP] Logger'
+title: Logger
+excerpt: Gather all the changes made using the Optimizer
 deprecated: false
 hidden: true
 metadata:
   robots: index
 ---
-The Optimizer Logger provide a comprehensive and transparent record of every modification made to your advertising campaigns through the Lifesight Platform's Optimizer.
+The Optimizer Logger provide a comprehensive and transparent record of every modification made to your advertising campaigns using the Optimizer.
 
 Whether a change is executed automatically by a recommendation or manually by a user, it is recorded here. This allows you to audit your campaign history, track performance shifts, and verify that changes were implemented successfully.
 
@@ -44,7 +45,6 @@ Here is a breakdown of each column in the logs table:
 <br />
 
 ### Searching and Filtering Logs
-
 
 To find specific changes quickly, use the tools at the top of the logs table:
 
