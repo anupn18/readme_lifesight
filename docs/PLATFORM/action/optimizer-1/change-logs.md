@@ -1,5 +1,5 @@
 ---
-title: Logger
+title: '[WIP] Logger'
 deprecated: false
 hidden: true
 metadata:
