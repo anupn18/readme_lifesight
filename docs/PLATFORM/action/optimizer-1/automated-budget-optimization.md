@@ -1,5 +1,6 @@
 ---
 title: '[WIP] Automated Budget Optimization'
+excerpt: 'Make automated budget changes to your campaigns '
 deprecated: false
 hidden: true
 metadata:
@@ -59,4 +60,4 @@ This summary provides a final overview of the changes to be implemented, includi
 
 <br />
 
-Any changes confirmed on this screen will be automatically applied to the selected campaigns on your live ad platforms. Please review your changes carefully before proceeding. Once you have verified the details, click Optimize to implement the manual and automatic changes. 
+Any changes confirmed on this screen will be automatically applied to the selected campaigns on your live ad platforms. Please review your changes carefully before proceeding. Once you have verified the details, click Optimize to implement the manual and automatic changes.
