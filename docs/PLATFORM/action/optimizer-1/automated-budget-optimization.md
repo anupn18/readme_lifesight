@@ -1,5 +1,5 @@
 ---
-title: '[WIP] Automated Budget Optimization'
+title: Automated Budget Optimization
 excerpt: 'Make automated budget changes to your campaigns '
 deprecated: false
 hidden: true
