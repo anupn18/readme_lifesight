@@ -1,6 +1,6 @@
 ---
 title: Logger
-excerpt: Gather all the changes made using the Optimizer across platforms
+excerpt: Gather all the changes made using the Optimizer across Ad platforms
 deprecated: false
 hidden: true
 metadata:
