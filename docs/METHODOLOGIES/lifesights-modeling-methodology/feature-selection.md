@@ -1,7 +1,7 @@
 ---
 title: Feature Selection
 excerpt: Feature selection for Better Causal Insights
-deprecated: false
+deprecated: true
 hidden: true
 metadata:
   title: ''
