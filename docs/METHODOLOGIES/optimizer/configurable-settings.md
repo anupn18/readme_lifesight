@@ -1,5 +1,5 @@
 ---
-title: Configurable Settings
+title: '[WIP] Configurable Settings'
 deprecated: false
 hidden: true
 metadata:
