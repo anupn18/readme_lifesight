@@ -44,7 +44,13 @@ After starting a new plan, you will be taken to the scenario configuration page.
 
 From the **Select Model** dropdown, choose the successfully calibrated Marketing Mix Model you wish to use as the foundation for your plan.
 
+<Image align="center" width="350px" src="https://files.readme.io/49b2a998cadb2f3123f6c7959f66b25a05cd3c4c2288097c1db622854ead0893-Planner_-_Model_Selector.png" />
+
 <br />
+
+<Callout icon="🚧">
+  To get precise predictions and budget allocation recommendations, ensure the model you select has been fed the latest data. 
+</Callout>
 
 #### Setting the Goal, Forecast, and Basis Period
 
