@@ -76,7 +76,7 @@ This tab provides a more detailed, time-based view of the revenue forecast for t
 
 <Image align="center" src="https://files.readme.io/f922053f2e9516ce0923bb6e7cf83e00a80a98c3dd26139dcf16df07729f9148-Planner_-_Forecasted_Revenue.png" />
 
-The Forecasted Data table displays the forecasted revenue, upper and lower limits of forecasted revenue, and cumulative revenue achieved in the ending of each month in the forecast period. 
+<br />
 
 ### Forecasted Trend
 
@@ -84,7 +84,7 @@ The line chart visualizes the expected revenue trend over the duration of your p
 
 ### Forecasted Data
 
-The table below the chart provides a summary of the forecasted revenue broken down by the forecast period intervals (e.g., Q1 and Q2 for a Quarterly forecast). It also explicitly states the **95% Confidence Interval (CI)**, giving you a probable range for the forecasted revenue (`[Lower Bound] - [Upper Bound]`).
+The table below the chart provides a summary of the forecasted revenue broken down by the forecast period intervals. It also explicitly states the **95% Confidence Interval (CI)**, giving you a probable range for the forecasted revenue (`[Lower Bound] - [Upper Bound]`) and the cumulative revenue achieved at the ending of each month in the forecast period. 
 
 <br />
 
