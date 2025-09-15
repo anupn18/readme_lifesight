@@ -1,5 +1,5 @@
 ---
-title: Logging & Monitoring
+title: '[WIP] Logging & Monitoring'
 deprecated: false
 hidden: true
 metadata:
