@@ -23,18 +23,6 @@ By unifying your campaign data, Optimizer empowers you to move beyond platform-s
 
 <br />
 
-### Key Features
-
-#### Automated Goal-driven Optimization
-
-Optimizer uses your forecasted scenarios, using the Planner, to generate intelligent budget and pacing recommendations. It automatically suggests actions on campaigns and ad sets across multiple channels to ensure you stay on track to meet your revenue and order targets.
-
-#### Unified Cross-Channel Budget Management
-
-Gain a single, unified view of your campaigns from major ad platforms. Instead of logging into each platform separately, you can monitor and modify budgets for any campaign or ad set directly from the Optimizer.
-
-<br />
-
 ### Core Concepts
 
 To use the Optimizer effectively, it's important to understand these key terms:
