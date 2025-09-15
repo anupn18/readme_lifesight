@@ -1,5 +1,5 @@
 ---
-title: Allocation Score
+title: '[WIP] Allocation Score'
 deprecated: false
 hidden: true
 metadata:
