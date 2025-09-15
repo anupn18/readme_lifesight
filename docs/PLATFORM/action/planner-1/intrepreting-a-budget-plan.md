@@ -1,8 +1,8 @@
 ---
 title: Intrepreting a plan
 excerpt: >-
-  Understand Recommendations, generate multiple Scenarios and leverage the
-  Budget Worksheet
+  Understand recommendations, generate multiple scenarios and leverage the
+  budget worksheet
 deprecated: false
 hidden: true
 metadata:
