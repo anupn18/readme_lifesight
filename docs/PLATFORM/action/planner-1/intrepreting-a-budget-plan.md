@@ -22,11 +22,11 @@ This section is split into 'Current' (forecast base period) and 'Forecasted' (th
 
 * **Current Budget**: Your total baseline marketing budget.
 * **Current Revenue**: The total revenue associated with your baseline budget.
-* **Current Incremental ROAS (iROAS)**: The incremental revenue generated *only by your ad spend* in your current plan.
+* **Current Incremental ROAS (iROAS)**: The incremental revenue generated _only by your ad spend_ in your current plan.
 * **Current ROAS**: The overall Return On Ad Spend for your current plan.
 * **Planned Budget**: The total budget you've allocated for this specific scenario.
 * **Forecasted Total Revenue**: The total revenue the model predicts you will generate with the `Planned Budget`.
-* **Forecasted Incremental ROAS (iROAS)**: The predicted incremental revenue generated *only by your ad spend* in this scenario.
+* **Forecasted Incremental ROAS (iROAS)**: The predicted incremental revenue generated _only by your ad spend_ in this scenario.
 * **Forecasted ROAS**: The predicted overall Return On Ad Spend for this scenario.
 
 <br />
@@ -74,9 +74,9 @@ This chart illustrates the incremental Return On Ad Spend for each platform. It 
 
 This tab provides a more detailed, time-based view of the revenue forecast for the selected scenario.
 
-<Image align="center" src="https://files.readme.io/5d47b64c0991186b2d841fdce624857d223aa1d19eb7cd607b3b84aacb22c18a-Plan_Forecasted_Revenue_.png" />
+<Image align="center" src="https://files.readme.io/f922053f2e9516ce0923bb6e7cf83e00a80a98c3dd26139dcf16df07729f9148-Planner_-_Forecasted_Revenue.png" />
 
-<br />
+The Forecasted Data table displays the forecasted revenue, upper and lower limits of forecasted revenue, and cumulative revenue achieved in the ending of each month in the forecast period. 
 
 ### Forecasted Trend
 
