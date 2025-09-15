@@ -3,7 +3,7 @@ title: How to optimize budget using constraints
 excerpt: >-
   How to set optimal budget constraints for media channels to maximize
   incremental revenue.
-deprecated: true
+deprecated: false
 hidden: false
 metadata:
   title: ''
