@@ -53,9 +53,9 @@ Refer to this [page](https://docs.lifesight.io/update/docs/mmm-input-schema#/) f
 
 ***
 
-## Step 2: Map Features (Schema Mapping)
+## Step 2: Map Data Features 
 
-In this step, you will associate the columns from your dataset with Lifesight's required data fields. This is critical for ensuring the model interprets your data correctly.
+In this step, you will map the columns from your dataset with the required data fields. This is critical for ensuring the model interprets your data correctly.
 
 <Image align="center" src="https://files.readme.io/f72266d482a5328f29280cbcec3c629a6016ef9c4b09be5bc212874b5c881e4f-Model_creation_-_Feature_selection_page.png" />
 
