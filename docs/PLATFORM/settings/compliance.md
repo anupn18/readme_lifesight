@@ -3,8 +3,8 @@ title: Compliance
 excerpt: >-
   New Delete/Export feature provides GDPR compliance for users to manage
   personal data, while store owners can store information securely.
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: ''
   description: ''
