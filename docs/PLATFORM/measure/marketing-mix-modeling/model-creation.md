@@ -1,5 +1,5 @@
 ---
-title: Model Creation
+title: 'Setting up your Mix Model '
 excerpt: >-
   Your guide to configuring data, selecting variables, and launching your media
   mix model
