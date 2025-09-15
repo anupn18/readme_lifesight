@@ -1,8 +1,8 @@
 ---
-title: How to build your MMM
+title: '[WIP] How to build your MMM'
 excerpt: ''
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
