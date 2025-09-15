@@ -39,7 +39,7 @@ Refer to this [page](https://docs.lifesight.io/update/docs/mmm-input-schema#/) f
 
 <br />
 
-## Step 1: Initiate Model Creation and Upload Data
+## Step 1: Create a new Model and Upload Data
 
 <Image align="center" src="https://files.readme.io/e9b7983f812e124204572cd480162309f5c4ef0e5fa5ed2555a13446e02bb5e1-Model_creation_-_data_sources_page.png" />
 
