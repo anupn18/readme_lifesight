@@ -10,10 +10,6 @@ Amazon S3 (Simple Storage Service) is a secure and highly scalable object storag
 
 This feature enables you to bring your unique business data into Lifesight for a truly comprehensive view of marketing performance.
 
-### **Use Case: Unifying Custom Datasets for Holistic Measurement**
-
-By bringing in your own data via S3, you can significantly enrich your Marketing Mix Models (MMM) and Causal Attribution analyses. This allows you to measure the impact of marketing on a wider range of business outcomes and account for external factors.
-
 <br />
 
 ### **Setup Instructions in AWS**
