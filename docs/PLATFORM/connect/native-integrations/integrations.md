@@ -1,5 +1,6 @@
 ---
-title: '[WIP] Integrations (Main Page)'
+title: Integrations (Overview Page)
+excerpt: Learn how Platform Native Integrations power your Unified Measurement Platform
 deprecated: false
 hidden: true
 metadata:
