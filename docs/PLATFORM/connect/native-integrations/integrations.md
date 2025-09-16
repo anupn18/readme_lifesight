@@ -6,7 +6,7 @@ hidden: true
 metadata:
   robots: index
 ---
-Integrations are the foundation of any robust Unified Marketing Measurement (UMM) strategy. By connecting your various marketing, sales, and data platforms to Lifesight, you create a single, comprehensive data stream that powers accurate, cross-channel insights.
+Integrations are the foundation of any robust Unified Measurement strategy. By connecting your various marketing, sales, and data platforms to Lifesight, you create a single, comprehensive data stream that powers accurate, cross-channel insights.
 
 > 📘 **Built for Security and Reliability**
 >
