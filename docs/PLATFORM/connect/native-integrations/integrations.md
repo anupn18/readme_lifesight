@@ -7,9 +7,9 @@ metadata:
 ---
 Integrations are the foundation of any robust Unified Marketing Measurement (UMM) strategy. By connecting your various marketing, sales, and data platforms to Lifesight, you create a single, comprehensive data stream that powers accurate, cross-channel insights.
 
-> [!NOTE]
-> **Built for Security and Reliability**
-> All of Lifesight's native integrations are built and maintained in-house by our engineering team. This approach ensures maximum security, data integrity, and seamless compatibility with our UMM platform, eliminating the risks associated with third-party connectors.
+> 📘 **Built for Security and Reliability**
+>
+> Platform native integrations are built and maintained in-house by our engineering team. This approach ensures maximum security, data integrity, and seamless compatibility with our UMM platform, eliminating the risks associated with third-party connectors.
 
 ### How Integrated Data Powers Your Measurement
 
@@ -27,7 +27,7 @@ Lifesight supports a wide range of platforms across your entire growth stack. Cl
 * **Social Ad Platforms**: Connect platforms like Meta (Facebook & Instagram), TikTok, LinkedIn, Pinterest, and more.
 * **Search Ad Platforms**: Integrate with Google Ads, Microsoft Advertising, and other search marketing channels.
 * **Programmatic Platforms**: Pull in data from Demand-Side Platforms (DSPs) like Google Display & Video 360, The Trade Desk, and others.
-* **Connected TV (CTV) Platforms**: Measure the impact of your CTV advertising from providers like Roku, Hulu, and more.
+* **Connected TV (CTV) Platforms**: Measure the impact of your CTV advertising from providers like Vibe, Universal Ads, and more.
 * **Data Platforms**: Sync your data warehouses and business intelligence tools, such as Google BigQuery, Snowflake, and Amazon Redshift.
 * **E-commerce Platforms**: Integrate your online store data from platforms like Shopify, Magento, and WooCommerce.
 * **Marketing Automation Platforms**: Connect CRM and messaging platforms like Braze, Iterable, and Hubspot.
