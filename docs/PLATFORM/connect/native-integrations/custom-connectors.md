@@ -41,7 +41,7 @@ To integrate another platform, simply repeat the connector creation process and 
 
 <br />
 
-## Quick start (at a glance)
+## Quick start guide
 
 1. **Create connector →** Name & describe it.
 2. **Add API →** Define base URL, auth, an endpoint, and response mapping → **Test** → **Save**.
@@ -52,7 +52,7 @@ To integrate another platform, simply repeat the connector creation process and 
 
 ***
 
-## Detailed setup — Create a new Custom Connector
+## Detailed setup guide
 
 ### 1. Start a new connector
 
@@ -61,7 +61,7 @@ To integrate another platform, simply repeat the connector creation process and 
 1. Go to **Connectors** → **Custom Connector**.
 2. Click **New Connector**.
 3. Enter a **Connector Name** (e.g., “Support API + Webhooks”).
-4. (Optional) Add a **Description** (purpose, data types, owners).
+4. [Optional] Add a **Description** (purpose, data types, owners).
 5. Click **Create** (or **Save**).
 
 ### 2) Configure authentication (connector-level or per endpoint)
