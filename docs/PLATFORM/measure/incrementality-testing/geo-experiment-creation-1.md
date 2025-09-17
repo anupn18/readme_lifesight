@@ -6,7 +6,7 @@ hidden: false
 metadata:
   robots: index
 ---
-Lifesight's platform allows you to design and deploy geo experiments to accurately measure the incremental impact of your marketing efforts across various ad platforms. This guide walks you through the step-by-step process of designing a new geo experiment.
+Design and deploy geo experiments to accurately measure the incremental impact of your marketing efforts across various ad platforms. This guide walks you through the step-by-step process of designing a new geo experiment.
 
 <br />
 
@@ -93,7 +93,7 @@ Once your data is validated, you will proceed to select your test and control ma
 
 #### Understanding Test and Control Markets
 
-In a geo experiment, **Test Markets** are the locations where the experiment's treatment (e.g., new campaign, increased spend) is applied. **Control Markets** are similar locations where the treatment is *not* applied, serving as a baseline for comparison.
+In a geo experiment, **Test Markets** are the locations where the experiment's treatment (e.g., new campaign, increased spend) is applied. **Control Markets** are similar locations where the treatment is _not_ applied, serving as a baseline for comparison.
 
 #### Automatic Market Selection
 
@@ -112,7 +112,7 @@ You can review the suggested market cohorts for each cell of your hypothesis. De
 * **Minimum Detectable Lift**: The smallest percentage lift that the experiment is capable of detecting.
 * **Estimated Lift**: The projected lift from the experiment.
 * **Synthetic Control Imbalance**: A metric indicating the balance between test and synthetic control markets.
-* **Estimated Bias**: An estimation of potential bias in the market selection\[cite: 4].
+* **Estimated Bias**: An estimation of potential bias in the market selection[cite: 4].
 * **Control Markets**: A breakdown of the geographic locations forming the synthetic control group and their respective weights.
 
 You can view the **Time Series Decomposition chart**, below the market selection table to observe historical data trends for both control and treatment groups, which helps ensure the validity of your market selection.
