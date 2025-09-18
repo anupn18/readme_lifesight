@@ -1,5 +1,5 @@
 ---
-title: Creating the Causal Structure (Causal Discovery )
+title: '[WIP] Creating the Causal Structure (Causal Discovery )'
 deprecated: false
 hidden: true
 metadata:
