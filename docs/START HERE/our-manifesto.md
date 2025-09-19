@@ -2,7 +2,7 @@
 title: Our Manifesto
 excerpt: Learn about why we exist
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
