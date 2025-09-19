@@ -2,7 +2,7 @@
 title: The Measurement Landscape
 excerpt: Understand the current marketing measurement landscape and why we exist
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
