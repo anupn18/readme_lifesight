@@ -2,7 +2,7 @@
 title: Who is Lifesight for ?
 excerpt: Learn about who Lifesight is designed for and our ideal customer persona.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
