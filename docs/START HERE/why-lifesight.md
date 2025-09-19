@@ -2,7 +2,7 @@
 title: Why Lifesight ?
 excerpt: Understand why you need Lifesight and our differentiators
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
