@@ -1,5 +1,5 @@
 ---
-title: How We Do It ?
+title: How Lifesight Works
 excerpt: Learn more about we implement your measurement program
 deprecated: false
 hidden: false
