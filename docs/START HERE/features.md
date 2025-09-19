@@ -2,7 +2,7 @@
 title: Features
 excerpt: Learn more about our platform features
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
