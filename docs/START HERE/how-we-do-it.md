@@ -3,15 +3,16 @@ title: How Lifesight Works
 excerpt: Learn more about we implement your measurement program
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   title: ''
   description: ''
   robots: index
 next:
-  description: ''
   pages:
-    - type: link
-      title: Modern Measurement Playbook by Google
+    - title: Modern Measurement Playbook by Google
+      type: link
       url: >-
         https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/data-and-measurement/drive-business-goals-modern-measurement/
 ---
@@ -41,6 +42,8 @@ This loop ensures you’re never choosing between speed and truth—you get both
 Read next: How MMM Works (High Level) · Designing a Geo‑Lift Test · From Attribution to Incrementality‑Adjusted KPIs · Scenario Planning & Optimization
 
 Platform architecture (high level)
+
+<div>
 
 1. Data Foundation
 
@@ -73,6 +76,8 @@ Dashboards: Executive to analyst‑level views linking spend, contribution, and 
 Versioning & Audit Trails: Every model, test, and plan is traceable to inputs and assumptions.
 
 Refresh & Drift Monitoring: Cadence for re‑training models and re‑testing to keep guidance accurate.
+
+</div>
 
 Read next: What Data Do I Need for Lifesight? · Dashboards & Reporting Overview · Data Governance & Privacy
 
