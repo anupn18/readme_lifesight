@@ -3,208 +3,185 @@ title: What is Lifesight ?
 excerpt: Understand who we are and what we do
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   title: ''
   description: ''
   robots: index
-next:
-  description: ''
 ---
-Lifesight is a Unified Marketing Measurement (UMM) platform that helps consumer brands grow profitably by combining Marketing Mix Modeling (MMM), geo-based incrementality testing, and incrementality‑adjusted attribution into one orchestrated system.
-It gives executives, marketers, and analysts a single, decision‑ready view of what’s truly driving results—so you can plan budgets with confidence, prove impact to finance, and optimize day‑to‑day spend without guesswork.
+# What is Lifesight?
 
-At a glance
+Lifesight is a Unified Marketing Measurement (UMM) platform that helps consumer brands grow profitably by combining Marketing Mix Modeling (MMM), geo-based incrementality testing, and incrementality-adjusted attribution into one orchestrated system.
 
-Outcomes: Higher marketing efficiency, incremental revenue lift, smarter budget allocation, faster learning cycles, and clear line‑of‑sight from spend to profit.
+It gives executives, marketers, and analysts a single, decision-ready view of what’s truly driving results—so you can plan budgets with confidence, prove impact to finance, and optimize day-to-day spend without guesswork.
 
-Who it’s for: DTC & ecommerce brands, omnichannel retail & CPG, consumer apps & subscriptions.
+## At a Glance
 
-What it does:
+### Outcomes:
 
-Builds econometric MMM to quantify channel ROI and marginal returns,
+*   Higher marketing efficiency
+*   Incremental revenue lift
+*   Smarter budget allocation
+*   Faster learning cycles
+*   Clear line-of-sight from spend to profit
 
-Runs geo incrementality tests to prove causal lift,
+### Who it’s for:
 
-Adjusts attribution using lift & MMM calibration for day‑to‑day optimization,
+*   DTC & ecommerce brands
+*   Omnichannel retail & CPG
+*   Consumer apps & subscriptions
 
-Powers scenario planning & budget optimization with confidence ranges.
+### What it does:
 
-Why it’s different: Not another “single method” tool. Lifesight orchestrates methods so results are consistent, explainable, and actionable for the C‑suite and channel owners alike.
+*   Builds econometric MMM to quantify channel ROI and marginal returns
+*   Runs geo incrementality tests to prove causal lift
+*   Adjusts attribution using lift & MMM calibration for day-to-day optimization
+*   Powers scenario planning & budget optimization with confidence ranges
 
-The problems we solve
+### Why it’s different:
 
-Fragmented truth: Platform dashboards, last‑click reports, and black‑box models disagree—creating confusion and misallocation.
+Not another “single method” tool. Lifesight orchestrates methods so results are consistent, explainable, and actionable for the C-suite and channel owners alike.
 
-Wasted spend: Lower‑funnel channels get over‑credited; upper‑funnel and creative get under‑invested.
+## The Problems We Solve
 
-Slow learning: One‑off tests don’t feed back into planning; MMMs are rarely calibrated with causal evidence.
-
-Trust gap: Finance wants proofs of incrementality; marketers need timely, granular guidance.
+*   **Fragmented truth:** Platform dashboards, last-click reports, and black-box models disagree—creating confusion and misallocation.
+*   **Wasted spend:** Lower-funnel channels get over-credited; upper-funnel and creative get under-invested.
+*   **Slow learning:** One-off tests don’t feed back into planning; MMMs are rarely calibrated with causal evidence.
+*   **Trust gap:** Finance wants proofs of incrementality; marketers need timely, granular guidance.
 
 Lifesight closes these gaps with a single workflow that measures, tests, calibrates, and optimizes—continuously.
 
-What Lifesight includes
+## What Lifesight Includes
 
-1. Marketing Mix Modeling (MMM)
+### 1. Marketing Mix Modeling (MMM)
 
-Weekly/monthly econometric models across paid, owned, and earned media—plus price, promos, retail/market factors, seasonality, competitive/contextual drivers.
+*   Weekly/monthly econometric models across paid, owned, and earned media—plus price, promos, retail/market factors, seasonality, competitive/contextual drivers.
+*   Short- & long-term effects: Adstock/lag, saturation/diminishing returns, base growth.
+*   Outputs: Channel ROI (iROAS), marginal ROI (mROAS), contribution, saturation points, and forecast & scenario curves by channel/tactic.
+*   Use it for: Quarterly/annual budget setting, channel mix rebalancing, target setting, long-range planning.
 
-Short‑ & long‑term effects: Adstock/lag, saturation/diminishing returns, base growth.
+### 2. Geo-based Incrementality Testing
 
-Outputs: Channel ROI (iROAS), marginal ROI (mROAS), contribution, saturation points, and forecast & scenario curves by channel/tactic.
+*   Designs and executes tests (scale-up, holdout, multi-cell) at DMA/state/city level using robust matching/synthetic control.
+*   Power analysis & MDE: Ensures tests are strong enough to detect lift with acceptable risk and opportunity cost.
+*   Outputs: Causal lift, incremental revenue, iROAS by channel/tactic/geo—with guidance on test duration and spillover controls.
+*   Use it for: Proving impact, de-risking new channels (CTV, retail media, influencer), validating platform claims.
 
-Use it for: Quarterly/annual budget setting, channel mix rebalancing, target setting, long‑range planning.
+### 3. Incrementality-Adjusted Attribution
 
-2. Geo‑based Incrementality Testing
+*   Unifies platform & first-party data and calibrates touch-level credit with MMM’s temporal factors and test-measured lift.
+*   Deduplicates conversions across channels; corrects over-credit in retargeting/brand search.
+*   Outputs: Daily, granular performance reads that align with causal truth.
+*   Use it for: Day-to-day budget shifts, bidding thresholds, creative & audience tests.
 
-Designs and executes tests (scale‑up, holdout, multi‑cell) at DMA/state/city level using robust matching/synthetic control.
+### 4. Scenario Planning & Optimization
 
-Power analysis & MDE: Ensures tests are strong enough to detect lift with acceptable risk and opportunity cost.
+*   What-if planner: Move spend across channels and see forecasted revenue/profit with uncertainty bands.
+*   Constraints-aware optimization: Respect floors/ceilings, pacing, lead times, retail windows, and business rules.
+*   Use it for: Monthly/quarterly re-plans, “efficiency vs. growth” trade-offs, CFO alignment.
 
-Outputs: Causal lift, incremental revenue, iROAS by channel/tactic/geo—with guidance on test duration and spillover controls.
+## Who Uses Lifesight (and how)
 
-Use it for: Proving impact, de‑risking new channels (CTV, retail media, influencer), validating platform claims.
+*   **CMO / VP Growth:** Set mix & targets, defend budgets with causal evidence, align brand + performance, govern learning agendas.
+*   **CFO / Finance:** Validate ROI and marginal returns, connect marketing to P&L, scenario test profit outcomes before spend.
+*   **Performance & Channel Leads:** Calibrated KPIs, daily guidance for scaling/pausing, creative & audience testing priorities.
+*   **Analytics / BI:** Own data quality, model governance, experimentation design, and continuous calibration.
+*   **Agencies:** Plan & optimize to incrementality, run geo tests, and report in one shared truth set.
 
-3. Incrementality‑Adjusted Attribution
+## How Lifesight Works (the operating loop)
 
-Unifies platform & first‑party data and calibrates touch‑level credit with MMM’s temporal factors and test‑measured lift.
+### Connect & Prepare
 
-Deduplicates conversions across channels; corrects over‑credit in retargeting/brand search.
+*   Marketing platforms, web/app analytics, sales/orders, CRM, retail/POS, pricing/promos, product/inventory, market context (e.g., holidays, weather).
+*   Standardized taxonomies, QA checks, outlier/seasonality handling, identity-safe joins.
 
-Outputs: Daily, granular performance reads that align with causal truth.
+### Model
 
-Use it for: Day‑to‑day budget shifts, bidding thresholds, creative & audience tests.
+*   Build/refresh MMM; quantify ROI and marginal curves; flag saturation and synergy.
+*   Generate recommended test hypotheses (e.g., “CTV synergy with paid search in Q4, 3-week test in high-power DMAs”).
 
-4. Scenario Planning & Optimization
+### Test & Calibrate
 
-What‑if planner: Move spend across channels and see forecasted revenue/profit with uncertainty bands.
+*   Launch geo tests with power/MDE guidance.
+*   Feed lift back into MMM and adjust attribution (deduplicate & reweight) to align daily reads with causal truth.
 
-Constraints-aware optimization: Respect floors/ceilings, pacing, lead times, retail windows, and business rules.
+### Plan & Act
 
-Use it for: Monthly/quarterly re‑plans, “efficiency vs. growth” trade‑offs, CFO alignment.
+*   Use scenario planner to approve mix changes; push budgets/bids via workflow exports or API integrations.
+*   Track realized vs. forecast; update confidence bands.
 
-Who uses Lifesight (and how)
+### Monitor & Govern
 
-CMO / VP Growth: Set mix & targets, defend budgets with causal evidence, align brand + performance, govern learning agendas.
+*   Drift monitoring on models; experiment quality checks; versioned decisions and audit trails.
+*   Quarterly business reviews translate insights into budget and KPI updates.
 
-CFO / Finance: Validate ROI and marginal returns, connect marketing to P&L, scenario test profit outcomes before spend.
+## What Makes Lifesight Different
 
-Performance & Channel Leads: Calibrated KPIs, daily guidance for scaling/pausing, creative & audience testing priorities.
+*   **Method orchestration, not method worship.** We combine MMM + Experiments + Attribution so each improves the others—and roll it up into one consistent decision layer.
+*   **Marginal ROI you can act on.** Diminishing-returns curves and calibrated daily reads make budget moves both strategic and practical.
+*   **CFO-ready transparency.** Clear assumptions, confidence ranges, and reconciliation from daily numbers to P&L outcomes.
+*   **Privacy-first by design.** Works on aggregate and pseudonymized data; no dependence on fragile cross-site identity.
 
-Analytics / BI: Own data quality, model governance, experimentation design, and continuous calibration.
+## Typical Value You Can Expect
 
-Agencies: Plan & optimize to incrementality, run geo tests, and report in one shared truth set.
+*   Better budget efficiency: Reallocate from over-credited spend to truly incremental areas.
+*   Confidence in growth bets: Fund upper-funnel with proven synergies and long-term effects; pace with safety rails.
+*   Faster learning loop: A shared test backlog, stronger test power, and automatic calibration shorten the path from question to action.
 
-How Lifesight works (the operating loop)
+(Every business is unique; Lifesight quantifies and communicates uncertainty so decisions are appropriately risk-aware.)
 
-Connect & Prepare
+## Data We Use (and the minimum viable set)
 
-Marketing platforms, web/app analytics, sales/orders, CRM, retail/POS, pricing/promos, product/inventory, market context (e.g., holidays, weather).
+### Outcomes:
 
-Standardized taxonomies, QA checks, outlier/seasonality handling, identity‑safe joins.
+*   Orders/revenue (by channel/region/sku where possible), subscriptions, new vs. returning.
 
-Model
+### Media & owned:
 
-Build/refresh MMM; quantify ROI and marginal curves; flag saturation and synergy.
+*   Spend, impressions, clicks, views, email/SMS sends, SEO/share of search, influencer/affiliate.
 
-Generate recommended test hypotheses (e.g., “CTV synergy with paid search in Q4, 3‑week test in high‑power DMAs”).
+### Commerce & context:
 
-Test & Calibrate
+*   Price & promo calendar, product launches, inventory/availability, retail/POS roll-ups, seasonality/events, and relevant macro signals.
 
-Launch geo tests with power/MDE guidance.
+### Digital analytics (optional but helpful):
 
-Feed lift back into MMM and adjust attribution (deduplicate & reweight) to align daily reads with causal truth.
-
-Plan & Act
-
-Use scenario planner to approve mix changes; push budgets/bids via workflow exports or API integrations.
-
-Track realized vs. forecast; update confidence bands.
-
-Monitor & Govern
-
-Drift monitoring on models; experiment quality checks; versioned decisions and audit trails.
-
-Quarterly business reviews translate insights into budget and KPI updates.
-
-What makes Lifesight different
-
-Method orchestration, not method worship. We combine MMM + Experiments + Attribution so each improves the others—and roll it up into one consistent decision layer.
-
-Marginal ROI you can act on. Diminishing‑returns curves and calibrated daily reads make budget moves both strategic and practical.
-
-CFO‑ready transparency. Clear assumptions, confidence ranges, and reconciliation from daily numbers to P&L outcomes.
-
-Privacy‑first by design. Works on aggregate and pseudonymized data; no dependence on fragile cross‑site identity.
-
-Typical value you can expect
-
-Better budget efficiency: Reallocate from over‑credited spend to truly incremental areas.
-
-Confidence in growth bets: Fund upper‑funnel with proven synergies and long‑term effects; pace with safety rails.
-
-Faster learning loop: A shared test backlog, stronger test power, and automatic calibration shorten the path from question to action.
-
-(Every business is unique; Lifesight quantifies and communicates uncertainty so decisions are appropriately risk‑aware.)
-
-Data we use (and the minimum viable set)
-
-Outcomes: Orders/revenue (by channel/region/sku where possible), subscriptions, new vs. returning.
-
-Media & owned: Spend, impressions, clicks, views, email/SMS sends, SEO/share of search, influencer/affiliate.
-
-Commerce & context: Price & promo calendar, product launches, inventory/availability, retail/POS roll‑ups, seasonality/events, and relevant macro signals.
-
-Digital analytics (optional but helpful): Sessions, add‑to‑cart, conversion rate, app events.
+*   Sessions, add-to-cart, conversion rate, app events.
 
 Lifesight supports staged onboarding—start with a lean dataset, expand as models and tests mature.
 
-Security & privacy
+## Security & Privacy
 
-Data minimization: Only data required for measurement use cases.
+*   **Data minimization:** Only data required for measurement use cases.
+*   **Privacy-safe modeling:** MMM and geo testing operate on aggregate signals; attribution uses calibrated, policy-compliant inputs.
+*   **Governance:** Role-based access, auditable changes, environment segregation, and documented model versions.
 
-Privacy‑safe modeling: MMM and geo testing operate on aggregate signals; attribution uses calibrated, policy‑compliant inputs.
+## Key Definitions (quick reference)
 
-Governance: Role‑based access, auditable changes, environment segregation, and documented model versions.
+*   **Incrementality:** The causal lift attributable to an intervention versus a valid counterfactual.
+*   **iROAS vs. mROAS:** Average ROI across historical spend vs. marginal ROI for the next dollar—use mROAS for scaling decisions.
+*   **Calibration:** Using causal lift and MMM temporal factors to adjust platform/attribution numbers so daily reads line up with reality.
+*   **Saturation:** The point at which additional spend yields diminishing marginal returns (where mROAS drops below your hurdle rate).
 
-Key definitions (quick reference)
+## When to Use Lifesight
 
-Incrementality: The causal lift attributable to an intervention versus a valid counterfactual.
+*   You need to re-base truth across marketing, finance, and agencies.
+*   Budgets are shifting (new channels like CTV/retail media/influencer) and you must prove what works.
+*   You want a repeatable cadence: refresh models, run smart tests, recalibrate, re-plan, and act—quarter after quarter.
 
-iROAS vs. mROAS: Average ROI across historical spend vs. marginal ROI for the next dollar—use mROAS for scaling decisions.
+## Getting Started
 
-Calibration: Using causal lift and MMM temporal factors to adjust platform/attribution numbers so daily reads line up with reality.
+*   Data readiness check: Confirm the minimum viable set and taxonomy.
+*   Baseline MMM: Establish ROI and marginal curves; generate test backlog.
+*   Priority geo test(s): Prove lift where the dollars are (or where confidence is low).
+*   Calibrate & re-plan: Update KPIs and budgets with scenario planner.
+*   Operationalize: Stand up the monthly optimization and quarterly planning cadence.
 
-Saturation: The point at which additional spend yields diminishing marginal returns (where mROAS drops below your hurdle rate).
+## Related Articles
 
-When to use Lifesight
-
-You need to re‑base truth across marketing, finance, and agencies.
-
-Budgets are shifting (new channels like CTV/retail media/influencer) and you must prove what works.
-
-You want a repeatable cadence: refresh models, run smart tests, recalibrate, re‑plan, and act—quarter after quarter.
-
-Getting started
-
-Data readiness check: Confirm the minimum viable set and taxonomy.
-
-Baseline MMM: Establish ROI and marginal curves; generate test backlog.
-
-Priority geo test(s): Prove lift where the dollars are (or where confidence is low).
-
-Calibrate & re‑plan: Update KPIs and budgets with scenario planner.
-
-Operationalize: Stand up the monthly optimization and quarterly planning cadence.
-
-Related articles
-
-How Lifesight Works: Architecture & Workflow
-
-What Data Do I Need for Lifesight?
-
-Designing a Geo‑Lift Test with Lifesight
-
-From Attribution to Incrementality‑Adjusted KPIs
-
-Scenario Planning: Building Your Efficiency‑to‑Growth Curve
+*   [How Lifesight Works: Architecture & Workflow](how-lifesight-works)
+*   [What Data Do I Need for Lifesight?](what-data-do-i-need-for-lifesight)
+*   [Designing a Geo-Lift Test with Lifesight](designing-a-geo-lift-test-with-lifesight)
+*   [From Attribution to Incrementality-Adjusted KPIs](from-attribution-to-incrementality-adjusted-kpis)
+*   [Scenario Planning: Building Your Efficiency-to-Growth Curve](scenario-planning-building-your-efficiency-to-growth-curve)
