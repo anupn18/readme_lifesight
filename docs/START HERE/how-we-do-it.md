@@ -43,6 +43,8 @@ Read next: How MMM Works (High Level) · Designing a Geo‑Lift Test · From Att
 
 Platform architecture (high level)
 
+<div>
+
 1. Data Foundation
 
 Sources: Media platforms, web/app analytics, ecommerce/POS, CRM/subscription, price & promo calendars, product/inventory, and context (seasonality, geography, macro).
@@ -74,6 +76,8 @@ Dashboards: Executive to analyst‑level views linking spend, contribution, and 
 Versioning & Audit Trails: Every model, test, and plan is traceable to inputs and assumptions.
 
 Refresh & Drift Monitoring: Cadence for re‑training models and re‑testing to keep guidance accurate.
+
+</div>
 
 Read next: What Data Do I Need for Lifesight? · Dashboards & Reporting Overview · Data Governance & Privacy
 
