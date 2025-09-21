@@ -1,7 +1,7 @@
 ---
 title: Ensemble Forecasting
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
