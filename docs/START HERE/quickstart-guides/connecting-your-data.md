@@ -2,7 +2,7 @@
 title: Connecting your data
 excerpt: Fast path using top connectors or CSV templates; verification checks.
 deprecated: false
-hidden: false
+hidden: true
 link:
   new_tab: false
 metadata:
