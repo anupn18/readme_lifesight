@@ -2,7 +2,7 @@
 title: Deploy your first experiment
 excerpt: Test vs control, power, timing; read‑out expectations; common pitfalls.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
