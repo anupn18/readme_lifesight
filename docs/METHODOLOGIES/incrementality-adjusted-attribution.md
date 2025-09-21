@@ -1,7 +1,7 @@
 ---
 title: Incrementality-adjusted Attribution
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
