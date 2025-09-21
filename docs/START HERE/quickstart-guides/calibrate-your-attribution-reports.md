@@ -2,7 +2,7 @@
 title: Calibrate your attribution reports
 excerpt: Apply lift factors; align daily KPIs to causal truth.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
