@@ -1,7 +1,7 @@
 ---
 title: Forecast Profitable Growth
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
