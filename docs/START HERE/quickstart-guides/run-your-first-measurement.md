@@ -2,7 +2,7 @@
 title: Run your first measurement read
 excerpt: Baseline incrementality and marginal effects; interpret outputs; next actions.
 deprecated: false
-hidden: false
+hidden: true
 link:
   new_tab: false
 metadata:
