@@ -2,7 +2,7 @@
 title: Build your forecast & plan
 excerpt: Scenario setup, constraints, and exporting a pacing worksheet.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
