@@ -2,7 +2,7 @@
 title: Geo-based Incrementality Testing
 excerpt: How it works and how Lifesight implements it end‑to‑end.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
