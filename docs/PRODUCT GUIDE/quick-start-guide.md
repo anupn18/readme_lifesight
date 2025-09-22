@@ -1,8 +1,8 @@
 ---
-title: About the platform
-excerpt: Learn about our workflow and how to use it
+title: Platform Overview
+excerpt: Learn about our platform and its features
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
@@ -10,34 +10,64 @@ metadata:
 next:
   description: ''
 ---
-Lifesight’s platform UI is designed for easy and intuitive navigation. This guide provides a detailed breakdown of the key components within the platform to help you understand its structure and navigate effortlessly.
+<br />
 
-***
+Lifesight’s product suite turns causal evidence into decisions you can plan, execute, and track—end to end.
 
-<Image align="center" src="https://files.readme.io/62738b78befb5138091a4794ad77947eafd98b06923a70d2a428a7738021478f-readme_pics.jpg" />
+Measure — Measure full‑funnel incrementality
 
-## Navigation Bar
+See what’s truly incremental and where the next dollar works best.
 
-The **Navigation Bar** is located on the far-left side of the platform. It offers quick access to the primary sections, such as:
+Decide: Scale vs cap; which bets to test next.
 
-* **Home**: The dashboard and high-level summaries.
-* **Analyze**: Deep dive into performance metrics.
-* **Connect**: Integration options and connection management.\
-  The navbar is the central hub for all navigation within the platform.
+You get: Baseline vs media, marginal returns (mROAS) with saturation, uncertainty bands, executive read‑outs.
 
-## Settings
+Who it’s for: CMO/VP Growth, CFO/FP&A, Performance & Media, Analytics.
+Learn more → /product/measure/overview
 
-Located at the top left corner of the platform, the **Workspace Setting** allows you to switch between different workspaces. This feature is particularly useful for agencies managing multiple brands or clients. The workspace dropdown helps organize and control access to different projects under one platform.
+Forecast — Forecast to achieve profit and growth
 
-## Modules
+Turn evidence into risk‑aware scenarios and approve a profit‑aligned plan.
 
-On the left-hand side, you will find the **Module** section. There are currently 4 modules in Lifesight: 
+Decide: Efficiency · Balanced · Growth; weekly pacing by channel; re‑plan triggers.
 
-* **Connect** - This module takes care of all integrations and manages customer profiles and consent to stay privacy compliant. It is primarily used by Data teams to connect all their data sources to a build a unified view.
-* **Measure** - This module such as MMM, Experiments, and Causal Attribution are used to triangulate your marketing truth. It is mostly used by data scientists and marketing scientists to create complex models and do forecasting and predictions based on business data.
-* **Analyze** - This allows you to plan and compare various marketing scenarios and get AI-powered optimization recommendations based on your business goals.
-* **Action** - This lets you view your overall Goal progress and view various customer cohorts to understand the most profitable customers.
+You get: p50/p10/p90 outcomes, sensitivity drivers, channel × week pacing and guardrails.
 
-## Account
+Who it’s for: CMO/VP Growth, CFO/FP&A, Channel Owners, Analytics.
+Learn more → /product/forecast/overview
 
-At the bottom of the navigation bar, you will find the **Account**. This area allows you to manage your account details, update preferences, and access support options. It also gives you access to logout and switch between accounts or profiles if needed.
+Optimize — Optimize channel and campaign spend
+
+Enforce guardrails and act on calibrated, daily recommendations.
+
+Decide: Budget shifts, caps/floors, ramp‑rates, frequency and concentration limits.
+
+You get: Ranked Scale/Cap/Shift suggestions tied to marginal curves and lift, alerts, change log, and exports.
+
+Who it’s for: Performance & Media, Growth, Analytics, Finance reviewers.
+Learn more → /product/optimize/overview
+
+Analyze — Align teams with a single causal truth
+
+Give every stakeholder the same reconciled view—raw vs adjusted KPIs and plan vs actuals.
+
+Decide: Are we on plan and inside risk bands? Where is incremental headroom or waste?
+
+You get: Executive/Finance/Ops dashboards, raw vs incrementality‑adjusted KPIs, bands, evidence & calibration log.
+
+Who it’s for: CMO/VP Growth, CFO/FP&A, Channel Leads, Analytics, Agencies.
+Learn more → /product/analyze/overview
+
+Get started fast
+
+Quickstart Guides:
+
+Connect your data → /start/quickstart-connect
+
+Run your first “Measure” read → /start/quickstart-measure
+
+Launch a geo‑lift test → /start/quickstart-geo-test
+
+Calibrate attribution with incrementality → /start/quickstart-calibrate-attribution
+
+Build a forecast & plan → /start/quickstart-forecast-plan
