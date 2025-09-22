@@ -1,5 +1,5 @@
 ---
-title: Connect
+title: Integrations
 excerpt: >-
   Seamlessly integrate your data sources and manage your customer consent and
   data.
