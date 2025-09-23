@@ -44,7 +44,7 @@ You are now all set to leverage your store data and measure marketing performanc
 
 ### Data Collection on Lifesight
 
-The App Embeds on the storefront capture basic events such as product_view, product_list_view and make the identify calls to identify users.
+App Embeds on the storefront capture basic events—such as `product_view` , `add_to_cart` and `product_list_view`—and issue identify calls to recognize users.
 
 #### Events captured through Lifesight SDK
 
@@ -64,6 +64,13 @@ The App Embeds on the storefront capture basic events such as product_view, prod
 * `checkout_address_info_submitted` — Customer/address step submitted; captures checkout ID, email/phone (often hashed), shipping/billing addresses.
 * `checkout_completed` — Order completed; captures order ID, checkout ID, line items, total revenue, discounts, taxes, shipping, currency, and customer ID (if logged in).
 * `checkout_contact_info_submitted` — Contact step submitted; captures checkout ID, customer email/phone (often hashed), marketing opt-in, and session identifiers.
+
+#### Server Side Events Captured through Shopify
+
+* `orders_create` — Fires when a new order is created; captures order ID, customer (if any), line items, totals, discounts, taxes, shipping, and initial payment/fulfillment state.
+* `orders_updated` — Fires when an existing order changes; captures the updated fields (e.g., payment status, fulfillment, line items, totals, tags, notes).
+* `customers_create` — Fires when a new customer record is created; captures customer ID, name, email/phone, addresses, tags, and marketing preferences.
+* `customers_updated` — Fires when a customer record is modified; captures changed attributes such as contact info, addresses, tags, notes, and marketing opt-in status.
 
 <Callout icon="❗️" theme="error">
   All checkout events are configured through Shopify's Web Pixels. Lifesight doesn't use custom JavaScript for checkout events, and we never inject code directly into checkout pages. Instead, we follow Shopify’s approved approach and use Web Pixels. All checkout events are captured through Shopify Web Pixels.
