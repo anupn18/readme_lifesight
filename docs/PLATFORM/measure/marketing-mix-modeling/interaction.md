@@ -20,6 +20,8 @@ The platform categorizes the relationship between any two marketing variables in
 
 ### Navigating the Interactions Tab
 
+<Image align="center" src="https://files.readme.io/0d11a69e8383e9327af87344b3af20b6e0baf16a1df184569ddc0b4ed0f101e5-Interaction_Tab_-_Effects_filter.png" />
+
 To begin your analysis, you can refine the data shown on the tab using several filters:
 
 * **Date Range**: Select the specific time period you want to analyze for interaction effects.
@@ -32,6 +34,8 @@ To begin your analysis, you can refine the data shown on the tab using several f
 The platform offers two primary views for analyzing interaction effects, allowing you to go from a high-level overview to a detailed, actionable list.
 
 #### Interaction Matrix View
+
+<Image align="center" src="https://files.readme.io/4cddf3bf2b9b6f6f750fc7d79ede249b33f43cf68db8c57faf0ade5cc2b5b5c4-Interaction_Tab_-_Effect_Type_Matrix.png" />
 
 The **Interaction Matrix** provides a high-level, color-coded heatmap of how all your marketing variables interact with each other. This view is excellent for quickly spotting the most significant relationships in your marketing mix.
 
@@ -47,7 +51,7 @@ The **Interaction Details** view provides a comprehensive, sortable list of ever
 
 The table contains the following columns:
 
-* **Interaction Variables**: The pair of marketing channels or activities being analyzed (e.g., `TV Spend + Tiktok Spend`).
+* **Interaction Variables**: The pair of marketing channels or activities being analyzed (e.g., `CTV + Branded Search`).
 * **Interaction Effect**: The qualitative label for the relationship (e.g., 'Strong Cannibalization', 'Strong Synergy').
 * **Interaction Factor**: The specific numerical score that quantifies the strength and direction of the interaction.
 * **Recommendation**: A clear, actionable suggestion based on the interaction effect.
