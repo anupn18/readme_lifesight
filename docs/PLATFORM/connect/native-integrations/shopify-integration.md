@@ -20,21 +20,17 @@ To integrate your Shopify data and allow Lifesight to collect data from your sto
 
 1. Navigate to the Integrations tab in the left-hand menu bar.
 2. In the search field, type "Shopify" to locate the integration.
-3. Your data will begin reflecting on your dashboards and in your app’s ‘Profiles’ & 'Segments' modules. The complete integration may take up to 24 hours.
+3. Click on the Shopify tile and enter the Shopify store name (everything before the `.myshopify.com` part)
 
-You are now all set to leverage your store data and build experiences based on customer behavior.
+   <Image align="center" src="https://files.readme.io/b09f4f7543e9563394b05cfe29c85470c11c278fea90d35e9fc4cb836dac4e12-Shopify_Install_Page.png" />
+4. Click to `Connect`
+5. You will be redirected to Shopify where you would be displayed the permission screens to accept the installation.
+6. Once the installation is complete, you will be redirected back to Lifesight.
+7. Your data will begin reflecting on your dashboards and in your app’s ‘Profiles’ & 'Segments' modules. The complete integration may take up to 24 hours.
+
+You are now all set to leverage your store data and measure marketing performance based on customer behavior.
 
 <br />
-
-### Setup Guide
-
-* Visit the Shopify App Store.
-* If prompted, log in with the store where you want to install Lifesight.
-* In the search bar, type 'Lifesight.'
-* Click on "Lifesight: Attribution & MMM" from the search results.
-* Select the "Install" option.
-* If prompted, log into the Shopify account with permissions to install applications on Shopify Admin.
-* Click on "Install" to complete the installation.
 
 #### Additional Steps for Enabling Tracking
 
@@ -46,4 +42,35 @@ You are now all set to leverage your store data and build experiences based on c
 
 <br />
 
+### Data Collection on Lifesight
+
+The App Embeds on the storefront capture basic events such as product_view, product_list_view and make the identify calls to identify users.
+
+#### Events captured through Lifesight SDK
+
+* `page_view` - Fires on any page load; captures page URL/title, referrer, UTM params, device, and session info.
+* `product_view`- When a product detail page is viewed; captures product/variant IDs, handle, price, collection context, and referrer/UTMs
+* `product_list_view`- When a collection/search/listing is viewed; captures list context (collection/search term), product IDs shown, positions, pagination
+* `add_to_cart`- When an item is added; captures product/variant IDs, quantity, price/value, currency, and cart token
+* `cart_view`- When the cart page/drawer is viewed; captures cart token, line items (IDs, qty, prices), cart value, currency
+* `remove_from_cart`- When an item is removed; captures product/variant IDs removed, quantity, cart token, and updated cart value
+* `thank_you_page_view`- On order status/thank-you page; captures order ID, line items, and revenue
+
+#### Events captured through Shopify's Web Pixels
+
+* `checkout_started` — Checkout initiated; captures checkout ID, cart token, line items, subtotal, currency, and customer/contact availability.
+* `checkout_shipping_info_submitted` — Shipping method step submitted; captures checkout ID, selected shipping rate, shipping address, and updated totals.
+* `payment_info_submitted` — Payment step submitted; captures checkout ID, payment gateway/type (no card PAN), billing address, and totals.
+* `checkout_address_info_submitted` — Customer/address step submitted; captures checkout ID, email/phone (often hashed), shipping/billing addresses.
+* `checkout_completed` — Order completed; captures order ID, checkout ID, line items, total revenue, discounts, taxes, shipping, currency, and customer ID (if logged in).
+* `checkout_contact_info_submitted` — Contact step submitted; captures checkout ID, customer email/phone (often hashed), marketing opt-in, and session identifiers.
+
+<Callout icon="❗️">
+  All checkout events are configured through Shopify's Web Pixels. Lifesight doesn't use custom JavaScript for checkout events, and we never inject code directly into checkout pages. Instead, we follow Shopify’s approved approach and use Web Pixels. All checkout events are captured through Shopify Web Pixels.
+</Callout>
+
+<br />
+
 > 👍 In case you have any further queries, feel free to write to us at [support@lifesight.io](mailto:support@lifesight.io) and we’ll respond at the earliest.
+
+<br />
