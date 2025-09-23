@@ -13,7 +13,7 @@ Understanding these relationships is key to moving beyond siloed channel optimiz
 
 The platform categorizes the relationship between any two marketing variables into four distinct types. These are calculated based on how the presence of one channel impacts the effectiveness of another.
 
-* **Strong Synergy**: Occurs when two channels have a significant and mutually beneficial impact. For example, a TV campaign may significantly boost the number of conversions from Branded Paid Search as viewers actively look for your brand online after seeing an ad. Investing in both simultaneously creates an amplified effect.
+* **Strong Synergy**: Occurs when two channels have a significant and mutually beneficial impact. For example, a CTV campaign may significantly boost the number of conversions from Branded Paid Search as viewers actively look for your brand online after seeing an ad. Investing in both simultaneously creates an amplified effect.
 * **Weak Synergy**: Indicates a positive but less pronounced interaction between two channels. While they help each other, the combined lift is moderate.
 * **Strong Cannibalization**: This happens when two channels heavily compete for the same audience and conversions, leading to inefficiency. For instance, running two distinct social media campaigns that target the exact same user demographic with a similar message can lead to one campaign "stealing" conversions from the other.
 * **Weak Cannibalization**: A minor negative or overlapping effect between channels. The competition exists but is not severe enough to cause a major drain on efficiency.
