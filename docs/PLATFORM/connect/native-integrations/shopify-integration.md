@@ -20,13 +20,13 @@ To integrate your Shopify data and allow Lifesight to collect data from your sto
 
 1. Navigate to the Integrations tab in the left-hand menu bar.
 2. In the search field, type "Shopify" to locate the integration.
-3. Click on the Shopify tile and enter the Shopify store name (everything before the `.myshopify.com` part)
+3. Click the Shopify tile and enter your store name (the part before .myshopify.com).
 
    <Image align="center" src="https://files.readme.io/b09f4f7543e9563394b05cfe29c85470c11c278fea90d35e9fc4cb836dac4e12-Shopify_Install_Page.png" />
-4. Click to `Connect`
-5. You will be redirected to Shopify where you would be displayed the permission screens to accept the installation.
-6. Once the installation is complete, you will be redirected back to Lifesight.
-7. Your data will begin reflecting on your dashboards and in your app’s ‘Profiles’ & 'Segments' modules. The complete integration may take up to 24 hours.
+4. Click `Connect`
+5. You’ll be redirected to Shopify and shown the permission screens—review and approve the installation.
+6. After installation, you’ll be redirected back to Lifesight.
+7. Data will begin appearing in your Dashboards, Profiles, and Segments. Full synchronization can take up to 24 hours.
 
 You are now all set to leverage your store data and measure marketing performance based on customer behavior.
 
@@ -65,7 +65,7 @@ The App Embeds on the storefront capture basic events such as product_view, prod
 * `checkout_completed` — Order completed; captures order ID, checkout ID, line items, total revenue, discounts, taxes, shipping, currency, and customer ID (if logged in).
 * `checkout_contact_info_submitted` — Contact step submitted; captures checkout ID, customer email/phone (often hashed), marketing opt-in, and session identifiers.
 
-<Callout icon="❗️">
+<Callout icon="❗️" theme="error">
   All checkout events are configured through Shopify's Web Pixels. Lifesight doesn't use custom JavaScript for checkout events, and we never inject code directly into checkout pages. Instead, we follow Shopify’s approved approach and use Web Pixels. All checkout events are captured through Shopify Web Pixels.
 </Callout>
 
