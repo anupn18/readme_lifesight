@@ -18,7 +18,7 @@ Shopify is a comprehensive e-commerce platform that provides early-stage entrepr
 
 To integrate your Shopify data and allow Lifesight to collect data from your store and use it in your marketing activities:
 
-1. Navigate to the Integrations tab in the left-hand menu bar.
+1. Navigate to the Integrations tab in the left-hand menu bar on Lifesight.
 2. In the search field, type "Shopify" to locate the integration.
 3. Click the Shopify tile and enter your store name (the part before .myshopify.com).
 
