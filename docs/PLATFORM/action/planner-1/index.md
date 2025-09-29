@@ -12,43 +12,71 @@ metadata:
 next:
   description: ''
 ---
-The next step after model creation is to create a plan. Once the model is finalized based on your business understanding, the plan can be used to forecast future outcomes. Lifesight offers predictions for 1, 2, or 3 months based on the selected base period.
+<br />
 
-## View interactive demo
+Planner is one of the key actioning capabilities of the Lifesight platform. It is a powerful forecasting and budget allocation tool that allows you to project business outcomes based on different spend allocations and marketing strategies. By leveraging Planner, you can
 
-<Image align="center" alt="[Click here](https://lifesight.io/demo-hub/planner/) to view demo in fullscreen" border={false} caption="<Anchor label=&#x22;Click here&#x22; target=&#x22;_blank&#x22; href=&#x22;https://lifesight.io/demo-hub/planner/&#x22;>Click here</Anchor> to view demo in fullscreen" src="https://files.readme.io/cc5ee313400ef5255c7c4a1a69e3920f4b75d11fcd6849efe8ed91bc49b7053a-image.png" />
+* Forecast potential revenue and other KPIs for future time periods.
+* Simulate the impact of different budget scenarios before committing spend.
+* Make data-driven decisions to optimize your marketing mix for maximum ROI.
+
+### Revenue Forecasts
+
+Revenue forecasts are generated based on the robust learnings from a Marketing Mix Model (MMM). The Planner's projections are not just estimates; they are the result of a sophisticated model that understands the historical performance of your marketing channels.
+
+The accuracy of these forecasts is directly tied to the underlying model's calibration, which is refined by:
+
+* **Historical Input Data**: The comprehensive data fed to the model during its training phase.
+* **Incrementality Experiments**: Real-world test results that validate and adjust the model's understanding of causal impact.
+* **Model Refreshes**: Periodic updates to the model to incorporate the latest data and market dynamics.
+
+> 📘 The reliability of your forecasts in Planner is directly dependent on the accuracy and calibration of the selected marketing mix model. A well-trained and recently refreshed model will yield more dependable projections.
 
 ***
 
-<br />
+## Navigating the Planner Dashboard
 
-## Definitions
+The Planner dashboard is your central hub for viewing, creating, and managing all your marketing plans.
 
-1. **Name** - Displays your saved Scenario plan name.
-2. **Model Name** - Displays the MMM model used to make a Scenario plan.
-3. **Scenario** - Shows the number of scenarios run in each plan.
-4. **Forecast Period** - Shows the Forecast period of a plan (1 month, 2 months, or Quarter)
-5. **Created on** - Shows the date on which the plan was created.
+<Image align="center" border={false} src="https://files.readme.io/0828be54418aeb85de5353db5556b315dabc3562ff0a1bbf194bf7753a7c4b05-Planner_Home.png" />
 
-<br />
+Here’s a breakdown of the main components:
 
-## Archive plan
+* **Plan List**: The main table displays all the plans created in your workspace.
+* **Columns**: Each row in the list provides key information about a plan:
+  * **Name**: The custom name given to the plan.
+  * **Model Name**: The specific MMM used to generate the forecast for this plan.
+  * **Scenarios**: The number of different budget or investment scenarios contained within the plan.
+  * **Forecast Period(s)**: The time frame for the plan's projection (e.g., Month, Quarter, Six Months).
+  * **Created On**: The date the plan was initially created.
+* **+ Create Plan Button**: Located at the top right, this button opens a wizard to build a new marketing plan. (The creation process is detailed in a separate guide).
+* **Pagination**: At the bottom of the list, you can navigate through multiple pages of plans if you have a large number of them.
 
-This lets you organize plans to keep the most relevant ones in your dashboard.
+***
 
-### To Archive a plan
+## Managing Existing Plans
 
-Select the Options icon on the right of a plan in the dashboard to view the `Archive` option.
+You can manage individual plans by clicking the **⋮** (vertical ellipsis) icon on the right-hand side of any plan in the list. This opens a context menu with the following options.
 
-![](https://files.readme.io/509f99fc2210c75ef70e751dfe02c8bd1136cdb8c7e2d92bd248a2bbd7a49e23-image.png)
+### Archiving a Plan
 
-### Manage archived models:
+Archiving is a way to hide a plan from the main dashboard view without permanently deleting it. This is useful for decluttering your workspace of old or irrelevant plans while keeping them for historical reference.
 
-1. Select the `Archive` button is on the top-right of your Planner dashboard.
+1. Click the **⋮** icon next to the plan you wish to archive.
+2. Select **Archive** from the dropdown menu.
+3. The plan will be moved to an archived list, which can be accessed separately.
 
-<Image align="center" src="https://files.readme.io/895b563b072dcab1fa633e17b2469b43c79a76245e226b6df19c2711f16d8097-arhc.jpg" />
+<Image align="center" border={false} width="300px" src="https://files.readme.io/ade77e1b6008ffb3c759de4df270774039d2727a3a2c38e2bfebea978a9e2536-Archived_plans.png" />
 
-2. Once you select the button, a pop-up opens that allows you to select multiple archived plans and delete or restore them.
-3. Click `Restore` to restore your selected plans.
+### Deleting a Plan
 
-<Image align="center" width="400px" src="https://files.readme.io/061e1637bacc1615e9a3c84b98a7fda29a4d10bf9c24db8eeafa1d9335b975b6-image.png" />
+Deleting a plan permanently removes it from your Lifesight workspace. This action cannot be undone.
+
+> ❗️ Once a plan is deleted, it cannot be recovered. Only delete a plan if you are certain you will no longer need it.
+
+1. Click the **⋮** icon next to the plan you wish to delete.
+2. Select **Delete** from the dropdown menu.
+3. A confirmation prompt will appear. Confirm the action to permanently delete the plan.
+4. Click `Restore` to restore your selected plans.
+
+<Image align="center" border={false} width="400px" src="https://files.readme.io/061e1637bacc1615e9a3c84b98a7fda29a4d10bf9c24db8eeafa1d9335b975b6-image.png" />
