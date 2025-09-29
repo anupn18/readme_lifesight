@@ -4,7 +4,7 @@ excerpt: >-
   Manually define your monthly budget splits to maximize impact during key
   periods
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
