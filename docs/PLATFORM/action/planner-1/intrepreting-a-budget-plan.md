@@ -4,7 +4,7 @@ excerpt: >-
   Understand recommendations, generate multiple scenarios and leverage the
   budget worksheet
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
