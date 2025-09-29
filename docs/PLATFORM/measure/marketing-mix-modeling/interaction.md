@@ -5,7 +5,7 @@ hidden: true
 metadata:
   robots: index
 ---
-The **Interaction** tab provides a crucial, in-depth view of how your marketing channels influence one another. Marketing efforts rarely operate in a vacuum; they can amplify each other (**synergy**) or compete for the same conversions (**cannibalization**).
+The **Interaction** tab provides a crucial, in-depth view of how your marketing channels influence each other. Marketing efforts rarely operate in a vacuum, they can amplify each other, having a **synergic** relationship or compete for the same conversions, **cannibalizing** conversions.
 
 Understanding these relationships is key to moving beyond siloed channel optimization and creating a truly unified marketing strategy. By quantifying these cross-channel effects, you can make more intelligent budget allocation decisions, reduce wasted spend, and maximize your overall marketing ROI.
 
@@ -20,7 +20,7 @@ The platform categorizes the relationship between any two marketing variables in
 
 ### Navigating the Interactions Tab
 
-<Image align="center" src="https://files.readme.io/0d11a69e8383e9327af87344b3af20b6e0baf16a1df184569ddc0b4ed0f101e5-Interaction_Tab_-_Effects_filter.png" />
+<Image align="center" border={false} src="https://files.readme.io/0d11a69e8383e9327af87344b3af20b6e0baf16a1df184569ddc0b4ed0f101e5-Interaction_Tab_-_Effects_filter.png" />
 
 To begin your analysis, you can refine the data shown on the tab using several filters:
 
@@ -35,7 +35,7 @@ The platform offers two primary views for analyzing interaction effects, allowin
 
 #### Interaction Matrix View
 
-<Image align="center" src="https://files.readme.io/4cddf3bf2b9b6f6f750fc7d79ede249b33f43cf68db8c57faf0ade5cc2b5b5c4-Interaction_Tab_-_Effect_Type_Matrix.png" />
+<Image align="center" border={false} src="https://files.readme.io/4cddf3bf2b9b6f6f750fc7d79ede249b33f43cf68db8c57faf0ade5cc2b5b5c4-Interaction_Tab_-_Effect_Type_Matrix.png" />
 
 The **Interaction Matrix** provides a high-level, color-coded heatmap of how all your marketing variables interact with each other. This view is excellent for quickly spotting the most significant relationships in your marketing mix.
 
