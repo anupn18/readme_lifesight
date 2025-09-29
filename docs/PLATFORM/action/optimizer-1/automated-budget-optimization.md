@@ -2,7 +2,7 @@
 title: Automated Budget Optimization
 excerpt: 'Make automated budget changes to your campaigns '
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
