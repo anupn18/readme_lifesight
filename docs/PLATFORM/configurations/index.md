@@ -1,10 +1,10 @@
 ---
 title: Configurations
 excerpt: >-
-  Configure rules, attribution weights, profit calcualtion metrics and casual
+  Configure rules, attribution weights, profit calculation metrics and casual
   attribution settings 
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
