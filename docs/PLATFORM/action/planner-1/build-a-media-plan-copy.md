@@ -1,6 +1,6 @@
 ---
-title: Creating a plan
-excerpt: Step-by-step guide to create a plan
+title: Building a plan
+excerpt: Step-by-step guide to create a media plan
 deprecated: false
 hidden: true
 metadata:
