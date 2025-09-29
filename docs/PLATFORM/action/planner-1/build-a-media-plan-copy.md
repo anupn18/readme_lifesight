@@ -1,5 +1,5 @@
 ---
-title: Building a plan
+title: Building a media plan
 excerpt: Step-by-step guide to create a media plan
 deprecated: false
 hidden: false
