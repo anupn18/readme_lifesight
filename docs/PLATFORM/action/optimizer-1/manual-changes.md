@@ -2,7 +2,7 @@
 title: Manual Changes
 excerpt: Make budget and bid target changes to your campaigns across ad platforms
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
