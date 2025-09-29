@@ -2,7 +2,7 @@
 title: Build a media plan
 excerpt: Step-by-step guide to create a plan
 deprecated: true
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
