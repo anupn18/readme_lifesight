@@ -2,7 +2,7 @@
 title: Logger
 excerpt: Gather all the changes made using the Optimizer across Ad platforms
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
