@@ -12,8 +12,6 @@ metadata:
 next:
   description: ''
 ---
-<br />
-
 Planner is one of the key actioning capabilities of the Lifesight platform. It is a powerful forecasting and budget allocation tool that allows you to project business outcomes based on different spend allocations and marketing strategies. By leveraging Planner, you can
 
 * Forecast potential revenue and other KPIs for future time periods.
