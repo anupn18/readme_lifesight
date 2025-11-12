@@ -1,5 +1,6 @@
 ---
 title: Lifesight's Approach
+excerpt: Lifesight's unique approach to Marketing Mix Modelling
 deprecated: false
 hidden: false
 metadata:
