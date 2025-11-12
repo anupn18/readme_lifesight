@@ -1,6 +1,6 @@
 ---
 title: Marketing Mix Modelling
-excerpt: A Comprehensive Guide on Marketing Mix Modelling
+excerpt: A Comprehensive Introduction on Marketing Mix Modelling
 deprecated: false
 hidden: false
 metadata:
@@ -10,46 +10,39 @@ metadata:
 next:
   description: ''
 ---
-In today's ever-changing business landscape, making smart marketing decisions isn't just beneficial—it's essential. We all invest heavily in various marketing channels like TV, radio, digital ads, and social media to connect with our audience. But here's the million-dollar question: Which of these channels are driving incremental sales and giving you the best bang for your buck? That's where Marketing Mix Modeling (MMM) comes into play.
+Marketing Mix Modeling (MMM) is a top-down statistical approach that originated in the field of econometrics. It uses aggregated historical data to explain business outcomes — such as sales, revenue, or leads — as a function of various factors including media (paid, owned, and earned), pricing, promotions, distribution, events, product launches, competitive activity, macroeconomic trends, and seasonality.
+MMM provides a comprehensive framework for marketing measurement, enabling marketers to quantify incrementality - the true impact of marketing and other drivers — and apply these learnings to guide future budget allocation and optimization decisions.
 
-For Brands that have access to historical data, MMM is the shortest route to measure incrementality. Lifesight's approach to MMM is causally informed a combination of quasi-causal inference from observational data and causal inference from experiments (which is used for model calibration)
+The concept of the Marketing Mix traces its origins to a <Anchor label="paper" target="_blank" href="https://www.guillaumenicaise.com/wp-content/uploads/2013/10/Borden-1984_The-concept-of-marketing-mix.pdf">paper</Anchor> written by _Prof. Neil H. Borden of Harvard in 1960. _ His work introduced the idea of combining multiple marketing elements - the “mix” - to influence consumer behavior and drive business outcomes. In later years, econometric techniques, particularly regression analysis, were applied to these concepts to quantify their effects. This evolution gave rise to Marketing Mix Modeling (MMM) as a formal statistical approach.
 
-Let's dive into what MMM is all about, why it's a game-changer, and how it can work wonders for your business. 
+For brands with sufficient historical data, Marketing Mix Modeling (MMM) remains the most effective and scalable approach to measure incrementality - the true causal impact of marketing and external factors on business outcomes. Over time, a variety of algorithmic and statistical methods have been developed to enhance MMM accuracy and adaptability. Lifesight’s approach builds on this foundation by integrating principles of causal inference from observational data (often referred to as natural experiments in the industry). Under the hood, our models combine Structural Causal Modeling (SCM), Machine Learning based Inference, and Ensemble Forecasting Techniques to deliver a robust, interpretable, and scalable causal measurement framework.
+
+Let's dive into what MMM is all about, why it's a game-changer, and how it can work wonders for your business.
 
 ## The Basics: What is Marketing Mix Modelling?
 
-At its core, Marketing Mix Modelling is a statistical analysis technique used to measure the impact of various marketing activities on sales or other key performance indicators (KPIs). It's like a microscope that allows marketers to zoom in on their efforts and understand which elements are truly driving results. These techniques are time tested and has been in use for decades in the industry.
+At its core, Marketing Mix Modeling (MMM) is a statistical analysis technique used to measure the impact of various marketing activities on sales or other key performance indicators (KPIs). Think of it as a microscope for marketing performance — it allows marketers to zoom in on their efforts and understand which elements are truly driving business outcomes. These techniques are time-tested, having been used for decades across industries to guide data-driven decisions.
+Imagine you're a chef trying to perfect a recipe. You have multiple ingredients — salt, pepper, herbs, and spices — and you want to know how each one influences the final taste. Now, replace the chef with a marketer, the recipe with a marketing strategy, and the ingredients with marketing channels.
+That’s the essence of Marketing Mix Modeling: it helps marketers decompose and optimize the impact of each channel and external factor, finding the right “mix” that produces the best overall performance.
+(This analogy is inspired by the first paper on the concept of the Marketing Mix by Prof. Neil H. Borden.)
 
-Imagine you're a chef trying to perfect a recipe. You have various ingredients at your disposal – salt, pepper, herbs, and spices – and you want to know how each one contributes to the final taste. Now, replace `chef` with `marketer`, `recipe` with `marketing strategy`, and `ingredients` with `marketing channels`. This is the essence of Marketing Mix Modelling (MMM). This powerful tool helps marketers dissect and optimize the impact of each channel, ensuring that the perfect combination delivers the most effective results.
-
-At **Lifesight**, we support various KPIs that are essential for businesses to measure performance and optimize campaigns. These include:
-
-* **Revenue**
-* **Conversions**
-* **Installs**
-* **Orders**
-* **Store Visits**
-* **Registrations**
-* **Reach**
-* **Subscriptions**
-* **Admissions**
-
-These KPIs serve as the dependent variables in our marketing mix models, helping marketers understand the contributions of each channel or activity to the overall business success.
+_(The above analogy is inspired by the first <Anchor label="paper" target="_blank" href="https://www.guillaumenicaise.com/wp-content/uploads/2013/10/Borden-1984_The-concept-of-marketing-mix.pdf">paper</Anchor> on the concept of the Marketing Mix by Prof. Neil H. Borden)_
 
 ### The Simple Math Behind It
 
 Let's start with a basic equation:
 
 ```text
-Sales (or any KPI) = Baseline + Marketing Effects + External Factors + Error
+Sales (or any Outcome) = Baseline (Trends + Brand Equity) Driven + Marketing Driven + Internal Factors Driven + External Factors Driven + Noise/Error
 ```
 
 Where:
 
-* **Baseline**: The expected performance without any marketing efforts.
-* **Marketing Effects**: The impact of various marketing activities, like ads, promotions, and social media campaigns.
-* **External Factors**: Elements outside of your control, such as the economy, weather, or competitor actions.
-* **Error**: The unexplained variance (because no model is perfect).
+* **Baseline**: The expected performance without any marketing efforts - driven by macroeconomic trends, brand loyalty, brand equity or other unknown/omitted variables.
+* **Marketing Effects**: The total impact of various paid media marketing activities (Total impact here is the sum of direct & indirect impact from all the marketing activities)
+* **Internal Factors**: By other factors primarily managed & controlled by the brand such as social media followers, price changes, promotions, product launches, organic search impressions (SEO)
+* **External Factors**: Elements outside of brand's direct control primary driven by competitors and their influence
+* **Error**: The unexplained variance (because no model is perfect) - also known as Noise.
 
 <br />
 
@@ -62,7 +55,7 @@ Marketing Mix Modelling evolves from simple linear models to complex, dynamic mo
 Let’s start with a simple linear model. Imagine we have two marketing channels: TV ads and social media campaigns. The equation might look like this:
 
 ```plaintext
-Sales = Baseline + (TV Spend × TV Effect) + (Social Media Spend × Social Media Effect)
+Sales = Baseline + (TV Spend × TV Effect) + (Social Media Spend × Social Media Effect) + ...
 ```
 
 Here, each marketing activity's contribution to sales is linear and proportional to the amount spent.
@@ -74,7 +67,7 @@ Here, each marketing activity's contribution to sales is linear and proportional
 Marketing doesn’t always produce immediate results. For example, TV ads might influence people for several weeks, while the effects of a social media campaign could wear off quickly. These lagging effects can be captured using **adstock** and time delay models:
 
 ```plaintext
-Sales(t) = Baseline + Σ(TV Spend(t-i) × Decay^i × TV Effect) + Σ(Social Media Spend(t-i) × Decay^i × Social Media Effect)
+Sales(t) = Baseline + Σ(TV Spend(t-i) × Decay^i × TV Effect) + Σ(Social Media Spend(t-i) × Decay^i × Social Media Effect) + ... 
 ```
 
 Where:
@@ -94,7 +87,7 @@ Marketing's impact on KPI is non linear and complex. We need to transform the in
 However, in reality, spending twice as much on a marketing channel doesn’t always yield twice the results. This phenomenon is known as **diminishing returns**. We can represent this mathematically by adjusting the linear model:
 
 ```plaintext
-Sales = Baseline + (TV Spend^0.7 × TV Effect) + (Social Media Spend^0.8 × Social Media Effect)
+Sales = Baseline + (TV Spend^0.7 × TV Effect) + (Social Media Spend^0.8 × Social Media Effect) + ... 
 ```
 
 The exponents (0.7 and 0.8) signify the diminishing returns for TV ads and social media, respectively. In practice, this shows that each additional dollar spent is less effective than the previous one.
