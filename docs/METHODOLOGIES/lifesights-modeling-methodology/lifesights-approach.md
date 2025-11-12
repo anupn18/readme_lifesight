@@ -6,8 +6,6 @@ hidden: false
 metadata:
   robots: index
 ---
-<br />
-
 ## Lifesight's Modeling Ethos
 
 
