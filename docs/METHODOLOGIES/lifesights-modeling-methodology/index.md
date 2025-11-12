@@ -19,4 +19,4 @@ For brands with sufficient historical data, Marketing Mix Modeling (MMM) remains
 
 Let's dive into what MMM is all about, why it's a game-changer, and how it can work wonders for your business.
 
-Find out Lifesight's unique approach to modelling [here](https://docs.lifesight.io/create/docs/METHODOLOGIES/lifesights-modeling-methodology#/)
+Find out Lifesight's unique approach to modelling [here](https://docs.lifesight.io/update/docs/lifesights-approach#/)
