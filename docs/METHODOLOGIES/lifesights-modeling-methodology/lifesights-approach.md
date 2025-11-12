@@ -1,14 +1,40 @@
 ---
 title: Lifesight's Approach
-excerpt: >-
-  Lifesight combines a hybrid of 3 modeling techniques to solve for MMM in a
-  unique way
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
 <br />
+
+## Lifesight's Modeling Ethos
+
+
+Lifesight’s approach to Marketing Mix Modeling is guided by three core themes : Transparency, Causality, and Algorithmic Fit. Together, these principles define how we design, build, and operationalize models that marketers can both trust and act upon.
+
+1. **Transparency**
+   We believe that measurement should be a glass box, not a black box. Lifesight has built an end-to-end modeling platform that allows users to directly upload, transform, map, configure, and train models under different assumptions - including custom causal DAGs, and flexible "weak" priors for adstock and saturation. Every step of the modeling process is transparent and reproducible, giving users full control over how data flows, variables interact, and results are derived.
+2. **Causality**
+   Traditional MMM approaches often rely on post-hoc calibration using results from marketing experiments to make the model causally sound. While Lifesight fully **supports** and **endorses** experiment-based calibration, we go a step further by embedding Causal AI techniques directly into our model-building process. This ensures that causal reasoning is not an afterthought but a core property of the model itself, improving both interpretability and robustness.
+3. Algorithmic Fit
+   Right Algorithm for the Right Task ! We use a hybrid modeling framework that combines the strengths of Structural Causal Modeling, Machine Learning–based Inference, and Ensemble Forecasting. This “best-fit” approach ensures that each stage of the MMM workflow - from variable selection to prediction - leverages the right algorithm for the right purpose, balancing interpretability, precision, and scalability. This is a unique approach in the industry where the debate is often limited to just frequentist or bayesian approach to MMM
+
+## The Three Pillars of Lifesight's MMM Framework
+
+Lifesight’s modeling framework blends three complementary techniques to deliver robust, interpretable, and scalable MMM results. Each component serves a specific purpose in ensuring that the models capture real-world marketing dynamics accurately.
+
+1. **Structural Causal Modeling (SCM)**
+   We begin our modeling process by encoding the cause-and-effect relationships between input factors into a Causal Directed Acyclic Graph (DAG). This graph represents the data-generating process of your business — independent of the actual data distributions. Think of it as a digital clone of your marketing and business system.
+   This structure allows us to map out and isolate mediation effects that are otherwise hidden in traditional regression-based approaches.   
+   For example: Top-of-funnel campaigns influencing branded search performance, Prospecting ads driving more retargeting exposure, Brand-building campaigns strengthening the baseline demand
+   Once the DAG is defined, Lifesight’s platform quantifies the strength of each causal link within it, estimating the magnitude and direction of influence between variables. These DAG structures are fully configurable by the user, making them a critical and transparent step in the model-building process at Lifesight.
+2. Machine Learning–based Inference
+   Once the causal structure is defined, Lifesight applies machine learning–based inference techniques to estimate the direct effects of all variables on the business outcome. The process begins with a ridge regression–based model, which helps capture stable relationships across multiple predictors while avoiding overfitting.
+   Each variable is first transformed with the appropriate adstock (carryover) and saturation (diminishing returns) functions to reflect real-world marketing dynamics. The model is then trained and iterated through thousands of runs to ensure convergence and robustness. This results in a large number of solutions — often over 100,000 model variants — each representing a different but plausible version of the data-generating process.
+   From these solutions, Lifesight selects the best-fitting models and applies a <Anchor label="bootstrapping" target="_blank" href="https://docs.lifesight.io/update/docs/bootstraping#/">bootstrapping</Anchor> approach to estimate the average effects and confidence intervals for each variable. This process ensures both accuracy and stability of results.
+   Finally, using the validated DAG as a guide, Lifesight runs nested regression models to quantify the indirect (mediated) effects of variables — such as when upper-funnel campaigns influence lower-funnel conversions. By combining both direct and indirect effects, the model computes the total causal impact of every marketing and non-marketing driver.
+3. Ensemble Forecasting
+   Finally, ensemble-based forecasting combines insights from multiple model variants to improve reliability. By blending outputs from different causal and machine-learning approaches, ensemble modeling reduces overfitting and provides more balanced, uncertainty-aware predictions. This ensures that strategic decisions based on MMM outputs are backed by statistically robust evidence.
 
 ## The Basics: What is Marketing Mix Modelling?
 
