@@ -11,11 +11,16 @@ metadata:
 Lifesight’s approach to Marketing Mix Modeling is guided by three core principles : Transparency, Causality, and Algorithmic Fit. Together, these principles define how we design, build, and operationalize models that marketers can both trust and act upon.
 
 1. **Transparency**
-   We believe that measurement should be a glass box, not a black box. Lifesight has built an end-to-end modeling platform that allows users to directly upload, transform, map, configure, and train models under different assumptions - including custom causal DAGs, and flexible "weak" priors for adstock and saturation. Every step of the modeling process is transparent and reproducible, giving users full control over how data flows, variables interact, and results are derived.
-2. **Causality**
-   Traditional MMM approaches often rely on post-hoc calibration using results from marketing experiments to make the model causally sound. While Lifesight fully **supports** and **endorses** experiment-based calibration of models, we go a step further by embedding Causal AI techniques directly into our model-building process. This ensures that causal reasoning is not an afterthought but a core property of the model itself, improving both interpretability and robustness.
-3. Algorithmic Fit
-   Right Algorithm for the Right Task ! We use a hybrid modeling framework that combines the strengths of Structural Causal Modeling, Machine Learning–based Inference, and Ensemble Forecasting. This “best-fit” approach ensures that each stage of the MMM workflow - from variable selection to prediction - leverages the right algorithm for the right purpose, balancing interpretability, precision, and scalability. This is a unique approach in the industry where the debate is often limited to just Frequentist Vs Bayesian approaches to MMM, Or Pearlian Vs Rubin approaches to Causal Inference.
+
+We believe that measurement should be a glass box, not a black box. Lifesight has built an end-to-end modeling platform that allows users to directly upload, transform, map, configure, and train models under different assumptions - including custom causal DAGs, and flexible "weak" priors for adstock and saturation. Every step of the modeling process is transparent and reproducible, giving users full control over how data flows, variables interact, and results are derived.
+
+1. **Causality**
+
+Traditional MMM approaches often rely on post-hoc calibration using results from marketing experiments to make the model causally sound. While Lifesight fully **supports** and **endorses** experiment-based calibration of models, we go a step further by embedding Causal AI techniques directly into our model-building process. This ensures that causal reasoning is not an afterthought but a core property of the model itself, improving both interpretability and robustness.
+
+1. Algorithmic Fit
+
+Right Algorithm for the Right Task ! We use a hybrid modeling framework that combines the strengths of Structural Causal Modeling, Machine Learning–based Inference, and Ensemble Forecasting. This “best-fit” approach ensures that each stage of the MMM workflow - from variable selection to prediction - leverages the right algorithm for the right purpose, balancing interpretability, precision, and scalability. This is a unique approach in the industry where the debate is often limited to just Frequentist Vs Bayesian approaches to MMM, Or Pearlian Vs Rubin approaches to Causal Inference.
 
 ## The Three Pillars of Lifesight's MMM Framework
 
