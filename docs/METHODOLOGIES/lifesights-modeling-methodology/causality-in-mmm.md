@@ -1,6 +1,6 @@
 ---
 title: Causality in MMM
-excerpt: How Lifesight makes MMM causally informed
+excerpt: Lifesight's approach to making MMM causally aware
 deprecated: false
 hidden: false
 metadata:
