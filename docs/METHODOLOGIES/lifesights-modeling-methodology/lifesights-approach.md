@@ -27,7 +27,7 @@ Right Algorithm for the Right Task ! We use a hybrid modeling framework that com
 Lifesight’s modeling framework blends three complementary techniques to deliver robust, interpretable, and scalable MMM results. Each component serves a specific purpose in ensuring that the models capture real-world marketing dynamics accurately.
 
 1. **Structural Causal Modeling (SCM)**
-   We begin our modeling process by encoding the cause-and-effect relationships between input factors into a Causal Directed Acyclic Graph (DAG). This graph represents the data-generating process of your business — independent of the actual data distributions. Think of it as a digital clone of your marketing and business system.
+   We begin our modeling process by encoding the cause-and-effect relationships between input factors into a Causal Directed Acyclic Graph (DAG). This graph represents the data-generating process of your business - independent of the actual data distributions. Think of it as a digital clone of your marketing and business system.
    This structure allows us to map out and isolate mediation effects that are otherwise hidden in traditional regression-based approaches.  
    For example: Top-of-funnel campaigns influencing branded search performance, Prospecting ads driving more retargeting exposure, Brand-building campaigns strengthening the baseline demand
    Once the DAG is defined, Lifesight’s platform quantifies the strength of each causal link within it, estimating the magnitude and direction of influence between variables. These DAG structures are fully configurable by the user, making them a critical and transparent step in the model-building process at Lifesight.
