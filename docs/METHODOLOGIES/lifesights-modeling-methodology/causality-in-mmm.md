@@ -1,6 +1,6 @@
 ---
 title: Causality in MMM
-excerpt: ''
+excerpt: How Lifesight makes MMM causally informed
 deprecated: false
 hidden: false
 metadata:
