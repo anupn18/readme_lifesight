@@ -30,34 +30,35 @@ The data ingested includes (but is not limited to):
 
 ## Steps to Integrate with Vibe CTV
 
-1. Navigate to the Integrations Tab
+### 1. Navigate to the Integrations Tab
 
 In your Lifesight workspace, open the Integrations section.
 
-2. Search for Vibe
+### 2. Search for Vibe
 
 Type Vibe CTV in the search bar to locate the integration.
 
-3. Select the Integration Tile
+### 3. Select the Integration Tile
 
 Click on the Vibe tile and select Connect.
 
-4. Enter Required Credentials
+### 4. Enter Required Credentials
 
 Provide the authentication details (API key)
 
-5. Obtaining the API Key
-   1. Log into your Vibe CTV Dashboard
-   2. Go to Account Settings
-   3. Navigate to Developer Tool > API Keys in the menu
-   4. Create a New API Key
-   5. Click on “Create API Key” and enter a name for your key
-   6. Your API key will be generated and displayed once
-   7. Copy & Store Your API Key Safely
-   8. For security reasons, you won’t be able to view the key again after this step
-   9. Click “Copy” and store it in a secure location
-   10. Paste the API Key in the modal
-6. Data Transfer Setup by Lifesight
+### 5. Obtaining the API Key
+
+1. Log into your Vibe CTV Dashboard
+2. Go to Account Settings
+3. Navigate to Developer Tool > API Keys in the menu
+4. Create a New API Key
+5. Click on “Create API Key” and enter a name for your key
+6. Your API key will be generated and displayed once
+7. Copy & Store Your API Key Safely
+8. For security reasons, you won’t be able to view the key again after this step
+9. Click “Copy” and store it in a secure location
+10. Paste the API Key in the modal
+11. Data Transfer Setup by Lifesight
 
 Once credentials are verified, Lifesight configures the data transfer and begins ingesting Vibe CTV campaign data.
 
