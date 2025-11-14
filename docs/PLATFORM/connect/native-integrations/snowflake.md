@@ -14,21 +14,19 @@ next:
 
 The **Lifesight–Snowflake** integration enables you to connect your Snowflake account to the Lifesight platform. Once connected, Lifesight can securely ingest your selected tables or views from Snowflake and unify them with your other marketing and business data sources. This integration allows for comprehensive attribution, analytics, and measurement within the Lifesight ecosystem.
 
-<br />
+## Prerequisites
 
 Before setting up the integration, ensure the following prerequisites are met:
 
-Snowflake Account Access: You have access to a Snowflake account with permission to create and manage integrations or external connections.
-
-Warehouse and Database: Ensure that the datasets you want to connect are available in an active Snowflake warehouse and database.
-
-Read Permissions: The user or service account used for integration should have at least SELECT privileges on the specific tables or views you plan to ingest.
-
-Network Access: The Snowflake instance should be accessible from external connections. If IP whitelisting is enabled, ensure that Lifesight’s IP addresses are added to the allowed list.
-
-Credentials: You’ll need your Snowflake account name, warehouse name, database, schema, username, and password or key-pair authentication details to complete the connection setup.
+1. Snowflake Account Access: You have access to a Snowflake account with permission to create and manage integrations or external connections.
+2. Warehouse and Database: Ensure that the datasets you want to connect are available in an active Snowflake warehouse and database.
+3. Read Permissions: The user or service account used for integration should have at least SELECT privileges on the specific tables or views you plan to ingest.
+4. Network Access: The Snowflake instance should be accessible from external connections. If IP whitelisting is enabled, ensure that Lifesight’s IP addresses are added to the allowed list.
+5. Credentials: You’ll need your Snowflake account name, warehouse name, database, schema, username, and password or key-pair authentication details to complete the connection setup.
 
 # Steps to Integrate with Snowflake
+
+<br />
 
 * In your Snowflake account, Go to `+` and click on `SQL Worksheet`
 * Once done, paste the following in a New SQL Worksheet
