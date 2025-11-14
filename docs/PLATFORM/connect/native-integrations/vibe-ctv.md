@@ -60,3 +60,5 @@ Provide the authentication details (API key)
 6. Data Transfer Setup by Lifesight
 
 Once credentials are verified, Lifesight configures the data transfer and begins ingesting Vibe CTV campaign data.
+
+<Image align="center" border={false} src="https://files.readme.io/6093ec28f593cfb51a0b963fc0cf984739120bb5052bbb963ed5af21c91a6ce3-Vibe.png" />
