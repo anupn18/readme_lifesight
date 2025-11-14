@@ -1,8 +1,8 @@
 ---
-title: '[WIP] Snowflake'
+title: Snowflake
 excerpt: Integrate Snowflake to pull in Marketing data from your data warehouse
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: ''
   description: ''
