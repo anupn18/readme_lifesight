@@ -16,7 +16,9 @@ Shopify is a comprehensive e-commerce platform that provides early-stage entrepr
 
 ## **Use Case: Modeling the Impact of Marketing Spends on your Shopify Revenue**
 
-<br />
+This integration connects your Shopify store data with Lifesight to bring in key commerce metrics such as orders, revenue, discounts, and customer information. These datasets are unified with your marketing spend and performance data from other channels like Meta, Google, and TikTok.
+
+By doing so, you can accurately measure how each marketing channel contributes to driving Shopify revenue. The integration enables advanced Marketing Mix Models (MMM) and attribution analysis within Lifesight, helping you quantify the incremental impact of your marketing investments and optimize future spend for maximum return.
 
 ## Connect your Shopify Account
 
