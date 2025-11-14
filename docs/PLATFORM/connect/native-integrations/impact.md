@@ -1,5 +1,5 @@
 ---
-title: '[WIP] Impact'
+title: Impact
 deprecated: false
 hidden: true
 metadata:
