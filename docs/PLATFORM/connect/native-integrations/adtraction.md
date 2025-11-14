@@ -1,5 +1,5 @@
 ---
-title: '[WIP] Adtraction'
+title: Adtraction
 deprecated: false
 hidden: true
 metadata:
