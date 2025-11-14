@@ -24,8 +24,8 @@ The data ingested includes (but is not limited to):
 
 ## Steps to Integrate with Walmart Connect
 
-Navigate to the Integrations Tab
-In your Lifesight workspace, open the Integrations section.
+1. Navigate to the Integrations Tab  
+   In your Lifesight workspace, open the Integrations section.
 
 Search for Walmart Connect
 Type “Walmart Connect” in the search bar to locate the integration.
