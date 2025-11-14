@@ -26,8 +26,6 @@ Before setting up the integration, ensure the following prerequisites are met:
 
 # Steps to Integrate with Snowflake
 
-<br />
-
 * In your Snowflake account, Go to `+` and click on `SQL Worksheet`
 * Once done, paste the following in a New SQL Worksheet
 
@@ -78,4 +76,27 @@ ALTER USER Lifesight SET DEFAULT_ROLE = "LS_ADMIN";
   * Schema Name
   * Table Name
   * Region
-* Lifesight support will reach out to you once the integration is ready
+* To finish the integration process, click on the Snowflake tile in the Integrations tab
+* Navigate to the Integrations tab in the left-hand menu bar.
+* In the search field, type in "Snowflake" to locate the integration for this application.
+* Provide the Database, Schema, Tables and Warehouse details after executing the SQL commands provided above
+* Click on "Done"
+
+<Image align="center" border={false} src="https://files.readme.io/a07f2a6a3c670bd09874d8dfea8e5d407faaabfac2be41d5c920eac02c5d3935-Snowflake.png" />
+
+<Callout icon="📘" theme="info">
+  If you have a Firewall setup for Snowflake, please make sure you create a Network Policy for Snowflake
+
+  Step 1: Create a network policy for your external system user  
+
+  CREATE NETWORK POLICY LIFESIGHT_NETWORK_POLICY
+  ALLOWED_IP_LIST = ('35.206.86.230')
+  COMMENT = 'Restrict Lifesight to specific IP only';
+
+  Step 2: Apply this policy ONLY to your new user
+
+  ALTER USER LIFESIGHT
+  SET NETWORK_POLICY = 'LIFESIGHT_NETWORK_POLICY';
+</Callout>
+
+<br />
