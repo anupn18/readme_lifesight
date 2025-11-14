@@ -10,10 +10,18 @@ metadata:
 next:
   description: ''
 ---
+<br />
+
+Snowflake is a fully managed cloud data platform that provides scalable storage, processing, and analysis for both structured and semi-structured data. It is widely used by data teams for its powerful query performance, elasticity, and ability to seamlessly operate across multiple cloud environments.
+
+The Lifesight–Snowflake integration enables you to connect your Snowflake account to the Lifesight platform. Once connected, Lifesight can securely ingest your selected tables or views from Snowflake and unify them with your other marketing and business data sources. This integration allows for comprehensive attribution, analytics, and measurement within the Lifesight ecosystem.
+
+<br />
+
 # Steps to Integrate with Snowflake
 
 * In your Snowflake account, Go to `+` and click on `SQL Worksheet`
-* Once done, paste the following in a New SQL Worksheet 
+* Once done, paste the following in a New SQL Worksheet
 
 ```
 -- Create a New User for Lifesight
