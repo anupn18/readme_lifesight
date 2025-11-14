@@ -22,37 +22,30 @@ Walmart Connect serves as a data source, providing detailed retail media perform
 The imported data includes:
 
 * **Impressions** — Total number of ad impressions served
-* **Clicks** — Total ad clicks generated  
+* **Clicks** — Total ad clicks generated
 * **Spend** — Total ad spend for campaigns
 * **Sales/Revenue** — Attributed sales driven through Walmart Connect campaigns
 
 ## Integration Setup Steps
 
 ### 1. Navigate to the Integrations Tab
+
 In your Lifesight workspace, open the Integrations section.
 
 ### 2. Search for Walmart Connect
+
 Type "Walmart Connect" in the search bar to locate the integration.
 
 ### 3. Select the Integration Tile
+
 Click on the Walmart Connect tile and select **Connect**.
 
 ### 4. Enter Required Credentials
-Provide the required API credentials for your Walmart Connect account.
 
-## Obtaining API Credentials
+Enter your Walmart Connect Ad Account ID. If you would like to add more ad account, click on the "+Add Account" button to do so.
 
-Follow these steps to get your Walmart Connect API credentials:
+### 5. Finish the setup
 
-1. **Log in to your Walmart Connect Partner Portal**
-2. **Navigate to Account Settings**
-3. **Go to Developer Tools → API Credentials** in the menu
-4. **Click Create New API Key**
-5. **Name your key and click Generate**
-6. **Copy your Client ID and Client Secret** — these will only be displayed once
-7. **Store the credentials securely**
-8. **Paste them into the Lifesight integration modal** when prompted
+Click Connect to complete the integration process
 
-## Data Transfer Setup
-
-Once your credentials are verified, Lifesight will automatically configure the data transfer and begin importing Walmart Connect campaign data into your platform.
+<br />
