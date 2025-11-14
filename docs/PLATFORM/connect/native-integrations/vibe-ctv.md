@@ -1,7 +1,7 @@
 ---
-title: '[WIP] Vibe CTV'
+title: Vibe CTV
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
