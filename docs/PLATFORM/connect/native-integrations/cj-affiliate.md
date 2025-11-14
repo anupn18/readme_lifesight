@@ -1,5 +1,5 @@
 ---
-title: '[WIP] CJ Affiliate'
+title: CJ Affiliate
 deprecated: false
 hidden: true
 metadata:
