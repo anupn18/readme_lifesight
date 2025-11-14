@@ -1,5 +1,5 @@
 ---
-title: '[WIP] Everflow'
+title: Everflow
 deprecated: false
 hidden: true
 metadata:
