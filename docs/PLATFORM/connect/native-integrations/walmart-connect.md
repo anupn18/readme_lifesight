@@ -48,4 +48,12 @@ Enter your Walmart Connect Ad Account ID. If you would like to add more ad accou
 
 Click Connect to complete the integration process
 
-<br />
+<Image align="center" border={false} src="https://files.readme.io/934eeb5f8cd99726cce4047528feea12d8d365665d34b5e5a852620ea32d295c-Walmart_Connect.png" />
+
+<Callout icon="❗️">
+  Before initiating the integration, **Walmart Connect must grant Lifesight access to your advertising account**.
+
+  To authorize this, please send an email to the Lifesight support team or contact your dedicated Account Manager with the following message:
+
+  We, (_Brand Name_), hereby grant Lifesight access to our Walmart Connect ad account (_Ad Account ID_).
+</Callout>
