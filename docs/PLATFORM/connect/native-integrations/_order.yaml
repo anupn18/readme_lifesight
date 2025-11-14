@@ -4,6 +4,7 @@
 - custom-connectors
 - lifesight-custom-backend-implementation
 - javascript-sdk
+- lifesight-tracking-pixel
 - shopify-integration
 - google-ads-integration
 - google-analytics-integration
@@ -27,7 +28,6 @@
 - moloco
 - taboola
 - salesforce-commerce-cloud
-- lifesight-tracking-pixel
 - vibe-ctv
 - reddit-ads
 - walmart-connect
