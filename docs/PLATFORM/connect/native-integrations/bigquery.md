@@ -1,5 +1,5 @@
 ---
-title: '[WIP] BigQuery'
+title: BigQuery
 excerpt: Integrate Google BigQuery to pull in Marketing data from your data warehouse
 deprecated: false
 hidden: true
