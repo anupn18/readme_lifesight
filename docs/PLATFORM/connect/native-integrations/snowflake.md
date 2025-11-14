@@ -1,6 +1,6 @@
 ---
 title: '[WIP] Snowflake'
-excerpt: ''
+excerpt: Integrate Snowflake to pull in Marketing data from your data warehouse
 deprecated: false
 hidden: true
 metadata:
@@ -10,13 +10,23 @@ metadata:
 next:
   description: ''
 ---
-<br />
+**Snowflake** is a fully managed cloud data platform that provides scalable storage, processing, and analysis for both structured and semi-structured data. It is widely used by data teams for its powerful query performance, elasticity, and ability to seamlessly operate across multiple cloud environments.
 
-Snowflake is a fully managed cloud data platform that provides scalable storage, processing, and analysis for both structured and semi-structured data. It is widely used by data teams for its powerful query performance, elasticity, and ability to seamlessly operate across multiple cloud environments.
-
-The Lifesight–Snowflake integration enables you to connect your Snowflake account to the Lifesight platform. Once connected, Lifesight can securely ingest your selected tables or views from Snowflake and unify them with your other marketing and business data sources. This integration allows for comprehensive attribution, analytics, and measurement within the Lifesight ecosystem.
+The **Lifesight–Snowflake** integration enables you to connect your Snowflake account to the Lifesight platform. Once connected, Lifesight can securely ingest your selected tables or views from Snowflake and unify them with your other marketing and business data sources. This integration allows for comprehensive attribution, analytics, and measurement within the Lifesight ecosystem.
 
 <br />
+
+Before setting up the integration, ensure the following prerequisites are met:
+
+Snowflake Account Access: You have access to a Snowflake account with permission to create and manage integrations or external connections.
+
+Warehouse and Database: Ensure that the datasets you want to connect are available in an active Snowflake warehouse and database.
+
+Read Permissions: The user or service account used for integration should have at least SELECT privileges on the specific tables or views you plan to ingest.
+
+Network Access: The Snowflake instance should be accessible from external connections. If IP whitelisting is enabled, ensure that Lifesight’s IP addresses are added to the allowed list.
+
+Credentials: You’ll need your Snowflake account name, warehouse name, database, schema, username, and password or key-pair authentication details to complete the connection setup.
 
 # Steps to Integrate with Snowflake
 
