@@ -2,6 +2,7 @@
 - custom-webhooks
 - integrations
 - custom-connectors
+- lifesight-custom-backend-implementation
 - shopify-integration
 - google-ads-integration
 - google-analytics-integration
@@ -25,7 +26,6 @@
 - moloco
 - taboola
 - javascript-sdk
-- lifesight-custom-backend-implementation
 - salesforce-commerce-cloud
 - lifesight-tracking-pixel
 - vibe-ctv
