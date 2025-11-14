@@ -1,6 +1,7 @@
 - custom-apis
 - custom-webhooks
 - integrations
+- custom-connectors
 - shopify-integration
 - google-ads-integration
 - google-analytics-integration
@@ -23,7 +24,6 @@
 - snowflake
 - moloco
 - taboola
-- custom-connectors
 - javascript-sdk
 - lifesight-custom-backend-implementation
 - salesforce-commerce-cloud
