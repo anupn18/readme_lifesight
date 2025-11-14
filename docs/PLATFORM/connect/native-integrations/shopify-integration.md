@@ -14,6 +14,10 @@ next:
 ---
 Shopify is a comprehensive e-commerce platform that provides early-stage entrepreneurs and established businesses with the tools to build, manage, and grow an online retail business. It specializes in simplifying the process of selling goods directly to consumers (D2C) by unifying all aspects of commerce—from website creation to back-office operations—into a single, user-friendly interface.
 
+## **Use Case: Modeling the Impact of Marketing Spends on your Shopify Revenue**
+
+<br />
+
 ## Connect your Shopify Account
 
 To integrate your Shopify data and allow Lifesight to collect data from your store and use it in your marketing activities:
@@ -22,7 +26,7 @@ To integrate your Shopify data and allow Lifesight to collect data from your sto
 2. In the search field, type "Shopify" to locate the integration.
 3. Click the Shopify tile and enter your store name (the part before .myshopify.com).
 
-   <Image align="center" src="https://files.readme.io/b09f4f7543e9563394b05cfe29c85470c11c278fea90d35e9fc4cb836dac4e12-Shopify_Install_Page.png" />
+   <Image align="center" border={false} src="https://files.readme.io/b09f4f7543e9563394b05cfe29c85470c11c278fea90d35e9fc4cb836dac4e12-Shopify_Install_Page.png" />
 4. Click `Connect`
 5. You’ll be redirected to Shopify and shown the permission screens—review and approve the installation.
 6. After installation, you’ll be redirected back to Lifesight.
