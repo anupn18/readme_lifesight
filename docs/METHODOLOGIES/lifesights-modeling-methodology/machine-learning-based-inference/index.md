@@ -1,5 +1,5 @@
 ---
-title: Machine Learning based Inference
+title: ML based Inference
 deprecated: false
 hidden: false
 metadata:
