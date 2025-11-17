@@ -18,7 +18,7 @@ We believe that measurement should be a glass box, not a black box. Lifesight ha
 
 Traditional MMM approaches often rely on post-hoc calibration using results from marketing experiments to make the model causally sound. While Lifesight fully **supports** and **endorses** experiment-based calibration of models, we go a step further by embedding Causal AI techniques directly into our model-building process. This ensures that causal reasoning is not an afterthought but a core property of the model itself, improving both interpretability and robustness.
 
-3. Algorithmic Fit
+3. **Algorithmic Fit**
 
 Right Algorithm for the Right Task ! We use a hybrid modeling framework that combines the strengths of Structural Causal Modeling, Machine Learning–based Inference, and Ensemble Forecasting. This “best-fit” approach ensures that each stage of the MMM workflow - from variable selection to prediction - leverages the right algorithm for the right purpose, balancing interpretability, precision, and scalability. This is a unique approach in the industry where the debate is often limited to just Frequentist Vs Bayesian approaches to MMM, Or Pearlian Vs Rubin approaches to Causal Inference.
 
@@ -39,9 +39,14 @@ Lifesight’s modeling framework blends three complementary techniques to delive
 3. **Ensemble Forecasting**
    Forecasting in marketing is inherently time-series–driven, relying on the auto-regressive nature of business data : where today’s outcomes are influenced by yesterday’s results. Traditional regression techniques, however, assume data points are independent and identically distributed (IID), which limits their ability to fully capture these temporal patterns. To address this, Lifesight employs an ensemble of advanced forecasting algorithms - including SARIMAX, ARIMA, Bayesian, and LSTM models. These algorithms are trained on the most recent two years of historical data, incorporating all known covariates (such as marketing, pricing, and macroeconomic variables).
 
-   The core question they answer is: “What would happen to your business next year if you continued operating exactly as you did last year?” On top of this baseline projection, Lifesight applies what we call **_Incrementality Adjustments to Ensemble Forecasting. _** Here, the machine-learning MMM model (which has already learned adstock, saturation, and incremental effects) provides causal adjustments to the pure time-series forecast. The result is a projection that reflects both statistical continuity and causal understanding — not just what will happen, but why.
-   By combining Structural Causal Modeling, Machine Learning–based Inference, and Ensemble Forecasting, Lifesight achieves the best possible algorithmic fit for tackling marketing measurement, optimization, and forecasting challenges — while maintaining causal interpretability throughout the process.
+   The core question they answer is: “What would happen to your business next year if you continued operating exactly as you did last year?” On top of this baseline forecast, Lifesight applies what we call **_Incrementality Adjustments to Ensemble Forecasting. _** Here, the machine-learning MMM model (which has already learned adstock, saturation, incremental effects and interaction effects) provides causal adjustments to the pure time-series forecast. The result is a projection that reflects both statistical continuity and causal understanding — not just what will happen, but why.  
 
-<Image align="center" border={false} src="https://files.readme.io/b0afecc6c777ac1d4cf44d18fd84e02fcc5c53c4265edc1b5026474e3b6b6a61-ok.jpg" />
+   <br />
+
+   By combining Structural Causal Modeling, Machine Learning–based Inference, and Ensemble Forecasting, Lifesight achieves the best possible algorithmic fit for tackling marketing measurement, optimization, and forecasting challenges — while maintaining causal interpretability throughout the process.  
+
+<br />
+
+<Image border={false} />
 
 <br />
