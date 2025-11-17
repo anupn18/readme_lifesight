@@ -1,5 +1,6 @@
 ---
 title: ML based Inference
+excerpt: Nested Ridge Regression based Robust Incrementality Measurements
 deprecated: false
 hidden: false
 metadata:
