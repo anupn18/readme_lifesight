@@ -45,8 +45,6 @@ Lifesight’s modeling framework blends three complementary techniques to delive
 
    By combining Structural Causal Modeling, Machine Learning–based Inference, and Ensemble Forecasting, Lifesight achieves the best possible algorithmic fit for tackling marketing measurement, optimization, and forecasting challenges — while maintaining causal interpretability throughout the process.  
 
-<br />
-
-<Image border={false} />
+<Image align="center" border={false} src="https://files.readme.io/c09fa5c3347a2d574cfe5f4d26247a87c9bd06f5cb0271d04da28926b5083e8d-xxyyz.jpg" />
 
 <br />
