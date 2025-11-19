@@ -47,7 +47,11 @@ Lifesight’s modeling framework blends three complementary techniques to delive
 
 <br />
 
-<Image align="center" border={true} src="https://files.readme.io/522c497bb3bc7108f28f97c74701ce9d4b6429dcf501bd8c072bd951a01e68a8-ChatGPT_Image_Nov_19_2025_02_36_09_PM.png" className="border" />
+<Image align="center" border={false} src="https://files.readme.io/423b56307e57fd529ed3e376dd206d5ec936d2d357c8b81b86ae7f8c3269f23f-ok.jpg" />
+
+<br />
+
+<br />
 
 <br />
 
