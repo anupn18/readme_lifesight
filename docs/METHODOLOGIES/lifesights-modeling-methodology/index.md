@@ -15,9 +15,13 @@ next:
 At its core, MMM helps marketers answer one of the most important questions in growth : **“What truly drives performance, and how much?”**  
 By quantifying the incremental impact of each marketing and non-marketing driver, MMM provides a powerful foundation for smarter budget allocation, scenario planning, and strategic decision-making.
 
+***
+
 **A Brief Origin Story**
 
 The idea behind the “Marketing Mix” dates back to a landmark <Anchor label="paper" target="_blank" href="https://www.guillaumenicaise.com/wp-content/uploads/2013/10/Borden-1984_The-concept-of-marketing-mix.pdf">paper</Anchor> published by Prof. Neil H. Borden of Harvard in 1960. Borden introduced the concept of combining multiple marketing levers - the “mix” - to shape consumer behavior and business outcomes. As marketing grew more complex, econometric techniques, especially regression analysis - were introduced to quantify the influence of each lever. This evolution marked the emergence of Marketing Mix Modeling as a formal and rigorous approach to marketing measurement.
+
+***
 
 **Why MMM Matters Today**
 
@@ -32,6 +36,8 @@ Lifesight’s MMM builds on this evolution. Our models combine:
 * Ensemble forecasting techniques
 
 Together, these create a robust, interpretable, and scalable framework for measuring the real drivers of growth—even in a privacy-restricted, cookie-less world.
+
+***
 
 **Key Benefits of MMM**
 
