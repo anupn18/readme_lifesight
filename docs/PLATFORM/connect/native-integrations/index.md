@@ -53,7 +53,7 @@ Lifesight's integrations seamlessly connect our platform with your favorite tool
 22. [Moloco](https://docs.lifesight.io/docs/moloco)
 23. [Taboola](https://docs.lifesight.io/docs/taboola)
 24. [Salesforce Commerce Cloud](https://docs.lifesight.io/docs/salesforce-commerce-cloud)
-25. [Vibe](https://docs.lifesight.io/docs/vibe-ctv)
+25. [Vibe CTV](https://docs.lifesight.io/docs/vibe-ctv)
 26. [Reddit Ads](https://docs.lifesight.io/docs/reddit-ads)
 27. [Walmart Connect](https://docs.lifesight.io/docs/walmart-connect)
 28. [Amazon S3](https://docs.lifesight.io/docs/amazon-s3)
