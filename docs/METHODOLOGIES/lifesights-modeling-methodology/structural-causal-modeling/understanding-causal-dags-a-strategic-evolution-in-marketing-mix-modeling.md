@@ -1,5 +1,5 @@
 ---
-title: 'Understanding Causal DAGs: A Strategic Evolution in Marketing Mix Modeling'
+title: Understanding Causal DAGs
 deprecated: false
 hidden: false
 metadata:
