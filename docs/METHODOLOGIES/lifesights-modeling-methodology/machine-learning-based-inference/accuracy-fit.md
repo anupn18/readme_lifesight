@@ -1,7 +1,7 @@
 ---
 title: Accuracy & Fit
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
