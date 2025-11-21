@@ -1,6 +1,6 @@
 ---
-title: Marketing Mix Modelling
-excerpt: A Comprehensive Introduction on Marketing Mix Modelling
+title: Marketing Mix Modeling
+excerpt: A Comprehensive Introduction on Marketing Mix Modeling
 deprecated: false
 hidden: false
 metadata:
