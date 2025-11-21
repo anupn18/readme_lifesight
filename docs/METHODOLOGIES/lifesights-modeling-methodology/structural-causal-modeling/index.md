@@ -53,98 +53,79 @@ Within this domain, there are two major schools of thought:
 
 **The Pearlian Approach**
 
-The Pearlian school of causality is built around Structural Causal Models (SCMs) and Causal Directed Acyclic Graphs (DAGs). In this framework:
+The Pearlian school of causality is built around the concept of **Structural Causal Models (SCMs)** and **Causal Directed Acyclic Graphs (DAGs)** . 
 
-Causal relationships are explicitly encoded as a graph
+In this framework:
 
-Assumptions are transparently stated
-
-Cause-and-effect paths can be visualized
-
-Direct and indirect effects can be computed mathematically
+* Causal relationships are explicitly encoded as a graph
+* Assumptions are transparently stated
+* Cause-and-effect paths can be visualized
+* Direct and indirect effects can be computed mathematically
 
 This approach answers questions such as:
 
-What caused what?
-
-How does influence propagate through the system?
-
-What happens if I intervene on this variable?
+* What caused what?
+* How does influence propagate through the system?
+* What happens if I intervene on this variable?
 
 This aligns perfectly with the needs of Marketing Mix Modeling, where channels interact, sequence matters, and mediation plays a critical role (e.g., upper funnel → lower funnel → conversions).
 
 **The Rubin Approach**
 
-The Rubin framework, also known as the Potential Outcomes framework, focuses on estimating causal effects by comparing observed outcomes with counterfactual outcomes — i.e., what would have happened if an intervention had not taken place.
+The Rubin framework, also known as the Potential Outcomes framework, focuses on estimating causal effects by comparing observed outcomes with counterfactual outcomes - i.e., what would have happened if an intervention had not taken place.
 
 This approach underpins many statistical techniques such as:
 
-Difference-in-Differences (DiD)
-
-Propensity Score Matching
-
-Synthetic controls
-
-Regression Discontinuity
+* Difference-in-Differences (DiD)
+* Propensity Score Matching
+* Synthetic controls
+* Regression Discontinuity
 
 It is highly effective for evaluating the average treatment effect of specific interventions but is less suited to modeling complex multi-variable systems with feedback loops, interactions, and mediation chains.
 
 ***
 
-**Lifesight’s Position: A Pearlian Foundation, Strengthened by Practical Calibration**
+**Lifesight’s Position**
 
-Lifesight’s MMM framework is primarily grounded in the Pearlian paradigm, using Causal Directed Acyclic Graphs (DAGs) as the structural backbone of the model.
+Lifesight’s MMM framework is primarily grounded in the Pearlian paradigm, using Directed Acyclic Graphs (DAGs) as the structural backbone of the model.
 
 This is because DAGs allow us to explicitly represent:
 
-Multi-touch marketing effects
+* Funnel progression (awareness → consideration → conversion)
+* Interdependencies between channels
+* Mediated and halo effects
+* Feedback loops and latent drivers
 
-Funnel progression (awareness → consideration → conversion)
-
-Interdependencies between channels
-
-Mediated and halo effects
-
-Feedback loops and latent drivers
-
-In other words, the DAG acts as a structural blueprint of the business and its marketing system — a representation that exists independently of the actual data values.
-
-At the same time, Lifesight does not treat these two schools as mutually exclusive.
+In other words, the DAG acts as a structural blueprint of the business and its marketing system — a representation that exists independently of the actual data values. At the same time, Lifesight does not treat these two schools as mutually exclusive.
 
 In keeping with our principle of Algorithmic Fit, Lifesight:
 
-Uses Pearlian DAGs for structure, interpretability, and mediation modeling
-
-Leverages Rubin-style experimental results to calibrate and validate causal strength
-
-Incorporates both into a unified, transparent, and robust framework
+* Uses Pearlian DAGs for structure, interpretability, and mediation modeling
+* Leverages Rubin-style experimental results to calibrate and validate causal strength
+* Incorporates both into a unified, transparent, and robust framework
 
 This hybrid philosophy enables Lifesight to offer the best of both worlds:
 
-The structural clarity of causal graphs
+* The structural clarity of causal graphs
+* The practical evidence of counterfactual testing
+* The scalability of machine learning
+* The credibility of experimentation
 
-The practical evidence of counterfactual testing
+***
 
-The scalability of machine learning
-
-The credibility of experimentation
-
-Why This Matters for MMM
+**Why This Matters for MMM**
 
 Traditional MMM frameworks treat channels mainly as independent variables in a regression equation. Even when interactions are included, the assumed structure is implicit and opaque.
 
 By contrast, Lifesight’s causal DAG approach:
 
-Makes assumptions visible and editable
-
-Separates structure from estimation
-
-Captures real marketing dynamics
-
-Enables true mediation analysis
-
-Improves interpretability for stakeholders
-
-Aligns models with how businesses actually operate
+* Makes assumptions visible and editable
+* Separates structure from estimation
+* Captures real marketing dynamics
+* Enables true mediation analysis
+* Improves interpretability for stakeholders
+* Aligns models with how businesses actually operate
 
 This is what allows Lifesight to confidently move from correlations to causal understanding, from black-box models to glass-box systems, and from historical reporting to decision-ready intelligence.
+
+<br />
