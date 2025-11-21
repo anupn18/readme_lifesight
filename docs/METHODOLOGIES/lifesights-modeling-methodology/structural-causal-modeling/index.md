@@ -17,7 +17,7 @@ Before explaining how Lifesight incorporates Causal AI into its modeling approac
 
 1. **Experiment-Based Causal Inference**
 
-In experiment-based causal inference, causality is established through Randomized Controlled Trials (RCTs). This involves creating two statistically similar groups (a treatment group and a control group) and exposing only one of them to a specific intervention — for example, a new advertising campaign, a promotion, or a pricing change.
+In experiment-based causal inference, causality is established through techniques such as Randomized Controlled Trials (RCTs). This involves creating two statistically similar groups (a treatment group and a control group) and exposing only one of them to a specific intervention — for example, a new advertising campaign, a promotion, or a pricing change.
 
 After a defined period, the outcomes of the treatment group are compared to those of the control group. Because randomization ensures that all other factors are (on average) equal between the two groups, any systematic difference in outcomes can be attributed to the treatment itself.
 
@@ -37,17 +37,18 @@ These experiments are highly valuable inputs for:
 * Informing priors
 * Improving confidence in causal impact
 
-<br />
+_[Learn more about Experiments & Incrementality Testing <Anchor label="here" target="_blank" href="https://docs.lifesight.io/update/docs/geo-experiments-1#/">here</Anchor>]_
 
 ***
 
 2. **Observation-Based Causal Inference**
 
-Observation-based causal inference attempts to infer cause-and-effect relationships from historical, non-randomized data - the type of data most organizations already have in abundance.
+Observation-based causal inference attempts to infer cause-and-effect relationships from historical data, the type of data most organizations already have in abundance.
 
-This field is also known as **Causal Inference from Observational Data** and is closely associated with the concept of** Natural Experiments**, where naturally occurring variations in the real world act as proxies for controlled tests.
+This field is also known as **Causal Inference from Observational Data** and is closely associated with the concept of ** Natural Experiments** , where naturally occurring variations in the real world act as proxies for controlled tests.
 
-**When Lifesight refers to “Causal MMM”, it primarily means incorporating robust techniques from observation-based causal inference into the Marketing Mix Modeling process. ** This allows Lifesight to extract causal insights even when true randomized experiments are unavailable.
+**When Lifesight refers to “Causal MMM”, it primarily means incorporating robust techniques from observation-based causal inference into the Marketing Mix Modeling process.** This allows Lifesight to extract causal insights even when true randomized experiments are unavailable.   
+_(Besides this, these models could also be calibrated from more rigorously designed high power forward looking experiments)_
 
 Within this domain, there are two major schools of thought:
 
