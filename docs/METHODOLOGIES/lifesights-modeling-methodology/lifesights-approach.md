@@ -20,7 +20,7 @@ Traditional MMM approaches often rely on post-hoc calibration using results from
 
 3. **Algorithmic Fit**
 
-Right Algorithm for the Right Task ! We use a hybrid modeling framework that combines the strengths of Structural Causal Modeling, Machine Learning–based Inference, and Ensemble Forecasting. This “best-fit” approach ensures that each stage of the MMM workflow - from variable selection to prediction - leverages the right algorithm for the right purpose, balancing interpretability, precision, and scalability.   
+Right Algorithm for the Right Task ! We use a hybrid modeling framework that combines the strengths of Structural Causal Modeling, Machine Learning–based Inference, and Ensemble Forecasting. This “best-fit” approach ensures that each stage of the MMM workflow - from variable selection to prediction - leverages the right algorithm for the right purpose, balancing interpretability, precision, and scalability.  
 _This is a unique approach in the industry where the debate is often limited to just Frequentist Vs Bayesian approaches to MMM, Or Pearlian Vs Rubin approaches to Causal Inference._
 
 ***
@@ -43,6 +43,8 @@ Once the causal structure is defined and validated, Lifesight applies machine le
 From these solutions, Lifesight selects the best-fitting models and applies a <Anchor label="bootstrapping" target="_blank" href="https://docs.lifesight.io/update/docs/bootstraping#/">bootstrapping</Anchor> approach to estimate the average effects and confidence intervals for each variable. This process ensures both accuracy and stability of the results.
 
 Finally, using the validated DAG as a guide, Lifesight runs nested regression models to quantify the indirect (mediated) effects of variables—for example, when upper-funnel campaigns influence lower-funnel conversions. By combining both direct and indirect effects, and by applying a backpropagation algorithm in reverse topological order, the model redistributes direct effects across indirect edges and computes the true total effect of every variable. In doing so, it estimates the total causal impact of every marketing and non-marketing driver.
+
+[Find more about this <Anchor label="here" target="_blank" href="https://docs.lifesight.io/update/docs/machine-learning-based-inference#/">here</Anchor> ]
 
 3. **Ensemble Forecasting**
 
