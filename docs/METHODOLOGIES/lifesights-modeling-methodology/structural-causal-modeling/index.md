@@ -40,7 +40,7 @@ These experiments are highly valuable inputs for:
 
 Observation-based causal inference attempts to infer cause-and-effect relationships from historical, non-randomized data - the type of data most organizations already have in abundance.
 
-This field is also known as **Causal Inference from Observational Data** and is closely associated with the concept of** Natural Experiments**, where naturally occurring variations in the real world act as proxies for controlled tests.
+This field is also known as **Causal Inference from Observational Data** and is closely associated with the concept of **Natural Experiments**, where naturally occurring variations in the real world act as proxies for controlled tests.
 
 **When Lifesight refers to “Causal MMM”, it primarily means incorporating robust techniques from observation-based causal inference into the Marketing Mix Modeling process.** This allows Lifesight to extract causal insights even when true randomized experiments are unavailable.
 
