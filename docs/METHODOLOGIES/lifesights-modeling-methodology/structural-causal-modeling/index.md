@@ -83,7 +83,7 @@ This approach underpins many statistical techniques such as:
 
 It is highly effective for evaluating the average treatment effect of specific interventions but is less suited to modeling complex multi-variable systems with feedback loops, interactions, and mediation chains.
 
-***
+<br />
 
 **Lifesight’s Position**
 
@@ -127,5 +127,3 @@ By contrast, Lifesight’s causal DAG approach:
 * Aligns models with how businesses actually operate
 
 This is what allows Lifesight to confidently move from correlations to causal understanding, from black-box models to glass-box systems, and from historical reporting to decision-ready intelligence.
-
-<br />
