@@ -8,7 +8,7 @@ metadata:
 ---
 **How to Think About Causal Inference**
 
-Before explaining how Lifesight incorporates Causal reasoning into its modeling approach, it is important to understand how causality is typically established in data science and econometrics. 
+Before explaining how Lifesight incorporates Causal reasoning into its modeling approach, it is important to understand how causality is typically established in data science and econometrics.
 
 Broadly, there are two approaches to causal inference:
 
@@ -53,7 +53,7 @@ Within this domain, there are two major schools of thought:
 
 **The Pearlian Approach**
 
-The Pearlian school of causality is built around the concept of **Structural Causal Models (SCMs)** and **Causal Directed Acyclic Graphs (DAGs)** . 
+The Pearlian school of causality is built around the concept of **Structural Causal Models (SCMs)** and **Causal Directed Acyclic Graphs (DAGs)** .
 
 In this framework:
 
@@ -83,7 +83,7 @@ This approach underpins many statistical techniques such as:
 
 It is highly effective for evaluating the average treatment effect of specific interventions but is less suited to modeling complex multi-variable systems with feedback loops, interactions, and mediation chains.
 
-<br />
+***
 
 **Lifesight’s Position**
 
