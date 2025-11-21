@@ -37,13 +37,7 @@ These experiments are highly valuable inputs for:
 * Informing priors
 * Improving confidence in causal impact
 
-However, experiments come with practical limitations:
-
-* They are expensive and time-consuming
-* They cannot be run on all channels or regions simultaneously
-* They often cover short time horizons
-* They do not scale continuously with business complexity
-* This is where the second approach becomes essential.
+<br />
 
 ***
 
