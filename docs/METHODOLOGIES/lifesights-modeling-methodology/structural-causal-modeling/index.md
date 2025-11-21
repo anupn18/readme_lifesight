@@ -1,5 +1,5 @@
 ---
-title: Causal Graph in Modeling
+title: Causal Reasoning in Modeling
 excerpt: Causal Directed Acyclical Graph (DAG) based Discovery & Estimation
 deprecated: false
 hidden: false
@@ -61,17 +61,12 @@ Within this domain, there are two major schools of thought:
 
 The Pearlian school of causality is built around Structural Causal Models (SCMs) and Causal Directed Acyclic Graphs (DAGs). In this framework:
 
-Causal relationships are explicitly encoded as a graph
-
-Assumptions are transparently stated
-
-Cause-and-effect paths can be visualized
-
-Direct and indirect effects can be computed mathematically
-
-This approach answers questions such as:
-
-What caused what?
+* Causal relationships are explicitly encoded as a graph
+* Assumptions are transparently stated
+* Cause-and-effect paths can be visualized
+* Direct and indirect effects can be computed mathematically
+* This approach answers questions such as:
+* What caused what?
 
 How does influence propagate through the system?
 
