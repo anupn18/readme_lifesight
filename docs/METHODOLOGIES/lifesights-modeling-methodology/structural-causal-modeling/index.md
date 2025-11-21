@@ -6,7 +6,7 @@ hidden: false
 metadata:
   robots: index
 ---
-**How to Think About Causal Inference**
+## How to Think About Causal Inference
 
 Before explaining how Lifesight incorporates Causal reasoning into its modeling approach, it is important to understand how causality is typically established in data science and econometrics.
 
@@ -17,7 +17,7 @@ Broadly, there are two approaches to causal inference:
 
 ***
 
-1. **Experiment-Based Causal Inference**
+### 1. Experiment-Based Causal Inference**
 
 In experiment-based causal inference, causality is established through Randomized Controlled Trials (RCTs). This involves creating two statistically similar groups (a treatment group and a control group) and exposing only one of them to a specific intervention — for example, a new advertising campaign, a promotion, or a pricing change.
 
@@ -36,7 +36,7 @@ These experiments are highly valuable inputs for:
 
 ***
 
-2. **Observation-Based Causal Inference**
+### 2. Observation-Based Causal Inference
 
 Observation-based causal inference attempts to infer cause-and-effect relationships from historical, non-randomized data - the type of data most organizations already have in abundance.
 
@@ -51,7 +51,7 @@ Within this domain, there are two major schools of thought:
 
 ***
 
-**The Pearlian Approach**
+### The Pearlian Approach
 
 The Pearlian school of causality is built around the concept of **Structural Causal Models (SCMs)** and **Causal Directed Acyclic Graphs (DAGs)** .
 
@@ -70,7 +70,7 @@ This approach answers questions such as:
 
 This aligns perfectly with the needs of Marketing Mix Modeling, where channels interact, sequence matters, and mediation plays a critical role (e.g., upper funnel → lower funnel → conversions).
 
-**The Rubin Approach**
+### The Rubin Approach
 
 The Rubin framework, also known as the Potential Outcomes framework, focuses on estimating causal effects by comparing observed outcomes with counterfactual outcomes - i.e., what would have happened if an intervention had not taken place.
 
@@ -85,7 +85,7 @@ It is highly effective for evaluating the average treatment effect of specific i
 
 ***
 
-**Lifesight’s Position**
+## Lifesight’s Position
 
 Lifesight’s MMM framework is primarily grounded in the Pearlian paradigm, using Directed Acyclic Graphs (DAGs) as the structural backbone of the model.
 
@@ -113,7 +113,7 @@ This hybrid philosophy enables Lifesight to offer the best of both worlds:
 
 ***
 
-**Why This Matters for MMM**
+## Why This Matters for MMM
 
 Traditional MMM frameworks treat channels mainly as independent variables in a regression equation. Even when interactions are included, the assumed structure is implicit and opaque.
 
