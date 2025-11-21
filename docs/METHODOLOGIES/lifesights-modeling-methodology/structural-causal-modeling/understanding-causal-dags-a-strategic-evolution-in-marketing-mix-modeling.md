@@ -1,7 +1,7 @@
 ---
 title: Understanding Causal DAGs
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
