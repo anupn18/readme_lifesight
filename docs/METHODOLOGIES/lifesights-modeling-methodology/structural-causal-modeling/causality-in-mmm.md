@@ -2,7 +2,7 @@
 title: Causality in MMM
 excerpt: Lifesight's approach to making MMM causality aware
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
