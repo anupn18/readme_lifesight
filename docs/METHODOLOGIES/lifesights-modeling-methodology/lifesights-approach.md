@@ -61,3 +61,5 @@ By combining **Structural Causal Modeling + Machine Learning based Inference +  
 <Image align="center" border={false} src="https://files.readme.io/e4298d1f9b62015d8279b4415b4cce841d6306403b0ba0edfb31748f5cb4bf95-k.jpg" />
 
 <br />
+
+Next we will dive into each of these pillars of Lifesight's MMM framework, starting with why and how of the [Causal Reasoning in Modeling](https://docs.lifesight.io/docs/structural-causal-modeling#/)
