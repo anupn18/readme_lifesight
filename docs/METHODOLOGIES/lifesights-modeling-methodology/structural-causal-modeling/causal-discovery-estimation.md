@@ -2,7 +2,7 @@
 title: Causal Discovery & Estimation
 excerpt: How Causal Graph is used to estimate incremental effects
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
