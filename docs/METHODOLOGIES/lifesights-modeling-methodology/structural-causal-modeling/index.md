@@ -96,7 +96,7 @@ This is because DAGs allow us to explicitly represent:
 * Mediated and halo effects
 * Feedback loops and latent drivers
 
-In other words, the DAG acts as a structural blueprint of the business and its marketing system — a representation that exists independently of the actual data values. At the same time, Lifesight does not treat these two schools as mutually exclusive.
+In other words, the DAG acts as a structural blueprint of the business and its marketing system — a representation that exists independently of the actual data values : **A Digital Clone**. At the same time, Lifesight does not treat these two schools as mutually exclusive.
 
 In keeping with our principle of Algorithmic Fit, Lifesight:
 
@@ -127,3 +127,5 @@ By contrast, Lifesight’s causal DAG approach:
 * Aligns models with how businesses actually operate
 
 This is what allows Lifesight to confidently move from correlations to causal understanding, from black-box models to glass-box systems, and from historical reporting to decision-ready intelligence.
+
+<br />
