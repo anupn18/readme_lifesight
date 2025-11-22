@@ -6,7 +6,7 @@ hidden: true
 metadata:
   robots: index
 ---
-Once the causal DAG is in place we run a two step process 
+The initial structure of the Causal DAG is built from deep domain understanding. This idea is also at the core of pearlisan causal inference framework.  Once the causal DAG is in place we run a two step process
 
 * Step 1 : Causal Discovery
 * Step 2 : Causal Effect Estimation
