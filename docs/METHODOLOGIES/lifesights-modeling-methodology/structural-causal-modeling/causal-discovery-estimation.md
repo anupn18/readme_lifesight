@@ -1,6 +1,6 @@
 ---
 title: Causal Discovery
-excerpt: How Causal DAG influences the Model
+excerpt: On Lifesight
 deprecated: false
 hidden: true
 metadata:
