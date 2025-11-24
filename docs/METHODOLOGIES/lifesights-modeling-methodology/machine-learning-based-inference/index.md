@@ -79,3 +79,5 @@ While MMM is a powerful tool, it does come with challenges:
 Marketing Mix Modelling at Lifesight transforms marketing from a purely creative endeavor into a data-driven science. But like the chef at the beginning of our analogy, the art lies in interpreting the results and crafting the perfect mix. MMM isn’t about replacing creativity with numbers but rather informing creativity with insights.
 
 By understanding the principles behind MMM and leveraging the various KPIs we support, marketers can make more informed decisions, optimize their marketing spend, and ultimately, deliver a strategy that’s as balanced and effective as a master chef’s signature dish.
+
+Let's start by understanding regularised ridge regression better [here](https://docs.lifesight.io/update/docs/ridge-regression#/)
