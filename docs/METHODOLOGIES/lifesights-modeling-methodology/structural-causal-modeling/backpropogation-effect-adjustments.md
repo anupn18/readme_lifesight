@@ -39,7 +39,7 @@ Before we start this step, we have already successfully completed these two :
 
 This helps us break down Contribution the Direct effect to its indirect contributions
 
-<Image align="center" border={false} src="https://files.readme.io/3073977cb96716eefb1ddd6afd3c2717bf2d5d33c099876c03f72550009a451e-e.jpg" />
+<Image align="center" border={true} src="https://files.readme.io/3073977cb96716eefb1ddd6afd3c2717bf2d5d33c099876c03f72550009a451e-e.jpg" className="border" />
 
 ***
 
