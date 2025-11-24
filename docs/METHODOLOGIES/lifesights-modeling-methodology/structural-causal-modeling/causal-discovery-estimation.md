@@ -69,7 +69,7 @@ We then apply the approach know as Fast Causal Inference , which is a very popul
 
 **FCI = PC + extra conditional tests + conservative orientation**
 
-<br />
+***
 
 ### FCI Methodology
 
