@@ -1,6 +1,6 @@
 ---
 title: Causal Reasoning in Modeling
-excerpt: Causal Directed Acyclical Graph (DAG) based Discovery & Estimation
+excerpt: A comprehensive introduction to Causal Inference in Modeling
 deprecated: false
 hidden: false
 metadata:
