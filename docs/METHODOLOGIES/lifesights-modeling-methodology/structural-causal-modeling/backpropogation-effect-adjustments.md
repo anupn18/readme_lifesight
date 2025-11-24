@@ -27,7 +27,7 @@ Before we start the back-propogation process, we have already successfully compl
 
 **Stage 2 - Apply Causal Discovery on this and we get to know the strength of these relationships**
 
-[Refer this page to know about the algorithm ]
+[Refer this page to know about the <Anchor label="algorithm" target="_blank" href="https://docs.lifesight.io/update/docs/causal-discovery-estimation#/">algorithm</Anchor> ]
 
 <Image align="center" border={false} src="https://files.readme.io/efa635ac780384cd72a5658ec228abe4b917ad64f27c75151d65fcd903bbff1f-c.jpg" />
 
