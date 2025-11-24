@@ -17,13 +17,13 @@ By quantifying the incremental impact of each marketing and non-marketing driver
 
 ***
 
-**A Brief Origin Story**
+### **A Brief Origin Story**
 
 The idea behind the “Marketing Mix” dates back to a landmark <Anchor label="paper" target="_blank" href="https://www.guillaumenicaise.com/wp-content/uploads/2013/10/Borden-1984_The-concept-of-marketing-mix.pdf">paper</Anchor> published by Prof. Neil H. Borden of Harvard in 1960. Borden introduced the concept of combining multiple marketing levers - the “mix” - to shape consumer behavior and business outcomes. As marketing grew more complex, econometric techniques, especially regression analysis - were introduced to quantify the influence of each lever. This evolution marked the emergence of Marketing Mix Modeling as a formal and rigorous approach to marketing measurement.
 
 ***
 
-**Why MMM Matters Today**
+### **Why MMM Matters Today**
 
 For brands with enough historical data, MMM is one of the most effective and scalable approaches to measure incrementality—the true causal impact of your marketing activities and external forces. It avoids the pitfalls of user-level attribution and helps marketers understand what’s actually working across the entire funnel.
 
@@ -39,7 +39,7 @@ Together, these create a robust, interpretable, and scalable framework for measu
 
 ***
 
-**Key Benefits of MMM**
+### **Key Benefits of MMM**
 
 * **Privacy-safe and identity-agnostic** : No customer-level or PII data required. MMM works purely on aggregated data.
 * **True incrementality measurement** : Unlike touch-based attribution, MMM reveals the causal impact of each channel and tactic.
