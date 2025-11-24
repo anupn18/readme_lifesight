@@ -126,6 +126,6 @@ By contrast, Lifesight’s causal DAG approach:
 * Improves interpretability for stakeholders
 * Aligns models with how businesses actually operate
 
-This is what allows Lifesight to confidently move from correlations to causal understanding, from black-box models to glass-box systems, and from historical reporting to decision-ready intelligence.
+Next we will disc use the specifics around Causal Discovery & Estimation. We will also discuss how this estimation back-propagates along the causal dag in reverse topological order
 
 <br />
