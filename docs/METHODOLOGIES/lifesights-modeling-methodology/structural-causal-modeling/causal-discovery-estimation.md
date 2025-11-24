@@ -1,6 +1,6 @@
 ---
-title: Causal Discovery & Estimation
-excerpt: How Causal Graph is used to estimate incremental effects
+title: Causal Discovery
+excerpt: How Causal DAG influences the Model
 deprecated: false
 hidden: true
 metadata:
