@@ -11,7 +11,7 @@ metadata:
 Before we start this step, we have already successfully completed these two :
 
 1. FCI based Causal Discovery based on the Causal Graph
-2. Ridge Regression based Direct & Indirect effect estimation (A detailed view of this approach can be seen <Anchor label="here" target="_blank" href="https://docs.lifesight.io/update/docs/machine-learning-based-inference#/">here</Anchor> )
+2. Ridge Regression based Direct & Nested Direct effect estimation (A detailed view of this approach can be seen <Anchor label="here" target="_blank" href="https://docs.lifesight.io/update/docs/machine-learning-based-inference#/">here</Anchor> )
 
 ***
 
@@ -39,7 +39,7 @@ Before we start this step, we have already successfully completed these two :
 
 This helps us break down Contribution the Direct effect to its indirect contributions
 
-<Image align="center" border={true} src="https://files.readme.io/3073977cb96716eefb1ddd6afd3c2717bf2d5d33c099876c03f72550009a451e-e.jpg" className="border" />
+<Image align="center" border={false} src="https://files.readme.io/62f1b17fdf9ddcb88070f89821ddf62458cb8ffce8de270de8b185d88a2daccd-x.jpg" />
 
 ***
 
@@ -47,15 +47,19 @@ This helps us break down Contribution the Direct effect to its indirect contribu
 
 True contribution is the sum of Direct & Indirect Contributions. For Mediator variables, their Indirect effect is negative as they have incoming arrows that's supporting their values
 
+<Image align="center" border={false} src="https://files.readme.io/447c321faca3e1acaddc6dec0454fdd7af1dc5ddb6897e7893ed69b0afb05e67-z.jpg" />
+
 <br />
 
-| Variable                       | Direct Effect on Sales | Indirect Effect (via mediators)                                                       | Total Effect |
-| ------------------------------ | ---------------------- | ------------------------------------------------------------------------------------- | ------------ |
-| **TV**                         | 5%                     | 20% (via Brand Equity) + 30% (via Branded Search) + 5% (via Organic Search) = **55%** | **60%**      |
-| **Meta Prospecting**           | 15%                    | 40% (via Retargeting)                                                                 | **55%**      |
-| **Brand Equity**               | 20%                    | 30% (via Branded Search)                                                              | **50%**      |
-| **Branded Search**             | 5%                     | —                                                                                     | **5%**       |
-| **Organic Search Impressions** | 5%                     | —                                                                                     | **5%**       |
-| **Retargeting**                | 10%                    | —                                                                                     | **10%**      |
+<br />
+
+| Variable                       | Direct Effect on Sales | Indirect Effect (from DAG) | **Total Effect** |
+| ------------------------------ | ---------------------- | -------------------------- | ---------------- |
+| **TV**                         | 5%                     | **5.75%**                  | **10.75%**       |
+| **Brand Equity**               | 20%                    | 1.5% - (4%)                | **17.5%**        |
+| **Branded Search**             | 5%                     | -(1.5%+.25%)               | **3.75%**        |
+| **Organic Search Impressions** | 5%                     | -.25%                      | **4.75%**        |
+| **Retargeting**                | 10%                    | 4%                         | **6%**           |
+| **Meta Prospecting**           | 15%                    | 4%                         | **19%**          |
 
 <br />
