@@ -8,7 +8,7 @@ hidden: false
 metadata:
   robots: index
 ---
-Before we start this step, we have already successfully completed these two :
+Before we start the back-propogation process, we have already successfully completed these two :
 
 1. FCI based Causal Discovery based on the Causal Graph
 2. Ridge Regression based Direct & Nested Direct effect estimation (A detailed view of this approach can be seen <Anchor label="here" target="_blank" href="https://docs.lifesight.io/update/docs/machine-learning-based-inference#/">here</Anchor> )
@@ -19,13 +19,13 @@ Before we start this step, we have already successfully completed these two :
 
 **To explain how the adjustment of contributions happens, let us take a simple example and go through the various stages**
 
-**Step 1 - Let us assume we started with a DAG , that looks like this :**
+**Stage 1 - We start with a DAG, backed by domain knowledge. Let us assume that the DAG looks like this :**
 
 <Image align="center" border={false} src="https://files.readme.io/1d3538b3042854b70790afa437411c1918fbc997040f515c1f89c542134751f1-b.jpg" />
 
 <br />
 
-**Step 2 - Apply Causal Discovery on this and we get to know the strength of these relationships**
+**Stage 2 - Apply Causal Discovery on this and we get to know the strength of these relationships**
 
 <Image align="center" border={false} src="https://files.readme.io/efa635ac780384cd72a5658ec228abe4b917ad64f27c75151d65fcd903bbff1f-c.jpg" />
 
@@ -57,7 +57,7 @@ True contribution is the sum of Direct & Indirect Contributions. For Mediator va
 | ------------------------------ | ---------------------- | -------------------------- | ---------------- |
 | **TV**                         | 5%                     | **5.75%**                  | **10.75%**       |
 | **Brand Equity**               | 20%                    | 1.5% - (4%)                | **17.5%**        |
-| **Branded Search**             | 5%                     | -(1.5%+.25%)               | **3.75%**        |
+| **Branded Search**             | 5%                     | -(1.5%+.25%)               | **3.25%**        |
 | **Organic Search Impressions** | 5%                     | -.25%                      | **4.75%**        |
 | **Retargeting**                | 10%                    | 4%                         | **6%**           |
 | **Meta Prospecting**           | 15%                    | 4%                         | **19%**          |
