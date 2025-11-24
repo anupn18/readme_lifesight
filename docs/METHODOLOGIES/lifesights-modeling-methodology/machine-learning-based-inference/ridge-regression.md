@@ -1,6 +1,6 @@
 ---
-title: Ridge regression
-excerpt: Using GLMNet
+title: Ridge Regression
+excerpt: Robust inference with regularized ridge regression
 deprecated: false
 hidden: false
 metadata:
