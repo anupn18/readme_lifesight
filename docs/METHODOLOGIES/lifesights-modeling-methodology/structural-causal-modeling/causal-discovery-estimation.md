@@ -32,8 +32,8 @@ These two paradoxes explain why naïve regression or correlation analysis fails 
 
 **Simpson’s Paradox – The Hidden Confounder Problem**
 
-Reference 1 - https://brilliant.org/wiki/simpsons-paradox/  
-Reference 2 - https://en.wikipedia.org/wiki/Simpson%27s_paradox
+Reference 1 - [https://brilliant.org/wiki/simpsons-paradox/](https://brilliant.org/wiki/simpsons-paradox/)  
+Reference 2 - [https://en.wikipedia.org/wiki/Simpson%27s_paradox](https://en.wikipedia.org/wiki/Simpson%27s_paradox)
 
 Simpson's paradox is a phenomenon in probability and statistics in which a trend appears in several groups of data but disappears or reverses when the groups are combined.
 
@@ -44,11 +44,11 @@ A hidden variable (Z) influences both X and Y
 
 ***
 
-### Fast Causal Inference
+### Fast Causal Inference (FCI) Algorithm
 
 Below mentioned is a broad skeleton of Causal Graph (In the actual causal graph, each of these nodes will be exploded to its specific)
 
-Example : Brand Tactics will be expanded to TV, OOH, Prospecting Tactics across Meta, Google Display, Youtube, TikTok etc... Performance Tactics will be expanded to Search, Retargetting etc... 
+Example : Brand Tactics will be expanded to TV, OOH, Prospecting Tactics across Meta, Google Display, Youtube, TikTok etc... Performance Tactics will be expanded to Search, Retargetting etc...
 
 <br />
 
