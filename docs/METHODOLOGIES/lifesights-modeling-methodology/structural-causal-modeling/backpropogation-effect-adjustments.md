@@ -48,3 +48,14 @@ This helps us break down Contribution the Direct effect to its indirect contribu
 True contribution is the sum of Direct & Indirect Contributions. For Mediator variables, their Indirect effect is negative as they have incoming arrows that's supporting their values
 
 <br />
+
+| Variable                       | Direct Effect on Sales | Indirect Effect (via mediators)                                                       | Total Effect |
+| ------------------------------ | ---------------------- | ------------------------------------------------------------------------------------- | ------------ |
+| **TV**                         | 5%                     | 20% (via Brand Equity) + 30% (via Branded Search) + 5% (via Organic Search) = **55%** | **60%**      |
+| **Meta Prospecting**           | 15%                    | 40% (via Retargeting)                                                                 | **55%**      |
+| **Brand Equity**               | 20%                    | 30% (via Branded Search)                                                              | **50%**      |
+| **Branded Search**             | 5%                     | —                                                                                     | **5%**       |
+| **Organic Search Impressions** | 5%                     | —                                                                                     | **5%**       |
+| **Retargeting**                | 10%                    | —                                                                                     | **10%**      |
+
+<br />
