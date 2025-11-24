@@ -104,16 +104,22 @@ We then apply the approach know as Fast Causal Inference , which is a very popul
 |                                     | 10.2 Causal vs predictive gap   | Compare vs MMM regression                                                    | Divergence measure              | Identify overfitting or bias                 |                        |
 |                                     | 10.3 Final decision             | Flag strong vs weak assumptions                                              | Causal readiness index          | Deployment readiness                         |                        |
 
-<br />
-
-Example of the Output
+***
 
 <br />
+
+**Example of the Output**
 
 | Relationship         | PAG edge | Stability | Direction confidence | Avg p-value | Causal Strength Score  |
 | -------------------- | -------- | --------- | -------------------- | ----------- | ---------------------- |
 | Meta → Revenue       | →        | 0.91      | 0.89                 | 0.002       | **0.90 (Strong)**      |
-| TV ↔ Revenue         | ↔        | 0.63      | 0.10                 | 0.04        | **0.41 (Confounded)**  |
+| TV ↔ Revenue         | ↔        | 0.63      | 0.10                 | 0.04        | **0.41 (Weak)**        |
 | Search → Revenue     | →        | 0.95      | 0.93                 | 0.001       | **0.94 (Very strong)** |
-| Influencer o→ Search | o→       | 0.55      | 0.45                 | 0.07        | **0.50 (Uncertain)**   |
+| Influencer o→ Search | o→       | 0.55      | 0.45                 | 0.07        | **0.50 (Weak)**        |
 | Email → Revenue      | →        | 0.88      | 0.90                 | 0.01        | **0.89 (Strong)**      |
+
+<br />
+
+Strong causal strengths are then used in the Contribution Back Propogation approach as mentioned here
+
+<br />
