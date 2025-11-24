@@ -8,6 +8,8 @@ hidden: false
 metadata:
   robots: index
 ---
+<br />
+
 Before we start the back-propogation process, we have already successfully completed these two :
 
 1. FCI based Causal Discovery based on the Causal Graph
@@ -47,10 +49,10 @@ This gives us the nested direct contribution of "Drivers" to "Mediators"
 
 ### The True Contribution with Back-propagation
 
-True contribution is the sum of Direct & Indirect Contributions, also know as the **Total Effect**.   
+True contribution is the sum of Direct & Indirect Contributions, also know as the **Total Effect**.
 
-* For Drivers, Total Effect = Direct Effect + Indirect Effects 
-* For Mediator variables, Total Effect = Direct Effect - (Sum of Indirect Effects through them) 
+* For Drivers, Total Effect = Direct Effect + Indirect Effects
+* For Mediator variables, Total Effect = Direct Effect - (Sum of Indirect Effects through them)
 
 _This way we penalise the mediator and distribute the Effect (which is the incremental contribution) to the true causal drivers_
 
@@ -70,3 +72,5 @@ _This way we penalise the mediator and distribute the Effect (which is the incre
 | **Meta Prospecting**           | 15%                    | 4%                         | **19%**          |
 
 <br />
+
+Next let us understand the core ML algorithm that powers this inference. It is detailed [here](https://docs.lifesight.io/update/docs/machine-learning-based-inference#/)
