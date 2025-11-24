@@ -39,13 +39,13 @@ Before we start the back-propogation process, we have already successfully compl
 
 **Step 4 - Run separate ridge regression approaches to explain the change in mediator variables as a function of its drivers**
 
-This helps us break down Contribution the Direct effect to its indirect contributions
+This gives us the nested directed contribution of "Drivers" to "Mediators"
 
 <Image align="center" border={false} src="https://files.readme.io/62f1b17fdf9ddcb88070f89821ddf62458cb8ffce8de270de8b185d88a2daccd-x.jpg" />
 
 ***
 
-### The True Contribution
+### The True Contribution with Back-propagation
 
 True contribution is the sum of Direct & Indirect Contributions. For Mediator variables, their Indirect effect is negative as they have incoming arrows that's supporting their values
 
