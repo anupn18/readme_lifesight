@@ -120,6 +120,6 @@ We then apply the approach know as Fast Causal Inference , which is a very popul
 
 <br />
 
-Strong causal strengths are then used in the Contribution Back Propogation approach as mentioned here
+Strong causal strengths are then used in the **Contribution Back Propagation** approach as mentioned here
 
 <br />
