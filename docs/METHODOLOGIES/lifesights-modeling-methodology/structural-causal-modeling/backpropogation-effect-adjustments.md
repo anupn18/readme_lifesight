@@ -11,7 +11,7 @@ metadata:
 Before we start this step, we have already successfully completed these two :
 
 1. FCI based Causal Discovery based on the Causal Graph
-2. Ridge Regression based Direct effect estimation (A detailed view of this approach can be seen <Anchor label="here" target="_blank" href="https://docs.lifesight.io/update/docs/machine-learning-based-inference#/">here</Anchor> )
+2. Ridge Regression based Direct & Indirect effect estimation (A detailed view of this approach can be seen <Anchor label="here" target="_blank" href="https://docs.lifesight.io/update/docs/machine-learning-based-inference#/">here</Anchor> )
 
 ***
 
