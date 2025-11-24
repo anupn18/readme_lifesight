@@ -26,6 +26,25 @@ The imported data includes:
 * **Spend** — Total ad spend for campaigns
 * **Sales/Revenue** — Attributed sales driven through Walmart Connect campaigns
 
+## Prerequisites
+
+You would need to add Lifesight as a Tech Partner in your Walmart Connect Access page before you can begin the integration process on Lifesight.
+
+To grant Lifesight access to your account via the API endpoint
+
+1. Navigate to the **Partners** tab on the **Access** page.
+2. Click **+Add Partner** at the top of the section.
+3. In the Partner name dropdown, scroll and select **Lifesight**.
+4. Once Lifesight as a partner is selected, select the ad accounts that you would like to provide access for in the Manage access dropdown.
+5. Select the level of access you wish to provide to the partner for campaign management, reporting and creative: view only, edit or none.
+6. Click **Add partner**. Lifesight can now access your advertising account via API endpoints.
+
+For more details on this process, please refer to [Walmart Connect's official documentation](https://advertisinghelp.walmart.com/s/guides?article=000012444\&language=en_US)
+
+<Callout icon="❗️">
+  If you cannot find Lifesight in the Tech Partners dropdown, [open a case](https://advertisinghelp.walmart.com/s/contact?language=en_US) with Walmart Connect Advertiser Help.
+</Callout>
+
 ## Integration Setup Steps
 
 ### 1. Navigate to the Integrations Tab
@@ -50,10 +69,4 @@ Click Connect to complete the integration process
 
 <Image align="center" border={false} src="https://files.readme.io/934eeb5f8cd99726cce4047528feea12d8d365665d34b5e5a852620ea32d295c-Walmart_Connect.png" />
 
-<Callout icon="❗️">
-  Before initiating the integration, **Walmart Connect must grant Lifesight access to your advertising account**.
-
-  To authorize this, please send an email to the Lifesight support team or contact your dedicated Account Manager with the following message:
-
-  We, (_Brand Name_), hereby grant Lifesight access to our Walmart Connect ad account (_Ad Account ID_).
-</Callout>
+<br />
