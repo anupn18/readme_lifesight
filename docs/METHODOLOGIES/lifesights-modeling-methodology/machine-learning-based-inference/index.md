@@ -6,23 +6,12 @@ hidden: false
 metadata:
   robots: index
 ---
-<br />
-
-## The Basics: What is Marketing Mix Modelling?
-
-At its core, Marketing Mix Modeling (MMM) is a statistical analysis technique used to measure the impact of various marketing activities on sales or other key performance indicators (KPIs). Think of it as a microscope for marketing performance — it allows marketers to zoom in on their efforts and understand which elements are truly driving business outcomes. These techniques are time-tested, having been used for decades across industries to guide data-driven decisions.
-Imagine you're a chef trying to perfect a recipe. You have multiple ingredients — salt, pepper, herbs, and spices — and you want to know how each one influences the final taste. Now, replace the chef with a marketer, the recipe with a marketing strategy, and the ingredients with marketing channels.
-That’s the essence of Marketing Mix Modeling: it helps marketers decompose and optimize the impact of each channel and external factor, finding the right “mix” that produces the best overall performance.
-(This analogy is inspired by the first paper on the concept of the Marketing Mix by Prof. Neil H. Borden.)
-
-_(The above analogy is inspired by the first <Anchor label="paper" target="_blank" href="https://www.guillaumenicaise.com/wp-content/uploads/2013/10/Borden-1984_The-concept-of-marketing-mix.pdf">paper</Anchor> on the concept of the Marketing Mix by Prof. Neil H. Borden)_
-
 ### The Simple Math Behind It
 
 Let's start with a basic equation:
 
 ```text
-Sales (or any Outcome) = Baseline (Trends + Brand Equity) Driven + Marketing Driven + Internal Factors Driven + External Factors Driven + Noise/Error
+Sales (or any Outcome) = Baseline (Trends + Brand Equity) Driven + Marketing Driven + Internal Factors Driven + External Factors Driven + Interaction Factors + Noise/Error
 ```
 
 Where:
