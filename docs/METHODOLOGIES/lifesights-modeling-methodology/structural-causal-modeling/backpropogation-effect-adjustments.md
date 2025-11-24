@@ -33,13 +33,13 @@ Before we start the back-propogation process, we have already successfully compl
 
 <br />
 
-**Step 3 - Get the direct effect and contribution from the ML based process**
+**Step 3 - Get the direct effect and contribution from the ML based process based on ridge regression**
 
 <Image align="center" border={false} src="https://files.readme.io/07eb051cede1f739c98a3a7dfdcd3b70fe4dda42af9385578fd38f853c57daae-d.jpg" />
 
 **Step 4 - Run separate ridge regression approaches to explain the change in mediator variables as a function of its drivers**
 
-This gives us the nested directed contribution of "Drivers" to "Mediators"
+This gives us the nested direct contribution of "Drivers" to "Mediators"
 
 <Image align="center" border={false} src="https://files.readme.io/62f1b17fdf9ddcb88070f89821ddf62458cb8ffce8de270de8b185d88a2daccd-x.jpg" />
 
@@ -47,13 +47,18 @@ This gives us the nested directed contribution of "Drivers" to "Mediators"
 
 ### The True Contribution with Back-propagation
 
-True contribution is the sum of Direct & Indirect Contributions. For Mediator variables, their Indirect effect is negative as they have incoming arrows that's supporting their values
+True contribution is the sum of Direct & Indirect Contributions, also know as the **Total Effect**.   
+
+* For Drivers, Total Effect = Direct Effect + Indirect Effects 
+* For Mediator variables, Total Effect = Direct Effect - (Sum of Indirect Effects through them) 
+
+_This way we penalise the mediator and distribute the Effect (which is the incremental contribution) to the true causal drivers_
 
 <Image align="center" border={false} src="https://files.readme.io/447c321faca3e1acaddc6dec0454fdd7af1dc5ddb6897e7893ed69b0afb05e67-z.jpg" />
 
 <br />
 
-<br />
+**Example **
 
 | Variable                       | Direct Effect on Sales | Indirect Effect (from DAG) | **Total Effect** |
 | ------------------------------ | ---------------------- | -------------------------- | ---------------- |
