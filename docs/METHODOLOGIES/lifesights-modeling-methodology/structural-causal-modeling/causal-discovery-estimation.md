@@ -2,7 +2,7 @@
 title: Causal Discovery
 excerpt: Lifesight’s approach to Causal Graph–powered discovery
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
