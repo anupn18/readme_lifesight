@@ -22,6 +22,8 @@ Where:
 * **External Factors**: Elements outside of brand's direct control primary driven by competitors and their influence
 * **Error**: The unexplained variance (because no model is perfect) - also known as Noise.
 
+***
+
 ## Building Up: From Simple Addition to Complex Models
 
 Marketing Mix Modelling evolves from simple linear models to complex, dynamic models that account for diminishing returns, lag effects, and interactions between different variables.
@@ -63,6 +65,8 @@ Sales = Baseline + (TV Spend^0.7 × TV Effect) + (Social Media Spend^0.8 × Soci
 ```
 
 The exponents (0.7 and 0.8) signify the diminishing returns for TV ads and social media, respectively. In practice, this shows that each additional dollar spent is less effective than the previous one.
+
+***
 
 ## Challenges of Marketing Mix Modelling
 
