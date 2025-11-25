@@ -2,8 +2,8 @@
 - adstock
 - model-tuning
 - model-selection
-- accuracy-fit
 - estimation-error
+- accuracy-fit
 - bootstraping
 - nrmse
 - interaction-effect
