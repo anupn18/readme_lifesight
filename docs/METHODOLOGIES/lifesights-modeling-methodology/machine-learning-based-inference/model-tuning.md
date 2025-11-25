@@ -6,7 +6,7 @@ hidden: false
 metadata:
   robots: index
 ---
-### Under the hood
+## Under the hood
 
 Building a Marketing Mix Model (MMM) used to be a manual process of trial and error. An analyst would tweak variables, run a regression, check the error, and repeat—often introducing human bias along the way. t Lifesight, we take a different approach. We treat model selection not as a math problem to be solved once, but as an evolutionary process. Our engine generates thousands of potential models, tests them against reality, and uses Evolutionary Algorithms to "breed" the most accurate and logical outcomes.
 
@@ -50,7 +50,7 @@ Objective B: Business Logic (The Strategy Brain): We minimize "Decomposition Dis
 
 **_[Note - Additional objectives are added when it comes to model calibration]_**
 
-4. The Result: The Pareto Front
+4. **The Result: The Pareto Front**
 
 Because we optimize for two conflicting objectives (Math vs. Logic), there is rarely a single "perfect" model. Instead, our engine delivers a Pareto Front.
 
