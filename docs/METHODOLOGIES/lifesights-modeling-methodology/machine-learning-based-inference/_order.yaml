@@ -1,5 +1,6 @@
 - ridge-regression
 - model-selection
+- adstock
 - accuracy-fit
 - estimation-error
 - bootstraping
@@ -8,7 +9,6 @@
 - calibration
 - halo-effect
 - model-convergence
-- adstock
 - baseline
 - marginal-roas-mroas
 - goodness
