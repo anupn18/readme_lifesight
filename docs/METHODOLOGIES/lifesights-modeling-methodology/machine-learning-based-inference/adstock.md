@@ -1,6 +1,6 @@
 ---
-title: Adstock
-excerpt: Understanding adstock in marketing mix modeling
+title: Adstock & Saturation
+excerpt: Understanding adstock & Saturation in marketing mix modeling
 deprecated: false
 hidden: false
 metadata:
