@@ -1,6 +1,6 @@
 ---
 title: Ridge Regression
-excerpt: Robust inference with regularized ridge regression
+excerpt: Robust inference with Regularized Ridge Regression
 deprecated: false
 hidden: false
 metadata:
@@ -16,7 +16,7 @@ next:
 
 Ridge Regression is a powerful extension of classical linear regression, particularly valuable in Marketing Mix Modeling (MMM). It addresses issues of multicollinearity and overfitting, common challenges in marketing data analysis.
 
-![](https://files.readme.io/dc879748bc2255bfcee9e707fe3e3bb83e640b11cd8665ed19daf5465ebe7167-Flowchart.jpg)
+<Image border={false} src="https://files.readme.io/dc879748bc2255bfcee9e707fe3e3bb83e640b11cd8665ed19daf5465ebe7167-Flowchart.jpg" />
 
 <br />
 
@@ -145,3 +145,7 @@ Ridge Regression offers several benefits for Marketing Mix Modeling:
 4. Allows inclusion of a larger number of variables
 
 By using Ridge Regression, marketers can develop more comprehensive and robust models of marketing effectiveness, leading to more informed decision-making and optimized marketing strategies.
+
+***
+
+<br />
