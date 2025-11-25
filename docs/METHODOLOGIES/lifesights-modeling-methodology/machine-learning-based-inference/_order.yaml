@@ -1,5 +1,6 @@
 - ridge-regression
 - adstock
+- model-tuning
 - model-selection
 - accuracy-fit
 - estimation-error
@@ -12,4 +13,3 @@
 - baseline
 - marginal-roas-mroas
 - goodness
-- model-tuning
