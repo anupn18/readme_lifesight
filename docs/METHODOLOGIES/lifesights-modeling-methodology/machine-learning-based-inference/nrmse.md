@@ -2,7 +2,7 @@
 title: Normalized root mean squared error (NRMSE)
 excerpt: ''
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
