@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-Our model generates thousands of model IDs, from which we determine the `best model` using a combination of our experience and a custom ranking algorithm. This ranking method is inspired by the stacking method commonly used in ensemble techniques, where the outputs of multiple base models (level-0) are used as input for a higher-level model (level-1) to enhance predictive accuracy.
+Our model generates thousands of solutions, from which we determine the `best model` using a combination of our experience and a custom ranking algorithm. This ranking method is inspired by the stacking method commonly used in ensemble techniques, where the outputs of multiple base models (level-0) are used as input for a higher-level model (level-1) to enhance predictive accuracy.
 
 ## Ranking Methodology
 
@@ -34,9 +34,9 @@ By evaluating models based on these features, we calculate metrics like **contri
 
 Our ranking method involves a structured process to select the best model. The methodology includes the following steps:
 
-### 1. Filtering SolIDs Using Business Criteria
+### 1. Filtering solutions based on business criteria
 
-First, we filter solIDs (model IDs) based on a **business sense filter**. Only solIDs with **ROAS (Return on Advertising Spend)** values higher than the 25th percentile across all media channels are selected for further ranking. This ensures that only high-performing models are considered.
+First, we filter solutions based on a **business sense filter**. Only solutions with **ROAS (Return on Advertising Spend)** values higher than the 25th percentile across all media channels are selected for further ranking. This ensures that only high-performing models are considered.
 
 For example, if the 25th percentile for ROAS across Facebook, Google, and YouTube is 1.0, only solIDs with values greater than 1.0 across all three channels are selected.
 
@@ -49,11 +49,11 @@ To rank the selected solIDs, we perform a **regression analysis** where the targ
 
 ### 3. Ranking the Models
 
-Once we have the weights from the regression analysis, we apply them to the filtered solIDs. Each solID is then scored based on how well it performs across the weighted parameters.
+Once we have the weights from the regression analysis, we apply them to the filtered solutions. Each solutions is then scored based on how well it performs across the weighted parameters.
 
 ### 4. Selecting the Top-Ranked Model
 
-After scoring all solIDs, the model with the highest score is selected as the **top-ranked model**. This model is recommended as the most effective solution based on the key business metrics.
+After scoring all solutions, the model with the highest score is selected as the **top-ranked model**. This model is recommended as the most effective solution based on the key business metrics.
 
 ## Advantages of the Ranking Algorithm
 
