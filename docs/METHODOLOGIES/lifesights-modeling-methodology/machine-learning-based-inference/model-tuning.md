@@ -58,4 +58,8 @@ The Pareto Front is a collection of the optimal models where you cannot improve 
 
 The Benefit: This gives you transparency and control. Rather than forcing a single "black box" number on you, Lifesight presents the best possible options—calibrated to your specific business context—allowing us to select the model that balances statistical power with strategic reality.
 
-<br />
+***
+
+Lifesight’s modeling engine moves beyond simple regression. By utilizing Evolutionary Algorithms and Multi-Objective Optimization, we ensure that your model isn't just mathematically sound—it’s business-ready. We let the data evolve the solution, resulting in attribution that reflects how your marketing actually works.
+
+Next let us learn about how we sample the right solutions from all the solutions generated from the model tuning step. Find out more about this [here](https://docs.lifesight.io/docs/adstock#/)
