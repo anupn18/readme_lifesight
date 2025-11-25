@@ -1,6 +1,8 @@
 ---
 title: Model selection
-excerpt: ''
+excerpt: >-
+  How Lifesight picks "good" solutions and bootstrap to find the range of
+  outcomes
 deprecated: false
 hidden: false
 metadata:
