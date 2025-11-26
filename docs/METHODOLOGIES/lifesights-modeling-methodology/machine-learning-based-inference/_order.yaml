@@ -3,7 +3,6 @@
 - marginal-roas-mroas
 - model-tuning
 - model-selection
-- accuracy-fit
 - calibration
 - estimation-error
 - bootstraping
