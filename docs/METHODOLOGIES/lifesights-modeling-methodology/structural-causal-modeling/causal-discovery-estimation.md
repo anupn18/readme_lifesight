@@ -50,9 +50,7 @@ Below mentioned is a broad skeleton of Causal Graph (In the actual causal graph,
 
 Example : Brand Tactics will be expanded to TV, OOH, Prospecting Tactics across Meta, Google Display, Youtube, TikTok etc... Performance Tactics will be expanded to Search, Retargetting etc...
 
-<br />
-
-<Image align="center" border={false} src="https://files.readme.io/a2df8ca59fb0d67f95ccecc93b0ee726407c1cce0a1209af3968088bc8a40f29-a.jpg" />
+<Image align="center" border={false} src="https://files.readme.io/54ea3e40ebf0235fee55b9ff14ae81215aa3d18e4d992c2ca6b8558e3ba57103-Gemini_Generated_Image_wg5q9kwg5q9kwg5q.png" />
 
 We then apply the approach know as Fast Causal Inference , which is a very popular variant of PC algorithm, but unlike PC algorithm Fast Causal Inference assumes unobserved variables in the DAG.
 
@@ -118,7 +116,7 @@ We then apply the approach know as Fast Causal Inference , which is a very popul
 | Influencer o→ Search | o→       | 0.55      | 0.45                 | 0.07        | **0.50 (Weak)**        |
 | Email → Revenue      | →        | 0.88      | 0.90                 | 0.01        | **0.89 (Strong)**      |
 
-<br />
+<Image align="center" border={false} src="https://files.readme.io/860af39641351eae06250264a6941659ec81aaa0fbc7751f8b14c59e3906d877-Gemini_Generated_Image_cr2cd6cr2cd6cr2c.png" />
 
 Strong causal strengths are then used in the **Contribution Back Propagation** approach as mentioned <Anchor label="here" target="_blank" href="https://docs.lifesight.io/update/docs/backpropogation-effect-adjustments#/">here</Anchor>
 
