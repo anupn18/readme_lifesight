@@ -128,6 +128,8 @@ By contrast, Lifesight’s causal DAG approach:
 
 Next we will disc use the specifics around Causal Discovery & Estimation. We will also discuss how this estimation back-propagates along the causal dag in reverse topological order
 
+<Image align="center" border={false} src="https://files.readme.io/d277b6d5786ae4cd7d9aa12af53adc529abd365cfaf9e85bede7d7ea052457de-Gemini_Generated_Image_14x5j614x5j614x5.png" />
+
 Learn more about Causal Discovery [here](https://docs.lifesight.io/update/docs/causal-discovery-estimation#/)
 
 <br />
