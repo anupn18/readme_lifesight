@@ -12,10 +12,14 @@ next:
 ---
 ## Why we need Transformation ?
 
-Transformations in Marketing Mix Modeling takes 3 forms : 
+Transformations in Marketing Mix Modeling takes 3 forms :
 
 1. Adstock Tranformations
-2. Saturation Transformations (Discussed here )
+2. Saturation Transformations (Discussed <Anchor label="here" target="_blank" href="https://docs.lifesight.io/update/docs/marginal-roas-mroas#/">here</Anchor> )
+
+These transformations helps us incorporate the non-linear nature of relationships - namely decay/lag in the effect and diminishing returns - between marketing variables and the outcome.
+
+In this section, we dive deep into Adstock transformation
 
 ***
 
