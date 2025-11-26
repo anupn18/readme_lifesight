@@ -58,14 +58,14 @@ We then apply the approach know as Fast Causal Inference , which is a very popul
 
 **FCI = PC + Real-World Awareness**
 
-| Phase                       | PC algorithm                                        | FCI algorithm                                                           |
-| --------------------------- | --------------------------------------------------- | ----------------------------------------------------------------------- |
-| Step 1 – Skeleton           | Uses conditional independence tests to remove edges | **Same as PC but more conservative**                                    |
-| Step 2 – Separating sets    | Stores sepset(A, B)                                 | **Same but used later more aggressively**                               |
-| Step 3 – Collider detection | Identifies A → B ← C                                | **Same but with extra latent checks**                                   |
-| Step 4 – Orientation        | Uses Meek’s orientation rules                       | **Uses extended orientation rules for latent confounders**              |
-| Step 5 – Extra search       | —                                                   | ✅ **Performs additional conditional tests on subsets (Possible D-SEP)** |
-| Output                      | CPDAG                                               | **PAG**                                                                 |
+| Phase              | PC algorithm                                        | FCI algorithm                                                           |
+| ------------------ | --------------------------------------------------- | ----------------------------------------------------------------------- |
+| Skeleton           | Uses conditional independence tests to remove edges | **Same as PC but more conservative**                                    |
+| Separating sets    | Stores sepset(A, B)                                 | **Same but used later more aggressively**                               |
+| Collider detection | Identifies A → B ← C                                | **Same but with extra latent checks**                                   |
+| Orientation        | Uses Meek’s orientation rules                       | **Uses extended orientation rules for latent confounders**              |
+| Extra search       | —                                                   | ✅ **Performs additional conditional tests on subsets (Possible D-SEP)** |
+| Output             | CPDAG                                               | **PAG**                                                                 |
 
 **FCI = PC + extra conditional tests + conservative orientation**
 
@@ -75,34 +75,34 @@ We then apply the approach know as Fast Causal Inference , which is a very popul
 
 <br />
 
-| **Phase**                           | **Step**                        | **What happens (Methodology)**                                               | **Key Output**                  | **What this gives you in MMM / Lifesight**   |                        |
-| :---------------------------------- | :------------------------------ | :--------------------------------------------------------------------------- | :------------------------------ | :------------------------------------------- | :--------------------- |
-| **1. Problem setup**                | 1.1 Define variables            | Select observed variables (media, revenue, price, seasonality, events, etc.) | Variable set V                  | Ensures all measurable drivers are accounted |                        |
-|                                     | 1.2 Draw prior DAG              | Create expert-driven initial DAG (allow partially directed edges)            | Prior DAG                       | Encodes business knowledge & causal beliefs  |                        |
-|                                     | 1.3 Define constraints          | Lock impossible edges (e.g., Revenue → Spend)                                | Constraint matrix               | Prevents nonsensical directions              |                        |
-| **2. Data prep**                    | 2.1 Time alignment              | Align all variables to same granularity & lags                               | Clean dataset                   | Prevents spurious causal detection           |                        |
-|                                     | 2.2 Normalization               | Scale / transform variables (log, z-score, adstock)                          | Model-ready data                | Improves CI test reliability                 |                        |
-|                                     | 2.3 Stationarity checks         | Test for drift / non-stationarity (ADF, KPSS)                                | Stationary series               | Required for accurate inference              |                        |
-| **3. Skeleton discovery**           | 3.1 Fully connected graph       | Start with complete undirected graph                                         | G₀                              | No assumptions removed yet                   |                        |
-|                                     | 3.2 Cond. independence tests    | Remove edges A–B if A ⫫ B                                                    | S                               | Skeleton graph + Sepsets                     | Finds true adjacencies |
-| **4. Possible-D-SEP expansion**     | 4.1 Compute Possible-D-SEP      | Find nodes that _could_ d-separate A and B with hidden confounders           | Expanded conditioning sets      | Simulates invisible variables                |                        |
-|                                     | 4.2 Extra CI tests              | Retest adjacencies with PDS                                                  | Revised skeleton                | Removes false edges missed by PC             |                        |
-| **5. Orientation (colliders)**      | 5.1 Find v-structures           | If A and C not in Sepset with B → mark A → B ← C                             | Initial directions              | Detects mediators                            |                        |
-|                                     | 5.2 Check against PDS           | Revalidate with latent-aware logic                                           | Refined v-structures            | Avoids false collider claims                 |                        |
-| **6. Orientation (rules)**          | 6.1 Apply extended Meek rules   | Orient where logically forced                                                | Directed edges                  | Prevents cycles                              |                        |
-|                                     | 6.2 Partial orientation         | Use ambiguous tails (o→, o-o)                                                | PAG graph                       | Encodes uncertainty explicitly               |                        |
-| **7. Selection bias handling**      | 7.1 Detect S-bias               | Identify possible selection variables                                        | S-flagged edges                 | Explains biased correlations                 |                        |
-| **8. Causal strength estimation**   | 8.1 Identify identifiable edges | Keep only directed / semi-directed paths                                     | Estimable subgraph              | Safe-to-quantify relationships               |                        |
-|                                     | 8.2 Choose estimator            | Regression / SEM / SCM / DoWhy / PyMC                                        | Estimation engine               | Translates structure → effect                |                        |
-|                                     | 8.3 Estimate total effect       | Compute ATE / direct / indirect effects                                      | Effect size                     | “Spend → Revenue” impact                     |                        |
-|                                     | 8.4 Estimate uncertainty        | Bootstrap / MCMC / Bayesian HDI                                              | Confidence / Credible intervals | Model reliability                            |                        |
-| **9. Strength scoring**             | 9.1 Edge stability              | Run FCI across subsamples                                                    | Stability %                     | Robustness metric                            |                        |
-|                                     | 9.2 Orientation confidence      | % of times same arrow appears                                                | Direction probability           | Trust in direction                           |                        |
-|                                     | 9.3 CI test strength            | p-value or partial corr                                                      | Dependency strength             | Relationship reliability                     |                        |
-|                                     | 9.4 Composite causal score      | Weighted score: (stability + direction + p)                                  | 0–1 causal strength index       | Rank channels by causal validity             |                        |
-| **10. Validation & interpretation** | 10.1 Compare to experiments     | Check aligned with lift tests / geo tests                                    | Coherence score                 | Ground truth alignment                       |                        |
-|                                     | 10.2 Causal vs predictive gap   | Compare vs MMM regression                                                    | Divergence measure              | Identify overfitting or bias                 |                        |
-|                                     | 10.3 Final decision             | Flag strong vs weak assumptions                                              | Causal readiness index          | Deployment readiness                         |                        |
+| **Phase**                           | **Step**                        | **What happens (Methodology)**                                               | **Key Output**                  | **What this gives you in MMM / Lifesight**   |
+| :---------------------------------- | :------------------------------ | :--------------------------------------------------------------------------- | :------------------------------ | :------------------------------------------- |
+| **1. Problem setup**                | 1.1 Define variables            | Select observed variables (media, revenue, price, seasonality, events, etc.) | Variable set V                  | Ensures all measurable drivers are accounted |
+|                                     | 1.2 Draw prior DAG              | Create expert-driven initial DAG (allow partially directed edges)            | Prior DAG                       | Encodes business knowledge & causal beliefs  |
+|                                     | 1.3 Define constraints          | Lock impossible edges (e.g., Revenue → Spend)                                | Constraint matrix               | Prevents nonsensical directions              |
+| **2. Data prep**                    | 2.1 Time alignment              | Align all variables to same granularity & lags                               | Clean dataset                   | Prevents spurious causal detection           |
+|                                     | 2.2 Normalization               | Scale / transform variables (log, z-score, adstock)                          | Model-ready data                | Improves CI test reliability                 |
+|                                     | 2.3 Stationarity checks         | Test for drift / non-stationarity (ADF, KPSS)                                | Stationary series               | Required for accurate inference              |
+| **3. Skeleton discovery**           | 3.1 Fully connected graph       | Start with complete undirected graph                                         | G₀                              | No assumptions removed yet                   |
+|                                     | 3.2 Cond. independence tests    | Remove edges A–B if A ⫫ B                                                    | S                               | Skeleton graph + Sepsets                     |
+| **4. Possible-D-SEP expansion**     | 4.1 Compute Possible-D-SEP      | Find nodes that _could_ d-separate A and B with hidden confounders           | Expanded conditioning sets      | Simulates invisible variables                |
+|                                     | 4.2 Extra CI tests              | Retest adjacencies with PDS                                                  | Revised skeleton                | Removes false edges missed by PC             |
+| **5. Orientation (colliders)**      | 5.1 Find v-structures           | If A and C not in Sepset with B → mark A → B ← C                             | Initial directions              | Detects mediators                            |
+|                                     | 5.2 Check against PDS           | Revalidate with latent-aware logic                                           | Refined v-structures            | Avoids false collider claims                 |
+| **6. Orientation (rules)**          | 6.1 Apply extended Meek rules   | Orient where logically forced                                                | Directed edges                  | Prevents cycles                              |
+|                                     | 6.2 Partial orientation         | Use ambiguous tails (o→, o-o)                                                | PAG graph                       | Encodes uncertainty explicitly               |
+| **7. Selection bias handling**      | 7.1 Detect S-bias               | Identify possible selection variables                                        | S-flagged edges                 | Explains biased correlations                 |
+| **8. Causal strength estimation**   | 8.1 Identify identifiable edges | Keep only directed / semi-directed paths                                     | Estimable subgraph              | Safe-to-quantify relationships               |
+|                                     | 8.2 Choose estimator            | Regression / SEM / SCM / DoWhy / PyMC                                        | Estimation engine               | Translates structure → effect                |
+|                                     | 8.3 Estimate total effect       | Compute ATE / direct / indirect effects                                      | Effect size                     | “Spend → Revenue” impact                     |
+|                                     | 8.4 Estimate uncertainty        | Bootstrap / MCMC / Bayesian HDI                                              | Confidence / Credible intervals | Model reliability                            |
+| **9. Strength scoring**             | 9.1 Edge stability              | Run FCI across subsamples                                                    | Stability %                     | Robustness metric                            |
+|                                     | 9.2 Orientation confidence      | % of times same arrow appears                                                | Direction probability           | Trust in direction                           |
+|                                     | 9.3 CI test strength            | p-value or partial corr                                                      | Dependency strength             | Relationship reliability                     |
+|                                     | 9.4 Composite causal score      | Weighted score: (stability + direction + p)                                  | 0–1 causal strength index       | Rank channels by causal validity             |
+| **10. Validation & interpretation** | 10.1 Compare to experiments     | Check aligned with lift tests / geo tests                                    | Coherence score                 | Ground truth alignment                       |
+|                                     | 10.2 Causal vs predictive gap   | Compare vs MMM regression                                                    | Divergence measure              | Identify overfitting or bias                 |
+|                                     | 10.3 Final decision             | Flag strong vs weak assumptions                                              | Causal readiness index          | Deployment readiness                         |
 
 ***
 
