@@ -215,3 +215,7 @@ Both systematic and random errors can be mitigated through careful model design 
 * **Averaging Multiple Observations**: Taking multiple measurements and averaging the results helps reduce the influence of random variations.
 
 * **Improve Consistency**: Ensuring that the same methods and conditions are applied during data collection can help reduce random variability.
+
+<br />
+
+<Image align="center" border={false} src="https://files.readme.io/60ea789f16cfe3797a56ebf8144138ed596ee023dbe8c2e2b90015d52fce942c-Gemini_Generated_Image_fmrphqfmrphqfmrp.png" />
