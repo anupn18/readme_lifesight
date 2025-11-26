@@ -12,12 +12,14 @@ next:
 ---
 ## Why we need Transformation ?
 
-Transformations in Marketing Mix Modeling takes 3 forms :
+Transformations in Marketing Mix Modeling takes 2 forms :
 
 1. Adstock Tranformations
 2. Saturation Transformations (Discussed <Anchor label="here" target="_blank" href="https://docs.lifesight.io/update/docs/marginal-roas-mroas#/">here</Anchor> )
 
-These transformations helps us incorporate the non-linear nature of relationships - namely decay/lag in the effect and diminishing returns - between marketing variables and the outcome.
+These transformations help us incorporate the non-linear nature of relationships - namely decay/lag in the effect and diminishing returns - between marketing variables and the outcome and also help us incorporate real world patterns of how marketing actually drive results into the model.
+
+At Lifesight we treat these transformations as "weakly informative priors" and the range of these distributions are informed by domain knowledge
 
 In this section, we dive deep into Adstock transformation
 
@@ -166,7 +168,9 @@ Adstock transformation is a powerful tool for modeling the **long-term impact of
 
 By supporting **Geometric** and **Weibull PDF** transformations, you can tailor your adstock model to fit the specific needs of your campaign and media mix, ensuring that you capture the full value of your advertising investment.
 
-<br />
+***
+
+Next let us look into Saturation modeling
 
 At Lifesight, we are committed to helping businesses maximize the effectiveness of their marketing investments. One of the key metrics that we use to optimize marketing campaigns is **mROAS**—Marginal Return on Ad Spend. Unlike traditional ROAS, which measures the overall return on all ad spend, **mROAS** specifically quantifies the return on **the next dollar spent**, allowing businesses to make more granular and optimized decisions about budget allocation.
 
