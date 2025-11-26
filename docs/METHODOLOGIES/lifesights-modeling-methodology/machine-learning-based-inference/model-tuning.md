@@ -10,7 +10,7 @@ metadata:
 
 Building a Marketing Mix Model (MMM) used to be a manual process of trial and error. An analyst would tweak variables, run a regression, check the error, and repeat - often introducing human bias along the way. At Lifesight, we take a different approach. We treat model selection not as a math problem to be solved once, but as an evolutionary process. Our engine generates thousands of potential models, tests them against reality, and uses Evolutionary Algorithms to "breed" the most accurate and logical outcomes.
 
-In the previous pages we learned about adstock transformation and saturation transformation. These transformation are applied by running the data through different transformation functions (Geometric Decay / Weibullf PDF for Adstock & Hill Function for Saturation). These functions have a few hyper parameter values that needs to be arrived at, so that optimize for a target objective - say lower estimation error, or lower nrmse. Finding this right set of hyper parameter values is a massive optimization process based on principles of Evolutionary Algorithm. 
+In the previous pages we learned about adstock transformation and saturation transformation. These transformation are applied by running the data through different transformation functions (Geometric Decay / Weibullf PDF for Adstock & Hill Function for Saturation). These functions have a few hyper parameter values that needs to be arrived at, so that optimize for a target objective - say lower estimation error, or lower nrmse. Finding this right set of hyper parameter values is a massive optimization process based on principles of Evolutionary Algorithm.
 
 ***
 
@@ -63,5 +63,7 @@ The Benefit: This gives you transparency and control. Rather than forcing a sing
 ***
 
 Lifesight’s modeling engine moves beyond simple regression. By utilizing Evolutionary Algorithms and Multi-Objective Optimization, we ensure that your model isn't just mathematically sound—it’s business-ready. We let the data evolve the solution, resulting in attribution that reflects how your marketing actually works.
+
+<Image align="center" border={false} src="https://files.readme.io/b6d07c965c4781b1cc2b67220390d96adcb21e8195c651302013761fbb7d0482-Gemini_Generated_Image_cio22hcio22hcio2.png" />
 
 Next let us learn about how we sample the right solutions from all the solutions generated from the model tuning step. Find out more about this [here](https://docs.lifesight.io/docs/adstock#/)
