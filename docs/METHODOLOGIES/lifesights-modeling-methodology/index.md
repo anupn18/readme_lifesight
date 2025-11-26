@@ -55,7 +55,7 @@ MMM is the easiest, most scalable entry point to Incrementality measurements. Wi
 
 So let’s dive deeper into what makes MMM such a powerful tool and how Lifesight’s modern and causal-first approach can transform how you measure and optimize marketing.
 
-<Image align="center" border={false} src="https://files.readme.io/385fff7f6b06aff31424b6c96fa1651de0a35c78a47ebc04eb5ff6396f3c9398-Gemini_Generated_Image_o6o4hlo6o4hlo6o4.png" />
+<Image align="center" border={false} src="https://files.readme.io/1e29c502e011039fe37abcd219a60200272def93b0be5f90a7d57a15aa935510-Gemini_Generated_Image_3kbw0i3kbw0i3kbw.png" />
 
 👉 Explore Lifesight’s unique approach to MMM  [here](https://docs.lifesight.io/update/docs/lifesights-approach#/)
 
