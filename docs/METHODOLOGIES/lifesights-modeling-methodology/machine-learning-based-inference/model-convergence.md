@@ -2,7 +2,7 @@
 title: Model convergence
 excerpt: Understanding Model Convergence in Marketing Mix Modeling
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
