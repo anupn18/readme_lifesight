@@ -168,6 +168,8 @@ This document will provide a detailed explanation of **mROAS**, how it is calcul
 
 <Image align="center" border={false} src="https://files.readme.io/f6c6a3acc39fa871ef7a33488ed56c228764be62985f6e715fe583a8e63e27c0-Gemini_Generated_Image_io6ihbio6ihbio6i.png" />
 
-<br />
+***
+
+In the next section learn how Lifesight figures out the right hyper-parameters for transformations
 
 <br />
