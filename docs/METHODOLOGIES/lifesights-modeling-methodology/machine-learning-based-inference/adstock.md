@@ -1,5 +1,5 @@
 ---
-title: Adstock & Saturation
+title: Transformations - Adstock
 excerpt: Understanding adstock & Saturation in marketing mix modeling
 deprecated: false
 hidden: false
