@@ -163,3 +163,11 @@ For further information on **adstock transformation**, **saturation curves**, or
 At Lifesight, we are committed to helping businesses maximize the effectiveness of their marketing investments. One of the key metrics that we use to optimize marketing campaigns is **mROAS**—Marginal Return on Ad Spend. Unlike traditional ROAS, which measures the overall return on all ad spend, **mROAS** specifically quantifies the return on **the next dollar spent**, allowing businesses to make more granular and optimized decisions about budget allocation.
 
 This document will provide a detailed explanation of **mROAS**, how it is calculated for every channel, and how it helps in making informed, data-driven decisions for budget allocation.
+
+<br />
+
+<Image align="center" border={false} src="https://files.readme.io/f6c6a3acc39fa871ef7a33488ed56c228764be62985f6e715fe583a8e63e27c0-Gemini_Generated_Image_io6ihbio6ihbio6i.png" />
+
+<br />
+
+<br />
