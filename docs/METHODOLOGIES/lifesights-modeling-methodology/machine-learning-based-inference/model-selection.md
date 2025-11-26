@@ -143,7 +143,9 @@ This approach allows for a more robust understanding of how marketing investment
 
 Bootstrapping in Lifesight offers a robust way to measure the uncertainty in ROAS or CPA calculations. By resampling the data and calculating empirical confidence intervals, Lifesight provides more reliable estimates, giving users deeper insights into the performance of their marketing channels.
 
-<br />
+***
+
+## Estimation Error
 
 Estimation error refers to the difference between the actual parameter and the estimated parameter in a model. It is a critical concept in scientific measurements, as it helps assess the accuracy and reliability of results. Since all measurements come with some degree of uncertainty, understanding and accounting for estimation error is essential for improving the precision of predictions and making informed decisions based on data.
 
