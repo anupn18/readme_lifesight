@@ -170,10 +170,4 @@ By supporting **Geometric** and **Weibull PDF** transformations, you can tailor 
 
 ***
 
-Next let us look into Saturation modeling
-
-At Lifesight, we are committed to helping businesses maximize the effectiveness of their marketing investments. One of the key metrics that we use to optimize marketing campaigns is **mROAS**—Marginal Return on Ad Spend. Unlike traditional ROAS, which measures the overall return on all ad spend, **mROAS** specifically quantifies the return on **the next dollar spent**, allowing businesses to make more granular and optimized decisions about budget allocation.
-
-This document will provide a detailed explanation of **mROAS**, how it is calculated for every channel, and how it helps in making informed, data-driven decisions for budget allocation.
-
-<br />
+Next let us look into [Saturation modeling](https://docs.lifesight.io/update/docs/marginal-roas-mroas#/)
