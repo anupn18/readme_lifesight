@@ -56,9 +56,7 @@ Forecasting in marketing is inherently time-series–driven, relying on the auto
 
 By combining **Structural Causal Modeling + Machine Learning based Inference +  Ensemble Forecasting**, Lifesight achieves the best possible algorithmic fit for tackling marketing measurement, optimization, and forecasting challenges — while maintaining causal interpretability throughout the process.
 
-<br />
-
-<Image align="center" border={false} src="https://files.readme.io/e4298d1f9b62015d8279b4415b4cce841d6306403b0ba0edfb31748f5cb4bf95-k.jpg" />
+<Image align="center" border={false} src="https://files.readme.io/86def2f1e19e206a8cab4ab74f3758b94acb9811fbf1b7543df4f172a8ec28ec-MMM2.jpg" />
 
 <br />
 
