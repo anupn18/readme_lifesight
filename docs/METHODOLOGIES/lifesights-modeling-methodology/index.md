@@ -47,9 +47,11 @@ Together, these create a robust, interpretable, and scalable framework for measu
 * **Holistic view of the entire marketing ecosystem** : MMM captures the impact of all growth levers:
   pricing, promotions, brand equity, owned/earned media, macro trends, competitive actions, share of search or voice, and more.
 
-**Why Marketers Love MMM**
+**Why Marketers need MMM**
 
 Because it turns complexity into clarity. It reveals what’s working, what’s not, and what to do next. And it equips teams with a defensible, data-driven way to plan budgets, justify investments, and drive efficient growth.
+
+MMM is the easiest, most scalable entry point to Incrementality measurements. With right modeling techniques, good MMM models can reveal the true impact of marketing interventions within a range of possibilities at a specific confidence threshold
 
 So let’s dive deeper into what makes MMM such a powerful tool and how Lifesight’s modern and causal-first approach can transform how you measure and optimize marketing.
 
