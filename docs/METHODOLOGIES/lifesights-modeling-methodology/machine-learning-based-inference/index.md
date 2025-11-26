@@ -85,5 +85,3 @@ Marketing Mix Modelling at Lifesight transforms marketing from a purely creative
 By understanding the principles behind MMM and leveraging the various KPIs we support, marketers can make more informed decisions, optimize their marketing spend, and ultimately, deliver a strategy that’s as balanced and effective as a master chef’s signature dish.
 
 Let's start by understanding regularised ridge regression better [here](https://docs.lifesight.io/update/docs/ridge-regression#/)
-
-<br />
