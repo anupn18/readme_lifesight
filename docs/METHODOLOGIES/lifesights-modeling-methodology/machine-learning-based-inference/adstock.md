@@ -16,8 +16,6 @@ Adstock Transformation is a fundamental concept in marketing analytics that mode
 
 For example, when someone sees an ad on TV today, they might not make a purchase immediately. However, the ad’s message stays in their memory, and they may take action later. Adstock helps us quantify this **"memory effect"**, modelling how the impact of an ad lingers and decays over time.
 
-<br />
-
 ## Why is Adstock Important?
 
 Understanding adstock is crucial because it helps measure the **true impact** of your advertising campaigns. Without adstock, marketing models would only capture the immediate effects of ads, ignoring the longer-term influence. By accounting for adstock, you can:
@@ -65,6 +63,8 @@ There are **two primary types** of adstock transformations that we support:
 2. **Weibull PDF (Probability Density Function) Adstock**
 
 Each of these transformations offers different ways to model how the effects of advertising decay over time, depending on the nature of the ad campaign and the media channel.
+
+_Note : Lifesight uses adstock-ed modeling to understand the short-term impact of advertising. This short term impact is then converted to Immediate & Carryover_ For long term impact we perform Mediation Analysis.
 
 ***
 
