@@ -170,6 +170,6 @@ This document will provide a detailed explanation of **mROAS**, how it is calcul
 
 ***
 
-In the next section learn how Lifesight figures out the right hyper-parameters for transformations
+In the [next section](https://docs.lifesight.io/update/docs/model-tuning#/) learn how Lifesight figures out the right hyper-parameters for transformations
 
 <br />
