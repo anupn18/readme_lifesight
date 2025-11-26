@@ -146,6 +146,4 @@ Ridge Regression offers several benefits for Marketing Mix Modeling:
 
 By using Ridge Regression, marketers can develop more comprehensive and robust models of marketing effectiveness, leading to more informed decision-making and optimized marketing strategies.
 
-***
-
 <br />
