@@ -1,6 +1,6 @@
 ---
 title: Model Tuning
-excerpt: How Lifesight Uses Evolutionary AI to Build Your Ideal Model
+excerpt: How Lifesight Uses Evolutionary Algorithms to Build Your Ideal Model
 deprecated: false
 hidden: false
 metadata:
