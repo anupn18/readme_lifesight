@@ -6,9 +6,11 @@ hidden: false
 metadata:
   robots: index
 ---
-## Under the hood
+## Under the hood of Evolutionary "Optimization" Algorithms
 
-Building a Marketing Mix Model (MMM) used to be a manual process of trial and error. An analyst would tweak variables, run a regression, check the error, and repeat—often introducing human bias along the way. t Lifesight, we take a different approach. We treat model selection not as a math problem to be solved once, but as an evolutionary process. Our engine generates thousands of potential models, tests them against reality, and uses Evolutionary Algorithms to "breed" the most accurate and logical outcomes.
+Building a Marketing Mix Model (MMM) used to be a manual process of trial and error. An analyst would tweak variables, run a regression, check the error, and repeat - often introducing human bias along the way. At Lifesight, we take a different approach. We treat model selection not as a math problem to be solved once, but as an evolutionary process. Our engine generates thousands of potential models, tests them against reality, and uses Evolutionary Algorithms to "breed" the most accurate and logical outcomes.
+
+In the previous pages we learned about adstock transformation and saturation transformation. These transformation are applied by running the data through different transformation functions (Geometric Decay / Weibullf PDF for Adstock & Hill Function for Saturation). These functions have a few hyper parameter values that needs to be arrived at, so that optimize for a target objective - say lower estimation error, or lower nrmse. Finding this right set of hyper parameter values is a massive optimization process based on principles of Evolutionary Algorithm. 
 
 ***
 
@@ -16,7 +18,7 @@ Here is how our engine finds the right hyper-parameters for your specific data.
 
 1. **Defining the "DNA" of Your Marketing**
 
-Every business is unique. To capture this, our model optimizes a specific set of Hyperparameters—think of these as the DNA of the model. We don't just look at spend; we look at the behavior of that spend:
+Every business is unique. To capture this, our model optimizes a specific set of Hyperparameters - think of these as the DNA of the model. We don't just look at spend; we look at the behavior of that spend:
 
 Ad Memory (Adstock): How long does an ad stay in a consumer's mind? Does a brand impression decay in two days or two weeks?
 
