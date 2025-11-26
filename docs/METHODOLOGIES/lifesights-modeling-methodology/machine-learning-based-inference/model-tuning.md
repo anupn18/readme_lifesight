@@ -1,5 +1,5 @@
 ---
-title: Model Fine-Tuning
+title: Fine Tuning
 excerpt: How Lifesight Uses Evolutionary Algorithms to Build Your Ideal Model
 deprecated: false
 hidden: false
