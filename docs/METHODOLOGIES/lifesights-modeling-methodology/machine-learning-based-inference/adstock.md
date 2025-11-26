@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-## Why we need Transformation ?
+## Why we need to Transform ?
 
 Transformations in Marketing Mix Modeling takes 2 forms :
 
