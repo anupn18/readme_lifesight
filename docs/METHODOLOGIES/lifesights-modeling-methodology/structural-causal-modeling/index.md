@@ -17,7 +17,7 @@ Broadly, there are two approaches to causal inference:
 
 ***
 
-### 1. Experiment-Based Causal Inference**
+### 1. Experiment-Based Causal Inference
 
 In experiment-based causal inference, causality is established through Randomized Controlled Trials (RCTs). This involves creating two statistically similar groups (a treatment group and a control group) and exposing only one of them to a specific intervention — for example, a new advertising campaign, a promotion, or a pricing change.
 
