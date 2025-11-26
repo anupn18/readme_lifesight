@@ -1,5 +1,5 @@
 ---
-title: Touch Based Attribution
+title: Multi Touch Attribution
 excerpt: ''
 deprecated: false
 hidden: false
