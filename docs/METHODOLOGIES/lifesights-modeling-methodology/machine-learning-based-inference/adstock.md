@@ -1,6 +1,6 @@
 ---
 title: Transformations - Adstock
-excerpt: Understanding adstock & Saturation in marketing mix modeling
+excerpt: Understanding adstock in marketing mix modeling
 deprecated: false
 hidden: false
 metadata:
@@ -10,6 +10,15 @@ metadata:
 next:
   description: ''
 ---
+## Why we need Transformation ?
+
+Transformations in Marketing Mix Modeling takes 3 forms : 
+
+1. Adstock Tranformations
+2. Saturation Transformations (Discussed here )
+
+***
+
 ## What is Adstock Transformation?
 
 Adstock Transformation is a fundamental concept in marketing analytics that models the **carryover effects** of advertising over time. It captures the idea that advertising effects don’t happen instantly and then vanish; rather, they build up and decay over time, influencing consumer behaviour long after the ad has been shown.
