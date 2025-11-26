@@ -3,9 +3,9 @@
 - marginal-roas-mroas
 - model-tuning
 - model-selection
+- goodness
 - calibration
 - estimation-error
 - bootstraping
 - nrmse
 - model-convergence
-- goodness
