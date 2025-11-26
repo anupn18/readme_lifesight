@@ -16,7 +16,7 @@ Adstock Transformation is a fundamental concept in marketing analytics that mode
 
 For example, when someone sees an ad on TV today, they might not make a purchase immediately. However, the ad’s message stays in their memory, and they may take action later. Adstock helps us quantify this **"memory effect"**, modelling how the impact of an ad lingers and decays over time.
 
-## Why is Adstock Important?
+### Why is Adstock Important?
 
 Understanding adstock is crucial because it helps measure the **true impact** of your advertising campaigns. Without adstock, marketing models would only capture the immediate effects of ads, ignoring the longer-term influence. By accounting for adstock, you can:
 
@@ -26,9 +26,7 @@ Understanding adstock is crucial because it helps measure the **true impact** of
 
 In marketing analytics, especially in **Marketing Mix Modeling (MMM)**, adstock is used to measure both the **short-term** and **long-term** effects of advertising across different media channels.
 
-<br />
-
-## How Adstock Works
+### How Adstock Works
 
 The core principle of adstock is that the effect of advertising decays over time. This means that each period’s advertising impact is a combination of the current period’s ad spend and a portion of the previous period’s effect that carries over.
 
@@ -55,7 +53,7 @@ Let’s say you spend $1000 on advertising in Week 1, and the **decay rate** is 
 
 This approach allows you to measure not just the immediate effects of advertising but also the residual impact on future periods.
 
-## Types of Adstock Transformations
+### Types of Adstock Transformations
 
 There are **two primary types** of adstock transformations that we support:
 
@@ -64,9 +62,7 @@ There are **two primary types** of adstock transformations that we support:
 
 Each of these transformations offers different ways to model how the effects of advertising decay over time, depending on the nature of the ad campaign and the media channel.
 
-_Note : Lifesight uses adstock-ed modeling to understand the short-term impact of advertising. This short term impact is then converted to Immediate & Carryover_ For long term impact we perform Mediation Analysis.
-
-***
+_Note : Lifesight uses adstock-ed modeling to understand the short-term impact of advertising. This short term impact is then converted to Immediate & Carryover. For long term impact we perform [Mediation Analysis.](https://docs.lifesight.io/update/docs/advanced-modeling-scenarios#/)_
 
 ### 1. Geometric Adstock
 
@@ -101,8 +97,7 @@ If you spend $1000 on ads in Week 1 and the decay rate is 0.5 (50% of the ad eff
 
 * **Digital media**: Search ads, display ads, or social media campaigns where consumers respond quickly.
 * **Frequent, short-term campaigns**: Works well when the goal is to drive immediate consumer action.
-
-***
+* <br />
 
 ### 2. Weibull PDF Adstock (Probability Density Function)
 
@@ -143,7 +138,7 @@ Consider a TV ad for a high-value product. The shape parameter allows for a dela
 
 ***
 
-## Choosing the Right Adstock Model
+### Choosing the Right Adstock Model
 
 The choice of adstock model depends on the nature of your advertising campaign and the media channel you're using:
 
