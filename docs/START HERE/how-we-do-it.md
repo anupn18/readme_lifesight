@@ -15,7 +15,7 @@ next:
       url: >-
         https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/data-and-measurement/drive-business-goals-modern-measurement/
 ---
-Lifesight delivers exceptional value through a combination of advanced technologies, sophisticated methodologies, and a customer-centric approach. 
+Lifesight delivers exceptional value through a combination of advanced technologies, sophisticated methodologies, and a customer-centric approach.
 
 Here’s how we achieve this:
 
@@ -31,22 +31,20 @@ Lifesight uses a combination of marketing measurement methods to **triangulate**
 
 ### Triangulation at Work:
 
-![](https://files.readme.io/bf7a78215b030c227ea32337e187a509ce3b72972f45f5129b835fb9dc75d8af-image.png)
-
-<br />
+<Image align="center" border={false} src="https://files.readme.io/63f8c4707ccf119e7e044f0aca8aada19a8cd412aab9cf9f45026b341f9769ef-Gemini_Generated_Image_ij1175ij1175ij11.png" />
 
 <Table align={["left","left","left"]}>
   <thead>
     <tr>
-      <th style={{ textAlign: "left" }}>
+      <th>
         From
       </th>
 
-      <th style={{ textAlign: "left" }}>
+      <th>
         To
       </th>
 
-      <th style={{ textAlign: "left" }}>
+      <th>
         Interaction
       </th>
     </tr>
@@ -54,86 +52,86 @@ Lifesight uses a combination of marketing measurement methods to **triangulate**
 
   <tbody>
     <tr>
-      <td style={{ textAlign: "left" }}>
+      <td>
         MMM
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         CA
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         MMM generates **"Temporal" Incrementality Factor** & **Marginality Factor** for calibration of attribution numbers. This enables better optimization decisioning at granular levels
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "left" }}>
+      <td>
         MMM
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         IT
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        MMM can generate right hypotheses that needs validation with Incrementality Tests. Hypotheses are generated after looking at multiple factors such as variations, number of observations, multicolinearity, etc... in the input data provided to the MMM Models\
+      <td>
+        MMM can generate right hypotheses that needs validation with Incrementality Tests. Hypotheses are generated after looking at multiple factors such as variations, number of observations, multicolinearity, etc... in the input data provided to the MMM Models  
         MMM also provides IT with slope of saturation and time-shift effect - which could be used to adjust experiment lift to find the actual lift
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "left" }}>
+      <td>
         IT
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         MMM
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Incrementality Tests can provide with the lift numbers to calibrate MMM. Helps in building better MMM models with causal awareness. Lifesight's approach to model calibration is unique - with both coarse and fine calibration [calibration](https://docs.lifesight.io/docs/calibration).
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "left" }}>
+      <td>
         CA
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         MMM
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Attribution provides granular and real time data, which enables operationalisation of MMM insights at granular levels in real time basis
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "left" }}>
+      <td>
         IT
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         CA
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Incrementality Tests generates **Incrementality Factor**  for calibration of attribution numbers. This enables better optimization decisioning at granular levels
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "left" }}>
+      <td>
         CA
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         IT
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Attribution data can notify for major fluctuations in platform reported numbers, helping marketers hypothesize better for Incrementality Tests
       </td>
     </tr>
@@ -167,5 +165,11 @@ Lifesight uses a combination of marketing measurement methods to **triangulate**
 
 ### Continuous Innovation:
 
-* R\&D Investment: Lifesight continuously invests in research and development to enhance our platform’s capabilities and introduce new features that meet the evolving needs of our clients.
+* R&D Investment: Lifesight continuously invests in research and development to enhance our platform’s capabilities and introduce new features that meet the evolving needs of our clients.
 * Client Feedback Integration: We actively seek and incorporate client feedback to improve our platform and ensure it delivers the highest value to our users.
+
+***
+
+<Image align="center" border={false} src="https://files.readme.io/305793748e97f5042764e3eac6362630c8ed578bbd5c32e4ca62bcf20991d8be-Untitledy.jpg" />
+
+<br />
