@@ -38,7 +38,7 @@ With Lifesight’s Planning, Forecasting & Optimization tools, CMOs can strategi
 
 Lifesight’s Marketing Intelligence & Analytics transforms your marketing data into actionable intelligence through comprehensive dashboards, customizable reports, and advanced data visualizations. This feature empowers CMOs to uncover key insights and trends, facilitating data-driven decisions that enhance campaign performance and drive sustained growth. By providing deep analytics, Lifesight enables marketing teams to develop intelligent strategies and stay ahead of the competition.
 
-<br />
+***
 
 # Our Methodologies
 
@@ -60,4 +60,4 @@ Causal Attribution accurately determines the direct effects of each marketing ca
 
 <br />
 
-Find out how Lifesight works here
+Find out how Lifesight works [here](https://docs.lifesight.io/update/docs/how-we-do-it#/)
