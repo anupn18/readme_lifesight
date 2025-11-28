@@ -6,9 +6,7 @@ hidden: false
 metadata:
   robots: index
 ---
-Motivation
-
-
+## Motivation
 
 For marketers and data scientists at the helm of measurement platforms (e.g. Lifesight), the ability to predict the impact of marketing spend on business KPIs is not an academic exercise; rather, it is a critical function with profound financial implications.
 Poor forecasts mean misallocated budgets, wasted ad spend, and missed revenue targets.
