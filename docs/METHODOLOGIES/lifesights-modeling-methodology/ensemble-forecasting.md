@@ -2,7 +2,7 @@
 title: Ensemble Forecasting
 excerpt: Lifesight Adaptive Forecasting Framework
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
