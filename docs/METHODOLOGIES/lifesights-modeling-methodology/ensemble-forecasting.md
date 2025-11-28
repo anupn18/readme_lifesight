@@ -158,6 +158,10 @@ This framework is not static; it is an evolving system. In our next technical br
 
 ***
 
+<Image align="center" border={false} src="https://files.readme.io/c87710e6fc837b71768e231abdc1a354feaa44287135427a71c962fb4ae637dd-Untitled.jpg" />
+
+***
+
 ### References
 
 
