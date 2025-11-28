@@ -19,9 +19,7 @@ In contrast, Lifesight Adaptive Forecasting Framework ensembles various algorith
 
 ***
 
-Limitations of Standalone Forecasting Models
-
-
+## Limitations of Standalone Forecasting Models
 
 Marketing data is heavily confounded by exogenous variables. These interventions like promotions, campaigns, etc.—create spikes and non-stationarities within data distribution.
 
