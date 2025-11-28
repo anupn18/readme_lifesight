@@ -2,7 +2,7 @@
 title: Lifesight Vs Open Source Libraries
 excerpt: Comparison of Lifesight's MMM framework to open source systems
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
