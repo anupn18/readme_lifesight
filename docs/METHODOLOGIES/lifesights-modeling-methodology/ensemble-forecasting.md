@@ -23,15 +23,15 @@ In contrast, Lifesight Adaptive Forecasting Framework ensembles various algorith
 
 Marketing data is heavily confounded by exogenous variables. These interventions like promotions, campaigns, etc.—create spikes and non-stationarities within data distribution.
 
-1. Structural Assumptions and Non-Stationarity
+1. **Structural Assumptions and Non-Stationarity**
    Classical time series models (ARIMA, exponential smoothing etc) operate under assumptions of stationarity and linearity that are systematically violated in marketing contexts. These methods treat structural breaks like competitor product launches, viral content propagation, algorithmic platform changes etc as statistical noise rather than regime-defining events. This results in forecasts that fail to capture persistent baseline shifts, conflating transient spikes with sustained trend changes.
-2. Data Hunger and Spurious Pattern Learning
+2. **Data Hunger and Spurious Pattern Learning**
    DNN (Deep Neural Networks) like LSTM/RNN in concept can model any function with proper depth and layers along with other HyperParameters. However, they require large training datasets (more than few thousands observations) to learn temporal patterns and avoid overfitting.
    We at Lifesight have constrained 2 years of Marketing data which didn’t provide good performance with DNN even with Optimization.
-3. Domain expertise for Feature Generation
+3. **Domain expertise for Feature Generation**
    Gradient boosted models require features like Lag features, Rolling statistics, Interaction terms etc for better performance. These features are unique to each data distribution and come with Domain expertise.
    MMM Platforms like Lifesight, generally don’t have visibility into each domain.
-4. Model Instability and Concept Drift
+4. **Model Instability and Concept Drift**
    Marketing Data is inherently non-stationary due to constant change in customer preferences, new launches and ad platform changes.
    A single model may be able to capture historical data distribution but might fail to understand future perturbations and drift over time.
 
@@ -55,7 +55,6 @@ Ensemble forecasting is a powerful approach that combines multiple models or dat
 ***
 
 ### Algorithms Explored
-
 
 1. **Sarimax(Seasonal AutoRegressive Integrated Moving Average with exogenous regressors)** is a classical statistical model adept at capturing strong seasonal and autoregressive components [7]. While effective for stationary or near-stationary data, its performance can degrade when faced with abrupt structural changes or complex non-linearities, making it a stable but often rigid baseline model in an ensemble.
 2. **Prophet** is a decomposable time series model from Facebook, engineered for scalability and interpretability [5]. It excels at capturing multi-period seasonality and custom holiday effects and is notably robust to missing data and outliers. Its ability to flexibly model non-linear trends makes it a strong candidate for ensembles, often capturing patterns that linear models like SARIMA miss
