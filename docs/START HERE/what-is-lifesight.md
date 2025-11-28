@@ -53,3 +53,11 @@ Incrementality Testing measures the additional impact of your marketing efforts 
 ## Causal Attribution
 
 Causal Attribution accurately determines the direct effects of each marketing campaign on conversions and sales, going beyond traditional attribution models. Lifesight’s Causal Attribution eliminates biases and misattributions, providing precise insights into which campaigns are driving meaningful results. This methodology ensures that CMOs have a clear understanding of the true impact of their marketing efforts, enabling more effective optimization and strategic decision-making.
+
+***
+
+<br />
+
+<br />
+
+Find out how Lifesight works here
