@@ -1,6 +1,8 @@
 ---
 title: Incrementality Testing
-excerpt: ''
+excerpt: >-
+  An introduction to Design & Implementation of good Incrementality testing
+  programs
 deprecated: false
 hidden: false
 metadata:
@@ -10,7 +12,7 @@ metadata:
 next:
   description: ''
 ---
-<br />
+## Why Experiments ? 
 
 Experiments includes a set of tools and techniques to ascertain the true **Incremental Contribution** of media channels / tactics / campaigns. Experiment is also the best approach to establish **Causality**  between media interventions and the outcome that it drives.
 
