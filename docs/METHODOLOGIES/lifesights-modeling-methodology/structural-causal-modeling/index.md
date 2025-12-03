@@ -51,7 +51,7 @@ Within this domain, there are two major schools of thought:
 
 ***
 
-### The Pearlian Approach
+### 2.1 The Pearlian Approach
 
 The Pearlian school of causality is built around the concept of **Structural Causal Models (SCMs)** and **Causal Directed Acyclic Graphs (DAGs)** .
 
@@ -70,7 +70,7 @@ This approach answers questions such as:
 
 This aligns perfectly with the needs of Marketing Mix Modeling, where channels interact, sequence matters, and mediation plays a critical role (e.g., upper funnel → lower funnel → conversions).
 
-### The Rubin Approach
+### 2.2 The Rubin Approach
 
 The Rubin framework, also known as the Potential Outcomes framework, focuses on estimating causal effects by comparing observed outcomes with counterfactual outcomes - i.e., what would have happened if an intervention had not taken place.
 
