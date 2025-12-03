@@ -1,5 +1,5 @@
 ---
-title: Lifesight's Experimentation Framework
+title: Lifesight's Testing Framework
 excerpt: >-
   Lifesight's approach to high power inference of incrementality based on
   geographical & temporal treatments
