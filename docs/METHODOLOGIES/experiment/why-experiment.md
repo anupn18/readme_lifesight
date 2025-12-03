@@ -2,7 +2,7 @@
 title: Why Experiments?
 excerpt: Learn how to build a test and learn program within your marketing organization
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
