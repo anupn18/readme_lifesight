@@ -12,7 +12,7 @@ metadata:
 next:
   description: ''
 ---
-## Why Experiments ? 
+## Why Experiments ?
 
 Experiments includes a set of tools and techniques to ascertain the true **Incremental Contribution** of media channels / tactics / campaigns. Experiment is also the best approach to establish **Causality**  between media interventions and the outcome that it drives.
 
@@ -138,4 +138,6 @@ Because of the challenges posed by Randomization, Control & Ad Stock Creep, mark
 Keeping all of this in perspective, marketing experiments, in reality, are at best quasi-causal in nature.  
 There are multiple approaches to quantify for causal impact between treatment and control groups. Some of the popular ones are : Difference in Difference, Synthetic Control Method, Regression Discontinuity and Ridge Regression.
 
-Experiment methodology used by Lifesight is detailed in [Experiments Methodologies](https://docs.lifesight.io/docs/incrementality-testing)
+***
+
+Next learn about Lifesight's Experimentation Framework to run geography level incrementality tests [here](https://docs.lifesight.io/update/docs/lifesights-experimentation-framework#/)
