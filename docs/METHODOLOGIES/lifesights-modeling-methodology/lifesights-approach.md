@@ -1,6 +1,6 @@
 ---
-title: Lifesight's Approach
-excerpt: Lifesight's unique approach to Marketing Mix Modeling
+title: Lifesight's Modeling Framework
+excerpt: Lifesight's approach to robust causal inference and accurate prediction
 deprecated: false
 hidden: false
 metadata:
@@ -56,8 +56,12 @@ Forecasting in marketing is inherently time-series–driven, relying on the auto
 
 By combining **Structural Causal Modeling + Machine Learning based Inference +  Ensemble Forecasting**, Lifesight achieves the best possible algorithmic fit for tackling marketing measurement, optimization, and forecasting challenges — while maintaining causal interpretability throughout the process.
 
-<Image align="center" border={false} src="https://files.readme.io/86def2f1e19e206a8cab4ab74f3758b94acb9811fbf1b7543df4f172a8ec28ec-MMM2.jpg" />
+***
 
-<br />
+# Lifesight's Modeling Framework
+
+<Image align="center" border={false} src="https://files.readme.io/e02ee53f0c9301a3942e0d45a07394437f0f758b8935544dfe140f38e1154020-Ua.jpg" />
+
+***
 
 Next we will dive into each of these pillars of Lifesight's MMM framework, starting with the why and the how of [Causal Reasoning in Modeling](https://docs.lifesight.io/docs/structural-causal-modeling#/)
