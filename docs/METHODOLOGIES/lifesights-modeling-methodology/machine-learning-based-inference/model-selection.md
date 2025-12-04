@@ -1,5 +1,5 @@
 ---
-title: Bootstrapping & Selection
+title: Bootstrapping & Model Selection
 excerpt: >-
   How Lifesight picks "good" solutions and bootstrap to find the range of
   outcomes
@@ -12,9 +12,15 @@ metadata:
 next:
   description: ''
 ---
-Our model generates thousands of solutions, from which we determine the `best model` using a combination of our experience and a custom ranking algorithm. This ranking method is inspired by the stacking method commonly used in ensemble techniques, where the outputs of multiple base models (level-0) are used as input for a higher-level model (level-1) to enhance predictive accuracy.
+In the last few sections we learned about Adstock transformation, Saturation transformation and how we apply evolutionary algorithms to model hyper parameter fine-tuning.
+
+The result of these processes is a set of over hundred thousand , or more, models each of which is a potential solution to your Marketing Mix Problem. We then use advanced AI techniques to search this solution space and pick the solutions that meets multiple criteria of fit
+
+***
 
 ## Ranking Methodology
+
+The model selection process starts with a **Ranking Method**. This ranking method is inspired by the stacking method commonly used in ensemble techniques, where the outputs of multiple base models (level-0) are used as input for a higher-level model (level-1) to enhance predictive accuracy.
 
 We have developed a custom ranking approach that uses **Regression Model-based weights**. These weights help us rank the models based on several important factors, allowing us to identify the most optimal model for a specific situation.
 
