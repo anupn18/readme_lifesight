@@ -176,3 +176,7 @@ Lifesight goes further by validating:
 * Uncertainty (95% confidence intervals across 100+ top models)
 
 This ensures every insight — whether ROAS, mROAS, elasticity, or budget recommendation — is not only explainable, but statistically reliable and practically useful for business decision-making.
+
+***
+
+<Image align="center" border={false} src="https://files.readme.io/c58bb58da64ab231eb838faab8f5d2529e58bbd01421dd5e1c10805c98c7c676-ub.jpg" />
