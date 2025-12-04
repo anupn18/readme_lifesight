@@ -1,8 +1,6 @@
 ---
 title: How Lifesight Works
-excerpt: >-
-  Learn more about how Lifesight implements your measurement program rooted in
-  causality and incrementality
+excerpt: Introduction to Lifesight Unified Marketing Measurements (UMM)
 deprecated: false
 hidden: false
 metadata:
@@ -173,5 +171,9 @@ Lifesight uses a combination of marketing measurement methods to **triangulate**
 ***
 
 <Image align="center" border={false} src="https://files.readme.io/305793748e97f5042764e3eac6362630c8ed578bbd5c32e4ca62bcf20991d8be-Untitledy.jpg" />
+
+***
+
+<Embed typeOfEmbed="youtube" url="https://youtu.be/EkSs_CpDcrc?list=PLN2Bf0c53YrB0qVZEqbtuHWQR9rEBEfMH" />
 
 <br />
