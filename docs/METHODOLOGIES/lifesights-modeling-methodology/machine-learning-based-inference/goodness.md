@@ -12,22 +12,22 @@ next:
 ---
 Average ( Top 100 models with lowest training NRMSE, lowest testing NRMSE, highest validation R2). Confidence ascertained at 2 Sigma standard deviation
 
-<br />
+***
 
 ### Goodness of Fit Test (G-O-F-T)
 
-**What is G-O-F-T:**\
+**What is G-O-F-T:**  
 The Goodness of Fit Test measures how well the model’s predictions match the actual data. In simple terms, it indicates the proportion of the model explained by the independent variables (e.g., price, media, promotions). It is typically measured by R-square.
 
-**Why is G-O-F-T Needed:**\
+**Why is G-O-F-T Needed:**  
 To evaluate the fit of the trend line for actual versus predicted values. A good fit suggests that the model is effective for understanding and predicting the impact of marketing activities on business outcomes.
 
-**Range of R-square:**\
+**Range of R-square:**  
 The value of R-square ranges from 0 to 1. A value closer to 1 indicates a better model. According to marketing standards, R-square should be greater than 0.8 (or 80%).
 
-<Image align="center" className="border" width="1px" border={true} src="https://files.readme.io/8132facbbb350d541b953a1a90f03193d2958f5b08c782e7af3ede32d11e7f1e-image.png" />
+<Image align="center" border={true} width="1px" src="https://files.readme.io/8132facbbb350d541b953a1a90f03193d2958f5b08c782e7af3ede32d11e7f1e-image.png" className="border" />
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/ea1b30150a27cce8abf894f633e42f71bbebcc7b75dc90cbacdba9519bae6d72-image.png" />
+<Image align="center" border={true} src="https://files.readme.io/ea1b30150a27cce8abf894f633e42f71bbebcc7b75dc90cbacdba9519bae6d72-image.png" className="border" />
 
 <br />
 
