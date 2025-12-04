@@ -1,6 +1,6 @@
 ---
 title: Model Calibration
-excerpt: ''
+excerpt: Improve model estimates from high power experiments
 deprecated: false
 hidden: false
 metadata:
