@@ -122,6 +122,4 @@ Strong causal strengths are then used in the **Contribution Back Propagation** a
 
 ***
 
-<Embed typeOfEmbed="youtube" url="https://www.youtube.com/watch?v=fMFOLgUzID0&list=PLN2Bf0c53YrB0qVZEqbtuHWQR9rEBEfMH&index=3" />
-
 <br />
