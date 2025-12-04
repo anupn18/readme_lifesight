@@ -39,7 +39,7 @@ Our **Attribute Quality Score Methodology** helps identify which channels or tac
 
 After running an MMM model, the **Attribute Quality Score** provides guidance on which channels to prioritize for experimentation.
 
-*Note - Though Lifesight generates right hypotheses which should be tested - so as to improve the overall measurement efficacy - marketers can come with their own hypotheses and get them validated through Lifesight's experiments module*
+_Note - Though Lifesight generates right hypotheses which should be tested - so as to improve the overall measurement efficacy - marketers can come with their own hypotheses and get them validated through Lifesight's experiments module_
 
 ### Types of Experiments
 
@@ -70,11 +70,11 @@ You can conduct various types of experiments to gather better insights , some of
 
 Lifesight's approach to model calibration is unique in the industry. We refer to this as Coarse & Fine Calibration.  Depending on the scenario our platform auto-applies the right approach for model calibration.
 
-**Coarse Calibration**
+**Holistic Calibration**
 
-In Coarse calibration, hyper-parameters are picked so as to minimise the distance between **MMM Inferred Lift** and the actual **Causal Lift** obtained from the experiment. This acts *similar* to setting a prior and retraining the model.
+In Coarse calibration, hyper-parameters are picked so as to minimise the distance between **MMM Inferred Lift** and the actual **Causal Lift** obtained from the experiment. This acts _similar_ to setting a prior and retraining the model.
 
-**MAPE (Coarse) =\[Sigma ( |ROI from MMM - ROI from Lift| )] / N**
+**MAPE (Coarse) =[Sigma ( |ROI from MMM - ROI from Lift| )] / N**
 
 Coarse calibration is applied in these scenarios
 
@@ -82,14 +82,18 @@ Coarse calibration is applied in these scenarios
 2. When user wants to apply calibration based on "Go Dark" experiments, when the spend for the period of testing for the whole platform is zero
 3. For New Channels (Or channels which has zero or near zero contribution in MMM)
 
-**Fine Calibration**
+**Contextual Calibration**
 
-This is the recommended approach to calibration (wherever possible). In this approach, Lifesight's calibration function minimises the distance between  **MMM Inferred Lift** and the actual **Causal Lift**  *for the specific period of testing*
+This is the recommended approach to calibration (wherever possible). In this approach, Lifesight's calibration function minimises the distance between  **MMM Inferred Lift** and the actual **Causal Lift**  _for the specific period of testing_
 
-**MAPE (Fine) =\[Sigma ( |ROI from MMM,k - ROI from Lift,k| )] / N**\
-*(where k is the period(s) for which calibration is applied)*
+**MAPE (Fine) =[Sigma ( |ROI from MMM,k - ROI from Lift,k| )] / N**  
+_(where k is the period(s) for which calibration is applied)_
 
 Fine Calibration is applied in these scenarios
 
 1. When calibration period is in within the training period of model
 2. Platforms / Channels that are calibrated is significant and already has some contribution reported by MMM
+
+***
+
+<Image align="center" border={false} src="https://files.readme.io/0d35ff510f2000f455b2a7b37a6ac9d4a0ac6d6fa0340a2d9971b4a23b710a91-uc.jpg" />
