@@ -1,5 +1,5 @@
 ---
-title: Bootstrapping & Model Selection
+title: Model Selection
 excerpt: >-
   How Lifesight picks "good" solutions and bootstrap to find the range of
   outcomes
