@@ -1,5 +1,5 @@
 ---
-title: Accuracy & Fit
+title: Accuracy
 excerpt: Understand how models are measured for goodness of fit
 deprecated: false
 hidden: false
