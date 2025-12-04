@@ -1,5 +1,5 @@
 ---
-title: Transformations - Adstock
+title: Transformation - Adstock
 excerpt: Understanding adstock (decay and lag effects) in Marketing Mix Modeling
 deprecated: false
 hidden: false
