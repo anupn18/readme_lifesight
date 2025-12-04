@@ -1,6 +1,8 @@
 ---
 title: How Lifesight Works
-excerpt: Learn more about we implement your measurement program
+excerpt: >-
+  Learn more about we implement your measurement program rooted in causality and
+  incrementality
 deprecated: false
 hidden: false
 metadata:
