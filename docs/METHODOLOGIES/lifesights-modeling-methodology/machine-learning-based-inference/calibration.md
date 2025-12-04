@@ -96,6 +96,4 @@ Contextual Calibration is applied in these scenarios
 
 ***
 
-<Image align="center" border={false} src="https://files.readme.io/0d35ff510f2000f455b2a7b37a6ac9d4a0ac6d6fa0340a2d9971b4a23b710a91-uc.jpg" />
-
-<br />
+<Image align="center" border={false} src="https://files.readme.io/4606e4af52d6f92017d86d7b7800247039630cbda02a7f8f4cdc3b07bdcaaf8c-u1.jpg" />
