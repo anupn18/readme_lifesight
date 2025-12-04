@@ -132,4 +132,8 @@ Next we will disc use the specifics around Causal Discovery & Estimation. We wil
 
 Learn more about Causal Discovery [here](https://docs.lifesight.io/update/docs/causal-discovery-estimation#/)
 
+***
+
+<Embed typeOfEmbed="youtube" url="https://www.youtube.com/watch?v=fMFOLgUzID0&list=PLN2Bf0c53YrB0qVZEqbtuHWQR9rEBEfMH&index=3" />
+
 <br />
