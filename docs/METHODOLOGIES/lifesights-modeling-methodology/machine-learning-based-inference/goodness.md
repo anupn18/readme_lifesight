@@ -179,4 +179,4 @@ This ensures every insight — whether ROAS, mROAS, elasticity, or budget recomm
 
 ***
 
-<Image align="center" border={false} src="https://files.readme.io/c58bb58da64ab231eb838faab8f5d2529e58bbd01421dd5e1c10805c98c7c676-ub.jpg" />
+<Image align="center" border={false} src="https://files.readme.io/32a7b7a213f5560fcc7024422eb7f10ce260ba9ea066d10f95ab3d59bcc91488-k.jpg" />
