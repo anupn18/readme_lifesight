@@ -86,4 +86,6 @@ The science lies in the math: structured transformations, causal reasoning, regu
 
 By grounding decisions in a robust measurement framework — and by leveraging the rich KPIs and Causal AI capabilities we support — marketers can confidently optimise budgets, balance short-term efficiency with long-term brand growth, and craft strategies with both precision and creativity.
 
+***
+
 If you’re ready to go deeper into the mechanics, the next step is understanding how regularised ridge regression underpins stable, reliable MMM models. Start [here](https://docs.lifesight.io/update/docs/ridge-regression#/)
