@@ -1,5 +1,5 @@
 ---
-title: Transformations - Saturation
+title: Transformation - Saturation
 excerpt: Understanding diminshing returns in Marketing Mix Modeling
 deprecated: false
 hidden: false
