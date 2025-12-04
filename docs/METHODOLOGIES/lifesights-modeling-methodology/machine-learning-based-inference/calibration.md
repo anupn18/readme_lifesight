@@ -68,15 +68,15 @@ You can conduct various types of experiments to gather better insights , some of
 
 ## Lifesight's Unique Approach to Calibration
 
-Lifesight's approach to model calibration is unique in the industry. We refer to this as Coarse & Fine Calibration.  Depending on the scenario our platform auto-applies the right approach for model calibration.
+Lifesight's approach to model calibration is unique in the industry. We refer to this as Holistic & Contextual Calibration.  Depending on the scenario our platform auto-applies the right approach for model calibration.
 
 **Holistic Calibration**
 
-In Coarse calibration, hyper-parameters are picked so as to minimise the distance between **MMM Inferred Lift** and the actual **Causal Lift** obtained from the experiment. This acts _similar_ to setting a prior and retraining the model.
+In Holistic calibration, hyper-parameters are picked so as to minimise the distance between **MMM Inferred Lift** and the actual **Causal Lift** obtained from the experiment. This acts _similar_ to setting a prior and retraining the model.
 
-**MAPE (Coarse) =[Sigma ( |ROI from MMM - ROI from Lift| )] / N**
+**MAPE (Contextual) =[Sigma ( |ROI from MMM - ROI from Lift| )] / N**
 
-Coarse calibration is applied in these scenarios
+Holistic calibration is applied in these scenarios
 
 1. When the calibration period is outside of the model's training window.
 2. When user wants to apply calibration based on "Go Dark" experiments, when the spend for the period of testing for the whole platform is zero
@@ -86,10 +86,10 @@ Coarse calibration is applied in these scenarios
 
 This is the recommended approach to calibration (wherever possible). In this approach, Lifesight's calibration function minimises the distance between  **MMM Inferred Lift** and the actual **Causal Lift**  _for the specific period of testing_
 
-**MAPE (Fine) =[Sigma ( |ROI from MMM,k - ROI from Lift,k| )] / N**  
+**MAPE (Contextual) =[Sigma ( |ROI from MMM,k - ROI from Lift,k| )] / N**  
 _(where k is the period(s) for which calibration is applied)_
 
-Fine Calibration is applied in these scenarios
+Contextual Calibration is applied in these scenarios
 
 1. When calibration period is in within the training period of model
 2. Platforms / Channels that are calibrated is significant and already has some contribution reported by MMM
