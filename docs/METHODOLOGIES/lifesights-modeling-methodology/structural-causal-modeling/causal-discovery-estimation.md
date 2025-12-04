@@ -120,4 +120,8 @@ We then apply the approach know as Fast Causal Inference , which is a very popul
 
 Strong causal strengths are then used in the **Contribution Back Propagation** approach as mentioned <Anchor label="here" target="_blank" href="https://docs.lifesight.io/update/docs/backpropogation-effect-adjustments#/">here</Anchor>
 
+***
+
+<Embed typeOfEmbed="youtube" url="https://www.youtube.com/watch?v=fMFOLgUzID0&list=PLN2Bf0c53YrB0qVZEqbtuHWQR9rEBEfMH&index=3" />
+
 <br />
