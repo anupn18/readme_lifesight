@@ -74,3 +74,5 @@ _This way we penalise the mediator and distribute the Effect (which is the incre
 <br />
 
 Next let us understand the core ML algorithm that powers this inference. It is detailed [here](https://docs.lifesight.io/update/docs/machine-learning-based-inference#/)
+
+<br />
