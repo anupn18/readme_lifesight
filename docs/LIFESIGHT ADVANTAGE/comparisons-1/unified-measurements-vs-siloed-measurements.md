@@ -1,5 +1,5 @@
 ---
-title: Unified Measurements Vs Siloed Measurements
+title: Lifesight UMM Vs Siloed Measurements
 deprecated: false
 hidden: true
 metadata:
