@@ -1,7 +1,7 @@
 ---
 title: Lifesight Modeling Framework Vs Other MMM Vendors
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
