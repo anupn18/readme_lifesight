@@ -1,5 +1,5 @@
 ---
-title: Copy of Lifesight Modeling Framework Vs Open Source Libraries
+title: Lifesight Modeling Framework Vs Other MMM Vendors
 deprecated: false
 hidden: false
 metadata:
