@@ -28,7 +28,7 @@ Follow these steps to connect your Criteo account to Lifesight:
 2. **Locate Criteo**
    On the Integrations page, use the search bar to find "Criteo". It will appear under the "Advertising" category.
 
-   <Image align="center" width="650px" src="https://files.readme.io/f69d4a57c622b6acb051796037f8bad163cb8e9d37b7bd388f30d07cb457c9ca-Integrations_-_Connect_Criteo_.png" />
+   <Image align="center" border={false} width="650px" src="https://files.readme.io/f69d4a57c622b6acb051796037f8bad163cb8e9d37b7bd388f30d07cb457c9ca-Integrations_-_Connect_Criteo_.png" />
 
 3. **Initiate Connection**
    Click on the Criteo integration card. A pop-up modal will appear. Click the **Connect** button to begin the authorization process.
@@ -36,7 +36,7 @@ Follow these steps to connect your Criteo account to Lifesight:
 4. **Authorize Lifesight in Criteo**
    You will be redirected to a Criteo login page. Enter your Criteo credentials to log in and grant Lifesight permission to access your account data.
 
-   <Image align="center" src="https://files.readme.io/1c5be1ce10e591dff88aeffb72f1c7cd899f5b9b7ab842f23d92f4cb0273f7fc-Lifesight_App_on_Criteo.png" />
+   <Image border={false} src="https://files.readme.io/eb9ee2a5bccde45c1fb1a0ed48ffbac3c1f578932cd92e1314ad75268264e0ff-Criteo_Updated_Login_Screen.png" />
 
    <br />
 
@@ -45,7 +45,7 @@ Follow these steps to connect your Criteo account to Lifesight:
 
    <br />
 
-   <Image align="center" src="https://files.readme.io/0c7fa32e3e414bb1ce20d1cc4c0d84455fea5b12a23eab79b8f9077a8fa2a60a-Integrations_-_Criteo_Account_Connection.png" />
+   <Image align="center" border={false} src="https://files.readme.io/0c7fa32e3e414bb1ce20d1cc4c0d84455fea5b12a23eab79b8f9077a8fa2a60a-Integrations_-_Criteo_Account_Connection.png" />
 
 6. **Confirm and Finish**
    Click **Connect** to finalize the setup. The Criteo integration will now show as "Active" on your Integrations page.
