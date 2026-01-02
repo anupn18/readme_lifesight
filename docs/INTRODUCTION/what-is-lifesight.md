@@ -59,3 +59,5 @@ Causal Attribution accurately determines the direct effects of each marketing ca
 <Image align="center" border={false} src="https://files.readme.io/232730eab9a995213a73067e44003cd8eb27d2500974fe0651b822829b91d2d9-Untitledx.jpg" />
 
 Find out how Lifesight works [here](https://docs.lifesight.io/update/docs/how-we-do-it#/)
+
+<br />
