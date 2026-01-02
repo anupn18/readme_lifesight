@@ -9,8 +9,8 @@ Lifesight is one of the very few Unified Marketing Measurements platform that of
 
 Find the key differentiators here
 
-Lifesight vs Other MMM Vendors - https://docs.lifesight.io/docs/lifesight-vs-other-mmm-vendors
+Lifesight vs Other [MMM Vendors](https://docs.lifesight.io/docs/lifesight-vs-other-mmm-vendors)
 
-Lifesight vs Other Testing Vendors - https://docs.lifesight.io/docs/copy-of-lifesight-vs-other-mmm-vendors
+Lifesight vs Other [Testing Vendors](https://docs.lifesight.io/docs/copy-of-lifesight-vs-other-mmm-vendors)
 
-Lifesight vs Other Attribution Vendors - https://docs.lifesight.io/docs/lifesight-vs-other-attribution-vendors
+Lifesight vs Other [Attribution Vendors]()
