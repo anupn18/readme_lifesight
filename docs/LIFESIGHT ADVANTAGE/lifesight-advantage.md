@@ -4,7 +4,7 @@ excerpt: >-
   Where traditional measurement breaks down and how Lifesight is architected
   differently.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
