@@ -392,7 +392,7 @@ metadata:
 
     <tr>
       <td style={{ textAlign: "left" }}>
-        **Reports Model Coefficients & Hyperparameters**
+        **Reports Model Coefficients & Hyper-parameters**
       </td>
 
       <td style={{ textAlign: "left" }}>
