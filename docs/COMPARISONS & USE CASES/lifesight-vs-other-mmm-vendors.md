@@ -248,6 +248,24 @@ metadata:
 
     <tr>
       <td style={{ textAlign: "left" }}>
+        **Trend Analysis**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Lifesight decomposed trend to Category Momentum and Brand Momentum. Category momentum is inferred from Additive Auto-regressive Time Series Decomposition processes, whereas Brand Momentum is inferred from proprietary volume of search and share of search data.
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        ✅
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        ❌
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
         **Custom Dashboard Builder**
       </td>
 
