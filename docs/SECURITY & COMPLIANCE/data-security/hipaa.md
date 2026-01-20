@@ -1,5 +1,5 @@
 ---
-title: HIPAA (coming soon)
+title: HIPAA
 excerpt: ''
 deprecated: false
 hidden: false
