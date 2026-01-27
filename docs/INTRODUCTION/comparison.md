@@ -1,6 +1,6 @@
 ---
 title: Comparison
-excerpt: Detailed comparison between Lifesight and other measurement solutions.
+excerpt: Detailed comparison between Lifesight and other measurement solutions
 deprecated: false
 hidden: true
 metadata:
