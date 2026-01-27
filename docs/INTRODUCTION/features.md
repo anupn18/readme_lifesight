@@ -1,6 +1,6 @@
 ---
 title: Features
-excerpt: Learn more about our platform features
+excerpt: Learn more about our platform features.
 deprecated: false
 hidden: true
 metadata:
