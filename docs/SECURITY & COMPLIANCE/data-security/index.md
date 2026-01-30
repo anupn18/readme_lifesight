@@ -2,7 +2,7 @@
 title: Data security compliance
 excerpt: ''
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
