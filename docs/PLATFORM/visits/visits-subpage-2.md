@@ -1,7 +1,7 @@
 ---
 title: Visits - SubPage 2
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
