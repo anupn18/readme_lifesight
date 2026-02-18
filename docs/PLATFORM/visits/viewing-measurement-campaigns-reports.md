@@ -1,7 +1,7 @@
 ---
 title: Viewing Measurement Campaigns & Reports
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
