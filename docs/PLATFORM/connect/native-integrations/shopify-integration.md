@@ -28,10 +28,18 @@ To integrate your Shopify data and allow Lifesight to collect data from your sto
 2. In the search field, type "Shopify" to locate the integration.
 3. Click the Shopify tile and enter your store name (the part before .myshopify.com).
 
-   <Image align="center" border={false} src="https://files.readme.io/b09f4f7543e9563394b05cfe29c85470c11c278fea90d35e9fc4cb836dac4e12-Shopify_Install_Page.png" />
+   <Image align="center" src="https://files.readme.io/b09f4f7543e9563394b05cfe29c85470c11c278fea90d35e9fc4cb836dac4e12-Shopify_Install_Page.png" />
 4. Click `Connect`
-5. You’ll be redirected to Shopify and shown the permission screens—review and approve the installation.
-6. After installation, you’ll be redirected back to Lifesight.
+5. You’ll be redirected to Shopify and shown the permission screens—review and approve the installation.  
+
+   ![](https://files.readme.io/86bcbf3a866208309f19ea1513596f3349af9d3ea16cb10557a01a87757b7e84-ShopifyOAuth.png)
+
+   <br />
+6. After installation, you’ll be redirected back to Lifesight.    
+
+   ![](https://files.readme.io/74d67d5d0f6defffda475b773ab7f42e914df88f3043501dac6aa67114e8004c-Screenshot_2026-02-23_at_3.22.32PM.png)
+
+   <br />
 7. Data will begin appearing in your Dashboards, Profiles, and Segments. Full synchronization can take up to 24 hours.
 
 You are now all set to leverage your store data and measure marketing performance based on customer behavior.
