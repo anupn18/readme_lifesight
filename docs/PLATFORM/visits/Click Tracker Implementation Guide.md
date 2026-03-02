@@ -1,9 +1,9 @@
 ---
-title: "Click Tracker Implementation Guide"
-intercom_article_id: "9812990"
+title: Click Tracker Implementation Guide
+intercom_article_id: '9812990'
 ---
 
-For all platforms, kindly ensure to add the landing page of your campaign in Lifesight click tracker under Redirect macro. Step 6 in <https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns>
+For all platforms, kindly ensure to add the landing page of your campaign in Lifesight click tracker under Redirect macro. Step 6 in [https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns](https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns)
 
 ## **Facebook Implementation:**
 
@@ -24,7 +24,7 @@ Follow these steps to add the trackers:
 
 Final URL: Add your creative Landing Page
 
-Example: <https://test.io/>
+Example: [https://test.io/](https://test.io/)
 
 ![](../images/9e3da0a5861b203aa145cb7d402d6168.png)
 
@@ -36,7 +36,7 @@ The Tracking Template is where the third-party click tracker is to be added. Thi
 
 **Example:**
 
-[https://pixel.ad.lifesight.io/pixel/event/XXXXXX?event=CLICK&crid={creative}&channel=gads&cv=[cv]&cb=%25%25CACHEBUSTER%25%25&db\_redirect=NO&redirect=](https://pixel.ad.lifesight.io/pixel/event/XXXXXX?event=CLICK&crid=%7Bcreative%7D&channel=gads&cv=[cv]&cb=%25%25CACHEBUSTER%25%25&db_redirect=NO&redirect=https%3A%2F%2Ftest.io%2F){lpurl}
+[https://pixel.ad.lifesight.io/pixel/event/XXXXXX?event=CLICK&crid={'{creative}'}&channel=gads&cv=[cv]&cb=%25%25CACHEBUSTER%25%25&db\_redirect=NO&redirect=](https://pixel.ad.lifesight.io/pixel/event/XXXXXX?event=CLICK&crid=%7Bcreative%7D&channel=gads&cv=[cv]&cb=%25%25CACHEBUSTER%25%25&db_redirect=NO&redirect=https%3A%2F%2Ftest.io%2F){'{lpurl}'}
 
 ![](../images/f7eee9213b0162c412bbee77cb91e9d0.png)
 
@@ -46,7 +46,7 @@ The Tracking Template is where the third-party click tracker is to be added. Thi
 2. From the dashboard, go to the Campaigns tab and select or create a campaign
 3. Under the selected campaign, go to the Creatives section.
 4. Under the Tracking section, there will be an option for Click Tracking URL.
-5. Paste the Click tracker URL taken from Lifesight UI after encoding the Landing page of your campaign as present in Step 6 of <https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns>
+5. Paste the Click tracker URL taken from Lifesight UI after encoding the Landing page of your campaign as present in Step 6 of [https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns](https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns)
 
 ## 
 
@@ -56,7 +56,7 @@ The Tracking Template is where the third-party click tracker is to be added. Thi
 2. From the dashboard, go to the Campaigns tab and select or create a campaign
 3. Under the selected campaign, go to the Creatives section.
 4. In the Creative Setup or Creative Edit page, look for the Click Tracking section.
-5. Paste the Click tracker URL taken from Lifesight UI after encoding the Landing page of your campaign as present in Step 6 of <https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns>
+5. Paste the Click tracker URL taken from Lifesight UI after encoding the Landing page of your campaign as present in Step 6 of [https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns](https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns)
 
 ## **Google Ad Manager (GAM) Implementation:**
 
@@ -66,7 +66,7 @@ Kindly follow the below steps for implementing the click tracker.
 2. In GAM, go to the Delivery section and open the relevant Order and select the Line Item where the click tracker will be implemented.
 3. Edit the Creative
 
-1. Paste the Click tracker URL taken from Lifesight UI after encoding the Landing page of your campaign as present in Step 6 of <https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns>
+1. Paste the Click tracker URL taken from Lifesight UI after encoding the Landing page of your campaign as present in Step 6 of [https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns](https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns)
 
 ## **Yahoo Implementation:**
 
@@ -76,14 +76,14 @@ Kindly follow the below steps for implementing the click tracker.
 4. Go to the Creatives section under the selected campaign.
 5. Choose an existing creative or create a new one.
 6. In the Creative Setup page, locate the Click Tracking section.
-7. Paste the Click tracker URL taken from Lifesight UI after encoding the Landing page of your campaign as present in Step 6 of <https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns>
+7. Paste the Click tracker URL taken from Lifesight UI after encoding the Landing page of your campaign as present in Step 6 of [https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns](https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns)
 
 ## **X (Twitter) Implementation:**
 
 Kindly follow the below steps for implementing the click tracker.
 
 1. Login to Twitter
-2. Paste the Click tracker URL taken from Lifesight UI after encoding the Landing page of your campaign as present in Step 6 of <https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns> in the creative section
+2. Paste the Click tracker URL taken from Lifesight UI after encoding the Landing page of your campaign as present in Step 6 of [https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns](https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns) in the creative section
 
 ## **Inmobi Implementation:**
 
@@ -92,7 +92,7 @@ Kindly follow the below steps for implementing the click tracker.
 3. Either select an existing campaign or click Create Campaign to start a new one.
 4. Within the campaign, go to the Creatives section and select an existing creative or create a new one.
 5. In the Creative Setup page, go to the Tracking section.
-6. Paste the Click tracker URL taken from Lifesight UI after encoding the Landing page of your campaign as present in Step 6 of <https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns>
+6. Paste the Click tracker URL taken from Lifesight UI after encoding the Landing page of your campaign as present in Step 6 of [https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns](https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns)
 
 ## **Adform Implementation:**
 
@@ -102,7 +102,7 @@ Kindly follow the below steps for implementing the click tracker.
 4. Inside the campaign, click on Creatives and either select an existing creative or create a new one.
 5. In the Tracking section, locate the field for Click Tracking URL.
 
-1. Paste the Click tracker URL taken from Lifesight UI after encoding the Landing page of your campaign as present in Step 6 of <https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns>
+1. Paste the Click tracker URL taken from Lifesight UI after encoding the Landing page of your campaign as present in Step 6 of [https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns](https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns)
 
 ## **Google Campaign Manager (GCM/DCM) Implementation:**
 
