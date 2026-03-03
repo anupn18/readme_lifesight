@@ -1,6 +1,7 @@
 ---
-title: "Activate Facebook Conversion Feed"
-intercom_article_id: "9351690"
+title: Activate Facebook Conversion Feed
+hidden: true
+intercom_article_id: '9351690'
 ---
 
 This guide will walk you through the process of activating and setting up Lifesight's real-time footfall measurement solution on Facebook.  
