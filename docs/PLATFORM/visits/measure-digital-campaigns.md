@@ -11,7 +11,11 @@ Creating a Measurement Tracker
 
 Our Measurement module works using a pixel based implementation in your respective DSP or ad network. To begin, you will need to complete the “Add Measurement” process that will then generate the pixel (tag) to be implemented. This will allow the tool to generate reports that you can use to attribute your campaigns to offline store visits as well as optimize your campaigns.
 
-Click on the Measurements icon displayed on the left side of the main menu.
+Click on the Create measurement button displayed on the right corner of the visits list page.
+
+![](https://files.readme.io/a765889a52653451393ca99f9851a6741d6ad9a89a2bd5d1479f9c01ba52de40-image.png)
+
+<br />
 
 You can measure visitors to brand stores through digital campaigns.
 
@@ -33,6 +37,10 @@ Competitors - You can add max 3 brands as competition.
 
 Step 1 - Campaign name and Flight
 
+![](https://files.readme.io/13e732ff914526c64397baf0a4cfd26cdf9d96bf08c1d062269965ac20f4493f-image.png)
+
+<br />
+
 In Step 1, please complete the following:
 
 Campaign Name: Enter a meaningful name to represent your campaign (i.e. Summer Campaign, New Year Promo, Holiday Campaign, etc.)
@@ -45,6 +53,10 @@ Override Checkbox: If you need to override the default attribution period, you c
 
 Step 2 - Select Media Partner, Partner Budget & Impressions
 
+![](https://files.readme.io/f95a55408749754301a481b8a14e8d00c66a4ea7528ff6a08c9aa8e49e68b692-image.png)
+
+<br />
+
 Select Media Partners : Choose from a list of Media partners that you are running your digital campaign on.
 
 Partner Budget: Mention partner wise planned budget. Mentioning exact budgets would help in determining correct partner wise Cost per Visit  (CPV).
@@ -55,6 +67,10 @@ Enable Conversion Data: In case you want to enable the In-flight optimization fe
 
 Step 3 - Select Places
 
+![](https://files.readme.io/523b56e5e2e66d6808d1b97f90095059ad379a6be5e21f1f2fe439acd3dfa9d9-image.png)
+
+<br />
+
 In Step 3, you have to select the places you want to track for your attribution places (also known as conversion places). This will be the locations you want to attribute your ad views/clicks/engagements to. To add places, you will need to search places either by Brands (i.e. Starbucks, KFC, McDonald's, etc.) OR Categories (i.e. Fast Food, Restaurant, Cinemas, etc) with further filtration available by ‘States’ and ‘Cities’. By default, the search will be limited to the country you operate in.
 
 Search Result: After you click Search, a list of locations will be displayed. In the example above, a search for Adidas in the state of Karnataka with city as Bangalore  was done and there were 16 places found.
@@ -64,6 +80,10 @@ Select Places : You can select multiple locations manually by clicking the check
 'Remove All' can be used to remove specific checked locations using the button above the list.
 
 Step 4 - Select Competitors
+
+![](https://files.readme.io/743cefaa384d5ce91528ee4fe441ba8c9574048bee84866a2b81cf95ac6ffcd0-image.png)
+
+<br />
 
 In Step 4, you can select upto three competitor brands to measure your campaign against. The system will automatically pick up the competitor store closest to your attributed brand store.
 
