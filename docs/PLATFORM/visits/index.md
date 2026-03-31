@@ -27,7 +27,7 @@ Creating Conversion Feed Campaigns
 
 Viewing Measurement Campaigns & Reports
 Viewing Measurement Campaigns
-Viewing Measurement Report
-Measurement Report
+Viewing Measurement Report : https://docs.lifesight.io/update/docs/Viewing%20Measurement%20Report
+Measurement Report : 
 
 <br />
