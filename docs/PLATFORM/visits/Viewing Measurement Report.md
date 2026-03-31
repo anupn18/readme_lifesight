@@ -1,6 +1,7 @@
 ---
-title: "Viewing Measurement Report"
-intercom_article_id: "3026116"
+title: Viewing Measurement Report
+hidden: true
+intercom_article_id: '3026116'
 ---
 
 **Viewing Measurement Report**
