@@ -11,11 +11,11 @@ next:
       title: Overview
       type: basic
 ---
-**What is Measurements**
+**What is Visits**
 
 Overview: [https://docs.lifesight.io/update/docs/visits-subpage-1](https://docs.lifesight.io/update/docs/visits-subpage-1)
 
-**Creating Measurement Trackers**
+**Creating Visits Trackers**
 
 * Impression Tracker Implementation Guide: [https://docs.lifesight.io/update/docs/impression-tracker-implementation-guide](https://docs.lifesight.io/update/docs/impression-tracker-implementation-guide)
 * Click Tracker Implementation Guide: [https://docs.lifesight.io/update/docs/Click%20Tracker%20Implementation%20Guide](https://docs.lifesight.io/update/docs/Click%20Tracker%20Implementation%20Guide)
@@ -27,8 +27,8 @@ Overview: [https://docs.lifesight.io/update/docs/visits-subpage-1](https://docs.
 
 **Creating Conversion Feed Campaigns:**
 
-**Viewing Measurement Campaigns & Reports:**
+**Viewing Visits Campaigns & Reports:**
 
-* Viewing Measurement Campaigns: [https://docs.lifesight.io/docs/Viewing%20Measurement%20Campaigns](https://docs.lifesight.io/docs/Viewing%20Measurement%20Campaigns)
-* Viewing Measurement Report: [https://docs.lifesight.io/update/docs/Viewing%20Measurement%20Report](https://docs.lifesight.io/update/docs/Viewing%20Measurement%20Report)
-* Measurement Report: [https://docs.lifesight.io/update/docs/measurement-report-v2](https://docs.lifesight.io/update/docs/measurement-report-v2)
+* Viewing Visits Campaigns: [https://docs.lifesight.io/docs/Viewing%20Measurement%20Campaigns](https://docs.lifesight.io/docs/Viewing%20Measurement%20Campaigns)
+* Viewing Visits Report: [https://docs.lifesight.io/update/docs/Viewing%20Measurement%20Report](https://docs.lifesight.io/update/docs/Viewing%20Measurement%20Report)
+* Visits Report: [https://docs.lifesight.io/update/docs/measurement-report-v2](https://docs.lifesight.io/update/docs/measurement-report-v2)
