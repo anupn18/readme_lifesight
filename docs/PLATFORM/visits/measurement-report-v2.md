@@ -1,5 +1,5 @@
 ---
-title: Measurement report v2
+title: Measurement Report
 deprecated: false
 hidden: true
 metadata:
