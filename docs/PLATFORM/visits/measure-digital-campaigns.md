@@ -5,9 +5,7 @@ hidden: false
 metadata:
   robots: index
 ---
-<br />
-
-Creating a Measurement Tracker
+Creating a Visits Tracker
 
 Our Measurement module works using a pixel based implementation in your respective DSP or ad network. To begin, you will need to complete the “Add Measurement” process that will then generate the pixel (tag) to be implemented. This will allow the tool to generate reports that you can use to attribute your campaigns to offline store visits as well as optimize your campaigns.
 
