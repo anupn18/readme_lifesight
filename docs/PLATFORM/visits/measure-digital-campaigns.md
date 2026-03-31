@@ -35,7 +35,7 @@ Places – Where you want to attribute your campaigns to.
 
 Competitors - You can add max 3 brands as competition.
 
-Step 1 - Campaign name and Flight
+**Step 1 - Campaign name and Flight**
 
 ![](https://files.readme.io/13e732ff914526c64397baf0a4cfd26cdf9d96bf08c1d062269965ac20f4493f-image.png)
 
@@ -51,7 +51,7 @@ Attribution Flight: Set the attribution start and end date if you want to manual
 
 Override Checkbox: If you need to override the default attribution period, you can check the Override checkbox to set your own attribution start and end date.
 
-Step 2 - Select Media Partner, Partner Budget & Impressions
+**Step 2 - Select Media Partner, Partner Budget & Impressions**
 
 ![](https://files.readme.io/f95a55408749754301a481b8a14e8d00c66a4ea7528ff6a08c9aa8e49e68b692-image.png)
 
@@ -65,7 +65,7 @@ Partner Impressions: Based on the campaign booked activity please add estimated 
 
 Enable Conversion Data: In case you want to enable the In-flight optimization feature for Facebook, TTD or Google Marketing Platform ( Display and Video 360), you can enable conversion data to send daily footfall data directly to these partner platforms.
 
-Step 3 - Select Places
+**Step 3 - Select Places**
 
 ![](https://files.readme.io/523b56e5e2e66d6808d1b97f90095059ad379a6be5e21f1f2fe439acd3dfa9d9-image.png)
 
@@ -79,7 +79,7 @@ Select Places : You can select multiple locations manually by clicking the check
 
 'Remove All' can be used to remove specific checked locations using the button above the list.
 
-Step 4 - Select Competitors
+**Step 4 - Select Competitors**
 
 ![](https://files.readme.io/743cefaa384d5ce91528ee4fe441ba8c9574048bee84866a2b81cf95ac6ffcd0-image.png)
 
