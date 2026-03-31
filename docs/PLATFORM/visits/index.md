@@ -19,7 +19,7 @@ Overview: [https://docs.lifesight.io/update/docs/visits-subpage-1](https://docs.
 
 * Impression Tracker Implementation Guide: [https://docs.lifesight.io/update/docs/impression-tracker-implementation-guide](https://docs.lifesight.io/update/docs/impression-tracker-implementation-guide)
 * Click Tracker Implementation Guide: [https://docs.lifesight.io/update/docs/Click%20Tracker%20Implementation%20Guide](https://docs.lifesight.io/update/docs/Click%20Tracker%20Implementation%20Guide)
-* Measure Digital Campaigns: [https://docs.lifesight.io/update/docs/measure-digital-campaigns](https://docs.lifesight.io/update/docs/measure-digital-campaigns)
+* Measure Digital Campaigns: <Anchor label="https://docs.lifesight.io/update/docs/measure-digital-campaigns" target="_blank" href="https://docs.lifesight.io/update/docs/measure-digital-campaigns">https://docs.lifesight.io/update/docs/measure-digital-campaigns</Anchor>
 * Measure DOOH Campaigns: [https://docs.lifesight.io/update/docs/Measure%20DOOH%20Campaigns](https://docs.lifesight.io/update/docs/Measure%20DOOH%20Campaigns)
 * Measure OOH Campaigns: [https://docs.lifesight.io/update/docs/Measure%20OOH%20Campaigns](https://docs.lifesight.io/update/docs/Measure%20OOH%20Campaigns)
 * Footfall Analysis with Enhanced Facebook Campaign Report Integration
