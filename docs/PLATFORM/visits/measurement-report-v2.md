@@ -9,6 +9,10 @@ metadata:
 
 # 1: Overview
 
+<br />
+
+<Image align="center" src="https://files.readme.io/7200b1c60b4aa095e0e8e4b56a3559391d5230cd70c0db311cfcc35cac3311ce-SCR-20260331-mgci.png" />
+
 ![](../images/44c6b0fd31aed299449f4cd5ac4f4718.png)
 
 #### Key Metrics
@@ -146,6 +150,8 @@ Visit Lift provides insights into the direct impact of your ad campaign. A posit
 Partner Breakdown provides insights into the performance of your campaign across various ad channels and DSPs (Demand Side Platforms), such as DV 360, Facebook, TTD, and Yahoo. This data helps in evaluating the effectiveness of different channels.
 
 By analyzing the performance of each partner, you can allocate your budget more efficiently, focusing on channels that deliver the best results.
+
+<Image align="center" src="https://files.readme.io/2c60092233e4a01a36c6cc07427a593c7764d8824089e7ebc3669d6ab97ba46a-Screenshot_2026-03-31_at_1.45.14_PM.png" />
 
 ***
 
