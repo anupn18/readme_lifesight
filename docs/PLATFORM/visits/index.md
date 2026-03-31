@@ -1,5 +1,6 @@
 ---
 title: Visits
+excerpt: Learn about our attribution tool and how to use it
 deprecated: false
 hidden: true
 metadata:
@@ -10,25 +11,21 @@ next:
       title: Overview
       type: basic
 ---
-Learn about our attribution tool and how to use it
-
-<br />
-
 **What is Measurements **
 
 Overview: [https://docs.lifesight.io/update/docs/visits-subpage-1](https://docs.lifesight.io/update/docs/visits-subpage-1)
 
 **Creating Measurement Trackers**
 
-Impression Tracker Implementation Guide : https://docs.lifesight.io/update/docs/impression-tracker-implementation-guide
+Impression Tracker Implementation Guide : [https://docs.lifesight.io/update/docs/impression-tracker-implementation-guide](https://docs.lifesight.io/update/docs/impression-tracker-implementation-guide)
 
-Click Tracker Implementation Guide : https://docs.lifesight.io/update/docs/Click%20Tracker%20Implementation%20Guide
+Click Tracker Implementation Guide : [https://docs.lifesight.io/update/docs/Click%20Tracker%20Implementation%20Guide](https://docs.lifesight.io/update/docs/Click%20Tracker%20Implementation%20Guide)
 
-Measure Digital Campaigns : 
+Measure Digital Campaigns : https://docs.lifesight.io/update/docs/measure-digital-campaigns
 
-Measure DOOH Campaigns
+Measure DOOH Campaigns: https://docs.lifesight.io/update/docs/Measure%20DOOH%20Campaigns
 
-Measure OOH Campaigns
+Measure OOH Campaigns : https://docs.lifesight.io/update/docs/Measure%20OOH%20Campaigns
 
 Footfall Analysis with Enhanced Facebook Campaign Report Integration
 
