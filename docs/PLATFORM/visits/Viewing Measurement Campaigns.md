@@ -1,8 +1,7 @@
 ---
-title: "Viewing Measurement Campaigns"
-intercom_article_id: "3026095"
+title: Viewing Measurement Campaigns
+intercom_article_id: '3026095'
 ---
-
 Explore your 'My Measurements' home page in order to view, create and manage Measurements. Your Measurements Home page comprises the following features:
 
 # **Campaign List**
@@ -30,6 +29,6 @@ This is the default landing page (home page) of attribution (figure 1). All the 
 5. You can check for the date on which the campaigns were started.
 6. You can check for a quick view on the number of impressions that have been tracked up until now on the measurement campaign.
 7. You can check for the quick summary on the total number of visits tracked through the footfall measurement campaign from the number of places tracked.
-8. Create Tracker - To create a Tracker, click the CREATE TRACKER button. For full detailed instructions on this, visit [Creating a Tracker](https://intercom.help/lifesight-support/en/articles/3026106-creating-a-tracker).
+8. Create Tracker - To create a Tracker, click the CREATE TRACKER button. For full detailed instructions on this, visit <Anchor label="Creating a Tracker" target="_blank" href="https://docs.lifesight.io/update/docs/Create%20Measurement%20Tracker">Creating a Tracker</Anchor>.
 9. Edit Tracker - To edit the tracker, hover the mouse over the attribution tracker that you want to edit, and then click the EDIT icon button.
-10. View Attribution Report - To view the attribution report, hover the mouse over the attribution tracker that you want to see the report and click the REPORT button. For full detailed information on this, visit "[Viewing Attribution Report](https://app.intercom.io/a/apps/lcjnbo0d/articles/articles/3026116/show)".
+10. View Attribution Report - To view the attribution report, hover the mouse over the attribution tracker that you want to see the report and click the REPORT button. 
