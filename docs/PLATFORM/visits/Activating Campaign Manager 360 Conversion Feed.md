@@ -1,6 +1,7 @@
 ---
-title: "Activating Campaign Manager 360 Conversion Feed"
-intercom_article_id: "10182673"
+title: Activating Campaign Manager 360 Conversion Feed
+hidden: true
+intercom_article_id: '10182673'
 ---
 
 **Prerequisites**
