@@ -129,13 +129,33 @@ Integrating DCM (DoubleClick Campaign Manager) with the Lifesight Pixel is a cru
 
 In DCM >> Campaign >> Properties
 
+![](https://files.readme.io/6f0a566552c5d1984a190fb6ec20e7afc490f057188479023f630dfa97d8c4fa-image.png)
+
+<br />
+
+![](https://files.readme.io/cbb0b81fecc6741a5b7f55af5309627317dfdb8bbe251f2fe4d41f90a9e2f547-image.png)
+
+<br />
+
 Lifesight Impression Tracker example:
 
 `[https://pixel.ad.lifesight.io/pixel/event/XXXXXX?event=RENDER&channel=gmp&cv=[cv]&cachebuster=$\{CACHEBUSTER}&cid=$](https://pixel.ad.lifesight.io/pixel/event/XXXXXX?event=RENDER&channel=gmp&cv=[cv]&cachebuster=${CACHEBUSTER}&cid=${CAMPAIGN_ID}&crid=${CREATIVE_ID}&db_redirect=NO&app=${SOURCE_URL_ENC}`
 
+![](https://files.readme.io/5180f6e1e1df6c2019b7ea3d861813be259945729969fdf14aff17fe04685e86-image.png)
+
+<br />
+
 Add the impression event tag properties and save.
 
+![](https://files.readme.io/c2b2f5748777eb4da6c551cc06fde5b6dc9e78b4def32eec053c87c89453f272-image.png)
+
+<br />
+
 You will be able to see the tracker added onto DCM.
+
+![](https://files.readme.io/a6f40d6dfef35960129f5cb70e8cf1860fca456d6d46294fd83529fff2cf78e1-image.png)
+
+<br />
 
 Adobe Advertising Implementation:
 Log in to Adobe DSP:
@@ -217,6 +237,10 @@ Log in to TikTok DSP:
 From the dashboard, click on the Campaigns tab to view
 
 When setting up a creative under an ad group in TikTok Ads Manager , scroll down to "Third party tracking settings".
+
+![](https://files.readme.io/eca6a8d4e538dd78b4122f09c6df897f401cf9ddbf3aa72f65f6cd45ada6cb0f-image.png)
+
+<br />
 
 Paste the impression tracker URL taken from LS UI
 
