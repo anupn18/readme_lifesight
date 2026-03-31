@@ -1,6 +1,7 @@
 ---
-title: "Activate TTD Conversion Feed"
-intercom_article_id: "10053331"
+title: Activate TTD Conversion Feed
+hidden: true
+intercom_article_id: '10053331'
 ---
 
 Prerequisites:   
