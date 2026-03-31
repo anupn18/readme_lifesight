@@ -1,8 +1,7 @@
 ---
-title: "Measure DOOH Campaigns"
-intercom_article_id: "9025880"
+title: Measure DOOH Campaigns
+intercom_article_id: '9025880'
 ---
-
 #### DOOH Tracking
 
 To begin with DOOH tracking, we need to the follow the steps provided below for effective attribution of your campaigns to offline store visits as well as optimize your campaigns.
@@ -45,15 +44,16 @@ Override Checkbox: If you need to override the default attribution period, you c
 ![](../images/fc8fda75ffeebae76de913070470af61.png)
 
 1. Select Media Partners : Choose DOOH as a Media Partner if you are measuring footfalls from DOOH or pDOOH campaigns.  
-​  
-2. Partner Budget: Mention partner wise planned budget. Mentioning exact budgets would help in determining correct partner wise Cost per Visit (CPV).  
- ​  
-Partner Impressions: Based on the booked DOOH activity please add estimated impressions/contacts as per the media plan. For DOOH impressions means estimated contacts with DOOH campaign billboards.  
-​
+   ​
 
-1. In case of DOOH attribution, choose the on-boarded DOOH Ad log file added as a Data Source from the drop down to map the DOOH Attribution tracker to given DOOH billboards from the ad log files.  
-    To know more about Ad logs on-boarding, refer to this section in the Integrations module :  
-    ​  
+2. Partner Budget: Mention partner wise planned budget. Mentioning exact budgets would help in determining correct partner wise Cost per Visit (CPV).  
+   ​  
+   Partner Impressions: Based on the booked DOOH activity please add estimated impressions/contacts as per the media plan. For DOOH impressions means estimated contacts with DOOH campaign billboards.  
+   ​
+
+3. In case of DOOH attribution, choose the on-boarded DOOH Ad log file added as a Data Source from the drop down to map the DOOH Attribution tracker to given DOOH billboards from the ad log files.  
+   To know more about Ad logs on-boarding, refer to this section in the Integrations module :  
+   ​  
    ​[http://support.lifesight.io/en/articles/5601559-dooh-ad-log-onboarding](https://support.lifesight.io/en/articles/5601559-dooh-ad-log-onboarding)​
 
 ## Step 3 - Select Places
@@ -73,8 +73,4 @@ In Step 4, you can select upto three competitor brands to measure your campaign 
 
 ​Note: This screen is available for check only if adding of attribution places is done by 'brands' search. This feature is not available if places are added by ‘category’ search. Adding competitors will help you evaluate the performance of your own brand against them. This step is optional and you can simply skip it if you don’t wish to add competitors.
 
-Once competitors are done adding, hit ‘Add Measurement’.
-
-## ​
-
-## 
+Once competitors are done adding, hit ‘SAVE’ button in right corner.
