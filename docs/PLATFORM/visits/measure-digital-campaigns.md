@@ -97,6 +97,10 @@ In Step 5, select the ‘Media Partner’ that you have selected at time of trac
 
 You can now copy the tracking code and paste in your respective selected media partner interface.
 
+![](https://files.readme.io/e3b1b8c18ea6660eb296639e8f05b744934768a4f6ef27d9f0fdeca80653f492-image.png)
+
+<br />
+
 The trackers will look similar to the above figure.
 
 Please note that trackers are media partner specific with macros embedded in them for value substitution. Macro parameters in trackers will change basis the media partner used.
