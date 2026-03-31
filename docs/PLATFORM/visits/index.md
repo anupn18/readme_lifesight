@@ -21,16 +21,18 @@ Creating Measurement Tracker
 
 <br />
 
-Creating Conversion Feed Campaigns : 
+Creating Conversion Feed Campaigns :
 
 <br />
 
-Viewing Measurement Campaigns & Reports: 
+Viewing Measurement Campaigns & Reports:
 
 Viewing Measurement Campaigns : [https://docs.lifesight.io/docs/Viewing%20Measurement%20Campaigns](https://docs.lifesight.io/docs/Viewing%20Measurement%20Campaigns)
 
 Viewing Measurement Report : [https://docs.lifesight.io/update/docs/Viewing%20Measurement%20Report](https://docs.lifesight.io/update/docs/Viewing%20Measurement%20Report)
 
-Measurement Report :
+Measurement Report : https://docs.lifesight.io/update/docs/measurement-report-v2
+
+<br />
 
 <br />
