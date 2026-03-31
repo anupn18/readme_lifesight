@@ -11,10 +11,6 @@ next:
       title: Overview
       type: basic
 ---
-<br />
-
-<br />
-
 **What is Measurements**
 
 Overview: [https://docs.lifesight.io/update/docs/visits-subpage-1](https://docs.lifesight.io/update/docs/visits-subpage-1)
@@ -34,6 +30,5 @@ Overview: [https://docs.lifesight.io/update/docs/visits-subpage-1](https://docs.
 **Viewing Measurement Campaigns & Reports:**
 
 * Viewing Measurement Campaigns: [https://docs.lifesight.io/docs/Viewing%20Measurement%20Campaigns](https://docs.lifesight.io/docs/Viewing%20Measurement%20Campaigns)
+* Viewing Measurement Report: [https://docs.lifesight.io/update/docs/Viewing%20Measurement%20Report](https://docs.lifesight.io/update/docs/Viewing%20Measurement%20Report)
 * Measurement Report: [https://docs.lifesight.io/update/docs/measurement-report-v2](https://docs.lifesight.io/update/docs/measurement-report-v2)
-
-<br />
