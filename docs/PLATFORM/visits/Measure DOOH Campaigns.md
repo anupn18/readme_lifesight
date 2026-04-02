@@ -6,7 +6,7 @@ intercom_article_id: '9025880'
 
 To begin with DOOH tracking, we need to the follow the steps provided below for effective attribution of your campaigns to offline store visits as well as optimize your campaigns.
 
-Click on the Measurements icon displayed on the left side of the main menu.
+Click on the Visits icon displayed on the left side of the main menu.      
 
 ![](../images/d0a9343bc46a9384a7d874a6c93ce78f.png)
 
@@ -14,7 +14,11 @@ Click on the Measurements icon displayed on the left side of the main menu.
 2. You can measure visitors to brand stores from your OOH/DOOH campaigns.  
    ​
 
-The Add Measurement wizard involves 4 Steps. You will need to enter several pieces of information to complete this process. Please prepare the information before you begin so you can easily generate the pixel and implement them.
+The Create Measurement wizard involves 4 Steps. You will need to enter several pieces of information to complete this process. Please prepare the information before you begin so you can easily generate the pixel and implement them.
+
+![](https://files.readme.io/8ada2e19f9faa41ddbc4d97b6be1abcd4ca529c008cbe4578475eca06a3a1965-image.png)
+
+<br />
 
 You will require the following information:
 
@@ -24,7 +28,13 @@ You will require the following information:
 * Places – Where you want to attribute your campaigns to.
 * Competitors - You can add max 3 brands as competition.
 
-## ​Step 1 - Campaign Name and Flight
+​Step 1 - Campaign Name and Flight  
+
+
+
+![](https://files.readme.io/d5c2a278a0bc8cf1d4842171d6a1872ce538be3dbef46361a2b1c39b22a7464a-image.png)
+
+<br />
 
 ![](../images/54bf69f390ba11617ae01ee5c0a688e3.png)
 
@@ -39,7 +49,11 @@ In Step 1, please complete the following:
 
 Override Checkbox: If you need to override the default attribution period, you can check the Override checkbox to set your own attribution start and end date.
 
-## ​Step 2 - Select DOOH Media Partner, Partner Budget & Impressions
+## ​Step 2 - Select DOOH Media Partner, Partner Budget & Impressions  
+
+![](https://files.readme.io/d315a8ef5bc7362c2bfcd981abe833de972e60d83b889552de99046f0092366f-image.png)
+
+<br />
 
 ![](../images/fc8fda75ffeebae76de913070470af61.png)
 
@@ -52,11 +66,16 @@ Override Checkbox: If you need to override the default attribution period, you c
    ​
 
 3. In case of DOOH attribution, choose the on-boarded DOOH Ad log file added as a Data Source from the drop down to map the DOOH Attribution tracker to given DOOH billboards from the ad log files.  
-   To know more about Ad logs on-boarding, refer to this section in the Integrations module :  
-   ​  
-   ​[http://support.lifesight.io/en/articles/5601559-dooh-ad-log-onboarding](https://support.lifesight.io/en/articles/5601559-dooh-ad-log-onboarding)​
+   To know more about Ad logs on-boarding, please contact you account manager to onboard the adlogs.
+   ​
 
-## Step 3 - Select Places
+Step 3 - Select Places    
+
+
+
+![](https://files.readme.io/b319e7cb1c298fa180455bcd6d9b2e84aeefbdabf78c16cb44a54374bcf15e75-image.png)
+
+<br />
 
 ![](../images/24f2f1e7d2bdf634007af21b91307eb5.png)
 
@@ -65,7 +84,13 @@ Override Checkbox: If you need to override the default attribution period, you c
 3. Select Places : You can select multiple locations manually by clicking the checkbox from the list of available places. You can also 'Select All' to do so.
 4. 'Remove All' can be used to remove specific checked locations using the button above the list.
 
-## Step 4 - Select Competitors
+Step 4 - Select Competitors    
+
+
+
+![](https://files.readme.io/796ec90a405b42fd68ffc4138f6259605d404657e2d5c943b7f11612c2fab4ce-image.png)
+
+<br />
 
 ![](../images/29ce6b58fdae9d1d114d866bd553d6af.png)
 
