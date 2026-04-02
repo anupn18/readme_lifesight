@@ -1,5 +1,6 @@
 ---
 title: Measure OOH Campaigns
+hidden: true
 intercom_article_id: '9025866'
 ---
 **Creating a Measurement Tracker**
