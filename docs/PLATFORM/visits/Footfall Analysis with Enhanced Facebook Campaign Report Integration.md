@@ -1,6 +1,7 @@
 ---
-title: "Footfall Analysis with Enhanced Facebook Campaign Report Integration"
-intercom_article_id: "9755180"
+title: Footfall Analysis with Enhanced Facebook Campaign Report Integration
+hidden: true
+intercom_article_id: '9755180'
 ---
 
 In the evolving landscape of digital advertising, Lifesight Footfall Measurement enriches digital advertising analytics by integrating Facebook reports into its platform. This feature streamlines ad campaign tracking, consolidating various reporting tools into one user-friendly interface. By simplifying the process, Lifesight facilitates a more efficient and effective monitoring and analysis of ad campaigns, leveraging Facebook's
