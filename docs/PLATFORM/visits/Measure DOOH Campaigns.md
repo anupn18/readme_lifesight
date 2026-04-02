@@ -1,5 +1,6 @@
 ---
 title: Measure DOOH Campaigns
+hidden: true
 intercom_article_id: '9025880'
 ---
 #### DOOH Tracking
