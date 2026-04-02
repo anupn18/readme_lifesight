@@ -1,5 +1,6 @@
 ---
 title: Viewing Measurement Campaigns
+hidden: true
 intercom_article_id: '3026095'
 ---
 Explore your 'Visits' home page in order to view, create and manage Measurements. Your Measurements Home page comprises the following features:
