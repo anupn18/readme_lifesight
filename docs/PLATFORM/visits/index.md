@@ -21,9 +21,9 @@ next:
 * <Anchor label="Click Tracker Implementation Guide" target="_blank" href="https://docs.lifesight.io/docs/Click%20Tracker%20Implementation%20Guide">Click Tracker Implementation Guide</Anchor>
 * <Anchor label="Measure Digital Campaigns" target="_blank" href="https://docs.lifesight.io/docs/measure-digital-campaigns">Measure Digital Campaigns</Anchor>
 * <Anchor label="Measure DOOH Campaigns" target="_blank" href="https://docs.lifesight.io/docs/Measure%20DOOH%20Campaigns">Measure DOOH Campaigns</Anchor>
-* [Measure OOH Campaigns](https://docs.lifesight.io/docs/Measure%20OOH%20Campaigns)
+* <Anchor label="Measure OOH Campaigns" target="_blank" href="https://docs.lifesight.io/docs/Measure%20OOH%20Campaigns">Measure OOH Campaigns</Anchor>
 * Footfall Analysis with Enhanced Facebook Campaign Report Integration
-* Measure website visitors coming from OOH/DOOH campaigns
+* <Anchor label="Measure website visitors coming from OOH/DOOH campaigns" target="_blank" href="https://docs.lifesight.io/docs/measure-website-visitors-coming-from-oohdooh-campaigns">Measure website visitors coming from OOH/DOOH campaigns</Anchor>
 
 **Viewing Visits Campaigns & Reports:**
 
