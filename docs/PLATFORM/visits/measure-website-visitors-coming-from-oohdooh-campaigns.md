@@ -5,7 +5,7 @@ hidden: false
 metadata:
   robots: index
 ---
-Creating a Campaign Measurement  
+Creating a Campaign Measurement
 
 Once you navigate to 'Visits Module' From the main menu on the left,  Click on the 'Create Measurement' button displayed on the right top corner of the visits module.
 
@@ -48,7 +48,7 @@ Override Checkbox: If you need to override the default attribution period, you c
 
 If the selected campaign measurement type is OOH
 Step 2(a) - Select OOH Media Partner, Partner Budget & Screens
-​  
+​
 
 ![](https://files.readme.io/2b016d1967807863f9db890b9a1ec2c593f744b08900fa712db7fc7cda98a2e6-image.png)
 
@@ -60,7 +60,6 @@ Note - All billboards should be onboarded prior to the campaign measurement crea
 2. Partner Budget: Mention partner wise planned budget. Mentioning exact budgets would help in determining correct partner wise Cost per Visit (CPV).
    ​
    3. Select screen: During the creation of measurements for Out-of-Home (OOH) advertising, select or add all the screens that need to be measured.
-
 
 ​Partner Impressions: Based on the booked OOH activity please add estimated impressions/contacts as per the media plan. For OOH impressions means estimated contacts with OOH campaign billboards.
 
@@ -89,14 +88,22 @@ For example - [https://lifesight.io/](https://lifesight.io/)
 
 Once domain is added, hit ‘SAVE'.
 
+<br />
+
 Step 4 - Deploying the JavaScript SDK on your website
 Embed the following script into your Website header/footer or enable
 
+```
 <script src="https://storage.googleapis.com/measure-insight/measureinsight.min.js" />
+```
+
+<br />
+
+
 
 **Recommendation - We recommend that you deploy the SDK in a way to ensure that we are able to capture visits to all pages on the website**
 
-​**Tag Deployment via GTM for a 3rd Party Tracker like Lifesight's Web Pixel:**  
+​**Tag Deployment via GTM for a 3rd Party Tracker like Lifesight's Web Pixel:**
 
 ​**3rd party Tag Deployment Process via Google Tag Manager**
 
@@ -127,7 +134,6 @@ Step 4: Deploy the following tag here.
 <br />
 
 Step 5: Selecting All Pages as the triggering option
-
 
 ​
 
