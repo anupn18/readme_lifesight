@@ -13,7 +13,7 @@ next:
 ---
 **What is Visits**
 
-<Anchor label="Overview" target="_blank" href="https://docs.lifesight.io/update/docs/visits-subpage-1">Overview</Anchor>: 
+<Anchor label="Overview" target="_blank" href="https://docs.lifesight.io/update/docs/visits-subpage-1">Overview</Anchor>:
 
 **Creating Visits Trackers**
 
@@ -24,8 +24,6 @@ next:
 * [Measure OOH Campaigns](https://docs.lifesight.io/update/docs/Measure%20OOH%20Campaigns)
 * Footfall Analysis with Enhanced Facebook Campaign Report Integration
 * Measure website visitors coming from OOH/DOOH campaigns
-
-**Creating Conversion Feed Campaigns:**
 
 **Viewing Visits Campaigns & Reports:**
 
