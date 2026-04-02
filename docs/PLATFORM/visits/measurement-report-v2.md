@@ -9,6 +9,10 @@ This resource provides clear definitions and explanations for key marketing metr
 
 ## 1: Overview
 
+![](https://files.readme.io/63a2a59174318603204798b17e2a69109d3b28eb8fd30fbfa4e6344a7ada7466-image.png)
+
+<br />
+
 ### Key Metrics
 
 Along the top of your reporting dashboard is the key metrics that summarizes the performance of your campaign.
@@ -137,6 +141,10 @@ Visit Lift provides insights into the direct impact of your ad campaign. A posit
 
 ## 2. Campaign Breakdown
 
+![](https://files.readme.io/ecf1cf80114eca38922681a3cf087e0c0ad699f09fe67cd109510e603c57318b-image.png)
+
+<br />
+
 ### Partner Breakdown
 
 Partner Breakdown provides insights into the performance of your campaign across various ad channels and DSPs (Demand Side Platforms), such as DV 360, Facebook, TTD, and Yahoo. This data helps in evaluating the effectiveness of different channels.
@@ -153,6 +161,10 @@ A high partner index for a particular channel indicates that it's driving a sign
 
 ### Platform Breakdown
 
+![](https://files.readme.io/e6ca7bfdd9bbb0f4b49fd5f531bb548f807c06fe9bbdf46504091c9c1e7ecec3-image.png)
+
+<br />
+
 Platform Breakdown categorizes performance metrics based on the platforms where ads were served, such as Mobile App, Mobile Web, or Desktop. This helps in optimizing your platform-specific strategies.
 
 Understanding which platforms perform best allows you to tailor your campaign for each environment, ensuring maximum effectiveness and user engagement.
@@ -161,11 +173,19 @@ Understanding which platforms perform best allows you to tailor your campaign fo
 
 ### Creative Breakdown
 
+![](https://files.readme.io/d9b398e387345efc6458680aa688137cf2f035fc5de05b982a0c71db67e1543f-image.png)
+
+<br />
+
 Creative Breakdown offers insights into the performance of different ad creatives used in the campaign. By analyzing which creatives drive the best results, you can refine your creative strategy.
 
 Identifying high-performing creatives allows you to focus on what works, improving overall campaign effectiveness. Rotate out low-performing creatives to maintain audience interest.
 
 ### Publisher Name
+
+![](https://files.readme.io/7c1a76a5fe386695eb737f5f13119026a8964d50e3cc5b0d844ae8ce25f0134a-image.png)
+
+<br />
 
 Publisher Name provides a breakdown of performance by the publisher, offering insights into which publishers are driving the best results for your campaign.
 
@@ -173,11 +193,19 @@ Publisher performance analysis helps in optimizing ad placements, ensuring your 
 
 ### Device Type
 
+![](https://files.readme.io/627fd983e79def219fa71df72bce6957a66497bee02a3ac9e7d89a7a3a2bd950-image.png)
+
+<br />
+
 Device Type categorizes performance metrics based on the type of device targeted, such as phones, tablets, or PCs. Understanding device-specific performance helps in tailoring campaigns to the most effective devices.
 
 By focusing on the devices that yield the highest engagement, you can enhance user experience and increase the effectiveness of your campaign.
 
 ### Custom Value
+
+![](https://files.readme.io/260aa674587eadbd83c73e02aca187d05d7d74f6d82ca892a6d1c2a3dec2ae5c-image.png)
+
+<br />
 
 Custom Value allows you to segment performance based on specific criteria such as ad groups, strategies, creative themes, or any other custom criteria. This enables deeper insights into campaign performance.
 
@@ -250,13 +278,17 @@ By using Custom Values, Brand MNO can fine-tune their advertising strategy to ma
 
 You have three filtering options to choose from in order to customize a report for your business based on partners, custom values and impressions.
 
+![](https://files.readme.io/9fa4171f23a368cd9491d6a41a499c65d7b1c10316a3698c677cf811fdae313d-image.png)
+
+<br />
+
 ### Impressions, Clicks & Conversion Rate:
 
 Identifies what percentage of Impressions/Clicks got converted as exposed visits at the attributed stores.
 
-### Multi Touch Attribution:
+![](https://files.readme.io/9645132780fe48975e23958603e1e127a0b25ce25c0aced93ae54e7a04f41b9f-image.png)
 
-It collects data on different lead actions and their partners. It identifies how each partner have fractionally contributed to the total consolidated visits of the campaign.
+<br />
 
 ### Average of Week:
 
@@ -266,9 +298,15 @@ The total visits by day of the week reveals when the store is most visited durin
 
 The total visits by hour reveals when the store is most visited during a typical day. You can now see in the graph with the number of incremental visits throughout the day.
 
+<br />
+
 ### Engagement Pattern:
 
 This metric displays the specific days and times when users view or engage with an ad.
+
+![](https://files.readme.io/5b7af50a50bbed11cbf3d414ba9d7a3cbe708743b97baa726fe407ca268f640b-image.png)
+
+<br />
 
 ### Visit & Ad Frequency Analysis:
 
