@@ -13,7 +13,7 @@ next:
 ---
 **What is Visits**
 
-<Anchor label="Overview" target="_blank" href="https://docs.lifesight.io/update/docs/visits-subpage-1">Overview</Anchor>:
+* <Anchor label="Overview" target="_blank" href="https://docs.lifesight.io/update/docs/visits-subpage-1">Overview</Anchor>
 
 **Creating Visits Trackers**
 
@@ -30,5 +30,3 @@ next:
 * <Anchor label="Viewing Visits Campaigns" target="_blank" href="https://docs.lifesight.io/docs/Viewing%20Measurement%20Campaigns">Viewing Visits Campaigns</Anchor>
 * <Anchor label="Viewing Visits Report" target="_blank" href="https://docs.lifesight.io/docs/Viewing%20Measurement%20Report">Viewing Visits Report</Anchor>
 * <Anchor label="Visits Report" target="_blank" href="https://docs.lifesight.io/docs/measurement-report-v2">Visits Report</Anchor>
-
-<br />
