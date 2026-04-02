@@ -1,7 +1,7 @@
 ---
 title: Measure website visitors coming from OOH/DOOH campaigns
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
