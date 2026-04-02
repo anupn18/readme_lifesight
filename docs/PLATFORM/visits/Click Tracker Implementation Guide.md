@@ -1,5 +1,6 @@
 ---
 title: Click Tracker Implementation Guide
+hidden: true
 intercom_article_id: '9812990'
 ---
 For all platforms, kindly ensure to add the landing page of your campaign in Lifesight click tracker under Redirect macro. Step 6 in [https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns](https://support.lifesight.io/en/articles/9025854-measure-digital-campaigns)
