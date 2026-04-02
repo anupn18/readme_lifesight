@@ -13,15 +13,15 @@ next:
 ---
 **What is Visits**
 
-Overview: <Anchor label="https://docs.lifesight.io/update/docs/visits-subpage-1" target="_blank" href="https://docs.lifesight.io/update/docs/visits-subpage-1">https://docs.lifesight.io/update/docs/visits-subpage-1</Anchor>
+<Anchor label="Overview" target="_blank" href="https://docs.lifesight.io/update/docs/visits-subpage-1">Overview</Anchor>: 
 
 **Creating Visits Trackers**
 
-* <Anchor label="Impression Tracker Implementation Guide" target="_blank" href="https://docs.lifesight.io/update/docs/impression-tracker-implementation-guide">Impression Tracker Implementation Guide</Anchor>: <Anchor label="https://docs.lifesight.io/update/docs/impression-tracker-implementation-guide" target="_blank" href="https://docs.lifesight.io/update/docs/impression-tracker-implementation-guide">https://docs.lifesight.io/update/docs/impression-tracker-implementation-guide</Anchor>
-* Click Tracker Implementation Guide: <Anchor label="https://docs.lifesight.io/update/docs/Click%20Tracker%20Implementation%20Guide" target="_blank" href="https://docs.lifesight.io/update/docs/Click%20Tracker%20Implementation%20Guide">https://docs.lifesight.io/update/docs/Click%20Tracker%20Implementation%20Guide</Anchor>
-* Measure Digital Campaigns: <Anchor label="https://docs.lifesight.io/update/docs/measure-digital-campaigns" target="_blank" href="https://docs.lifesight.io/update/docs/measure-digital-campaigns">https://docs.lifesight.io/update/docs/measure-digital-campaigns</Anchor>
-* Measure DOOH Campaigns: <Anchor label="https://docs.lifesight.io/update/docs/Measure%20DOOH%20Campaigns" target="_blank" href="https://docs.lifesight.io/update/docs/Measure%20DOOH%20Campaigns">https://docs.lifesight.io/update/docs/Measure%20DOOH%20Campaigns</Anchor>
-* Measure OOH Campaigns: <Anchor label="https://docs.lifesight.io/update/docs/Measure%20OOH%20Campaigns" target="_blank" href="https://docs.lifesight.io/update/docs/Measure%20OOH%20Campaigns">https://docs.lifesight.io/update/docs/Measure%20OOH%20Campaigns</Anchor>
+* <Anchor label="Impression Tracker Implementation Guide" target="_blank" href="https://docs.lifesight.io/update/docs/impression-tracker-implementation-guide">Impression Tracker Implementation Guide</Anchor>
+* <Anchor label="Click Tracker Implementation Guide" target="_blank" href="https://docs.lifesight.io/update/docs/Click%20Tracker%20Implementation%20Guide">Click Tracker Implementation Guide</Anchor>
+* <Anchor label="Measure Digital Campaigns" target="_blank" href="https://docs.lifesight.io/update/docs/measure-digital-campaigns">Measure Digital Campaigns</Anchor>
+* <Anchor label="Measure DOOH Campaigns" target="_blank" href="https://docs.lifesight.io/update/docs/Measure%20DOOH%20Campaigns">Measure DOOH Campaigns</Anchor>
+* [Measure OOH Campaigns](https://docs.lifesight.io/update/docs/Measure%20OOH%20Campaigns)
 * Footfall Analysis with Enhanced Facebook Campaign Report Integration
 * Measure website visitors coming from OOH/DOOH campaigns
 
@@ -29,6 +29,6 @@ Overview: <Anchor label="https://docs.lifesight.io/update/docs/visits-subpage-1"
 
 **Viewing Visits Campaigns & Reports:**
 
-* Viewing Visits Campaigns: <Anchor label="https://docs.lifesight.io/docs/Viewing%20Measurement%20Campaigns" target="_blank" href="https://docs.lifesight.io/docs/Viewing%20Measurement%20Campaigns">https://docs.lifesight.io/docs/Viewing%20Measurement%20Campaigns</Anchor>
-* Viewing Visits Report: <Anchor label="https://docs.lifesight.io/update/docs/Viewing%20Measurement%20Report" target="_blank" href="https://docs.lifesight.io/update/docs/Viewing%20Measurement%20Report">https://docs.lifesight.io/update/docs/Viewing%20Measurement%20Report</Anchor>
-* Visits Report: <Anchor label="https://docs.lifesight.io/update/docs/measurement-report-v2" target="_blank" href="https://docs.lifesight.io/update/docs/measurement-report-v2">https://docs.lifesight.io/update/docs/measurement-report-v2</Anchor>
+* <Anchor label="Viewing Visits Campaigns" target="_blank" href="https://docs.lifesight.io/docs/Viewing%20Measurement%20Campaigns">Viewing Visits Campaigns</Anchor>
+* <Anchor label="Viewing Visits Report" target="_blank" href="https://docs.lifesight.io/update/docs/Viewing%20Measurement%20Report">Viewing Visits Report</Anchor>
+* <Anchor label="Visits Report" target="_blank" href="https://docs.lifesight.io/update/docs/measurement-report-v2">Visits Report</Anchor>
