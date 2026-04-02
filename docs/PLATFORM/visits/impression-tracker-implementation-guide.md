@@ -96,10 +96,27 @@ In DV360 (Display & Video 360), adding a third-party impression tracker is typic
 
 ### **Google Campaign Manager (GCM/DCM) Implementation**
 
-1. **Navigate to Properties:** In DCM >> Campaign >> Properties.
-2. **Set Up Event Tag:** Create an Event tag at the DCM campaign level and apply the same to placements you are running.
-3. **Lifesight Impression Tracker example:** `https://pixel.ad.lifesight.io/pixel/event/XXXXXX?event=RENDER&channel=gmp&cv=[cv]&cachebuster=${CACHEBUSTER}&cid=${CAMPAIGN_ID}&crid=${CREATIVE_ID}&db_redirect=NO&app=${SOURCE_URL_ENC}`
-4. **Save Properties:** Add the impression event tag properties and save.
+1. **Navigate to Properties:** In DCM >> Campaign >> Properties.    
+
+   <br />
+
+   ![](https://files.readme.io/d039a639c539bfd5f4a986709d14c6669b7d359a89294fdc65ff5641e1d11440-image.png)
+
+     
+     
+
+   ![](https://files.readme.io/94f1e73460b356554fa86c80b6f517c4de968a9a64689a1ebc166514a6690cd3-image.png)
+
+   <br />
+2.   **Set Up Event Tag:** Create an Event tag at the DCM campaign level and apply the same to placements you are running.
+3. **Lifesight Impression Tracker example:** `https://pixel.ad.lifesight.io/pixel/event/XXXXXX?event=RENDER&channel=gmp&cv=[cv]&cachebuster=${CACHEBUSTER}&cid=${CAMPAIGN_ID}&crid=${CREATIVE_ID}&db_redirect=NO&app=${SOURCE_URL_ENC}`  
+
+   ![](https://files.readme.io/7bcd5444e510ffd996f962613518e6e28efd91eadc95f7f7a3277736e8c25648-image.png)
+4. **Save Properties:** Add the impression event tag properties and save.  
+
+   ![](https://files.readme.io/ac75c474e049d5aa1fa652198108452a5399c090adee5fd6c017a0d6ac2aceda-image.png)
+
+   <br />
 5. **Verify:** You will be able to see the tracker added onto DCM.
 
 ***
@@ -180,6 +197,10 @@ In DV360 (Display & Video 360), adding a third-party impression tracker is typic
 2. **View Campaigns:** From the dashboard, click on the Campaigns tab to view.
 3. **Add Tracking:** When setting up a creative under an ad group in TikTok Ads Manager, scroll down to "Third party tracking settings".
 4. **Paste Tracker:** Paste the impression tracker URL taken from LS UI.
+
+![](https://files.readme.io/e799da0e038d736f0de0794061c00d257d4e0964259766b2b099ee11d3acd897-image.png)
+
+<br />
 
 ***
 
