@@ -1,11 +1,10 @@
 ---
-title: "Measure OOH Campaigns"
-intercom_article_id: "9025866"
+title: Measure OOH Campaigns
+intercom_article_id: '9025866'
 ---
-
 **Creating a Measurement Tracker**
 
-Our Measurement module works using a pixel based implementation in your respective DSP or ad network. To begin, you will need to complete the “Add Measurement” process that will then generate the pixel (tag) to be implemented. This will allow the tool to generate reports that you can use to attribute your campaigns to offline store visits as well as optimize your campaigns.
+Our Measurement module works using a pixel based implementation in your respective DSP or ad network. To begin, you will need to complete the “Create Measurement” process that will then generate the pixel (tag) to be implemented. This will allow the tool to generate reports that you can use to attribute your campaigns to offline store visits as well as optimize your campaigns.
 
 Click on the Measurements icon displayed on the left side of the main menu.
 
@@ -15,7 +14,11 @@ Click on the Measurements icon displayed on the left side of the main menu.
 2. You can measure visitors to brand stores from your OOH/DOOH campaigns.  
    ​
 
-The Add Measurement wizard involves 4 Steps. You will need to enter several pieces of information to complete this process. Please prepare the information before you begin so you can easily generate the pixel and implement them.
+The Setup Measurement wizard involves 4 Steps. You will need to enter several pieces of information to complete this process. Please prepare the information before you begin so you can easily generate the pixel and implement them.  
+
+![](https://files.readme.io/d38328df0644b8fc4306887129b69fc8c504b81a274127c7b7ba5dadb0c3f378-image.png)
+
+<br />
 
 You will require the following information:
 
@@ -42,22 +45,23 @@ Override Checkbox: If you need to override the default attribution period, you c
 
 ## Step 2 - Select OOH Media Partner, Partner Budget & Screens ​
 
+![](https://files.readme.io/4f1cbf80b9d2cf4ed33392b4dd71e1e4a319fa1df897efbb57bdb04d0d75af1f-image.png)
+
+<br />
+
 ![](../images/cf66a6d749d3eb22db1e83169d28edda.png)
 
 1. Select Media Partners : Choose Out of Home as a Media partner if you are measuring footfalls from Static OOH billboards.  
-​  
+   ​
 2. Partner Budget: Mention partner wise planned budget. Mentioning exact budgets would help in determining correct partner wise Cost per Visit (CPV).  
-​  
-3. Select screen: During the creation of measurements for Out-of-Home (OOH) advertising, select or add all the screens that need to be measured.  
-​  
-​
+   ​
+3. Select screen: During the creation of measurements for Out-of-Home (OOH) advertising, select or add all the screens that need to be measured.
 
-![](../images/5ae118bec15aacaeb9cba49744aabe8e.png)
-
-​  
 ​Partner Impressions: Based on the booked OOH activity please add estimated impressions/contacts as per the media plan. For OOH impressions means estimated contacts with OOH campaign billboards.
 
 ## ​Step 3 - Select Places ​
+
+![](https://files.readme.io/7a6d6f05e8e895bb2846c0a41d16f680f058f07f9c8c06076219d22cb4935570-image.png)
 
 ![](../images/24f2f1e7d2bdf634007af21b91307eb5.png)
 
@@ -66,7 +70,11 @@ Override Checkbox: If you need to override the default attribution period, you c
 3. Select Places : You can select multiple locations manually by clicking the checkbox from the list of available places. You can also 'Select All' to do so.
 4. 'Remove All' can be used to remove specific checked locations using the button above the list.
 
-## Step 4 - Select Competitors
+Step 4 - Select Competitors  
+
+
+
+![](https://files.readme.io/c73d4bfd68d5a03c5ab934aaf2ba669ce4eb23b6497a9ce427d6aefe0e4fd785-image.png)
 
 ![](../images/29ce6b58fdae9d1d114d866bd553d6af.png)
 
@@ -74,6 +82,6 @@ In Step 4, you can select upto three competitor brands to measure your campaign 
 
 ​Note: This screen is available for check only if adding of attribution places is done by 'brands' search. This feature is not available if places are added by ‘category’ search. Adding competitors will help you evaluate the performance of your own brand against them. This step is optional and you can simply skip it if you don’t wish to add competitors.
 
-Once competitors are done adding, hit ‘Add Measurement’.
+Once competitors are done adding, hit ‘Save’.
 
 ​
