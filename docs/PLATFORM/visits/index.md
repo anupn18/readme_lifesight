@@ -1,6 +1,6 @@
 ---
 title: Visits
-excerpt: Learn about our attribution tool and how to use it
+excerpt: Learn about our visits measurement tool and how to use it
 deprecated: false
 hidden: true
 metadata:
