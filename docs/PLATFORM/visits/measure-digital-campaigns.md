@@ -1,7 +1,7 @@
 ---
 title: Measure Digital Campaigns
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
