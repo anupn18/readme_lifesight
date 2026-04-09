@@ -13,7 +13,7 @@ next:
 ---
 **What is Visits**
 
-* <Anchor label="Overview" target="_blank" href="https://docs.lifesight.io/update/docs/visits-subpage-1">Overview</Anchor>
+* <Anchor label="Overview" target="_blank" href="https://docs.lifesight.io/docs/visits-subpage-1">Overview</Anchor>
 
 **Creating Visits Trackers**
 
