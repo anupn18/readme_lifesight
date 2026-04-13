@@ -14,7 +14,7 @@ next:
 
 ## What does Lifesight do?
 
-Lifesight is a unified marketing measurement platform that helps marketers make better decisions by leveraging AI-powered marketing measurement methodologies. Our platform uses a combination of Marketing Mix Modeling, Incrementality Testing, Causal Attribution, and Causal AI to provide actionable insights and recommendations, enabling marketers to grow business KPIs. 
+Lifesight is a unified marketing measurement platform that helps marketers make better decisions by leveraging AI-powered marketing measurement methodologies. Our platform uses a combination of Marketing Mix Modeling, Incrementality Testing, Causal Attribution, and Causal AI to provide actionable insights and recommendations, enabling marketers to grow business KPIs.
 
 ## What is unified marketing measurement?
 
@@ -22,11 +22,11 @@ Unified marketing measurement uses a combination of marketing measurement method
 
 ## Who is Lifesight for?
 
-Lifesight is designed for future-ready marketers who need a reliable and robust marketing measurement platform to drive better ROI, optimize media spend, and reduce ad waste. Brands and agencies with limited or no data science bandwidth can get started within 5 weeks with our easy to set up marketing measurement platform. 
+Lifesight is designed for future-ready marketers who need a reliable and robust marketing measurement platform to drive better ROI, optimize media spend, and reduce ad waste. Brands and agencies with limited or no data science bandwidth can get started within 5 weeks with our easy to set up marketing measurement platform.
 
 ## Why do I need it?
 
-No single measurement methodology has all the answers anymore. Only a combined approach that uses each tool’s strengths and fills in the gaps gets marketers closer to the marketing effectiveness truth. Lifesight’s unified marketing measurement platform is a future-proof solution that helps marketers accurately measure and optimize their marketing efforts based on gold-standard measurement techniques like incrementality and causal effects. 
+No single measurement methodology has all the answers anymore. Only a combined approach that uses each tool’s strengths and fills in the gaps gets marketers closer to the marketing effectiveness truth. Lifesight’s unified marketing measurement platform is a future-proof solution that helps marketers accurately measure and optimize their marketing efforts based on gold-standard measurement techniques like incrementality and causal effects.
 
 ## How does it work?
 
@@ -70,15 +70,11 @@ MMM analyzes historical data on marketing spend and sales to understand how vari
 
 ## How do I know that my MMM is accurate?
 
-Lifesight uses a combination of statistical methods, and continuously validates and recalibrates an MMM model through Experiments to account for any changes in market conditions or consumer behavior. 
+Lifesight uses a combination of statistical methods, and continuously validates and recalibrates an MMM model through Experiments to account for any changes in market conditions or consumer behavior.
 
 ## Which channels and KPIs can Lifesight measure?
 
 Lifesight can measure any online and offline marketing channels, including digital, social media, CTV, OOH, affiliates and other offline channels. It can also measure key performance indicators (KPIs) like ROI, ROAS, CPA, and more, providing a holistic view of marketing effectiveness.
-
-## How much does it cost?
-
-The platform fee starts at $20,000 per year to measure upto $5M in annual marketing spend. Custom pricing depends on number of channels and media spends of your organization. Contact us to directly to get a custom quote tailored to your requirements.
 
 ## How is Lifesight different from other platforms?
 
@@ -178,7 +174,7 @@ With the help of an MMM model, you can determine which channels are driving incr
 
 ## How much budget do I need to achieve my goal?
 
-The Scenario Planner helps determine how much budget you need to achieve a Target Goal. Simply input your Target goal (Revenue, Orders, Signups, Leads, etc) and the Planner computes the required budget. It also tells you where to invest, how much to invest, and at what pace to invest in these channels to achieve the desired outcomes. 
+The Scenario Planner helps determine how much budget you need to achieve a Target Goal. Simply input your Target goal (Revenue, Orders, Signups, Leads, etc) and the Planner computes the required budget. It also tells you where to invest, how much to invest, and at what pace to invest in these channels to achieve the desired outcomes.
 
 ## How do I allocate my budget if something changes?
 
@@ -186,7 +182,7 @@ You can run a MMM model to get budget allocation recommendations. Incase you run
 
 ## How much can I scale in a channel before its saturated?
 
-This is determined by using the mROAS/mCPA metrics. You can view these metrics in the [Contribution table](https://docs.lifesight.io/docs/insights)in the MMM Insights tab. Lifesight automatically recommends media allocation through the AI-powered Recommendations to optimize marketing effectiveness. 
+This is determined by using the mROAS/mCPA metrics. You can view these metrics in the [Contribution table](https://docs.lifesight.io/docs/insights)in the MMM Insights tab. Lifesight automatically recommends media allocation through the AI-powered Recommendations to optimize marketing effectiveness.
 
 ## How much is my brand value contributing?
 
@@ -236,11 +232,67 @@ Experiments can be expensive, in terms of time, resource and budget. Experiments
 
 ## Geo test vs Split test vs Time test
 
-| Test Type      | Advantages                                                                                                                               | Disadvantages                                                                                                                                                                |
-| :------------- | :--------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Geo test**   | - Allows measurement in a real-world environment - Can isolate specific regions for comparison - Limited disruption to broader campaigns | - Requires large geographic areas for statistical significance - External factors (e.g., weather, local events) may affect results - High cost and time investment           |
-| **Split test** | - Highly controlled environment - Easier to measure results and impact - Can test multiple variations at once                            | - May not reflect real-world conditions - Could require significant traffic to reach statistical significance - Sometimes difficult to apply insights to broader campaigns   |
-| **Time test**  | - Low cost and easy to implement - Minimal disruption to overall strategy - Allows measurement of performance over time                  | - Vulnerable to seasonal and temporal factors (e.g., holidays) - May require long duration for accurate results - Harder to isolate specific variables affecting the outcome |
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Test Type
+      </th>
+
+      <th>
+        Advantages
+      </th>
+
+      <th>
+        Disadvantages
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        **Geo test**
+      </td>
+
+      <td>
+        * Allows measurement in a real-world environment - Can isolate specific regions for comparison - Limited disruption to broader campaigns
+      </td>
+
+      <td>
+        * Requires large geographic areas for statistical significance - External factors (e.g., weather, local events) may affect results - High cost and time investment
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Split test**
+      </td>
+
+      <td>
+        * Highly controlled environment - Easier to measure results and impact - Can test multiple variations at once
+      </td>
+
+      <td>
+        * May not reflect real-world conditions - Could require significant traffic to reach statistical significance - Sometimes difficult to apply insights to broader campaigns
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Time test**
+      </td>
+
+      <td>
+        * Low cost and easy to implement - Minimal disruption to overall strategy - Allows measurement of performance over time
+      </td>
+
+      <td>
+        * Vulnerable to seasonal and temporal factors (e.g., holidays) - May require long duration for accurate results - Harder to isolate specific variables affecting the outcome
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 ## Advantages of Lifesight Experiments
 
@@ -278,7 +330,7 @@ Lifesight collects data from various marketing channels such as web, mobile, soc
 
 ## Can I customize my Attribution model?
 
-Yes, Lifesight allows you to create custom attribution models. You can define how much weight should be given to each touchpoint based on your business goals or user behavior patterns. This flexibility ensures that your attribution aligns with your specific needs. *Contact our support to upload your own attribution weights.*
+Yes, Lifesight allows you to create custom attribution models. You can define how much weight should be given to each touchpoint based on your business goals or user behavior patterns. This flexibility ensures that your attribution aligns with your specific needs. _Contact our support to upload your own attribution weights._
 
 ## What is Multi-Touch Attribution?
 
@@ -298,7 +350,7 @@ Some common challenges include:
 
 * Cross-device tracking: Users often interact with multiple devices during their journey, which can complicate attribution unless properly accounted for.
 * Data silos: Attribution relies on accurate data from multiple sources. When data is siloed or not integrated properly, attribution accuracy may be affected.
-* Model bias: Different attribution models can assign credit differently, and understanding the best model for your business is crucial.\
+* Model bias: Different attribution models can assign credit differently, and understanding the best model for your business is crucial.  
   Lifesight helps mitigate these challenges by offering robust cross-channel and cross-device tracking and supporting integrations with various data sources.
 
 ## How can I troubleshoot discrepancies in my Attribution data?
@@ -307,7 +359,7 @@ Discrepancies in attribution data may arise from:
 
 * Data collection issues: Ensure all touchpoints and channels are properly tracked.
 * Inconsistent timeframes: Compare data from consistent time periods across platforms.
-* Attribution model differences: Be aware that different models will yield different results. Make sure you're comparing data within the same attribution model.\
+* Attribution model differences: Be aware that different models will yield different results. Make sure you're comparing data within the same attribution model.  
   If you encounter ongoing issues, you can contact Lifesight support for assistance.
 
 ## What reports are available in Lifesight Attribution?
@@ -316,7 +368,7 @@ Lifesight offers a range of reports to help you analyze your attribution data, i
 
 * Channel performance: Insights into how different channels contribute to conversions.
 * Path analysis: Visualizations of user journeys and touchpoints leading to conversions.
-* Conversion tracking: Detailed tracking of conversions attributed to various campaigns and touchpoints.\
+* Conversion tracking: Detailed tracking of conversions attributed to various campaigns and touchpoints.  
   You can customize these reports based on your attribution model and business requirements.
 
 ## What is Causal attribution?
