@@ -14,11 +14,11 @@ next:
 ---
 Once you have configured your workspace, invite your teammates to work on analyzing and optimizing your marketing efforts collaboratively. You can add users by inviting them to your workspace.
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/f0adc2f9141a5143ee9b802ab78f8c4ad04eefcce168927e94aaf691ff0798bb-invite_users.png" />
+![](https://files.readme.io/c59cf6460751c3e194949a862b4a5e8b741dff5a2a3f685dd55a5e0c176b31fe-image.png)
 
 ## Add a new user:
 
-1. Select`Settings` from the bottom of the navigation bar on the left side.
+1. Select`Settings` by clicking the profile icon on the top right corner of the page, in the top-bar.
 2. In the Users tab, click on the `Invite User` button in the upper right corner.
 3. Add the email ID of the person you’re looking to invite and mention the user access level.
 
