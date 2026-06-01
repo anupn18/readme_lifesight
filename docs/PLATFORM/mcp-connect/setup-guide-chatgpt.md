@@ -18,7 +18,7 @@ Ensure you have the following before proceeding:
 
 ***
 
-## Install in Chatgpt Codex
+## Steps to Connect Chatgpt Codex with Lifesight MCP
 
 ChatGPT (Codex) uses a Personal Access Token (PAT) for authentication rather than OAuth, so there’s one extra step compared to Claude Desktop. It only takes a minute.
 
@@ -41,9 +41,13 @@ ChatGPT (Codex) uses a Personal Access Token (PAT) for authentication rather tha
 
 2. **Add the MCP Server in ChatGPT Codex**
    - Go to Codex  →Settings
+
    - Then go to MCP Server → Add server → Streamable HTTP
+
    - Fill in: Server name: Any label, e.g. Lifesight
+
    - Fill in Bearer Token MCP\_BEARER\_TOKEN
+
 
      <Image src="https://files.readme.io/83a5cf2fac4e344a6148eb2be1db33d467031f820a0d4921c0892830e77c40ed-Screenshot_2026-06-01_at_10.16.26_PM.png" align="left" width="500px" border={true} />
 
