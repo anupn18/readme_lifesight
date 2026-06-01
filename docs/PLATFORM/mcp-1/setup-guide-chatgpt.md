@@ -51,11 +51,10 @@ You’re connected! Start a new chat with the Lifesight MCP server selected and 
 
 Here are some good first questions to try:
 
-“What’s my [Quarter] budget allocation by channel?”
-“Which channel drove the highest iROAS last week?”
-“I have [ $200K] to reallocate, where should it go to maximize revenue?”
-“Show me how [Ad Channel 1]  has been performing compared to  [Ad Channel 2] over the last [N days].”
+| What’s my \[Quarter] budget allocation by channel?”\<br />“Which channel drove the highest iROAS last week?”\<br />“I have \[ $200K] to reallocate, where should it go to maximize revenue?”\<br />“Show me how \[Ad Channel 1]  has been performing compared to  \[Ad Channel 2] over the last \[N days].” |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
+“
 
 ***
 
