@@ -1,7 +1,7 @@
 ---
 title: Setup Guide ChatGpt
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
