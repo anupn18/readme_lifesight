@@ -41,8 +41,7 @@ ChatGPT (Codex) uses a Personal Access Token (PAT) for authentication rather tha
 
 2. **Add the MCP Server in ChatGPT Codex**
    - Go to Codex  →Settings
-   - Then go to MCP Server → Add server.
-   - Click on streamable HTTPS
+   - Then go to MCP Server → Add server → Streamable HTTP
    - Fill in: Server name: Any label, e.g. Lifesight
    - Fill in Bearer Token MCP\_BEARER\_TOKEN
 
