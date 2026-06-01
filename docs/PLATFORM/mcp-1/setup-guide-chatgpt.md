@@ -14,7 +14,7 @@ Ensure you have the following before proceeding:
 2. Claude Desktop (latest version)
 3. Lifesight MCP URL: [https://mcp.lifesight.io/mcp/](https://mcp.lifesight.io/mcp)
 
-
+<br />
 
 ***
 
@@ -51,21 +51,11 @@ You’re connected! Start a new chat with the Lifesight MCP server selected and 
 
 Here are some good first questions to try:
 
-<Cards>
-  <Card title="Getting Started" href="#" icon="fa-rocket">
-    New to our platform? Follow this guide to get started.
-  </Card>
+“What’s my [Quarter] budget allocation by channel?”
+“Which channel drove the highest iROAS last week?”
+“I have [ $200K] to reallocate, where should it go to maximize revenue?”
+“Show me how [Ad Channel 1]  has been performing compared to  [Ad Channel 2] over the last [N days].”
 
-  <Card title="API Reference" href="#" icon="fa-code">
-    Explore our interactive API reference.
-  </Card>
-
-  <Card title="Support & Community" href="#" icon="fa-comments" target="_blank">
-    Join our community or checkout our FAQ.
-  </Card>
-</Cards>
-
-**_“What’s my \[Quarter] budget allocation by channel?”<br />“Which channel drove the highest iROAS last week?”<br />“I have \[ $200K] to reallocate, where should it go to maximize revenue?”<br />“Show me how \[Ad Channel 1]  has been performing compared to  \[Ad Channel 2] over the last \[N days].”<br />_**
 
 ***
 
