@@ -1,5 +1,6 @@
 ---
 title: MCP
+excerpt: Lifesight MCP
 deprecated: false
 hidden: false
 metadata:
