@@ -70,7 +70,11 @@ Try any of these:
 
 **_“List my MMM models and tell me which one optimises for conversions.”_**
 
-<br />
+***
+
+## **Verify Your Setup**
+
+These three prompts work in both Claude Desktop and ChatGPT. If you get structured output from your account, you’re good to go.
 
 | Prompt                                                    | Expected Outcome                                              |
 | --------------------------------------------------------- | ------------------------------------------------------------- |
