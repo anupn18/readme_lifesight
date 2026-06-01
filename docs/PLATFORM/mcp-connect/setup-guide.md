@@ -16,7 +16,7 @@ Ensure you have the following before proceeding:
 
 ***
 
-## Steps to Install Connect Claude with Lifesight MCP
+## Steps to Connect Claude with Lifesight MCP
 
 1. Fire up Claude Desktop and make sure you’re on the latest version.
 
