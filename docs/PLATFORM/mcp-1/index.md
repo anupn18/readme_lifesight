@@ -4,6 +4,12 @@ deprecated: false
 hidden: true
 metadata:
   robots: index
+next:
+  description: |-
+    -Setup Guide Claude
+    - Setup Guide ChatGpt
+     -Prompt Library
+    - Skills
 ---
 Lifesight MCP brings your unified causal measurement model directly into ChatGPT, Claude, and other MCP-compatible AI tools.
 
