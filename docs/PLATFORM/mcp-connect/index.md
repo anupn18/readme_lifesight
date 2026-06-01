@@ -1,6 +1,6 @@
 ---
 title: MCP
-excerpt: Lifesight MCP
+excerpt: 'Learn about Lifesight MCP '
 deprecated: false
 hidden: false
 metadata:
