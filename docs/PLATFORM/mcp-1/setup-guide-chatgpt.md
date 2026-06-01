@@ -2,7 +2,7 @@
 title: Setup Guide Chatgpt
 excerpt: Connect Lifesight MCP to Chatgpt Codex in 2 minutes.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 next:
