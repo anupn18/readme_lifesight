@@ -69,3 +69,13 @@ Try any of these:
 **_“Show me how \[Ad Channel 1]  has been performing compared to  \[Ad Channel 2] over the last \[N days].”_**
 
 **_“List my MMM models and tell me which one optimises for conversions.”_**
+
+<br />
+
+| Prompt                                                    | Expected Outcome                                              |
+| --------------------------------------------------------- | ------------------------------------------------------------- |
+| _List every causal model in my workspace._                | Markdown table: model names, last-run date, confidence range. |
+| _What was my best-performing channel last week by iROAS?_ | Ranked answer with methodology footnote.                      |
+| _Find the methodology document for geo-lift testing._     | Doc summary with link back to Lifesight.                      |
+
+<br />
