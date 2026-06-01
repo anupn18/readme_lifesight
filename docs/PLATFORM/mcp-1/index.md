@@ -3,6 +3,11 @@ title: MCP
 deprecated: false
 hidden: false
 metadata:
+  title: Lifesight MCP
+  keywords:
+    - Lifesight MCP
+    - Claude
+    - chatgpt
   robots: index
 next:
   pages:
