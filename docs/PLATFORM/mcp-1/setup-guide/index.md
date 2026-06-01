@@ -1,7 +1,7 @@
 ---
 title: Setup Guide
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
