@@ -25,15 +25,15 @@ The Lifesight MCP (Model Context Protocol) server connects your AI assistant, Cl
 
 Instead of logging into the Lifesight platform to pull reports or run scenarios, you can ask your AI assistant directly, “What was my best-performing channel last week?” or “Optimize my Q4 budget for revenue”, and get structured, model-backed answers in seconds.  Lifesight’s built-in AI marketing analyst, handles the heavy lifting behind the scenes.
 
-The MCP adds no new data flows to your existing setup. All traffic is encrypted with TLS 1.3, every call is logged in your Lifesight audit trail, and the integration is fully compliant with GDPR, HIPAA, SOC 2, and ISO 27001.
+***
 
-**What is MCP? **
+## **What is MCP?**
 
 Model Context Protocol (MCP) is an open standard that allows AI applications to securely access external data sources and tools. The Lifesight MCP server provides AI agents with:
 
-* Direct API access to Lifesight functionality
-* Documentation search capabilities
-* Real-time data from your Lifesight account
-* Code generation assistance for Lifesight integrations
+- Direct API access to Lifesight functionality
+- Documentation search capabilities
+- Real-time data from your Lifesight account
+- Code generation assistance for Lifesight integrations
 
 <br />
