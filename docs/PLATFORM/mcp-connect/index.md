@@ -18,9 +18,6 @@ next:
     - slug: setup-guide-chatgpt
       title: Setup Guide Chatgpt
       type: basic
-    - slug: prompt-library
-      title: Prompt Library
-      type: basic
 ---
 The Lifesight MCP (Model Context Protocol) server connects your AI assistant, Claude Desktop or ChatGPT, directly to your Lifesight workspace. It gives your AI client secure, real-time access to your Marketing Mix Models, budget data, ad performance, and Lifesight’s documentation library, all through plain-language conversation.
 
