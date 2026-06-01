@@ -5,28 +5,56 @@ hidden: true
 metadata:
   robots: index
 ---
-<br />
+## **Before You Start**
+
+Ensure you have the following before proceeding:
+
+- An active Lifesight workspace. If you're evaluating Lifesight, book a demo and ask for a sandbox.
+- Claude Desktop (latest version)
+- Lifesight MCP URL: [https://mcp.lifesight.io/mcp](https://mcp.lifesight.io/mcp)
+
+***
+
+## Steps to Install Connect Claude with Lifesight MCP
 
 1. Fire up Claude Desktop and make sure you’re on the latest version.
 
+2. Navigate to **Customize → Connectors&#x20;**
 
-2. Navigate to **Customize → Connectors → Add Custom Connector**
+
+<Image src="https://files.readme.io/9545dc35b22fb0785f1317ffc84197aec5998bea78a6c9e31150fd776b1444fa-Screenshot_2026-06-01_at_10.29.30_PM.png" align="center" width="600px" border={true} />
+
+
+3. Then click on **Add Custom connectors**
+
+
+<Image src="https://files.readme.io/543b5aa7da9c168ebe4a8ff5f9a467ac6d6c91c76267eb04c90f7f78cc9d8420-Screenshot_2026-06-01_at_10.30.12_PM.png" align="center" width="600px" border={true} />
+
+
+<br />
+
 3. Give the connector a name you’ll recognise, e.g. Lifesight MIA MCP.
-4. Add the UR&#x4C;**&#x20;**[**https://mcp.lifesight.io/mcp**](https://mcp.lifesight.io/mcp) and hit Add and Connect.
+4. Add the URL and hit Add and Connect.
+   > 📌 URL -&#x20;**&#x20;**[**https://mcp.lifesight.io/mcp**](https://mcp.lifesight.io/mcp)
+
+
+<Image src="https://files.readme.io/6567c09b71cf8e84217ed23a8b38d47146470daf91cafe3834a7888eb3f4e092-Screenshot_2026-06-01_at_11.06.01_PM.png" align="center" width="600px" />
+
+
 5. Claude will redirect you t&#x6F;**&#x20;**[**https://console.lifesight.io/mia-connect**](https://console.lifesight.io/mia-connect)**.**
 6. Existing users: Log in with your Lifesight credentials. You're all set!
-7. New users: Click Request for access to be redirected to the Lifesight demo page to get started.
+7. **New users: Click Request for access to be redirected to the Lifesight demo page to get started.**
 
 That’s it! Start asking questions in your language. Not sure where to begin?
 
 Try any of these:
 
-“What’s my \[Quarter] budget allocation by channel?”
+“**_What’s my \[Quarter] budget allocation by channel?”_**
 
-“Which channel drove the highest iROAS last week?”
+**_“Which channel drove the highest iROAS last week?”_**
 
-“I have \[ $200K] to reallocate, where should it go to maximize revenue?”
+**_“I have \[ $200K] to reallocate, where should it go to maximize revenue?”_**
 
-“Show me how \[Ad Channel 1]  has been performing compared to  \[Ad Channel 2] over the last \[N days].”
+**_“Show me how \[Ad Channel 1]  has been performing compared to  \[Ad Channel 2] over the last \[N days].”_**
 
-“List my MMM models and tell me which one optimises for conversions.”
+**_“List my MMM models and tell me which one optimises for conversions.”_**
