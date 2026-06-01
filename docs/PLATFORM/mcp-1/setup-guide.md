@@ -58,17 +58,9 @@ Ensure you have the following before proceeding:
 
 That’s it! Start asking questions in your language. Not sure where to begin?
 
-Try any of these:
-
-“**_What’s my \[Quarter] budget allocation by channel?”_**
-
-**_“Which channel drove the highest iROAS last week?”_**
-
-**_“I have \[ $200K] to reallocate, where should it go to maximize revenue?”_**
-
-**_“Show me how \[Ad Channel 1]  has been performing compared to  \[Ad Channel 2] over the last \[N days].”_**
-
-**_“List my MMM models and tell me which one optimises for conversions.”_**
+| Try any of these                                                                                                                                                                                                                                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **"What’s my \[Quarter] budget allocation by channel?”<br />“Which channel drove the highest iROAS last week?”<br />“I have \[ $200K] to reallocate, where should it go to maximize revenue?”<br />“Show me how \[Ad Channel 1]  has been performing compared to  \[Ad Channel 2] over the last \[N days].** |
 
 ***
 
