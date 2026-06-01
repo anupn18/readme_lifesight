@@ -1,5 +1,5 @@
 ---
-title: Setup Guide ChatGpt
+title: Setup Guide Chatgpt
 deprecated: false
 hidden: true
 metadata:
