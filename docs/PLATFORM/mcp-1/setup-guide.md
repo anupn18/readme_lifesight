@@ -1,5 +1,6 @@
 ---
 title: Setup Guide Claude
+excerpt: Connect Lifesight MCP to Claude in 2 minutes.
 deprecated: false
 hidden: true
 metadata:
