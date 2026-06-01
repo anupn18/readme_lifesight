@@ -1,5 +1,5 @@
 ---
-title: Setup Guide
+title: Setup Guide Claude
 deprecated: false
 hidden: true
 metadata:
