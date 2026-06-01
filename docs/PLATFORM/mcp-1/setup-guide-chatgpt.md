@@ -5,6 +5,11 @@ deprecated: false
 hidden: true
 metadata:
   robots: index
+next:
+  pages:
+    - slug: prompt-library
+      title: Prompt Library
+      type: basic
 ---
 ## **Before You Start**
 
