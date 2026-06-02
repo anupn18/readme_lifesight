@@ -1,5 +1,6 @@
 ---
 title: Lifesight MCP Prompt Library
+excerpt: A collection of proven prompts for measurement, optimization, and planning
 deprecated: false
 hidden: true
 metadata:
@@ -18,63 +19,64 @@ metadata:
 
 **Tools the prompts call:**
 
-- ask\_mia - open-ended Q\&A against your live causal model
 - list\_models - workspace inventory
 - earch\_knowledge\_base - methodology, past experiments, Lifesight docs
-- save\_insight - bookmark an answer back to Lifesight
-  ###
-  ### 1. Q4 reallocation
-  The decisions you have to make in the next eight weeks.
 
-  **<br />1.1 Where to move the next 20% of Q4 spend**<br /><br />When to use it. You're locking Q4 budget this week and want a defensible reallocation before the auction tightens.
+save\_insight - bookmark an answer back to Lifesight.<br />
+
+***
+
+## **1. Channel deep-dive**
+
+The decisions you have to make in the next eight weeks.<br />**<br />1.1 Where to move the next 20% of Q4 spend**
+
+When to use it. You're locking Q4 budget this week and want a defensible reallocation before the auction tightens.
 
 > 📘 Prompt
 >
 > Stress-test my Q4 plan. Where am I over-investing relative to<br />incrementality, and what would moving 20% of that spend to higher-iROAS<br />channels look like in incremental revenue and CAC?
 
-**What you'll get back.**
+**What you'll get back:&#x20;**&#x41; ranked table of over-invested channels with current iROAS, recommended deltas, and the projected incremental revenue lift. Methodology footnote underneath.
 
-&#x20;A ranked table of over-invested channels with current iROAS, recommended deltas, and the projected incremental revenue lift. Methodology footnote underneath.
-
-**Next step&#x20;**&#x50;aste the table into your Q4 plan doc. Save the answer with save\_insight so you can re-pull it after the change is live.
+**Next step:&#x20;**&#x50;aste the table into your Q4 plan doc. Save the answer with save\_insight so you can re-pull it after the change is live.
 
 ***
 
-**1.2 The retargeting trap check**<br />When to use it. Your team is defending a retargeting line item because the platform ROAS looks great.
+**1.2 The retargeting trap check**<br /><br />When to use it. Your team is defending a retargeting line item because the platform ROAS looks great.
 
 > 📘 Prompt
 >
 > For my last 4 weeks of retargeting spend, show me platform-reported<br />ROAS vs Lifesight iROAS by ad set. Flag every ad set where the gap is<br />greater than 2x.
 
-**What you'll get back.&#x20;**&#x54;wo-column comparison with gap highlighted. Mia adds a sentence on which retargeting audiences are most likely to be cannibalizing organic conversions.
+**What you'll get back:&#x20;**&#x54;wo-column comparison with gap highlighted. Mia adds a sentence on which retargeting audiences are most likely to be cannibalizing organic conversions.
 
-**Next step.** Send the table to your media buyer with a "pause or cap?" tag on each flagged row.
+**Next step:** Send the table to your media buyer with a "pause or cap?" tag on each flagged row.
 
-**1.3 The discount-or-brand decision**<br />When to use it. Finance wants a discount; brand wants upper-funnel; you have to choose.
+**1.3 The discount-or-brand decision**<br /><br />When to use it. Finance wants a discount; brand wants upper-funnel; you have to choose.
 
 > 📘 Prompt.
 >
 > Simulate two Q4 scenarios on my live model: (A) repeat last year's<br />25% sitewide discount, (B) hold price and shift the discount budget<br />to upper-funnel video. Show incremental revenue, gross margin impact,<br />and projected Q1 carryover for each.
 
-**What you'll get back.&#x20;**&#x41; two-column scenario comparison with the carryover number isolated - this is usually the line that wins the argument.
+**What you'll get back:&#x20;**&#x41; two-column scenario comparison with the carryover number isolated - this is usually the line that wins the argument.
 
-**Next step.&#x20;**&#x54;ake both scenarios into the planning meeting. Save the answer so you can revisit it in February.
+**Next step:&#x20;**&#x54;ake both scenarios into the planning meeting. Save the answer so you can revisit it in February.
 
-&#x31;**.4 The Q1 cliff stress test**<br /><br />**When to use it.&#x20;**&#x59;ou want to make sure your Q4 plan doesn't strand you in January.
+&#x31;**.4 The Q1 cliff stress test**<br /><br />**When to use it:&#x20;**&#x59;ou want to make sure your Q4 plan doesn't strand you in January.
 
 > 📘 Prompt
 >
 > Based on my current Q4 plan, project the Q1 baseline assuming we cut<br />upper-funnel investment by 50% in week 1 of January. Where does the<br />revenue floor land? What's the brand-led investment in Q4 that would<br />raise that floor by 10%?
 
-**What you'll get back.&#x20;**&#x41; projection chart description with two scenarios and a callout of the specific Q4 line items that drive the Q1 floor.
+**What you'll get back:&#x20;**&#x41; projection chart description with two scenarios and a callout of the specific Q4 line items that drive the Q1 floor.
 
-**Next step.** Use this as your Q1 insurance line in your Q4 board memo.
+**Next step:&#x20;**&#x55;se this as your Q1 insurance line in your Q4 board memo.
+
+***
 
 ## **2. Channel deep-dive**
 
-When one channel is acting weird and you need to know if it's real.
-
-**<br />2.1 The "why did this channel spike" question**<br />When to use it. A channel jumped 30%+ week-over-week and you don't know if it's incremental or correlational.
+When one channel is acting weird and you need to know if it's real.<br />**<br />2.1 The "why did this channel spike" question**<br />When to use it. A channel jumped 30%+ week-over-week and you don't know if it's incremental or correlational.
 
 > 📘 Prompt
 >
@@ -82,7 +84,7 @@ When one channel is acting weird and you need to know if it's real.
 
 **What you'll get back: &#x20;**&#x41; causal decomposition: incremental contribution, cannibalization from adjacent channels, and external-factor contribution.
 
-**Next step:&#x20;**&#x66; the lift is real, plan to test scaling. If it's cannibalization, flag the channel mix for review.
+**Next step:&#x20;**&#x49;f the lift is real, plan to test scaling. If it's cannibalization, flag the channel mix for review.
 
 **2.2 The cross-channel cannibalization map**<br /><br />When to use it. You want to know which of your "winning" channels are stealing credit from others.
 
@@ -117,7 +119,9 @@ When one channel is acting weird and you need to know if it's real.
 
 **What you'll get back:&#x20;**&#x54;rue incremental contribution plus second-order effects on other channels.
 
-**Next step:** If second-order effects are large, propose a 50% cut instead of a full kill. Save the analysis so you can re-test in 90 days.
+**Next step:** If second-order effects are large, propose a 50% cut instead of a full kill. Save the analysis so you can re-test in 90 days.<br />
+
+***
 
 ## **3. Anomaly triage**
 
@@ -166,7 +170,9 @@ When to use it. A platform changed an algorithm or attribution window and you wa
 
 **What you'll get back:&#x20;**&#x41; list of suspected competitive-pressure channels with confidence ratings.
 
-Next step: Adjust bidding strategy on flagged auctions or shift budget to lower-pressure channels.
+Next step: Adjust bidding strategy on flagged auctions or shift budget to lower-pressure channels.<br />
+
+***
 
 ## **4. Board / CFO prep**
 
@@ -222,7 +228,9 @@ The questions you need answered before the executive meeting.
 
 **What you'll get back:** A three-scenario planning view.
 
-**Next step:&#x20;**&#x54;ake into the planning meeting. Save as your annual planning anchor.
+**Next step:&#x20;**&#x54;ake into the planning meeting. Save as your annual planning anchor.<br />
+
+***
 
 ## 5. Methodology lookup
 
@@ -273,7 +281,9 @@ When to use it. Someone needs to know exactly which model and run produced a num
 
 **What you'll get back:&#x20;**&#x4D;odel name, run timestamp, confidence interval, and the data window.
 
-**Next step:&#x20;**&#x44;rop into any document or email that needs an audit trail.
+**Next step:&#x20;**&#x44;rop into any document or email that needs an audit trail.<br />
+
+***
 
 ## 6. BFCM stress test
 
@@ -328,6 +338,8 @@ When to use it. Second week of January. You need to know how much of Q4 is still
 **What you'll get back:&#x20;**&#x43;arryover quantification by channel + LTV comparison.
 
 **Next step:&#x20;**&#x55;se it to defend Q1 baseline spend. Save it for next year's Q4 planning anchor.
+
+***
 
 **A note on safety**<br /><br />Every prompt above is read-only against your causal model. None of them spend money or change a budget. Write actions - propose and apply budget reallocations - ship in Q3 with an explicit approval flow.
 
