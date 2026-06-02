@@ -1,6 +1,6 @@
 ---
-title: Setup Guide Chatgpt
-excerpt: Connect Lifesight MCP to Chatgpt Codex in 2 minutes.
+title: Setup Guide ChatGPT
+excerpt: Connect Lifesight MCP to ChatGPT Codex in 2 minutes.
 deprecated: false
 hidden: false
 metadata:
@@ -18,7 +18,7 @@ Ensure you have the following before proceeding:
 
 ***
 
-## Steps to Connect Chatgpt Codex with Lifesight MCP
+## Steps to Connect ChatGPT Codex with Lifesight MCP
 
 ChatGPT (Codex) uses a Personal Access Token (PAT) for authentication rather than OAuth, so there’s one extra step compared to Claude Desktop. It only takes a minute.
 
