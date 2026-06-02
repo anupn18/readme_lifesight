@@ -43,7 +43,7 @@ When to use it. You're locking Q4 budget this week and want a defensible realloc
 
 > 📘 Prompt
 >
-> Stress-test my Q4 plan. Where am I over-investing relative to<br />incrementality, and what would moving 20% of that spend to higher-iROAS<br />channels look like in incremental revenue and CAC?
+> Stress-test my \[Quarter] plan. Where am I over-investing relative to<br />incrementality, and what would moving \[%] of that spend to higher-iROAS<br />channels look like in incremental revenue and CAC?
 
 **What you'll get back:&#x20;**&#x41; ranked table of over-invested channels with current iROAS, recommended deltas, and the projected incremental revenue lift. Methodology footnote underneath.
 
@@ -55,7 +55,7 @@ When to use it. You're locking Q4 budget this week and want a defensible realloc
 
 > 📘 Prompt
 >
-> For my last 4 weeks of retargeting spend, show me platform-reported<br />ROAS vs Lifesight iROAS by ad set. Flag every ad set where the gap is<br />greater than 2x.
+> For my last  \[weeks] of retargeting spend, show me platform-reported<br />ROAS vs Lifesight iROAS by ad set. Flag every ad set where the gap is<br />greater than 2x.
 
 **What you'll get back:&#x20;**&#x54;wo-column comparison with gap highlighted. Mia adds a sentence on which retargeting audiences are most likely to be cannibalizing organic conversions.
 
@@ -65,7 +65,7 @@ When to use it. You're locking Q4 budget this week and want a defensible realloc
 
 > 📘 Prompt.
 >
-> Simulate two Q4 scenarios on my live model: (A) repeat last year's<br />25% sitewide discount, (B) hold price and shift the discount budget<br />to upper-funnel video. Show incremental revenue, gross margin impact,<br />and projected Q1 carryover for each.
+> Simulate two \[Quarter] scenarios on my live model: (A) repeat last year's<br />\[%] sitewide discount, (B) hold price and shift the discount budget<br />to upper-funnel video. Show incremental revenue, gross margin impact,<br />and projected \[Quarter] carryover for each.
 
 **What you'll get back:&#x20;**&#x41; two-column scenario comparison with the carryover number isolated - this is usually the line that wins the argument.
 
@@ -75,7 +75,7 @@ When to use it. You're locking Q4 budget this week and want a defensible realloc
 
 > 📘 Prompt
 >
-> Based on my current Q4 plan, project the Q1 baseline assuming we cut<br />upper-funnel investment by 50% in week 1 of January. Where does the<br />revenue floor land? What's the brand-led investment in Q4 that would<br />raise that floor by 10%?
+> Based on my current \[Quarter] plan, project the \[Quarter] baseline assuming we cut<br />upper-funnel investment by \[%] in week 1 of \[month]. Where does the<br />revenue floor land? What's the brand-led investment in \[Quarter] that would<br />raise that floor by \[%]?
 
 **What you'll get back:&#x20;**&#x41; projection chart description with two scenarios and a callout of the specific Q4 line items that drive the Q1 floor.
 
@@ -99,7 +99,7 @@ When one channel is acting weird and you need to know if it's real.<br />**<br /
 
 > 📘 Prompt
 >
-> For my top 5 channels by spend, show me the cannibalization matrix:<br />which channels are taking credit for conversions that other channels<br />caused? Rank by total mis-credited revenue.
+> For my top \[5 channels] by spend, show me the cannibalization matrix:<br />which channels are taking credit for conversions that other channels<br />caused? Rank by total mis-credited revenue.
 
 **What you'll get back:&#x20;**&#x41; 5×5 matrix or ranked list. Most teams discover that 1-2 channels are credit-thieves and 1-2 are credit-victims.
 
@@ -152,9 +152,7 @@ When to use it. Performance is degrading and you suspect creative fatigue.
 
 > 📘 Prompt
 >
-> For \[campaign], show me incremental CPA week-over-week for the last
-> 8 weeks. Identify when fatigue began and which creative cohorts are
-> the primary contributors.
+> For \[campaign], show me incremental CPA week-over-week for the last<br />\[8 weeks]. Identify when fatigue began and which creative cohorts are<br />the primary contributors.
 
 **What you'll get back:&#x20;**&#x41; trajectory analysis with the fatigue inflection point and the at-fault creatives.
 
@@ -175,7 +173,7 @@ When to use it. A platform changed an algorithm or attribution window and you wa
 
 > 📘 Prompt
 >
-> In the last 4 weeks, where did my CAC rise without a corresponding<br />change in our spend, bidding strategy, or creative? Are these signals<br />consistent with new competitive pressure in specific auctions?
+> In the last \[4 weeks], where did my CAC rise without a corresponding<br />change in our spend, bidding strategy, or creative? Are these signals<br />consistent with new competitive pressure in specific auctions?
 
 **What you'll get back:&#x20;**&#x41; list of suspected competitive-pressure channels with confidence ratings.
 
@@ -229,11 +227,7 @@ The questions you need answered before the executive meeting.
 
 > 📘 Prompt
 >
-> Based on the last 12 months of causal data, what's the marketing
-> budget range that maximizes incremental revenue for next year?
-> Show me three scenarios: status quo, +15%, and -15%. For each,
-> project incremental revenue, blended iROAS, and the channels most
-> sensitive to the change.
+> Based on the \[last X months] of causal data, what's the marketing<br />budget range that maximizes incremental revenue for next year?<br />Show me three scenarios: status quo, \[+X%}, and \[-X%}. For each,<br />project incremental revenue, blended iROAS, and the channels most<br />sensitive to the change.
 
 **What you'll get back:** A three-scenario planning view.
 
@@ -313,7 +307,7 @@ When to use it. Someone needs to know exactly which model and run produced a num
 
 > 📘 Prompt.
 >
-> Simulate three BFCM offers on my live model: 15% sitewide,<br />25% sitewide, and a tiered offer (BOGO on top SKUs, 15% on<br />everything else). Project incremental revenue, gross margin<br />impact, and post-BFCM repeat-rate effect for each.
+> Simulate three BFCM offers on my live model: \[X%] sitewide,<br />\[X%] sitewide, and a tiered offer (BOGO on top SKUs, \[x%] on<br />everything else). Project incremental revenue, gross margin<br />impact, and post-BFCM repeat-rate effect for each.
 
 **What you'll get back:&#x20;**&#x41; three-row comparison with the repeat-rate row often deciding the call.
 
@@ -339,10 +333,7 @@ When to use it. Second week of January. You need to know how much of Q4 is still
 
 > 📘 Prompt
 >
-> Quantify the Q4 brand investment carryover effect on Q1 to date.
-> Which channels are still delivering incremental revenue from Q4
-> spend? What's the implied lifetime value of the BFCM-acquired cohort
-> vs the pre-Q4 baseline?
+> Quantify the \[Quarter] brand investment carryover effect on\[Quarter] to date.<br />Which channels are still delivering incremental revenue from \[Quarter]<br />spend? What's the implied lifetime value of the BFCM-acquired cohort<br />vs the pre-Q4 baseline?
 
 **What you'll get back:&#x20;**&#x43;arryover quantification by channel + LTV comparison.
 
