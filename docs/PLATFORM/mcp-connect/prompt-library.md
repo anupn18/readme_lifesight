@@ -4,6 +4,13 @@ excerpt: A collection of proven prompts for measurement, optimization, and plann
 deprecated: false
 hidden: true
 metadata:
+  title: Lifesight MCP Prompt Library
+  description: A collection of proven prompts for measurement, optimization, and planning
+  keywords:
+    - Lifesight
+    - MCP
+    - Prompt
+    - ''
   robots: index
 ---
 24 prompts. Organized by the decision you're trying to make, not the role you have. Every prompt is copy-paste runnable in Claude or ChatGPT once Lifesight MCP is installed.
