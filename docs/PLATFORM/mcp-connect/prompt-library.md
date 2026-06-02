@@ -4,7 +4,7 @@ excerpt: >-
   A copy-paste prompt library for using Lifesight MCP to answer planning,
   channel, anomaly, executive, methodology, and BFCM questions.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Lifesight MCP Prompt Library
   description: A collection of proven prompts for measurement, optimization, and planning
