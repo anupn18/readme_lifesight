@@ -10,7 +10,7 @@ metadata:
 
 Ensure you have the following before proceeding:
 
-- An active Lifesight workspace. If you're evaluating Lifesight, book a demo and ask for a sandbox.
+- An active Lifesight workspace. If you're evaluating Lifesight, book a demo.
 - Claude Desktop (latest version)
 - Lifesight MCP URL: [https://mcp.lifesight.io/mcp](https://mcp.lifesight.io/mcp)
 
