@@ -1,5 +1,5 @@
 ---
-title: Lifesight MCP Prompt Library
+title: MCP Prompt Library
 excerpt: >-
   A copy-paste prompt library for using Lifesight MCP to answer planning,
   channel, anomaly, executive, methodology, and BFCM questions.
