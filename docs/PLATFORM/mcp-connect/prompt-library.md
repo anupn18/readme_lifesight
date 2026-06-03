@@ -41,17 +41,9 @@ When to use it. You're locking Q4 budget this week and want a defensible realloc
 
 > 📘 Prompt
 >
-> I cannot generate markdown for a copy button feature, as that requires interactive functionality (JavaScript/HTML) beyond standard CommonMark markdown capabilities.
+> (`` ` ``Stress-test my \[Quarter] plan. Where am I over-investing relative to<br />incrementality, and what would moving \[%] of that spend to higher-iROAS<br />channels look like in incremental revenue and CAC?`` ` ``)
 >
-> If you want to make text copyable, you would need to:
 >
-> - Use HTML with a `<button>` element and JavaScript
-> - Or provide the text in a code block (`` `text` ``)
-> - Or use a platform-specific feature
->
-> Could you clarify what text you'd like to make copyable, or what markdown output you're expecting?
->
-> Stress-test my \[Quarter] plan. Where am I over-investing relative to<br />incrementality, and what would moving \[%] of that spend to higher-iROAS<br />channels look like in incremental revenue and CAC?
 
 **What you'll get back:&#x20;**&#x41; ranked table of over-invested channels with current iROAS, recommended deltas, and the projected incremental revenue lift. Methodology footnote underneath.
 
