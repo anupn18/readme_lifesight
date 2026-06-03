@@ -19,7 +19,7 @@ metadata:
 
 ## How to use these prompts<br />
 
-**Each prompt is paired with:**
+**/Each prompt is paired with:**
 
 - When to use it - the trigger that should send you here.
 - The prompt - copy as-is, or edit the bracketed slots.
@@ -41,7 +41,7 @@ When to use it. You're locking Q4 budget this week and want a defensible realloc
 
 > 📘 Prompt
 >
-> Stress-test my \[Quarter] plan. Where am I over-investing relative to<br />incrementality, and what would moving \[%] of that spend to higher-iROAS<br />channels look like in incremental revenue and CAC?
+> \`\`\`Stress-test my \[Quarter] plan. Where am I over-investing relative to<br />incrementality, and what would moving \[%] of that spend to higher-iROAS<br />channels look like in incremental revenue and CAC?\`\`\`
 
 **What you'll get back:&#x20;**&#x41; ranked table of over-invested channels with current iROAS, recommended deltas, and the projected incremental revenue lift. Methodology footnote underneath.
 
