@@ -10,7 +10,7 @@ metadata:
 
 Ensure you have the following before proceeding:
 
-1. An active Lifesight workspace. If you're evaluating Lifesight, book a demo.
+1. An active Lifesight workspace. If you're evaluating Lifesight,<Anchor target="_blank" href="https://lifesight.io/demo/">&#x20;book a demo</Anchor>.
 2. ChatGPT with Custom Connectors enabled (Team, Enterprise, or Plus)
 3. Lifesight MCP URL: [https://mcp.lifesight.io/mcp/](https://mcp.lifesight.io/mcp)
 
