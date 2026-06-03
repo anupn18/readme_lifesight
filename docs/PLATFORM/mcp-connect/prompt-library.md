@@ -21,17 +21,15 @@ metadata:
 
 **Each prompt is paired with:**
 
-- When to use it - the trigger that should send you here
-- The prompt - copy as-is, or edit the bracketed slots
-- What you'll get back - the shape of Mia's answer
-- What to do next - the suggested follow-up
+- When to use it - the trigger that should send you here.
+- The prompt - copy as-is, or edit the bracketed slots.
+- What you'll get back - the shape of Mia's answer.
+- What to do next - the suggested follow-up.
 
 **Tools the prompts call:**
 
-- list\_models - workspace inventory
-- earch\_knowledge\_base - methodology, past experiments, Lifesight docs
-
-save\_insight - bookmark an answer back to Lifesight.<br />
+- list\_models - workspace inventory.
+- search\_knowledge\_base - methodology, past experiments, Lifesight docs.
 
 ***
 
