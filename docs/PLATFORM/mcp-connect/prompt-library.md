@@ -39,9 +39,13 @@ The decisions you have to make in the next eight weeks.<br />**<br />1.1 Where t
 
 When to use it. You're locking Q4 budget this week and want a defensible reallocation before the auction tightens.
 
+```text
+Stress-test my \[Quarter] plan. Where am I over-investing relative to incrementality, and what would moving \[%] of that spend to higher-iROAS channels look like in incremental revenue and CAC?
+```
+
 > 📘 Prompt
 >
-> Stress-test my \[Quarter] plan. Where am I over-investing relative to incrementality, and what would moving \[%] of that spend to higher-iROAS channels look like in incremental revenue and CAC?
+>
 
 **What you'll get back:&#x20;**&#x41; ranked table of over-invested channels with current iROAS, recommended deltas, and the projected incremental revenue lift. Methodology footnote underneath.
 
