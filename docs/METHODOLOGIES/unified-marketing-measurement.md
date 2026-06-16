@@ -20,7 +20,7 @@ Each of the three major approaches is a genuine advance in service of a real que
 
 None of these methods is lying. Each is simply a partial answer being sold as a complete one - over-claiming in exactly the dimension where it is strong, and going quiet in exactly the dimension where it is weak.
 
-📘 The first and most expensive mistake in measurement is not the choice of any particular method. It is the belief that a single method is sufficient.
+> 📘 The first and most expensive mistake in measurement is not the choice of any particular method. It is the belief that a single method is sufficient.
 
 ***
 
@@ -53,8 +53,6 @@ The most common reason measurement programs lose credibility is a misunderstandi
 Neither is broken. A regression coefficient is an average over the whole estimation window - true overall and rarely true at any single moment, like a road trip that averaged 50 mph while touching that speed for only seconds. An experiment measures a single point on that same moving curve: its value today. The model reports the multi-year average; the experiment reports the present moment. Of course they differ.
 
 > 📘 A point-in-time experiment and a multi-year average are measuring the same channel at different time scales. Disagreement is the expected result, not a defect. The skill is reading each as what it is, not forcing them to confess a single number.
-
-<br />
 
 **Recognizing this is the difference between "our models contradict each other" and "our models describe the same business at different time scales." The second sentence is the seed of Unified Marketing Measurement.**
 
