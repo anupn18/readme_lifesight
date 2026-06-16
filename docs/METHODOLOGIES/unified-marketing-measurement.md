@@ -46,6 +46,10 @@ Branded search is the classic case: a customer who already intends to buy types 
 
 This is the shared purpose that unites all three methods: each is, at bottom, a different strategy for estimating that invisible counterfactual. An experiment builds it from a control group. An MMM builds it statistically, asking what the model predicts at zero spend. Attribution builds none on its own - which is precisely why it needs the other two.
 
+![](https://files.readme.io/f599a59ebf3d5ec679958000d495f778e19fb8223cddf86be5013a1ed6668cf1-umm_diagram.png)
+
+<br />
+
 ### Why the methods disagree - and why that is expected
 
 The most common reason measurement programs lose credibility is a misunderstanding. A fresh experiment reports that a channel is driving 3x right now. The marketing mix model insists it is worth 1.9x. The room concludes that one of them must be broken.
