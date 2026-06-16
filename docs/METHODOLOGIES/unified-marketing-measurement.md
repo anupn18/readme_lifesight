@@ -46,7 +46,7 @@ Branded search is the classic case: a customer who already intends to buy types 
 
 This is the shared purpose that unites all three methods: each is, at bottom, a different strategy for estimating that invisible counterfactual. An experiment builds it from a control group. An MMM builds it statistically, asking what the model predicts at zero spend. Attribution builds none on its own - which is precisely why it needs the other two.
 
-![](https://files.readme.io/f599a59ebf3d5ec679958000d495f778e19fb8223cddf86be5013a1ed6668cf1-umm_diagram.png)
+![](https://files.readme.io/e12245bade286d44d96ff68b23feeea6cd88161e325d156bb38fd237b8f84d94-image.png)
 
 <br />
 
