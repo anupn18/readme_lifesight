@@ -16,7 +16,7 @@ next:
 
 Ridge Regression is a powerful extension of classical linear regression, particularly valuable in Marketing Mix Modeling (MMM). It addresses issues of multicollinearity and overfitting, common challenges in marketing data analysis.
 
-![](https://files.readme.io/dc879748bc2255bfcee9e707fe3e3bb83e640b11cd8665ed19daf5465ebe7167-Flowchart.jpg)
+![](https://files.readme.io/66918fa53d63aeb1db9651927c2dfdc1323f0e59e89e65a673770dc15cf28a02-image.png)
 
 <br />
 
