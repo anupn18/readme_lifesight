@@ -27,3 +27,9 @@ Multicollinearity - when two or more inputs move together so closely that their 
 ### Does Lifesight support modeling at the geography level?
 
 Yes. Lifesight supports modeling across multiple dimensions. The framework is built to perform multi-dimensional runs, creating models across geographies, product SKUs, and sales channels all in one shot, and then interpreting or aggregating the results back to a specific group of geographies, or a specific combination of product and sales channel, and so on.
+
+### Is Lifesight Bayesian or frequentist?
+
+One of Lifesight's core modeling principles is "algorithmic fit" - using the right algorithm for the right task. We have no philosophical affinity to a single framework, and our approach is deliberately hybrid.
+
+Our inference process is primarily frequentist, but it is calibratable with strong priors in the form of contextual calibration - discussed in more detail on the Model Calibration page. At the same time, Structural Causal Modeling has its origins in the Bayesian school, and our ensemble forecasting logic has Bayesian algorithms in the mix.
