@@ -2,7 +2,7 @@
 title: Model Refresh
 excerpt: How Lifesight keeps a marketing mix model current as the business moves.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
