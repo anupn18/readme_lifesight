@@ -45,8 +45,6 @@ MMM is the easiest, most scalable entry point to Incrementality measurements. Wi
 
 So let’s dive deeper into what makes MMM such a powerful tool and how Lifesight’s modern and causal-first approach can transform how you measure and optimize marketing.
 
-<br />
-
 ***
 
 ### Modern Marketing Mix Modeling
@@ -76,8 +74,6 @@ Together, these qualities let MMM hold up its end of a unified system - a contin
 - Ensemble forecasting techniques
 
 Together, these create a robust, interpretable, and scalable framework for measuring the real drivers of growth - even in a privacy-restricted, cookie-less world.
-
-<br />
 
 👉 Explore Lifesight’s unique approach to MMM  [here](https://docs.lifesight.io/update/docs/lifesights-approach#/)
 
