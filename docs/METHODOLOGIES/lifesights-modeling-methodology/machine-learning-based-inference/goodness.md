@@ -30,7 +30,7 @@ A single number can never certify a model. We therefore evaluate every model acr
 - Coefficient reliability - are the effects stable and well-bounded?
 - Causal validity - do the results respect cause and effect, and agree with experiments?
 
-<br />
+***
 
 ### Goodness of Fit & Error Metrics
 
@@ -81,66 +81,74 @@ This quantifies the cumulative deviation of predicted versus actual values acros
 
 We also run a decomposition sanity check: the sum of every channel contribution plus the baseline should reconstruct actual sales without large unexplained residual mass. A decomposition that does not add up points to a misspecified model regardless of how good R² looks.
 
-2. **Residual Diagnostics & Model-Assumption Tests**
+***
+
+### **Residual Diagnostics & Model-Assumption Tests**
 
 A regression-based MMM is only trustworthy if the assumptions underneath it hold. The residuals - the part of the outcome the model could not explain - are where those assumptions are tested. Well-behaved residuals are random, centered on zero, constant in variance, and free of leftover structure.
 
-2.1 Homoskedasticity (Constant-Variance) Check
+**2.1 Homoskedasticity (Constant-Variance) Check**
 
 Homoskedasticity means the residuals have constant variance across the range of fitted values. Its opposite, heteroskedasticity, is common in MMM and arises from:
 
-Seasonal spikes (e.g. BFCM)
-Channel spending bursts
-Asymmetric response functions
-Nonlinear saturation or diminishing returns
-Structural breaks (product launches, pricing changes, stockouts)
+- Seasonal spikes (e.g. BFCM)
+- Channel spending bursts
+- Asymmetric response functions
+- Nonlinear saturation or diminishing returns
+- Structural breaks (product launches, pricing changes, stockouts)
 
 Why Lifesight checks this: heteroskedastic residuals produce biased standard errors, unstable coefficients, overstated significance, and incorrect confidence intervals - all of which corrupt incrementality and elasticity estimates.
 
-How Lifesight evaluates it:
+**How Lifesight evaluates it:**
 
-Residual vs. fitted value plots
-Rolling-window residual variance checks
-White and Breusch–Pagan style tests (read conceptually, without strict p-value dependence given ridge regression's nature)
-Variance clustering detection (peak seasons, promo periods)
-Bootstrapped variance stability across the top 100 models
+- Residual vs. fitted value plots
+- Rolling-window residual variance checks
+- White and Breusch–Pagan style tests (read conceptually, without strict p-value dependence given ridge regression's nature)
+- Variance clustering detection (peak seasons, promo periods)
+- Bootstrapped variance stability across the top 100 models
 
-What Lifesight ensures: residuals do not systematically widen with spend or sales, variance does not cluster excessively during campaign bursts, and confidence intervals remain meaningful. If instability is detected, Lifesight adjusts adstock or saturation priors, corrects structural constraints, rebalances the hyper-parameter search, and re-runs residual bootstrapping.
+**What Lifesight ensures:** residuals do not systematically widen with spend or sales, variance does not cluster excessively during campaign bursts, and confidence intervals remain meaningful. If instability is detected, Lifesight adjusts adstock or saturation priors, corrects structural constraints, rebalances the hyper-parameter search, and re-runs residual bootstrapping.
 
-2.2 Residual Autocorrelation (Independence Over Time)
+**2.2 Residual Autocorrelation (Independence Over Time)**
 
 Because MMM data is a time series, this week's residual should not be predictable from last week's. Leftover serial correlation usually means real structure - carryover, trend, or seasonality - has been missed and wrongly dumped into the error term.
 
 Lifesight checks for it using:
 
-The Durbin–Watson statistic (first-order autocorrelation)
-Ljung–Box and Breusch–Godfrey tests (higher-order autocorrelation)
-Residual autocorrelation (ACF) plots
+- The Durbin–Watson statistic (first-order autocorrelation)
+- Ljung–Box and Breusch–Godfrey tests (higher-order autocorrelation)
+- Residual autocorrelation (ACF) plots
 
 When autocorrelation appears, the fix is structural - revisiting adstock/decay, trend, and seasonality terms - rather than cosmetic.
 
-2.3 Residual Normality & Unbiasedness
+**2.3 Residual Normality & Unbiasedness**
 
 Two related checks: residuals should average to approximately zero (no systematic over- or under-prediction), and their distribution should be well-behaved. Lifesight inspects this with the Jarque–Bera and Shapiro–Wilk tests and Q–Q plots. Approximate normality supports the validity of confidence intervals; where it is violated, Lifesight leans on bootstrapped intervals rather than parametric ones.
 
-2.4 Residual Stationarity
+**2.4 Residual Stationarity**
 
 A final residual check uses the Augmented Dickey–Fuller (ADF) and KPSS tests to confirm the residuals carry no remaining trend or unit root. Residual nonstationarity is a strong signal that a slow-moving driver (a trend, a structural shift) has been omitted from the model.
 
-3. Multicollinearity Diagnostics
+***
+
+### **Multicollinearity Diagnostics**
 
 Marketing channels are frequently planned and flighted together, so their spends move in lockstep - which makes it hard for any model to separate their individual effects. Lifesight diagnoses this explicitly using:
 
-Variance Inflation Factor (VIF) per variable
-The condition number / condition index of the design matrix
+- Variance Inflation Factor (VIF) per variable
+- The condition number / condition index of the design matrix
 
 High collinearity inflates coefficient variance and makes estimates lurch with small data changes. Lifesight addresses it through Ridge regularization and, where available, objective strong priors ideally informed by incrementality tests. (See also the Marketing Mix Modeling FAQ on how multicollinearity is handled.)
 
-4. Predictive Accuracy (Out-of-Sample)
+> **Though in standard regression practices collinear variables are avoided or merged - this is not practical in marketing measurements context. Lifesight's ridge regression handles multicolinearity - however the best practice is to calibrate the model with incrementality experiments**
+
+***
+
+### Predictive Accuracy (Out-of-Sample)
 
 Reproducing history is necessary but not sufficient. The stronger test is whether the model predicts outcomes it never saw.
 
-4.1 Holdout Accuracy
+**4.1 Holdout Accuracy**
 
 Lifesight reports holdout accuracy. A portion of the data (typically 10–20%) is withheld during training, and the trained model predicts this unseen window.
 
@@ -150,11 +158,11 @@ Guards against the overfitting common in high-dimensional MMM datasets
 
 Holdout accuracy is often the most trusted metric for CFOs and growth leaders, and it is reported alongside the testing MAPE and R² above.
 
-4.2 Time-Series Cross-Validation (Backtesting)
+**4.2 Time-Series Cross-Validation (Backtesting)**
 
 A single holdout can be lucky or unlucky. Lifesight therefore backtests using rolling-origin (walk-forward) cross-validation: the model is repeatedly trained up to a point in time and scored on the next window, advancing through history. This produces a distribution of out-of-sample errors rather than a single score, and exposes whether accuracy is stable or fragile across different periods.
 
-4.3 Short-Term Forecast Accuracy
+**4.3 Short-Term Forecast Accuracy**
 
 Lifesight performs a forward prediction (e.g. 4–8 weeks) and compares it to actual realized business outcomes. This answers:
 
@@ -163,7 +171,7 @@ Lifesight performs a forward prediction (e.g. 4–8 weeks) and compares it to ac
 
 Forecast accuracy validates the temporal stability of the model, not just its historical fit.
 
-5. Coefficient Reliability & Significance
+5. **Coefficient Reliability & Significance**
 
 Accuracy of the prediction is not the same as reliability of the individual effects. Lifesight evaluates each coefficient on:
 
@@ -172,42 +180,44 @@ Stability - how little a coefficient moves across the top 100 bootstrapped model
 Sign and face validity - effects must respect the directions encoded in the DAG and business priors (no negative media effects sneaking in)
 Significance - t-statistics and p-values are read with care, because under Ridge regularization classical significance tests have limited interpretability; stability and confidence intervals are weighted more heavily
 
-<br />
+***
 
-6. Causal Validity
+### Causal Validity
 
 Finally, a model can fit and predict well and still be causally wrong. Lifesight validates that results respect cause and effect by enforcing the SCM-based DAG constraints during estimation, and by calibrating the model against incrementality experiments. Agreement (within reason) between the model and a well-run experiment is the strongest available evidence that the estimates are causally sound; a persistent gap is treated as information and feeds the next calibration.
+
+***
 
 How Lifesight Produces Reliable Results: Evolutionary Modeling + Bootstrapping
 
 Unlike traditional MMM approaches that yield one deterministic model, Lifesight's pipeline generates:
 
-100,000+ candidate solutions through multi-objective evolutionary search
-Top models ranked on R², NRMSE, MAPE, coefficient stability, saturation realism, decay realism, and causal validity
-The best \~100 models selected for bootstrapping
-Final coefficients, elasticities, incrementality, and ROAS computed as averages
-Uncertainty measured at 2-sigma (95%) confidence intervals
+- 100,000+ candidate solutions through multi-objective evolutionary search
+- Top models ranked on R², NRMSE, MAPE, coefficient stability, saturation realism, decay realism, and causal validity
+- The best \~100 models selected for bootstrapping
+- Final coefficients, elasticities, incrementality, and ROAS computed as averages
+- Uncertainty measured at 2-sigma (95%) confidence intervals
 
-This ensures:
+**This ensures:**
 
-No single model biases the results
-Noise is averaged out
-Coefficients converge to the true effect size
-Every insight is backed by statistical confidence
+- No single model biases the results
+- Noise is averaged out
+- Coefficients converge to the true effect size
+- Every insight is backed by statistical confidence
 
-<br />
+***
 
-Putting It Together: Lifesight's Accuracy Philosophy
+### Putting It Together: Lifesight's Accuracy Philosophy
 
-Accuracy = Fit + Predictability + Stability + Causality
+**Accuracy = Fit + Predictability + Stability + Causality**
 
 Most MMM products stop at R². Lifesight goes further by validating:
 
-Fit & error (R², Adjusted R², MAPE on train/test/overall, NRMSE, RMSE, MAE)
-Assumptions (homoskedasticity, residual autocorrelation, normality, stationarity)
-Separability (VIF and condition-number multicollinearity diagnostics)
-Predictability (holdout accuracy, time-series cross-validation, forecast accuracy)
-Coefficient stability (evolutionary search + bootstrapping, confidence intervals, sign/face validity)
-Causal correctness (SCM-based DAG constraints, calibration against experiments)
+- Fit & error (R², Adjusted R², MAPE on train/test/overall, NRMSE, RMSE, MAE)
+- Assumptions (homoskedasticity, residual autocorrelation, normality, stationarity)
+- Separability (VIF and condition-number multicollinearity diagnostics)
+- Predictability (holdout accuracy, time-series cross-validation, forecast accuracy)
+- Coefficient stability (evolutionary search + bootstrapping, confidence intervals, sign/face validity)
+- Causal correctness (SCM-based DAG constraints, calibration against experiments)
 
 This ensures every insight - whether ROAS, mROAS, elasticity, or budget recommendation - is not only explainable, but statistically reliable and practically useful for business decision-making.
