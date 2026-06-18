@@ -1,5 +1,5 @@
 ---
-title: FAQ
+title: 'FAQ - Markeing Mix Modeling '
 excerpt: Frequently asked questions about our modeling practices
 deprecated: false
 hidden: false
