@@ -43,7 +43,25 @@ Because it turns complexity into clarity. It reveals what’s working, what’s 
 
 MMM is the easiest, most scalable entry point to Incrementality measurements. With right modeling techniques, good MMM models can reveal the true impact of marketing interventions within a range of possibilities at a specific confidence threshold
 
-So let’s dive deeper into what makes MMM such a powerful tool and how Lifesight’s modern and causal-first approach can transform how you measure and optimize marketing.
+***
+
+### Marketing Mix vs. Media Mix - Not the Same Thing
+
+The acronym "MMM" hides an important distinction. Media Mix Modeling and Marketing Mix Modeling are often used interchangeably, but they are not the same thing, and the difference changes what the model can honestly tell you.
+
+Media Mix Modeling is the narrower of the two. It models only paid media channels against the outcome, and its question is essentially "how should I split my media budget across Google, Meta, TV, and the rest?" Everything outside paid media - price, promotions, distribution, brand equity, seasonality, competition, the macro environment - is either ignored or swept into the noise.
+
+Marketing Mix Modeling is the broader, original idea (the "marketing mix" goes back to Borden's 1960 paper above). It models the full set of marketing levers - paid, owned, and earned media, plus price, promotion, distribution, and brand - alongside the non-marketing and contextual drivers that also move the business. Its question is the bigger one : "what truly drives performance, and how much?"
+
+Why the distinction matters. A model that only sees media has no choice but to hand the credit for everything it cannot see to whatever channel happened to move alongside it. A December revenue spike driven by seasonality and a price promotion gets quietly attributed to the paid channel that ramped up in December, inflating its ROAS and pointing the next budget decision in the wrong direction. A media-only model also cannot answer pricing or promotion questions, and it cannot separate marketing's contribution from the baseline demand that would have arrived anyway.
+
+DimensionMedia Mix ModelingMarketing Mix Modeling (Lifesight)ScopePaid media channels onlyAll marketing levers plus non-marketing driversVariablesChannel spend / impressionsPaid, owned & earned media, price, promotion, distribution, brand equity, plus seasonality, competition, macroQuestion answeredHow to split the media budgetWhat truly drives the business, and how much - including price, promo, and baselineBaselineOften ignored or lumped into mediaExplicitly modeled (trend, seasonality, brand equity)Main riskMisattributes non-media effects to media; inflated ROASSeparates each driver's true incremental contribution
+
+Lifesight is Marketing Mix, not Media Mix. We model the complete set of growth levers and the context around them - each with the right treatment, on an explicit causal structure - so that price, promotion, seasonality, and the baseline are accounted for rather than misattributed to a media channel.
+
+> 📘 When you see "MMM", check the scope. A media-mix model optimizes the media budget; a marketing-mix model measures the whole business. Lifesight builds the latter.
+
+<br />
 
 ***
 
