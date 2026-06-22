@@ -2,7 +2,7 @@
 title: Advanced Modeling Scenarios
 excerpt: How Lifesight models 2nd order effects
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: ''
   description: ''
