@@ -2,7 +2,7 @@
 title: Predictive CLTV Modeling
 excerpt: How lifesight predicts CLTV over various time hoirzones
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
