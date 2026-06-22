@@ -58,31 +58,29 @@ The frequency model captures two realities at once: customers transact at differ
 
 1. While active, a customer transacts as a Poisson process with an individual rate λ. Equivalently, the time between transactions is exponentially distributed:
 
-```latex
-f(t_j | t_{j-1}; \lambda) = \lambda \cdot e^{-\lambda (t_j - t_{j-1})}
-```
+![](https://files.readme.io/744ffd63ae1d0fcd1fdbf5c112bcbc482daa65d9cd08d2d24d9ed3a66bb6d063-Screenshot_2026-06-22_at_4.58.51_PM.png)
 
-Transaction rates differ across customers, with λ drawn from a Gamma distribution. Mixing a Poisson count process over a Gamma-distributed rate yields a Negative Binomial Distribution (NBD) for transaction counts across the population:
+2. Transaction rates differ across customers, with λ drawn from a Gamma distribution. Mixing a Poisson count process over a Gamma-distributed rate yields a Negative Binomial Distribution (NBD) for transaction counts across the population:
 
-g(λ; r, α) = (α^r · λ^(r−1) · e^(−αλ)) / Γ(r)
+![](https://files.readme.io/735fae25f1d182d41e3a8fa0ba0759f4b2a377e5b3aa8bf3715acdbea84ca966-Screenshot_2026-06-22_at_4.59.39_PM.png)
 
-After each transaction, a customer "drops out" (becomes permanently inactive) with probability p. The number of transactions before dropout is therefore geometrically distributed.
-Dropout probability differs across customers, with p drawn from a Beta distribution:
+3. After each transaction, a customer "drops out" (becomes permanently inactive) with probability p. The number of transactions before dropout is therefore geometrically distributed.
+4. Dropout probability differs across customers, with p drawn from a Beta distribution:
 
-f(p; a, b) = p^(a−1) · (1 − p)^(b−1) / B(a, b)
+![](https://files.readme.io/817b88df683606c7b8f0c63c4feb461d679ec94ea2cc50280c5f44620f87017a-Screenshot_2026-06-22_at_5.00.11_PM.png)
 
 The transaction rate (λ) and dropout propensity (p) are treated as independent across customers. The population-level parameters — r, α (frequency heterogeneity) and a, b (dropout heterogeneity) — are estimated by maximum likelihood over all customers' RFM-T summaries.
 
 From the fitted model, two quantities matter most:
 
-P(alive): the probability a customer is still active given their recency and age. Intuitively, a customer who used to transact often but has been quiet for a long time relative to their age has a low P(alive); a recently active customer has a high one.
-Expected future transactions: the conditional expectation of the number of transactions a customer will make over a future interval of length t, given their observed frequency (x), recency (t\_x), and age (T):
+- P(alive): the probability a customer is still active given their recency and age. Intuitively, a customer who used to transact often but has been quiet for a long time relative to their age has a low P(alive); a recently active customer has a high one.
+- Expected future transactions: the conditional expectation of the number of transactions a customer will make over a future interval of length t, given their observed frequency (x), recency (t\_x), and age (T):
 
 E\[ Y(t) | x, t\_x, T ]
 
 This closed-form expectation weighs how often the customer has transacted against how likely they are to still be active. (Its full expression involves the Gaussian hypergeometric function; the practical takeaway is that frequent, recently-active customers receive high expected future counts, while frequent-but-lapsed customers are appropriately discounted.)
 
-Part 2 — Monetary value
+**Part 2 — Monetary value**
 
 A separate model predicts the average value of each future transaction. It rests on three assumptions:
 
@@ -92,78 +90,20 @@ The distribution of average transaction values across customers is independent o
 
 Concretely, individual transaction values are modeled as Gamma-distributed around a customer-specific mean, and that mean is itself Gamma-distributed across the population — a Gamma-Gamma structure. The expected average transaction value for a given customer is a credibility-weighted (shrinkage) blend of their own observed average and the population average:
 
-E\[ M | x, m\_x ] = w · m\_x + (1 − w) · (population average value)
-
-where  w = (p · x) / (p · x + q − 1)
+![](https://files.readme.io/4898a24e07d82ce35d69dc4f59226faab358a531e7f3eb7c74b55af5258f32e6-Screenshot_2026-06-22_at_5.02.53_PM.png)
 
 The weight w increases with the number of observed transactions (x). A customer with a long history is trusted mostly on their own average; a customer with few transactions is pulled toward the population mean. This prevents one unusually large or small early order from dominating the estimate.
 
 ⚠️ Validation requirement: The monetary model assumes transaction frequency and monetary value are uncorrelated. Before applying it, this independence is checked (e.g., via the correlation between frequency and average value). If a strong correlation exists, the monetary estimates must be treated with caution or segmented.
 
-<br />
-
-Combining into CLTV
+### Combining into CLTV
 
 Predicted CLTV over a horizon is the expected number of future transactions multiplied by the expected value per transaction, summed period-by-period over the horizon and discounted to present value:
 
-CLTV = Σ\_t  \[ E(transactions in period t | RFM-T) · E(M | x, m\_x) ] · (1 + d)^(−t)
+![](https://files.readme.io/e762022f43fc5cb9d938164268f437d71a781a9234ed36c72e339182f287b857-Screenshot_2026-06-22_at_5.09.40_PM.png)
 
 where d is the periodic discount rate and the sum runs across the chosen horizon (e.g., the 30/60/90/180-day windows aligned to value realization). The result is a per-customer expected value that can be aggregated to a cohort or population level.
 
-Data Requirements
-
-Data schema
-
-CLTV modeling is run on transaction-level (event-level) value data. The minimum required schema is:
-
-FieldTypeRequiredDescriptioncustomer\_idstringYesStable, unique identifier for the customer across all transactions. Must be consistent over time.transaction\_datedate / timestampYesDate of each value-generating event (order, renewal, purchase).transaction\_valuenumericYesMonetary value of that event — revenue or margin, used consistently.acquisition\_datedateOptionalFirst conversion date. Derivable as the minimum transaction\_date per customer if not supplied.acquisition\_channel / sourcestringOptionalChannel or source of acquisition, used when joining CLTV to channel-level economics.
-
-From this raw log, the model derives the per-customer frequency (x), recency (t\_x), age (T), and monetary value (m\_x) described above. The full event log is only needed up front; modeling itself runs on the summarized form.
-
-Data lookback
-
-The history window must be long enough to do two things at once:
-
-Observe repeat behavior well enough to estimate the frequency and dropout parameters. Models trained on too short a window cannot distinguish a slow-but-loyal customer from one who has lapsed.
-Cover the value-realization horizon. Because Step 2 value matures over up to 180 days, cohorts in the training data must be old enough to have passed through the 30/60/90/180-day windows being predicted.
-
-Practical guidance:
-
-Minimum \~12 months of transaction history; 18–24 months is preferred, especially where purchase cycles are long or seasonal.
-Acquisition cohorts used for the 180-day window must themselves be at least 180 days old, so their realized value can anchor and validate the predictions.
-A calibration / holdout split (train on an earlier period, validate predictions against a later observed period) is used to confirm the model is well-calibrated before its outputs feed optimization.
-
-How Predicted CLTV Adjusts iCAC / iCPA in the Platform
-
-CLTV models are run separately, at an aggregated level, producing the expected downstream value of an acquired customer (by realization horizon — 30/60/90/180 days). This predicted value is then adjusted against the channel-level Incremental CAC (iCAC) or Incremental CPA (iCPA) that Lifesight computes from incrementality.
-
-The logic is:
-
-iCAC / iCPA (from incrementality) answers: what did it truly cost to acquire one incremental customer through this channel?
-Aggregate predicted CLTV answers: what is that acquired customer expected to be worth over the realization horizon?
-
-Bringing the two together converts a purely acquisition-cost view into a value view:
-
-Predicted LTV : iCAC ratio   =  Aggregate Predicted CLTV (horizon H) / Channel iCAC
-Predicted net value per customer =  Aggregate Predicted CLTV (horizon H) − Channel iCAC
-
-This serves two purposes in the platform:
-
-Value-based guardrails and targets. The aggregate predicted CLTV sets the value envelope for acquisition. The platform can hold channels to an iCAC ceiling expressed as a fraction of predicted CLTV (e.g., maintain LTV:iCAC above a target), rather than a flat CAC target that ignores downstream value.
-Optimizing for realized value, not cheapest acquisition. Because predicted CLTV is available at the time of the daily decision — long before the value actually lands — channels can be scaled or pulled back based on expected long-term value. A channel with a slightly higher iCAC but acquisitions that mature into higher value can be correctly favored over a channel with cheap but low-value acquisitions.
-
-Worked example
-
-Assume the aggregate predicted 180-day CLTV per acquired customer is $220.
-
-ChannelIncremental SpendIncremental CustomersiCACPredicted Incremental LTVLTV : iCACNet Predicted ValueChannel A$40,000500$80500 × $220 = $110,0002.75$70,000Channel B$36,000300$120300 × $220 = $66,0001.83$30,000
-
-On raw acquisition economics the two channels look broadly comparable, but once iCAC is adjusted against predicted CLTV, Channel A is clearly the stronger source of long-term value per incremental dollar. The platform uses this CLTV-adjusted view to guide budget recommendations.
-
-📘 Note: Because CLTV is modeled at an aggregate level, the per-customer value applied across channels is the same unless CLTV is segmented by acquisition window or cohort. Where realization timing differs meaningfully across sources, CLTV can be computed per acquisition cohort/window and applied accordingly, sharpening the channel-level adjustment.
-
-<br />
-
-Summary
+### Summary
 
 Predictive CLTV lets Lifesight act on the value an acquired customer will generate rather than only the cost of acquiring them — essential wherever conversion happens in two steps, with value realized 30–180 days after acquisition. The approach models transaction frequency and dropout as latent probabilistic processes, models monetary value with a credibility-weighted shrinkage estimator, and combines them into a discounted, horizon-bounded value per customer. Run at an aggregate level and adjusted against channel-level iCAC / iCPA, predicted CLTV turns acquisition-cost optimization into long-term-value optimization.
