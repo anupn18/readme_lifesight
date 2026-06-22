@@ -15,7 +15,7 @@ next:
 Transformations in Marketing Mix Modeling takes 2 forms :
 
 1. Adstock Tranformations
-2. Saturation Transformations (Discussed <Anchor label="here" target="_blank" href="https://docs.lifesight.io/update/docs/marginal-roas-mroas#/">here</Anchor> )
+2. Saturation Transformations (Discussed <Anchor target="_blank" href="https://docs.lifesight.io/update/docs/marginal-roas-mroas#/">here</Anchor> )
 
 These transformations help us incorporate the non-linear nature of relationships - namely decay/lag in the effect and diminishing returns - between marketing variables and the outcome and also help us incorporate real world patterns of how marketing actually drive results into the model.
 
@@ -35,9 +35,9 @@ For example, when someone sees an ad on TV today, they might not make a purchase
 
 Understanding adstock is crucial because it helps measure the **true impact** of your advertising campaigns. Without adstock, marketing models would only capture the immediate effects of ads, ignoring the longer-term influence. By accounting for adstock, you can:
 
-* **Measure long-term ROI**: Capture delayed consumer responses.
-* **Optimize media planning**: Understand how long the effects of your ads last.
-* **Improve budget allocation**: Invest more effectively in ads that have lasting impacts.
+- **Measure long-term ROI**: Capture delayed consumer responses.
+- **Optimize media planning**: Understand how long the effects of your ads last.
+- **Improve budget allocation**: Invest more effectively in ads that have lasting impacts.
 
 In marketing analytics, especially in **Marketing Mix Modeling (MMM)**, adstock is used to measure both the **short-term** and **long-term** effects of advertising across different media channels.
 
@@ -55,16 +55,16 @@ Adstock(t) = Advertising(t) + DecayRate * Adstock(t-1)
 
 Where:
 
-* **Adstock(t)** is the total advertising effect in period `t`.
-* **Advertising(t)** is the ad spend in period `t`.
-* **DecayRate** is a value between 0 and 1, representing the fraction of the previous period’s ad effect that carries over.
+- **Adstock(t)** is the total advertising effect in period `t`.
+- **Advertising(t)** is the ad spend in period `t`.
+- **DecayRate** is a value between 0 and 1, representing the fraction of the previous period’s ad effect that carries over.
 
 ### Example:
 
 Let’s say you spend $1000 on advertising in Week 1, and the **decay rate** is 0.7 (70% of the effect carries over to the next week). In this case:
 
-* **Week 1**: $1000 (full effect from Week 1).
-* **Week 2**: $700 (70% of Week 1’s effect carries over).
+- **Week 1**: $1000 (full effect from Week 1).
+- **Week 2**: $700 (70% of Week 1’s effect carries over).
 
 This approach allows you to measure not just the immediate effects of advertising but also the residual impact on future periods.
 
@@ -99,20 +99,20 @@ Where **DecayRate** is a constant value between 0 and 1. A higher decay rate (e.
 
 If you spend $1000 on ads in Week 1 and the decay rate is 0.5 (50% of the ad effect carries over to the next week):
 
-* **Week 1**: $1000 (full ad effect).
-* **Week 2**: $500 (50% of Week 1’s effect).
-* **Week 3**: $250 (50% of Week 2’s effect), and so on.
+- **Week 1**: $1000 (full ad effect).
+- **Week 2**: $500 (50% of Week 1’s effect).
+- **Week 3**: $250 (50% of Week 2’s effect), and so on.
 
 #### Key Characteristics:
 
-* **Simplicity**: Only requires one parameter—the decay rate—making it easy to implement.
-* **Constant Decay**: Assumes that the ad effect decays at the same rate each period, which is suitable for channels where ads have short-term impacts.
+- **Simplicity**: Only requires one parameter—the decay rate—making it easy to implement.
+- **Constant Decay**: Assumes that the ad effect decays at the same rate each period, which is suitable for channels where ads have short-term impacts.
 
 #### Best Use Cases:
 
-* **Digital media**: Search ads, display ads, or social media campaigns where consumers respond quickly.
-* **Frequent, short-term campaigns**: Works well when the goal is to drive immediate consumer action.
-* <br />
+- **Digital media**: Search ads, display ads, or social media campaigns where consumers respond quickly.
+- **Frequent, short-term campaigns**: Works well when the goal is to drive immediate consumer action.
+-
 
 ### 2. Weibull PDF Adstock (Probability Density Function)
 
@@ -130,26 +130,26 @@ Adstock(t) = Advertising(t) + WeibullPDF(t)
 
 Where:
 
-* **Shape**: Determines whether the ad effect decays immediately or peaks after a delay.
-* **Scale**: Determines the rate at which the ad effect decays after peaking.
+- **Shape**: Determines whether the ad effect decays immediately or peaks after a delay.
+- **Scale**: Determines the rate at which the ad effect decays after peaking.
 
 #### Example:
 
 Consider a TV ad for a high-value product. The shape parameter allows for a delayed peak in consumer response:
 
-* **Week 1**: The ad is shown, but immediate consumer response is low.
-* **Weeks 2-3**: The effect peaks as consumers begin considering the product.
-* **Weeks 4 onwards**: The ad effect gradually decays as fewer consumers recall the ad.
+- **Week 1**: The ad is shown, but immediate consumer response is low.
+- **Weeks 2-3**: The effect peaks as consumers begin considering the product.
+- **Weeks 4 onwards**: The ad effect gradually decays as fewer consumers recall the ad.
 
 #### Key Characteristics:
 
-* **Lagged Effect**: Allows the ad effect to increase after a delay, which is ideal for high-value or high-consideration products.
-* **Flexible Decay**: Offers more control over how the ad effect decays, making it suitable for offline media.
+- **Lagged Effect**: Allows the ad effect to increase after a delay, which is ideal for high-value or high-consideration products.
+- **Flexible Decay**: Offers more control over how the ad effect decays, making it suitable for offline media.
 
 #### Best Use Cases:
 
-* **High-consideration products**: Cars, appliances, or services where consumers take time before making a decision.
-* **Offline media**: TV, radio, or print campaigns where immediate consumer action is not expected.
+- **High-consideration products**: Cars, appliances, or services where consumers take time before making a decision.
+- **Offline media**: TV, radio, or print campaigns where immediate consumer action is not expected.
 
 ***
 
@@ -157,8 +157,36 @@ Consider a TV ad for a high-value product. The shape parameter allows for a dela
 
 The choice of adstock model depends on the nature of your advertising campaign and the media channel you're using:
 
-* **Geometric Adstock**: Best for **digital channels** (search, display, social media) where the consumer response is quick and predictable.
-* **Weibull PDF Adstock**: Best for **high-consideration purchases** (cars, electronics) or **offline media** (TV, radio) where consumer action might be delayed.
+- **Geometric Adstock**: Best for **digital channels** (search, display, social media) where the consumer response is quick and predictable.
+- **Weibull PDF Adstock**: Best for **high-consideration purchases** (cars, electronics) or **offline media** (TV, radio) where consumer action might be delayed.
+
+***
+
+## How Lifesight Generates Weak Priors for Adstock
+
+As noted earlier, Lifesight treats adstock transformations as weakly informative priors: rather than fixing a single decay rate or lag, we hand the model a plausible range to search within, and let the evolutionary tuning find the best fit inside that range. The question is how to set that range sensibly in the first place. Lifesight uses two data-driven, time-series techniques to propose it - the cross-correlation function (CCF) and Granger causality - which together suggest the plausible window in which a channel's decay and lag are likely to lie.
+
+**The Cross-Correlation Function (CCF)**
+
+The cross-correlation function measures how strongly two time series - here, a channel's spend and the outcome, such as sales - move together at a range of time lags. Ordinary correlation compares the two series at the same point in time. CCF goes further: it slides one series forward and backward in time and recomputes the correlation at each shift, or "lag", producing a correlation value at lag 0 (same week), lag 1 (spend leading sales by a week), lag 2, and so on.
+
+The lag at which that correlation peaks is a strong hint about how long a channel takes to have its effect and how far the effect carries. A channel whose correlation with sales peaks at lag 0 and fades quickly suggests fast decay and little lag - a candidate for geometric adstock with a low decay rate. One whose correlation peaks two or three weeks out suggests a delayed, lingering effect - a candidate for a Weibull shape with a lagged peak. Read across all the lags, the shape of the CCF sketches the plausible decay-and-lag window for that channel.
+
+**Granger Causality**
+
+Correlation across lags tells you the two series move together; it does not tell you that spend actually helps predict sales. Granger causality adds that directional, predictive test. A variable X is said to "Granger-cause" Y if the past values of X improve the prediction of Y beyond what Y's own past already explains. In practice, you compare two forecasts of sales: one using only the history of sales, and one using the history of sales plus the history of the channel's spend. If adding the spend history meaningfully improves the prediction, the channel Granger-causes sales, and the lags at which it does so indicate the time horizon over which the channel's effect operates.
+
+> 📘 Granger causality is a test of predictive precedence, not of true causation. It shows that one series helps forecast another - suggestive evidence of an effect, not proof of one. That is exactly why it is used here to shape weak priors, while incrementality experiments and the causal structure do the heavy causal lifting elsewhere.
+>
+>
+
+**From signals to a plausible range**
+
+Used together, CCF and Granger causality propose a data-driven plausible range for each channel's adstock - roughly, how quickly its effect decays and whether, and by how long, its peak is delayed. This range becomes the weakly informative prior that constrains the model's search: wide enough to let the data speak, narrow enough to keep the evolutionary tuning from wandering into implausible decay shapes.
+
+**Validate the algorithmic priors**
+
+These methods are data-driven, but they are not the last word. Thin, noisy, and correlated marketing data can produce CCF peaks and Granger results that are statistical artifacts rather than real media dynamics - a channel that merely moves with seasonality can look as though it leads sales. So while these algorithmic methods generate useful candidate priors, it is advisable to scrutinize them through a measurement-strategy and marketing-validation lens: do the implied decay and lag make sense for this channel and this buying cycle? Would a high-consideration, offline channel really show the near-instant decay the CCF suggests, or is that an artifact? The algorithmic priors are a starting point - domain knowledge, measurement strategy, and where possible incrementality experiments confirm or correct them before they constrain the model.
 
 ***
 
