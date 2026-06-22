@@ -43,8 +43,10 @@ View Through Attribution (VTA) in Lifesight helps you understand the impact of a
 
 ### Key Considerations:
 
-* **Total Clicks**: These are derived solely from the ad channel reported data.
-* **Direct Visits**: These are identified via `utm_source` tracking and play a role in balancing attribution.
-* **Channel Affinity**: This is calculated for each visitor based on their historical interactions with various channels. This ensures that impressions are assigned logically, making sense for each unique visitor journey.
+- **Total Clicks**: These are derived solely from the ad channel reported data.
+- **Direct Visits**: These are identified via `utm_source` tracking and play a role in balancing attribution.
+- **Channel Affinity**: This is calculated for each visitor based on their historical interactions with various channels. This ensures that impressions are assigned logically, making sense for each unique visitor journey.
+
+> 📘 Lifesight's impression based attribution is modelled - we collect deterministic and consented click based traffic along with organic and search traffic and we model for view through attribution. Impression logs from ad platforms are not consent aware - hence we have consciously chosen not to use impression logs into our attribution system.  Lifesight's click based attribution, however, is consent aware. Our SDK first reads the consent string in your browser data layer before firing our apis
 
 By combining these elements, Lifesight ensures a well-rounded view of how impressions from various channels might have contributed to visits/conversions, even when no direct clicks are involved.
