@@ -82,7 +82,7 @@ Coming soon: we will make these interaction assumptions transparent in the UI, s
 
 > 📘 Mediation and interaction are related but distinct. Mediation is about a channel's effect travelling through another channel (and being credited correctly); interaction is about two channels not being independent, so the presence of one changes the effect of the other.
 
-## Understanding Interaction Effects in Marketing Mix Modeling
+### Understanding interaction effects in marketing
 
 In the dynamic world of e-commerce, accurately attributing sales and key performance indicators (KPIs) to specific marketing activities is essential for optimizing strategies and maximizing return on investment (ROI). Marketing Mix Modeling (MMM) serves as a crucial analytical tool in this process, enabling businesses to quantify the impact of various marketing channels. However, one sophisticated concept that plays a significant role in MMM is interaction effects. This article explores what interaction effects are, their importance in MMM, real-world examples, and how Lifesight’s Unified Marketing Measurement Platform effectively manages these effects to ensure precise and actionable insights.
 
