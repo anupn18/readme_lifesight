@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-Advanced Modeling Scenarios
+### Advanced Modeling Scenarios
 
 Beyond a single national marketing-mix model, Lifesight supports a set of advanced modeling scenarios for when the business question needs more structure - more granularity, multiple geographies or products, relationships between channels, effects that move over time, or a cleaner separation of marketing from baseline demand.
 
@@ -36,24 +36,33 @@ Granular models exist to generate granular MMM insights at the campaign or sub-c
 
 Lifesight's causal attribution automates granular modeling to campaign and ad set leve. This is covered in more details [here](https://docs.lifesight.io/docs/causal-attribution)
 
+***
+
+### Hierarchical Models
+
+A brand may want to run models across multiple geographies, product levels, customer segments, sales channels and more. Lifesight supports hierarchical modeling across multiple dimensions.
+
+To have an approach that's generalisable across multiple types of dimensions, we have a practice of running models at separate levels , i.e, we run separate models across these dimensions and then aggregate them into a single master model.
+
+<br />Users can work with the models in two ways:
+
+1. use an individual model for planning and optimization of a specific geo or product, or
+2. use the national or brand-level master model for overall optimization.
+
+This additive approach - running separate models per slice of the dimension and aggregating them into a master - is deliberately different from the partial-pooling (multilevel) approach often associated with hierarchical models, and it carries several practical benefits:
+
+- Generalizable across any dimension. The same approach works whether the dimension is geography, product, sales channel, or any other slice of the business - it is not tied to a particular kind of grouping.
+- No limiting assumptions of partial pooling. Partial pooling shrinks every unit's estimate toward a shared mean and assumes the units are exchangeable "siblings from one family". The additive approach makes no such assumption, so it does not flatten the genuine differences between slices or contaminate them by pooling units that are not truly comparable.
+- Calibratable with strong priors. Each model can be anchored with strong, objective priors - ideally informed by incrementality experiments - through calibration.
+- Common or separate weak priors. The adstock and saturation weak priors can be shared across slices where that makes sense, or set separately where a slice behaves differently.
+- Different causal structure per slice. Each slice can carry its own DAG structure, so a geography or product with genuinely different dynamics is modeled on its own causal map rather than forced onto a single shared one.
+- Planning at parent or child level. The same setup supports optimization at the aggregated parent level (the master model) and at the individual child level (each slice's own model).
+
 <br />
 
-Hierarchical Models
+***
 
-A brand may want to run models across multiple geographies or product levels.
-
-Lifesight supports hierarchical modeling across one dimension.
-The approach is to run separate models across that dimension and then aggregate them into a single master model.
-Users can work with the models in two ways:
-
-use an individual model for planning and optimization of a specific geo or product, or
-use the national or brand-level master model for overall optimization.
-
-<br />
-
-<br />
-
-Mediation Effects
+### Mediation Effects
 
 Some channels do not act on sales directly - they act through another channel. Upper-funnel prospecting lifts branded search, which then converts; television drives site visits that fill the retargeting pools that later convert. The upstream channel is the prime mover, but the downstream channel is where the conversion is recorded.
 
@@ -61,7 +70,9 @@ If a model naively controls for that downstream "mediator", it hands the upstrea
 
 Mediation analysis is also how Lifesight captures longer-term effects. As noted on the Adstock page, adstock-ed modeling captures the short-term impact of advertising; the longer-term impact, where brand-building activity feeds future demand and the baseline, is captured through mediation analysis.
 
-Interaction Effects
+***
+
+### Interaction Effects
 
 A standard regression assumes its input variables are independent - that each channel contributes its own slice of the outcome without disturbing the others. In a real marketing system that assumption is often violated, and Lifesight uses nested models to capture the resulting interaction effects.
 
