@@ -2,7 +2,7 @@
 title: Interaction Effect
 excerpt: Understand how interaction effects are measured in marketing mix modeling
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
