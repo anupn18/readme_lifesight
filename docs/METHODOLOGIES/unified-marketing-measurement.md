@@ -8,7 +8,7 @@ metadata:
 ---
 Unified Marketing Measurement (UMM) is the practice of running Marketing Mix Modeling, Incrementality Testing, and Causal Attribution together as one orchestrated system - on a single data foundation - so that each method strengthens the others, rather than treating any one of them as a complete answer on its own.
 
-For two decades, marketing measurement has been sold as a destination: the one model, the one platform, the one number that finally settles what your spending is worth. That number does not exist - not because the math is immature, but because the underlying problem (inferring the causal, incremental value of marketing from incomplete data about human behavior) has no single exact answer that holds across time and context, only a distribution of plausible ones. A method that claims to have abolished that uncertainty has not solved the problem; it has hidden it.
+For decades, marketing measurement has been sold as a destination: the one model, the one platform, the one number that finally settles what your spending is worth. That number does not exist - not because the math is immature, but because the underlying problem (inferring the causal, incremental value of marketing from incomplete data about human behavior) has no single exact answer that holds across time and context, only a distribution of plausible ones. A method that claims to have abolished that uncertainty has not solved the problem; it has hidden it.
 
 UMM starts from the opposite premise: several imperfect reads, each with a different blind spot, arranged so they keep one another honest.
 
@@ -52,7 +52,7 @@ This is the shared purpose that unites all three methods: each is, at bottom, a 
 
 ### Why the methods disagree - and why that is expected
 
-The most common reason measurement programs lose credibility is a misunderstanding. A fresh experiment reports that a channel is driving 3x right now. The marketing mix model insists it is worth 1.9x. The room concludes that one of them must be broken.
+The most common reason measurement programs lose credibility is a misunderstanding. A fresh experiment reports that a channel is driving 1.9x right now. The marketing mix model insists it is worth 2.9x. The room concludes that one of them must be broken.
 
 Neither is broken. A regression coefficient is an average over the whole estimation window - true overall and rarely true at any single moment, like a road trip that averaged 50 mph while touching that speed for only seconds. An experiment measures a single point on that same moving curve: its value today. The model reports the multi-year average; the experiment reports the present moment. Of course they differ.
 
