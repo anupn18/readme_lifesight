@@ -94,7 +94,9 @@ This is closely tied to adaptive refresh, which operationalizes time-varying beh
 
 ***
 
-### Baseline Modeling
+###
+
+Baseline Modeling
 
 Not all of next quarter's revenue comes from the marketing you are measuring. The baseline is the demand that would arrive even if you went dark: the intercept, the trend, seasonality, and the slow-moving stream of organic, returning-customer, word-of-mouth, and brand-equity demand.
 
@@ -102,4 +104,14 @@ For most established businesses, the baseline is large - it typically accounts f
 Because it is the bigger number, getting the baseline trajectory right matters as much as getting any single channel's coefficient right. A model that nails a channel's effect but mis-models the baseline will miss the total.
 Lifesight models the baseline explicitly (trend, seasonality, and brand equity) and projects it with a baseline-aware ensemble forecasting engine, disciplined by the causal model so the forecast never implies returns the saturation curves rule out.
 
+To quantify the baseline, Lifesight decomposes the revenue or outcome into seasonality and trend. Seasonality captures the repeating part of the business - the patterns that recur week to week or season to season - while trend quantifies the cumulative part, the slow-moving direction the business is heading in. For this decomposition we use Fourier decomposition or Prophet decomposition. These are made part of the modeling itself, and their output is what quantifies the baseline.
+
 Baseline modeling also connects back to mediation: a meaningful part of the baseline is the long shadow of past upper-funnel and brand investment, which is why brand-building effort shows up over time as stronger organic demand rather than as an immediate, directly attributed conversion.
+
+Long-Term Effect Estimation
+
+Long-term effect estimation brings together mediation analysis and baseline modeling to understand how top-of-funnel (TOF) activity supports the slow-moving trend component of the baseline.
+
+This is a default assumption in the DAG: TOF investment is modeled as feeding the trend rather than only the immediate conversion. The indirect effect captured through this path lets Lifesight quantify how much of the change in trend is supported by TOF investments - in other words, how much of the baseline's upward (or downward) drift is actually the long shadow of upper-funnel spend.
+
+Beyond this, Lifesight further decomposes the trend into brand momentum and category momentum. For this we use share of search as a proxy, which makes it possible to understand how the brand and the category are growing both in absolute terms and relative to each other. Separating the two answers a question MMM usually cannot: how much of the trend is a rising tide lifting the whole category, and how much is the brand genuinely gaining ground within it.
