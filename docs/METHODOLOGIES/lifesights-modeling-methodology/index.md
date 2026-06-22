@@ -81,11 +81,12 @@ Not all MMM is created equal. The classic version - a once-a-year econometrics r
 
 3. **Marketing Mix, not Media Mix.&#x20;**&#x41; model fit on paid media alone hands the credit for pricing, promotions, seasonality, and competitive moves to whatever channel moved alongside them. Modern MMM captures the full set of growth levers - paid, owned, and earned media, plus price, promotion, distribution, brand equity, macro conditions, and seasonality - and models each with the right treatment, including carryover (adstock) for effects that linger and saturation curves for diminishing returns.
 
-4. **Rooted in causal interpretability.&#x20;**&#x41; modern MMM is built causal-first: it commits to a structure - a map of the data-generating process - before fitting, so it respects how variables drive one another. Three ideas are built in:
+4. **Rooted in causal interpretability.&#x20;**&#x41; modern MMM is built causal-first: it commits to a structure - a map of the data-generating process - before fitting, so it respects how variables drive one another.
 
-Mediation : upper-funnel channels keep the downstream credit they earn (prospecting lifts branded search; TV feeds retargeting) instead of having it stripped by the channels they feed.
-Interaction and confounding : shared drivers like seasonality are controlled for explicitly, not mistaken for a channel's efficiency.
-Robust forecasting : a baseline-aware ensemble of forecasters extrapolates trend and seasonality, fenced in by the causal model so it never forecasts returns the saturation curves rule out.
+   <br />**Three ideas are built in**
+   1. Mediation : upper-funnel channels keep the downstream credit they earn (prospecting lifts branded search; TV feeds retargeting) instead of having it stripped by the channels they feed.
+   2. Interaction and confounding : shared drivers like seasonality are controlled for explicitly, not mistaken for a channel's efficiency.
+   3. Robust forecasting : a baseline-aware ensemble of forecasters extrapolates trend and seasonality, fenced in by the causal model so it never forecasts returns the saturation curves rule out.
 
 5. **Calibratable with incrementality experiments.&#x20;**&#x4F;n thin data, many model shapes fit the past equally well while implying very different futures. Incrementality experiments are the causal anchor: a modern MMM accepts their results into its next refresh, moving toward the experimental truth without being overwritten by it. This is the virtuous cycle - the model proposes the tests worth running, the tests calibrate the model, and each turn makes both sharper.
 
