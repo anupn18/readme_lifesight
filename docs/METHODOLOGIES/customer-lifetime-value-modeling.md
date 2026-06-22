@@ -1,6 +1,6 @@
 ---
 title: Predictive CLTV Modeling
-excerpt: How lifesight predicts CLTV over various time hoirzones
+excerpt: How lifesight predicts CLTV over various time horizons
 deprecated: false
 hidden: false
 metadata:
