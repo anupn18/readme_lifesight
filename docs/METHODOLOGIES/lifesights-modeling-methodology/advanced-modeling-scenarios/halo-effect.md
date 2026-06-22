@@ -2,7 +2,7 @@
 title: Halo Effect
 excerpt: Understand how halo effects are measured in marketing mix modeling
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
