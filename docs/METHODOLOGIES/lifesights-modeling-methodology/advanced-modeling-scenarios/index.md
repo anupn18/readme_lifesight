@@ -70,7 +70,7 @@ If a model naively controls for that downstream "mediator", it hands the upstrea
 
 Mediation analysis is also how Lifesight captures longer-term effects. As noted on the Adstock page, adstock-ed modeling captures the short-term impact of advertising; the longer-term impact, where brand-building activity feeds future demand and the baseline, is captured through mediation analysis.
 
-***
+Details of back-propogation of credits to direct/indirect effects is captured [here](https://docs.lifesight.io/docs/backpropogation-effect-adjustments)&#x20;
 
 ### Interaction Effects
 
@@ -80,13 +80,11 @@ Today, nested models are built on one key assumption: bottom-of-funnel (BOF) inv
 If you want to capture other interactions beyond TOF influencing BOF, you can let our marketing scientists know and we will incorporate it into the model.
 Coming soon: we will make these interaction assumptions transparent in the UI, so users can review and update these "relationships" while the model is being built.
 
-<br />
+> 📘 Mediation and interaction are related but distinct. Mediation is about a channel's effect travelling through another channel (and being credited correctly); interaction is about two channels not being independent, so the presence of one changes the effect of the other.
 
-📘 Mediation and interaction are related but distinct. Mediation is about a channel's effect travelling through another channel (and being credited correctly); interaction is about two channels not being independent, so the presence of one changes the effect of the other.
+***
 
-<br />
-
-Time-Varying Coefficients
+### Time-Varying Coefficients
 
 A single coefficient is an average over the whole estimation window, but a channel's true effectiveness is a moving curve - it rises as a creative catches on, decays as audiences tire, spikes with seasonality, and bends as the channel saturates.
 
@@ -94,7 +92,9 @@ Time-varying coefficients let an effect evolve over time rather than being froze
 
 This is closely tied to adaptive refresh, which operationalizes time-varying behavior at a weekly cadence by adding time-varying adjustments to the coefficients as new data arrives.
 
-Baseline Modeling
+***
+
+### Baseline Modeling
 
 Not all of next quarter's revenue comes from the marketing you are measuring. The baseline is the demand that would arrive even if you went dark: the intercept, the trend, seasonality, and the slow-moving stream of organic, returning-customer, word-of-mouth, and brand-equity demand.
 
