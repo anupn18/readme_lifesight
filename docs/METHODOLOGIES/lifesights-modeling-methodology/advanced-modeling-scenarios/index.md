@@ -80,7 +80,9 @@ Today, nested models are built on one key assumption: bottom-of-funnel (BOF) inv
 If you want to capture other interactions beyond TOF influencing BOF, you can let our marketing scientists know and we will incorporate it into the model.
 Coming soon: we will make these interaction assumptions transparent in the UI, so users can review and update these "relationships" while the model is being built.
 
-> 📘 Mediation and interaction are related but distinct. Mediation is about a channel's effect travelling through another channel (and being credited correctly); interaction is about two channels not being independent, so the presence of one changes the effect of the other.
+<Callout icon="📘" theme="info">
+  ### Mediation and interaction are related but distinct. Mediation is about a channel's effect travelling through another channel (and being credited correctly); interaction is about two channels not being independent, so the presence of one changes the effect of the other.
+</Callout>
 
 ### Understanding interaction effects in marketing
 
@@ -134,9 +136,7 @@ This is closely tied to adaptive refresh, which operationalizes time-varying beh
 
 ***
 
-###
-
-Baseline Modeling
+### Baseline Modeling
 
 Not all of next quarter's revenue comes from the marketing you are measuring. The baseline is the demand that would arrive even if you went dark: the intercept, the trend, seasonality, and the slow-moving stream of organic, returning-customer, word-of-mouth, and brand-equity demand.
 
@@ -148,7 +148,7 @@ To quantify the baseline, Lifesight decomposes the revenue or outcome into seaso
 
 Baseline modeling also connects back to mediation: a meaningful part of the baseline is the long shadow of past upper-funnel and brand investment, which is why brand-building effort shows up over time as stronger organic demand rather than as an immediate, directly attributed conversion.
 
-Long-Term Effect Estimation
+### Long-Term Effect Estimation
 
 Long-term effect estimation brings together mediation analysis and baseline modeling to understand how top-of-funnel (TOF) activity supports the slow-moving trend component of the baseline.
 
