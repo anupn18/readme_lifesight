@@ -41,6 +41,10 @@ Reading the two together is the core skill. It helps to picture them as a grid:
 
 ## The Four States
 
+![](https://files.readme.io/6532ed403f638cbdfb81f13857d35c73411e6df228ee6ad4a2995234e10e508d-Creative-Intelligence-signal-strip.png)
+
+<br />
+
 Your creatives are grouped into four states so you can see where to focus.
 
 - **Winners** are strong on both clicks and conversions, with enough spend and time live to be sure. These are your proven creatives and candidates to put more budget behind.
@@ -105,6 +109,10 @@ If none of the above clearly applies, a creative is marked Under review. This is
 ## The metrics on a card
 
 Each creative card shows the numbers behind its scores and signal.
+
+![](https://files.readme.io/c86c2f1ed42f789ea79b2d1b33ea0cf5c5b69a7d4ec814e55c18015b6e67b3ca-Creative-Intelligence-dashboard.png)
+
+<br />
 
 - **CTR (click-through rate).** How often people click after seeing the creative. Higher means more compelling.
 - **CVR (conversion rate).&#x20;**&#x48;ow often a click leads to a conversion. Higher means the clicks are well qualified.
