@@ -1,10 +1,9 @@
 ---
 title: Creative Intelligence
 excerpt: >-
-  Creative Intelligence helps you understand how each of your creatives is
-  performing and what to do about it. It looks at every creative running on a
-  connected platform, compares it fairly against similar creatives, and gives
-  each one a clear read: how it is doing, why, and a suggested next step.
+  Creative Intelligence turns your creative data into data-driven decisions
+  spotting fatigue early and telling you what to do next to protect your ad
+  spend.
 deprecated: false
 hidden: true
 metadata:
