@@ -27,9 +27,15 @@ metadata:
    4. **GCS Credential (JSON File):&#x20;**&#x41; service account key with permission to read the file. You can either upload the JSON file or paste the JSON content directly into the field.
    5. **Key Prefix:&#x20;**&#x54;he path to the file inside the bucket, meaning everything after the bucket name.
 5. **Understanding Bucket Name and Key Prefix:&#x20;**
-   1. A GCS path is made up of two parts: the bucket name and the key prefix.<br /><br />**Example 1: file at the root of the bucket**<br />`gs://lifesight-test/sample_dooh-adlog.csv`<br /><br />**Bucket Name:** `lifesight-test`**Key Prefix:** `sample_dooh-adlog.csv`
+   1. A GCS path is made up of two parts: the bucket name and the key prefix.<br /><br />**Example 1: file at the root of the bucket**<br />`gs://lifesight-test/sample_dooh-adlog.csv`<br /><br />**Bucket Name:** `lifesight-test`
 
-      <br />**Example 2: file inside a folder**<br />`gs://lifesight-test/adlog/sample_dooh.csv`<br />**Bucket Name:** `lifesight-test`**Key Prefix:&#x20;**`adlog/sample_dooh.csv`
+      **Key Prefix:** `sample_dooh-adlog.csv`
+
+      <br />**Example 2: file inside a folder**<br />`gs://lifesight-test/adlog/sample_dooh.csv`<br />
+
+      **Bucket Name:** `lifesight-test`
+
+      **Key Prefix:&#x20;**`adlog/sample_dooh.csv`
 
       <Callout icon="📘" theme="info">
         The bucket name stays the same in both cases. The key prefix includes any folder path, so when the file sits inside a folder you must include the folder name in the key prefix.
