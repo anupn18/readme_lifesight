@@ -40,7 +40,7 @@ metadata:
       <Callout icon="📘" theme="info">
         The bucket name stays the same in both cases. The key prefix includes any folder path, so when the file sits inside a folder you must include the folder name in the key prefix.
       </Callout>
-6. **Required columns:&#x20;**&#x59;our CSV must contain all of the following columns, spelled exactly as shown. If any column is missing or named differently, the import will fail.<br />
+6. **Required columns:&#x20;**&#x54;he csv file in the GCS path you provided must contain all of the following columns, spelled exactly as shown. If any column is missing or named differently, the import will fail.<br />
 
    | Column Name            |
    | ---------------------- |
