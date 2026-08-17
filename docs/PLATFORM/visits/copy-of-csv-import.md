@@ -1,40 +1,43 @@
 ---
-title: Copy of CSV Import
+title: Google Cloud Storage Integration
 deprecated: false
 hidden: true
 metadata:
   robots: index
 ---
-### Uploading a new AdLog file:
+### Uploading a new AdLog file through Google Cloud Storage:
 
 1. Click Data in the navbar.
-2. Click the **Import CSV** connector card.&#x20;
+2. Click the **Google Cloud Storage** connector card.&#x20;
 
-   <Callout icon="📘" theme="info">
-     <br />This is a generic CSV importer used for both the Visits use case and other use cases on the platform.
-   </Callout>
+![](https://files.readme.io/e428515f757a748d5fb272eab941ebd33501aaa39e399dede8d47507406b0815-image.png)
 
-![](https://files.readme.io/ff3cb33e413be063d23c3fb7556557bb997995ef079c0d9bc26ab378a01895e1-image.png)
+3. You are taken to the list of imported GCS files (Empty list if this is the first upload). Click **Add new Integration** to upload a new GCS file.
 
-3. What happens next depends on whether the workspace already has CSVs:
-   1. **First CSV upload:&#x20;**&#x49;f no CSV has been uploaded yet (Visits or otherwise), the upload popup opens directly.
-   2. **CSVs already uploaded:&#x20;**&#x59;ou are taken to the list of imported CSVs. Click Add CSV to open the same popup.
-
-**List of uploaded CSVs:**
-
-![](https://files.readme.io/4cb78b33aa2bedd9ff1588c8cb7dc22345c0d89de0e7269adf701c5922feb359-image.png)
+![](https://files.readme.io/7bc860f3e3a9dc14e21f93780b609528f6e72e95aa081b0ca0b5a58ae1584dd4-image.png)
 
 <br />
 
-**Modal for CSV ingestion:**
+**GCS credential modal:**
 
-![](https://files.readme.io/18ea261802d5c4e4ca83c3596b578f83e438d72bd470f873058d162aec7b0002-image.png)
+![](https://files.readme.io/ba4a7a2adb571bb3a373966353ea65cb57c8381afac95471101914a73b740931-image.png)
 
-<br />
+4. **Details Required:**
+   1. **Data Source Name:&#x20;**&#x44;ata Source Name must not contain spaces. Valid characters are `A-Z, a-z, 0-9 and underscore (_)`&#x20;
+   2. **Bucket Region:&#x20;**&#x54;he region your GCS bucket is hosted in.
+   3. **Bucket Name:&#x20;**&#x54;he name of the bucket, **without the gs\:// and key prefix.**
+   4. **GCS Credential (JSON File):&#x20;**&#x41; service account key with permission to read the file. You can either upload the JSON file or paste the JSON content directly into the field.
+   5. **Key Prefix:&#x20;**&#x54;he path to the file inside the bucket, meaning everything after the bucket name.
+5. **Understanding Bucket Name and Key Prefix:&#x20;**
+   1. A GCS path is made up of two parts: the bucket name and the key prefix.<br /><br />**Example 1: file at the root of the bucket**<br />`gs://lifesight-test/sample_dooh-adlog.csv`<br /><br />**Bucket Name:** `lifesight-test`**Key Prefix:** `sample_dooh-adlog.csv`
 
-4. **File naming:&#x20;**&#x46;ile names must not contain spaces. Valid characters are `A-Z, a-z, 0-9 and underscore (_)`&#x20;
-5. **Required columns:&#x20;**&#x59;our CSV must contain all of the following columns, spelled exactly as shown. If any column is missing or named differently, the import will fail.<br />
+      <br />**Example 2: file inside a folder**<br />`gs://lifesight-test/adlog/sample_dooh.csv`<br />**Bucket Name:** `lifesight-test`**Key Prefix:&#x20;**`adlog/sample_dooh.csv`
 
+
+      <Callout icon="📘" theme="info">
+        The bucket name stays the same in both cases. The key prefix includes any folder path, so when the file sits inside a folder you must include the folder name in the key prefix.
+      </Callout>
+6. **Required columns:&#x20;**&#x59;our CSV must contain all of the following columns, spelled exactly as shown. If any column is missing or named differently, the import will fail.<br />
 
    | Column Name            |
    | ---------------------- |
@@ -47,7 +50,7 @@ metadata:
    | ad_duration_in_seconds |
    | creative               |
    | lineid                 |
-6. **Mapping identifiers:&#x20;**
+7. **Mapping identifiers:&#x20;**
    1. Columns that match the expected names are mapped to the Lifesight schema automatically, and their status updates to Mapped.
    2. Optionally, enable the Primary toggle for the identifier you want to use as the primary key.
 
