@@ -10,7 +10,6 @@ metadata:
 1. Click Data in the navbar.
 2. Click the **Import CSV** connector card.&#x20;
 
-
    <Callout icon="📘" theme="info">
      <br />This is a generic CSV importer used for both the Visits use case and other use cases on the platform.
    </Callout>
