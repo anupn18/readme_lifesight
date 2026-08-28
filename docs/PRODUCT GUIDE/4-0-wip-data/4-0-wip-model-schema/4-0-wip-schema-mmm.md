@@ -5,9 +5,6 @@ excerpt: >-
   actually drove your results.
 hidden: false
 ---
-
-# Build a schema for Marketing Mix Modelling
-
 A mix model answers one question: of everything that happened last year, how much of the outcome did each thing cause. To answer it, the model needs to know what the outcome is, what you spent, and what else was going on that had nothing to do with your marketing.
 
 This schema is where you tell it. Get the third part wrong and the model will hand credit for your Black Friday promotion to whichever channel happened to be spending in November.
