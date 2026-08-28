@@ -5,9 +5,6 @@ excerpt: >-
   measurement as the rest of your media.
 hidden: false
 ---
-
-# Microsoft Ads
-
 Microsoft Advertising serves ads across Bing and the wider Microsoft Search and Audience Networks. It is usually a smaller line than Google, and it is frequently left out of measurement for that reason, which is a mistake. Its audience skews towards desktop, older, and higher income users, so it often converts at a cost per acquisition that would be worth more budget if anyone had checked.
 
 Connecting it means it gets measured on the same basis as everything else rather than being judged on platform reported numbers alone.
