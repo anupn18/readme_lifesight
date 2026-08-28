@@ -35,7 +35,24 @@ Repeat down the list. Watch the **spend mapped** percentage along the bottom rat
 
 Switch to **Ad Sets** when one campaign genuinely contains more than one tactic. This is most common on Meta, where prospecting and retargeting audiences frequently share a campaign.
 
-Tactics are assigned from the Campaigns view, and the ad set view inherits from it unless you deliberately override. Only drop down a level when the campaign really is doing two different jobs, because it is more work to maintain.
+The ad set is the unit a tactic really attaches to. A campaign owns several, and what you see in the Campaigns view is a roll-up of what its ad sets say. Assigning a tactic to a campaign assigns it to all of them.
+
+### Finding partially mapped campaigns
+
+Because ad sets are mapped individually, a campaign can end up half done. Four of its five ad sets carry a tactic and the fifth does not, usually because it was created after you last looked.
+
+This is the failure that costs you real money, and it is quiet. Nothing errors. The campaign does not look unmapped. The spend in that fifth ad set simply never reaches the model.
+
+The mapper keeps these states distinct rather than collapsing them:
+
+- **Fully mapped** and **Fully mapped, split** are both fine. Split just means the ad sets legitimately carry different tactics.
+- **Partially mapped** and **Partially mapped, split** are the ones to fix.
+
+Use the Tactic column's status filter to show the partial states, then open the Tactic cell on any campaign it returns. The breakdown tells you how many ad sets are mapped, to which tactics, and how much spend is sitting unclassified underneath.
+
+Doing this once a month catches the campaigns that quietly grew a new ad set.
+
+Only drop to ad set level deliberately, though. A campaign genuinely doing two jobs deserves the split. Splitting one that does not is extra maintenance for no gain.
 
 ## Choosing the tactics themselves
 
