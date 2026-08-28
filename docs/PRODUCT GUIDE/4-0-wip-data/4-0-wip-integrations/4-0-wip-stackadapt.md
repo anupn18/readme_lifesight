@@ -5,9 +5,6 @@ excerpt: >-
   display, video, CTV and audio spend into measurement.
 hidden: false
 ---
-
-# StackAdapt
-
 StackAdapt is a programmatic advertising platform that lets you plan and run campaigns across native, display, video, connected TV, audio, in-game and digital out of home, alongside email. Because it spans so many formats, its spend is easy to under measure: much of it is upper funnel activity that never produces a click you can follow.
 
 Connecting StackAdapt automates the ingestion of that programmatic data so you stop exporting reports by hand, and so those formats get modelled rather than ignored.
