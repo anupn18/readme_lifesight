@@ -5,9 +5,6 @@ excerpt: >-
   basis as your other channels.
 hidden: false
 ---
-
-# Snapchat Ads
-
 Snapchat reaches a predominantly Gen Z and Millennial audience through mobile first vertical video and augmented reality formats. It tends to drive attention and brand engagement rather than a click that closes immediately, which makes it exactly the sort of channel that looks weak in last click reporting and considerably stronger in a properly specified model.
 
 Connecting Snapchat means its contribution gets measured rather than assumed.
