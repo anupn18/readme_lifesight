@@ -5,9 +5,6 @@ excerpt: >-
   Max spend can be measured alongside everything else.
 hidden: false
 ---
-
-# Google Ads
-
 Google Ads reaches people at the moment they are looking for something, across Search, Shopping, YouTube, Display and Performance Max. For most advertisers it is both the largest line in the budget and the hardest to read honestly, because brand search takes credit for demand that already existed while prospecting campaigns do the work of creating it.
 
 Connecting Google Ads gives Lifesight the campaign level detail needed to separate those two, rather than treating Google as one undifferentiated block of spend.
