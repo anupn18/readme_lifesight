@@ -32,6 +32,28 @@ Two sub-tabs sit at the top. **Tactic mapper** is the working surface where camp
 
 Inside the mapper you can switch between **Campaigns** and **Ad Sets**. Campaign level is where most people work. Drop to ad set level when one campaign genuinely contains several tactics, which happens most often on Meta.
 
+### How campaigns and ad sets relate
+
+This is worth understanding properly, because it is the source of the most commonly missed problem in the whole tab.
+
+**The ad set is the atomic unit.** A tactic is really assigned to ad sets. A campaign owns several ad sets, and nothing forces them all onto the same tactic. What the Campaigns view shows you is therefore a roll-up of what its ad sets say.
+
+That gives a campaign five possible states.
+
+| State | What it means |
+| --- | --- |
+| **Unmapped** | None of its ad sets have a tactic. |
+| **Fully mapped** | Every ad set is mapped, all to the same tactic. The quiet common case. |
+| **Fully mapped, split** | Every ad set is mapped, but across two or more tactics. Perfectly valid. |
+| **Partially mapped** | Some ad sets are mapped and some are not, all to one tactic. |
+| **Partially mapped, split** | Some ad sets are mapped and some are not, across several tactics. |
+
+**The two partial states are the ones to hunt for.** A campaign with four of its five ad sets mapped looks broadly fine at a glance, and the spend in that fifth ad set silently never reaches the model. It is not reported as an error anywhere, because nothing has gone wrong technically. It is simply unclassified.
+
+Because the mapper states these separately, you can filter on them. Open the Tactic column's status filter and look for the partial states specifically. Doing that once a month catches the campaigns that grew a new ad set since you last looked.
+
+The Tactic cell on a partially mapped campaign also shows the breakdown, so you can see how many of its ad sets are mapped, to which tactics, and how much spend is sitting unmapped underneath.
+
 ### The columns
 
 | Column | What it tells you |
