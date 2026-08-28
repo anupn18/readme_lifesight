@@ -5,9 +5,6 @@ excerpt: >-
   way to cover most of your spend on day one.
 hidden: false
 ---
-
-# Assign tactics by hand
-
 Manual assignment is how most people start, and it is the right choice for the first pass and for the awkward long tail that no rule will ever catch cleanly.
 
 The goal is not to classify every campaign. It is to classify the campaigns that carry the money.
