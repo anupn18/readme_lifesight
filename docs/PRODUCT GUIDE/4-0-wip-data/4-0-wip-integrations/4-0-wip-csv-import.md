@@ -5,9 +5,6 @@ excerpt: >-
   connect to directly.
 hidden: false
 ---
-
-# CSV Import
-
 Not everything that drives your business sits in an ad platform. Offline retail sales, wholesale orders, a sponsorship deal invoiced quarterly, cost of goods maintained by finance, a partner who emails a spreadsheet every month. CSV import is how that data gets into Lifesight.
 
 It is worth taking seriously. In most measurement projects the missing piece is not another ad platform. It is the offline revenue, or the promotional calendar, or the price changes that explain why last November looked the way it did.
