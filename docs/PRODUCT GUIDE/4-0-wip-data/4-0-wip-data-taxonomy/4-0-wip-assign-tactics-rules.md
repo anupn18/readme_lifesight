@@ -5,9 +5,6 @@ excerpt: >-
   not exist yet, so your taxonomy maintains itself.
 hidden: false
 ---
-
-# Assign tactics automatically with rules
-
 Hand assignment does not survive contact with reality. New campaigns launch every week and each one arrives unclassified, so a taxonomy maintained purely by hand is out of date within a month.
 
 A rule watches for a pattern and assigns a tactic automatically. Crucially it applies to campaigns that do not exist yet, so tomorrow's launches are classified the moment they appear.
