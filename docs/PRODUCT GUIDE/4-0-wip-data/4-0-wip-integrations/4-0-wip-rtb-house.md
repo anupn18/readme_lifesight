@@ -5,9 +5,6 @@ excerpt: >-
   measurement.
 hidden: false
 ---
-
-# RTB House
-
 RTB House is a demand side platform specialising in personalised retargeting and brand awareness campaigns using deep learning bidding. Its campaigns typically run alongside your other display and programmatic activity, and they are frequently over credited by last click reporting because retargeting reaches people who were already close to buying.
 
 That is precisely the reason to measure it properly rather than trust the platform's own conversion count.
