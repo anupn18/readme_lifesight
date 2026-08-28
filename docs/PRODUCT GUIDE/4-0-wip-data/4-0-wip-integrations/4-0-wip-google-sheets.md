@@ -5,9 +5,6 @@ excerpt: >-
   Lifesight automatically.
 hidden: false
 ---
-
-# Google Sheets
-
 A surprising amount of important data lives in a spreadsheet somebody maintains. Cost of goods by product. The promotional calendar. Spend on a channel too small to have a connector. Offline sales typed up from weekly reports.
 
 Linking a Google Sheet means Lifesight re-reads it on a schedule, so that data stays current without anyone remembering to export and upload it. It is the right choice whenever the numbers keep changing.
