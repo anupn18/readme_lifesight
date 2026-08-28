@@ -5,9 +5,6 @@ excerpt: >-
   on whether the data is still arriving.
 hidden: false
 ---
-
-# Integrations
-
 An integration is a standing permission for Lifesight to read data from somewhere else on your behalf. You set it up once. After that Lifesight pulls fresh data on a schedule, so your reports and models keep up without anyone exporting a CSV every Monday.
 
 This tab does two jobs. It is where you add new sources, and it is where you check that the ones you already added are still healthy.
