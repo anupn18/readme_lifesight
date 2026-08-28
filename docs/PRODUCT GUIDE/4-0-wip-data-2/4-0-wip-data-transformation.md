@@ -24,7 +24,7 @@ The whole tab is about drawing a line between the two.
 
 Opening the tab shows one row per connected source.
 
-![The Data Transformation tab listing connected sources](./images/transformation-sources.png)
+![The Data Transformation tab listing connected sources](https://files.readme.io/7c659f1e1038ea3858de314b27a9f2f76e9f03d5d5b5fd44239c983d9c8a81b9-transformation-sources.png)
 
 | Column | What it means |
 | --- | --- |
@@ -52,7 +52,7 @@ Every source belongs to a category, and the category decides which Lifesight fie
 
 Inside a source, its columns are sorted into two groups, because models treat them very differently.
 
-![The field workshop, showing dimensions and metrics for a source](./images/transformation-field-workshop.png)
+![The field workshop, showing dimensions and metrics for a source](https://files.readme.io/d4ea54dc44db99082dcb5d85ac086c19f5ee6bbeaf0c9da06759ea6c748c4858-transformation-field-workshop.png)
 
 **Dimensions** are the things you slice by. Country, Campaign Name, Device, Objective. They describe a row rather than measure it. You never add dimensions up.
 
@@ -66,7 +66,7 @@ To change a field, open the actions menu at the end of its row and choose **Edit
 
 This is the heart of the tab. When you edit a field, the section called **How this field gets its value** offers two choices.
 
-![Editing a metric, with the value coming from a field in the source](./images/transformation-field-from-source.png)
+![Editing a metric, with the value coming from a field in the source](https://files.readme.io/61954ca367562f21709c1e4ea8f4c4abd2825913752659d7aafa6817a72181e8-transformation-field-from-source.png)
 
 ### A field from this source
 
@@ -82,7 +82,7 @@ Underneath, a preview panel shows real sample values from your data running thro
 
 The value is the same for every row from this source. Nothing is read from a column.
 
-![Editing a metric, with a fixed value applied to every row](./images/transformation-fixed-value.png)
+![Editing a metric, with a fixed value applied to every row](https://files.readme.io/497ef636280b7ec64dfeddceac0a797f837c72484b576ee34e2c3a6ec1b686ae-transformation-fixed-value.png)
 
 You type the value on the left under **Fixed value**, and choose the Lifesight field it fills on the right. Every row that arrives from this source gets that value.
 
