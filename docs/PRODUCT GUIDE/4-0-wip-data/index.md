@@ -5,9 +5,6 @@ excerpt: >-
   vocabulary, and shape it into the inputs your models run on.
 hidden: false
 ---
-
-# Data
-
 Every number Lifesight shows you starts life somewhere else. It starts as a row in Google Ads, a line in a Shopify order, a column in a spreadsheet someone on your finance team maintains. The **Data** module is where all of that arrives, gets cleaned up, and gets turned into something a model can actually use.
 
 If you are new to Lifesight, this is the first place you will spend real time, and it is worth doing carefully. Nothing downstream can be better than the data underneath it. A media mix model that reports the wrong revenue is not a modelling problem. It is a data problem, and it gets solved here.
