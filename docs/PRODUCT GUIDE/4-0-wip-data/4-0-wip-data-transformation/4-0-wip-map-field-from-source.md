@@ -32,6 +32,36 @@ If the answer would be identical on every row of the source, you want [Set a fix
 
 ![Mapping a source column to a Lifesight field](https://files.readme.io/61954ca367562f21709c1e4ea8f4c4abd2825913752659d7aafa6817a72181e8-transformation-field-from-source.png)
 
+## Mapping one column at a time, or several at once
+
+There are two ways into the same mapping, and they write exactly the same thing. Which you use is only a question of how many columns you are dealing with.
+
+### One column at a time
+
+Every unmapped row carries a **Map to** cell. Pick the Lifesight field in the row and the mapping applies immediately, without opening anything.
+
+This is the fast path, and it is the right one when you are checking a native connector's fields and only one or two need attention. You are not filling in a form, you are correcting a single row and moving on.
+
+If the column needs more than a target, for example the values need cleaning up first or you are creating a new field rather than picking an existing one, the row opens a small draft in place so you can finish without losing your position in the list.
+
+### Several columns at once
+
+Select the columns you want, then use **Map columns** from the toolbar. The toolbar shows how many are selected, and the worklist that opens is scoped to that selection.
+
+This is the right path for a freshly uploaded file, where nothing is mapped and you are working through twenty columns in one sitting. Doing that one row at a time is tedious, and the worklist keeps the whole job in one place.
+
+Both paths offer the same catalogue of target fields, run the same checks, and save the same result. Nothing is lost by starting in the row and nothing is gained by using the worklist for a single column.
+
+### Choosing between them
+
+| Situation | Use |
+| --- | --- |
+| Checking a connector's fields, one or two need fixing | The row's **Map to** cell |
+| A new file where nothing is mapped yet | Select the columns, then **Map columns** |
+| Changing an existing field's definition | The actions menu, then **Edit** |
+
+The third row is worth noting. Mapping and editing are different verbs. Mapping picks the target. Editing changes a field's full definition, including its roll-up, its type and its precision, and it opens the full editor.
+
 ## Reading the preview before you save
 
 The panel on the right runs real sample values from your data through the mapping and shows what will be stored. Read it. It is the cheapest possible check, and it catches the two mistakes that cause most bad numbers later.
