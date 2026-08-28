@@ -5,9 +5,6 @@ excerpt: >-
   be measured separately rather than averaged together.
 hidden: false
 ---
-
-# Meta Ads
-
 Meta covers Facebook and Instagram, and for most consumer brands it is where demand gets created rather than merely captured. That makes it one of the harder channels to measure with clicks alone, because a lot of its effect shows up later and somewhere else.
 
 Connecting Meta gives Lifesight the granular data needed to model that properly, and to keep prospecting and retargeting apart, which is usually the single most important distinction on the platform.
