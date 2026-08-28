@@ -5,9 +5,6 @@ excerpt: >-
   can be measured against matched control regions.
 hidden: false
 ---
-
-# Build a schema for Geo Experiments
-
 A geo experiment measures incrementality by doing something different in one set of regions and not in another, then comparing what happened. It is the closest thing to a controlled experiment that most marketing can run, and it produces evidence rather than an estimate.
 
 This schema defines what a geo test reads: the outcome being measured, the geographic dimension that splits test from control, and the media being tested.
