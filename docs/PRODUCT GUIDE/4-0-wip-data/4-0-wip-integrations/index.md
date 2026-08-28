@@ -74,7 +74,39 @@ Once connected, each source becomes a row.
 | **Data Sources** | How many accounts are syncing under this integration. |
 | **Last Data Sync** | When fresh data last landed. If this is older than you expect, something has stalled. |
 
-**View Details** opens the source, where you get three views: **Overview** for sync history and volume, **Context** for what this data is used for downstream, and **Configure** for changing accounts, schedule, and settings.
+**View Details** opens the source, which has three tabs.
+
+### Overview
+
+What is actually arriving. A date range selector sits at the top, and under it the headline numbers this source has delivered over that window: **Spend**, **Impressions**, **Clicks** and **Attributed Revenue**, charted over time.
+
+This is the tab to open when a number looks wrong somewhere else in the platform, because it answers the first question worth asking: is the data arriving at all, and does its shape look sane. A flat line where there should be spend, or a sudden step change, usually points at a sync problem or an account that stopped being included.
+
+If the source is connected and syncing but its fields have not been mapped yet, this tab will say so rather than showing empty charts. That is a pointer to [Data Transformation](https://docs.lifesight.io/docs/4-0-wip-data-transformation), not a fault with the connection.
+
+![An integration's Overview tab](https://files.readme.io/f53f8528b8fa60b350fca5319777287da38dd427a29e2e0f04863c9ebed8290e-integration-detail-overview.png)
+
+### Context
+
+What this source is used for downstream. It answers the question people ask before touching anything: if I pause or remove this, what breaks.
+
+Worth checking before you disconnect a source or deselect an account, because a source feeding a live model is not one to experiment with casually.
+
+### Configure
+
+Where you change how the integration behaves. It has three parts.
+
+**Connection Details** is read-only reference: the date it was connected, the refresh frequency, the timezone the data is reported in, and the connection type. The timezone is the one people forget, and it explains most small discrepancies against a platform's own dashboard.
+
+**Accounts** lists every account under this integration with a checkbox each, and a count such as "5 of 5 selected". Selected accounts sync into Lifesight. Deselect one to stop new data arriving from it. Accounts created after the integration was set up are marked **New**, which is how you notice that someone in the business opened an ad account nobody told you about.
+
+Nothing here takes effect until you apply the changes, so you can review the whole selection before committing.
+
+**Configuration** holds the destructive action: removing the integration and its data. Check the Context tab first.
+
+For CSV and Excel sources this tab also offers re-upload, which is how you refresh a file without creating a second integration and splitting its history.
+
+![An integration's Configure tab](https://files.readme.io/e5263726212c9cff09c3dd19024bd805e232d6c3fa996e153d5d94c0d1173c9a-integration-detail-configure.png)
 
 ## What the statuses mean
 
