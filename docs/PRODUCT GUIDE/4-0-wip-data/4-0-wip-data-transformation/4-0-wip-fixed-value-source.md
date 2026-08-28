@@ -5,9 +5,6 @@ excerpt: >-
   column still lines up with everything else.
 hidden: false
 ---
-
-# Set a fixed value for a source
-
 Sometimes the information you need is true of a whole source but appears nowhere in its data. A file of UK store sales has no country column, because whoever built it knew every row was the United Kingdom. A partner's monthly report has no channel column, because the partner only does one thing.
 
 A fixed value fills that gap. You type the value once, and every row arriving from that source carries it.
