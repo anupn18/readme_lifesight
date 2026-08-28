@@ -51,13 +51,82 @@ Inside a source, its columns are sorted into two groups, because models treat th
 
 ![The field workshop, showing dimensions and metrics for a source](https://files.readme.io/d4ea54dc44db99082dcb5d85ac086c19f5ee6bbeaf0c9da06759ea6c748c4858-transformation-field-workshop.png)
 
-**Dimensions** are the things you slice by. Country, Campaign Name, Device, Objective. They describe a row rather than measure it. You never add dimensions up.
+### Dimensions and metrics
 
-**Metrics** are the numbers. Spend, Clicks, Impressions, Attributed Revenue. Every metric has a **roll-up**, which is how it collapses when rows are combined. Spend sums. A rate would average. Getting the roll-up right matters, because summing a percentage produces nonsense.
+Every column is sorted into one of two roles. The distinction is not cosmetic. It decides what the platform is allowed to do with the column.
 
-Each row shows the **Input Field** (the source column) next to the **Lifesight Field** it maps to, along with its data type. Fields marked CUSTOMIZABLE are mapped for you but you are allowed to change them. Native platform connectors arrive with most of this already done, so in practice your job is to check the important fields rather than map everything from scratch.
+**A dimension describes a row.** Country, Campaign Name, Device, Objective, Date. Dimensions are what you group by, filter by and split by. You never add them up. Adding two country names together is meaningless, which is exactly why they are kept separate from metrics.
+
+**A metric measures a row.** Spend, Clicks, Impressions, Attributed Revenue. Metrics are numbers that can be combined, and every metric carries a **roll-up** that says how.
+
+The roll-up matters more than it looks. When Lifesight collapses 30 daily rows into one monthly number, the roll-up decides the answer:
+
+- **Sum** for anything that accumulates, such as spend, clicks and impressions
+- **Average** for a rate or a ratio
+- **Min**, **Max** or **Count** for the less common cases
+
+Summing a percentage is the classic error. Thirty daily click-through rates added together produce a number that means nothing, so a rate must average rather than sum.
+
+If a column is in the wrong group, open its actions menu and use **Make Dimension** or **Make Metric**. That reclassification is a display and modelling decision only. It does not alter the underlying data.
+
+### Data types
+
+Each field also has a data type, which says what shape its values take. For standard Lifesight fields the type is fixed by the field itself, so you rarely set it by hand. You will see it on custom fields and when checking that a column arrived correctly.
+
+| Type | What it holds |
+| --- | --- |
+| **Text** | Any string. The default for names and labels. |
+| **Integer** | A whole number, such as clicks or impressions. |
+| **Decimal** | A number with a fractional part. |
+| **Number** | A precise decimal, used where exactness matters. |
+| **Big Number** | A number too large for the standard numeric range. |
+| **Currency** | A monetary amount. |
+| **Percentage** | A rate, stored so it reads as a percentage. |
+| **Boolean** | True or false. Useful for flags such as whether a promotion ran. |
+| **Date** | A calendar date, formatted `YYYY-MM-DD`. |
+| **Date and time** | A date with a time, formatted `YYYY-MM-DD HH:MM:SS`. |
+| **JSON** | Structured data kept as-is. |
+
+The two date formats are worth remembering, because ambiguous dates are the most common import problem. `03/04/2025` could be March or April depending on who wrote it, while `2025-04-03` cannot be misread.
+
+### Measurement dimensions
+
+Some dimensions are just descriptive. Others are ones you actively want to measure along, and those need to be marked.
+
+A **measurement dimension** is a dimension you have flagged as something models and taxonomy should be able to work with. Turn it on for the dimensions you want to measure by, using the toggle in the dimension's row.
+
+Flagging one has two specific effects:
+
+- It appears under **Your dimensions** when you build a data model, which is what makes it available for a dimensional or hierarchical model that fits separate coefficients per country, per brand or per product line
+- It carries through to **Data Taxonomy**, where it becomes available as a column and as a field you can write rules against
+
+Be selective. Country, brand, region and product line are usually worth flagging because you genuinely want to model or classify along them. Ad ID is not, because nobody models per ad, and flagging everything makes the model builder and the rules editor harder to use for no benefit.
 
 To change a field, open the actions menu at the end of its row and choose **Edit**.
+
+## Mapping a source
+
+Before you get to individual columns, a source has to describe itself as a whole. That is what the left rail of a source's page is for. It summarises the row contract, which is the shape of one row of this data:
+
+- **Data category**, which decides which Lifesight fields are offered for its columns
+- **Date**, the date column and its granularity, taken from how the integration was set up
+- **Channel**, how this data maps to a channel Lifesight recognises
+
+The Channel entry is the one you may need to set, and it matters because everything downstream groups by channel rather than by whichever name the upload happened to have. A file called `Q4_partner_export.csv` means nothing to a model. Knowing that its spend is Paid Social does.
+
+Native connectors already know their channel, so Google Ads arrives carrying Google and YouTube without you doing anything. Uploaded files do not, so this is mainly a step for CSV and spreadsheet sources.
+
+Opening it asks how the data is shaped, and there are three possibilities. Picking the right one is the whole task.
+
+| Shape | What it looks like | What you do |
+| --- | --- | --- |
+| **One channel per column** | Columns are the channels: `DATE, EMAIL_SPEND, OBA_SPEND, INKPACT_SPEND` | Assign a channel to each column |
+| **A column holds the channel** | One column names the channel per row: `date, channel, spend` with values `fb`, `google` | Pick that column, then map each raw value to a channel |
+| **The whole file is one channel** | No channel column, because every row is the same thing | Confirm the single channel for the source |
+
+For the second shape, Lifesight suggests matches for common abbreviations, so `fb` proposes Facebook Ads and `bing` proposes Microsoft Ads. Check the suggestions rather than accepting them blindly, because in-house shorthand is rarely as obvious as it looks to the person who invented it.
+
+Getting this right once means every column underneath is already attributed to the correct channel, which is why it comes before column mapping.
 
 ## The two ways a field gets its value
 
@@ -67,6 +136,8 @@ When you edit a field, the section called **How this field gets its value** offe
 | --- | --- | --- |
 | The source reports the value, and it changes row to row | **A field from this source** | [Map a field from a source](https://docs.lifesight.io/docs/4-0-wip-map-field-from-source) |
 | The value is the same on every row from this source | **A fixed value for every row** | [Set a fixed value for a source](https://docs.lifesight.io/docs/4-0-wip-fixed-value-source) |
+
+And before either of those, the source itself needs a channel: [Map a source to a channel](https://docs.lifesight.io/docs/4-0-wip-map-source-channel).
 
 The test is simple. If the answer would be identical on every single row of this source, it is a fixed value. If it varies, it needs to come from a column, even a messy one.
 
