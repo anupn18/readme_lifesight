@@ -5,9 +5,6 @@ excerpt: >-
   marketing actually works, not how your campaigns happen to be named.
 hidden: false
 ---
-
-# Data Taxonomy
-
 Ad platforms organise spend the way the platform wants to organise it: by account, campaign, ad set, ad. That structure is useful for running campaigns and close to useless for measuring them, because two campaigns sitting next to each other in the same account can be doing completely different jobs.
 
 Consider a Google Ads account with a campaign defending your brand terms and another prospecting on generic keywords. The brand campaign will show a wonderful return, because people searching your name were mostly going to buy anyway. The prospecting campaign will look worse and may be the one genuinely growing the business. Average them into a single Google Ads number and you have hidden the only insight that mattered.
