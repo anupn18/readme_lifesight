@@ -5,9 +5,6 @@ excerpt: >-
   think drives it, and the context that explains the rest.
 hidden: false
 ---
-
-# Model Schema
-
 A model schema is a saved answer to the question *what should this model look at*. It names the outcome you want explained, the paid media you believe influences it, the organic and contextual factors that explain the rest, and how those pieces relate to each other.
 
 It is worth being clear about what a schema is not. It is not the model. Training a model is a separate step. A schema is the recipe, and it can be reused, refreshed and adjusted without starting from nothing each time.
