@@ -5,9 +5,6 @@ excerpt: >-
   can be read by models and reports.
 hidden: false
 ---
-
-# Map a field from a source
-
 This is the everyday case in Data Transformation. A source produces a column, that column genuinely holds the thing you want, and your job is to say which Lifesight field it becomes.
 
 Google Ads reports a column called `spend`. Lifesight has a field called Spend. Drawing the line between the two is a mapping, and once drawn, every part of the platform that asks "how much did we spend" gets a consistent answer no matter which platform the money went through.
