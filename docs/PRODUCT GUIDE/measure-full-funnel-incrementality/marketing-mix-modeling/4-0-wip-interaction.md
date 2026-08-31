@@ -6,39 +6,32 @@ hidden: true
 metadata:
   robots: noindex
 ---
-# Interaction
+The **Interaction** tab shows modelled relationships between media variables. It can help identify synergy, cannibalization, and neutral combinations. The tab is hidden by default and can be enabled from **Customize Tabs**.
 
-The **Interaction** tab shows how marketing variables work together within the model. Use it to identify combinations associated with stronger joint performance and combinations that may reduce each other's effectiveness.
+**[IMAGE PLACEHOLDER: Interaction tab with matrix and pair table]**
 
-[IMAGE PLACEHOLDER: Interaction matrix with channel pairs]
+## Filter the analysis
 
-## Interaction matrix
+Use the channel and effect filters to focus the matrix and the interaction-pairs table. The action filter can be used to review all pairs, **Scale Up** suggestions, or **Scale Down** suggestions.
 
-The matrix provides an overview of modeled interactions between variables. Select a cell to inspect a specific pair.
+## Read the matrix
 
-Use the matrix to look for:
+The matrix provides a visual overview of interaction strength and direction across variable pairs. Use it to locate patterns, then use the interaction-pairs table for the detailed result. Matrix cells are not used to open pair details.
 
-- Positive interaction, where two variables perform better together
-- Negative interaction, where the combined effect is weaker
-- Limited or uncertain interaction, where the model does not show a clear relationship
+## Read the interaction-pairs table
 
-Interaction results describe modeled relationships within the selected data and model configuration. They do not by themselves prove that one channel caused the other to perform differently.
+Pairs are classified as:
 
-## Review an interaction pair
+* **Synergy:** The variables are associated with a stronger joint effect.
+* **Cannibalization:** The joint effect is weaker and the variables may compete or overlap.
+* **Neutral:** The model does not show a material positive or negative interaction.
 
-Select a pair to review the interaction direction, strength, and supporting detail. Compare the result with campaign timing, targeting, creative strategy, and channel roles before taking action.
+Review strength, direction, and the suggested action together. A large result with limited business plausibility should be investigated before it is used.
 
-[VIDEO PLACEHOLDER: Selecting cells in the interaction matrix and reviewing pair details]
+## Apply interaction findings
 
-## Use interaction insights
+Use interaction output to coordinate complementary channels, investigate audience or timing overlap, and form hypotheses about sequencing or joint activation.
 
-Interaction results can help you:
+Validate material decisions with campaign context and experiments where possible. Interaction output describes the selected model and data period. It does not prove that changing one channel will cause the other channel's performance to change.
 
-- Coordinate channels that show complementary effects
-- Review overlapping channels that may compete for the same audience
-- Form hypotheses for campaign sequencing or joint activation
-- Identify combinations for future experiments
-
-[IMAGE PLACEHOLDER: Interaction pair details with interpretation]
-
-Treat these results as decision support. Validate important interaction hypotheses with experiments, operational context, and additional measurement where possible.
+**[VIDEO PLACEHOLDER: Filtering interaction pairs and interpreting suggested actions]**
