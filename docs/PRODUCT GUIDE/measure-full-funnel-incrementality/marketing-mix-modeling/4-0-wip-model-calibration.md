@@ -6,50 +6,37 @@ hidden: true
 metadata:
   robots: noindex
 ---
-# Model Calibration
+Calibration uses experiment evidence to guide a paid-media estimate during model training.
 
-Model calibration incorporates trusted experimental evidence into model estimation. Use calibration when you have incrementality results or other reliable evidence for a paid media channel or tactic.
+## When calibration is useful
 
-[IMAGE PLACEHOLDER: Calibration step in the model creation flow]
+Use calibration when a reliable incrementality experiment covers a channel and period represented in the model data. The evidence should use a comparable outcome and a clearly defined experiment window.
 
-## Add calibration during model creation
+## Add calibration evidence
 
-In the **Calibration** step of the model creation flow, select **Add calibration** and provide:
+Calibration is configured in the **Calibration** step while creating a model or retraining an existing model.
 
-- Paid media channel or tactic
-- Calibration start and end dates
-- Average or incremental iROAS
-- Confidence level
+1. Select **Add calibration**.
+2. Choose the paid-media variable.
+3. Enter the experiment start and end dates.
+4. Enter the incremental ROAS or supported incremental efficiency value.
+5. Enter the confidence value.
+6. Review the entries before submitting the model.
 
-The calibration window must fall within the model date range. Lifesight assigns the appropriate calibration treatment based on the evidence and selected period.
+Eligible calibration values can also be inherited from the champion model during creation or retraining.
 
-[VIDEO PLACEHOLDER: Adding a calibration entry while creating a model]
+> 📘 Experiment results are entered manually. Directly adding an experiment from the experiment picker is not currently available.
 
-If eligible calibration evidence is available, you can inherit it and review the values before continuing. Remove any inherited entry that should not be applied to the new model.
+**[IMAGE PLACEHOLDER: Calibration step with channel, date range, incremental efficiency, and confidence]**
 
-## Calibrate an existing model
+## Review calibration
 
-For a successful model, select **Calibrate** from the model actions. The calibration dialog lets you add, edit, and remove channel-level calibration entries.
+After training, open **Diagnostics** and review the calibration summary. Confirm that the channel, dates, incremental efficiency, and confidence match the evidence used for training.
 
-Review the following fields for each entry:
+Calibration should be interpreted with the model's backtesting, uncertainty, causal structure, and contribution results. It strengthens the connection to observed lift, but does not replace model validation.
 
-- Average iROAS
-- Confidence
-- Calibration window
-- Calibration type
-- Source
-- Last updated date
+## Update calibration evidence
 
-[IMAGE PLACEHOLDER: Calibration dialog for an existing model]
+To change calibration inputs for an existing model, start a retraining workflow and edit the Calibration step. The existing model's Diagnostics tab is read-only.
 
-## Calibration guidance
-
-Use evidence that is comparable to the market, channel definition, KPI, and time period represented by the model. Higher confidence should be reserved for evidence with a strong experimental design and reliable measurement.
-
-Avoid adding multiple calibration entries that describe the same channel and period unless they represent distinct, valid evidence.
-
-## Review calibration results
-
-After calibration is processed, review the model diagnostics and channel results. Check model health, fit, contribution, and whether calibrated channel estimates remain consistent with the underlying evidence.
-
-[IMAGE PLACEHOLDER: Calibration information shown with model diagnostics]
+**[VIDEO PLACEHOLDER: Adding calibration during model creation or retraining]**
