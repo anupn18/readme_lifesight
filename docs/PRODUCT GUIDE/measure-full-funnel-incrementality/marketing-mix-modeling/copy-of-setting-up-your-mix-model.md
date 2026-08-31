@@ -20,7 +20,7 @@ To create a model using data already available in Lifesight, select an existing 
 
 You can also create a model using historical data stored in a CSV file. The file must meet the required formatting and validation conditions to prevent errors during model creation.
 
-Refer to the [CSV Data Formatting Guidelines](https://docs.lifesight.io/docs/mmm-input-schema) for more details about preparing your CSV file.
+Refer to the [CSV Data Formatting Guidelines](https://docs.lifesight.io/v2.0/docs/4-0-wip-mmm-input-schema) for more details about preparing your CSV file.
 
 ## Interactive Demo
 
@@ -36,7 +36,7 @@ Refer to the [CSV Data Formatting Guidelines](https://docs.lifesight.io/docs/mmm
 
 **[IMAGE PLACEHOLDER: Create Model screen showing the model name and Model Class options]**
 
-1. Navigate to the MMM page by selecting **Measure > Models**.
+1. Select **Models** from the sidebar.
 2. Click the **`Create Model`** button.
 3. Enter a unique and descriptive name for your model.
 4. Select **Media Mix Model** as the Model Class.
@@ -84,7 +84,7 @@ Here, you will set the core parameters for your model's analysis.
 
 **[IMAGE PLACEHOLDER: Configuration screen showing model details, date settings, and training split]**
 
-1. **Model Details**: Confirm the model name and assign the model owner.
+1. **Model Details**: Confirm the model name. The model owner is filled automatically and is read-only.
 2. **Aggregation**: Select **Daily**, **Weekly**, or **Monthly** to match the aggregation of your input data.
 3. **Date Range**: Confirm the start and end dates for the model's analysis.
 4. **Country & Currency**: Select your primary country of operation and reporting currency. Selecting a country helps the model account for national holidays.
@@ -118,13 +118,13 @@ If you have run recent marketing experiments, such as lift studies or geo experi
 
 To add a calibration insight:
 
-1. Click **`Add Entry`**.
+1. Click **`Add calibration`**.
 2. Select the paid media channel or tactic associated with the experiment.
 3. Specify the experiment's start and end dates.
 4. Enter the observed **Incremental ROAS**.
 5. Enter the **Confidence** percentage for the experiment result.
 
-Lifesight automatically determines the calibration type based on the experiment dates and the model's training window. You can also inherit eligible calibration entries from an existing model.
+Lifesight automatically determines the calibration type based on the experiment dates and the model's training window. Enter experiment evidence manually, or inherit eligible calibration entries from an existing model. Directly adding a result from Experiments is not currently available.
 
 Calibration is optional. If you do not have suitable experiment results, you can continue to the next step without adding an entry.
 
