@@ -6,60 +6,43 @@ hidden: true
 metadata:
   robots: noindex
 ---
-Causal MMM is the foundation of Unified Marketing Measurement in Lifesight. It provides a top-down view of how paid media, organic activity, contextual factors, and baseline demand work together to drive a business outcome.
+Causal Marketing Mix Modelling in Lifesight explains how paid media, organic activity, contextual factors, halo effects, and baseline demand contribute to a business outcome.
 
-<Callout icon="ℹ️" theme="info">
-  **What is a top-down approach?**
+Unlike attribution, which begins with individual customer touchpoints, MMM uses aggregated time-series data. This makes it suitable for measuring channels where user-level paths are incomplete or unavailable.
 
-  Unlike attribution methods that begin with individual customer touchpoints, MMM begins with an aggregate outcome, such as weekly revenue or orders, and estimates how much each business driver contributed to it.
-</Callout>
+**[IMAGE PLACEHOLDER: Marketing Mix Modelling workflow in Lifesight 4.0]**
 
-## Lifesight's Causal Mix Modelling Approach
+## How the workflow fits together
 
-Lifesight 4.0 combines structured causal assumptions, model validation, contribution analysis, and experiment calibration in one model workspace.
+1. Prepare the model data and create a model schema.
+2. Create a model and define its variables, configuration, calibration evidence, and causal relationships.
+3. Review the model in the Models workspace.
+4. Promote a model only after its data, diagnostics, causal structure, and contribution results are suitable for decision-making.
+5. Use the promoted model in Planner, or refresh and retrain it as new evidence becomes available.
 
-**[IMAGE PLACEHOLDER: Lifesight 4.0 MMM workflow from data to decisions]**
+## Review a model
 
-### Pillar 1: Structured Causal Modelling
+The Models workspace organizes model output into tabs. Some tabs are hidden by default and can be enabled from **Customize Tabs**.
 
-During model creation, you map paid media, organic, contextual, halo, and outcome variables. You then review the causal graph and mark each possible relationship as **Potential** or **Forbidden**.
+* **Data:** Validate coverage, trends, model inputs, and correlations.
+* **Diagnostics:** Review fit, backtesting, residuals, channel transformations, decomposition, and calibration evidence.
+* **Graph:** Inspect the model's causal structure and direct, indirect, and total effects.
+* **Contribution:** Understand incremental outcome, efficiency, contribution share, uncertainty, and response curves.
+* **Creatives:** Review modelled creative interactions, quality, and positive or negative impact.
+* **Interaction:** Identify synergy, cannibalization, and neutral relationships between media variables.
+* **Insights:** Explore media and baseline analyses using ranked, time-based, and decomposition views.
+* **Refresh:** Review refresh history after a model has been refreshed.
 
-The trained model exposes its causal structure in the **Graph** tab. Select a node to review incoming and outgoing relationships, including direct, indirect, and total effects.
+> 📘 Review the model as a complete system. A strong accuracy score does not replace backtesting, plausible causal relationships, stable channel behavior, or appropriate business context.
 
-### Pillar 2: Model Validation
+## Model lifecycle
 
-The **Diagnostics** tab evaluates whether a model is suitable for decision-making. It includes:
+Models move through training, review, promotion, refresh, and retraining workflows. Models that are still processing or have failed expose only the tabs with available results. Review access can also depend on status and permissions.
 
-* Model fit health and pass, warn, or fail checks
-* Actual versus predicted outcome
-* Training and validation periods
-* Backtest accuracy and holdout error
-* Residual analysis
-* Saturation, adstock, and time-to-conversion curves
-* Time-series decomposition
+Use refresh when new periods follow the existing schema and model structure. Use retraining when the variables, causal assumptions, calibration evidence, or configuration need to change.
 
-> 📘 A model should be reviewed as a complete system. Strong in-sample accuracy alone is not enough. Holdout performance, stability, residuals, and causal evidence should also support the result.
+**[VIDEO PLACEHOLDER: From model creation to model review and planning]**
 
-### Pillar 3: Incrementality Calibration
+## Recommended reading
 
-Where experiment evidence is available, paid channels can be calibrated using incremental ROAS, confidence, and an experiment date range. Calibration can be added while creating a model, inherited from an eligible model, or managed for an existing successful model.
-
-Calibration connects model estimates with observed lift and improves confidence in channel-level decisions.
-
-### Pillar 4: Contribution and Decision Support
-
-The **Contribution** tab shows how the selected model distributes the outcome across paid, baseline, contextual, halo, organic, and unknown groups. It also provides channel and tactic metrics, confidence intervals, causal evidence, immediate and carryover effects, and saturation curves.
-
-Use the **Planner** to turn a successful model into budget scenarios. Planner compares current and optimized allocations, applies channel constraints, forecasts the selected outcome, and supports scenario comparison before a decision is promoted.
-
-**[VIDEO PLACEHOLDER: From a trained Mix Model to a budget decision in Lifesight 4.0]**
-
-## Key Benefits for Your Business
-
-* **Understand incremental impact:** Separate modelled contribution from platform-reported outcomes.
-* **Evaluate confidence:** Review diagnostics, causal evidence, and confidence intervals before acting.
-* **Plan across channels:** Test budget scenarios using response curves and business constraints.
-* **Incorporate experiments:** Anchor channel estimates to observed incrementality where evidence is available.
-* **Keep decisions current:** Refresh or retrain models as new data and market conditions emerge.
-
-> 👍 Start with well-prepared data, review model health before promotion, and use calibration and refresh workflows to keep the model aligned with the business.
+Start with **Setting up your Mix Model**, then use **Model Overview** to navigate the Models workspace. The tab-specific pages explain what each result means and how to use it.
