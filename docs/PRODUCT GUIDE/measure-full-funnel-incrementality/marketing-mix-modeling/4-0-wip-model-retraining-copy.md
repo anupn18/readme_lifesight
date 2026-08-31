@@ -6,42 +6,28 @@ hidden: true
 metadata:
   robots: noindex
 ---
-# Merging Models
+Merge combines compatible successful models into a new model view for consolidated analysis.
 
-Model merging combines compatible successful models into a new consolidated model. Use it when you need a unified view across models that share a common business outcome and can be evaluated together.
+## Select compatible models
 
-[IMAGE PLACEHOLDER: Merge Models action in the model list]
+1. Open **Model List** and start **Merge Models**.
+2. Select eligible models with successful or refreshed results.
+3. Confirm that their outcomes, granularity, periods, and structures are compatible.
 
-## Before you begin
+**[IMAGE PLACEHOLDER: Merge workflow with compatible model selection]**
 
-Review the models you plan to merge. Confirm that they are successful, use compatible KPIs and data definitions, and cover the intended markets or business units.
+## Classify variables
 
-## Merge models
+The merge workflow identifies variables that are common across the selected models and variables that are distinct. Review the classification carefully because it determines how results are represented in the merged output.
 
-The merge flow has three steps.
+## Review and create
 
-### 1. Select models
+Review the selected models and variable classification, then enter a unique name for the merged model and submit.
 
-Choose the models to include. Only compatible models should be combined.
+## Understand merged output
 
-[IMAGE PLACEHOLDER: Select Models step with compatible models selected]
+A merged model is intended for consolidated review. Some outputs from a fully trained model are not available, including response curves, confidence intervals, and marginal-efficiency fields.
 
-### 2. Classify variables
+Do not interpret a missing merged-model field as a zero value. Return to the source models when you need model-specific uncertainty, diagnostics, or response behavior.
 
-Review the variables from the selected models and confirm their classification. Resolve naming or classification differences before continuing so the merged result remains interpretable.
-
-[IMAGE PLACEHOLDER: Variables classification step]
-
-### 3. Review and name
-
-Review the selected models and variable mappings, then enter a unique name for the merged model. Submit the job when the configuration is complete.
-
-[VIDEO PLACEHOLDER: Completing the three-step model merge flow]
-
-## Review the merged model
-
-Once processing is complete, open the merged model and review its data, diagnostics, contribution, and insights. Compare the consolidated result with the source models before using it for planning or reporting.
-
-Some channel-level detail, such as response curves or confidence fields, may not be available for merged results. Use the source models when that level of detail is required.
-
-> Merging creates a new model. The source models remain unchanged.
+**[VIDEO PLACEHOLDER: Selecting, classifying, and reviewing models for merge]**
