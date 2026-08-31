@@ -6,71 +6,36 @@ hidden: true
 metadata:
   robots: noindex
 ---
-A model refresh incorporates new data while retaining the current model structure and fitted assumptions. Use refresh to keep a successful model current without starting a full retraining workflow.
+A model refresh incorporates new periods of data while retaining the current model structure. Use it when the schema and underlying business relationships remain suitable.
 
-## When to Refresh
+## Choose refresh or retraining
 
-Refresh a model when:
+Refresh when new data follows the existing schema and you want to extend the model results. Retrain when variables, relationships, calibration evidence, configuration, or market behavior require a deeper change.
 
-* New periods of data are available.
-* The underlying variable structure remains valid.
-* Channel definitions and business outcomes have not materially changed.
-* You want to compare recent contribution with the prior model window.
+## Run the first refresh
 
-Use retraining instead when variables, causal assumptions, hyperparameters, or market relationships require a deeper rebuild.
+The first refresh is started from the eligible model's action menu in **Model List**. Models with **Success**, **Refresh Success**, or **Refresh Failed** status can be eligible.
 
-## Run a Refresh
+1. Open **Model List**.
+2. Open the action menu for the model.
+3. Select the refresh action.
+4. Upload and review the updated data.
+5. Submit the refresh.
 
-1. Navigate to **Measure > Models**.
-2. Select an eligible model with **Success** or **Refresh Success** status.
-3. Open the **Refresh** tab.
-4. Click **`Run refresh`**.
-5. Upload the CSV containing the updated model data.
-6. Review the detected data window and submit the refresh.
+**[IMAGE PLACEHOLDER: Model List action menu and refresh dialog]**
 
-**[IMAGE PLACEHOLDER: New Refresh dialog showing CSV upload and date window]**
+## Use the Refresh tab
 
-The Refresh tab appears after a refresh has run. Access also depends on model status and workspace permissions.
+The **Refresh** tab becomes available after a refresh result exists. It is shown for models with **Refresh Success** or **Refresh Failed** status. Use it to review refresh history and start a subsequent refresh.
 
-## Refresh History
+Review the refresh window, status, changes in available variables, and comparison output. After a successful refresh, check Contribution and Diagnostics before using the updated result.
 
-The history view records refresh runs and their status. Expand a run to review its window and available comparison details.
+## Partial and unmatched contribution
 
-Refresh results can include:
+If a refresh cannot match every contribution component, the unmatched amount can appear in the **Unknown** group in Contribution. Investigate schema, taxonomy, and variable changes before relying on the refreshed result.
 
-* Model and comparison date ranges
-* Metric changes
-* Variable additions or removals
-* Category-level contribution changes
-* Accuracy or MAPE movement
-* Partial or failed refresh information
+## Troubleshoot a failed refresh
 
-**[IMAGE PLACEHOLDER: Refresh history with one completed run expanded]**
+Check that the new file uses the original schema and aggregation, has a continuous date range, and contains the required variables. If the business structure has changed, use retraining instead of repeatedly refreshing the old structure.
 
-## Review Refresh Impact
-
-Open the related Contribution comparison to review the refreshed period against its comparison period. Pay attention to:
-
-* Changes in spend and incremental outcome
-* Efficiency movement
-* Contribution shifts by channel and tactic
-* New, removed, or unmatched variables
-* Unknown contribution after a partial refresh
-
-> 📘 A partial refresh can leave some contribution unattributed. Lifesight displays this in the Unknown group so it is not silently assigned to another channel.
-
-## Refresh Status
-
-* **Refresh In Progress:** The new data is being processed.
-* **Refresh Success:** The refresh completed and updated results are available.
-* **Partial Refresh:** Some results were updated, but one or more variables could not be attributed completely.
-* **Refresh Failed:** The refresh did not complete. Review the error and input data before retrying.
-
-## Best Practices
-
-* Use the same schema and aggregation as the original model.
-* Include a continuous date range with no unintended gaps.
-* Investigate large metric or contribution changes.
-* Run a full retraining when the model structure no longer reflects the business.
-
-**[VIDEO PLACEHOLDER: Running and reviewing a model refresh in Lifesight 4.0]**
+**[VIDEO PLACEHOLDER: Running the first refresh and reviewing refresh history]**
