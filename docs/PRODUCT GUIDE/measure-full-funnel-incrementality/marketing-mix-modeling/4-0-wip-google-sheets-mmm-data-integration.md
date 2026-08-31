@@ -42,9 +42,9 @@ Create or select a Data Model that includes the connected Google Sheets data. Ma
 
 ## Use the data in Marketing Mix Modeling
 
-When creating a model, select the prepared Data Model as the source. Continue through variable classification, model configuration, calibration, causal graph review, and deployment.
+When creating a model, select the prepared Data Model as the source. Continue through Variables, Configuration, Calibration, Relationships, and Review & Submit.
 
-For an existing model, use the **Refresh** workflow when new observations are available. Upload or select the updated data as required by the refresh flow, then review the refresh results before using them.
+For an existing model, start the first refresh from its action menu in Model List when new observations are available. Provide the updated data, then review Diagnostics and Contribution before using the refreshed result.
 
 ## Maintain the integration
 
