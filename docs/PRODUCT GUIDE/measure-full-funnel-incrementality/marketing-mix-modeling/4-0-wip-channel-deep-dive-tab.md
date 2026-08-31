@@ -1,65 +1,51 @@
 ---
-title: '[4.0][WIP] Channel Deep Dive'
+title: '[4.0][WIP] Contribution'
 excerpt: Review channel contribution, efficiency, response, and uncertainty.
 deprecated: false
 hidden: true
 metadata:
   robots: noindex
 ---
-Lifesight 4.0 provides channel and tactic analysis in the **Contribution** tab. Expand a channel to review its tactics, then use the drill-down and response-curve views to understand performance in the selected period.
+The **Contribution** tab explains how the selected model distributes the outcome across paid media, baseline, contextual, halo, organic, and unknown groups.
 
-### Accessing Channel Analysis
+**[IMAGE PLACEHOLDER: Contribution tab with grouped channel and tactic rows]**
 
-1. Navigate to **Measure > Models**.
-2. Select the promoted model and outcome.
-3. Open the **Contribution** tab.
-4. Set the page date range.
-5. Search for a channel or tactic, then expand the relevant row.
+## Read the contribution table
 
-**[IMAGE PLACEHOLDER: Contribution table with one channel expanded to show tactics]**
+Expand a channel to review its tactics. Available columns depend on the model outcome and cost configuration. They can include:
 
-## Key Metrics
+* Spend
+* Incremental outcome and incremental efficiency
+* Contribution percentage
+* Confidence interval
+* Marginal efficiency
+* Incremental profit and profit efficiency
+* Causal status
 
-Available metrics depend on the model KPI and model type. They can include:
+Incremental efficiency uses the modelled incremental outcome. It should not be compared directly with platform-reported efficiency without accounting for the different measurement methods.
 
-* **Spend:** Media investment during the selected period.
-* **Incremental Outcome:** Modelled revenue, orders, conversions, or another KPI generated incrementally.
-* **iROAS:** Incremental revenue or profit per unit of spend.
-* **iCPA:** Spend per incremental order or conversion.
-* **Contribution Share:** The channel or tactic's share of total modelled contribution.
-* **Confidence Interval:** The lower and upper range around the estimate.
-* **Causal Evidence:** Whether the result is classified as confident, watch, or unknown.
-* **Immediate and Carryover Effect:** The split between same-period response and response that persists into later periods.
-* **Profit Metrics:** Incremental profit, margin, and iPOAS when applicable.
+## Interpret contribution and efficiency together
 
-## Compare Date Ranges
+Contribution shows how much of the outcome is assigned to a driver. Efficiency shows the incremental outcome generated per unit of spend, or the spend required per incremental outcome.
 
-Use the page-level comparison controls to compare the selected range with another period. Review changes in spend, incremental outcome, and efficiency together. A higher contribution can be caused by more investment, stronger efficiency, or both.
+A high-contribution channel is not always the best place for additional spend. Review marginal efficiency and the response curve to understand what the next unit of investment may produce.
 
-## Saturation Curves
+## Review uncertainty
 
-The Saturation Curves section shows fitted channel response across different spend levels.
+Use the confidence interval to understand the range around an estimate. Wide intervals indicate greater uncertainty. Use causal status, Graph, Diagnostics, and experiment evidence to decide how much confidence to place in the result.
 
-> 📘 The curve Period selector is separate from the page date range. It controls curve generation and marginal efficiency values.
+The **Unknown** group can appear when a partial refresh leaves some contribution unmatched. It is not a causal-status label.
 
-Use the curves to review:
+## Compare periods
 
-* Current spend relative to the fitted response curve
-* Where diminishing returns begin
-* Marginal incremental efficiency
-* How the response changes when the applied period changes
+When comparison is enabled, review spend, incremental outcome, and efficiency together. A contribution increase may be caused by more investment, a change in efficiency, or a different overall outcome mix.
 
-**[IMAGE PLACEHOLDER: Channel saturation curve with current-spend reference line]**
+## Response curves
 
-## Investigating a Channel
+Response curves show fitted outcome across spend levels. Use them to identify diminishing returns and compare current efficiency with marginal efficiency.
 
-When a channel requires deeper review:
+> 📘 The response-curve Period selector is independent of the page date range. It controls the curve calculation and marginal-efficiency fields.
 
-1. Check its confidence interval and causal evidence.
-2. Open **Graph** and inspect direct and indirect effect paths.
-3. Open **Diagnostics** and review the channel's adstock and saturation assumptions.
-4. Open **Data** and inspect time-series movement and correlation.
-5. Open **Interaction** to check synergy or cannibalization with other channels.
-6. Use Planner to simulate an allocation change.
+Immediate and carryover effects are reviewed in Diagnostics.
 
-**[VIDEO PLACEHOLDER: Performing a channel deep dive in Lifesight 4.0]**
+**[VIDEO PLACEHOLDER: Reading contribution, uncertainty, and response curves]**
