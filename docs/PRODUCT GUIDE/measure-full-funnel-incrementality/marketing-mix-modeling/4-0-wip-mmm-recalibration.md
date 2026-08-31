@@ -6,53 +6,29 @@ hidden: true
 metadata:
   robots: noindex
 ---
-# Model Retraining
+Retraining creates a new model from an existing model while allowing selected configuration and calibration inputs to be updated.
 
-Retraining lets you create a new version of a successful model using updated configuration and calibration settings. The original model remains unchanged, so you can compare the retrained model before deciding which version to use.
+## When to retrain
 
-[IMAGE PLACEHOLDER: Model list with the Retrain action highlighted]
+Retrain when you need to change calibration evidence, configuration, or assumptions, or when refresh is no longer appropriate for the business structure.
 
-## Before you begin
+## Start retraining
 
-You can retrain a model when its status is **Success** or **Refresh Success**. Review the existing model results and prepare any changes to the model window, variables, calibration inputs, or advanced settings.
-
-## Retrain a model
-
-1. Go to **Measure > Marketing Mix Modeling**.
-2. Open the model you want to retrain.
+1. Open **Model List**.
+2. Open the action menu for an eligible model.
 3. Select **Retrain**.
+4. Enter a unique name for the new model.
+5. Review the inherited setup and update the editable steps.
+6. Submit the model for training.
 
-The retraining flow displays the active KPI, data source, country, currency, and variables from the source model. Source details and variables are read-only in this flow.
+**[IMAGE PLACEHOLDER: Retraining workflow with inherited and editable fields]**
 
-[VIDEO PLACEHOLDER: Starting a retraining flow from a successful model]
+The data source and variable selection are inherited and read-only in retraining. Model configuration and calibration evidence can be updated. Review the complete setup before submission so the new result can be compared with the source model.
 
-## Review calibration
+## Review the retrained model
 
-Existing calibration inputs are inherited where applicable. You can add, edit, or remove calibration entries before submitting the retraining job.
+Treat the result as a new challenger. Review Data, Diagnostics, Graph, and Contribution before promotion. Compare backtest performance, contribution shifts, uncertainty, and channel behavior with the current promoted model.
 
-For each calibration entry, review the channel, calibration window, average iROAS, confidence, calibration type, and source.
+Use a name that identifies the reason or period for retraining. This makes model comparisons and lifecycle management easier.
 
-[IMAGE PLACEHOLDER: Calibration step in the retraining flow]
-
-## Configure the retrained model
-
-Enter a unique model name and review the model configuration:
-
-- Model start and end dates
-- Time aggregation
-- Refresh frequency
-- Training and validation split
-- Contextual variables
-- Advanced model settings
-
-Adjust only the settings needed for the new model version. The original model configuration remains available for reference.
-
-[IMAGE PLACEHOLDER: Model configuration for a retraining job]
-
-## Submit and compare
-
-Submit the retraining job after reviewing the configuration. Lifesight creates a new model and keeps the source model unchanged. Once processing is complete, compare model health, fit, contribution, calibration, and business insights across the two versions.
-
-[IMAGE PLACEHOLDER: Original and retrained models shown in the model list]
-
-> Retraining creates a separate model. It does not overwrite the model used to start the flow.
+**[VIDEO PLACEHOLDER: Retraining a model and comparing it with the source model]**
