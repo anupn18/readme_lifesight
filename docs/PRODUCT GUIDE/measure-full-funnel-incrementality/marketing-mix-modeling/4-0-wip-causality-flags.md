@@ -1,64 +1,55 @@
 ---
-title: '[4.0][WIP] Causal Flags'
+title: '[4.0][WIP] Diagnostics'
 excerpt: Interpret causal evidence and confidence signals in Marketing Mix Modeling.
 deprecated: false
 hidden: true
 metadata:
   robots: noindex
 ---
-Causal evidence indicates how confidently a model can separate a channel's incremental effect from correlated activity and other business drivers. In Lifesight 4.0, causal evidence is reviewed in the **Contribution** and **Graph** tabs.
+The **Diagnostics** tab helps you evaluate model fit, validation performance, channel transformations, decomposition, and calibration evidence.
 
-## Why Causal Evidence Matters
+**[IMAGE PLACEHOLDER: Diagnostics tab with headline metrics and actual versus predicted outcome]**
 
-A channel can have a strong modelled contribution without having equally strong causal evidence. Use causal status together with confidence intervals, diagnostic health, experiment evidence, and business context before reallocating budget.
+## Headline metrics
 
-> ℹ️ Causal evidence is a decision aid. It does not replace model review or experiment validation.
+The available metrics can include Accuracy, Backtest Accuracy, NRMSE, actual outcome, predicted outcome, Estimation Error, and MAPE.
 
-## Causal Status in the Contribution Tab
+Read these metrics together:
 
-The Contribution table shows a causal indicator for eligible channel and tactic rows.
+* **Accuracy** summarizes how closely the model follows the observed outcome in the fitted data.
+* **Backtest Accuracy** shows performance on the held-out portion of the data.
+* **NRMSE** and **MAPE** describe prediction error. Lower values generally indicate a closer fit.
+* **Estimation Error** highlights aggregate bias between predicted and actual outcome.
 
-| Status | Meaning | Recommended action |
-| :--- | :--- | :--- |
-| **Confident** | The model has stronger evidence that the variable contributes incrementally to the outcome. | Use the estimate with its confidence interval and response curve when planning. |
-| **Watch** | The relationship has weaker or less stable evidence. | Investigate data variation, correlation, diagnostics, and available experiments before making a large change. |
-| **Unknown** | The model cannot provide a usable classification for the selected row or period. | Confirm model status, refresh completeness, and variable coverage. |
+Do not use one threshold as the sole promotion decision. Compare training and backtest performance, then inspect where errors occur.
 
-**[IMAGE PLACEHOLDER: Contribution table showing causal evidence and confidence intervals]**
+## Actual versus predicted
 
-## Investigating a Causal Result
+This chart compares the observed outcome with the model prediction over time. Enable residuals to see the size and direction of the gap at each point.
 
-### Review the Graph
+Large errors concentrated around a launch, promotion, outage, or market event can indicate missing context. A repeated pattern in residuals can indicate that the model has not captured a systematic effect.
 
-Open the **Graph** tab and select the variable. Review:
+## Backtesting
 
-* Incoming and outgoing relationships
-* Direct, indirect, and total effects
-* Positive and negative paths
-* Contribution over the selected period
+The backtest table summarizes performance on data that was not used to fit the model. Similar training and backtest performance is stronger evidence of generalization than a strong fitted result with weak backtesting.
 
-The width of an edge represents the relative magnitude of the effect. Use the node detail panel to distinguish a direct relationship from impact that travels through an intermediate variable.
+## Channel response and carryover
 
-### Review Correlation
+Use the saturation, adstock, and time-to-conversion views to understand each channel's fitted behavior.
 
-Open the **Data** tab and inspect the raw and transformed correlation matrices. High correlation between media variables can make their individual effects harder to separate.
+* **Saturation** shows how response changes as investment increases.
+* **Adstock** shows how media impact decays after exposure.
+* **Time to Conversion** separates immediate impact from later carryover.
+* **Immediate and Carryover** summarizes that split for the available channels.
 
-### Review Diagnostics
+Review whether the shapes and timing are plausible for the channel and buying strategy.
 
-Check holdout performance, residuals, stability, and model fit. A channel estimate should not be treated as reliable when the overall model has unresolved failures.
+## Decomposition
 
-### Review Calibration
+Decomposition separates the predicted outcome into modelled components over time. Use it to assess whether media, baseline, trend, seasonal, and contextual movement aligns with known business conditions.
 
-Where a completed lift study or geo experiment exists, calibrate the paid channel using incremental ROAS and confidence. Calibration provides an external anchor for the model estimate.
+## Calibration summary
 
-## Improving Causal Evidence
+The calibration summary displays the experiment evidence supplied during model creation or retraining. Review the channel, experiment period, incremental efficiency, and confidence alongside the model estimate.
 
-* Include all material marketing and business drivers.
-* Avoid combining unrelated activities in one input field.
-* Maintain sufficient history and spend variation.
-* Separate highly correlated tactics where the data supports it.
-* Add relevant promotions, holidays, pricing, and competitor variables.
-* Run controlled experiments for channels with high spend and weak evidence.
-* Refresh or retrain the model when relationships have materially changed.
-
-**[VIDEO PLACEHOLDER: Investigating causal evidence across Contribution, Graph, Data, and Diagnostics]**
+**[VIDEO PLACEHOLDER: Interpreting model diagnostics from fit to decomposition]**
