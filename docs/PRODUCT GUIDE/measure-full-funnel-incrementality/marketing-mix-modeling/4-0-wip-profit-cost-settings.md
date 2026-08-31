@@ -10,7 +10,7 @@ Cost Settings define the financial assumptions used to calculate incremental pro
 
 ## Accessing Cost Settings
 
-1. Navigate to **Configurations > Cost Settings**.
+1. Select **Config** from the sidebar, then open **Cost Settings**.
 2. Select the period you want to configure.
 3. Review default, channel, model-type, and custom cost scopes.
 
