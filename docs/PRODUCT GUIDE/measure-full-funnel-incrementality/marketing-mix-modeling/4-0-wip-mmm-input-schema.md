@@ -78,7 +78,7 @@ For example, a dataset with 25 independent variables should contain at least 100
 
 ## Uploading the CSV in Lifesight 4.0
 
-1. Select **Measure > Models** and click **`Create Model`**.
+1. Select **Models** from the sidebar and click **`Create Model`**.
 2. In the Variables step, choose **Upload a CSV**.
 3. Select the date column and map the Outcome KPI.
 4. Add paid, organic, contextual, and halo variables.
