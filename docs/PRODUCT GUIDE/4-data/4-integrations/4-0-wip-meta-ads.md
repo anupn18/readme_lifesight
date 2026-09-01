@@ -4,6 +4,11 @@ excerpt: >-
   Brings Facebook and Instagram spend into Lifesight, so prospecting and
   retargeting are measured separately rather than averaged into one figure.
 hidden: true
+metadata:
+  title: Lifesight X Meta Ads
+  keywords:
+    - Lifesight
+    - Meta Ads
 ---
 Meta covers Facebook and Instagram, and for most consumer brands it is where demand gets created rather than merely captured. That makes it one of the harder channels to measure with clicks alone, because a lot of its effect shows up later and somewhere else.
 
