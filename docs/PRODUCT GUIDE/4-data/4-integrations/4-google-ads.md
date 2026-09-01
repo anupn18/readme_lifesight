@@ -79,3 +79,13 @@ Two things are worth doing straight away.
 **The integration went to Reconnect**<br />The Google account's authorisation expired or was revoked, which commonly happens when someone changes a password or leaves the company. Open the integration and sign in again. Nothing already synced is lost.
 
 **Conversions look lower than in Google Ads**<br />Google reports conversions on its own attribution window and back-dates them to the click. That is a different question from the one Lifesight is answering, and a difference here is expected rather than a fault.
+
+***
+
+## Next up
+
+Connect your:
+
+- Microsoft Ads
+- Snapchat Ads
+- Reddit Ads
