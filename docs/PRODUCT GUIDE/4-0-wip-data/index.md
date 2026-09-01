@@ -17,6 +17,8 @@ This guide walks you through connecting your sources, managing consent, and gett
   This module was previously called **Data OS**. It is now simply **Data**. The capabilities have not been removed, only renamed and reorganised
 </Callout>
 
+***
+
 ## How does data works in Lifesight
 
 Data is organised into four sections, each handling one stage of the work in sequence.
@@ -31,6 +33,10 @@ Data is organised into four sections, each handling one stage of the work in seq
 You will find these as four tabs across the top of the Data page, in the order you work through them.
 
 ![](https://files.readme.io/758260f26f51f4ae36d78e4e4e9aae4111e3c97c03f7fe2013ea72bd00632a2d-Screenshot_2026-09-01_at_11.55.15_AM.png)
+
+<br />
+
+***
 
 ## How the four steps fit together
 
@@ -55,6 +61,8 @@ This tab is where you sort campaigns into tactics(a tactic being the group you p
 <Callout icon="📘" theme="info">
   An analogy if it helps. Integrations is getting the ingredients into the kitchen. Transformation is realising that "castor sugar" and "superfine sugar" are the same thing. Taxonomy is separating the baking ingredients from the savoury ones. Schema is picking the recipe you're making tonight.
 </Callout>
+
+***
 
 ## Getting set up in order
 
@@ -93,6 +101,8 @@ A table of your campaigns with the spend behind each one, and a tactic column yo
 
 A guided flow that captures what a model is made of: the outcome you are explaining, the paid media you think drives it, the organic and contextual variables that explain the rest, and the causal relationships between them. Save it once and it becomes a reusable definition rather than a one off setup.
 
+***
+
 ## Quick example
 
 A retailer selling truck and car accessories wants to know how much of last year's revenue their paid media actually caused.
@@ -104,6 +114,8 @@ In **Data Transformation** they open Google Ads and look at the fields. `spend`*
 In **Data Taxonomy** they find 300 campaigns and, rather than working through them one by one, write three rules: names containing `Brand` become Paid Search Brand, names containing `Non Brand `become Paid Search Non-Brand, and anything on Meta with `Prospecting`in the name becomes Paid Social Prospecting. That covers most of their spend in a few minutes, and the long tail gets assigned by hand later.
 
 In **Model Schema** they create a schema called Revenue MMM, set the primary KPI to Revenue, add Google and Meta as paid media channels split by tactic, and add a contextual variable for promotional periods. That schema is what their media mix model runs on.
+
+***
 
 ## Frequently Asked questions
 
