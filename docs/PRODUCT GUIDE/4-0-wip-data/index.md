@@ -99,16 +99,34 @@ In **Data Taxonomy** they find 300 campaigns and, rather than working through th
 
 In **Model Schema** they create a schema called Revenue MMM, set the primary KPI to Revenue, add Google and Meta as paid media channels split by tactic, and add a contextual variable for promotional periods. That schema is what their media mix model runs on.
 
-## Common questions
+## Frequently Asked questions
 
-**Do I have to finish one tab before starting the next?**
-For the first source, yes, roughly. After that the tabs stop being sequential. Connecting a new integration later sends you back to Data Transformation to check its fields, but you are not starting over.
+**Do I have to finish one section before starting the next?**
+For your first source, broadly yes. After that the order matters less. Connecting a new integration later sends you back to Data Transformation to check its fields, but you are not starting over.
+
+**Why are the later sections locked when I first arrive?**
+There is nothing to map, group, or model until data is arriving. Once you have one active integration, the rest unlock. Hover over a locked one and it tells you the same thing.
 
 **What happens if I map something wrong?**
-You change it and save. Mappings are definitions, not one way imports. Corrected mappings apply going forward and to the historical data already held.
+You change it and save. Mappings are definitions, not one-way imports, so a correction applies going forward and to the historical data already held.
+
+**How long does the first sync take?**
+Longer than later refreshes, because the initial pull covers your full history. The source shows as Healthy once it completes.
+
+**Do I have to classify all my campaigns before I can model anything?**
+No. Start with the campaigns carrying the most spend and leave the long tail for later. Rules based on campaign name handle the bulk of it, and anything new gets classified the moment it appears.
+
+**What if my campaign names are inconsistent?**
+Rules will get you part of the way, and the rest can be assigned by hand. This is the part worth doing with the person who names the campaigns, since they know what the conventions were meant to mean.
+
+**Can I connect sources other than ad platforms?**
+Yes. Alongside native platform connectors, you can upload or link files and spreadsheets, or point Lifesight at tables in your own data warehouse.
+
+**What if my accounts report in different currencies?**
+Mixing currencies distorts your spend figures. Either standardize before the data arrives, or leave the mismatched account out until you have.
+
+**Do I need a separate Model Schema for every question?**
+A schema is defined around one outcome, so a different question usually means a different schema. Each one is saved and reusable, so you build it once and refresh it rather than starting again.
 
 **Who on my team should own this?**
-Integrations usually sits with whoever has admin access to the ad accounts. Data Transformation and Model Schema suit an analyst. Data Taxonomy works best when the person who names the campaigns is in the room, because they know what the naming conventions were meant to mean.
-
-**Something is not arriving. Where do I look first?**
-The Integrations tab shows a status against every source. Start there, then read the troubleshooting section on the relevant platform page.
+Integrations usually sits with whoever has admin access to the ad accounts. Data Transformation and Model Schema suit an analyst. Data Taxonomy works best with the person who names the campaigns.
