@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] RTB House'
+title: '[4.0][Updated] RTB House'
 excerpt: >-
   Connect RTB House to see what personalized retargeting actually returns, and
   whether it earns more budget.
