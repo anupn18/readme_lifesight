@@ -3,7 +3,7 @@ title: '[4.0][WIP] Data'
 excerpt: >-
   Bring your marketing and business data into Lifesight, give it a shared
   vocabulary, and shape it into the inputs your models run on.
-hidden: false
+hidden: true
 ---
 Every number Lifesight shows you starts life somewhere else. It starts as a row in Google Ads, a line in a Shopify order, a column in a spreadsheet someone on your finance team maintains. The **Data** module is where all of that arrives, gets cleaned up, and gets turned into something a model can actually use.
 
