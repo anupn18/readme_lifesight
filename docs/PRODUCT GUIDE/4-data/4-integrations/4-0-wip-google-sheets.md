@@ -1,8 +1,8 @@
 ---
-title: '[4.0][WIP] Google Sheets'
+title: '[4.0][Updated] Google Sheets'
 excerpt: >-
-  Link a Google Sheet so data your team maintains by hand refreshes into
-  Lifesight automatically.
+  Link Google Sheet so data your team maintains by hand refreshes into Lifesight
+  automatically.
 hidden: true
 ---
 A surprising amount of important data lives in a spreadsheet somebody maintains. Cost of goods by product. The promotional calendar. Spend on a channel too small to have a connector. Offline sales typed up from weekly reports.
