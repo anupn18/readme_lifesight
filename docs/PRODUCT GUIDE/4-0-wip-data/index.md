@@ -5,9 +5,13 @@ excerpt: >-
   sources and shape it into the inputs your models run on.
 hidden: true
 ---
-Every number Lifesight shows you starts life somewhere else. It starts as a row in Google Ads, a line in a Shopify order, a column in a spreadsheet someone on your finance team maintains. The **Data** module is where all of that arrives, gets cleaned up, and gets turned into something a model can actually use.
+Every number Lifesight shows you starts somewhere else: a row in Google Ads, a line in a Shopify order, a column in someone's spreadsheet. Data brings all of it together, maps it to one set of definitions, and keeps it current, so your team works from one set of numbers instead of stitching them together by hand.
 
-If you are new to Lifesight, this is the first place you will spend real time, and it is worth doing carefully. Nothing downstream can be better than the data underneath it. A media mix model that reports the wrong revenue is not a modelling problem. It is a data problem, and it gets solved here.
+Data is the foundation of the platform. It supports a wide range of source and destination integrations, so your marketing, business, and customer data is ready to use in analytics, modeling, and experiments.
+
+Nothing downstream can be better than the data underneath it. A media mix model that reports the wrong revenue is not a modeling problem. It is a data problem, and it gets solved here.
+
+This guide walks you through connecting your sources, managing consent, and getting your data ready to use.
 
 > This module was previously called **Data OS**. It is now simply **Data**. The capabilities have not been removed, only renamed and reorganised.
 
@@ -15,12 +19,12 @@ If you are new to Lifesight, this is the first place you will spend real time, a
 
 Think of it as four jobs, done in order.
 
-| Job | Sub-tab | The question it answers |
-| --- | --- | --- |
-| Bring the data in | **Integrations** | Where does our data come from, and is it arriving? |
-| Give it a shared vocabulary | **Data Transformation** | What does each column actually mean in Lifesight terms? |
-| Group it the way the business thinks | **Data Taxonomy** | Which campaigns belong to which tactic? |
-| Shape it for a model | **Model Schema** | Which fields go into this particular model, and how? |
+| Job                                  | Sub-tab                 | The question it answers                                 |
+| ------------------------------------ | ----------------------- | ------------------------------------------------------- |
+| Bring the data in                    | **Integrations**        | Where does our data come from, and is it arriving?      |
+| Give it a shared vocabulary          | **Data Transformation** | What does each column actually mean in Lifesight terms? |
+| Group it the way the business thinks | **Data Taxonomy**       | Which campaigns belong to which tactic?                 |
+| Shape it for a model                 | **Model Schema**        | Which fields go into this particular model, and how?    |
 
 You will find these as four tabs across the top of the Data page, in the order you work through them.
 
