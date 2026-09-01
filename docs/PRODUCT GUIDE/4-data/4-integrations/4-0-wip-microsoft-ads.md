@@ -4,6 +4,11 @@ excerpt: >-
   Connect Microsoft Ads to see what Bing search actually contributes, and
   whether it earns more budget.
 hidden: true
+metadata:
+  title: Lifesight X Microsoft
+  keywords:
+    - Lifesight
+    - Microsoft Ads
 ---
 Microsoft Advertising serves ads across Bing and the wider Microsoft Search and Audience Networks.
 
