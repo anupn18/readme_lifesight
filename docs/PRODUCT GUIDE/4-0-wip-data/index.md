@@ -34,8 +34,6 @@ You will find these as four tabs across the top of the Data page, in the order y
 
 ![](https://files.readme.io/758260f26f51f4ae36d78e4e4e9aae4111e3c97c03f7fe2013ea72bd00632a2d-Screenshot_2026-09-01_at_11.55.15_AM.png)
 
-<br />
-
 ***
 
 ## How the four steps fit together
@@ -80,6 +78,8 @@ A sensible first pass looks like this.
 <Callout icon="📘" theme="info">
   Steps 1 to 4 are usually one sitting. Steps 5 and 6 benefit from a conversation with whoever runs the campaigns, because they involve judgement about how your marketing is actually organised
 </Callout>
+
+***
 
 ## From connected source to model-ready data
 
