@@ -4,12 +4,19 @@ excerpt: >-
   Connect Snapchat Ads so vertical video and AR spend is measured on the same
   basis as your other channels.
 hidden: true
+metadata:
+  title: Lifesight X Snapchat
+  keywords:
+    - Lifesight
+    - Snapchat
 ---
 Snapchat reaches a predominantly Gen Z and Millennial audience through mobile first vertical video and augmented reality formats. It tends to drive attention and brand engagement rather than a click that closes immediately, which makes it exactly the sort of channel that looks weak in last click reporting and considerably stronger in a properly specified model.
 
 Connecting Snapchat means its contribution gets measured rather than assumed.
 
-> **Work in progress.** In the 4.0 build this connector is not yet selectable from the **Add Integration** catalogue. The steps below describe the connection flow it will use, and match how Snapchat Ads works in the current production release.
+<Callout icon="📘" theme="info">
+  **Work in progress.** In the 4.0 build this connector is not yet selectable from the **Add Integration** catalogue. The steps below describe the connection flow it will use, and match how Snapchat Ads works in the current production release.
+</Callout>
 
 ## What Lifesight brings in
 
@@ -22,13 +29,13 @@ Lifesight reads the Snapchat hierarchy:
 
 The data pulled includes:
 
-| Category | Data points |
-| --- | --- |
-| Performance metrics | Spend, Impressions, Swipe Ups, Click Through Rate, Video Views |
-| Conversion metrics | Purchases, Add to Cart, Sign Ups, Conversion Value |
-| Cost metrics | Cost Per Click, Cost Per Mille |
-| Hierarchy dimensions | Account Name, Campaign Name, Ad Squad Name, Ad Name |
-| Targeting dimensions | Country, Region, Device, Objective |
+| Category             | Data points                                                    |
+| -------------------- | -------------------------------------------------------------- |
+| Performance metrics  | Spend, Impressions, Swipe Ups, Click Through Rate, Video Views |
+| Conversion metrics   | Purchases, Add to Cart, Sign Ups, Conversion Value             |
+| Cost metrics         | Cost Per Click, Cost Per Mille                                 |
+| Hierarchy dimensions | Account Name, Campaign Name, Ad Squad Name, Ad Name            |
+| Targeting dimensions | Country, Region, Device, Objective                             |
 
 ## Before you start
 
@@ -48,6 +55,8 @@ You need a Snapchat account with access to the Snapchat Ads accounts you want to
 Check the field mappings in **Data > Data Transformation**, then classify the campaigns in **Data > Data Taxonomy**.
 
 Snapchat is usually best treated as an upper funnel tactic. If you classify it alongside your other video and awareness activity rather than lumping it in with performance channels, the model can estimate the effect of that whole tier of spend rather than trying to explain one small platform on its own.
+
+***
 
 ## Troubleshooting
 
