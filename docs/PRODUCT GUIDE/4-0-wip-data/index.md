@@ -52,8 +52,6 @@ This tab is where you sort campaigns into tactics(a tactic being the group you p
 
 ![](https://files.readme.io/214d27c0b8f8ef23bd5d41b1f469e7708ed8110b66a55af51480fc26444e5df7-Screenshot_2026-09-01_at_11.56.56_AM.png)
 
-<br />
-
 <Callout icon="📘" theme="info">
   An analogy if it helps. Integrations is getting the ingredients into the kitchen. Transformation is realising that "castor sugar" and "superfine sugar" are the same thing. Taxonomy is separating the baking ingredients from the savoury ones. Schema is picking the recipe you're making tonight.
 </Callout>
@@ -95,7 +93,7 @@ A table of your campaigns with the spend behind each one, and a tactic column yo
 
 A guided flow that captures what a model is made of: the outcome you are explaining, the paid media you think drives it, the organic and contextual variables that explain the rest, and the causal relationships between them. Save it once and it becomes a reusable definition rather than a one off setup.
 
-## A worked example
+## Quick example
 
 A retailer selling truck and car accessories wants to know how much of last year's revenue their paid media actually caused.
 
