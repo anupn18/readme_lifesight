@@ -13,7 +13,9 @@ Nothing downstream can be better than the data underneath it. A media mix model 
 
 This guide walks you through connecting your sources, managing consent, and getting your data ready to use.
 
-> This module was previously called **Data OS**. It is now simply **Data**. The capabilities have not been removed, only renamed and reorganised.
+<Callout icon="📘" theme="info">
+  This module was previously called **Data OS**. It is now simply **Data**. The capabilities have not been removed, only renamed and reorganised
+</Callout>
 
 ## How does data works in Lifesight
 
@@ -50,7 +52,9 @@ Data setup looks like one big task. Splitting it into four keeps each decision w
 
 <br />
 
-An analogy if it helps. Integrations is getting the ingredients into the kitchen. Transformation is realizing that "castor sugar" and "superfine sugar" are the same thing. Taxonomy is separating the baking ingredients from the savoury ones. Schema is picking the recipe you're making tonight.
+<Callout icon="📘" theme="info">
+  An analogy if it helps. Integrations is getting the ingredients into the kitchen. Transformation is realizing that "castor sugar" and "superfine sugar" are the same thing. Taxonomy is separating the baking ingredients from the savoury ones. Schema is picking the recipe you're making tonight.
+</Callout>
 
 ## Getting set up in order
 
@@ -65,7 +69,9 @@ A sensible first pass looks like this.
 5. **Assign tactics in Data Taxonomy.** Start with the campaigns carrying the most spend. There is no need to classify everything on day one.
 6. **Build a Model Schema last.&#x20;**&#x49;t is defined around a specific question, so it comes once you know what you want to measure.
 
-_Steps 1 to 4 are usually one sitting. Steps 5 and 6 benefit from a conversation with whoever runs the campaigns, because they involve judgement about how your marketing is actually organised._
+<Callout icon="📘" theme="info">
+  Steps 1 to 4 are usually one sitting. Steps 5 and 6 benefit from a conversation with whoever runs the campaigns, because they involve judgement about how your marketing is actually organised
+</Callout>
 
 ## From connected source to model-ready data
 
