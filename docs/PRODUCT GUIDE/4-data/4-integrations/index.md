@@ -104,35 +104,39 @@ Once connected, each source becomes a row.
 
 What is actually arriving. A date range selector sits at the top, and under it the headline numbers this source has delivered over that window: **Spend**, **Impressions**, **Clicks** and **Attributed Revenue**, charted over time.
 
-This is the tab to open when a number looks wrong somewhere else in the platform, because it answers the first question worth asking: is the data arriving at all, and does its shape look sane. A flat line where there should be spend, or a sudden step change, usually points at a sync problem or an account that stopped being included.
+Open this tab(overview) first when a number looks wrong elsewhere in the platform, because it answers the question worth asking up front: is the data coming through, and does its shape look right. A flat line where there should be spend, or a sudden step change, usually points to a sync issue or an account that stopped being included.
 
-If the source is connected and syncing but its fields have not been mapped yet, this tab will say so rather than showing empty charts. That is a pointer to [Data Transformation](https://docs.lifesight.io/docs/4-0-wip-data-transformation), not a fault with the connection.
+If the source is connected and syncing but its fields have not been mapped yet, this tab will tell you so rather than show empty charts.That points you to [Data Transformation](https://docs.lifesight.io/docs/4-0-wip-data-transformation), and is not a fault with the connection.
 
-![An integration's Overview tab](https://files.readme.io/f53f8528b8fa60b350fca5319777287da38dd427a29e2e0f04863c9ebed8290e-integration-detail-overview.png)
+![](https://files.readme.io/db92e0d8d9f302af7db9992eceaf795fe8609b0687526a069b8d04dfd242ebd3-Screenshot_2026-09-01_at_4.38.22_PM.png)
 
-### Context
-
-What this source is used for downstream. It answers the question people ask before touching anything: if I pause or remove this, what breaks.
-
-Worth checking before you disconnect a source or deselect an account, because a source feeding a live model is not one to experiment with casually.
+<br />
 
 ***
 
 ### Configure
 
-Where you change how the integration behaves. It has three parts.
+The Configure tab is where you change how an integration behaves. It has three sections.
 
-**Connection Details** is read-only reference: the date it was connected, the refresh frequency, the timezone the data is reported in, and the connection type. The timezone is the one people forget, and it explains most small discrepancies against a platform's own dashboard.
+**Connection Details** is read-only reference: the date the source was connected, the refresh frequency, the timezone the data is reported in, and the connection type. Timezone is the one people overlook, and it explains most small discrepancies against a platform's own dashboard.
 
-**Accounts** lists every account under this integration with a checkbox each, and a count such as "5 of 5 selected". Selected accounts sync into Lifesight. Deselect one to stop new data arriving from it. Accounts created after the integration was set up are marked **New**, which is how you notice that someone in the business opened an ad account nobody told you about.
+**Accounts lists** every account under this integration with a checkbox against each, and a count such as "5 of 5 selected". Selected accounts sync into Lifesight; deselect one to stop new data coming in from it. Accounts created after the integration was set up are flagged New, which is how you catch an ad account someone opened without telling you. None of these changes take effect until you apply them, so you can review the full selection before committing.
 
-Nothing here takes effect until you apply the changes, so you can review the whole selection before committing.
-
-**Configuration** holds the destructive action: removing the integration and its data. Check the Context tab first.
+**Configuration holds the destructive action:** removing the integration and the data it brought in. Check the Context tab before you do.&#x20;
 
 For CSV and Excel sources this tab also offers re-upload, which is how you refresh a file without creating a second integration and splitting its history.
 
 ![An integration's Configure tab](https://files.readme.io/e5263726212c9cff09c3dd19024bd805e232d6c3fa996e153d5d94c0d1173c9a-integration-detail-configure.png)
+
+<br />
+
+***
+
+### Context (Coming Soon)
+
+What this source is used for downstream. It answers the question people ask before touching anything: if I pause or remove this, what breaks.
+
+Worth checking before you disconnect a source or deselect an account, because a source feeding a live model is not one to experiment with casually.
 
 ## What the statuses mean
 
