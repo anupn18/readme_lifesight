@@ -21,10 +21,10 @@ Connecting it means it gets measured on the same basis as everything else rather
 
 Lifesight reads the account hierarchy:
 
-- **Account** the Microsoft Advertising account
-- **Campaign** where objective and budget are set
-- **Ad Group** targeting and keyword themes
-- **Ad** the individual creative
+- **Account&#x20;**- the Microsoft Advertising account
+- **Campaign -** where objective and budget are set
+- **Ad Group -** targeting and keyword themes
+- **Ad -** the individual creative
 
 The data pulled includes:
 
@@ -55,12 +55,16 @@ The first sync covers your history. The integration shows **Healthy** once it co
 
 Open **Data > Data Transformation**, find Microsoft Ads, and confirm spend and revenue are mapped to the fields you expect.
 
+![](https://files.readme.io/6b4ec226d066ad19b649c2c31db383db75fabaf5c3315ff64748479c74e67ecf-Screenshot_2026-09-01_at_5.13.04_PM.png)
+
+<br />
+
 In **Data > Data Taxonomy**, apply the same brand and non-brand split you used for Google. Search behaves the same way regardless of which search engine served it, and keeping the two platforms classified consistently is what lets you compare them fairly.
 
 ## Troubleshooting
 
-**Accounts are missing from the list.** The Microsoft login you used does not have access. Sign in with a manager account, or have access granted to your user first.
+**Accounts are missing from the list**<br />The Microsoft login you used does not have access. Sign in with a manager account, or have access granted to your user first.
 
-**Spend does not match the Microsoft interface.** Check the account timezone and confirm every relevant account was selected. Microsoft finalises some numbers over a few days, so very recent dates can move slightly.
+**Spend does not match the Microsoft interface**<br />Check the account timezone and confirm every relevant account was selected. Microsoft finalises some numbers over a few days, so very recent dates can move slightly.
 
-**The integration went to Reconnect.** The Microsoft authorisation expired or was revoked. Open the integration and sign in again.
+**The integration went to Reconnect**<br /> The Microsoft authorisation expired or was revoked. Open the integration and sign in again.
