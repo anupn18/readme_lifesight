@@ -20,7 +20,7 @@ Nothing downstream can be better than the data underneath it. A media mix model 
 This guide walks you through connecting your sources, managing consent, and getting your data ready to use.
 
 <Callout icon="📘" theme="info">
-  This module was previously called **Data OS**. It is now simply **Data**. The capabilities have not been removed, only renamed and reorganised
+  This module was previously called **Data OS**. It is now simply **Data**. The capabilities have not been removed, only renamed and reorganised.
 </Callout>
 
 ***
@@ -82,7 +82,7 @@ A sensible first pass looks like this.
 6. **Build a Model Schema last.&#x20;**&#x49;t is defined around a specific question, so it comes once you know what you want to measure.
 
 <Callout icon="📘" theme="info">
-  Steps 1 to 4 are usually one sitting. Steps 5 and 6 benefit from a conversation with whoever runs the campaigns, because they involve judgement about how your marketing is actually organised
+  Steps 1 to 4 are usually one sitting. Steps 5 and 6 benefit from a conversation with whoever runs the campaigns, because they involve judgement about how your marketing is actually organised.
 </Callout>
 
 ***
