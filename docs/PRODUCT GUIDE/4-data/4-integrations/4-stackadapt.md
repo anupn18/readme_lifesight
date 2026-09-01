@@ -25,13 +25,13 @@ Lifesight reads every level of the StackAdapt structure:
 
 The data pulled includes:
 
-| Category | Data points |
-| --- | --- |
-| Performance metrics | Spend (media cost), Impressions, Unique Impressions, Clicks, Click Through Rate, Video Views and Completions |
-| Conversion metrics | Conversions, Conversion Rate, Return on Ad Spend |
-| Cost metrics | Cost Per Click, Cost Per Mille, Cost Per Engagement |
-| Hierarchy dimensions | Advertiser, Campaign Group, Campaign Name, Ad or Creative Name |
-| Targeting dimensions | Geo, Device, Channel, Audience Segment |
+| Category             | Data points                                                                                                  |
+| -------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Performance metrics  | Spend (media cost), Impressions, Unique Impressions, Clicks, Click Through Rate, Video Views and Completions |
+| Conversion metrics   | Conversions, Conversion Rate, Return on Ad Spend                                                             |
+| Cost metrics         | Cost Per Click, Cost Per Mille, Cost Per Engagement                                                          |
+| Hierarchy dimensions | Advertiser, Campaign Group, Campaign Name, Ad or Creative Name                                               |
+| Targeting dimensions | Geo, Device, Channel, Audience Segment                                                                       |
 
 ## Before you start
 
@@ -68,6 +68,8 @@ Lifesight begins its initial pull. This can take a while depending on how much h
 Check the field mappings in **Data > Data Transformation**. Programmatic sources often report spend as media cost, so confirm that the field mapped to Spend is the one your finance team would recognise as what you actually paid.
 
 Then classify the campaigns in **Data > Data Taxonomy**. StackAdapt is worth splitting by format rather than treating as one channel, because CTV and native display do very different jobs and deserve to be measured separately.
+
+***
 
 ## Troubleshooting
 
