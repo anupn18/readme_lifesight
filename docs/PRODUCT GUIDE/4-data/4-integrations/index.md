@@ -7,7 +7,8 @@ hidden: true
 metadata:
   title: Lifesight Integrations
   keywords:
-    - Lifesight Integrations
+    - Lifesight
+    - Integrations
 ---
 An integration is a standing permission for Lifesight to read data from another platform on your behalf. You connect the source once, and Lifesight refreshes it on a set schedule, so your reports and models stay updated with the latest data without anyone exporting a CSV every Monday.
 
