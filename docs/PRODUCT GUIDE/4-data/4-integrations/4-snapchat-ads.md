@@ -54,6 +54,8 @@ You need a Snapchat account with access to the Snapchat Ads accounts you want to
 
 Check the field mappings in **Data > Data Transformation**, then classify the campaigns in **Data > Data Taxonomy**.
 
+<br />
+
 Snapchat is usually best treated as an upper funnel tactic. If you classify it alongside your other video and awareness activity rather than lumping it in with performance channels, the model can estimate the effect of that whole tier of spend rather than trying to explain one small platform on its own.
 
 ***
