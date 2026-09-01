@@ -13,13 +13,13 @@ An integration is a standing permission for Lifesight to read data from somewher
 
 This tab does two jobs. It is where you add new sources, and it is where you check that the ones you already added are still healthy.
 
-![]()
+![](https://files.readme.io/839d5610ce8c99cf2b8525e5ee0780a511a57225c841916a1314fd3bb55f7d86-Screenshot_2026-09-01_at_3.19.04_PM.png)
 
 <br />
 
-![The Integrations tab listing connected sources with their status](https://files.readme.io/85c8e00f5f9ed1abf12c7963ef0224fd16faec6133a89a8c12812f9e1fe4e39c-integrations-list.png)
+***
 
-## The three kinds of source
+## Three Kind of Data Sources
 
 When you click **Add Integration** you land on the catalogue, which is grouped into tabs.
 
@@ -31,11 +31,11 @@ When you click **Add Integration** you land on the catalogue, which is grouped i
 
 **App Wishlist** is where you tell us about a platform we do not support yet. Requesting it registers a vote, and requests with the most demand get built first.
 
-![The integration catalogue, grouped by type](https://files.readme.io/c29298424d6056060c786551407d23dbbab7fa21e688108dd939cc093e9870eb-integrations-catalog.png)
+![](https://files.readme.io/6f24d91fda829475d15f4f3a0df8db9d59bb7548411e603a417dad2b5069377d-Screenshot_2026-09-01_at_3.20.03_PM.png)
 
-## Adding an integration
+## Adding an Integration
 
-The exact steps depend on how the platform authenticates, but the shape is always the same.
+The exact steps depend on how the platform authenticates, but the mostly its always the same.
 
 ### Platforms you sign in to
 
@@ -54,13 +54,21 @@ Most ad platforms use this flow. It has two steps.
 
 6. Click **Connect** to finish.
 
-A note on which accounts to select: pick the accounts whose spend you want measured, and leave out test accounts, dormant accounts, and accounts that report in a currency you are not modelling in. You can add or remove accounts later without redoing the sign in.
+<Callout icon="📘" theme="info">
+  Pick the accounts whose spend you want measured, and leave out test accounts, dormant accounts, and accounts that report in a currency you are not modelling in. You can add or remove accounts later without redoing the sign in.
+</Callout>
 
-### Platforms that use an API key
+***
 
-Some platforms, StackAdapt among them, authenticate with a key you generate inside the platform rather than by signing in. The flow is the same except that step 3 asks you to paste the key instead of redirecting you. Each platform page in this section tells you exactly where to find its key.
+### Platforms That Use an API Key
 
-### Files and spreadsheets
+Some platforms, StackAdapt among them, authenticate with a key you generate inside the platform rather than by signing in. The flow is the same except that step 3 asks you to paste the key instead of redirecting you.&#x20;
+
+Each platform page in this section tells you exactly where to find its key.
+
+***
+
+### Files and Spreadsheets
 
 File based sources use a slightly different wizard, because there is no account to select and Lifesight has to work out what your columns mean.
 
@@ -68,9 +76,11 @@ File based sources use a slightly different wizard, because there is no account 
 2. **Data setup.** Lifesight previews the file and proposes what each column is. This is your chance to correct it before anything is imported.
 3. **Schedule.** For linked sources such as Google Sheets, choose how often Lifesight should re-read it.
 
-See [CSV Import](https://docs.lifesight.io/docs/4-0-wip-csv-import) and [Google Sheets](https://docs.lifesight.io/docs/4-0-wip-google-sheets) for the detail.
+See [CSV Import](https://docs.lifesight.io/docs/4-0-wip-csv-import) and [Google Sheets](https://docs.lifesight.io/docs/4-0-wip-google-sheets) for more details.
 
-## Reading the integrations table
+***
+
+## Reading the Integrations Table
 
 Once connected, each source becomes a row.
 
@@ -83,6 +93,12 @@ Once connected, each source becomes a row.
 | **Last Data Sync**   | When fresh data last landed. If this is older than you expect, something has stalled.    |
 
 **View Details** opens the source, which has three tabs.
+
+![](https://files.readme.io/11ba54579213686dc81e064ac8c991d7357d077f66924ef26bc70ee4ad8dc715-Screenshot_2026-09-01_at_3.31.00_PM.png)
+
+<br />
+
+***
 
 ### Overview
 
@@ -99,6 +115,8 @@ If the source is connected and syncing but its fields have not been mapped yet, 
 What this source is used for downstream. It answers the question people ask before touching anything: if I pause or remove this, what breaks.
 
 Worth checking before you disconnect a source or deselect an account, because a source feeding a live model is not one to experiment with casually.
+
+***
 
 ### Configure
 
@@ -131,7 +149,7 @@ For CSV and Excel sources this tab also offers re-upload, which is how you refre
 | **Not Connected**              | In the catalogue, not yet set up.                                                                                                                      | Connect it.                                                               |
 | **Requested**                  | You asked for a connector that does not exist yet.                                                                                                     | Nothing to do. We will let you know.                                      |
 
-## Managing an integration after setup
+## Managing an Integration After Setup
 
 **Add or remove accounts.** Open the integration, go to Configure, and change the selection. Removing an account stops future syncs for it.
 
@@ -140,6 +158,8 @@ For CSV and Excel sources this tab also offers re-upload, which is how you refre
 **Pause.** Useful when you are troubleshooting or when a platform is mid migration and returning nonsense. Pausing keeps everything you already have.
 
 **Remove.** Disconnects the source. Do this deliberately, because downstream models that depend on the source will be affected.
+
+***
 
 ## Troubleshooting
 
@@ -151,16 +171,20 @@ For CSV and Excel sources this tab also offers re-upload, which is how you refre
 
 **The status keeps flipping to Sync Error.** Check whether the account is rate limited or whether the platform has an incident. If it continues past a day, contact support with the integration name and the time the errors started.
 
-## Platform guides
+***
+
+## Next up
+
+### Platform guides
 
 The pages below cover what each source provides, what you need before you start, and the exact steps for that platform.
 
-- [Meta Ads](https://docs.lifesight.io/docs/4-0-wip-meta-ads)
-- [Google Ads](https://docs.lifesight.io/docs/4-0-wip-google-ads)
-- [Microsoft Ads](https://docs.lifesight.io/docs/4-0-wip-microsoft-ads)
-- [Snapchat Ads](https://docs.lifesight.io/docs/4-0-wip-snapchat-ads)
-- [Reddit Ads](https://docs.lifesight.io/docs/4-0-wip-reddit-ads)
+- <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-meta-ads">Meta Ads</Anchor>
+- <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-google-ads">Google Ads</Anchor>
+- <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-microsoft-ads">Microsoft Ads</Anchor>
+- <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-snapchat-ads">Snapchat Ads</Anchor>
+- <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-reddit-ads">Reddit Ads</Anchor>
 - [RTB House](https://docs.lifesight.io/docs/4-0-wip-rtb-house)
-- [StackAdapt](https://docs.lifesight.io/docs/4-0-wip-stackadapt)
-- [CSV Import](https://docs.lifesight.io/docs/4-0-wip-csv-import)
-- [Google Sheets](https://docs.lifesight.io/docs/4-0-wip-google-sheets)
+- <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-stackadapt">StackAdapt</Anchor>
+- <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-csv-import">CSV Import</Anchor>
+- <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-google-sheets">Google Sheets</Anchor>
