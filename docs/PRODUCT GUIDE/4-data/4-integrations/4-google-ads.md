@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Google Ads'
+title: '[4.0][Updated] Google Ads'
 excerpt: >-
   Connect your Google Ads accounts to measure search, shopping, video and
   Performance Max spend alongside every other channel in Lifesight.
