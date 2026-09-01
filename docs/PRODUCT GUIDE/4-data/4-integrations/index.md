@@ -1,5 +1,5 @@
 ---
-title: '[4.0][] Integrations'
+title: '[4.0][Updated] Integrations'
 excerpt: >-
   Connect your ad platforms, files, and warehouses to Lifesight, and keep an eye
   on whether the data is still populating..
