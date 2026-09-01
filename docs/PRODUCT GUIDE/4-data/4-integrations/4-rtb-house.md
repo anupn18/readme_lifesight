@@ -24,12 +24,12 @@ Lifesight reads the account hierarchy:
 
 The data pulled includes:
 
-| Category | Data points |
-| --- | --- |
-| Performance metrics | Spend, Impressions, Clicks, Click Through Rate |
-| Conversion metrics | Conversions, Conversion Value, Return on Ad Spend |
-| Cost metrics | Cost Per Click, Cost Per Mille |
-| Hierarchy dimensions | Advertiser, Campaign Name, Creative Name |
+| Category             | Data points                                       |
+| -------------------- | ------------------------------------------------- |
+| Performance metrics  | Spend, Impressions, Clicks, Click Through Rate    |
+| Conversion metrics   | Conversions, Conversion Value, Return on Ad Spend |
+| Cost metrics         | Cost Per Click, Cost Per Mille                    |
+| Hierarchy dimensions | Advertiser, Campaign Name, Creative Name          |
 
 ## Before you start
 
@@ -55,6 +55,8 @@ You need RTB House account credentials with access to the advertiser accounts yo
 Check the field mappings in **Data > Data Transformation**, then classify the campaigns in **Data > Data Taxonomy**.
 
 Give RTB House retargeting its own tactic rather than merging it into a general programmatic bucket. Retargeting and prospecting behave so differently that combining them produces an average that describes neither.
+
+***
 
 ## Troubleshooting
 
