@@ -3,7 +3,7 @@ title: '[4.0][WIP] Reddit Ads'
 excerpt: >-
   Connect Reddit Ads to bring community driven advertising into your unified
   measurement.
-hidden: false
+hidden: true
 ---
 Reddit advertising reaches people inside communities organised around genuine interest, which makes it useful for categories where people research carefully before buying. The Reddit Ads API lets Lifesight pull campaign and account data programmatically, so you get reporting without anyone opening Reddit Ads Manager to export it.
 

@@ -3,7 +3,7 @@ title: '[4.0][WIP] Set a fixed value for a source'
 excerpt: >-
   Stamp the same value on every row from a source, so data that is missing a
   column still lines up with everything else.
-hidden: false
+hidden: true
 ---
 Sometimes the information you need is true of a whole source but appears nowhere in its data. A file of UK store sales has no country column, because whoever built it knew every row was the United Kingdom. A partner's monthly report has no channel column, because the partner only does one thing.
 

@@ -3,7 +3,7 @@ title: '[4.0][WIP] CSV Import'
 excerpt: >-
   Upload a CSV when the data you need does not live in a platform Lifesight can
   connect to directly.
-hidden: false
+hidden: true
 ---
 Not everything that drives your business sits in an ad platform. Offline retail sales, wholesale orders, a sponsorship deal invoiced quarterly, cost of goods maintained by finance, a partner who emails a spreadsheet every month. CSV import is how that data gets into Lifesight.
 

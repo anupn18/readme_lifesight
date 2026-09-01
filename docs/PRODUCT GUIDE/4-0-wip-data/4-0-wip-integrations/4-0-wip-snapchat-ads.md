@@ -3,7 +3,7 @@ title: '[4.0][WIP] Snapchat Ads'
 excerpt: >-
   Connect Snapchat Ads so vertical video and AR spend is measured on the same
   basis as your other channels.
-hidden: false
+hidden: true
 ---
 Snapchat reaches a predominantly Gen Z and Millennial audience through mobile first vertical video and augmented reality formats. It tends to drive attention and brand engagement rather than a click that closes immediately, which makes it exactly the sort of channel that looks weak in last click reporting and considerably stronger in a properly specified model.
 

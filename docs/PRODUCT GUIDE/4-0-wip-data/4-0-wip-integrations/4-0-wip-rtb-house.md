@@ -3,7 +3,7 @@ title: '[4.0][WIP] RTB House'
 excerpt: >-
   Connect RTB House to bring personalised retargeting spend into your unified
   measurement.
-hidden: false
+hidden: true
 ---
 RTB House is a demand side platform specialising in personalised retargeting and brand awareness campaigns using deep learning bidding. Its campaigns typically run alongside your other display and programmatic activity, and they are frequently over credited by last click reporting because retargeting reaches people who were already close to buying.
 

@@ -3,7 +3,7 @@ title: '[4.0][WIP] Map a field from a source'
 excerpt: >-
   Point a column in your source at a Lifesight field, so the number it carries
   can be read by models and reports.
-hidden: false
+hidden: true
 ---
 This is the everyday case in Data Transformation. A source produces a column, that column genuinely holds the thing you want, and your job is to say which Lifesight field it becomes.
 

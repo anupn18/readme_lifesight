@@ -3,7 +3,7 @@ title: '[4.0][WIP] Build a schema for Marketing Mix Modelling'
 excerpt: >-
   Define the KPI, media and context for a mix model, so it can decompose what
   actually drove your results.
-hidden: false
+hidden: true
 ---
 A mix model answers one question: of everything that happened last year, how much of the outcome did each thing cause. To answer it, the model needs to know what the outcome is, what you spent, and what else was going on that had nothing to do with your marketing.
 

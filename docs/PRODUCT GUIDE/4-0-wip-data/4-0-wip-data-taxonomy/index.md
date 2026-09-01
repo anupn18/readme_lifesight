@@ -3,7 +3,7 @@ title: '[4.0][WIP] Data Taxonomy'
 excerpt: >-
   Group your campaigns into tactics so that measurement reflects how your
   marketing actually works, not how your campaigns happen to be named.
-hidden: false
+hidden: true
 ---
 Ad platforms organise spend the way the platform wants to organise it: by account, campaign, ad set, ad. That structure is useful for running campaigns and close to useless for measuring them, because two campaigns sitting next to each other in the same account can be doing completely different jobs.
 

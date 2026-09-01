@@ -3,7 +3,7 @@ title: '[4.0][WIP] Data Transformation'
 excerpt: >-
   Turn the raw columns your sources produce into the shared set of Lifesight
   fields that every model and report reads from.
-hidden: false
+hidden: true
 ---
 Every platform names things its own way. Google Ads gives you a column called `spend`. Meta gives you one called `spend` too, but its `attributed_revenue` counts conversions on a different window. A spreadsheet from your finance team might call the same idea `Media Investment`. None of that matters to the people running campaigns, and it matters enormously to a model, which needs one definition of spend rather than four.
 

@@ -3,7 +3,7 @@ title: '[4.0][WIP] Microsoft Ads'
 excerpt: >-
   Connect Microsoft Advertising to bring Bing search spend into the same
   measurement as the rest of your media.
-hidden: false
+hidden: true
 ---
 Microsoft Advertising serves ads across Bing and the wider Microsoft Search and Audience Networks. It is usually a smaller line than Google, and it is frequently left out of measurement for that reason, which is a mistake. Its audience skews towards desktop, older, and higher income users, so it often converts at a cost per acquisition that would be worth more budget if anyone had checked.
 

@@ -3,7 +3,7 @@ title: '[4.0][WIP] StackAdapt'
 excerpt: >-
   Connect your StackAdapt programmatic account with an API key to bring native,
   display, video, CTV and audio spend into measurement.
-hidden: false
+hidden: true
 ---
 StackAdapt is a programmatic advertising platform that lets you plan and run campaigns across native, display, video, connected TV, audio, in-game and digital out of home, alongside email. Because it spans so many formats, its spend is easy to under measure: much of it is upper funnel activity that never produces a click you can follow.
 

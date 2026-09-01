@@ -3,7 +3,7 @@ title: '[4.0][WIP] Build a schema for Geo Experiments'
 excerpt: >-
   Define the KPI and geographic dimension a geo test needs, so incremental lift
   can be measured against matched control regions.
-hidden: false
+hidden: true
 ---
 A geo experiment measures incrementality by doing something different in one set of regions and not in another, then comparing what happened. It is the closest thing to a controlled experiment that most marketing can run, and it produces evidence rather than an estimate.
 

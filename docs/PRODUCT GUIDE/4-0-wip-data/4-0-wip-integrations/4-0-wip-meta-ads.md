@@ -3,7 +3,7 @@ title: '[4.0][WIP] Meta Ads'
 excerpt: >-
   Connect Facebook and Instagram advertising so prospecting and retargeting can
   be measured separately rather than averaged together.
-hidden: false
+hidden: true
 ---
 Meta covers Facebook and Instagram, and for most consumer brands it is where demand gets created rather than merely captured. That makes it one of the harder channels to measure with clicks alone, because a lot of its effect shows up later and somewhere else.
 

@@ -3,7 +3,7 @@ title: '[4.0][WIP] Assign tactics by hand'
 excerpt: >-
   Classify campaigns into tactics one selection at a time, which is the fastest
   way to cover most of your spend on day one.
-hidden: false
+hidden: true
 ---
 Manual assignment is how most people start, and it is the right choice for the first pass and for the awkward long tail that no rule will ever catch cleanly.
 

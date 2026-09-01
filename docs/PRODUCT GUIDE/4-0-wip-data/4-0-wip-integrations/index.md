@@ -3,7 +3,7 @@ title: '[4.0][WIP] Integrations'
 excerpt: >-
   Connect your ad platforms, files, and warehouses to Lifesight, and keep an eye
   on whether the data is still arriving.
-hidden: false
+hidden: true
 ---
 An integration is a standing permission for Lifesight to read data from somewhere else on your behalf. You set it up once. After that Lifesight pulls fresh data on a schedule, so your reports and models keep up without anyone exporting a CSV every Monday.
 

@@ -3,7 +3,7 @@ title: '[4.0][WIP] Model Schema'
 excerpt: >-
   Define what goes into a model: the outcome you are explaining, the media you
   think drives it, and the context that explains the rest.
-hidden: false
+hidden: true
 ---
 A model schema is a saved answer to the question *what should this model look at*. It names the outcome you want explained, the paid media you believe influences it, the organic and contextual factors that explain the rest, and how those pieces relate to each other.
 
