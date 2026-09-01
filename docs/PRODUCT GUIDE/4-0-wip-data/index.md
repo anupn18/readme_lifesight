@@ -42,18 +42,20 @@ Data setup looks like one big task. Splitting it into four keeps each decision w
 
 ![](https://files.readme.io/c82cdbdf86d64cb7575a895283d90aaa740e341d13ba461500a535b38cba704f-Screenshot_2026-09-01_at_11.55.58_AM.png)
 
-**Data Taxonomy** is about grouping. Two campaigns can both be Google Ads spend and still be doing completely different jobs, one defending your brand terms and one prospecting for new customers. Averaging them together hides the thing you most want to know. This tab is where you sort campaigns into tactics(a tactic being the group you plan and budget by, like brand search, prospecting, or retargeting) that reflect how you actually run marketing.
+**Data Taxonomy** is about grouping. Two campaigns can both be Google Ads spend and still be doing completely different jobs, one defending your brand terms and one prospecting for new customers. Averaging them together hides the thing you most want to know.&#x20;
+
+This tab is where you sort campaigns into tactics(a tactic being the group you plan and budget by, like brand search, prospecting, or retargeting) that reflect how you actually run marketing.
 
 ![](https://files.readme.io/164f934f2b9e5fe8ac7043964c046aa5a89dc4f6f0899065c878b0beb2b8231c-Screenshot_2026-09-01_at_11.56.21_AM.png)
 
-<br />**Model Schema** is about a specific question. You do not model everything at once. You pick an outcome, pick the media that plausibly drives it, add the context that explains the rest, and leave out the noise. This tab is where you define that selection and save it so it can be reused and refreshed.
+**Model Schema** is about a specific question. You do not model everything at once. You pick an outcome, pick the media that plausibly drives it, add the context that explains the rest, and leave out the noise. This tab is where you define that selection and save it so it can be reused and refreshed.
 
 ![](https://files.readme.io/214d27c0b8f8ef23bd5d41b1f469e7708ed8110b66a55af51480fc26444e5df7-Screenshot_2026-09-01_at_11.56.56_AM.png)
 
 <br />
 
 <Callout icon="📘" theme="info">
-  An analogy if it helps. Integrations is getting the ingredients into the kitchen. Transformation is realizing that "castor sugar" and "superfine sugar" are the same thing. Taxonomy is separating the baking ingredients from the savoury ones. Schema is picking the recipe you're making tonight.
+  An analogy if it helps. Integrations is getting the ingredients into the kitchen. Transformation is realising that "castor sugar" and "superfine sugar" are the same thing. Taxonomy is separating the baking ingredients from the savoury ones. Schema is picking the recipe you're making tonight.
 </Callout>
 
 ## Getting set up in order
