@@ -1,8 +1,8 @@
 ---
 title: '[4.0][Updated] Snapchat Ads'
 excerpt: >-
-  Connect Snapchat Ads so vertical video and AR spend is measured on the same
-  basis as your other channels.
+  Connect Snapchat Ads to see what vertical video and AR spend returns, and
+  decide whether it deserves more budget.
 hidden: true
 metadata:
   title: Lifesight X Snapchat
