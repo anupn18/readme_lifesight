@@ -74,3 +74,13 @@ Then open **Data > Data Taxonomy**. Meta is the clearest case for working at **A
 **The integration went to Reconnect**<br />Meta access tokens expire periodically, and a password change or permission change at Business Manager will end them early. Open the integration and sign in again.
 
 **Some campaigns are missing**<br /> Check that every relevant ad account was selected. It is easy to miss an account used for a single product line or region.
+
+***
+
+## Next up
+
+Connect your:
+
+- &#x20;Google ads
+- &#x20;Microsoft ads
+- Snapchat ads
