@@ -2,8 +2,7 @@
 title: '[4.0][WIP] Data'
 excerpt: >-
   Bring all your marketing and business data into Lifesight, integrate your
-  sources and manage customer consent without the manual work, and shape it into
-  the inputs your models run on
+  sources and shape it into the inputs your models run on.
 hidden: true
 ---
 Every number Lifesight shows you starts life somewhere else. It starts as a row in Google Ads, a line in a Shopify order, a column in a spreadsheet someone on your finance team maintains. The **Data** module is where all of that arrives, gets cleaned up, and gets turned into something a model can actually use.
