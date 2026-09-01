@@ -1,13 +1,21 @@
 ---
-title: '[4.0][WIP] Integrations'
+title: '[4.0][] Integrations'
 excerpt: >-
   Connect your ad platforms, files, and warehouses to Lifesight, and keep an eye
-  on whether the data is still arriving.
+  on whether the data is still populating..
 hidden: true
+metadata:
+  title: Lifesight Integrations
+  keywords:
+    - Lifesight Integrations
 ---
 An integration is a standing permission for Lifesight to read data from somewhere else on your behalf. You set it up once. After that Lifesight pulls fresh data on a schedule, so your reports and models keep up without anyone exporting a CSV every Monday.
 
 This tab does two jobs. It is where you add new sources, and it is where you check that the ones you already added are still healthy.
+
+![]()
+
+<br />
 
 ![The Integrations tab listing connected sources with their status](https://files.readme.io/85c8e00f5f9ed1abf12c7963ef0224fd16faec6133a89a8c12812f9e1fe4e39c-integrations-list.png)
 
@@ -66,13 +74,13 @@ See [CSV Import](https://docs.lifesight.io/docs/4-0-wip-csv-import) and [Google 
 
 Once connected, each source becomes a row.
 
-| Column | What it tells you |
-| --- | --- |
-| **Integration Name** | The platform, with its logo. Expand the row to see the individual accounts underneath. |
-| **Status** | The health of the connection. See the table below. |
-| **Integrated By** | Who set it up. Useful when a connection breaks and you need to know whose login it used. |
-| **Data Sources** | How many accounts are syncing under this integration. |
-| **Last Data Sync** | When fresh data last landed. If this is older than you expect, something has stalled. |
+| Column               | What it tells you                                                                        |
+| -------------------- | ---------------------------------------------------------------------------------------- |
+| **Integration Name** | The platform, with its logo. Expand the row to see the individual accounts underneath.   |
+| **Status**           | The health of the connection. See the table below.                                       |
+| **Integrated By**    | Who set it up. Useful when a connection breaks and you need to know whose login it used. |
+| **Data Sources**     | How many accounts are syncing under this integration.                                    |
+| **Last Data Sync**   | When fresh data last landed. If this is older than you expect, something has stalled.    |
 
 **View Details** opens the source, which has three tabs.
 
@@ -110,18 +118,18 @@ For CSV and Excel sources this tab also offers re-upload, which is how you refre
 
 ## What the statuses mean
 
-| Status | What is happening | What to do |
-| --- | --- | --- |
-| **Healthy** | Data is arriving on schedule. | Nothing. |
-| **Sync in Progress** | A pull is running right now. First syncs take longest because they cover your history. | Wait. Large accounts can take several hours. |
-| **Transformation in Progress** | Data has arrived and is being shaped into Lifesight fields. | Wait. |
-| **Sync Error** | Lifesight could not fetch data. Usually a platform side issue such as rate limiting or an API outage. | Lifesight retries automatically. If it persists, check the platform page. |
-| **Transformation Error** | Data arrived but could not be processed. Usually a column changed shape. | Open Data Transformation for that source and check the field mappings. |
-| **Reconnect** | Authorisation expired or was revoked. This happens when someone changes a password, leaves the company, or removes Lifesight's access at the platform. | Open the integration and sign in again. |
-| **Unmapped** | Data is arriving but required fields are not mapped yet, so nothing downstream can use it. | Go to Data Transformation and map the mandatory fields. |
-| **Paused** | Syncing is stopped on purpose. | Resume it when you want it back. |
-| **Not Connected** | In the catalogue, not yet set up. | Connect it. |
-| **Requested** | You asked for a connector that does not exist yet. | Nothing to do. We will let you know. |
+| Status                         | What is happening                                                                                                                                      | What to do                                                                |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| **Healthy**                    | Data is arriving on schedule.                                                                                                                          | Nothing.                                                                  |
+| **Sync in Progress**           | A pull is running right now. First syncs take longest because they cover your history.                                                                 | Wait. Large accounts can take several hours.                              |
+| **Transformation in Progress** | Data has arrived and is being shaped into Lifesight fields.                                                                                            | Wait.                                                                     |
+| **Sync Error**                 | Lifesight could not fetch data. Usually a platform side issue such as rate limiting or an API outage.                                                  | Lifesight retries automatically. If it persists, check the platform page. |
+| **Transformation Error**       | Data arrived but could not be processed. Usually a column changed shape.                                                                               | Open Data Transformation for that source and check the field mappings.    |
+| **Reconnect**                  | Authorisation expired or was revoked. This happens when someone changes a password, leaves the company, or removes Lifesight's access at the platform. | Open the integration and sign in again.                                   |
+| **Unmapped**                   | Data is arriving but required fields are not mapped yet, so nothing downstream can use it.                                                             | Go to Data Transformation and map the mandatory fields.                   |
+| **Paused**                     | Syncing is stopped on purpose.                                                                                                                         | Resume it when you want it back.                                          |
+| **Not Connected**              | In the catalogue, not yet set up.                                                                                                                      | Connect it.                                                               |
+| **Requested**                  | You asked for a connector that does not exist yet.                                                                                                     | Nothing to do. We will let you know.                                      |
 
 ## Managing an integration after setup
 
