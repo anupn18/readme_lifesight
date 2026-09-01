@@ -1,9 +1,15 @@
 ---
-title: '[4.0][Updated] Data'
+title: '[4.0][Updated] Connect your Data to Start Running Models'
 excerpt: >-
   Bring all your marketing and business data into Lifesight, integrate your
   sources and shape it into the inputs your models run on.
 hidden: true
+metadata:
+  title: Connect your Data to Start Running Models
+  keywords:
+    - Lifesight
+    - Data
+    - Integrations
 ---
 Every number Lifesight shows you starts somewhere else: a row in Google Ads, a line in a Shopify order, a column in someone's spreadsheet. The Data module brings all of it together, maps it to one set of definitions, and keeps it current, so your team works from one set of numbers instead of stitching them together by hand.
 
@@ -68,7 +74,7 @@ The tabs after Integrations stay locked until you have at least one active integ
 
 A sensible first pass looks like this.
 
-1. **Connect one source you know well.** Your largest ad platform is usually the right choice, since a wrong number will stand out to you immediately. To see how to connect each of your sources, go to [Integrations.](https://docs.lifesight.io/docs/4-0-wip-integrations)
+1. **Connect one source you know well.** Your largest ad platform is usually the right choice, since a wrong number will stand out to you immediately. To see how to connect each of your sources, go to <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-integrations">Integrations.</Anchor>
 2. **Wait for the first sync.** The initial pull covers your full history, so it takes longer than later refreshes. The integration shows as Healthy once it completes.
 3. **Review your fields in Data Transformation.&#x20;**&#x4D;ost columns from a native platform are mapped for you. Confirm that the ones that matter (spend, revenue, the date column) landed on the right Lifesight fields, and correct anything that did not.
 4. **Connect your remaining sources.&#x20;**&#x57;ith a known-good setup to compare against, the rest go faster.
@@ -148,3 +154,11 @@ A schema is defined around one outcome, so a different question usually means a 
 
 **Who on my team should own this?**
 Integrations usually sits with whoever has admin access to the ad accounts. Data Transformation and Model Schema suit an analyst. Data Taxonomy works best with the person who names the campaigns.
+
+***
+
+## Next up
+
+Connect your data with <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-integrations">Integrations</Anchor>
+
+<br />
