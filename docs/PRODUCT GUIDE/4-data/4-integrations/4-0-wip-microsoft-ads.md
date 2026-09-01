@@ -1,15 +1,21 @@
 ---
 title: '[4.0][WIP] Microsoft Ads'
 excerpt: >-
-  Connect Microsoft Advertising to bring Bing search spend into the same
-  measurement as the rest of your media.
+  Connect Microsoft Ads to see what Bing search actually contributes, and
+  whether it earns more budget.
 hidden: true
 ---
-Microsoft Advertising serves ads across Bing and the wider Microsoft Search and Audience Networks. It is usually a smaller line than Google, and it is frequently left out of measurement for that reason, which is a mistake. Its audience skews towards desktop, older, and higher income users, so it often converts at a cost per acquisition that would be worth more budget if anyone had checked.
+Microsoft Advertising serves ads across Bing and the wider Microsoft Search and Audience Networks.
+
+It is usually a smaller line than Google, and it is frequently left out of measurement for that reason, which is a mistake. Its audience skews towards desktop, older, and higher income users, so it often converts at a cost per acquisition that would be worth more budget if anyone had checked.
 
 Connecting it means it gets measured on the same basis as everything else rather than being judged on platform reported numbers alone.
 
-> **Work in progress.** In the 4.0 build this connector is not yet available to connect from the catalogue. Searching for Microsoft Ads under **Add Integration** currently offers **Add to wishlist** rather than a connect flow. The steps below describe the connection flow this integration will use, and match how Microsoft Ads works in the current production release.
+<Callout icon="📘" theme="info">
+  **Work in progress.** In the lifesight latest build this connector is not yet available to connect from the catalogue. Searching for Microsoft Ads under&#x20;
+
+  **Add Integration** currently offers **Add to wishlist** rather than a connect flow. The steps below describe the connection flow this integration will use, and match how Microsoft Ads works in the current production release.
+</Callout>
 
 ## What Lifesight brings in
 
@@ -22,13 +28,13 @@ Lifesight reads the account hierarchy:
 
 The data pulled includes:
 
-| Category | Data points |
-| --- | --- |
-| Performance metrics | Spend, Impressions, Clicks, Click Through Rate |
-| Conversion metrics | Conversions, Conversion Value, Attributed Revenue |
-| Cost metrics | Cost Per Click, Cost Per Mille |
+| Category             | Data points                                         |
+| -------------------- | --------------------------------------------------- |
+| Performance metrics  | Spend, Impressions, Clicks, Click Through Rate      |
+| Conversion metrics   | Conversions, Conversion Value, Attributed Revenue   |
+| Cost metrics         | Cost Per Click, Cost Per Mille                      |
 | Hierarchy dimensions | Account Name, Campaign Name, Ad Group Name, Ad Name |
-| Targeting dimensions | Country, Region, Device |
+| Targeting dimensions | Country, Region, Device                             |
 
 ## Before you start
 
