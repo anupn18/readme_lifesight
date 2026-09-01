@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Snapchat Ads'
+title: '[4.0][Updated] Snapchat Ads'
 excerpt: >-
   Connect Snapchat Ads so vertical video and AR spend is measured on the same
   basis as your other channels.
