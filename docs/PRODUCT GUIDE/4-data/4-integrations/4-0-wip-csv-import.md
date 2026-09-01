@@ -1,9 +1,13 @@
 ---
-title: '[4.0][WIP] CSV Import'
+title: '[4.0][Updated] CSV Import'
 excerpt: >-
-  Upload a CSV when the data you need does not live in a platform Lifesight can
-  connect to directly.
+  Upload a CSV to bring in spend from sources Lifesight cannot connect to
+  directly, so nothing sits outside your measurement.
 hidden: true
+metadata:
+  title: Lifesight CSV Import
+  keywords:
+    - Lifesight CSV Import
 ---
 Not everything that drives your business sits in an ad platform. Offline retail sales, wholesale orders, a sponsorship deal invoiced quarterly, cost of goods maintained by finance, a partner who emails a spreadsheet every month. CSV import is how that data gets into Lifesight.
 
@@ -64,6 +68,8 @@ Two things are worth doing for almost every uploaded file.
 CSV is a point in time upload. When you have newer data, re-upload it against the same integration rather than creating a new one. That keeps the field mappings you already set up, and keeps the history in one place instead of scattering it across several near identical sources.
 
 If you find yourself re-uploading the same file every month, move it to [Google Sheets](https://docs.lifesight.io/docs/4-0-wip-google-sheets) and let it refresh on a schedule.
+
+***
 
 ## Troubleshooting
 
