@@ -4,6 +4,11 @@ excerpt: >-
   Connect Reddit Ads to see what community-driven advertising actually returns,
   and whether it earns a larger share of budget.
 hidden: true
+metadata:
+  title: Lifesight X Reddit Ads
+  keywords:
+    - Lifesight
+    - Reddit Ads
 ---
 Reddit advertising reaches people inside communities organised around genuine interest, which makes it useful for categories where people research carefully before buying. The Reddit Ads API lets Lifesight pull campaign and account data programmatically, so you get reporting without anyone opening Reddit Ads Manager to export it.
 
