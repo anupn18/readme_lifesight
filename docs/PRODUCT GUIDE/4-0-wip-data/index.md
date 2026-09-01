@@ -119,17 +119,17 @@ In **Model Schema** they create a schema called Revenue MMM, set the primary KPI
 
 ## Frequently Asked questions
 
-**Do I have to finish one section before starting the next?**
-For your first source, broadly yes. After that the order matters less. Connecting a new integration later sends you back to Data Transformation to check its fields, but you are not starting over.
-
-**Why are the later sections locked when I first arrive?**
-There is nothing to map, group, or model until data is arriving. Once you have one active integration, the rest unlock. Hover over a locked one and it tells you the same thing.
-
 **What happens if I map something wrong?**
 You change it and save. Mappings are definitions, not one-way imports, so a correction applies going forward and to the historical data already held.
 
 **How long does the first sync take?**
 Longer than later refreshes, because the initial pull covers your full history. The source shows as Healthy once it completes.
+
+**Why are the later sections locked when I first arrive?**
+There is nothing to map, group, or model until data is arriving. Once you have one active integration, the rest unlock. Hover over a locked one and it tells you the same thing.
+
+**Do I have to finish one section before starting the next?**
+For your first source, broadly yes. After that the order matters less. Connecting a new integration later sends you back to Data Transformation to check its fields, but you are not starting over.
 
 **Do I have to classify all my campaigns before I can model anything?**
 No. Start with the campaigns carrying the most spend and leave the long tail for later. Rules based on campaign name handle the bulk of it, and anything new gets classified the moment it appears.
