@@ -138,13 +138,13 @@ What this source is used for downstream. It answers the question people ask befo
 
 Worth checking before you disconnect a source or deselect an account, because a source feeding a live model is not one to experiment with casually.
 
-## What the statuses mean
+## What the Statuses Mean
 
 | Status                         | What is happening                                                                                                                                      | What to do                                                                |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
 | **Healthy**                    | Data is arriving on schedule.                                                                                                                          | Nothing.                                                                  |
 | **Sync in Progress**           | A pull is running right now. First syncs take longest because they cover your history.                                                                 | Wait. Large accounts can take several hours.                              |
-| **Transformation in Progress** | Data has arrived and is being shaped into Lifesight fields.                                                                                            | Wait.                                                                     |
+| **Transformation in Progress** | Data is in the platform and is being shaped into Lifesight fields.                                                                                     | Wait for dats to populate.                                                |
 | **Sync Error**                 | Lifesight could not fetch data. Usually a platform side issue such as rate limiting or an API outage.                                                  | Lifesight retries automatically. If it persists, check the platform page. |
 | **Transformation Error**       | Data arrived but could not be processed. Usually a column changed shape.                                                                               | Open Data Transformation for that source and check the field mappings.    |
 | **Reconnect**                  | Authorisation expired or was revoked. This happens when someone changes a password, leaves the company, or removes Lifesight's access at the platform. | Open the integration and sign in again.                                   |
@@ -167,13 +167,21 @@ Worth checking before you disconnect a source or deselect an account, because a 
 
 ## Troubleshooting
 
-**The accounts I expected are not in the list.** The login you used does not have access to them. Sign in with a different account, or ask whoever administers the ad account to grant your user access first.
+**The integration connected but no data appeared**
 
-**The integration connected but no data appeared.** Check the date range. Most platforms only expose data from the point the account started spending, and the first sync can take hours on a large account. If Last Data Sync is populated but numbers look empty, check Data Transformation to see whether the fields are mapped.
+Check the date range. Most platforms only expose data from the point the account started spending, and the first sync can take hours on a large account. If Last Data Sync is populated but the numbers look empty, check Data Transformation to see whether the fields are mapped.
 
-**Numbers do not match the platform's own dashboard.** This is common and usually explainable. Ad platforms report in the account's timezone and attribute conversions on their own window, so small differences are expected. Large differences usually mean a currency mismatch, a missing account, or a date range comparing different things.
+**Numbers do not match the platform's own dashboard**
 
-**The status keeps flipping to Sync Error.** Check whether the account is rate limited or whether the platform has an incident. If it continues past a day, contact support with the integration name and the time the errors started.
+This is common and usually explainable. Ad platforms report in the account's timezone and attribute conversions on their own window, so small differences are expected. Large differences usually point to a currency mismatch, a missing account, or a date range comparing different periods.
+
+**The accounts I expected are not in the list**
+
+The login you used does not have access to them. Sign in with a different account, or ask whoever administers the ad account to grant your user access first.
+
+**The status keeps flipping to Sync Error**
+
+Check whether the account is rate limited or whether the platform has an incident. If it continues past a day, contact support with the integration name and the time the errors started.
 
 ***
 
