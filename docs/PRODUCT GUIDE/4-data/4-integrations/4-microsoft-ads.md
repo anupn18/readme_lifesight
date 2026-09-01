@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Microsoft Ads'
+title: '[4.0][Updated] Microsoft Ads'
 excerpt: >-
   Connect Microsoft Ads to see what Bing search actually contributes, and
   whether it earns more budget.
