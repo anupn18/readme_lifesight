@@ -55,6 +55,8 @@ Open **Data > Data Transformation**, find the sheet in the sources list, and map
 
 As with uploaded files, sheets very often lack a column that is true of the whole sheet, such as the country, the brand, or the channel. Set those with **A fixed value for every row** in the field editor so the sheet lines up with your other data.
 
+***
+
 ## Keeping it working
 
 A linked sheet is a shared dependency, which is its main strength and its main risk. Some habits that prevent problems:
@@ -66,6 +68,8 @@ A linked sheet is a shared dependency, which is its main strength and its main r
 **Do not restrict access.** If the sheet's sharing settings change, or the Google account used to connect it loses access, syncing stops.
 
 **Check it after any big change.** If someone restructures the sheet, confirm the mappings still hold in Data Transformation.
+
+***
 
 ## Troubleshooting
 
