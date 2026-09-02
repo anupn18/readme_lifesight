@@ -4,12 +4,17 @@ excerpt: >-
   Turn the raw columns your sources produce into the shared set of Lifesight
   fields that every model and report reads from.
 hidden: true
+metadata:
+  title: Data Transformation Lifesight
+  keywords:
+    - Lifesight
+    - Data transformation
 ---
 Every platform names things its own way. Google Ads gives you a column called `spend`. Meta gives you one called `spend` too, but its `attributed_revenue` counts conversions on a different window. A spreadsheet from your finance team might call the same idea `Media Investment`. None of that matters to the people running campaigns, and it matters enormously to a model, which needs one definition of spend rather than four.
 
 Data Transformation is where you settle that. For each column arriving from each source, you say what it means in Lifesight terms. Once you have, everything downstream speaks one vocabulary.
 
-## Two words worth learning first
+## Few things to know first
 
 **A source column** is what the platform gives you. It has whatever name the platform chose and holds whatever the platform put in it. You do not control this.
 
@@ -23,13 +28,13 @@ Opening the tab shows one row per connected source.
 
 ![The Data Transformation tab listing connected sources](https://files.readme.io/7c659f1e1038ea3858de314b27a9f2f76e9f03d5d5b5fd44239c983d9c8a81b9-transformation-sources.png)
 
-| Column | What it means |
-| --- | --- |
-| **Integration Name** | The source. A green tick means its mandatory fields are mapped and it is ready to be used. |
-| **Channel(s)** | The channels this source feeds. Google Ads, for example, carries both Google and YouTube. |
-| **Category** | The data category the source belongs to. This decides which Lifesight fields are offered when you map its columns. |
-| **Granularity** | How finely the data is reported over time. Daily for most ad platforms. |
-| **Last Modified On** and **Last Modified By** | Who last changed the mapping, and when. Useful when a number moves and nobody knows why. |
+| Column                                        | What it means                                                                                                      |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Integration Name**                          | The source. A green tick means its mandatory fields are mapped and it is ready to be used.                         |
+| **Channel(s)**                                | The channels this source feeds. Google Ads, for example, carries both Google and YouTube.                          |
+| **Category**                                  | The data category the source belongs to. This decides which Lifesight fields are offered when you map its columns. |
+| **Granularity**                               | How finely the data is reported over time. Daily for most ad platforms.                                            |
+| **Last Modified On** and **Last Modified By** | Who last changed the mapping, and when. Useful when a number moves and nobody knows why.                           |
 
 Click **View Fields** on a row to open that source's fields.
 
@@ -37,13 +42,13 @@ Click **View Fields** on a row to open that source's fields.
 
 Every source belongs to a category, and the category decides which Lifesight fields make sense for its columns. This is why you are not offered Impressions when mapping a column from an accounting export.
 
-| Category | What belongs here |
-| --- | --- |
-| **KPIs** | The outcomes you care about: revenue, conversions, orders, installs. |
-| **Paid Marketing** | Spend, impressions, clicks and the rest, grouped by ad platform. |
-| **Organic** | Owned and earned signals such as email sends or organic sessions. |
-| **Contextual** | Things that explain the world around your marketing: seasonality, holidays, promotions, weather. |
-| **Others** | Anything not yet categorised. |
+| _Category_         | What belongs here                                                                                |
+| ------------------ | ------------------------------------------------------------------------------------------------ |
+| **KPIs**           | The outcomes you care about: revenue, conversions, orders, installs.                             |
+| **Paid Marketing** | Spend, impressions, clicks and the rest, grouped by ad platform.                                 |
+| **Organic**        | Owned and earned signals such as email sends or organic sessions.                                |
+| **Contextual**     | Things that explain the world around your marketing: seasonality, holidays, promotions, weather. |
+| **Others**         | Anything not yet categorised.                                                                    |
 
 ## The field workshop
 
@@ -73,19 +78,19 @@ If a column is in the wrong group, open its actions menu and use **Make Dimensio
 
 Each field also has a data type, which says what shape its values take. For standard Lifesight fields the type is fixed by the field itself, so you rarely set it by hand. You will see it on custom fields and when checking that a column arrived correctly.
 
-| Type | What it holds |
-| --- | --- |
-| **Text** | Any string. The default for names and labels. |
-| **Integer** | A whole number, such as clicks or impressions. |
-| **Decimal** | A number with a fractional part. |
-| **Number** | A precise decimal, used where exactness matters. |
-| **Big Number** | A number too large for the standard numeric range. |
-| **Currency** | A monetary amount. |
-| **Percentage** | A rate, stored so it reads as a percentage. |
-| **Boolean** | True or false. Useful for flags such as whether a promotion ran. |
-| **Date** | A calendar date, formatted `YYYY-MM-DD`. |
-| **Date and time** | A date with a time, formatted `YYYY-MM-DD HH:MM:SS`. |
-| **JSON** | Structured data kept as-is. |
+| Type              | What it holds                                                    |
+| ----------------- | ---------------------------------------------------------------- |
+| **Text**          | Any string. The default for names and labels.                    |
+| **Integer**       | A whole number, such as clicks or impressions.                   |
+| **Decimal**       | A number with a fractional part.                                 |
+| **Number**        | A precise decimal, used where exactness matters.                 |
+| **Big Number**    | A number too large for the standard numeric range.               |
+| **Currency**      | A monetary amount.                                               |
+| **Percentage**    | A rate, stored so it reads as a percentage.                      |
+| **Boolean**       | True or false. Useful for flags such as whether a promotion ran. |
+| **Date**          | A calendar date, formatted `YYYY-MM-DD`.                         |
+| **Date and time** | A date with a time, formatted `YYYY-MM-DD HH:MM:SS`.             |
+| **JSON**          | Structured data kept as-is.                                      |
 
 The two date formats are worth remembering, because ambiguous dates are the most common import problem. `03/04/2025` could be March or April depending on who wrote it, while `2025-04-03` cannot be misread.
 
@@ -98,7 +103,7 @@ A **measurement dimension** is a dimension you have flagged as something models 
 Flagging one has two specific effects:
 
 - It appears under **Your dimensions** when you build a data model, which is what makes it available for a dimensional or hierarchical model that fits separate coefficients per country, per brand or per product line
-- It carries through to **Data Taxonomy**, where it becomes available as a column and as a field you can write rules against
+- It carries through to **Data Taxonomy**, where it becomes available as a column and as a field you can write rules against.
 
 Be selective. Country, brand, region and product line are usually worth flagging because you genuinely want to model or classify along them. Ad ID is not, because nobody models per ad, and flagging everything makes the model builder and the rules editor harder to use for no benefit.
 
@@ -118,11 +123,11 @@ Native connectors already know their channel, so Google Ads arrives carrying Goo
 
 Opening it asks how the data is shaped, and there are three possibilities. Picking the right one is the whole task.
 
-| Shape | What it looks like | What you do |
-| --- | --- | --- |
-| **One channel per column** | Columns are the channels: `DATE, EMAIL_SPEND, OBA_SPEND, INKPACT_SPEND` | Assign a channel to each column |
-| **A column holds the channel** | One column names the channel per row: `date, channel, spend` with values `fb`, `google` | Pick that column, then map each raw value to a channel |
-| **The whole file is one channel** | No channel column, because every row is the same thing | Confirm the single channel for the source |
+| Shape                             | What it looks like                                                                      | What you do                                            |
+| --------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| **One channel per column**        | Columns are the channels: `DATE, EMAIL_SPEND, OBA_SPEND, INKPACT_SPEND`                 | Assign a channel to each column                        |
+| **A column holds the channel**    | One column names the channel per row: `date, channel, spend` with values `fb`, `google` | Pick that column, then map each raw value to a channel |
+| **The whole file is one channel** | No channel column, because every row is the same thing                                  | Confirm the single channel for the source              |
 
 For the second shape, Lifesight suggests matches for common abbreviations, so `fb` proposes Facebook Ads and `bing` proposes Microsoft Ads. Check the suggestions rather than accepting them blindly, because in-house shorthand is rarely as obvious as it looks to the person who invented it.
 
@@ -132,10 +137,10 @@ Getting this right once means every column underneath is already attributed to t
 
 When you edit a field, the section called **How this field gets its value** offers two choices. Which one you want depends on whether the answer varies from row to row.
 
-| Use case | Choose | Read more |
-| --- | --- | --- |
-| The source reports the value, and it changes row to row | **A field from this source** | [Map a field from a source](https://docs.lifesight.io/docs/4-0-wip-map-field-from-source) |
-| The value is the same on every row from this source | **A fixed value for every row** | [Set a fixed value for a source](https://docs.lifesight.io/docs/4-0-wip-fixed-value-source) |
+| Use case                                                | Choose                          | Read more                                                                                   |
+| ------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------- |
+| The source reports the value, and it changes row to row | **A field from this source**    | [Map a field from a source](https://docs.lifesight.io/docs/4-0-wip-map-field-from-source)   |
+| The value is the same on every row from this source     | **A fixed value for every row** | [Set a fixed value for a source](https://docs.lifesight.io/docs/4-0-wip-fixed-value-source) |
 
 And before either of those, the source itself needs a channel: [Map a source to a channel](https://docs.lifesight.io/docs/4-0-wip-map-source-channel).
 
@@ -152,6 +157,8 @@ Below the value section you will find:
 **Roll-up and format.** How the number folds over a date range, and how many decimal places it keeps.
 
 Click **Save changes** when you are done.
+
+<br />
 
 ## Common questions
 
