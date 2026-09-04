@@ -1,8 +1,8 @@
 ---
 title: '[4.0][WIP] Data Transformation'
 excerpt: >-
-  Turn the raw columns your sources produce into the shared set of Lifesight
-  fields that every model and report reads from.
+  Data Transformation gives every number one meaning, so your models and reports
+  stop arguing about what spend is.
 hidden: true
 metadata:
   title: Data Transformation Lifesight
@@ -10,9 +10,9 @@ metadata:
     - Lifesight
     - Data transformation
 ---
-Every platform names things its own way. Google Ads gives you a column called `spend`. Meta gives you one called `spend` too, but its `attributed_revenue` counts conversions on a different window. A spreadsheet from your finance team might call the same idea `Media Investment`. None of that matters to the people running campaigns, and it matters enormously to a model, which needs one definition of spend rather than four.
+Every platform names things its own way. Google Ads reports a column called `spend`. Meta reports a spend column too, and an `attributed_revenue` column that counts conversions over a different window. The sheet from finance calls the same idea Media `Investment`. Three names for one number, and no way to add them up.
 
-Data Transformation is where you settle that. For each column arriving from each source, you say what it means in Lifesight terms. Once you have, everything downstream speaks one vocabulary.
+Data Transformation in Lifesight is where you settle that. For each column in your source, you say what it means in Lifesight terms. Once you have, everything downstream speaks one vocabulary.
 
 ## Few things to know first
 
@@ -28,21 +28,23 @@ Opening the tab shows one row per connected source.
 
 ![The Data Transformation tab listing connected sources](https://files.readme.io/7c659f1e1038ea3858de314b27a9f2f76e9f03d5d5b5fd44239c983d9c8a81b9-transformation-sources.png)
 
-| Column                                        | What it means                                                                                                      |
-| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| **Integration Name**                          | The source. A green tick means its mandatory fields are mapped and it is ready to be used.                         |
-| **Channel(s)**                                | The channels this source feeds. Google Ads, for example, carries both Google and YouTube.                          |
-| **Category**                                  | The data category the source belongs to. This decides which Lifesight fields are offered when you map its columns. |
-| **Granularity**                               | How finely the data is reported over time. Daily for most ad platforms.                                            |
-| **Last Modified On** and **Last Modified By** | Who last changed the mapping, and when. Useful when a number moves and nobody knows why.                           |
+| Column                                    | What it means                                                                                                      |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Integration Name**                      | The source. A green check mark means its mandatory fields are mapped and ready to use.                             |
+| **Channel(s)**                            | The channels this source feeds. Google Ads, for example, carries both Google and YouTube.                          |
+| **Category**                              | The data category the source belongs to. This decides which Lifesight fields are offered when you map its columns. |
+| **Granularity**                           | How finely the data is reported over time. Daily for most ad platforms.                                            |
+| **Last Modified On and Last Modified By** | Who last changed the mapping, and when. Useful when a number moves and nobody knows why.                           |
 
 Click **View Fields** on a row to open that source's fields.
+
+![](https://files.readme.io/4418019984b7531c449479d211fef03d162d64d862f5eada0b774b9ad6b1c193-Screenshot_2026-09-04_at_4.24.06_PM.png)
 
 ## Data categories
 
 Every source belongs to a category, and the category decides which Lifesight fields make sense for its columns. This is why you are not offered Impressions when mapping a column from an accounting export.
 
-| _Category_         | What belongs here                                                                                |
+| Category           | What belongs here                                                                                |
 | ------------------ | ------------------------------------------------------------------------------------------------ |
 | **KPIs**           | The outcomes you care about: revenue, conversions, orders, installs.                             |
 | **Paid Marketing** | Spend, impressions, clicks and the rest, grouped by ad platform.                                 |
