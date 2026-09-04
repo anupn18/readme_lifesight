@@ -160,8 +160,6 @@ Below the value section you will find:
 
 Click **Save changes** when you are done.
 
-<br />
-
 ## Common questions
 
 **Do I have to map everything?**
