@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Data Transformation'
+title: '[4.0][Updated] Data Transformation'
 excerpt: >-
   Data Transformation gives every number one meaning, so your models and reports
   stop arguing about what spend is.
