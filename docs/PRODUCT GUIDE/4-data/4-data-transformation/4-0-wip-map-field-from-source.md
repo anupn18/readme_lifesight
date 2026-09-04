@@ -4,10 +4,14 @@ excerpt: >-
   Point a column in your source at a Lifesight field, so the number it carries
   can be read by models and reports.
 hidden: true
+metadata:
+  title: Map Field From Source in Lifesight
+  keywords:
+    - Lifesight Field Mapping
 ---
-This is the everyday case in Data Transformation. A source produces a column, that column genuinely holds the thing you want, and your job is to say which Lifesight field it becomes.
+Most mappings are this simple. A source gives you a column, that column already holds what you want, and you tell Lifesight which field it becomes.
 
-Google Ads reports a column called `spend`. Lifesight has a field called Spend. Drawing the line between the two is a mapping, and once drawn, every part of the platform that asks "how much did we spend" gets a consistent answer no matter which platform the money went through.
+Google Ads reports a column called `spend`. Lifesight has a field called Spend. Connecting the two is a mapping. Once it exists, anything that asks "how much did we spend" gets the same answer, whatever platform the money went through.
 
 ## When to use it
 
@@ -54,11 +58,11 @@ Both paths offer the same catalogue of target fields, run the same checks, and s
 
 ### Choosing between them
 
-| Situation | Use |
-| --- | --- |
-| Checking a connector's fields, one or two need fixing | The row's **Map to** cell |
-| A new file where nothing is mapped yet | Select the columns, then **Map columns** |
-| Changing an existing field's definition | The actions menu, then **Edit** |
+| Situation                                             | Use                                      |
+| ----------------------------------------------------- | ---------------------------------------- |
+| Checking a connector's fields, one or two need fixing | The row's **Map to** cell                |
+| A new file where nothing is mapped yet                | Select the columns, then **Map columns** |
+| Changing an existing field's definition               | The actions menu, then **Edit**          |
 
 The third row is worth noting. Mapping and editing are different verbs. Mapping picks the target. Editing changes a field's full definition, including its roll-up, its type and its precision, and it opens the full editor.
 
