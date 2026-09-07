@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Map a field from a source'
+title: '[4.0][Updated] Map a field from a source'
 excerpt: >-
   Point a column in your source at a Lifesight field, so the number it carries
   can be read by models and reports.
