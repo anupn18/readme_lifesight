@@ -1,9 +1,13 @@
 ---
-title: '[4.0][WIP] Assign tactics by hand'
+title: '[4.0][WIP] Assign tactics manually to cover your biggest spend first'
 excerpt: >-
   Classify campaigns into tactics one selection at a time, which is the fastest
   way to cover most of your spend on day one.
 hidden: true
+metadata:
+  title: Assign tactics manually to cover your biggest spend first.
+  keywords:
+    - Assign tactics manually
 ---
 Manual assignment is how most people start, and it is the right choice for the first pass and for the awkward long tail that no rule will ever catch cleanly.
 
@@ -11,12 +15,12 @@ The goal is not to classify every campaign. It is to classify the campaigns that
 
 ## When to use it
 
-- **Your first pass**, before you know what patterns exist in your campaign names
-- **The long tail** of small or one off campaigns that do not fit any pattern
-- **Exceptions** where a campaign's name says one thing and it is actually doing another
-- **Small accounts** where a handful of campaigns cover everything
+- **Your first pass**, before you know what patterns your campaign names follow
+- **Small accounts**, where a handful of campaigns cover everything
+- **One off campaigns&#x20;**&#x74;hat will never repeat, so a rule is not worth writing
+- **Campaigns the name gets wrong,** where what it says and what it does are two different things.
 
-For anything that repeats, and for campaigns that do not exist yet, use [Assign tactics automatically with rules](https://docs.lifesight.io/docs/4-0-wip-assign-tactics-rules) instead.
+  For anything that repeats, and for campaigns that do not exist yet, use [Assign tactics automatically with rules](https://docs.lifesight.io/docs/4-0-wip-assign-tactics-rules) instead.
 
 ## How to do it
 
@@ -54,13 +58,13 @@ Doing this once a month catches the campaigns that quietly grew a new ad set.
 
 Only drop to ad set level deliberately, though. A campaign genuinely doing two jobs deserves the split. Splitting one that does not is extra maintenance for no gain.
 
-## Choosing the tactics themselves
+## Choosing the right tactic
 
 There is no correct list. A good rule of thumb: **create a tactic when you would plausibly change its budget independently of everything else.**
 
 If you never move money between brand and non-brand search, splitting them buys you nothing. If you argue about it every quarter, split them.
 
-Start coarse. Half a dozen tactics that everyone understands beats thirty that nobody maintains, and you can always split a tactic later.
+Start small. Half a dozen tactics that everyone understands beats thirty that nobody maintains, and you can always split a tactic later.
 
 ## Where this shows up in the rest of Lifesight
 
