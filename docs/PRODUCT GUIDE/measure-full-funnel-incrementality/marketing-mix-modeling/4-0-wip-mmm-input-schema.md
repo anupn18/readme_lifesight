@@ -1,20 +1,20 @@
 ---
-title: '[4.0][Updated] CSV Data Formatting Guidelines'
+title: '[4.0][WIP] CSV Data Formatting Guidelines'
 excerpt: Prepare CSV data for Marketing Mix Modeling in Lifesight 4.0.
 deprecated: false
 hidden: true
 metadata:
   robots: noindex
 ---
-High-quality input data is the foundation of an accurate and actionable Marketing Mix Model. In Lifesight 4.0, you can create a model from an existing Data Model or upload a CSV file and map every field manually.
+High-quality input data is the foundation of an accurate and actionable Marketing Mix Model. In Lifesight, you can create a model from an existing Data Model or upload a CSV file and map every field manually.
 
 ### CSV Template
 
 Use the sample template as a starting point for your file.
 
-[<button>View MMM CSV Sample Template</button>](https://docs.google.com/spreadsheets/d/17UgnDqvQyHz_3XFFa-DSHdk80fudK1mt9p7Stj-xhdI/edit?gid=1915444742#gid=1915442)
+[/<button>View MMM CSV Sample Template</button>](https://docs.google.com/spreadsheets/d/17UgnDqvQyHz_3XFFa-DSHdk80fudK1mt9p7Stj-xhdI/edit?gid=1915444742#gid=1915442)
 
-**[IMAGE PLACEHOLDER: Example MMM CSV with date, KPI, spend, impressions, clicks, and control columns]**
+**\[IMAGE PLACEHOLDER: Example MMM CSV with date, KPI, spend, impressions, clicks, and control columns]**
 
 ## Data Requirements
 
@@ -26,23 +26,25 @@ Your CSV must contain the fields required to define the model's outcome, paid me
 * **KPI Column:** At least one outcome you want to model, such as `Revenue`, `Orders`, `Installs`, or `New_Customers`.
 * **Paid Media Spend:** At least one numeric spend field for a paid channel or tactic.
 
-The 4.0 variable mapper requires a channel and spend field for every paid row. Tactic, impressions, and clicks are optional.
+The variable mapper requires a channel and spend field for every paid row. Tactic, impressions, and clicks are optional.
 
 ### Recommended Additional Columns
 
-| Category | Recommended variables |
-| :--- | :--- |
-| **Paid Media** | Spend, impressions, and clicks at the channel or tactic level |
-| **Organic** | Organic sessions, direct traffic, email activity, or other owned and earned signals |
+| Category       | Recommended variables                                                                    |
+| :------------- | :--------------------------------------------------------------------------------------- |
+| **Paid Media** | Spend, impressions, and clicks at the channel or tactic level                            |
+| **Organic**    | Organic sessions, direct traffic, email activity, or other owned and earned signals      |
 | **Contextual** | Promotions, pricing changes, holidays, weather, competitor activity, or macro indicators |
-| **Halo** | Cross-channel or cross-product variables used to represent spillover effects |
-| **Dimensions** | Country, region, product, or another field used to fit dimensional child models |
+| **Halo**       | Cross-channel or cross-product variables used to represent spillover effects             |
+| **Dimensions** | Country, region, product, or another field used to fit dimensional child models          |
 
 For organic, contextual, and halo variables, you will select a Positive, Negative, or Neutral impact during model creation.
 
 ## Formatting and Validation Checklist
 
-> 🚧 Review the file before uploading it. A clean header row and consistent time series make mapping and validation much easier.
+<Callout icon="🚧" theme="warn">
+  ### Review the file before uploading it. A clean header row and consistent time series make mapping and validation much easier.
+</Callout>
 
 ### File and Header Rules
 
@@ -76,15 +78,15 @@ A model needs enough observations relative to the number of independent variable
 
 For example, a dataset with 25 independent variables should contain at least 100 observations. More history is often required when the data contains strong seasonality, low spend variation, or many related channels.
 
-## Uploading the CSV in Lifesight 4.0
+## Uploading the CSV in Lifesight&#x20;
 
-1. Select **Models** from the sidebar and click **`Create Model`**.
+1. Select **Models** from the sidebar and click `Create Model`.
 2. In the Variables step, choose **Upload a CSV**.
 3. Select the date column and map the Outcome KPI.
 4. Add paid, organic, contextual, and halo variables.
 5. Review any unused fields before proceeding.
 
-**[VIDEO PLACEHOLDER: Uploading and mapping an MMM CSV in Lifesight 4.0]**
+**\[VIDEO PLACEHOLDER: Uploading and mapping an MMM CSV in Lifesight 4.0]**
 
 ## Troubleshooting and Support
 
