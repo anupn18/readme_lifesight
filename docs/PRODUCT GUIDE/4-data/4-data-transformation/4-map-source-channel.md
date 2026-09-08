@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Map a source to a channel'
+title: '[4.0][Updated] Map a source to a channel'
 excerpt: >-
   Tell Lifesight which channel a source's data belongs to, so its spend is
   grouped with the right marketing activity.
@@ -84,7 +84,7 @@ Channel is one of the primary grouping keys in the platform, so getting it wrong
 
 **Data Taxonomy** shows Channel as a column and lets you write rules against it. A source without a channel has one less thing to classify on.
 
-**Attribution** and **Analyze dashboards** group spend and performance by channel, so this is what stops an uploaded file appearing as an unlabelled row.
+**Attribution** and **Analyse dashboards** group spend and performance by channel, so this is what stops an uploaded file appearing as an unlabelled row.
 
 ## Common questions
 
