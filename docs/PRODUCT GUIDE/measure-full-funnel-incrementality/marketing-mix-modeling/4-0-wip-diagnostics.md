@@ -16,7 +16,7 @@ The available metrics can include Accuracy, Backtest Accuracy, NRMSE, actual out
 
 Read these metrics together:
 
-* **Accuracy** summarizes how closely the model follows the observed outcome in the fitted data.
+* **Accuracy** summarises how closely the model follows the observed outcome in the fitted data.
 * **Backtest Accuracy** shows performance on the held-out portion of the data.
 * **NRMSE** and **MAPE** describe prediction error. Lower values generally indicate a closer fit.
 * **Estimation Error** highlights aggregate bias between predicted and actual outcome.
