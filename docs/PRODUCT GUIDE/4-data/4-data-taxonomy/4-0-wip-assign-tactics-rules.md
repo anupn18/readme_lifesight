@@ -1,9 +1,13 @@
 ---
-title: '[4.0][WIP] Assign tactics automatically with rules'
+title: '[4.0][Updated] Assign tactics automatically with rules'
 excerpt: >-
   Write rules that classify campaigns by pattern, including campaigns that do
   not exist yet, so your taxonomy maintains itself.
 hidden: true
+metadata:
+  title: Assign tactics automatically with rules
+  keywords:
+    - Lifesight Tactics
 ---
 Hand assignment does not survive contact with reality. New campaigns launch every week and each one arrives unclassified, so a taxonomy maintained purely by hand is out of date within a month.
 
