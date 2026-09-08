@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Set a fixed value for a source'
+title: '[4.0][Updated] Set a fixed value for a source'
 excerpt: >-
   Stamp the same value on every row from a source, so data that is missing a
   column still lines up with everything else.
@@ -20,10 +20,10 @@ The test is simple. **If the answer would be identical on every single row of th
 
 Common cases:
 
-- **Country or region** on an offline sales file that covers one market
-- **Channel** on a file from a partner or a small platform with no connector
-- **Brand** on a file covering a single brand, when your models split by brand
-- **Currency** on a file that reports in one currency throughout
+- **Country or region** on an offline sales file that covers one market.
+- **Channel** on a file from a partner or a small platform with no connector.
+- **Brand** on a file covering a single brand, when your models split by brand.
+- **Currency** on a file that reports in one currency throughout.
 
 ## How to do it
 
