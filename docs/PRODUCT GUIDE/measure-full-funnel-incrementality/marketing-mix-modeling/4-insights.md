@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Insights'
+title: '[4.0][Updated] Insights'
 excerpt: Explore model-generated insights and business recommendations.
 deprecated: false
 hidden: true
@@ -9,9 +9,9 @@ metadata:
     - Lifesight Insights
   robots: noindex
 ---
-The **Insights** tab organizes model output into **Media Analyses** and **Baseline Analyses**. It is hidden by default and can be enabled from **Customize Tabs**.
+The **Insights** tab organises model output into **Media Analyses** and **Baseline Analyses**. It is hidden by default and can be enabled from **Customize Tabs**.
 
-**[IMAGE PLACEHOLDER: Insights tab showing Media Analyses and Baseline Analyses]**
+![](https://files.readme.io/acc122b0ca328b3d8a77736635348e2c323f7dbe84cff048211c3226e92caba9-Screenshot_2026-09-08_at_4.56.40_PM.png)
 
 ## Media Analyses
 
@@ -37,6 +37,8 @@ The heatmap shows how contribution changes over time. Use it to identify periods
 
 Baseline analyses explain the non-media portion of the modelled outcome.
 
+![](https://files.readme.io/62aa1f559d522f9d691d4ecb158ecae1d58a963fe13babf81679e9242b1951b7-Screenshot_2026-09-08_at_4.58.40_PM.png)
+
 * **Baseline factors** lists the variables that contribute to baseline demand.
 * **Relative baseline** compares the scale of the available baseline components.
 * **Trend lift** shows longer-term movement associated with the modelled trend.
@@ -47,4 +49,4 @@ Baseline analyses explain the non-media portion of the modelled outcome.
 
 Insights are analysis views, not standalone recommendations. Validate a media finding in Contribution, review its causal paths in Graph, and check model health in Diagnostics. For baseline findings, compare the timing with known pricing, distribution, promotional, seasonal, and market events.
 
-**[VIDEO PLACEHOLDER: Moving from an Insights view to supporting model evidence]**
+**\[VIDEO PLACEHOLDER: Moving from an Insights view to supporting model evidence]**
