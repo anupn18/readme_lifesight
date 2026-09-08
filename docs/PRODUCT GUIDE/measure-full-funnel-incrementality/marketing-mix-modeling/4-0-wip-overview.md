@@ -1,6 +1,6 @@
 ---
 title: '[4.0][WIP] Model Overview'
-excerpt: Review model health, performance, contribution, and insights in Lifesight 4.0.
+excerpt: Review model health, performance, contribution, and insights in Lifesight.
 deprecated: false
 hidden: true
 metadata:
@@ -8,7 +8,7 @@ metadata:
 ---
 The Models workspace is where you review trained models, compare their results, and manage their lifecycle.
 
-**[IMAGE PLACEHOLDER: Models workspace with model selector, date range, and tabs]**
+![](https://files.readme.io/a1511f44a2ae6cc61db228b3121f33ec1facc0066a5bfe67daefb48dd5c957db-Screenshot_2026-09-08_at_11.05.44_AM.png)
 
 ## Select a model
 
@@ -20,7 +20,9 @@ The tabs that are available depend on model status and output. In-progress and f
 
 Use the page date range for date-scoped analysis in tabs such as Data, Contribution, Insights, and Interaction. When a comparison is available, review changes in spend, outcome, and efficiency together.
 
-> 📘 The Period selector in the response-curve section is separate from the page date range. It controls the curve calculation and marginal efficiency values.
+<Callout icon="📘" theme="info">
+  ### The Period selector in the response-curve section is separate from the page date range. It controls the curve calculation and marginal efficiency values.
+</Callout>
 
 ## Customize the workspace
 
@@ -48,4 +50,4 @@ Model List shows model name, outcome, status, type, granularity, accuracy, creat
 
 Calibration inputs are configured during model creation or retraining. The Diagnostics tab displays the calibration evidence used by the selected model.
 
-**[VIDEO PLACEHOLDER: Navigating Model List and the Models workspace]**
+**\[VIDEO PLACEHOLDER: Navigating Model List and the Models workspace]**
