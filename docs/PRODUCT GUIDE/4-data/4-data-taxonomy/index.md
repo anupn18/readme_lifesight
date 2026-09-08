@@ -1,7 +1,7 @@
 ---
 title: >-
-  [4.0][WIP] Data Taxonomy: Turn campaign names into a structure you can measure
-  on
+  [4.0][Updated] Data Taxonomy: Turn campaign names into a structure you can
+  measure on
 excerpt: >-
   Group your campaigns into tactics (sets of campaigns that work the same way,
   like prospecting or retargeting) so your results roll up by what the spend was
