@@ -4,6 +4,11 @@ excerpt: >-
   Tell Lifesight which channel a source's data belongs to, so its spend is
   grouped with the right marketing activity.
 hidden: true
+metadata:
+  title: Map a source to a channel
+  keywords:
+    - Lifesight
+    - Source Channel
 ---
 Before individual columns mean anything, the source has to say what it is. A file named `Q4_partner_export.csv` tells a model nothing. Knowing that the spend inside it is Paid Social tells it a great deal.
 
