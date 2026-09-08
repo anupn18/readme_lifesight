@@ -8,7 +8,7 @@ metadata:
 ---
 The **Diagnostics** tab helps you evaluate model fit, validation performance, channel transformations, decomposition, and calibration evidence.
 
-**[IMAGE PLACEHOLDER: Diagnostics tab with headline metrics and actual versus predicted outcome]**
+![](https://files.readme.io/3b17557364cee00391ed803aaeaa44fa661c99abe1f1edb1dfd364467370d255-Screenshot_2026-09-08_at_2.39.11_PM.png)
 
 ## Headline metrics
 
@@ -52,4 +52,4 @@ Decomposition separates the predicted outcome into modelled components over time
 
 The calibration summary displays the experiment evidence supplied during model creation or retraining. Review the channel, experiment period, incremental efficiency, and confidence alongside the model estimate.
 
-**[VIDEO PLACEHOLDER: Interpreting model diagnostics from fit to decomposition]**
+**\[VIDEO PLACEHOLDER: Interpreting model diagnostics from fit to decomposition]**
