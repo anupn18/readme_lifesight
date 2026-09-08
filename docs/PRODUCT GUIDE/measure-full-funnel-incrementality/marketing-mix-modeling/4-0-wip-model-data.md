@@ -1,14 +1,17 @@
 ---
-title: '[4.0][WIP] Data'
-excerpt: Understand the attributes and configuration of a Marketing Mix Model.
+title: '[4.0][WIP] Model Data'
+excerpt: See what your model is built on, so you can trust what it tells you.
 deprecated: false
 hidden: true
 metadata:
+  title: Data
+  keywords:
+    - Lifesight Model Data
   robots: noindex
 ---
 The **Data** tab helps you validate the information used by the selected model before interpreting its results.
 
-**[IMAGE PLACEHOLDER: Data tab with summary metrics, trends, inputs, and correlations]**
+![](https://files.readme.io/a125f995035b95515d03f2c0e2734f43a1c681e9015c86dc0162e66c2dd90057-Screenshot_2026-09-08_at_11.13.11_AM.png)
 
 ## Summary metrics
 
@@ -39,10 +42,12 @@ Confirm that variables are classified correctly. Paid, organic, contextual, halo
 
 Switch between **Raw Input** and **Transformed** correlations where transformed results are available. Select a heatmap cell to inspect the relationship in a scatter plot.
 
+![](https://files.readme.io/ebe75bb2083610d09ada1397b65bab8ad7476a7d7e6432e306239b501524a1cb-Screenshot_2026-09-08_at_11.14.30_AM.png)
+
 High correlation between paid variables can make their individual effects harder to separate. High correlation between a media variable and the outcome may be expected, but should still be reviewed with Diagnostics and Graph.
 
 ## Before you continue
 
 Continue to Diagnostics when the selected period, totals, variable classifications, and time-series patterns are consistent with the source data and business context.
 
-**[VIDEO PLACEHOLDER: Reviewing model data and correlations]**
+**\[VIDEO PLACEHOLDER: Reviewing model data and correlations]**
