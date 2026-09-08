@@ -27,6 +27,8 @@ Mapping a source to a channel is how you say that. It happens once per source, a
 3. Choose the shape that matches your data.
 4. Assign the channels and save.
 
+![](https://files.readme.io/65df4daf76678c660ff05d57fda3703a538135c1dd5e9d7f3144e4533ad9f7d9-Screenshot_2026-09-08_at_7.11.58_AM.png)
+
 The left rail is a summary of the row contract, which is the shape of one row of this source. Alongside Channel it shows the **Data category** the source files under and the **Date** column with its granularity, both set when the integration was created.
 
 ## The three shapes
