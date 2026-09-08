@@ -7,6 +7,10 @@ excerpt: >-
   like prospecting or retargeting) so your results roll up by what the spend was
   meant to do.
 hidden: true
+metadata:
+  title: '[ Data Taxonomy: Turn campaign names into a structure you can measure on'
+  keywords:
+    - Lifesight Data Taxonomy
 ---
 Ad platforms organise spend the way the platform wants to organise it: by account, campaign, ad set, ad. That structure is useful for running campaigns and close to useless for measuring them, because two campaigns sitting next to each other in the same account can be doing completely different jobs.
 
