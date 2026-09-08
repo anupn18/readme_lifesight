@@ -1,9 +1,13 @@
 ---
-title: '[4.0][WIP] Build a schema for Geo Experiments'
+title: '[4.0][Updated] Build a schema for Geo Experiments'
 excerpt: >-
   Define the KPI and geographic dimension a geo test needs, so incremental lift
   can be measured against matched control regions.
 hidden: true
+metadata:
+  title: ' Build a schema for Geo Experiments'
+  keywords:
+    - Lifesight schema
 ---
 A geo experiment measures incrementality by doing something different in one set of regions and not in another, then comparing what happened. It is the closest thing to a controlled experiment that most marketing can run, and it produces evidence rather than an estimate.
 
@@ -51,7 +55,7 @@ You can select both schema types if one variable set should power a mix model an
 
 ![Choosing variables for the schema](https://files.readme.io/33f2c89ed584e193201ddafef6667d47ef4101256d3f74172b1757e86048936e-model-schema-variables.png)
 
-## Steps 3 and 4
+## Steps 3 and 4:
 
 **Causal Graph** captures the relationships you are confident about, and **Preview** is the final check before saving.
 
