@@ -1,9 +1,12 @@
 ---
-title: '[4.0][WIP] Model Overview'
+title: '[4.0][Updated]Model Overview: your model''s health at a glance'
 excerpt: Review model health, performance, contribution, and insights in Lifesight.
 deprecated: false
 hidden: true
 metadata:
+  title: 'Model Overview: your model''s health at a glance'
+  keywords:
+    - Lifesight Model Overview
   robots: noindex
 ---
 The Models workspace is where you review trained models, compare their results, and manage their lifecycle.
