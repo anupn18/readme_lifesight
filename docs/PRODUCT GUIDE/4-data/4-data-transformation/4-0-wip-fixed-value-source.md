@@ -4,10 +4,15 @@ excerpt: >-
   Stamp the same value on every row from a source, so data that is missing a
   column still lines up with everything else.
 hidden: true
+metadata:
+  title: Set a Fixed Value for Every Source
+  keywords:
+    - Lifesight
+    - Data Sources
 ---
-Sometimes the information you need is true of a whole source but appears nowhere in its data. A file of UK store sales has no country column, because whoever built it knew every row was the United Kingdom. A partner's monthly report has no channel column, because the partner only does one thing.
+Some of the most useful information about a source never shows up in its data. A UK store sales file has no country column because every row is already the United Kingdom. A partner's monthly report has no channel column because the partner only sells one channel. The context lives in the file name, or in someone's head, and your models never see it.
 
-A fixed value fills that gap. You type the value once, and every row arriving from that source carries it.
+A fixed value closes that gap. You type the value once, and every row arriving from that source carries it. The file stays as it is, and the data lands in your models already labeled by country, channel, brand, or currency, so it can be compared and modeled alongside everything else.
 
 ## When to use it
 
