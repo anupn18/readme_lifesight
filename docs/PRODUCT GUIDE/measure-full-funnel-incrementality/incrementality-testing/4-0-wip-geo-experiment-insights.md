@@ -20,6 +20,16 @@ Interim results are provisional. They can change as more observations are collec
 
 **[VIDEO PLACEHOLDER: Reviewing experiment progress and interim results]**
 
+## Calculate lift
+
+Select **Calculate Lift** when an interim or final analysis is required. Upload updated geographic data that extends the same schema and granularity used during experiment creation.
+
+For an interim calculation, include observations collected through the current experiment date. At the end of the treatment period, upload the completed treatment-period data to calculate the final result. When post-treatment analysis is supported, add the required observations after the treatment window before calculating the adjusted result.
+
+Check the file's date coverage and geographic fields before submitting it. Gaps, renamed columns, or a different aggregation can prevent the updated data from being matched to the experiment.
+
+**[VIDEO PLACEHOLDER: Uploading updated geographic data and calculating lift]**
+
 ## Understand the main metrics
 
 ### Lift
@@ -115,6 +125,12 @@ Use this order when interpreting a completed experiment:
 7. Read the findings, recommendation, and conclusion with the original hypothesis.
 
 > 📘 A non-significant result does not automatically prove that there was no effect. The experiment may have measured a small effect, collected insufficient information, or had more variation than the design expected.
+
+## Promote a result
+
+Promote an experiment when its design, execution, and result are credible enough to support downstream measurement. A promoted experiment can inform Attribution and eligible model-calibration workflows.
+
+Promotion is not a substitute for review. Confirm the result against the original hypothesis, effect size, uncertainty, power, market consistency, and campaign execution before promoting it.
 
 ## Review the original design
 
