@@ -1,13 +1,18 @@
 ---
-title: '[4.0][WIP] Data Taxonomy'
+title: >-
+  [4.0][WIP] Data Taxonomy: Turn campaign names into a structure you can measure
+  on
 excerpt: >-
-  Group your campaigns into tactics so that measurement reflects how your
-  marketing actually works, not how your campaigns happen to be named.
+  Group your campaigns into tactics (sets of campaigns that work the same way,
+  like prospecting or retargeting) so your results roll up by what the spend was
+  meant to do.
 hidden: true
 ---
 Ad platforms organise spend the way the platform wants to organise it: by account, campaign, ad set, ad. That structure is useful for running campaigns and close to useless for measuring them, because two campaigns sitting next to each other in the same account can be doing completely different jobs.
 
-Consider a Google Ads account with a campaign defending your brand terms and another prospecting on generic keywords. The brand campaign will show a wonderful return, because people searching your name were mostly going to buy anyway. The prospecting campaign will look worse and may be the one genuinely growing the business. Average them into a single Google Ads number and you have hidden the only insight that mattered.
+Consider a Google Ads account with a campaign defending your brand terms and another prospecting on generic keywords.&#x20;
+
+The brand campaign will show a wonderful return, because people searching your name were mostly going to buy anyway. The prospecting campaign will look worse and may be the one genuinely growing the business. Average them into a single Google Ads number and you have hidden the only insight that mattered.
 
 Data Taxonomy is where you fix that. You group campaigns into **tactics**, which are the units you actually want to measure.
 
@@ -15,7 +20,7 @@ Data Taxonomy is where you fix that. You group campaigns into **tactics**, which
 
 ## What a tactic is
 
-A tactic is a marketing job, described in your own words. It usually combines a channel with an intent, and often a funnel position:
+Platforms group your spend by where it ran. A tactic groups it by what it was meant to do. You define these in your own words, usually combining a channel with an intent, and often a funnel position:
 
 - Paid Search Brand Upper
 - Paid Search Non-Brand Lower
@@ -26,27 +31,27 @@ A tactic is a marketing job, described in your own words. It usually combines a 
 
 There is no correct list. The right set is the one that matches the decisions you make. A good rule of thumb: **create a tactic when you would plausibly change its budget independently of everything else.**
 
-## Getting around the tab
+## Where the work happens
 
-Two sub-tabs sit at the top. **Tactic mapper** is the working surface where campaigns get assigned. **Rules and labels** is where the automatic assignment rules live.
+**Tactic mapper** is the working surface where campaigns get assigned, so this is where your marketing takes shape. **Rules and labels&#x20;**&#x73;its alongside it and holds the automatic assignment rules, so new campaigns land in the right tactic without you touching them again.
 
-Inside the mapper you can switch between **Campaigns** and **Ad Sets**. Campaign level is where most people work. Drop to ad set level when one campaign genuinely contains several tactics, which happens most often on Meta.
+Inside the mapper you can switch between Campaigns and Ad Sets. Campaign level is where most people work and where you should start. Drop to ad set level when one campaign genuinely contains several tactics, which happens most often on Meta, and going a level deeper is what keeps those results readable.
 
 ### How campaigns and ad sets relate
 
 This is worth understanding properly, because it is the source of the most commonly missed problem in the whole tab.
 
-**The ad set is the atomic unit.** A tactic is really assigned to ad sets. A campaign owns several ad sets, and nothing forces them all onto the same tactic. What the Campaigns view shows you is therefore a roll-up of what its ad sets say.
+**Tactics are assigned at the ad set level.** A campaign holds several ad sets, and nothing forces them all onto the same tactic. So what you see in the Campaigns view is a summary of what its ad sets say, not a setting of its own. Change nothing at the ad set level and the campaign view will keep telling you it is fine when it is not.
 
 That gives a campaign five possible states.
 
-| State | What it means |
-| --- | --- |
-| **Unmapped** | None of its ad sets have a tactic. |
-| **Fully mapped** | Every ad set is mapped, all to the same tactic. The quiet common case. |
-| **Fully mapped, split** | Every ad set is mapped, but across two or more tactics. Perfectly valid. |
-| **Partially mapped** | Some ad sets are mapped and some are not, all to one tactic. |
-| **Partially mapped, split** | Some ad sets are mapped and some are not, across several tactics. |
+| State                       | What it means                                                            |
+| --------------------------- | ------------------------------------------------------------------------ |
+| **Unmapped**                | None of its ad sets have a tactic.                                       |
+| **Fully mapped**            | Every ad set is mapped, all to the same tactic. The quiet common case.   |
+| **Fully mapped, split**     | Every ad set is mapped, but across two or more tactics. Perfectly valid. |
+| **Partially mapped**        | Some ad sets are mapped and some are not, all to one tactic.             |
+| **Partially mapped, split** | Some ad sets are mapped and some are not, across several tactics.        |
 
 **The two partial states are the ones to hunt for.** A campaign with four of its five ad sets mapped looks broadly fine at a glance, and the spend in that fifth ad set silently never reaches the model. It is not reported as an error anywhere, because nothing has gone wrong technically. It is simply unclassified.
 
@@ -54,20 +59,22 @@ Because the mapper states these separately, you can filter on them. Open the Tac
 
 The Tactic cell on a partially mapped campaign also shows the breakdown, so you can see how many of its ad sets are mapped, to which tactics, and how much spend is sitting unmapped underneath.
 
-### The columns
+### Reading the tactic mapper table
 
-| Column | What it tells you |
-| --- | --- |
-| **Name** | The campaign name as the platform reports it, with its ID underneath. |
-| **Tactic** | What this campaign has been classified as. Starts as Not Assigned. |
-| **Channel** | Which platform the spend came from. |
-| **Account Name** | Which ad account it sits in. |
-| **Objective** | The platform's own objective, such as SEARCH. Often a good hint when you are unsure. |
-| **Spend** | How much this campaign spent over the period. |
-| **Spend Share** | That spend as a share of the total, so you can see what is worth your attention. |
-| **New** | Flags campaigns that have appeared recently and are not classified yet. |
+Use Columns to show or hide what is in the table, including custom dimensions you built in Data Transformation. The download icon exports the current view as CSV, useful when you want to agree tactics with a colleague in a spreadsheet first.
 
-**Columns** shows or hides columns, including custom dimensions from Data Transformation. The download icon exports the current view as CSV, useful when you want to agree tactics with a colleague in a spreadsheet first.
+| Column           | What it tells you                                                                    |
+| ---------------- | ------------------------------------------------------------------------------------ |
+| **Name**         | The campaign name as the platform reports it, with its ID underneath.                |
+| **Tactic**       | What this campaign has been classified as. Starts as Not Assigned.                   |
+| **Channel**      | Which platform the spend came from.                                                  |
+| **Account Name** | Which ad account it sits in.                                                         |
+| **Objective**    | The platform's own objective, such as SEARCH. Often a good hint when you are unsure. |
+| **Spend**        | How much this campaign spent over the period.                                        |
+| **Spend Share**  | That spend as a share of the total, so you can see what is worth your attention.     |
+| **New**          | Flags campaigns that have appeared recently and are not classified yet.              |
+
+<br />
 
 ### The progress bar
 
@@ -75,14 +82,16 @@ Along the bottom is an honest summary: how much spend is mapped, how many campai
 
 Watch the **spend mapped** percentage rather than the campaign count. Classifying 80 percent of campaigns means little if they are the ones spending nothing. Getting 95 percent of spend mapped is real progress.
 
+![](https://files.readme.io/63e5ece7588bbdd34d95a2cadc5c1ff85322da6b557da9fa282f5ca1bd1cd31d-Screenshot_2026-09-08_at_7.28.01_AM.png)
+
 ## Two ways to assign tactics
 
 Most teams use both.
 
-| Use case | Approach | Read more |
-| --- | --- | --- |
-| First pass, exceptions, and the long tail | Select campaigns and assign them directly | [Assign tactics by hand](https://docs.lifesight.io/docs/4-0-wip-assign-tactics-manually) |
-| Anything that repeats, and campaigns that do not exist yet | Write a rule that matches a pattern | [Assign tactics automatically with rules](https://docs.lifesight.io/docs/4-0-wip-assign-tactics-rules) |
+| Use case                                                    | Approach                                  | Read more                                                                                              |
+| ----------------------------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| First pass, exceptions, and the long tail.                  | Select campaigns and assign them directly | [Assign tactics by hand](https://docs.lifesight.io/docs/4-0-wip-assign-tactics-manually)               |
+| Anything that repeats, and campaigns that do not exist yet. | Write a rule that matches a pattern       | [Assign tactics automatically with rules](https://docs.lifesight.io/docs/4-0-wip-assign-tactics-rules) |
 
 Start by hand to learn what patterns exist, then write rules so the taxonomy maintains itself.
 
@@ -90,7 +99,7 @@ Start by hand to learn what patterns exist, then write rules so the taxonomy mai
 
 **Lean on your naming convention, and fix it if you cannot.** Rules work well when names follow a pattern. If yours do not, this tab will show you that clearly, and the long term fix is a convention rather than more rules.
 
-**Start coarse.** Half a dozen tactics everyone understands beats thirty nobody maintains.
+**Keep the list small.&#x20;**&#x48;alf a dozen tactics everyone understands beats thirty nobody maintains. You can always split a tactic later, once you have a real reason to.
 
 **Do it with the person who runs the campaigns.** They know which campaigns were experiments and which are dormant. That context is not in the data.
 
