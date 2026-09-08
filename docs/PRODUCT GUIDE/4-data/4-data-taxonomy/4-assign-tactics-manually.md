@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Assign tactics manually to cover your biggest spend first'
+title: '[4.0][WIP] Assign Tactics Manually to Cover your Biggest Spend First'
 excerpt: >-
   Classify campaigns into tactics one selection at a time, which is the fastest
   way to cover most of your spend on day one.
