@@ -9,7 +9,7 @@ metadata:
   keywords:
     - Lifesight Tactics
 ---
-Hand assignment does not survive contact with reality. New campaigns launch every week and each one arrives unclassified, so a taxonomy maintained purely by hand is out of date within a month.
+Manually assigning tactics is not practical. New campaigns launch every week and each one arrives unclassified, so spend starts going unmapped faster than anyone can classify it.
 
 A rule watches for a pattern and assigns a tactic automatically. Crucially it applies to campaigns that do not exist yet, so tomorrow's launches are classified the moment they appear.
 
@@ -30,7 +30,7 @@ Use [Assign tactics by hand](https://docs.lifesight.io/docs/4-0-wip-assign-tacti
 
 A condition picks a dimension, an operator, and a value. The dimensions available include campaign name, channel, objective and account, plus any custom dimensions you created in [Data Transformation](https://docs.lifesight.io/docs/4-0-wip-data-transformation). Operators cover equals, contains, starts with, is in a list, is empty, and comparisons for numbers and dates.
 
-A worked rule: *where Campaign Name contains `NB` and Channel is Google, assign Paid Search Non-Brand*.
+A worked rule: _where Campaign Name contains&#x20;_`NB`_&#x20;and Channel is Google, assign Paid Search Non-Brand_.
 
 4. **Read the preview before saving.** The rule shows exactly which campaigns it will claim. This is the fastest way to discover that your `NB` convention meant something entirely different in 2023.
 5. Save the rule.
@@ -71,7 +71,7 @@ Priority runs top to bottom in the editor. The rule at the top has the highest p
 
 ### How priority is set when you create a rule
 
-A new rule is added to the list and takes its position there. Because the positions are always contiguous, inserting a rule at a given position pushes everything from that point down by one. You never end up with two rules at priority 3, and you never have to renumber by hand.
+Rules are numbered without gaps. Insert a new rule at position 3 and everything from there down shifts by one. You never end up with two rules at the same position, and you never renumber by hand.
 
 ### How to change it
 
