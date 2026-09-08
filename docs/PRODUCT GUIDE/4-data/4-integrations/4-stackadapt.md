@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] StackAdapt'
+title: '[4.0][Updated] StackAdapt'
 excerpt: >-
   Connect your StackAdapt programmatic account with an API key to see what
   native, display, video, CTV and audio each return, and fund them accordingly.
