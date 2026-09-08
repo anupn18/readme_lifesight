@@ -74,9 +74,11 @@ For organic, contextual, and halo variables, you will select a Positive, Negativ
 
 ## Data-to-Feature Ratio
 
-A model needs enough observations relative to the number of independent variables. As a practical minimum, maintain at least four data points for every independent variable.
+A model needs enough observations relative to the number of parameters it estimates. Each media channel with adstock and saturation applied contributes several fitted parameters rather than one, and any trend or seasonality components estimated from the same data add further parameters. A model with 10 media channels and 15 other variables is therefore estimating well over 50 quantities, not 25.
 
-For example, a dataset with 25 independent variables should contain at least 100 observations. More history is often required when the data contains strong seasonality, low spend variation, or many related channels.
+As a practical minimum, maintain at least four observations for every fitted parameter counted this way. The requirement is better expressed in calendar time than in row count: two years of weekly data is the working target, and one year is the minimum, since separating yearly seasonality from trend requires two full cycles. One hundred daily observations covers roughly three months and cannot support this regardless of how the ratio appears.
+
+Sample size alone does not identify coefficients; independent variation in spend does. Two channels that move together for 200 weeks are no more separable than they would be at 20. Before relying on a fit, review the coefficient of variation for each channel, the pairwise correlation between channel spends, and the number of distinct spend regimes each channel exhibits. A channel whose spend never varies remains unidentified at any sample size.
 
 ## Uploading the CSV in Lifesight&#x20;
 
