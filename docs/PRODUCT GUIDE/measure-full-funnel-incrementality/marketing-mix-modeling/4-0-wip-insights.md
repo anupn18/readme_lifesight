@@ -4,6 +4,9 @@ excerpt: Explore model-generated insights and business recommendations.
 deprecated: false
 hidden: true
 metadata:
+  title: MMM Insights
+  keywords:
+    - Lifesight Insights
   robots: noindex
 ---
 The **Insights** tab organizes model output into **Media Analyses** and **Baseline Analyses**. It is hidden by default and can be enabled from **Customize Tabs**.
