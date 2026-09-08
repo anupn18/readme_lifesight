@@ -1,11 +1,15 @@
 ---
-title: '[4.0][WIP] Build a schema for Marketing Mix Modelling'
+title: '[4.0][Updated] Build a schema for Marketing Mix Modelling'
 excerpt: >-
   Define the KPI, media and context for a mix model, so it can decompose what
   actually drove your results.
 hidden: true
+metadata:
+  title: Build a schema for Marketing Mix Modelling
+  keywords:
+    - Lifesight Model Schema
 ---
-A mix model answers one question: of everything that happened last year, how much of the outcome did each thing cause. To answer it, the model needs to know what the outcome is, what you spent, and what else was going on that had nothing to do with your marketing.
+A marketing mix model answers one question: of everything that happened last year, how much of the outcome did each thing cause. To answer it, the model needs to know what the outcome is, what you spent, and what else was going on that had nothing to do with your marketing.
 
 This schema is where you tell it. Get the third part wrong and the model will hand credit for your Black Friday promotion to whichever channel happened to be spending in November.
 
@@ -78,7 +82,7 @@ At **Preview** they notice affiliate spend is missing entirely, go back to conne
 
 ## Where this shows up in the rest of Lifesight
 
-**Marketing Mix Modeling** trains directly on this schema. Everything it reports, contribution by channel, baseline versus incremental revenue, and the saturation curves, is bounded by the variables you chose here.
+**Marketing Mix Modelilng** trains directly on this schema. Everything it reports, contribution by channel, baseline versus incremental revenue, and the saturation curves, is bounded by the variables you chose here.
 
 **Causal Flags** reflect the relationships captured in the causal graph, which is how you can tell whether a channel has a genuine causal relationship with the outcome.
 
@@ -86,7 +90,7 @@ At **Preview** they notice affiliate spend is missing entirely, go back to conne
 
 **Planner** forecasts and builds media plans from the model's response curves. A channel missing from the schema cannot appear in a plan.
 
-**Optimizer** and **Recommendations** propose budget moves against those same curves, and act on them in the ad platforms.
+**Optimiser** and **Recommendations** propose budget moves against those same curves, and act on them in the ad platforms.
 
 **Model Refresh and Retraining** re-run against this schema as new data arrives, which is why it is worth defining properly once rather than rebuilding each quarter.
 
