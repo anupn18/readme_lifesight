@@ -1,13 +1,18 @@
 ---
-title: '[4.0][WIP] Setting up your Mix Model'
+title: '[4.0][WIP] Setting up your Marketing Mix Model'
 excerpt: >-
   Your guide to configuring data, selecting variables, and launching your media
   mix model
 deprecated: false
 hidden: true
 metadata:
+  title: 'Setting up your Marketing Mix Model '
+  keywords:
+    - Lifesight Marketing Mix Model
   robots: noindex
 ---
+Setting up a model is mostly about the inputs. Lets see what your data needs to look like, how to choose the variables the model learns from, and what happens once you hit build. Get this part right and everything downstream, from contribution to budget planning, holds up.
+
 ## Data Requirements
 
 To ensure a successful model build, your data must be correctly prepared. You can provide data to the Lifesight platform through two methods:
@@ -22,25 +27,29 @@ You can also create a model using historical data stored in a CSV file. The file
 
 Refer to the [CSV Data Formatting Guidelines](https://docs.lifesight.io/v2.0/docs/4-0-wip-mmm-input-schema) for more details about preparing your CSV file.
 
+![](https://files.readme.io/e4931e78d18df9e42200653c9e88a65f8ba02112ccf80c98a6901f5a110e24b3-Screenshot_2026-09-08_at_9.02.28_AM.png)
+
 ## Interactive Demo
 
-> 📘 View a step-by-step walkthrough
->
-> Use the interactive demo below to guide you through each step of the model creation process.
->
-> **[VIDEO PLACEHOLDER: Creating a Mix Model in Lifesight 4.0]**
+<Callout icon="📘" theme="info">
+  ### View a step-by-step walkthrough
 
-<br />
+  Use the interactive demo below to guide you through each step of the model creation process.
+
+  **\[VIDEO PLACEHOLDER: Creating a Mix Model in Lifesight 4.0]**
+</Callout>
 
 ## Step 1: Select the Model Class
 
-**[IMAGE PLACEHOLDER: Create Model screen showing the model name and Model Class options]**
+1. Select`  Models  `from the sidebar to see every model in your workspace.
+2. Click `Create Model` to start a new build.
+3. Give your model a unique, descriptive name, so you can tell versions apart later.
+4. Select `Marketing Mix Model `as the Model Class, which measures channel contribution to revenue across paid, owned, and earned media.
+5. Click Next to move on to variables.
 
-1. Select **Models** from the sidebar.
-2. Click the **`Create Model`** button.
-3. Enter a unique and descriptive name for your model.
-4. Select **Media Mix Model** as the Model Class.
-5. Click **`Next`**.
+   ![](https://files.readme.io/5a9bc4f88acf9078bceeef82c230cd864a721216d88b86584ecb91fe794522fd-Screenshot_2026-09-08_at_9.04.36_AM.png)
+
+
 
 ***
 
@@ -48,7 +57,7 @@ Refer to the [CSV Data Formatting Guidelines](https://docs.lifesight.io/v2.0/doc
 
 In this step, you will select your input data and map its fields to the variables required by the model. This is critical for ensuring the model interprets your data correctly.
 
-**[IMAGE PLACEHOLDER: Variable mapping screen showing the data source and variable sections]**
+**\[IMAGE PLACEHOLDER: Variable mapping screen showing the data source and variable sections]**
 
 ### Select a Data Source
 
@@ -56,6 +65,8 @@ Choose one of the following options:
 
 * **Data Model**: Select a Data Model that has already been configured in your workspace.
 * **CSV Upload**: Drag and drop or browse for your prepared CSV file.
+
+![](https://files.readme.io/c247b6cf3c245638ef09d23955ce3debbfe6b675db2a03b724167b22e308b4bf-Screenshot_2026-09-08_at_9.02.01_AM.png)
 
 ### Map Data Features
 
@@ -68,13 +79,15 @@ Choose one of the following options:
 
 For organic, contextual, and halo variables, select the expected treatment:
 
-> 📘 What Treatment Should I Choose?
->
-> * **Positive**: Select this when the variable is expected to increase your Outcome KPI. Example: Your own brand's promotional event.
-> * **Negative**: Select this when the variable is expected to decrease your Outcome KPI. Example: A major competitor's promotional campaign.
-> * **Neutral**: Select this when you are unsure or want the model to determine the effect without guidance.
+<Callout icon="📘" theme="info">
+  ### What Treatment Should I Choose?
 
-Once the mapping is complete, click **`Proceed Manually`**.
+  * **Positive**: Select this when the variable is expected to increase your Outcome KPI. Example: Your own brand's promotional event.
+  * **Negative**: Select this when the variable is expected to decrease your Outcome KPI. Example: A major competitor's promotional campaign.
+  * **Neutral**: Select this when you are unsure or want the model to determine the effect without guidance.
+</Callout>
+
+Once the mapping is complete, click `Proceed Manually`.
 
 ***
 
@@ -82,7 +95,7 @@ Once the mapping is complete, click **`Proceed Manually`**.
 
 Here, you will set the core parameters for your model's analysis.
 
-**[IMAGE PLACEHOLDER: Configuration screen showing model details, date settings, and training split]**
+![](https://files.readme.io/8787aa223e5742ea6d2424b43df9855ea26baad420ba626e3340b86056f43cab-Screenshot_2026-09-08_at_9.05.09_AM.png)
 
 1. **Model Details**: Confirm the model name. The model owner is filled automatically and is read-only.
 2. **Aggregation**: Select **Daily**, **Weekly**, or **Monthly** to match the aggregation of your input data.
@@ -94,11 +107,13 @@ Here, you will set the core parameters for your model's analysis.
 
 ### Advanced Settings
 
-> 👍 This section allows data scientists and advanced users to fine-tune the model's underlying parameters.
+<Callout icon="👍" theme="okay">
+  ### This section allows data scientists and advanced users to fine-tune the model's underlying parameters.
+</Callout>
 
 For each paid media tactic, you can review and modify its Adstock and Saturation settings.
 
-**[IMAGE PLACEHOLDER: Advanced Settings showing Adstock and Saturation controls for a tactic]**
+![](https://files.readme.io/bbcdc92b8a413566b86b07fce43f1c9654b34e577ec1eaab3cfa6076f506cd55-Screenshot_2026-09-08_at_9.05.55_AM.png)
 
 * **Adstock**: This accounts for the delayed or carryover effect of advertising. You can choose between two transformation methods:
   * **Geometric**: A simple decay model.
@@ -114,11 +129,11 @@ Keep the default advanced settings unless you have a specific modelling reason t
 
 If you have run recent marketing experiments, such as lift studies or geo experiments, you can use their results to calibrate your MMM. Calibration anchors the model's estimates to observed incrementality and can improve the accuracy of its results.
 
-**[IMAGE PLACEHOLDER: Calibration table showing channel, date range, incremental ROAS, confidence, and calibration type]**
+![](https://files.readme.io/71db8360aa4b28764071b39e2d3f3bfe8b5e8fea025ceeb9c6363c09d1ea43ae-Screenshot_2026-09-08_at_9.07.39_AM.png)
 
 To add a calibration insight:
 
-1. Click **`Add calibration`**.
+1. Click `Add calibration`.
 2. Select the paid media channel or tactic associated with the experiment.
 3. Specify the experiment's start and end dates.
 4. Enter the observed **Incremental ROAS**.
@@ -134,7 +149,7 @@ Calibration is optional. If you do not have suitable experiment results, you can
 
 This step establishes the causal links between your input variables and the Outcome KPI. The relationships you define guide the model in understanding which factors may influence one another and the final result.
 
-**[IMAGE PLACEHOLDER: Causal Relationships table alongside the visual Preview map]**
+![](https://files.readme.io/b357d4f3e65c43af3b88f239dc73f9993e8427b959a6a8c8c05f2698bcf17eec-Screenshot_2026-09-08_at_9.07.58_AM.png)
 
 On this screen, you will see two main sections: the **Relationships** table on the left and a visual **Preview** map on the right.
 
@@ -143,7 +158,7 @@ On this screen, you will see two main sections: the **Relationships** table on t
    * **Potential**: Select this when the Cause variable may influence the Effect variable.
    * **Forbidden**: Select this when the causal relationship should not be considered by the model.
 3. **Use the Visual Preview**: The graph updates as you change the relationships. Use it to confirm that the connections and direction of influence make sense.
-4. Click **`Next`** when you have reviewed the relationships.
+4. Click `Next` when you have reviewed the relationships.
 
 ***
 
@@ -151,7 +166,7 @@ On this screen, you will see two main sections: the **Relationships** table on t
 
 Review the model summary before submitting it.
 
-**[IMAGE PLACEHOLDER: Final review screen showing the model summary and Submit button]**
+![](https://files.readme.io/0167029d29b80ab13ac69d96ae9c0b092929000ff23a7a72d785a297675cbfec-Screenshot_2026-09-08_at_9.08.40_AM.png)
 
 Confirm the following details:
 
@@ -161,10 +176,10 @@ Confirm the following details:
 * Training size and refresh frequency
 * Calibration entries
 
-If any required information is missing, return to the relevant step and complete it. When the model is ready, click **`Submit`** to start the model run.
+If any required information is missing, return to the relevant step and complete it. When the model is ready, click `Submit` to start the model run.
 
 The model will appear in the Models list with its current processing status. You will be notified when the run has completed successfully.
 
-**[IMAGE PLACEHOLDER: Models list showing a model in progress and a completed model]**
+![](https://files.readme.io/d094c34b32e572d63794f9ee579609a4e42f1b9305d689312dbbe587ee4f34d9-Screenshot_2026-09-08_at_9.09.37_AM.png)
 
 After the model is created, open it to review its performance, contribution insights, response curves, and other available results.
