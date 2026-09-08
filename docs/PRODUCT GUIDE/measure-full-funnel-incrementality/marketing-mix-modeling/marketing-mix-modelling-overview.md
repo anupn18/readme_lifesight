@@ -6,6 +6,9 @@ excerpt: >-
 deprecated: false
 hidden: true
 metadata:
+  title: 'Marketing Mix Modeling: see what your marketing is actually driving'
+  keywords:
+    - Lifesight MMM
   robots: index
 next:
   pages:
