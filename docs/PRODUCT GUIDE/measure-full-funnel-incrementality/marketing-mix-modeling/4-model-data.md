@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Model Data'
+title: '[4.0][Updated] Model Data'
 excerpt: See what your model is built on, so you can trust what it tells you.
 deprecated: false
 hidden: true
@@ -21,14 +21,14 @@ Use these metrics as a first check. Unexpected totals, missing variables, or a d
 
 ## Time-series trends
 
-Plot outcome, spend, paid, organic, or control variables to understand how they move over time. Select multiple variables when you need to compare timing or scale, and use the available comparison period to add context.
+Plotting outcome, spend, paid, organic, and control variables over time shows you how each one behaves and where they move together. Multiple variables can be plotted at once when timing or scale needs comparing, and the comparison period adds context.
 
-Look for:
+A few things worth catching here:
 
-* Missing or flat periods
-* Sudden changes that may reflect tracking or taxonomy updates
-* Spend activity outside the expected campaign window
-* Outcome changes that coincide with known promotions or business events
+- Gaps or flat stretches where data may be missing
+- Sharp shifts that usually trace back to tracking or taxonomy changes
+- Spend showing up outside the campaign window it belongs to
+- Outcome movements that line up with promotions or known business events
 
 Similar movement between two variables can be useful context, but correlation alone does not establish causality.
 
