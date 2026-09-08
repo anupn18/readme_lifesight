@@ -1,9 +1,12 @@
 ---
-title: '[4.0][WIP] Diagnostics'
+title: '[4.0][Updated] Diagnostics'
 excerpt: Interpret causal evidence and confidence signals in Marketing Mix Modeling.
 deprecated: false
 hidden: true
 metadata:
+  title: Diagnostics
+  keywords:
+    - Lifesight MMM Diagnostics
   robots: noindex
 ---
 The **Diagnostics** tab helps you evaluate model fit, validation performance, channel transformations, decomposition, and calibration evidence.
@@ -31,16 +34,16 @@ Large errors concentrated around a launch, promotion, outage, or market event ca
 
 ## Backtesting
 
-The backtest table summarizes performance on data that was not used to fit the model. Similar training and backtest performance is stronger evidence of generalization than a strong fitted result with weak backtesting.
+The backtest table summarises performance on data that was not used to fit the model. Similar training and backtest performance is stronger evidence of generalisation than a strong fitted result with weak backtesting.
 
 ## Channel response and carryover
 
-Use the saturation, adstock, and time-to-conversion views to understand each channel's fitted behavior.
+Use the saturation, Adstock, and time-to-conversion views to understand each channel's fitted behavior.
 
 * **Saturation** shows how response changes as investment increases.
 * **Adstock** shows how media impact decays after exposure.
 * **Time to Conversion** separates immediate impact from later carryover.
-* **Immediate and Carryover** summarizes that split for the available channels.
+* **Immediate and Carryover** summarises that split for the available channels.
 
 Review whether the shapes and timing are plausible for the channel and buying strategy.
 
