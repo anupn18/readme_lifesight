@@ -1,9 +1,12 @@
 ---
-title: '[4.0][WIP] Model Refresh'
+title: '[4.0][WIP] Model Refresh: Refresh your marketing model with the latest data'
 excerpt: Refresh a successful model with newly available observations.
 deprecated: false
 hidden: true
 metadata:
+  title: 'Model Refresh: Refresh your marketing model with the latest data'
+  keywords:
+    - Lifesight Model Refresh
   robots: noindex
 ---
 A model refresh incorporates new periods of data while retaining the current model structure. Use it when the schema and underlying business relationships remain suitable.
@@ -22,7 +25,13 @@ The first refresh is started from the eligible model's action menu in **Model Li
 4. Upload and review the updated data.
 5. Submit the refresh.
 
-**[IMAGE PLACEHOLDER: Model List action menu and refresh dialog]**
+<br />
+
+![](https://files.readme.io/97d3074aeeb45ede9f9125309f44df864bc006f65bcb58b9cd43cefa130129ed-Screenshot_2026-09-09_at_4.03.25_PM.png)
+
+<br />
+
+![](https://files.readme.io/0ad8a98fd62fabe9584e0f2f7f54574f3c2d960bfc7e8e474bb7f53ca6c61491-Screenshot_2026-09-09_at_4.02.53_PM.png)
 
 ## Use the Refresh tab
 
@@ -38,4 +47,4 @@ If a refresh cannot match every contribution component, the unmatched amount can
 
 Check that the new file uses the original schema and aggregation, has a continuous date range, and contains the required variables. If the business structure has changed, use retraining instead of repeatedly refreshing the old structure.
 
-**[VIDEO PLACEHOLDER: Running the first refresh and reviewing refresh history]**
+**\[VIDEO PLACEHOLDER: Running the first refresh and reviewing refresh history]**
