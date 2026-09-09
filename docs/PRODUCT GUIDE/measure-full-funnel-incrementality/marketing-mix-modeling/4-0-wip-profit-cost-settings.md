@@ -1,9 +1,12 @@
 ---
-title: '[4.0][WIP] Profit & Cost Settings'
+title: '[4.0][WIP] Profit & Cost Settings in Lifesight'
 excerpt: Configure cost assumptions for profit-based MMM metrics.
 deprecated: false
 hidden: true
 metadata:
+  title: Profit & Cost Settings in Lifesight
+  keywords:
+    - Lifesight Configuration
   robots: noindex
 ---
 Cost Settings define the financial assumptions used to calculate incremental profit, incremental profit margin, iPOAS, and LTV-to-CPA metrics in Lifesight 4.0.
