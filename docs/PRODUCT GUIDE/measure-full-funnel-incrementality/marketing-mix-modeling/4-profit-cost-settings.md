@@ -17,7 +17,7 @@ Cost Settings define the financial assumptions used to calculate incremental pro
 2. Select the period you want to configure.
 3. Review default, channel, model-type, and custom cost scopes.
 
-**[IMAGE PLACEHOLDER: Cost Settings page showing the shared month window and cost scopes]**
+![](https://files.readme.io/0f0f97d860efdb9edf83a903cf8305d30477005876c512bdbf154ce4b9091e62-Screenshot_2026-09-09_at_3.51.16_PM.png)
 
 ## Monthly Cost Assumptions
 
@@ -53,7 +53,9 @@ Depending on the configured calculation, cost settings can include:
 * Average order value
 * Customer lifetime value and its reporting horizon
 
-> 📘 Customer lifetime value supports the LTV-to-CPA ratio. It is not automatically subtracted from incremental profit.
+<Callout icon="📘" theme="info">
+  ### Customer lifetime value supports the LTV-to-CPA ratio. It is not automatically subtracted from incremental profit.
+</Callout>
 
 ## How Costs Affect Model Reporting
 
@@ -66,7 +68,7 @@ For revenue and profit outcomes, the **Contribution** tab can show:
 
 These values use the active cost assumptions for the selected channel and period. Review cost settings when a profit metric appears unexpected or unavailable.
 
-**[IMAGE PLACEHOLDER: Contribution table showing incremental profit and margin columns]**
+**\[IMAGE PLACEHOLDER: Contribution table showing incremental profit and margin columns]**
 
 ## Best Practices
 
@@ -77,4 +79,4 @@ These values use the active cost assumptions for the selected channel and period
 * Revisit assumptions when prices, margins, fees, or customer value change.
 * Confirm cost coverage before using profit as a Planner goal.
 
-**[VIDEO PLACEHOLDER: Configuring cost assumptions for MMM profit reporting]**
+**\[VIDEO PLACEHOLDER: Configuring cost assumptions for MMM profit reporting]**
