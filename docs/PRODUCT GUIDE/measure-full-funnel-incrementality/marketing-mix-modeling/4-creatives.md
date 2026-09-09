@@ -15,7 +15,7 @@ Creative module breaks down contribution at the creative level within your selec
 
 It's hidden by default and can be turned on from Customize Tabs once creative output is available for your model.
 
-**\[IMAGE PLACEHOLDER: Creatives tab with summary metrics and interaction matrix]**
+![](https://files.readme.io/2b875d675a17b43ddb85177c278247afc0b1fbcd31ce900458ed008086f49073-Screenshot_2026-09-09_at_4.31.06_PM.png)
 
 ## Summary
 
