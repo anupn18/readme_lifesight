@@ -11,7 +11,11 @@ metadata:
     - Lifesight Channel Contribution
   robots: noindex
 ---
-The **Contribution** tab in lifesight model explains how the selected model distributes the outcome across paid media, baseline, contextual, halo, organic, and unknown groups.
+Contribution answers the question every marketer has to defend in a budget meeting: what is actually driving revenue?&#x20;
+
+It splits your outcome across paid media, baseline (the demand you'd get anyway), contextual factors, halo effects, organic, and unknown, so you can see how much each group is really contributing and how efficiently it's working.&#x20;
+
+From there you can check response (how much lift more spend would buy) and uncertainty (how confident the model is in each number) before you move budget.
 
 ![](https://files.readme.io/0fe85abd85ca10d2f2c31eb395865567dff9509c63169cbbd899f65c1a936d00-Screenshot_2026-09-09_at_3.26.41_PM.png)
 
@@ -33,7 +37,7 @@ Incremental efficiency uses the modelled incremental outcome. It should not be c
 
 Contribution shows how much of the outcome is assigned to a driver. Efficiency shows the incremental outcome generated per unit of spend, or the spend required per incremental outcome.
 
-A high-contribution channel is not always the best place for additional spend. Review marginal efficiency and the response curve to understand what the next unit of investment may produce.
+**A high-contribution channel is not always the best place for additional spend.** Review marginal efficiency and the response curve to understand what the next unit of investment may produce.
 
 ## Review uncertainty
 
