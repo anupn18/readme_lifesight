@@ -1,9 +1,12 @@
 ---
-title: '[4.0][Updated] How Your Creatives Contribute'
+title: '[4.0][WIP] How Your Creatives Contribute'
 excerpt: Analyze campaign-level marketing performance and contribution.
 deprecated: false
 hidden: true
 metadata:
+  title: ' How Your Creatives Contribute'
+  keywords:
+    - Lifesight Creatives Intelligence
   robots: noindex
 ---
 See which creatives are actually driving results, and how they work together.&#x20;
