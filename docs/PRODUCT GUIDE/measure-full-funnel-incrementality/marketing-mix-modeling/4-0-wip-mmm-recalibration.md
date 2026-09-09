@@ -21,7 +21,9 @@ Retrain when you need to change calibration evidence, configuration, or assumpti
 5. Review the inherited setup and update the editable steps.
 6. Submit the model for training.
 
-**[IMAGE PLACEHOLDER: Retraining workflow with inherited and editable fields]**
+**\[IMAGE PLACEHOLDER: Retraining workflow with inherited and editable fields]**
+
+![](https://files.readme.io/b8f9eb98cea552e0cbbec0a2886b65b56e934fd5b166ec846d1bf1a942cf15fd-Screenshot_2026-09-09_at_4.04.40_PM.png)
 
 The data source and variable selection are inherited and read-only in retraining. Model configuration and calibration evidence can be updated. Review the complete setup before submission so the new result can be compared with the source model.
 
@@ -31,4 +33,4 @@ Treat the result as a new challenger. Review Data, Diagnostics, Graph, and Contr
 
 Use a name that identifies the reason or period for retraining. This makes model comparisons and lifecycle management easier.
 
-**[VIDEO PLACEHOLDER: Retraining a model and comparing it with the source model]**
+**\[VIDEO PLACEHOLDER: Retraining a model and comparing it with the source model]**
