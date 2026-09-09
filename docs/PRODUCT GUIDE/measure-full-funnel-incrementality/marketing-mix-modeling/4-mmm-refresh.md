@@ -1,5 +1,7 @@
 ---
-title: '[4.0][WIP] Model Refresh: Refresh your marketing model with the latest data'
+title: >-
+  [4.0][Updated] Model Refresh: Refresh your marketing model with the latest
+  data
 excerpt: Refresh a successful model with newly available observations.
 deprecated: false
 hidden: true
