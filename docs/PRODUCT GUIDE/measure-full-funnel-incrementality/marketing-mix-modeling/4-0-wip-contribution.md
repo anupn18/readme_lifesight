@@ -1,14 +1,19 @@
 ---
-title: '[4.0][WIP] Contribution'
+title: >-
+  [4.0][Updated] Contribution: Understand what each channel contributes to
+  revenue
 excerpt: Review channel contribution, efficiency, response, and uncertainty.
 deprecated: false
 hidden: true
 metadata:
+  title: 'Contribution: Understand what each channel contributes to revenue'
+  keywords:
+    - Lifesight Channel Contribution
   robots: noindex
 ---
-The **Contribution** tab explains how the selected model distributes the outcome across paid media, baseline, contextual, halo, organic, and unknown groups.
+The **Contribution** tab in lifesight model explains how the selected model distributes the outcome across paid media, baseline, contextual, halo, organic, and unknown groups.
 
-**[IMAGE PLACEHOLDER: Contribution tab with grouped channel and tactic rows]**
+![](https://files.readme.io/0fe85abd85ca10d2f2c31eb395865567dff9509c63169cbbd899f65c1a936d00-Screenshot_2026-09-09_at_3.26.41_PM.png)
 
 ## Read the contribution table
 
@@ -44,8 +49,10 @@ When comparison is enabled, review spend, incremental outcome, and efficiency to
 
 Response curves show fitted outcome across spend levels. Use them to identify diminishing returns and compare current efficiency with marginal efficiency.
 
-> 📘 The response-curve Period selector is independent of the page date range. It controls the curve calculation and marginal-efficiency fields.
+<Callout icon="📘" theme="info">
+  ### The response-curve Period selector is independent of the page date range. It controls the curve calculation and marginal-efficiency fields.
+</Callout>
 
 Immediate and carryover effects are reviewed in Diagnostics.
 
-**[VIDEO PLACEHOLDER: Reading contribution, uncertainty, and response curves]**
+**\[VIDEO PLACEHOLDER: Reading contribution, uncertainty, and response curves]**
