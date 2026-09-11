@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Graph'
+title: '[4.0][Updated] Graph'
 excerpt: Use causal graph relationships to understand modeled effects.
 deprecated: false
 hidden: true
