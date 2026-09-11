@@ -20,32 +20,35 @@ When a channel's contribution looks lower than expected, this is usually where t
 
 ## Explore the graph
 
-Each node represents a model variable. Connections show the relationships included in the causal structure.
+The graph lays your model out in three columns:
 
-Select a node to review:
+-Inputs are the variables you control or account for, including media channels, control variables, and CRM or owned activity.&#x20;
 
-* Incoming relationships that may affect the selected variable
-* Outgoing relationships through which the variable may affect others
-* Direct, indirect, and total effects where they are available
+-Intermediates are the variables that sit in between, like demand generation and demand capture.&#x20;
 
-## Understand effect paths
+-Outcomes are what you are measuring, such as revenue.
 
-* **Direct effect** is the relationship between two connected variables without an intermediate node.
-* **Indirect effect** passes through one or more other variables.
-* **Total effect** combines the available direct and indirect paths.
+The lines between them show the relationships the model is using, coloured by whether the effect is positive or negative. Hover over a variable to highlight the effects running into and out of it.
 
-A channel can have a modest direct effect and still have a material total effect when it influences another driver. Review the path before comparing the figures.
+Click a variable to open its detail panel, which shows:
 
-## Validate the structure
+- Total inflow, the combined effect of everything upstream that feeds into it
+- Total outflow, the combined effect it passes on to downstream variables
+- Direct, indirect, and total effect on the outcome, where available
+- Contribution over time and the period total for the selected date range
 
-Use business knowledge to check whether the graph is plausible. Look for expected relationships that are absent, unexpected paths, and variables with incoming or outgoing effects that do not match how the business operates.
+Inputs usually show no inflow, since nothing in the model feeds them. Outcomes usually show no outflow, since nothing sits downstream of them.
 
-The graph represents the structure and assumptions used by the model. It should be reviewed with Diagnostics and Contribution, not interpreted as standalone proof.
+## Trace the effect paths before comparing numbers
+
+- Direct effect is the effect a variable has on the outcome with nothing in between. The line runs straight from the variable to the outcome.
+- Indirect effect is the effect that travels through one or more intermediates. The variable moves an intermediate such as demand generation, and that intermediate is what moves the outcome.
+- Total effect combines the direct and indirect paths that are available. This is the incremental revenue the model attributes to the variable across every route it takes.
 
 ## Causal evidence in Contribution
 
 Contribution can display a causal status for a channel or tactic. **Confident** indicates stronger causal support. **Watch** indicates lower confidence and requires additional review. A dash indicates that no causal status is available.
 
-Use Graph to inspect the relevant paths, then check uncertainty and model behavior before acting on the estimate.
+Use Graph to inspect the relevant paths, then check uncertainty and model behaviour before acting on the estimate.
 
 **\[VIDEO PLACEHOLDER: Selecting a node and tracing direct and indirect effects]**
