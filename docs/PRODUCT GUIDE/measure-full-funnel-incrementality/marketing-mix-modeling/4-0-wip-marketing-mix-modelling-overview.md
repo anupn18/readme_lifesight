@@ -8,9 +8,13 @@ hidden: true
 metadata:
   robots: noindex
 ---
-Causal Marketing Mix Modelling in Lifesight explains how paid media, organic activity, contextual factors, halo effects, and baseline demand contribute to a business outcome.
+Causal MMM is the foundational step in building a comprehensive **Unified Marketing Measurement (UMM)** stack on the Lifesight platform. It provides a _top-down_, holistic view of how your marketing efforts work together to drive your business goals, establishing a baseline of truth for all subsequent analyses.
+
+It explains how paid media, organic activity, contextual factors, halo effects, and baseline demand contribute to a business outcome.
 
 Unlike attribution, which begins with individual customer touch points, MMM uses aggregated time-series data. This makes it suitable for measuring channels where user-level paths are incomplete or unavailable.
+
+<br />
 
 **\[IMAGE PLACEHOLDER: Marketing Mix Modelling workflow in Lifesight 4.0]**
 
