@@ -11,11 +11,9 @@ metadata:
 ---
 The Creative module answers three questions:&#x20;
 
-how is each ad performing,&#x20;
-
-is that performance actually adding revenue, and&#x20;
-
-what should you do next.
+1. **How is each ad performing,&#x20;**
+2. **Is that performance actually adding revenue, and&#x20;**
+3. **What should you do next.**
 
 It has two tabs. **Intelligence** shows every ad as a card with its performance and a recommended action. **Incrementality** shows whether each tactic and format combination is genuinely adding revenue, based on your promoted model.
 
