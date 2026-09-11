@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Marketing Mix Modelling (Main Page)'
+title: '[4.0][WIP] Marketing Mix Modeling: see what your marketing is actually driving'
 excerpt: Understand the Marketing Mix Modeling workflow in Lifesight 4.0.
 deprecated: false
 hidden: true
