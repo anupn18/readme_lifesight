@@ -8,13 +8,15 @@ metadata:
 ---
 The Causal Graph tab shows the causal structure used by the selected model.
 
-A model does not just estimate how much each channel contributed. It works from a view of how your drivers relate to each other: which ones influence outcomes directly, and which ones work by shifting something else first. Upper-funnel video that lifts branded search is the classic case. The spend shows up in one place and part of its value shows up in another.
+A model does not just estimate how much each channel contributed. It works from a view of how your drivers relate to each other: which ones influence outcomes directly, and which ones work by shifting something else first. Upper-funnel video that lifts branded search is the classic case.&#x20;
+
+The spend shows up in one place and part of its value shows up in another.
 
 This graph makes that view visible. You can see every relationship the model is using, trace how one driver reaches your outcome, and check whether the structure matches what you know about the business.&#x20;
 
 When a channel's contribution looks lower than expected, this is usually where the explanation is.
 
-![](https://files.readme.io/4c1895cdbcce76925701f4e46ba879e35668e0f4781016b9479c12f2ca4c3b00-Screenshot_2026-09-11_at_12.26.25_PM.png)
+![](https://files.readme.io/893a71b3d909984a66767fe8571f8569ea2d02a960b964bf03f88caf7153c7e7-Screenshot_2026-09-11_at_12.37.11_PM.png)
 
 ## Explore the graph
 
