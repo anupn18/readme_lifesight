@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Google sheets MMM data integration'
+title: '[4.0][WIP] Google Sheets MMM data integration'
 excerpt: Connect Google Sheets data to a Lifesight 4.0 MMM workflow.
 deprecated: false
 hidden: true
