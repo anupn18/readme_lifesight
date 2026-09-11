@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] CSV Data Formatting Guidelines'
+title: '[4.0][Updated] CSV Data Formatting Guidelines'
 excerpt: Prepare CSV data for Marketing Mix Modeling in Lifesight 4.0.
 deprecated: false
 hidden: true
