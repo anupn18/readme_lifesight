@@ -16,6 +16,8 @@ An **artifact** is something you can hand to someone else: a live dashboard, a s
 
 There are two ways one gets there. You can **describe what you want** and let Lifesight build it from your live workspace data, or you can **upload a file you already have**. The first gives you something that refreshes itself; the second gives your existing reporting one address next to everything else.
 
+![The Artifacts page — the composer, your recent artifacts, and the template library](https://files.readme.io/c608d1aae7a039e74b14420643aba24aad7395eafcc3be9c7030e4923e0f5762-artifacts-landing.png)
+
 <Callout icon="📘" theme="info">
   You do not build a generated artifact by dragging widgets onto a blank grid. You describe it in plain English, Lifesight runs the analysis on your live workspace, and the canvas is assembled from the result. **Every number on it comes from your data.**
 </Callout>
@@ -99,7 +101,9 @@ Bring in an HTML page, a PDF or a PowerPoint deck you already have.
 1. On the Artifacts page, click **Upload**.
 2. Choose your file — drag it onto the dialog, or click to browse.
 3. Give it a name. The filename is filled in for you with the extension removed.
-4. Click **Upload**.
+4. Click **Add to repository**.
+
+![The upload dialog, with a file picked and its name ready to edit](https://files.readme.io/b5563134cbd0324b39c792f80514347328e94d816cbfc1ab04b5742029cb8c41-artifacts-upload-dialog-only.png)
 
 | Format | Extensions | What happens when someone opens it |
 | ------------------- | ---------------- | ---------------------------------------------------------- |
@@ -195,11 +199,17 @@ A **generated** artifact can be exported in any of three formats, whatever its o
 
 An **uploaded** artifact has **Download** instead. It converts to nothing else: what was uploaded is what comes back, under its original filename.
 
+![An uploaded HTML page, rendered read-only with Share, Download and Pin](https://files.readme.io/decf94d4b33462260b8a526a779be9b398cbad7ee610edcdc8b089e99ed899c0-artifacts-uploaded-view.png)
+
 ***
 
 ## Managing your artifacts
 
-The Artifacts page shows your most recent artifacts. Click **See all** for the full list, where you can:
+The Artifacts page shows your most recent artifacts. Click **See all** for the full list.
+
+![The full list — generated and uploaded artifacts side by side](https://files.readme.io/cec43ac000501e96b9f548806744ad8934001aff18500d4d074bc05d6657de89-artifacts-list.png)
+
+In the list you can:
 
 * **Search** by name, or by the prompt that created the artifact.
 * Switch between **All**, **Yours**, **Drafts** and **Shared with you**.

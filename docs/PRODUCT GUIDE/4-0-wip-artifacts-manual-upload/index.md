@@ -18,6 +18,8 @@ Most reporting lives in the tool that made it. A quarterly deck sits in someone'
 
 In this release you bring artifacts in by **uploading a file you already have**. You keep making them wherever you make them today — the upload puts them somewhere your team can find them.
 
+![Your artifacts — everything uploaded to the workspace, with the Upload button in the header](https://files.readme.io/68020558eea779d32aeaf85bb42d3138e514bb42dc6ddc5f0d998699983d6bea-artifacts-list-uploads-only.png)
+
 ***
 
 ## What you can upload
@@ -42,7 +44,9 @@ Files can be up to **25 MB**.
 2. Click **Upload** at the top right of the page.
 3. Choose your file — drag it onto the dialog, or click to browse.
 4. Give it a name. The filename is filled in for you with the extension removed, and you can change it to whatever your team will search for.
-5. Click **Upload**.
+5. Click **Add to repository**.
+
+![The upload dialog, with a file picked and its name ready to edit](https://files.readme.io/b5563134cbd0324b39c792f80514347328e94d816cbfc1ab04b5742029cb8c41-artifacts-upload-dialog-only.png)
 
 The artifact opens as soon as it is saved. It also appears in your artifacts list straight away — uploads are not drafts, so there is nothing further to save.
 
@@ -55,6 +59,8 @@ The artifact opens as soon as it is saved. It also appears in your artifacts lis
 ## Viewing an uploaded artifact
 
 Open an artifact from the list and you get the file itself, with a small toolbar above it.
+
+![An uploaded HTML page, rendered in the workspace with its toolbar above it](https://files.readme.io/decf94d4b33462260b8a526a779be9b398cbad7ee610edcdc8b089e99ed899c0-artifacts-uploaded-view.png)
 
 | Control | What it does |
 | ----------------------- | ------------------------------------------------------------------------ |
