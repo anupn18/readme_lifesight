@@ -1,12 +1,16 @@
 ---
-title: '[4.0][WIP] Interaction'
+title: '[4.0][Updated] Interaction'
 excerpt: Explore modeled interactions between marketing variables.
 deprecated: false
 hidden: true
 metadata:
   robots: noindex
 ---
-The **Interaction** tab shows modelled relationships between media variables. It can help identify synergy, cannibalisation, and neutral combinations. The tab is hidden by default and can be enabled from **Customize Tabs**.
+**Interaction** shows you how your media variables work together, so you can spot where two channels amplify each other (synergy), where they eat into each other's performance (cannibalisation), and where they simply run independent of one another.&#x20;
+
+Use it to decide which combinations are worth funding together and which pairings are quietly costing you.
+
+It can help identify synergy, cannibalisation, and neutral combinations. The tab is hidden by default and can be enabled from **Customize Tabs**.
 
 ![](https://files.readme.io/d8bb6adda4e07999351e468490c15c475abc469710c7ecc637248cd8ea45920b-Screenshot_2026-09-11_at_4.28.30_PM.png)
 
