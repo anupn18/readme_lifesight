@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Profit & Cost Settings in Lifesight'
+title: '[4.0][Updated] Profit & Cost Settings in Lifesight'
 excerpt: Configure cost assumptions for profit-based MMM metrics.
 deprecated: false
 hidden: true
@@ -68,7 +68,9 @@ For revenue and profit outcomes, the **Contribution** tab can show:
 
 These values use the active cost assumptions for the selected channel and period. Review cost settings when a profit metric appears unexpected or unavailable.
 
-**\[IMAGE PLACEHOLDER: Contribution table showing incremental profit and margin columns]**
+<br />
+
+![](https://files.readme.io/c16b5a5dd52ffd731b6d44b9ca1ed836c52b58a11ab698cbfaa29166a350e7a2-Screenshot_2026-09-11_at_11.18.32_AM.png)
 
 ## Best Practices
 
