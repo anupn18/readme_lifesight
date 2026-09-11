@@ -6,6 +6,9 @@ excerpt: >-
 deprecated: false
 hidden: true
 metadata:
+  title: 'Marketing Mix Modeling: see what your marketing is actually driving'
+  keywords:
+    - Lifesight Marketing Mix Modeling
   robots: noindex
 ---
 Causal MMM is the foundational step in building a comprehensive **Unified Marketing Measurement (UMM)** stack on the Lifesight platform. It provides a _top-down_, holistic view of how your marketing efforts work together to drive your business goals, establishing a baseline of truth for all subsequent analyses.
