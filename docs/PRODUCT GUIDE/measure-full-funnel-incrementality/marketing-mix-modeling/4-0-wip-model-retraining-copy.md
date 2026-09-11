@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Merging Models'
+title: '[4.0][Updated] Merging Models'
 excerpt: Combine compatible successful models into a consolidated model.
 deprecated: false
 hidden: true
