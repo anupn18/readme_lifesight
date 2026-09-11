@@ -14,9 +14,15 @@ It explains how paid media, organic activity, contextual factors, halo effects, 
 
 Unlike attribution, which begins with individual customer touch points, MMM uses aggregated time-series data. This makes it suitable for measuring channels where user-level paths are incomplete or unavailable.
 
+![](https://files.readme.io/a8ecaf6a222fde74d08af9efdb3a71d3ee5f5f9d87c20fe949dc3df465a05ccb-Screenshot_2026-09-11_at_3.37.37_PM.png)
+
 <br />
 
-**\[IMAGE PLACEHOLDER: Marketing Mix Modelling workflow in Lifesight 4.0]**
+<Callout icon="ℹ️" theme="info">
+  ### **What is a "top-down" approach?**
+
+  Unlike attribution models that look at individual user touchpoints (bottom-up), MMM starts with the total outcome (e.g., total weekly sales) and determines how much credit each high-level channel (TV, Paid Search, Social Media, etc.) should get for that result.
+</Callout>
 
 ## How the workflow fits together
 
@@ -28,7 +34,7 @@ Unlike attribution, which begins with individual customer touch points, MMM uses
 
 ## Review a model
 
-The Models workspace organizes model output into tabs. Some tabs are hidden by default and can be enabled from **Customize Tabs**.
+The Models workspace organises model output into tabs. Some tabs are hidden by default and can be enabled from **Customize Tabs**.
 
 * **Data:** Validate coverage, trends, model inputs, and correlations.
 * **Diagnostics:** Review fit, backtesting, residuals, channel transformations, decomposition, and calibration evidence.
