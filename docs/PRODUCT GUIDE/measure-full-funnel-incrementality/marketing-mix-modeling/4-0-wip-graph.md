@@ -8,7 +8,9 @@ metadata:
 ---
 The **Graph** tab shows the causal structure used by the selected model.
 
-**[IMAGE PLACEHOLDER: Graph tab with a selected node and effect details]**
+**\[IMAGE PLACEHOLDER: Graph tab with a selected node and effect details]**
+
+![](https://files.readme.io/4c1895cdbcce76925701f4e46ba879e35668e0f4781016b9479c12f2ca4c3b00-Screenshot_2026-09-11_at_12.26.25_PM.png)
 
 ## Explore the graph
 
@@ -40,4 +42,4 @@ Contribution can display a causal status for a channel or tactic. **Confident** 
 
 Use Graph to inspect the relevant paths, then check uncertainty and model behavior before acting on the estimate.
 
-**[VIDEO PLACEHOLDER: Selecting a node and tracing direct and indirect effects]**
+**\[VIDEO PLACEHOLDER: Selecting a node and tracing direct and indirect effects]**
