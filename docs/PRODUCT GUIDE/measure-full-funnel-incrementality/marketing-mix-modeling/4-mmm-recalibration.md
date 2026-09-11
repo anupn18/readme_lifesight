@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Model Retraining: Keep the model fresh as your data changes'
+title: '[4.0][Updated] Model Retraining: Keep the model fresh as your data changes'
 excerpt: >-
   Spin up a new model version with updated configuration and calibration,
   without starting over.
