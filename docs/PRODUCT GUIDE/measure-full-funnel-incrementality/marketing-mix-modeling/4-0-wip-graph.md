@@ -4,6 +4,9 @@ excerpt: Use causal graph relationships to understand modeled effects.
 deprecated: false
 hidden: true
 metadata:
+  title: ' Causal Graph: See how your channels work together'
+  keywords:
+    - Lifesight Causal Graph
   robots: noindex
 ---
 The Causal Graph tab shows the causal structure used by the selected model.
@@ -22,26 +25,29 @@ When a channel's contribution looks lower than expected, this is usually where t
 
 The graph lays your model out in three columns:
 
--Inputs are the variables you control or account for, including media channels, control variables, and CRM or owned activity.&#x20;
-
--Intermediates are the variables that sit in between, like demand generation and demand capture.&#x20;
-
--Outcomes are what you are measuring, such as revenue.
+- Inputs are the variables you control or account for, including media channels, control variables, and CRM or owned activity.&#x20;
+- Intermediates are the variables that sit in between, like demand generation and demand capture.&#x20;
+- Outcomes are what you are measuring, such as revenue.
 
 The lines between them show the relationships the model is using, coloured by whether the effect is positive or negative. Hover over a variable to highlight the effects running into and out of it.
 
 Click a variable to open its detail panel, which shows:
 
+![](https://files.readme.io/7bce9092e4d77ad78e0546daaaaf7d37e080f7634f9f5b482901717f6f84fc6a-Screenshot_2026-09-11_at_3.14.38_PM.png)
+
 - Total inflow, the combined effect of everything upstream that feeds into it
-- Total outflow, the combined effect it passes on to downstream variables
-- Direct, indirect, and total effect on the outcome, where available
-- Contribution over time and the period total for the selected date range
+
+* Total outflow, the combined effect it passes on to downstream variables
+* Direct, indirect, and total effect on the outcome, where available
+* Contribution over time and the period total for the selected date range
 
 Inputs usually show no inflow, since nothing in the model feeds them. Outcomes usually show no outflow, since nothing sits downstream of them.
 
 ## Trace the effect paths before comparing numbers
 
 - Direct effect is the effect a variable has on the outcome with nothing in between. The line runs straight from the variable to the outcome.
+
+  ![](https://files.readme.io/afd431adff87ad744cbd90e9121e8e3325cf44a5d7b9992a04bc3b6a9df3ac56-Screenshot_2026-09-11_at_3.20.46_PM.png)
 - Indirect effect is the effect that travels through one or more intermediates. The variable moves an intermediate such as demand generation, and that intermediate is what moves the outcome.
 - Total effect combines the direct and indirect paths that are available. This is the incremental revenue the model attributes to the variable across every route it takes.
 
