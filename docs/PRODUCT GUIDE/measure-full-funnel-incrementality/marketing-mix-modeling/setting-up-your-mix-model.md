@@ -25,7 +25,7 @@ To create a model using data already available in Lifesight, select an existing 
 
 You can also create a model using historical data stored in a CSV file. The file must meet the required formatting and validation conditions to prevent errors during model creation.
 
-Refer to the [CSV Data Formatting Guidelines](https://docs.lifesight.io/v2.0/docs/4-0-wip-mmm-input-schema) for more details about preparing your CSV file.
+Refer to the <Anchor target="_blank" href="https://docs.lifesight.io/v2.0/update/docs/mmm-csv-data-formatting">CSV Data Formatting Guidelines</Anchor> for more details about preparing your CSV file.
 
 ![](https://files.readme.io/e4931e78d18df9e42200653c9e88a65f8ba02112ccf80c98a6901f5a110e24b3-Screenshot_2026-09-08_at_9.02.28_AM.png)
 
@@ -49,7 +49,7 @@ Refer to the [CSV Data Formatting Guidelines](https://docs.lifesight.io/v2.0/doc
 
    ![](https://files.readme.io/5a9bc4f88acf9078bceeef82c230cd864a721216d88b86584ecb91fe794522fd-Screenshot_2026-09-08_at_9.04.36_AM.png)
 
-
+<br />
 
 ***
 
