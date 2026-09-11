@@ -1,7 +1,7 @@
 ---
 title: '[4.0][Updated] Setting up your Marketing Mix Model'
 excerpt: >-
-  Your guide to configuring data, selecting variables, and launching your media
+  Your guide to configure data, select variables, and launching your marketing
   mix model
 deprecated: false
 hidden: true
@@ -11,7 +11,7 @@ metadata:
     - Lifesight Marketing Mix Model
   robots: noindex
 ---
-Setting up a model is mostly about the inputs. Lets see what your data needs to look like, how to choose the variables the model learns from, and what happens once you hit build. Get this part right and everything downstream, from contribution to budget planning, holds up.
+Setting up a marketing mix model is mostly about the inputs. Lets see what your data needs to look like, how to choose the variables the model learns from, and what happens once you hit build. Get this part right and everything downstream, from contribution to budget planning, holds up.
 
 ## Data Requirements
 
@@ -20,6 +20,8 @@ To ensure a successful model build, your data must be correctly prepared. You ca
 ### Using a Data Model
 
 To create a model using data already available in Lifesight, select an existing Data Model from your workspace. Data Models bring together the fields configured from your connected sources and make them available for variable mapping during model creation.
+
+![](https://files.readme.io/db81cefebf8f29d0de261a0097fcbe942a9601897419366175788e1a1fc070a0-Screenshot_2026-09-11_at_3.41.56_PM.png)
 
 ### Using a CSV File
 
@@ -56,8 +58,6 @@ Refer to the <Anchor target="_blank" href="https://docs.lifesight.io/v2.0/update
 ## Step 2: Map Variables
 
 In this step, you will select your input data and map its fields to the variables required by the model. This is critical for ensuring the model interprets your data correctly.
-
-**\[IMAGE PLACEHOLDER: Variable mapping screen showing the data source and variable sections]**
 
 ### Select a Data Source
 
