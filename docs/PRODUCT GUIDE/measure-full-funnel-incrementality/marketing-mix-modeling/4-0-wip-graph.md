@@ -1,14 +1,18 @@
 ---
-title: '[4.0][Updated] Graph'
+title: '[4.0][Updated] Causal Graph: See how your channels work together'
 excerpt: Use causal graph relationships to understand modeled effects.
 deprecated: false
 hidden: true
 metadata:
   robots: noindex
 ---
-The **Graph** tab shows the causal structure used by the selected model.
+The Causal Graph tab shows the causal structure used by the selected model.
 
-**\[IMAGE PLACEHOLDER: Graph tab with a selected node and effect details]**
+A model does not just estimate how much each channel contributed. It works from a view of how your drivers relate to each other: which ones influence outcomes directly, and which ones work by shifting something else first. Upper-funnel video that lifts branded search is the classic case. The spend shows up in one place and part of its value shows up in another.
+
+This graph makes that view visible. You can see every relationship the model is using, trace how one driver reaches your outcome, and check whether the structure matches what you know about the business.&#x20;
+
+When a channel's contribution looks lower than expected, this is usually where the explanation is.
 
 ![](https://files.readme.io/4c1895cdbcce76925701f4e46ba879e35668e0f4781016b9479c12f2ca4c3b00-Screenshot_2026-09-11_at_12.26.25_PM.png)
 
