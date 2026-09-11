@@ -1,6 +1,8 @@
 ---
 title: '[4.0][WIP] Marketing Mix Modeling: see what your marketing is actually driving'
-excerpt: Understand the Marketing Mix Modeling workflow in Lifesight 4.0.
+excerpt: >-
+  Measure the contribution of every channel, including the ones you cannot
+  track, and use it to decide where the next dollar goes.
 deprecated: false
 hidden: true
 metadata:
@@ -8,9 +10,9 @@ metadata:
 ---
 Causal Marketing Mix Modelling in Lifesight explains how paid media, organic activity, contextual factors, halo effects, and baseline demand contribute to a business outcome.
 
-Unlike attribution, which begins with individual customer touchpoints, MMM uses aggregated time-series data. This makes it suitable for measuring channels where user-level paths are incomplete or unavailable.
+Unlike attribution, which begins with individual customer touch points, MMM uses aggregated time-series data. This makes it suitable for measuring channels where user-level paths are incomplete or unavailable.
 
-**[IMAGE PLACEHOLDER: Marketing Mix Modelling workflow in Lifesight 4.0]**
+**\[IMAGE PLACEHOLDER: Marketing Mix Modelling workflow in Lifesight 4.0]**
 
 ## How the workflow fits together
 
@@ -33,7 +35,9 @@ The Models workspace organizes model output into tabs. Some tabs are hidden by d
 * **Insights:** Explore media and baseline analyses using ranked, time-based, and decomposition views.
 * **Refresh:** Review refresh history after a model has been refreshed.
 
-> 📘 Review the model as a complete system. A strong accuracy score does not replace backtesting, plausible causal relationships, stable channel behavior, or appropriate business context.
+<Callout icon="📘" theme="info">
+  ### Review the model as a complete system. A strong accuracy score does not replace backtesting, plausible causal relationships, stable channel behavior, or appropriate business context.
+</Callout>
 
 ## Model lifecycle
 
@@ -41,7 +45,7 @@ Models move through training, review, promotion, refresh, and retraining workflo
 
 Use refresh when new periods follow the existing schema and model structure. Use retraining when the variables, causal assumptions, calibration evidence, or configuration need to change.
 
-**[VIDEO PLACEHOLDER: From model creation to model review and planning]**
+**\[VIDEO PLACEHOLDER: From model creation to model review and planning]**
 
 ## Recommended reading
 
