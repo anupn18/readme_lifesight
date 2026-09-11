@@ -1,9 +1,16 @@
 ---
-title: '[4.0][Updated] Interaction'
+title: >-
+  [4.0][Updated] Interaction: See which channels lift each other and which
+  cancel each other out
 excerpt: Explore modeled interactions between marketing variables.
 deprecated: false
 hidden: true
 metadata:
+  title: >-
+    Interaction: See which channels lift each other and which cancel each other
+    out
+  keywords:
+    - Lifesight Channel Interaction
   robots: noindex
 ---
 **Interaction** shows you how your media variables work together, so you can spot where two channels amplify each other (synergy), where they eat into each other's performance (cannibalisation), and where they simply run independent of one another.&#x20;
