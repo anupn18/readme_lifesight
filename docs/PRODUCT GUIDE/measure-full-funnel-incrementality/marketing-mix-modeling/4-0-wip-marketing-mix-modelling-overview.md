@@ -59,4 +59,4 @@ Use refresh when new periods follow the existing schema and model structure. Use
 
 ## Recommended reading
 
-Start with <Anchor target="_blank" href="https://docs.lifesight.io/v2.0/docs/setting-up-your-mix-model">**Setting up your Mix Model**</Anchor>, then use **Model Overview** to navigate the Models workspace. The tab-specific pages explain what each result means and how to use it.
+Start with <Anchor target="_blank" href="https://docs.lifesight.io/v2.0/docs/setting-up-your-mix-model">**Setting up your Mix Model**</Anchor>, then use<Anchor target="_blank" href="https://docs.lifesight.io/v2.0/update/docs/model-overview"> **Model Overview** </Anchor>to navigate the Models workspace. The tab-specific pages explain what each result means and how to use it.
