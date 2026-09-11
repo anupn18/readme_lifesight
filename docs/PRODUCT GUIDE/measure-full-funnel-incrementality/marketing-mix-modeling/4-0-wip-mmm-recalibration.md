@@ -1,12 +1,17 @@
 ---
-title: '[4.0][WIP] Model Retraining'
-excerpt: Create a new model version with updated configuration and calibration.
+title: '[4.0][WIP] Model Retraining: Keep the model fresh as your data changes'
+excerpt: >-
+  Spin up a new model version with updated configuration and calibration,
+  without starting over.
 deprecated: false
 hidden: true
 metadata:
+  title: ' Model Retraining: Keep the model fresh as your data changes'
+  keywords:
+    - Lifesight Model Retraining
   robots: noindex
 ---
-Retraining creates a new model from an existing model while allowing selected configuration and calibration inputs to be updated.
+Retraining builds a new model on top of an existing one, so you can update the inputs that matter, like configuration and calibration, without setting everything up again.
 
 ## When to retrain
 
@@ -21,15 +26,13 @@ Retrain when you need to change calibration evidence, configuration, or assumpti
 5. Review the inherited setup and update the editable steps.
 6. Submit the model for training.
 
-**\[IMAGE PLACEHOLDER: Retraining workflow with inherited and editable fields]**
-
 ![](https://files.readme.io/b8f9eb98cea552e0cbbec0a2886b65b56e934fd5b166ec846d1bf1a942cf15fd-Screenshot_2026-09-09_at_4.04.40_PM.png)
 
 The data source and variable selection are inherited and read-only in retraining. Model configuration and calibration evidence can be updated. Review the complete setup before submission so the new result can be compared with the source model.
 
 ## Review the retrained model
 
-Treat the result as a new challenger. Review Data, Diagnostics, Graph, and Contribution before promotion. Compare backtest performance, contribution shifts, uncertainty, and channel behavior with the current promoted model.
+Treat the result as a new challenger. Review Data, Diagnostics, Graph, and Contribution before promotion. Compare backtest performance, contribution shifts, uncertainty, and channel behaviour with the current promoted model.
 
 Use a name that identifies the reason or period for retraining. This makes model comparisons and lifecycle management easier.
 
