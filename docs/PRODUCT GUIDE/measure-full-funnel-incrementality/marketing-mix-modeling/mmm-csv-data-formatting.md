@@ -12,9 +12,9 @@ High-quality input data is the foundation of an accurate and actionable Marketin
 
 Use the sample template as a starting point for your file.
 
-[/<button>View MMM CSV Sample Template</button>](https://docs.google.com/spreadsheets/d/17UgnDqvQyHz_3XFFa-DSHdk80fudK1mt9p7Stj-xhdI/edit?gid=1915444742#gid=1915442)
+<Anchor target="_blank" href="https://docs.google.com/spreadsheets/d/17UgnDqvQyHz_3XFFa-DSHdk80fudK1mt9p7Stj-xhdI/edit?gid=1915444742#gid=1915442">View MMM CSV Sample Template</Anchor>
 
-**\[IMAGE PLACEHOLDER: Example MMM CSV with date, KPI, spend, impressions, clicks, and control columns]**
+![](https://files.readme.io/495df6dae631bc6e37ecde802ef91c5e2ffff4ae42ae7ef0b64aa5ad8cdf6dd7-Screenshot_2026-09-11_at_3.52.34_PM.png)
 
 ## Data Requirements
 
