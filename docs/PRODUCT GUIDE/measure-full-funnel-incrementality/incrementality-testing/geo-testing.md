@@ -12,7 +12,9 @@ metadata:
 next:
   description: ''
 ---
-Geo-testing is a method used to measure the incremental impact of marketing across different regions. Regions are divided into two groups: the treatment group, which receives the marketing intervention, and the control group, which does not. Performance is then tracked over time to assess the incremental impact of a channel.
+Geo-testing is a method used to measure the incremental impact of marketing across different regions. Regions are divided into two groups: the treatment group, which receives the marketing intervention, and the control group, which does not.&#x20;
+
+Performance is then tracked over time to assess the incremental impact of a channel.
 
 ## Why should you run a geo test?
 
