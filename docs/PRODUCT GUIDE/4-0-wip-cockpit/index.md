@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Cockpit'
+title: '[4.0][WIP] Get Started with Cockpit'
 excerpt: >-
   Your workspace home — where your agents bring you what needs a decision, and
   where you ask anything about your data.
