@@ -2,7 +2,7 @@
 title: Centralizing & operationalizing your data
 excerpt: ''
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
