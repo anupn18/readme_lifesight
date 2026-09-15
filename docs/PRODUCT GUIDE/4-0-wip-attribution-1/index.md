@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Move budget on causal attribution (Main page)'
+title: '[4.0][WIP] Move budget on evidence (Main page)'
 excerpt: Lifesight 4.0 WIP guide for Attribution (Main page).
 deprecated: false
 hidden: true
