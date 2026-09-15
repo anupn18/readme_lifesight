@@ -2,7 +2,7 @@
 title: How to setup custom attribution weights
 excerpt: ''
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

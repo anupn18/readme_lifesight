@@ -2,7 +2,7 @@
 title: How to setup UTM, rules & labeling
 excerpt: ''
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

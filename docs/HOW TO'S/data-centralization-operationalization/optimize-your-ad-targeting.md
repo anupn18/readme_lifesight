@@ -4,7 +4,7 @@ excerpt: >-
   Reach the right audience with precision-targeted ad campaigns. Maximize ROI by
   focusing on the customers who matter most
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
