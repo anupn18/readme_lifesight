@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Planner'
+title: '[4.0][WIP] Plan your next budget'
 excerpt: Lifesight 4.0 WIP guide for Planner.
 deprecated: false
 hidden: true
