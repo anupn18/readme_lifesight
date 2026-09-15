@@ -1,5 +1,5 @@
 ---
-title: Marketing Mix Modeling
+title: Create your First Model
 excerpt: Understanding Marketing Mix Modeling
 deprecated: false
 hidden: false
