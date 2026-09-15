@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Data'
+title: '[4.0][Updated] Connect your Data'
 excerpt: >-
   Bring all your marketing and business data into Lifesight, integrate your
   sources and shape it into the inputs your models run on.
