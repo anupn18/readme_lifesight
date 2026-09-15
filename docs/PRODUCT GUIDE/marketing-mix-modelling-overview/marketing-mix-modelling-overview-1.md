@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Marketing Mix Modeling: see what your marketing is actually driving'
+title: '[4.0][WIP] Create your First Model (Marketing Mix Modeling)'
 excerpt: >-
   Measure the contribution of every channel, including the ones you cannot
   track, and use it to decide where the next dollar goes.
