@@ -1,5 +1,5 @@
 ---
-title: What is Lifesight ?
+title: Get Started with Lifesight
 excerpt: Understand who we are and what we do
 deprecated: false
 hidden: false
