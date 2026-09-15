@@ -1,6 +1,6 @@
 ---
 title: Platform Overview
-excerpt: Learn about our platform and its features
+excerpt: Learn about Lifesight and its features
 deprecated: false
 hidden: true
 metadata:
@@ -10,9 +10,13 @@ metadata:
 next:
   description: ''
 ---
-Lifesight is a unified marketing measurement (UMM) platform. It tells you how much of your revenue your media actually drove, and then helps you act on it. The suite turns causal evidence into decisions you can plan, execute, and track end to end, so the incrementality read, the budget you commit to, and the change you push to Google or Meta all come from the same model.
+Lifesight is a unified marketing measurement (UMM) platform. It tells you how much of your revenue your media actually drove, and then helps you act on it.&#x20;
 
-Platform-reported performance cannot do this. Self-attributed platforms grade their own homework, and once you add up the walled gardens plus last-click, the reported numbers typically account for around 140% of your revenue. Everything above 100% is double-counted conversions that would have happened anyway. Lifesight measures incremental contribution rather than claimed conversions, delivers the read inside the week, and closes the gap between the insight and the budget change.
+The suite turns causal evidence into decisions you can plan, execute, and track end to end, so the incrementality read, the budget you commit to, and the change you push to Google or Meta all come from the same model.
+
+Platform-reported performance cannot do this. Self-attributed platforms grade their own homework, and once you add up the walled gardens plus last-click, the reported numbers typically account for around 140% of your revenue.&#x20;
+
+Everything above 100% is double-counted conversions that would have happened anyway. Lifesight measures incremental contribution rather than claimed conversions, delivers the read inside the week, and closes the gap between the insight and the budget change.
 
 ### How the platform works
 
