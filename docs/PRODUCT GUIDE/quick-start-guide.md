@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-Lifesight is a unified marketing measurement (UMM) platform. It tells you how much of your revenue your media actually drove, and then helps you act on it.&#x20;
+Lifesight is a **agentic unified marketing measurement (UMM) platform**. It tells you how much of your revenue your media actually drove, and then helps you act on it.&#x20;
 
 The suite turns causal evidence into decisions you can plan, execute, and track end to end, so the incrementality read, the budget you commit to, and the change you push to Google or Meta all come from the same model.
 
