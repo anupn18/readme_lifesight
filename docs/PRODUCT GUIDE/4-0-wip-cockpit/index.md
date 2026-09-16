@@ -1,8 +1,8 @@
 ---
 title: '[4.0][WIP] Get Started with Cockpit'
 excerpt: >-
-  Your workspace home — where your agents bring you what needs a decision, and
-  where you ask anything about your data.
+  Start every day with the decisions that matter, and get answers to anything
+  about your marketing in one place.
 hidden: true
 metadata:
   title: The Lifesight Cockpit
@@ -12,15 +12,21 @@ metadata:
     - Ask
     - Onboarding
 ---
-The Cockpit is the first item in the left navigation and the page you land on when you open Lifesight. It is deliberately small. Instead of a wall of dashboards, it shows you **what needs a decision right now** and **one place to ask anything**.
+Th&#x65;**&#x20;Cockpit gets you to your next best decision faster**. It's the first thing you see when you open Lifesight, and instead of a wall of dashboards, it shows you **what needs your decision right now and gives you one place to ask anything.**
 
-Most analytics tools answer the question "what happened?" and leave you to work out what to do about it. The Cockpit starts at the other end: your agents bring you the things that need you, and you can interrogate the reasoning behind any of them.
+Most analytics tools tell you what happened and leave you to figure out what to do next. The Cockpit works the other way around: your agents bring the important things to you, and you can see exactly why each one matters before you act.
 
 ![The Cockpit — the headline, the Ask box, and the cards your agents have raised](https://files.readme.io/e91a4859f6403a4e88803f40f5acdaccf885a2b323c7f6ad59329c4009374e60-cockpit-feed.png)
 
 ***
 
-## What is on the page
+## See where your workspace stands at a glance
+
+The Cockpit has three parts:
+
+**Headline:&#x20;**&#x4F;ne line that tells you where your workspace is today. It updates as you connect data, promote a model (make it the one your plans use), and adopt a plan.
+**Ask box:&#x20;**&#x41;sk a question, run a skill (a ready-made analysis), or pick up a past conversation. Answers appear right on the page.
+**Your agents:** Cards your agents have raised for you. The top three are shown in full, and the rest wait in a queue below.
 
 | Part            | What it does                                                                                                                    |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -29,30 +35,30 @@ Most analytics tools answer the question "what happened?" and leave you to work 
 | **Your agents** | The cards your agents have raised. Three are shown in full; the rest wait in a queue underneath.                                |
 
 <Callout icon="📘" theme="info">
-  The Cockpit is personalised. Which cards you see first, and the suggested questions under the Ask box, both come from your **persona** — Measurement Analyst, Growth Marketer, Media Planner, Marketing Ops, Marketing Leader or Generalist. Your persona is set when you are invited, and you can change it any time in **Settings → Profile**.
+  ### Your Cockpit is tailored to your role.
+
+  The cards you see first and the questions suggested under the Ask box are based on your persona: Measurement Analyst, Growth Marketer, Media Planner, Marketing Ops, Marketing Leader, or Generalist. Your persona is set when you're invited, and you can change it anytime in Settings → Profile.
 </Callout>
 
 ***
 
-## The cards your agents raise
+## Let your agents flag what needs you
 
-A card exists because something is true in your workspace right now: a connector is down, a source has stopped landing data, models are trained but none is promoted, experiments are waiting on a decision. When that stops being true, the card goes on its own. You never clear a backlog of stale notifications.
+Every card reflects something happening in your workspace right now, like a data connection that stopped working, or experiments waiting on your call. Once the issue is resolved, the card disappears on its own, so you never have to clear out old notifications.
 
-Three agents raise them, and every card names exactly one.
+Three agents keep watch for you:
 
-| Agent                | What it watches                                                        |
-| -------------------- | ---------------------------------------------------------------------- |
-| **Onboarding Agent** | Getting a new workspace to its first model                             |
-| **Data Agent**       | The pipeline — connectors, syncs, and whether data is still arriving   |
-| **Growth Agent**     | Everything the pipeline feeds — models, plans, deployment, experiments |
+- **Onboarding Agent&#x20;**&#x68;elps you get a new workspace up and running with its first model.
+- **Data Agent&#x20;**&#x6D;akes sure your data keeps flowing in from your connected platforms.
+- **Growth Agent** keeps an eye on everything that data powers: models, plans, budget changes, and experiments.
 
-Under the agent's name, each card says what it wants from you:
+Each card also tells you what kind of response it needs:
 
-| Label                   | What it means                                     |
-| ----------------------- | ------------------------------------------------- |
-| **For your attention**  | Something happened. Act on it, or acknowledge it. |
-| **Needs your input**    | A decision only you can make.                     |
-| **Needs your approval** | A proposal that moves money.                      |
+- **For your attention:&#x20;**&#x53;omething happened. Act on it or acknowledge it.
+- **Needs your input:&#x20;**&#x41; decision only you can make.
+- **Needs your approval:&#x20;**&#x41; recommendation that affects your spend.
+
+
 
 ***
 
