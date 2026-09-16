@@ -44,7 +44,10 @@ Lifesight needs these settings and column mappings to compare your markets and m
 
 Parent geo fields become required for granularities that need geographic hierarchy. The mapping interface identifies **Parent Geo 1** and **Parent Geo 2** when applicable.
 
-**Supported KPIs**<br /><br />Primary KPI: Revenue, Conversions, ROAS, CPA, and Orders (revenue)<br />Secondary KPIs: Revenue, Conversions, ROAS, CPA, Orders, New customers, AOV, and Sessions
+**Supported KPIs**
+
+- Primary KPI: Revenue, Conversions, ROAS, CPA, and Orders (revenue)
+- Secondary KPIs: Revenue, Conversions, ROAS, CPA, Orders, New customers, AOV, and Sessions
 
 ### Formatting requirements
 
