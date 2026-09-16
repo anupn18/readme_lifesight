@@ -180,11 +180,11 @@ Rate any answer with 👍 / 👎. A thumbs-down lets you tell us what went wrong
   Your conversation goes wherever you go. Start a question in the Cockpit, move to Attribution, and the same conversation is waiting in the side panel. Open it anywhere with the Ask button in the top bar or press Alt + C. (The button is hidden on the Cockpit, since the whole page is already your Ask space.)
 </Callout>
 
-### Context attached to your question
+### Skip the setup when you ask
 
-When you ask from inside a module, Ask automatically attaches what you are looking at — brand, module, tab, the entity you have open, your date range and filters — so you do not have to restate it.
+When you ask from anywhere in Lifesight, Ask automatically includes what you're looking at, like your brand, the page and tab you're on, your date range, and filters. You don't have to explain it.
 
-The context panel lists exactly what is attached. If it is getting in the way, click **Remove** to ask without it, and **Restore** to put it back.
+You can see exactly what's included in the context panel. Click **Remove** to ask without it, or **Restore** to add it back.
 
 ***
 
@@ -195,15 +195,15 @@ The context panel lists exactly what is attached. If it is getting in the way, c
 </Callout>
 
 <Callout icon="📘" theme="info">
-  **I acted on a card and it is still there.** Opening a route does not close a card — the fact behind it has to change. Reconnect the source, promote the model, apply the changes, and the card goes on the next check.
+  **I acted on a card, but it's still there.&#x20;**&#x4F;pening a page from a card doesn't close it. The issue has to be resolved, whether that's reconnecting the source, promoting the model, or applying the changes. The card will clear at the next check.
 </Callout>
 
 <Callout icon="📘" theme="info">
-  **A card came back after I dismissed it.** Dismissing sets it aside for you. If the underlying situation changes — the connector fails again, a new week of recommendations lands — that is a new finding, and it returns.
+  **A card came back after I dismissed it.&#x20;**&#x44;ismissing hides that card for you. If something new happens, like a connection failing again or a new week of recommendations arriving, a new card appears.
 </Callout>
 
 <Callout icon="📘" theme="info">
-  **I cannot find my connector.** Browse the full catalogue from **Data → Integrations**. If it genuinely is not there, raise a ticket with Lifesight — and in the meantime you can bring the data in as a CSV.
+  **&#x20;I can't find my platform.** Browse the full list in Data → Integrations. If it's not there, raise a ticket with Lifesight, and upload your data as a CSV in the meantime.
 </Callout>
 
 <Callout icon="📘" theme="info">
