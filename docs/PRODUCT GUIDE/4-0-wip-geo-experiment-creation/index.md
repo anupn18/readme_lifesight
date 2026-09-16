@@ -1,13 +1,18 @@
 ---
 title: '[4.0][WIP] Create and Design a Geo Experiment'
+excerpt: Build a geo test that turns market results into confident budget decisions.
 deprecated: false
 hidden: true
 metadata:
   robots: noindex
 ---
+Geo Experiments show you the true incremental impact of your marketing, so you can see which changes actually drive results and invest with confidence.
+
+Platform-reported metrics tell you what happened after someone saw an ad, but not whether the ad caused it. Some of those conversions would have happened anyway. A geo experiment answers the question that matters most: how much additional revenue, conversions, or new customers did this marketing change create?
+
 Create a Geo Experiment from the Experiments workspace to measure the incremental effect of a marketing change across selected geographic markets.
 
-**\[IMAGE PLACEHOLDER: New Experiment button in the Experiment List]**
+![](https://files.readme.io/6b273c68050038b886cb89a9465396e6fdd8d13b5693fa4a2196bb810d9d3fe0-Screenshot_2026-09-16_at_2.26.14_PM.png)
 
 ## Before you begin
 
@@ -19,9 +24,11 @@ Prepare a CSV with a date column, a geographic-market column, and the primary KP
 2. Select **New Experiment**.
 3. Choose **Geo Testing**.
 
+![](https://files.readme.io/df37e817fde4c16316095eeffca092222d487c99fa42b06a84cab6135ebb3e4d-Screenshot_2026-09-16_at_2.26.52_PM.png)
+
 The creation workflow has three steps: **Goal**, **Data**, and **Design**. You can save an incomplete experiment as a draft and resume it from the Experiment List.
 
-**\[VIDEO PLACEHOLDER: Creating a Geo Experiment in the three-step wizard]**
+![](https://files.readme.io/ce2bf88868c6dd2d39ced4d32dae31cd75099b36c339824af317ac7d1f19f99f-Screenshot_2026-09-16_at_2.27.09_PM.png)
 
 ## 1. Define the goal
 
@@ -32,7 +39,7 @@ Choose the treatment type:
 * **Hold-out:** Pause selected media activity in the test markets to measure what would have happened without it.
 * **Scale-up:** Increase media activity in the test markets to measure the incremental response from additional investment.
 
-**\[IMAGE PLACEHOLDER: Goal step with name, hypothesis, and treatment type]**
+![](https://files.readme.io/007be217703cf6ca5486ca060986045ce8e805c1248d324ad9c2cd4bc9f7789c-Screenshot_2026-09-16_at_2.27.55_PM.png)
 
 ## 2. Add and map the data
 
@@ -49,7 +56,7 @@ The pre-treatment period gives Lifesight the history needed to build a synthetic
 
 See **Geo test data schema** for file requirements and formatting guidance.
 
-**\[IMAGE PLACEHOLDER: Data step with date, geography, KPI, and optional field mappings]**
+![](https://files.readme.io/d827aacca9d83f560c446fb3a63b95fe9539b59dae0b25052cf40df3f13c2bd6-Screenshot_2026-09-16_at_2.28.42_PM.png)
 
 ## 3. Configure the design
 
