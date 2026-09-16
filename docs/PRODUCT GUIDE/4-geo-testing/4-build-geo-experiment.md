@@ -102,8 +102,6 @@ Review:
 
 Choose a recommendation that balances statistical quality with operational feasibility. Avoid selecting a market combination on investment alone.
 
-**\[IMAGE PLACEHOLDER: Recommended test markets with fit chart, power analysis, MDE, and control weights]**
-
 ![](https://files.readme.io/50dd167fa37791fb3c0d238789571705db068295f6b7d9bfe4e9bafecb4b869c-Screenshot_2026-09-16_at_2.46.53_PM.png)
 
 ## Select campaigns and schedule
