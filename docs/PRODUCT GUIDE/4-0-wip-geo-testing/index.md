@@ -4,6 +4,9 @@ excerpt: Get a causal answer on performance before you commit more budget
 deprecated: false
 hidden: true
 metadata:
+  title: Create and Design a Geo Experiment
+  keywords:
+    - Lifesight Geo Experiment
   robots: noindex
 ---
 Geo Experiments show you the true incremental impact of your marketing, so you can see which changes actually drive results and invest with confidence.
