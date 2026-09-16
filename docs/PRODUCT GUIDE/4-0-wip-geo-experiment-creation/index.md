@@ -1,9 +1,12 @@
 ---
-title: '[4.0][WIP] Create and Design a Geo Experiment'
+title: '[4.0][Updated] Create and Design a Geo Experiment'
 excerpt: Build a geo test that turns market results into confident budget decisions.
 deprecated: false
 hidden: true
 metadata:
+  title: Create and Design a Geo Experiment
+  keywords:
+    - Lifesight Geo Experiment
   robots: noindex
 ---
 Geo Experiments show you the true incremental impact of your marketing, so you can see which changes actually drive results and invest with confidence.
