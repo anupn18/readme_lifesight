@@ -1,16 +1,18 @@
 ---
-title: '[4.0][WIP] Geo Experiment Insights'
-excerpt: Lifesight 4.0 WIP guide for Geo Experiment Insights.
+title: '[4.0][Updated] Geo Experiment Insights'
+excerpt: >-
+  See the incremental lift your marketing created and know exactly where to
+  invest next
 deprecated: false
 hidden: true
 metadata:
   robots: noindex
 ---
-# Geo Experiment Insights
-
 Geo Experiment results compare the observed KPI in treatment markets with a synthetic control that estimates what would likely have happened without the treatment.
 
-**[IMAGE PLACEHOLDER: Monitoring & Results tab for a Geo Experiment]**
+**\[IMAGE PLACEHOLDER: Monitoring & Results tab for a Geo Experiment]**
+
+![](https://files.readme.io/4673d701954cfdb469cc35deac20525cf96cc46538698041d44e14e61caf7e68-Screenshot_2026-09-16_at_3.06.30_PM.png)
 
 ## Monitor a running experiment
 
@@ -18,17 +20,19 @@ During the experiment, use **Monitoring & Results** to review progress, spend pa
 
 Interim results are provisional. They can change as more observations are collected. Avoid ending or extending an experiment based on one interim movement unless the original operating plan allows it.
 
-**[VIDEO PLACEHOLDER: Reviewing experiment progress and interim results]**
+![](https://files.readme.io/10c063c3ca209ab0099d60752454aa877979352cfeb5a3ce04e4624c92c69ba0-Screenshot_2026-09-16_at_3.12.36_PM.png)
 
 ## Calculate lift
 
-Select **Calculate Lift** when an interim or final analysis is required. Upload updated geographic data that extends the same schema and granularity used during experiment creation.
+Select **Calculate Lift** when an interim or final analysis is required.&#x20;
+
+Upload updated geographic data that extends the same schema and granularity used during experiment creation.
 
 For an interim calculation, include observations collected through the current experiment date. At the end of the treatment period, upload the completed treatment-period data to calculate the final result. When post-treatment analysis is supported, add the required observations after the treatment window before calculating the adjusted result.
 
 Check the file's date coverage and geographic fields before submitting it. Gaps, renamed columns, or a different aggregation can prevent the updated data from being matched to the experiment.
 
-**[VIDEO PLACEHOLDER: Uploading updated geographic data and calculating lift]**
+**\[VIDEO PLACEHOLDER: Uploading updated geographic data and calculating lift]**
 
 ## Understand the main metrics
 
@@ -110,7 +114,7 @@ Use the market table to identify where the result is concentrated. One unusually
 
 The entity retrospective shows how selected campaigns behaved during the test, including spend against plan and geographic execution. Use it to confirm that the treatment was implemented as designed.
 
-**[IMAGE PLACEHOLDER: Result cards, treatment-versus-control chart, and cell or market breakdown]**
+**\[IMAGE PLACEHOLDER: Result cards, treatment-versus-control chart, and cell or market breakdown]**
 
 ## Review completed results
 
@@ -124,7 +128,9 @@ Use this order when interpreting a completed experiment:
 6. Compare adjusted results when post-treatment analysis is available.
 7. Read the findings, recommendation, and conclusion with the original hypothesis.
 
-> 📘 A non-significant result does not automatically prove that there was no effect. The experiment may have measured a small effect, collected insufficient information, or had more variation than the design expected.
+<Callout icon="📘" theme="info">
+  ### A non-significant result does not automatically prove that there was no effect. The experiment may have measured a small effect, collected insufficient information, or had more variation than the design expected.
+</Callout>
 
 ## Promote a result
 
@@ -136,4 +142,4 @@ Promotion is not a substitute for review. Confirm the result against the origina
 
 Open **Design of Experiment** to revisit the hypothesis, treatment, cells, KPI definitions, date windows, selected markets, power analysis, MDE, and synthetic-control fit. Interpret the result against the question and assumptions defined before the experiment began.
 
-**[VIDEO PLACEHOLDER: Interpreting lift, iROAS, significance, and confidence together]**
+**\[VIDEO PLACEHOLDER: Interpreting lift, iROAS, significance, and confidence together]**
