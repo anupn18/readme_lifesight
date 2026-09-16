@@ -4,7 +4,7 @@ excerpt: Get a causal answer on performance before you commit more budget
 deprecated: false
 hidden: true
 metadata:
-  title: Create and Design a Geo Experiment
+  title: Lifesight Geo Experiment
   keywords:
     - Lifesight Geo Experiment
   robots: noindex
