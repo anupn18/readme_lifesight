@@ -6,9 +6,9 @@ excerpt: >-
 deprecated: false
 hidden: true
 metadata:
-  title: Create and Design a Geo Experiment
+  title: Build a geo experiment that proves incremental impactesign a Geo Experiment
   keywords:
-    - Lifesight Geo Experiment
+    - Build Lifesight Geo Experiment
   robots: noindex
 ---
 A well-designed geo experiment gives you results you can act on. This guide walks you through setting one up in the Experiments workspace, from choosing the marketing change you want to test to selecting the markets that will give you a reliable read on incremental lift.
