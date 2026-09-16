@@ -58,52 +58,52 @@ Each card also tells you what kind of response it needs:
 - **Needs your input:&#x20;**&#x41; decision only you can make.
 - **Needs your approval:&#x20;**&#x41; recommendation that affects your spend.
 
-
-
 ***
 
 ## Anatomy of a card
 
+Every card follows the same layout, so you always know where to look:
+
 ![A cue card — the agent, what it wants, the evidence, and one primary action](https://files.readme.io/7d5dfc17be0b5d265a991a1d857d8aeaf631e619a99fe64c76b304834cfc3c1b-cockpit-card.png)
 
-Every card is built the same way, so you can read one at a glance:
-
-| Part               | What it is                                                                                   |
-| ------------------ | -------------------------------------------------------------------------------------------- |
-| **Agent and kind** | Who raised it, and what it wants from you                                                    |
-| **Deadline**       | A pill on the right when the card is time-sensitive — _Reconnect today_, _expires in 7 days_ |
-| **Title and line** | What happened, in one sentence                                                               |
-| **Evidence**       | The facts the card is making its case on, read live from your workspace                      |
-| **Actions**        | One primary step, an **Ask** button, and one quiet way to set it aside                       |
+| Part               | What it is                                                                                  |
+| ------------------ | ------------------------------------------------------------------------------------------- |
+| **Agent and kind** | Who raised it, and what it wants from you                                                   |
+| **Deadline**       | A pill on the right when the card is time-sensitive  _Reconnect today_, _expires in 7 days_ |
+| **Title and line** | What happened, in one sentence                                                              |
+| **Evidence**       | The facts the card is making its case on, read live from your workspace                     |
+| **Actions**        | One primary step, an **Ask** button, and one quiet way to set it aside                      |
 
 <Callout icon="📘" theme="info">
-  **Opening a route or asking a question never closes a card.** Clicking **Reconnect** takes you to the connector — it does not fix it, so the card is still there when you come back. A card closes when you take the decision on it, dismiss it, or the fact behind it changes.
+  ### Clicking an action doesn't close a card on its own.
+
+  For example, clicking Reconnect takes you to the connection, but the card stays until the connection is actually fixed. A card closes when you make the decision, dismiss it, or the underlying issue is resolved.
 </Callout>
 
-The **Ask** button on any card opens the thread with that card attached, so you can ask "what breaks downstream?" without restating what you are looking at.
+Have a follow-up question? Click Ask on any card, and it opens a conversation with that card already attached. You can ask something like "what does this affect?" without explaining the context again.
 
 ***
 
-## Why am I seeing this?
+## Know why every card is in front of you
 
-Every card will tell you why it is in front of you, and why it sits where it does in the list. Click **Why am I seeing this?** at the bottom of any card.
+Click Why am I seeing this? at the bottom of any card to see:
 
 ![The reasoning behind a card — the evidence, its ranking, and where its figures came from](https://files.readme.io/8194c462e310c5e96887fc9c351935b5c6a5983b2368c5af1e7cb5ca48a2f6a1-cockpit-why.png)
 
-| Line               | What it tells you                        |
-| ------------------ | ---------------------------------------- |
-| The explanation    | The evidence that raised the card        |
-| **Ranked for you** | Why it is this high in your list         |
-| **Rows from**      | Which reads the evidence was pulled from |
-| **Dismiss**        | What the quiet button will actually do   |
+| Line                | What it tells you                        |
+| ------------------- | ---------------------------------------- |
+| **The explanation** | The evidence that raised the card        |
+| **Ranked for you**  | Why it is this high in your list         |
+| **Rows from**       | Which reads the evidence was pulled from |
+| **Dismiss**         | What the quiet button will actually do   |
 
-Cards are ranked for you, not globally. A card about a stage you own outranks one about a stage you do not. A card addressed to you outranks one someone else already has. Questions and approvals climb the longer they wait, and anything about to expire jumps. **A critical finding always keeps a slot**, even when it is outside your area — a broken connector reaches everyone.
+Cards are ranked for you personally, not the same for everyone. Cards about areas you own come first, and cards addressed to you rank above ones a teammate is already handling. Questions and approvals move up the longer they wait, and anything close to expiring jumps to the top. Critical issues always get a spot, even outside your area, because a broken data connection affects everyone.
 
 ***
 
-## The rest of your queue
+## Stay on top of everything else in your queue
 
-Three cards are shown in full. Everything else is folded into a queue underneath, in the same ranked order.
+Your top three cards are shown in full. Everything else sits in a queue underneath, in the same priority order.
 
 ![The queue expanded, showing the cards waiting behind the three on screen](https://files.readme.io/5b952046f56b1c7e2d8015cdda6c3c28119fb0bfc2c2052ec833ba80d8d81269-cockpit-queue-open.png)
 
@@ -113,9 +113,9 @@ When you act on one of the three cards on screen — or set it aside — the top
 
 ***
 
-## Setting up a new workspace
+## Get a new workspace running in three steps
 
-A new workspace has nothing to report yet, so the Onboarding Agent raises the setup steps as cards, one at a time. Finish one and it is replaced by the next.
+In a new workspace, the Onboarding Agent walks you through setup one card at a time. As you finish each step, the next one appears.
 
 | Step | The card asks you to             | What completes it                                |
 | ---- | -------------------------------- | ------------------------------------------------ |
@@ -131,16 +131,18 @@ If you are uploading conversions as a file, it must match one of these two shape
 | **Geographic** | `date, state, orders, revenue` |
 
 <Callout icon="📘" theme="info">
-  These steps also complete on their own if you do the work elsewhere — connect a source from **Data → Integrations**, or train a model from **Models** — rather than from the card. You do not have to do it twice.
+  ### You don't have to do anything twice.
+
+  If you connect a platform from Data → Integrations or train a model from Models, the matching setup card completes automatically.
 </Callout>
 
-Alongside setup you will see a card asking you to **invite your team**. Measurement moves fastest when Marketing Ops owns the pipeline and a Measurement Analyst owns the models, and the card names which stages currently have no owner.
+You'll also see a card inviting you to bring your team in. Measurement moves fastest when Marketing Ops manages the data and a Measurement Analyst manages the models. The card shows which areas don't have an owner yet.
 
 ***
 
-## Once your data is in
+## Act on what matters once your data is in
 
-The setup cards are replaced by the ones that matter in a running workspace:
+After setup, your cards shift to what matters day to day:
 
 | What you will see                        | Raised when                                             |
 | ---------------------------------------- | ------------------------------------------------------- |
@@ -154,7 +156,7 @@ The setup cards are replaced by the ones that matter in a running workspace:
 
 ***
 
-## Asking questions
+## Get answers without leaving your workflow
 
 The Ask box on the Cockpit is not a separate chatbot. It is the same conversation that follows you around the platform.
 
@@ -162,24 +164,20 @@ The Ask box on the Cockpit is not a separate chatbot. It is the same conversatio
 
 1. Type into the box and press **Enter**.
 2. The Cockpit switches to the thread view and the answer streams in place.
-3. Use the buttons at the top of the thread — **Home** returns to the Cockpit and keeps your thread, **New thread** starts fresh, and **History** opens the session rail.
+3. Use the buttons at the top: Home takes you back to the Cockpit and keeps your conversation, New thread starts fresh, and History shows your past conversations.
 
-The three chips under the box are suggested questions. Click one to ask it, or dismiss it with the **×**.
-
-###
+The three suggestions under the Ask box are questions you might want to ask. Click one to ask it, or click × to dismiss it.
 
 ### Pick up where you left off
 
-Under the Ask box, your three most recent sessions are listed with when you last touched them. Click one to reopen it. The **history** icon opens the full **Session history** dialog, where you can search every past session by title.
+Your three most recent conversations appear under the Ask box. Click one to reopen it, or click the history icon to search all your past conversations by title.
 
-### What you can do with an answer
+### Rate answers and keep going
 
-Under every completed answer you can rate it with **👍 / 👎** — a thumbs-down opens a comment box so you can say what was wrong. You will also see suggested follow-up questions; click one to continue.
+Rate any answer with 👍 / 👎. A thumbs-down lets you tell us what went wrong. You'll also see suggested follow-up questions to keep the conversation moving.
 
 <Callout icon="📘" theme="info">
-  Ask follows you around the platform. The Cockpit thread, the docked **Ask** panel in other modules, and the fullscreen Ask view are all **one conversation**. Ask on the Cockpit, walk into Attribution, and the same thread is there in the side panel.
-
-  Open the panel anywhere with the **Ask** button in the top bar, or press `Alt + C`. On the Cockpit the button is hidden, because the page itself is the Ask surface.
+  Your conversation goes wherever you go. Start a question in the Cockpit, move to Attribution, and the same conversation is waiting in the side panel. Open it anywhere with the Ask button in the top bar or press Alt + C. (The button is hidden on the Cockpit, since the whole page is already your Ask space.)
 </Callout>
 
 ### Context attached to your question
