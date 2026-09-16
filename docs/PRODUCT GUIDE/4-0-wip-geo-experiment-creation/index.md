@@ -1,16 +1,13 @@
 ---
 title: '[4.0][WIP] Create and Design a Geo Experiment'
-excerpt: Lifesight 4.0 WIP guide for Geo test creation.
 deprecated: false
 hidden: true
 metadata:
   robots: noindex
 ---
-# Create and Design a Geo Experiment
-
 Create a Geo Experiment from the Experiments workspace to measure the incremental effect of a marketing change across selected geographic markets.
 
-**[IMAGE PLACEHOLDER: New Experiment button in the Experiment List]**
+**\[IMAGE PLACEHOLDER: New Experiment button in the Experiment List]**
 
 ## Before you begin
 
@@ -24,7 +21,7 @@ Prepare a CSV with a date column, a geographic-market column, and the primary KP
 
 The creation workflow has three steps: **Goal**, **Data**, and **Design**. You can save an incomplete experiment as a draft and resume it from the Experiment List.
 
-**[VIDEO PLACEHOLDER: Creating a Geo Experiment in the three-step wizard]**
+**\[VIDEO PLACEHOLDER: Creating a Geo Experiment in the three-step wizard]**
 
 ## 1. Define the goal
 
@@ -35,7 +32,7 @@ Choose the treatment type:
 * **Hold-out:** Pause selected media activity in the test markets to measure what would have happened without it.
 * **Scale-up:** Increase media activity in the test markets to measure the incremental response from additional investment.
 
-**[IMAGE PLACEHOLDER: Goal step with name, hypothesis, and treatment type]**
+**\[IMAGE PLACEHOLDER: Goal step with name, hypothesis, and treatment type]**
 
 ## 2. Add and map the data
 
@@ -52,7 +49,7 @@ The pre-treatment period gives Lifesight the history needed to build a synthetic
 
 See **Geo test data schema** for file requirements and formatting guidance.
 
-**[IMAGE PLACEHOLDER: Data step with date, geography, KPI, and optional field mappings]**
+**\[IMAGE PLACEHOLDER: Data step with date, geography, KPI, and optional field mappings]**
 
 ## 3. Configure the design
 
@@ -70,7 +67,7 @@ Advanced settings can include the lift model, lookback window, fixed effects, si
 
 Use realistic target efficiency and effect assumptions. An aggressive target can make a design look inexpensive while reducing the chance that the expected effect can be detected.
 
-**[IMAGE PLACEHOLDER: Design step with test cells, duration, market count, and advanced settings]**
+**\[IMAGE PLACEHOLDER: Design step with test cells, duration, market count, and advanced settings]**
 
 ## Find and compare markets
 
@@ -86,7 +83,7 @@ Review:
 
 Choose a recommendation that balances statistical quality with operational feasibility. Avoid selecting a market combination on investment alone.
 
-**[IMAGE PLACEHOLDER: Recommended test markets with fit chart, power analysis, MDE, and control weights]**
+**\[IMAGE PLACEHOLDER: Recommended test markets with fit chart, power analysis, MDE, and control weights]**
 
 ## Select campaigns and schedule
 
@@ -97,9 +94,11 @@ After selecting the test markets, choose eligible campaigns for each cell.
 
 Choose the start date and deployment method, then promote and schedule the experiment when every cell is ready.
 
-> 📘 Automatic campaign scheduling may not be available for every workflow. With Manual deployment, your team must apply the planned changes in the advertising platform on the scheduled date.
+<Callout icon="📘" theme="info">
+  ### Automatic campaign scheduling may not be available for every workflow. With Manual deployment, your team must apply the planned changes in the advertising platform on the scheduled date.
+</Callout>
 
-**[VIDEO PLACEHOLDER: Reviewing markets, selecting campaigns, and scheduling a Geo Experiment]**
+**\[VIDEO PLACEHOLDER: Reviewing markets, selecting campaigns, and scheduling a Geo Experiment]**
 
 ## Final checklist
 
