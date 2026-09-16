@@ -8,11 +8,13 @@ metadata:
 ---
 # Geo Experiment
 
+Geo Experiments show you the true incremental impact of your marketing, so you can see which changes actually drive results and invest with confidence.
+
+Platform-reported metrics tell you what happened after someone saw an ad, but not whether the ad caused it. Some of those conversions would have happened anyway. A geo experiment answers the question that matters most: how much additional revenue, conversions, or new customers did this marketing change create?
+
 Geo Testing measures incremental impact by comparing selected test markets with a synthetic control built from comparable markets.
 
-In Lifesight 4.0, Geo Testing is the available experiment design. Time Testing and external experiment import are visible as coming soon.
-
-[IMAGE PLACEHOLDER: Experiment design selection with Geo Testing available]
+![](https://files.readme.io/d07a4e707f008d35fc179ce0379a956375adf9dd9ac11e1b9fdba6a08c33f9a6-Screenshot_2026-09-16_at_3.20.16_PM.png)
 
 ## How Geo Testing works
 
@@ -30,8 +32,6 @@ In Lifesight 4.0, Geo Testing is the available experiment design. Time Testing a
 - **Scale-up** increases activity in test markets and compares the change with control behavior.
 
 The available treatment can depend on the selected hypothesis.
-
-[VIDEO PLACEHOLDER: Geo Experiment lifecycle from creation to results]
 
 ## Key outputs
 
