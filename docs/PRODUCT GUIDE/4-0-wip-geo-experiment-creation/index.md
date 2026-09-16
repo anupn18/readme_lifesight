@@ -56,7 +56,7 @@ The pre-treatment period gives Lifesight the history needed to build a synthetic
 
 See **Geo test data schema** for file requirements and formatting guidance.
 
-![](https://files.readme.io/d827aacca9d83f560c446fb3a63b95fe9539b59dae0b25052cf40df3f13c2bd6-Screenshot_2026-09-16_at_2.28.42_PM.png)
+![](https://files.readme.io/233ef37539fdd8356056f848442548665cb43a772ee79931990badb8b8ec2818-Screenshot_2026-09-16_at_2.41.32_PM.png)
 
 ## 3. Configure the design
 
@@ -70,11 +70,13 @@ For each cell, enter:
 * Candidate test durations
 * Candidate numbers of test markets
 
+  ![](https://files.readme.io/0247393d1f467070dcdebbd81b586fbcc70dba9eb875528fd4df293ca90eeebf-Screenshot_2026-09-16_at_2.43.51_PM.png)
+
 Advanced settings can include the lift model, lookback window, fixed effects, significance level, additional budget, expected effect range, and markets to include or exclude.
 
-Use realistic target efficiency and effect assumptions. An aggressive target can make a design look inexpensive while reducing the chance that the expected effect can be detected.
+![](https://files.readme.io/85da25b9bd875ae0c1a48c4dc9aa5d3ea14f4da401d6b40df5be058ec48a3ad5-Screenshot_2026-09-16_at_2.44.23_PM.png)
 
-**\[IMAGE PLACEHOLDER: Design step with test cells, duration, market count, and advanced settings]**
+Use realistic target efficiency and effect assumptions. An aggressive target can make a design look inexpensive while reducing the chance that the expected effect can be detected.
 
 ## Find and compare markets
 
@@ -83,7 +85,12 @@ Select **Find markets** to submit the design. Lifesight evaluates candidate test
 Review:
 
 * **Synthetic-control fit:** How closely the control reproduces the test markets before treatment. A closer pre-treatment fit provides a more credible baseline.
+
+![](https://files.readme.io/47121aee55f5362a345f26cd0a37697f84f431698458b2eb8caf17903b7e0ec5-Screenshot_2026-09-16_at_2.47.52_PM.png)
+
 * **Statistical power:** The likelihood that the design can detect an effect of the planned size when the effect is real. Higher power is preferable.
+
+  ![](https://files.readme.io/9cb2dd1843062257b7005fee123cb811f41d14e34737424469ce06ebe059c0e9-Screenshot_2026-09-16_at_2.47.30_PM.png)
 * **Minimum Detectable Lift:** The smallest lift the design is expected to detect reliably. Lower values allow the experiment to identify smaller effects.
 * **Estimated investment:** The additional or withheld spend associated with the design.
 * **Control weights:** How much each control market contributes to the synthetic-control baseline.
@@ -91,6 +98,8 @@ Review:
 Choose a recommendation that balances statistical quality with operational feasibility. Avoid selecting a market combination on investment alone.
 
 **\[IMAGE PLACEHOLDER: Recommended test markets with fit chart, power analysis, MDE, and control weights]**
+
+![](https://files.readme.io/50dd167fa37791fb3c0d238789571705db068295f6b7d9bfe4e9bafecb4b869c-Screenshot_2026-09-16_at_2.46.53_PM.png)
 
 ## Select campaigns and schedule
 
@@ -103,9 +112,9 @@ Choose the start date and deployment method, then promote and schedule the exper
 
 <Callout icon="📘" theme="info">
   ### Automatic campaign scheduling may not be available for every workflow. With Manual deployment, your team must apply the planned changes in the advertising platform on the scheduled date.
-</Callout>
 
-**\[VIDEO PLACEHOLDER: Reviewing markets, selecting campaigns, and scheduling a Geo Experiment]**
+
+</Callout>
 
 ## Final checklist
 
