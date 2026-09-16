@@ -1,13 +1,11 @@
 ---
-title: '[4.0][WIP] Geo Experiment'
-excerpt: Lifesight 4.0 WIP guide for Geo Experiment.
+title: '[4.0][WIP] Create a Geo Experiment'
+excerpt: Get a causal answer on performance before you commit more budget
 deprecated: false
 hidden: true
 metadata:
   robots: noindex
 ---
-# Geo Experiment
-
 Geo Experiments show you the true incremental impact of your marketing, so you can see which changes actually drive results and invest with confidence.
 
 Platform-reported metrics tell you what happened after someone saw an ad, but not whether the ad caused it. Some of those conversions would have happened anyway. A geo experiment answers the question that matters most: how much additional revenue, conversions, or new customers did this marketing change create?
