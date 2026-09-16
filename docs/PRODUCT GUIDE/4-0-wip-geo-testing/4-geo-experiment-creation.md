@@ -1,6 +1,8 @@
 ---
-title: '[4.0][Updated] Create and Design a Geo Experiment'
-excerpt: Build a geo test that turns market results into confident budget decisions.
+title: '[4.0][Updated] Build a geo experiment that proves incremental impact'
+excerpt: >-
+  Set up your treatment and control groups in a few steps and get a clear read
+  on lift
 deprecated: false
 hidden: true
 metadata:
@@ -9,9 +11,9 @@ metadata:
     - Lifesight Geo Experiment
   robots: noindex
 ---
-Geo Experiments show you the true incremental impact of your marketing, so you can see which changes actually drive results and invest with confidence.
+A well-designed geo experiment gives you results you can act on. This guide walks you through setting one up in the Experiments workspace, from choosing the marketing change you want to test to selecting the markets that will give you a reliable read on incremental lift.
 
-Platform-reported metrics tell you what happened after someone saw an ad, but not whether the ad caused it. Some of those conversions would have happened anyway. A geo experiment answers the question that matters most: how much additional revenue, conversions, or new customers did this marketing change create?
+The choices you make during setup, like which regions go into the treatment and control groups and how long the test runs, determine how confident you can be in the outcome. Lifesight guides you through each step, so your experiment is built to detect real impact and support the budget decisions that follow.
 
 Create a Geo Experiment from the Experiments workspace to measure the incremental effect of a marketing change across selected geographic markets.
 
@@ -115,8 +117,6 @@ Choose the start date and deployment method, then promote and schedule the exper
 
 <Callout icon="📘" theme="info">
   ### Automatic campaign scheduling may not be available for every workflow. With Manual deployment, your team must apply the planned changes in the advertising platform on the scheduled date.
-
-
 </Callout>
 
 ## Final checklist
