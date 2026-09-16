@@ -1,6 +1,8 @@
 ---
-title: '[4.0][WIP] Geo test data schema'
-excerpt: Lifesight 4.0 WIP guide for Geo test data schema.
+title: '[4.0][Updated] Geo test data schema'
+excerpt: >-
+  Set up and map your data so every Geo Experiment is built on a reliable
+  baseline.
 deprecated: false
 hidden: true
 metadata:
