@@ -65,40 +65,25 @@ You're done when:
 
 ## Reference
 
-| Row                  | Value shown                                           | Helper text on the row                                                                  | Who can change it                                                    |
-| -------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| **Timezone**         | `Asia/Kolkata`                                        | `Used for reporting and scheduled tasks.`                                               | Nobody in-product — contact Lifesight                                |
-| **Default Currency** | `USD`                                                 | `Currency shown in metrics and exports.`                                                | Nobody in-product — contact Lifesight                                |
-| **Week start day**   | **Monday**, until a Workspace Admin locks another day | `The day each reporting week begins on. Used by Models and weekly data quality checks.` | Anyone can change the list; only a Workspace Admin can lock it, once |
+| Row                  | Value shown                                           | Helper text on the row                                                                  | Who can change it                        |
+| -------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------------- |
+| **Timezone**         | `Asia/Kolkata`                                        | `Used for reporting and scheduled tasks.`                                               | Contact Lifesight                        |
+| **Default Currency** | `USD`                                                 | `Currency shown in metrics and exports.`                                                | Contact Lifesight                        |
+| **Week start day**   | **Monday**, until a Workspace Admin locks another day | `The day each reporting week begins on. Used by Models and weekly data quality checks.` | Only a Workspace Admin can lock it, once |
 
 ## FAQ
 
 ### Why can't I change the timezone or the currency?
 
-**Timezone** and **Default Currency** are view-only for every role, Workspace
-Admin included. Contact Lifesight to change them.
+**Timezone** and **Default Currency** are view-only for every role, Workspace Admin included. Contact Lifesight to change them.
 
 ### Should I lock the week start day now, or wait?
 
-Lock it once your reporting calendar is agreed. Waiting costs nothing — the day
-stays **Monday** and nothing on the tab nags you. Locking early costs a call to
-Lifesight.
+Lock it once your reporting calendar is agreed. Waiting costs nothing — the day stays **Monday** and nothing on the tab nags you. Locking early costs a call to Lifesight.
 
 ### I locked the wrong day. How do I unlock it?
 
-Nothing in the product unlocks it — the row says
-`Locked on DD Mon YYYY. Contact Lifesight to change.`
-
-### Will my brand kit show up in an export?
-
-No. Nothing in Lifesight reads the brand kit — no export, report, chart or
-artifact — even though the row descriptions mention exports and artifacts.
-
-### My teammate can't see the brand kit I set up. Why?
-
-The brand kit is stored in your browser, so it never reaches your teammate, your
-phone or your second browser — each shows the factory defaults. Setting it again
-in that browser is the only way to match them.
+You will have to contact Lifesight, to change.
 
 ## Related
 
