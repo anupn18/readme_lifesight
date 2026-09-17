@@ -1,30 +1,27 @@
 ---
 title: '[4.0][WIP] Workspace Settings'
 excerpt: >-
-  Settings > Workspace carries the workspace reporting defaults, the one-time
-  week start lock, and the brand kit with its save and discard footer.
+  Settings > Workspace carries the workspace reporting defaults and the one-time
+  week start lock.
 deprecated: false
 hidden: true
 metadata:
   robots: index
 ---
-**Settings > Workspace** holds the reporting defaults, the day each reporting
-week begins, and the brand kit.
+**Settings > Workspace** holds the reporting defaults, the day each reporting and week begins.
 
 <Callout icon="📘" theme="info">
   ### Who can do this
 
-  **Role:** Everyone can open the tab and read every row. **Set & lock** needs Workspace Admin; denied, it shows `Your role (<Role>) cannot update workspace settings. Ask a workspace admin for access.` On **Brand kit**, **Upload** and **Remove** show `Your role (<Role>) cannot configure brand kit. Ask a workspace admin for access.` **Company name**, the colour swatches and the font selects are greyed out with no tooltip.
-  **Where:** Sidebar user menu > **Settings** > **Workspace**
-  **In this build:** The week start lock and the brand kit are stored in this browser alone, and nothing else in Lifesight reads either. See [What's live in this build](doc:whats-live-in-this-build).
-  **Time:** About 3 minutes.
+  **Role:** Everyone can open the tab and read every row. **Set & lock** needs Workspace Admin; denied, it shows `Your role (<Role>) cannot update workspace settings.`<br />**Where:** Sidebar user menu > **Settings** > **Workspace**
+  **Time:** About 2 minutes.
 </Callout>
 
 ## Before you start
 
-- ☐ You are signed in to the workspace.
-- ☐ **Settings** is open on the **Workspace** tab.
-- ☐ For the lock, the **Week start day** row still shows a select and **Set & lock**.
+- You are signed in to the workspace.
+- **Settings** is open on the **Workspace** tab.
+- For the lock, the **Week start day** row still shows a select and **Set & lock**.
 
 ## See your reporting defaults
 
@@ -36,18 +33,15 @@ week begins, and the brand kit.
 2. Select the **Workspace** tab.
 3. Read the **Timezone** and **Default Currency** rows on the **Workspace** card.
 
-Both rows are greyed out, with a `View only` tooltip on the information icon,
-and neither opens for any role.
+Both rows are greyed out, with a `View only` tooltip on the information icon, and neither opens for any role.
 
 ## Lock the week start day
 
 <Callout icon="📘" theme="info">
-  ### **Role:** Workspace Admin for **Set & lock** (`settings.update_workspace_settings`). Anyone can change the day in the list.
+  ### **Role:** Workspace Admin for **Set & lock**
 </Callout>
 
-The **Week start day** row says `This can be set only once. After that, contact
-the Lifesight team to change it.` Its description notes that [MMM](doc:glossary)
-and the weekly data quality checks use this day.
+The **Week start day** row says `This can be set only once. After that, contactthe Lifesight team to change it.` [Models](doc:glossary) and the weekly data quality checks use this day.
 
 1. On **Settings > Workspace**, find the **Week start day** row.
 2. Select a day. The list offers **Monday**, **Tuesday**, **Wednesday**, **Thursday**, **Friday**, **Saturday** and **Sunday**, and starts on **Monday**. The selection is not stored until you lock it; leave the page without **Set & lock** and the row returns to **Monday**.
@@ -55,94 +49,27 @@ and the weekly data quality checks use this day.
 4. In **Lock reporting week start?**, enter the day name exactly as the list writes it.
 5. Select **Lock**.
 
-If **Lock** stays dimmed, the typed text does not match the day (case-sensitive)
-— return to step 4. **Cancel** closes the dialog and changes nothing.
+**Cancel** closes the dialog and changes nothing.
 
 You're done when:
 
-- ☐ The toast `Reporting week start locked to <Day>` has appeared.
-- ☐ The **Week start day** row shows a lock pill carrying the day you chose.
-- ☐ The line `Locked on DD Mon YYYY. Contact Lifesight to change.` sits under the row description, for example `Locked on 12 Sep 2026.`
+- The toast `Reporting week start locked to <Day>` has appeared.
+- The **Week start day** row shows a lock pill carrying the day you chose.
+- The line `Locked on DD Mon YYYY. Contact Lifesight to change.` sits under the row description, for example `Locked on 12 Sep 2026.`
 
 <Callout icon="❗️" theme="error">
-  ### This one is one-way
+  ### This is a one time action
 
-  **Set & lock** records the day this browser shows as the reporting week start, and the tab has no unlock control afterwards. That is why the dialog makes you type the day name first. To move a locked week start, contact Lifesight.
-</Callout>
-
-
-<Image src="_assets/SHOT-12-week-start-lock-dialog.png" alt="The Lock reporting week start dialog with Monday typed into the confirmation field and the Lock button enabled" caption="Lock stays dimmed until the typed text matches the day exactly, capital letter included." framed={true} />
-
-
-## Edit the brand kit
-
-<Callout icon="📘" theme="info">
-  ### **Role:** Workspace Admin (`settings.configure_brand_kit`)
-</Callout>
-
-**Brand kit** is the second card. Each edit is written to this browser the moment
-you make it.
-
-1. On **Settings > Workspace**, go to the **Brand kit** card.
-2. In **Company name**, enter the name you want.
-3. Optional: on the **Logo** row, select **Upload** and choose a PNG, JPEG or SVG file.
-4. On the **Color palette** row, select a swatch and pick a colour.
-5. In **Heading font**, select **Sans-serif**, **Serif** or **Monospace**.
-6. In **Body font**, select **Sans-serif**, **Serif** or **Monospace**.
-
-The **Logo** file is stored in this browser as a data URL and shown as a thumbnail
-beside **Upload**. Nothing checks its size: a file over roughly 3 MB can exceed the
-browser's storage quota and fail silently, so keep it small. **Remove** appears
-once a logo is set and clears it to `No logo`.
-
-Below **Brand kit** sits **Slack Integration**, whose **Configure notifications
-on slack** row opens the Slack setup dialog covered on
-[Notifications](doc:notifications#send-notifications-to-slack).
-
-## Save or discard changes
-
-<Callout icon="📘" theme="info">
-  ### **Role:** Workspace Admin for the **Brand kit** edits; everyone for the **Customize Menu** edits on the **Preferences** tab.
-</Callout>
-
-A footer appears when the brand kit differs from the last saved snapshot. The
-**Customize Menu** selection on the **Preferences** tab raises the same footer,
-and **Save changes** writes both.
-
-1. Edit any **Brand kit** row.
-2. Read the footer at the bottom of the page: `You have unsaved changes`.
-3. Select **Save changes**.
-
-The toast `Capabilities saved` appears and the footer disappears. **Save changes**
-only takes a snapshot for change tracking, so nothing is lost if you never select
-it.
-
-**Discard changes**, the other footer button, does not undo your edits. It resets
-every **Brand kit** row to its factory value — `NovaBrand`, the five original
-colours and no logo — not your last saved values, and returns the **Customize
-Menu** selections on the **Preferences** tab to the last set you saved.
-
-<Callout icon="🚧" theme="warn">
-  ### What this build does not do
-
-  The brand kit and the week start lock are stored in this browser alone, so a colleague, a second browser or another device sees the factory defaults and an unlocked week start. Nothing else in Lifesight reads either: no export, report, chart or artifact reads the brand kit, whatever the row descriptions say, and no model or check reads the locked day. See [What's live in this build](doc:whats-live-in-this-build).
+  **Set & lock** records the day this browser shows as the reporting week start, and the tab has no unlock control afterwards. That is why the dialog makes you type the day name first. To move a locked week start, Edit the brand kit
 </Callout>
 
 ## Reference
 
-| Row                  | Value shown                                           | Helper text on the row                                                               | Who can change it                                                    |
-| -------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
-| **Timezone**         | `Asia/Kolkata`                                        | `Used for reporting and scheduled tasks.`                                            | Nobody in-product — contact Lifesight                                |
-| **Default Currency** | `USD`                                                 | `Currency shown in metrics and exports.`                                             | Nobody in-product — contact Lifesight                                |
-| **Week start day**   | **Monday**, until a Workspace Admin locks another day | `The day each reporting week begins on. Used by MMM and weekly data quality checks.` | Anyone can change the list; only a Workspace Admin can lock it, once |
-
-| Row               | Control                                         | Starts on                                             | Denied user sees                                                                                                        |
-| ----------------- | ----------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| **Company name**  | Text input, placeholder `Your company name`     | `NovaBrand`                                           | The input greyed out, no tooltip                                                                                        |
-| **Logo**          | **Upload**, plus **Remove** once a logo is set  | `No logo`                                             | Both buttons dimmed with the tooltip `Your role (<Role>) cannot configure brand kit. Ask a workspace admin for access.` |
-| **Color palette** | Five colour swatches, labelled P, S, A, B and T | `#3b82f6`, `#10b981`, `#f59e0b`, `#ffffff`, `#1a1a1a` | The swatches greyed out, no tooltip                                                                                     |
-| **Heading font**  | **Sans-serif**, **Serif**, **Monospace**        | **Sans-serif**                                        | The select greyed out, no tooltip                                                                                       |
-| **Body font**     | **Sans-serif**, **Serif**, **Monospace**        | **Sans-serif**                                        | The select greyed out, no tooltip                                                                                       |
+| Row                  | Value shown                                           | Helper text on the row                                                                  | Who can change it                                                    |
+| -------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Timezone**         | `Asia/Kolkata`                                        | `Used for reporting and scheduled tasks.`                                               | Nobody in-product — contact Lifesight                                |
+| **Default Currency** | `USD`                                                 | `Currency shown in metrics and exports.`                                                | Nobody in-product — contact Lifesight                                |
+| **Week start day**   | **Monday**, until a Workspace Admin locks another day | `The day each reporting week begins on. Used by Models and weekly data quality checks.` | Anyone can change the list; only a Workspace Admin can lock it, once |
 
 ## FAQ
 
