@@ -92,16 +92,8 @@ You will have to contact Lifesight, to change.
     The settings that belong to you, not the workspace.
   </Card>
 
-  <Card title="Notifications" href="doc:notifications" icon="fa-bell">
-    The bell, the log, and the Slack dialog on this tab.
-  </Card>
-
   <Card title="Switch and create workspaces" href="doc:switch-and-create-workspaces" icon="fa-layer-group">
     Which workspace these settings sit beside.
-  </Card>
-
-  <Card title="What's live in this build" href="doc:whats-live-in-this-build" icon="fa-circle-half-stroke">
-    What saves, what stays in this browser, what only previews.
   </Card>
 </Cards>
 
@@ -114,7 +106,6 @@ type: howto
 surface: Settings
 page: https://docs.lifesight.io/docs/workspace-settings
 last_verified: 2026-09-13
-app_build: "ls4x@feature/LS4X-155"
 
 state: browser
 persistence: browser_local
