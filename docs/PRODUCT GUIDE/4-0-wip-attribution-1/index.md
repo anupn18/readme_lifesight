@@ -1,11 +1,16 @@
 ---
-title: '[4.0][WIP] Causal Attribution: See What Truly Drives Revenue'
+title: '[4.0][Updated] Causal Attribution: See What Truly Drives Revenue'
 excerpt: >-
   Measure the real impact of every channel and keep spend on track against your
   plan
 deprecated: false
 hidden: true
 metadata:
+  title: >-
+    Casual [4.0][Updated] Causal Attribution: See What Truly Drives Revenue in
+    Lifesight
+  keywords:
+    - Lifesight Causal Attribution
   robots: noindex
 ---
 Causal Attribution shows you which channels, campaigns, and ad sets are actually growing your business, so you can shift budget toward what works and pull back from what doesn't. In Lifesight, it brings incremental measurement and your active media plan into one place, so you always know both what is driving outcomes and whether your spend is on track.
