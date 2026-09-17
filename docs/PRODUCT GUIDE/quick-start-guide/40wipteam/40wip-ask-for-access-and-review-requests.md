@@ -4,7 +4,7 @@ excerpt: >-
   Ask for Read or Manage access from the Access Restricted page, then approve or
   reject the request on Team > Access Requests.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
