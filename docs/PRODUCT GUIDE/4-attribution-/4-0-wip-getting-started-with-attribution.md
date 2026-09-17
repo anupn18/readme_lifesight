@@ -1,16 +1,16 @@
 ---
-title: '[4.0][WIP] Getting started with attribution'
-excerpt: Lifesight 4.0 WIP guide for Getting started with attribution.
+title: '[4.0][WIP] Getting Started With Causal Attribution'
+excerpt: Go From Connected Data to Confident Budget Decisions
 deprecated: false
 hidden: true
 metadata:
   robots: noindex
 ---
-# Getting Started with Attribution
+Causal Attribution helps you see which channels, campaigns, and ad sets are genuinely growing your business, so every budget decision is backed by evidence.&#x20;
 
-Attribution in Lifesight 4.0 requires connected advertising data and promoted measurement inputs that support causal results.
+To get accurate, incremental results in Lifesight, your workspace needs connected advertising data and promoted measurement inputs. Once these are in place, you can move from reviewing performance to acting on it with confidence.
 
-[IMAGE PLACEHOLDER: Attribution workspace empty and populated states]
+\[IMAGE PLACEHOLDER: Attribution workspace empty and populated states]
 
 ## 1. Connect marketing platforms
 
@@ -28,7 +28,7 @@ Prepare the planning scenario that provides planned spend and the benchmark used
 
 Go to **Measure > Attribution** and select a date range. Review the last updated indicator before interpreting the results.
 
-[VIDEO PLACEHOLDER: Opening Attribution and reviewing the active scenario]
+\[VIDEO PLACEHOLDER: Opening Attribution and reviewing the active scenario]
 
 ## 5. Review Overview and Breakdown
 
