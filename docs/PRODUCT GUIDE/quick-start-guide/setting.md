@@ -1,5 +1,5 @@
 ---
-title: setting
+title: Settings
 deprecated: false
 hidden: true
 metadata:
