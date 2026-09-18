@@ -110,25 +110,13 @@ last_verified: 2026-09-13
 state: browser
 persistence: browser_local
 state_note: >
-  The week start lock and the brand kit are written to this browser's local
-  storage and are never sent to a server. They do not follow the user to another
-  browser, another device or a colleague, and they are not scoped to the active
-  workspace. Nothing else in the product reads either one: no export, report,
-  chart or artifact uses the brand kit, despite the row descriptions naming
-  exports and artifacts. Timezone and Default Currency are fixed display values
-  that no role can edit.
+  Timezone and Default Currency are fixed display values that no role can edit.
 
 requires_role: [Workspace Admin]
 requires_rights: [settings.update_workspace_settings, settings.configure_brand_kit]
 denied_ux: >
-  Every role can open the tab and read every row, and every role can change the
-  day in the "Week start day" select. "Set & lock" stays visible at 50% opacity
-  with the tooltip "Your role (<Role>) cannot update workspace settings. Ask a
-  workspace admin for access."; "Upload" and "Remove" do the same with
-  "Your role (<Role>) cannot configure brand kit. Ask a workspace admin for
-  access." Both print the internal role value such as "DataPractitioner".
-  "Company name", the colour swatches, "Heading font" and "Body font" are greyed
-  out with no tooltip. Without the right, the lock dialog cannot open at all.
+  Every role can open the tab and read every row. "Set & lock" stays visible at 50% opacity with the tooltip "Your role (<Role>) cannot update workspace settings. Ask a
+  workspace admin for access."
 
 entry_point: "Sidebar user menu > Settings > Workspace"
 url: "/settings?tab=workspace"
@@ -140,18 +128,11 @@ preconditions:
 ui_strings:
   tab: "Workspace"
   workspace_rows: ["Timezone", "Default Currency", "Week start day"]
-  week_start_options: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  week_start_options: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday",                                                                                                                                                                                                                                                                                                                                "Saturday", "Sunday"]
   lock_action: "Set & lock"
   dialog_title: "Lock reporting week start?"
   dialog_confirm: "Lock"
   dialog_cancel: "Cancel"
-  brand_kit_section: "Brand kit"
-  brand_kit_rows: ["Company name", "Logo", "Color palette", "Heading font", "Body font"]
-  logo_actions: ["Upload", "Remove"]
-  font_options: ["Sans-serif", "Serif", "Monospace"]
-  footer_actions: ["Discard changes", "Save changes"]
-  slack_section: "Slack Integration"
-  slack_row: "Configure notifications on slack"
 
 confirm_phrase: 'The day label exactly as the select writes it, for example "Monday". Case-sensitive; "Lock" stays disabled until it matches.'
 
@@ -180,20 +161,6 @@ procedures:
     on_fail: '"Lock" stays disabled while the typed text does not match the day label exactly. The match is case-sensitive. Return to step 4, or select "Cancel" to leave everything as it was.'
     reversible: false
     undo: 'None in-product. The tab has no unlock control; the user must contact Lifesight.'
-  - id: edit-the-brand-kit
-    goal: Set the company name, logo, colours and fonts held in this browser.
-    steps:
-      - 'On "Settings > Workspace", go to the "Brand kit" card.'
-      - 'In "Company name", enter the name you want.'
-      - 'Optional: on the "Logo" row, select "Upload" and choose a PNG, JPEG or SVG file.'
-      - 'On the "Color palette" row, select a swatch and pick a colour.'
-      - 'In "Heading font", select "Sans-serif", "Serif" or "Monospace".'
-      - 'In "Body font", select "Sans-serif", "Serif" or "Monospace".'
-    expect: 'Each row shows the new value immediately, and the footer "You have unsaved changes" appears at the bottom of the page.'
-    verify: 'The Brand kit rows carry the values entered after switching tabs and returning.'
-    on_fail: 'No validation exists. An empty company name is accepted, and a logo large enough to exceed the browser storage quota fails without a message.'
-    reversible: true
-    undo: 'Re-enter the previous values by hand. "Discard changes" resets to factory defaults, not to the previous values.'
   - id: save-or-discard-changes
     goal: Clear the unsaved-changes footer.
     steps:
