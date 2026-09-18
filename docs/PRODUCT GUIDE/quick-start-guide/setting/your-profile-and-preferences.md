@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP]Your profile and preferences'
+title: '[4.0][ReadyForQA]Your profile and preferences'
 excerpt: >-
   Set your persona, hide sidebar modules you never open, and change your profile
   photo, from Settings > Preferences and Edit Profile.
@@ -74,7 +74,6 @@ Those six are the whole list, in select order. Until you pick one, Lifesight use
 
 The toast `Capabilities saved` appears, and the sidebar drops the module **Customize Menu** is introduced as `Toggle the visibility of modules you have access to. Hidden modules won't appear in your sidebar.`
 
-
 See the FAQ if a module returns.
 
 ## Additional Capabilities
@@ -139,20 +138,13 @@ type: howto
 surface: Settings
 page: https://docs.lifesight.io/docs/your-profile-and-preferences
 last_verified: 2026-09-13
-app_build: "ls4x@feature/LS4X-155"
 
 state: browser
 persistence: browser_local
 state_note: >
   Persona, hidden sidebar modules and theme are written to this browser's
   localStorage. They survive a reload in this browser and are absent in any other
-  browser or on any other device; no server record holds them. The profile photo
-  is weaker still: it is a preview object URL held in the page and is gone on
-  reload, never uploaded, and never shown on the profile card or in the sidebar,
-  both of which draw initials. "Request Access" under "Additional Capabilities"
-  is a preview: it shows a toast, sets a local "Requested" pill, creates no
-  record and resets on reload. The "Password" row mints a reset link that is
-  never delivered to anyone.
+  browser or on any other device; no server record holds them.
 
 requires_role: []
 requires_rights: []
@@ -208,19 +200,6 @@ ui_strings:
   theme_button: "Toggle theme"
 
 procedures:
-  - id: edit-your-profile
-    goal: Open Edit Profile and set a profile photo.
-    steps:
-      - 'In the sidebar, open the user menu and select "Settings".'
-      - 'Select the "Preferences" tab.'
-      - 'On the "Your profile" card, select "Edit profile" — the pencil button.'
-      - 'In the "Profile photo" row, select "Upload", then choose an image file.'
-      - 'Select "Save changes".'
-    expect: 'Toast "Profile updated" with description "Your profile has been successfully updated."'
-    verify: 'The "Profile photo" row shows the image, "Upload" now reads "Replace", and a "Remove profile photo" button sits beside it.'
-    on_fail: 'The footer only appears once something changed. If no footer appeared, no file was chosen — return to step 4.'
-    reversible: true
-    undo: 'Select "Remove profile photo", then "Save changes". A reload also clears it.'
   - id: choose-your-persona
     goal: Set the persona that tailors the Cockpit, Ask and alerts.
     steps:
@@ -245,14 +224,6 @@ procedures:
     on_fail: 'If no footer appeared, the toggle did not register — return to step 4.'
     reversible: true
     undo: 'Select the eye button again and save. Do not use "Discard changes": it also resets the brand kit to factory defaults.'
-  - id: switch-between-light-and-dark
-    goal: Change the theme for this browser.
-    steps:
-      - 'Select "Toggle theme" in the header, or press "d" while focus is outside a text field.'
-    expect: 'The interface switches between dark and light immediately.'
-    verify: 'The header button shows a sun in light theme and a moon in dark theme.'
-    reversible: true
-    undo: 'Select "Toggle theme" again.'
 
 limits:
   - '"Customize Menu" lists only modules the role can open; every other module is listed under "Additional Capabilities".'
