@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP]Permission Matrix'
+title: '[4.0][ReadyForQA]Permission Matrix'
 excerpt: >-
   The generated grid of six Lifesight roles against 16 modules, 89 sub-modules
   and 23 action rights, plus one JSON block for validating requires_rights.
@@ -8,21 +8,6 @@ hidden: true
 metadata:
   robots: index
 ---
-This is the one place the Lifesight permissions grid is written down in full: six
-roles against 16 modules, 89 sub-modules and 23 action rights, as tables and as one
-machine-readable block. Every `requires_rights` key in an agent card resolves here.
-The model behind the grid is explained on
-[Roles: what each one opens, and what it can do](doc:roles-and-permissions); this
-page carries the grid and nothing else.
-
-<Callout icon="📘" theme="info">
-  ### Generated from the application source — edit the source, not this page
-
-  **Source:** `frontend/lib/role-defaults.ts` (`ROLE_SUB_MODULE_DEFAULTS`, the `F` / `R` / `N` grid), `frontend/lib/module-registry.ts` (`MODULE_REGISTRY`, labels and `isAction`) and `frontend/lib/access-rights.ts` (right codes).
-  **Build:** `ls4x@feature/LS4X-155-support-help-center`, commit `cc413fd9`, generated 13 September 2026.
-  **Rule:** a cell that disagrees with the source is a bug in this page. Change the source, regenerate, publish. Never correct a cell by hand.
-</Callout>
-
 ## How to read this matrix
 
 Three glyphs carry every cell in every table below.
@@ -755,13 +740,5 @@ list.
 
   <Card title="Create a custom role" href="doc:custom-roles" icon="fa-user-pen">
     The Read, Manage and Actions grid a Workspace Admin edits.
-  </Card>
-
-  <Card title="Use Lifesight docs with an AI agent" href="doc:for-agents" icon="fa-robot">
-    How to fetch a page, read an agent card, and apply these rules.
-  </Card>
-
-  <Card title="What's live in this build" href="doc:whats-live-in-this-build" icon="fa-clipboard-check">
-    What any of this actually saves, and for how long.
   </Card>
 </Cards>
