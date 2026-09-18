@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Invite, Change, and deactivate Teammates'
+title: '[4.0][ReadyForQA] Invite, Change, and deactivate Teammates'
 excerpt: >-
   Invite people to your workspace from Team > Manage Team, change the role a
   member holds, and deactivate, re-invite or revoke access.
@@ -10,9 +10,7 @@ metadata:
 ---
 <Columns layout="fixed">
   <Column>
-    Invite someone into your workspace, change a member's role, or remove their
-    access. Everything here happens on **Team > Manage Team**, reached from the user
-    menu at the bottom of the sidebar.
+    Invite someone into your workspace, change a member's role, or remove their access. Everything here happens on **Team > Manage Team**, reached from the user menu at the bottom of the sidebar.
   </Column>
 </Columns>
 
@@ -23,16 +21,14 @@ metadata:
 
   **Where:** Sidebar user menu > **Team** > **Manage Team**
 
-  **In this build:** Preview — the member list lives in this browser's memory, resets on a full page reload, and sends no invitation email. See [What's live in this build](doc:whats-live-in-this-build).
-
   **Time:** About 2 minutes per person.
 </Callout>
 
 ## Before you start
 
-- ☐ You are signed in as a Workspace Admin.
-- ☐ **Team > Manage Team** is open.
-- ☐ You know which role the person needs.
+- You are signed in as a Workspace Admin.
+- **Team > Manage Team** is open.
+- You know which role the person needs.
 
 ## Invite a teammate
 
@@ -44,7 +40,7 @@ metadata:
 
 1. In the sidebar, open the user menu and select **Team**.
 2. **Manage Team** opens by default; select the tab if you are on another one.
-3. Select **Invite User**.
+3. Select **Invite User**, CTA button present on top-right corner of the page.
 4. In **Name**, enter the person's full name.
 5. In **Email**, enter their work email address.
 6. In **Role**, select a role. The default is **Marketing Scientist**.
@@ -52,30 +48,16 @@ metadata:
 8. Optional: in **Personal message (optional)**, enter up to 500 characters.
 9. Select **Invite User**.
 
-The button reads **Inviting...** while it works. If the dialog stays open, a
-field failed validation — fix the field named in red and return to step 9.
+The button reads **Inviting...** while it works. If the dialog stays open, a field failed validation — fix the field named in red and return to step 9.
 
 You're done when:
 
-- ☐ The toast `User invited` has appeared.
-- ☐ The **Inactive** toggle shows a **Pending** row carrying the email address you entered.
-- ☐ That row's **Invited** date is today.
+- The toast `User invited` has appeared.
+- The **Inactive** toggle shows a **Pending** row carrying the email address you entered.
+- That row's **Invited** date is today.
 
-The **Role** list offers Workspace Admin, Data Practitioner, Marketing Scientist,
-Strategic Planner and Executive, then any custom role in this browser session,
-then **+ Create Custom Role**. Viewer is not offered here; use **Change role**
-afterwards. Selecting **+ Create Custom Role** shows the link **Configure custom
-role permissions**, which opens **Manage Roles**. Submitting while it is selected
-shows the error toast
-`Please create a custom role in Manage Roles before inviting the user`, so build
+The **Role** list offers Workspace Admin, Data Practitioner, Marketing Scientist, Strategic Planner and Executive, then any custom role in this browser session, then **+ Create Custom Role**. Selecting **+ Create Custom Role** shows the link **Configure custom role permissions**, which opens **Manage Roles**. Submitting while it is selected shows the error toast<br />`Please create a custom role in Manage Roles before inviting the user`, so build
 the role first on [Create a custom role](doc:custom-roles).
-
-**Personal message (optional)** counts characters as you type, shown as `<n>/500`
-beside the label, and stops at the cap. It is never displayed again anywhere.
-
-
-<Image src="_assets/SHOT-07-team-invite-dialog.png" alt="The Invite User dialog with the Role list open and Marketing Scientist selected" caption="Role decides what the person can open. Viewer is not offered here — use Change role afterwards." framed={true} />
-
 
 ## Change someone's role
 
@@ -90,20 +72,9 @@ beside the label, and stops at the cap. It is never displayed again anywhere.
 3. Select the new role. The list marks the role they hold now `(current)`.
 4. Select **Apply**.
 
-You should see the toast `<Name>'s role updated to <roleValue>` and the new role
-on that member's row. **Apply** stays disabled until you pick a role different
-from the current one.
+You should see the toast `<Name>'s role updated to <roleValue>` and the new role on that member's row. **Apply** stays disabled until you pick a role different from the current one.
 
-This list does offer **Viewer**, alongside the other five preset roles and any
-custom roles in this browser session. **New Role** closes the dialog and switches
-to the **Manage Roles** tab, carrying nothing with it.
-
-Changing a role here does not change what that person can open: a signed-in
-session keeps the role it was given at sign-in.
-
-
-<Image src="_assets/SHOT-08-team-row-menu.png" alt="The Manage Team table with a row menu open, showing Change role and Deactivate" caption="The row menu changes with the row's state: Active offers Change role and Deactivate, Pending offers Revoke invitation, Expired offers Re-invite." framed={true} />
-
+Changing a role here does not change what that person can open: a signed-in session keeps the role it was given at sign-in.
 
 ## Deactivate a member
 
@@ -118,8 +89,7 @@ session keeps the role it was given at sign-in.
 3. Read the dialog: `Are you sure you want to deactivate <Name>? They will immediately lose access to the workspace.`
 4. Select **Deactivate**.
 
-You should see the toast `User status updated` and the row leaves the **Active**
-list. The person does not reappear under **Inactive > Deactivated**.
+You should see the toast `User status updated` and the row leaves the **Active&#x20;**&#x6C;ist. The person does not reappear under **Inactive > Deactivated**.
 
 <Callout icon="❗️" theme="error">
   ### There is no undo
@@ -141,15 +111,7 @@ list. The person does not reappear under **Inactive > Deactivated**.
 4. If **Role** or **Persona** is blank, select a value in each.
 5. Select **Send Invite**.
 
-The button reads **Sending...** while it works. You should see the toast
-`User re-invited` and a new row under **Inactive > Pending**. The **Expired** row
-stays: re-inviting adds a row rather than replacing one, so the same person is
-listed twice.
-
-Step 4 exists because the dialog prefills stored values: a stored persona such as
-`Operations` matches none of the six options, so **Persona** looks empty.
-**Role** looks empty the same way when a row's stored role is an internal value
-the list does not offer.
+The button reads **Sending...** while it works. You should see the toast `User re-invited` and a new row under **Inactive > Pending**. The **Expired** row stays: re-inviting adds a row rather than replacing one, so the same person is listed twice.
 
 ## Revoke a pending invitation
 
@@ -164,9 +126,7 @@ the list does not offer.
 3. Select **Revoke invitation**.
 4. Select **Revoke**.
 
-You should see the toast `Invitation to <Name> revoked` and the row disappears
-from **Pending**. The dialog warns the invite link will stop working; none is
-generated in this build, so only the row goes.
+You should see the toast `Invitation to <Name> revoked` and the row disappears from **Pending**. The dialog warns the invite link will stop working; none is generated in this build, so only the row goes.
 
 ## Reference
 
@@ -179,31 +139,7 @@ The **Team Members** toggle and section labels show each person's state.
 | Expired     | **Inactive > Expired**, date column **Expired**         | Seeded state only; nothing moves an invitation here | Workspace Admin: **Re-invite**                     |
 | Deactivated | **Inactive > Deactivated**, date column **Last active** | Non-active, neither invited nor expired             | Nobody; this section effectively never appears     |
 
-| Field                       | Required | Rules                                                  | Message if wrong                                                                                                                                                        |
-| --------------------------- | -------- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Name                        | Yes      | 2 characters or more                                   | `Name must be at least 2 characters`                                                                                                                                    |
-| Email                       | Yes      | A valid address. The same address can be invited twice | `Invalid email address`                                                                                                                                                 |
-| Role                        | Yes      | Default **Marketing Scientist**. Viewer is not offered | None on the field. Submitting with **+ Create Custom Role** still selected shows the error toast `Please create a custom role in Manage Roles before inviting the user` |
-| Persona                     | Yes      | Default **Generalist**. Six options; grants no access  | None                                                                                                                                                                    |
-| Personal message (optional) | No       | 500 characters, counted live and cut at the cap        | None                                                                                                                                                                    |
-
-| Control                                                   | Right                   | What a denied admin sees                                                                                       |
-| --------------------------------------------------------- | ----------------------- | -------------------------------------------------------------------------------------------------------------- |
-| **Invite User**, **Send Invite**                          | `team.add_users`        | Dimmed to 50% with the tooltip `Your role (<Role>) cannot add users. Ask a workspace admin for access.`        |
-| **Apply**, in the **Change role** dialog                  | `team.edit_permissions` | Dimmed to 50% with the tooltip `Your role (<Role>) cannot edit permissions. Ask a workspace admin for access.` |
-| **Change role**, in the row menu                          | `team.edit_permissions` | Greyed out, with no tooltip                                                                                    |
-| **New Role**, in the **Change role** dialog               | `team.create_new_role`  | Dimmed to 50% with the tooltip `Your role (<Role>) cannot create new role. Ask a workspace admin for access.`  |
-| The confirm **Deactivate** and **Revoke** buttons         | `team.deactivate_user`  | Dimmed to 50% with the tooltip `Your role (<Role>) cannot deactivate user. Ask a workspace admin for access.`  |
-| **Deactivate** and **Revoke invitation**, in the row menu | `team.deactivate_user`  | Greyed out, with no tooltip                                                                                    |
-
-The full grid of role by module by right is on
-[Permissions matrix](doc:permissions-matrix-reference).
-
-<Callout icon="🚧" theme="warn">
-  ### What this build does not do
-
-  The member list and every change to it live in this browser's memory, so a full page reload restores the seeded list. No invitation email or invite link is sent, and the personal message is never shown to anyone. Each section shows at most 10 rows, with no pagination, search or sort. Changing a member's role does not change what that person can open. See [What's live in this build](doc:whats-live-in-this-build).
-</Callout>
+The full grid of role by module by right is on [Permissions matrix](doc:permissions-matrix-reference).
 
 ## FAQ
 
@@ -262,10 +198,6 @@ here, so it hides nobody.
 
   <Card title="Access requests" href="doc:access-requests" icon="fa-key">
     The other way people get a module.
-  </Card>
-
-  <Card title="What's live in this build" href="doc:whats-live-in-this-build" icon="fa-circle-half-stroke">
-    What saves, what stays in this browser, what only previews.
   </Card>
 </Cards>
 
