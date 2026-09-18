@@ -72,37 +72,12 @@ Approving also records a permission grant on the server, readable by any admin u
 
 If the toast reads `Failed to approve request`, the approval did not go through — usually the request was already reviewed elsewhere, but also if the server is unreachable. Return to step 2 and re-read the list. `Failed to reject request` works the same way.
 
-## Reference
-
-| Stage                       | Where it shows                                            | What it means                                                      | Who acts next                                     |
-| --------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------- |
-| Access Restricted           | The module page                                           | Your role has no readable part of this module                      | You, with **Request Access**                      |
-| Request Access              | The dialog `Request access to {Module}`                   | The right and reason are not sent yet                              | You, with **Send request**                        |
-| Pending                     | **Team > Access Requests > PENDING**                      | On the server, counted in the amber tab badge                      | A Workspace Admin, with **Approve** or **Reject** |
-| Approve                     | The dialog `Approve access request?`                      | The grant is confirmed, not yet applied                            | A Workspace Admin, with **Approve**               |
-| Reject                      | The **REVIEWED** card                                     | Declined. No permission changed                                    | Nobody                                            |
-| Generated role              | **Manage Team**, and **Manage Roles** in that browser tab | The requester's member record now sits on `{Base role} + {Module}` | Nobody                                            |
-| Requester session unchanged | The requester's **Access Restricted** page                | An approval does not alter a signed-in session                     | Nobody                                            |
-
 | Option        | Tag      | What it asks for                                       |
 | ------------- | -------- | ------------------------------------------------------ |
 | Read access   | `READ`   | `View {Module} — browse data, dashboards, and reports` |
 | Manage access | `MANAGE` | `Edit and configure {Module} — includes read access`   |
 
 A third tag, `ACTION`, exists on request cards for individual buttons, but the dialog never offers one — only these two are requestable.
-
-Which modules send you to **Access Restricted**, by role:
-
-| Role                | Modules that show Access Restricted |
-| ------------------- | ----------------------------------- |
-| Workspace Admin     | None                                |
-| Data Practitioner   | Config                              |
-| Marketing Scientist | Config                              |
-| Strategic Planner   | Profiles, Data, Config              |
-| Executive           | Profiles, Segments, Data, Config    |
-| Viewer              | None                                |
-
-**Settings**, **Team** and **Support** (`/help-center`) are open to every role, so they never show this page. A few surfaces outside the module list — **Generate Report** in the command palette, for example — also show **Access Restricted**, but their **Request Access** dialog offers no options, so no request can be sent. The full grid of role by module by right is on [Permissions matrix](doc:permissions-matrix-reference).
 
 ## FAQ
 
