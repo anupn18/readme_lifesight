@@ -121,20 +121,12 @@ link is generated and goes nowhere, and your current password keeps working. See
 ## Related
 
 <Cards columns="2">
-  <Card title="Workspace settings and brand kit" href="doc:workspace-settings" icon="fa-sliders">
+  <Card title="Workspace settings" href="doc:workspace-settings" icon="fa-sliders">
     The settings that apply to the whole workspace, not only you.
-  </Card>
-
-  <Card title="Notifications: read them, then tune them" href="doc:notifications" icon="fa-bell">
-    The bell, the log, and what you are emailed.
   </Card>
 
   <Card title="Ask for access, and review requests" href="doc:access-requests" icon="fa-key">
     The request that actually reaches an admin.
-  </Card>
-
-  <Card title="What's live in this build" href="doc:whats-live-in-this-build" icon="fa-circle-half-stroke">
-    What saves, what stays in this browser, what only previews.
   </Card>
 </Cards>
 
