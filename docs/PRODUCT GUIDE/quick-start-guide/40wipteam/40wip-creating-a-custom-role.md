@@ -95,36 +95,7 @@ The full role-by-module-by-right matrix is on [Permissions matrix](doc:permissio
 
 ### Should I create a custom role or move the person onto a preset?
 
-Move the person onto a preset when one of the five covers their needs — one step on
-**Manage Team**. Create a custom role for a combination no preset holds. Neither
-persists in this build: a role change is lost on a full page reload, a custom role when
-the tab closes.
-
-### Why can't I edit or delete my custom role?
-
-Editing and deleting are blocked while active members hold the role. It shows a
-**Locked** badge, the banner names how many members are assigned, and the pencil and
-trash do not appear on hover. Move those members onto another role on **Manage Team**,
-then hover the role again.
-
-### Where did my custom role go?
-
-A custom role is stored in the browser tab you created it in. Closing that tab, opening
-the workspace in a second tab, or signing in on another machine leaves you without it,
-and no colleague ever sees it.
-
-### I ticked an action right, so why is the button still dimmed?
-
-An action right is only ever allowed when the same module also has **Read**. In this
-build neither tick changes anything for anyone — a custom role's rights are never
-applied at sign-in, so the buttons a person sees come from the preset role their
-sign-in carries.
-
-### Why is Viewer missing from Preset Roles?
-
-Viewer is not listed under **Preset Roles**, and it is not offered in **Invite User**
-either. It is offered in the **Change role** dialog on **Manage Team**, so assign it
-there after the person is in the workspace.
+Move the person onto a preset when one of the five covers their needs — one step on **Manage Team**. Create a custom role for a combination no preset holds.
 
 ## Related
 
