@@ -14,10 +14,7 @@ An access request asks for one module your role does not open; a Workspace Admin
   ### Who can do this
 
   **Role:** Everyone can raise a request.
-  **Approve or reject:** Workspace Admin only (`team.edit_permissions`). Every other role sees the full list with **Approve** and **Reject** dimmed and the tooltip `Your role (<Role>) cannot edit permissions. Ask a workspace admin for access.`
-  **Where:** **Access Restricted** to ask; sidebar user menu > **Team** > **Access Requests** to review.
-  **In this build:** Preview — the module does not actually open, and the requester is not told the outcome. See **What this build does not do** below.
-  **Time:** About a minute on each side.
+  **Approve or reject:** Workspace Admin only (`team.edit_permissions`). Every other role sees the full list with **Approve** and **Reject** dimmed and the tooltip `Your role (<Role>) cannot edit permissions. Ask a workspace admin for access.`<br />**Time:** About a minute on each side.
 </Callout>
 
 ## How a request travels
@@ -30,7 +27,7 @@ A denied module opens **Access Restricted**, where **Request Access** creates a 
   </Tab>
 
   <Tab title="If you're a Workspace Admin">
-    Requests land on **Team > Access Requests**, whose tab label carries an amber badge with the number waiting. The list re-reads the server every 15 seconds and whenever the window regains focus.
+    Requests land on **Team > Access Requests**, whose tab label carries an amber badge.
   </Tab>
 </Tabs>
 
@@ -48,18 +45,12 @@ A denied module opens **Access Restricted**, where **Request Access** creates a 
 
 **Send request** stays disabled until you select a card and reads **Sending…** while it works. On success the toast `Access request sent to your admin` appears, the dialog closes, and your name shows under **PENDING** on **Team > Access Requests**. If it reads `Failed to send request. Please try again.`, return to step 5.
 
-**Access Restricted** names the module by its URL segment, so `/config` reads `You don't have permission to view the config module based on your current role (<Role>).` The role is spaced here — `Data Practitioner` — but the **Approve** and **Reject** tooltip on **Team > Access Requests** prints it unspaced, as `DataPractitioner`. The dialog uses the proper label, as in `Request access to Config`. Nothing marks the module as requested, and duplicate requests are allowed.
-
-Sending also raises the notification `Access request from <Name>` in the Notification Center under the **Access** category, linking to **Team > Access Requests**. Everyone in the workspace sees it, including you. The Notification Center reads its list on app load, so an admin who already had Lifesight open sees it only after a reload. See [Notifications](doc:notifications).
-
-
-<Image src="_assets/SHOT-10-access-restricted-request-dialog.png" alt="The Access Restricted page behind the Request access to Config dialog, with the Read access and Manage access cards and the optional reason field" caption="Read access and Manage access are the only options; individual buttons cannot be requested here." framed={true} />
-
+Sending also raises the notification `Access request from <Name>` in the Notification pannel under the **Access** category, linking to **Team > Access Requests**.
 
 ## Review a request
 
 <Callout icon="📘" theme="info">
-  ### **Role:** Workspace Admin (`team.edit_permissions`)
+  ### **Role:** Workspace Admin&#x20;
 </Callout>
 
 1. In the sidebar, open the user menu and select **Team**.
@@ -72,34 +63,14 @@ Sending also raises the notification `Access request from <Name>` in the Notific
 To decline instead, select **Reject** at step 4 — no confirmation dialog; the card
 moves to **REVIEWED** at once.
 
-An approval shows the toast `Access granted to <Name>` — with the description
-`Created role “<Role>”.` or `Assigned existing role “<Role>”.` when a
-**Manage Team** record matched — and the card moves to **REVIEWED**
-reading `Approved by WorkspaceAdmin`. A rejection shows `Request rejected` and the
-card reads `Rejected by WorkspaceAdmin`. Every review is recorded as
+An approval shows the toast `Access granted to <Name>` — with the description `Created role “<Role>”.` or `Assigned existing role “<Role>”.` when a **Manage Team** record matched — and the card moves to **REVIEWED&#x20;**&#x72;eading `Approved by WorkspaceAdmin`. A rejection shows `Request rejected` and thecard reads `Rejected by WorkspaceAdmin`. Every review is recorded as
 `WorkspaceAdmin`, whoever performed it.
 
-Approving builds a custom role named `{Base role} + {Module}` — Executive plus Data becomes `Executive + Data` — that keeps everything the current role allows and adds the module; the member record on **Manage Team** moves onto it. A second approval extends the name, as in `Executive + Data + Config`. When the requester matches no **Manage Team** record, no role is generated, no member record changes, and the toast carries no description. The role lives in the browser tab you approved from.
+Approving needs building a custom role named `{Base role} + {Module}` — Executive plus Data becomes `Executive + Data` — that keeps everything the current role allows and adds the module; the member record on **Manage Team** moves onto it. A second approval extends the name, as in `Executive + Data + Config`. When the requester matches no **Manage Team** record, no role is generated, no member record changes, and the toast carries no description. The role lives in the browser tab you approved from.
 
 Approving also records a permission grant on the server, readable by any admin under **Team > Manage Team > Edit Permissions** from any browser.
 
 If the toast reads `Failed to approve request`, the approval did not go through — usually the request was already reviewed elsewhere, but also if the server is unreachable. Return to step 2 and re-read the list. `Failed to reject request` works the same way.
-
-
-<Image src="_assets/SHOT-11-access-requests-pending.png" alt="The Access Requests tab with an amber badge on the tab label and one card under PENDING showing Approve and Reject" caption="The badge counts pending requests, refreshed on page load and after an approval, not after a rejection." framed={true} />
-
-
-## Three things called "Request Access"
-
-Three controls carry this name; only the first reaches an admin.
-
-| Where you selected it                                                      | What it opens                                                                                                        | What it does                                                                                                                                    |
-| -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Request Access** on **Access Restricted**                                | `Request access to {Module}` with **Read access** / **Manage access** and **Send request**                           | Stores the request, raises the bell notification, lists it under **Team > Access Requests**; approving records a permission grant on the server |
-| **Request Access** in **Settings > Preferences > Additional Capabilities** | `Request Access: {Module}` with **Read-only** / **Manage / Edit**, a **Special Actions** list and **Submit Request** | Shows the toast `Access requested for {Module}: Read`, turns the row into a **Requested** chip. No request reaches **Team > Access Requests**   |
-| **Access request** in the **Type** list of the Support composer            | The Support issue composer, with the hint `Roles, invites, permissions`                                              | Files a Support issue for the support team — not a permission change                                                                            |
-
-The **Requested** chip in **Settings** is per-browser and reverts to **Request Access** on reload. To reach an admin, use **Access Restricted**.
 
 ## Reference
 
