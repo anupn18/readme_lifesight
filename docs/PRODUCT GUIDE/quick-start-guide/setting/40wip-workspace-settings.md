@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Workspace Settings'
+title: '[4.0][ReadyForQA] Workspace Settings'
 excerpt: >-
   Settings > Workspace carries the workspace reporting defaults and the one-time
   week start lock.
