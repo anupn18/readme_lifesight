@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Ask for access, and review requests'
+title: '[4.0][ReadyForQA] Ask for access, and review requests'
 excerpt: >-
   Ask for Read or Manage access from the Access Restricted page, then approve or
   reject the request on Team > Access Requests.
@@ -23,18 +23,6 @@ An access request asks for one module your role does not open; a Workspace Admin
 ## How a request travels
 
 A denied module opens **Access Restricted**, where **Request Access** creates a pending request that a Workspace Admin approves or rejects.
-
-```mermaid
-flowchart LR
-  AR[Access Restricted] --> RQ[Request Access]
-  RQ --> PE[Pending]
-  PE --> AP[Approve]
-  PE --> RE[Reject]
-  AP --> GR[Generated role]
-  RE --> RV[Reviewed]
-  GR --> RV
-  GR --> NC[Requester session unchanged]
-```
 
 <Tabs>
   <Tab title="If you hit Access Restricted">
