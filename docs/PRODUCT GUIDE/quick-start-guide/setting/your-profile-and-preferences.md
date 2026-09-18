@@ -1,8 +1,8 @@
 ---
 title: '[4.0][WIP]Your profile and preferences'
 excerpt: >-
-  Set your persona, hide sidebar modules you never open, change your profile
-  photo and switch themes, from Settings > Preferences and Edit Profile.
+  Set your persona, hide sidebar modules you never open, and change your profile
+  photo, from Settings > Preferences and Edit Profile.
 deprecated: false
 hidden: true
 metadata:
@@ -15,52 +15,32 @@ else sees them. Set them on the **Preferences** tab of **Settings** and the
 <Callout icon="📘" theme="info">
   ### Who can do this
 
-  **Role:** Everyone — no control on **Preferences** or **Edit Profile** is role-gated, even for a Viewer.
+  **Role:** Everyone — no control on **Preferences** or **Edit Profile** is role-gated
   **Where:** Sidebar user menu > **Settings** > **Preferences**
-  **In this build:** Persona, hidden modules and theme save in this browser only; the profile photo is not saved. See [What's live in this build](doc:whats-live-in-this-build).
   **Time:** About 2 minutes.
 </Callout>
 
 ## Before you start
 
-- ☐ You are signed in to Lifesight.
-- ☐ You are in the browser these preferences should apply to.
+- You are signed in to Lifesight.
 
 ## Edit your profile
 
 1. In the sidebar, open the user menu and select **Settings**.
 2. Select the **Preferences** tab.
 3. On the **Your profile** card, select **Edit profile** — the pencil button.
-4. In the **Profile photo** row, select **Upload**, then choose an image file.
-5. Select **Save changes**.
+4. Select **Save changes**.
 
-The toast `Profile updated` appears. If no footer appeared after step 4, no file
-was chosen — return to step 4.
+The toast `Profile updated` appears.
 
 **Edit Profile** is headed `Update your profile photo, persona, and password.`
 **Back to Settings** returns you to the **Preferences** tab.
-
-After you choose a photo, **Upload** reads **Replace** and a
-**Remove profile photo** trash button appears. The picture is a preview in this
-browser tab: never uploaded, gone on reload, with the **Your profile** card and
-sidebar still showing your initials.
-
-The **Your profile** card reads `Loading profile…` while fetching and
-`Profile not found.` if nothing resolves. It shows a name, email, persona label
-and a role pill — **Workspace Admin**, **Data Practitioner**, **Marketing
-Scientist**, **Strategic Planner** or **Executive**. Viewer has no pill: a Viewer
-record normalizes to Executive's pill, though no demo record carries the Viewer
-role, so this never arises. The card reads from a demo directory whose addresses
-never match sign-in addresses, so it usually shows a demo user, not your account.
 
 The **Password** row offers **Reset password**, promising
 `We'll email a reset link to <email>. It expires in 1 hour.` It opens a
 confirmation dialog, `Send a password reset link?`; **Send reset link** sends it.
 The row then reports `Reset link sent` and the button reads **Send again** — but
 nothing is delivered; the server only writes the link to its own console.
-
-`g s` opens **Settings** from anywhere outside a text field. See
-[Command palette and keyboard shortcuts](doc:command-palette-and-shortcuts).
 
 ## Choose your persona
 
@@ -71,11 +51,7 @@ nothing is delivered; the server only writes the link to its own console.
 The toast `Profile updated` appears, and the label under your name in the sidebar
 user menu changes to it.
 
-The row reads `Tailors your Cockpit, Ask answers, and alerts to how you work.`,
-and the info icon says `Persona personalizes your experience across the platform`.
-Persona is not access control — it changes what those put first, not which
-modules you can open. Role decides that — see
-[Roles: what each one opens, and what it can do](doc:roles-and-permissions).
+`Persona personalizes your experience across the platform`. Persona is not access control — it changes what those put first, not which modules you can open. Role decides that — see [Roles: what each one opens, and what it can do](doc:roles-and-permissions).
 
 | Persona             | The starting persona for |
 | ------------------- | ------------------------ |
@@ -86,9 +62,7 @@ modules you can open. Role decides that — see
 | Marketing Leader    | Executive                |
 | Generalist          | Workspace Admin, Viewer  |
 
-Those six are the whole list, in select order. Until you pick one, Lifesight uses
-your role's starting persona. Your choice is stored against your email in this
-browser: it holds across sign-ins here, absent in any other.
+Those six are the whole list, in select order. Until you pick one, Lifesight uses your role's starting persona.
 
 ## Hide modules you don't use
 
@@ -98,78 +72,16 @@ browser: it holds across sign-ins here, absent in any other.
 4. In the **Action** column, select the eye button on that row.
 5. Select **Save changes** in the footer.
 
-The toast `Capabilities saved` appears, and the sidebar drops the module within
-about 1 second. If no footer appeared after step 4, the toggle did not register —
-return to step 4.
+The toast `Capabilities saved` appears, and the sidebar drops the module **Customize Menu** is introduced as `Toggle the visibility of modules you have access to. Hidden modules won't appear in your sidebar.`
 
-You're done when:
-
-- ☐ The toast `Capabilities saved` has appeared.
-- ☐ The row's eye button shows the crossed-out eye.
-- ☐ The module is gone from the sidebar, or from the **Hub** dropdown if it is a System module.
-
-**Customize Menu** is introduced as
-`Toggle the visibility of modules you have access to. Hidden modules won't appear in your sidebar.`
-It lists one row per module your role can open, with columns **Capability**,
-**Description** and **Action**, and reads `No customizable modules.` when empty.
-Data, Profiles, Segments, Config and Agents live in the **Hub** dropdown; hiding
-one removes it from there. See [Find your way around Lifesight](doc:find-your-way-around).
-If you are a Viewer, the split between this table and **Additional Capabilities**
-is wrong in this build — see the caveat there.
 
 See the FAQ if a module returns.
-
-<Callout icon="❗️" theme="error">
-  ### Discard changes resets the brand kit
-
-  **Discard changes** in this footer also resets the brand kit to factory defaults, not the last-saved values. With a brand kit, undo a menu change by toggling the eye back and saving; edit the kit on [Workspace settings and brand kit](doc:workspace-settings).
-</Callout>
-
-Two independent footers both read `You have unsaved changes`. The toast names
-which you used: `Capabilities saved` for menu changes, `Settings saved`
-for notification preferences. When both are pending they stack. Neither footer is
-tab-scoped: a change left pending on **Preferences** stays on screen after you
-switch to **Workspace**.
-
-
-<Image src="_assets/SHOT-13-preferences-customize-menu.png" alt="Settings Preferences tab showing the Customize Menu table with one module hidden and the Additional Capabilities table below it" caption="Customize Menu lists what you can open and choose not to see. Additional Capabilities lists the modules it offers a Request Access button for." framed={true} />
-
 
 ## Additional Capabilities
 
 Below **Customize Menu**, a second table headed
-`Modules not included in your current role. Request access to enable them.` gives
-each module your role cannot open a **Request Access** button; a Workspace Admin
-never sees this table. The button opens the dialog `Request Access: <Module>`,
-offering **Read-only** and **Manage / Edit**. For modules with special actions, a
-**Special Actions** checklist appears below — dimmed under **Read-only**, tickable
-under **Manage / Edit** — and ticked actions are appended to the toast.
-**Submit Request** shows a toast such as `Access requested for <Module>: Read` and
-leaves the row reading **Requested**. But no request is recorded, no admin is
-notified, and the row reverts on reload. To reach an admin, open the module from
-the sidebar and use **Request Access** on the **Access Restricted** screen — see
-[Ask for access, and review requests](doc:access-requests).
-
-If you are a Viewer, this table is wrong in this build — it lists the modules an
-Executive cannot open. A Viewer can open every module from the sidebar, yet those
-modules are missing from **Customize Menu**, so cannot be hidden.
-
-## Switch between light and dark
-
-- Select **Toggle theme** in the header, or press `d` while focus is outside a text field.
-
-Lifesight is dark until you change it. The header button and `d` always set an
-explicit light or dark; your operating system's setting is not used. No theme
-control sits on the **Settings** page; the header button sits between **Ask** and
-the notification bell, and appears again on the sign-in screen. It reads the
-stored theme, so from the dark default the first click lands on light, while `d`
-flips the theme you can actually see.
-
-<Callout icon="🚧" theme="warn">
-  ### What this build does not do
-
-  Saved in this browser only, never to another device, browser, or colleague: persona, hidden modules and theme. The profile photo is never uploaded and is lost on reload; the **Your profile** card shows a demo user, not your account. **Request Access** under **Additional Capabilities** shows a toast but creates no request. The **Password** row's reset link is never delivered. See [What's live in this build](doc:whats-live-in-this-build).
-</Callout>
+`Modules not included in your current role. Request access to enable them.` gives each module your role cannot open a **Request Access** button; a Workspace Admin never sees this table. The button opens the dialog `Request Access: <Module>`, offering **Read-only** and **Manage / Edit**. For modules with special actions, a **Special Actions** checklist appears below — dimmed under **Read-only**, tickable under **Manage / Edit** — and ticked actions are appended to the toast.<br />
+**Submit Request** shows a toast such as `Access requested for <Module>: Read` and leaves the row reading **Requested**.&#x20;
 
 ## FAQ
 
