@@ -8,4 +8,3 @@ hidden: true
 metadata:
   robots: index
 ---
-/
