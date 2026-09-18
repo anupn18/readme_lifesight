@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP]Settings'
+title: '[4.0][ReadyForQA]Settings'
 deprecated: false
 hidden: true
 metadata:
