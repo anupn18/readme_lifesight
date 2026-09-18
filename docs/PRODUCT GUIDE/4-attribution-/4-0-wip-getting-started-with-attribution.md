@@ -1,16 +1,19 @@
 ---
-title: '[4.0][WIP] Getting Started With Causal Attribution'
+title: '[4.0][Updated] Getting Started With Causal Attribution'
 excerpt: Go From Connected Data to Confident Budget Decisions
 deprecated: false
 hidden: true
 metadata:
+  title: Getting Started With Causal Attribution
+  keywords:
+    - Lifesight Attribution
   robots: noindex
 ---
 Before you can act on causal results, your workspace needs three things in place: connected advertising data, promoted measurement inputs, and an active scenario to measure against.
 
 The five steps below take you through each one in order, from connecting your platforms to opening Attribution and reviewing your first results. Work through them once, and your workspace is ready to show what is driving growth and whether spend is on track.
 
-## 1.Connect Your Platforms So Every Dollar of Spend Is Accounted For
+## 1. Connect Your Platforms So Every Dollar of Spend Is Accounted For
 
 Your results are only as complete as the data behind them. Go to Integrations and connect each advertising platform your workspace uses.
 
