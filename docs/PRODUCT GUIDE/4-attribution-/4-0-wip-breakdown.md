@@ -1,9 +1,31 @@
 ---
-title: '[4.0][WIP] Breakdown'
-excerpt: Lifesight 4.0 WIP guide for Breakdown.
+title: '[4.0][WIP]Breakdown: find exactly where performance is won or lost'
+excerpt: >-
+  Move from channels down to ad sets, compare planned spend with what actually
+  worked, and act on the specific line items driving your results.
 deprecated: false
 hidden: true
 metadata:
+  title: >-
+    Breakdown: Causal attribution across channels, tactics, campaigns, and ad
+    sets
+  description: >-
+    See incremental performance at every level of your marketing hierarchy.
+    Drill from channels into tactics, campaigns, and ad sets, compare actual
+    spend against plan, and act on scale, maintain, or reduce recommendations.
+  keywords:
+    - causal attribution breakdown
+    - incremental revenue by channel
+    - campaign level incrementality
+    - ad set performance
+    - iROAS by campaign
+    - marginal ROAS
+    - incrementality factor
+    - spend pacing by campaign
+    - scale maintain reduce recommendations
+    - weekly spend pacing
+    - tactic level attribution
+    - planned versus actual spend
   robots: noindex
 ---
 # Breakdown
