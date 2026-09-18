@@ -134,7 +134,6 @@ type: howto
 surface: Team
 page: https://docs.lifesight.io/docs/access-requests
 last_verified: 2026-09-13
-app_build: "ls4x@feature/LS4X-155"
 
 state: preview
 persistence: backend
