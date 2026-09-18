@@ -104,12 +104,6 @@ Which modules send you to **Access Restricted**, by role:
 
 **Settings**, **Team** and **Support** (`/help-center`) are open to every role, so they never show this page. A few surfaces outside the module list — **Generate Report** in the command palette, for example — also show **Access Restricted**, but their **Request Access** dialog offers no options, so no request can be sent. The full grid of role by module by right is on [Permissions matrix](doc:permissions-matrix-reference).
 
-<Callout icon="🚧" theme="warn">
-  ### What this build does not do
-
-  An approval does not open the module: a signed-in session keeps the role it was given at sign-in, and nothing re-reads the permission grant, so **Access Restricted** stays and nobody tells the requester the outcome. The member's new role on **Manage Team** is held in page memory, gone on reload. The generated role is written to that browser tab's session storage — surviving a reload, gone when the tab closes. The tab badge is not recalculated after a rejection until you leave and return. The request list is held in server memory, so it is empty after a server restart.
-</Callout>
-
 ## FAQ
 
 ### My request was approved — why do I still see Access Restricted?
