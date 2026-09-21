@@ -72,7 +72,9 @@ Open an artifact from the list to see the file itself, with a small toolbar abov
 
 Below the toolbar, you'll see the format, file size, and original filename, so it's always clear what you're looking at and what will download.
 
-> **Note:** Uploaded HTML pages run in a sandbox (a secure, isolated space). Scripts inside the page can't access your Lifesight session or anything else in the app. This is also why a page that depends on its original website for data may display without that data.
+<Callout icon="📘" theme="info">
+  **Note:** Uploaded HTML pages run in a sandbox (a secure, isolated space). Scripts inside the page can't access your Lifesight session or anything else in the app. This is also why a page that depends on its original website for data may display without that data.
+</Callout>
 
 ***
 
@@ -88,7 +90,9 @@ Open the **Share** menu on any artifact:
 
 A public link opens a clean, read-only view showing the artifact name and a **Shared · read-only** badge, with no editing and no app navigation around it.
 
-> **Important: where artifacts are stored today.** In this release, your artifact repository is stored in the browser where it was created. This means a share link only opens in that browser, and artifacts don't yet carry over between devices or teammates. When you need a file to open anywhere, use **Download** and send the file directly.
+<Callout icon="📘" theme="info">
+  **Important: where artifacts are stored today.** In this release, your artifact repository is stored in the browser where it was created. This means a share link only opens in that browser, and artifacts don't yet carry over between devices or teammates. When you need a file to open anywhere, use **Download** and send the file directly.
+</Callout>
 
 ***
 
@@ -121,7 +125,7 @@ An HTML file that loads its charts, fonts, or data from the website it originall
 
 ***
 
-## Frequently asked questions about Artifacts
+## Frequently asked questions about Artifacts<br />
 
 ### What are Artifacts in Lifesight?
 
