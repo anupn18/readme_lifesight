@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Create a Geo Experiment'
+title: Create a Geo Experiment
 excerpt: Get a causal answer on performance before you commit more budget
 deprecated: false
 hidden: true
