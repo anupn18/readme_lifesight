@@ -1,11 +1,17 @@
 ---
-title: Set Your Default Scenario
+title: Set your default scenario
 excerpt: >-
   Promote your strongest scenario so your team plans, paces, and deploys from
   the same approved plan.
 deprecated: false
 hidden: true
 metadata:
+  title: Set your default scenario
+  description: >-
+    Promote your strongest scenario so your team plans, paces, and deploys from
+    the same approved plan.
+  keywords:
+    - Lifesight default scenario
   robots: noindex
 ---
 Your default scenario is the plan your team works from. In Lifesight, the scenario you promote ⚡ to Decisions becomes the default scenario for your workspace.&#x20;
