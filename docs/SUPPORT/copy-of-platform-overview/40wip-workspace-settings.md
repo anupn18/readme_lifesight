@@ -6,6 +6,9 @@ excerpt: >-
 deprecated: false
 hidden: true
 metadata:
+  title: Setting up your Lifesight Workspace
+  keywords:
+    - Lifesight Workspace Settings
   robots: index
 ---
 Your workspace is where your data, models, and reporting live in Lifesight. Setting it up correctly on day one means every report, model, and weekly check that follows lines up with the calendar your team already works to.
