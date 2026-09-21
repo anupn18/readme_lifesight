@@ -144,16 +144,16 @@ All of this rests on a platform built to be privacy-safe, transparent, and relia
 - **Operational resilience:** data quality checks, anomaly detection, and rollback paths for plans and models.
 - **Bounded agents:** agents operate inside Data OS and your permissions, and every answer traces back to its source.
 
-Ready to put the loop to work? Here's how most teams begin.
+<br />
 
 ## Related Articles
 
 <Cards>
-  <Card title="Previous" icon="fa-rocket">
+  <Card title="Previous" icon="🤵">
     Who is Lifesight for
   </Card>
 
-  <Card title="Next" icon="fa-code">
+  <Card title="Next" icon="📖">
     Getting Started
   </Card>
 </Cards>
