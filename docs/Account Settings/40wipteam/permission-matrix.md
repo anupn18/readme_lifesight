@@ -173,110 +173,69 @@ Every Lifesight module appears here, one per row, so you can check what each rol
 
 ### Creative
 
-**Manage Roles** groups **Creative** under **Intelligence**. The module page is `creatives`, its module-level rights are `LS-CR-01` and `LS-CR-02`, and it carries no action rights.
+**Manage Roles** groups **Creative** under **Intelligence**. The module page is `creatives`and it carries no action rights.
 
-| Sub-module                                             | WA | DP | MS | SP | EX | VW |
-| ------------------------------------------------------ | -- | -- | -- | -- | -- | -- |
-| **Creative library** `creative.creative_library`       | ●  | ◐  | ●  | ◐  | ○  | ◐  |
-| **Performance scoring** `creative.performance_scoring` | ●  | ◐  | ●  | ◐  | ◐  | ◐  |
-| **Tag taxonomy** `creative.tag_taxonomy`               | ●  | ○  | ●  | ○  | ○  | ◐  |
-| **Brand safety rules** `creative.brand_safety`         | ●  | ○  | ○  | ○  | ○  | ◐  |
+| Sub-module              | WA | DP | MS | SP | EX | VW |
+| ----------------------- | -- | -- | -- | -- | -- | -- |
+| **Creative library**    | ●  | ◐  | ●  | ◐  | ○  | ◐  |
+| **Performance scoring** | ●  | ◐  | ●  | ◐  | ◐  | ◐  |
+| **Tag taxonomy**        | ●  | ○  | ●  | ○  | ○  | ◐  |
+| **Brand safety rules**  | ●  | ○  | ○  | ○  | ○  | ◐  |
 
 ### Models
 
 **Manage Roles** groups **Models** under **Causality**. The module page is `/models`, its module-level rights are `LS-MO-01` and `LS-MO-02`, and it carries 3 action rights.
 
-| Sub-module                                              | WA | DP | MS | SP | EX | VW |
-| ------------------------------------------------------- | -- | -- | -- | -- | -- | -- |
-| **Model registry** `models.model_registry`              | ●  | ●  | ◐  | ○  | ○  | ◐  |
-| **Model runs** `models.model_runs`                      | ●  | ●  | ◐  | ○  | ○  | ◐  |
-| **Budget allocations** `models.budget_allocations`      | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
-| **Scenario library** `models.scenario_library`          | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
-| **Diagnostics** `models.diagnostics`                    | ●  | ●  | ◐  | ○  | ○  | ◐  |
-| **Export results** `models.export_results`              | ●  | ◐  | ○  | ○  | ○  | ◐  |
-| **Create / Update** `models.create_update`              | ●  | ●  | ○  | ○  | ○  | ◐  |
-| **Merge model** `models.merge_model`                    | ●  | ○  | ○  | ○  | ○  | ◐  |
-| **Refresh model** `models.refresh_model`                | ●  | ○  | ○  | ○  | ○  | ◐  |
-| **Archive Model** `models.archive_model`                | ●  | ○  | ○  | ○  | ○  | ◐  |
-| **Request rollback** `models.request_rollback` · action | ●  | ●  | ○  | ○  | ○  | ○  |
-| **Re-train** `models.retrain_model` · action            | ●  | ○  | ●  | ○  | ○  | ○  |
-| **Refresh** `models.refresh` · action                   | ●  | ○  | ●  | ○  | ○  | ○  |
+| Sub-module                    | WA | DP | MS | SP | EX | VW |
+| ----------------------------- | -- | -- | -- | -- | -- | -- |
+| **Model registry**            | ●  | ●  | ◐  | ○  | ○  | ◐  |
+| **Model runs**                | ●  | ●  | ◐  | ○  | ○  | ◐  |
+| **Budget allocations**        | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
+| **Scenario library**          | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
+| **Diagnostics**               | ●  | ●  | ◐  | ○  | ○  | ◐  |
+| **Export results**            | ●  | ◐  | ○  | ○  | ○  | ◐  |
+| **Create / Update**           | ●  | ●  | ○  | ○  | ○  | ◐  |
+| **Merge model**               | ●  | ○  | ○  | ○  | ○  | ◐  |
+| **Refresh model**             | ●  | ○  | ○  | ○  | ○  | ◐  |
+| **Archive Model**             | ●  | ○  | ○  | ○  | ○  | ◐  |
+| **Request rollback** · action | ●  | ●  | ○  | ○  | ○  | ○  |
+| **Re-train** · action         | ●  | ○  | ●  | ○  | ○  | ○  |
+| **Refresh** · action          | ●  | ○  | ●  | ○  | ○  | ○  |
 
 ### Experiments
 
-**Manage Roles** groups **Experiments** under **Causality**. The module page is `/experiments`, its module-level rights are `LS-EX-01` and `LS-EX-02`, and it carries 1 action right.
+**Manage Roles** groups **Experiments** under **Causality**. The module page is `/experiments`, and it carries 1 action right.
 
-| Sub-module                                                       | WA | DP | MS | SP | EX | VW |
-| ---------------------------------------------------------------- | -- | -- | -- | -- | -- | -- |
-| **Experiment builder** `experiments.experiment_builder`          | ●  | ●  | ●  | ○  | ○  | ◐  |
-| **Test library** `experiments.test_library`                      | ●  | ●  | ●  | ○  | ○  | ◐  |
-| **Results dashboard** `experiments.results_dashboard`            | ●  | ●  | ●  | ◐  | ◐  | ◐  |
-| **Holdout groups** `experiments.holdout_groups`                  | ●  | ●  | ●  | ○  | ○  | ◐  |
-| **Promote experiment** `experiments.promote_experiment` · action | ●  | ●  | ●  | ○  | ○  | ○  |
+| Sub-module                      | WA | DP | MS | SP | EX | VW |
+| ------------------------------- | -- | -- | -- | -- | -- | -- |
+| **Experiment builder**          | ●  | ●  | ●  | ○  | ○  | ◐  |
+| **Test library**                | ●  | ●  | ●  | ○  | ○  | ◐  |
+| **Results dashboard**           | ●  | ●  | ●  | ◐  | ◐  | ◐  |
+| **Holdout groups**              | ●  | ●  | ●  | ○  | ○  | ◐  |
+| **Promote experiment** · action | ●  | ●  | ●  | ○  | ○  | ○  |
 
 Every role grid also carries the key `experiments.create_update_delete_experiment`, which the module registry does not define. No screen reads it as a right, and only its `read` value counts towards whether Experiments opens. It changes nothing today, because Experiments already opens for every role.
 
-### Agents
-
-**Manage Roles** groups **Agents** under **System**. The module page is `/agents`, its module-level rights are `LS-AG-01` and `LS-AG-02`, and it carries no action rights.
-
-| Sub-module                                       | WA | DP | MS | SP | EX | VW |
-| ------------------------------------------------ | -- | -- | -- | -- | -- | -- |
-| **Agent status** `agents.agent_status`           | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
-| **Findings & recommendations** `agents.findings` | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
-| **Execution logs** `agents.execution_logs`       | ●  | ◐  | ◐  | ○  | ○  | ◐  |
-| **Agent configuration** `agents.agent_config`    | ●  | ○  | ○  | ○  | ○  | ◐  |
-
-### Profiles
-
-**Manage Roles** groups **Profiles** under **System**. The module page is `/profiles`, its module-level rights are `LS-PR-01` and `LS-PR-02`, and it carries no action rights.
-
-| Sub-module                                         | WA | DP | MS | SP | EX | VW |
-| -------------------------------------------------- | -- | -- | -- | -- | -- | -- |
-| **Customer profiles** `profiles.customer_profiles` | ●  | ◐  | ◐  | ○  | ○  | ◐  |
-| **Profile exports** `profiles.profile_exports`     | ●  | ○  | ○  | ○  | ○  | ◐  |
-
-### Segments
-
-**Manage Roles** groups **Segments** under **System**. The module page is `/segments`, its module-level rights are `LS-SG-01` and `LS-SG-02`, and it carries no action rights.
-
-| Sub-module                                         | WA | DP | MS | SP | EX | VW |
-| -------------------------------------------------- | -- | -- | -- | -- | -- | -- |
-| **Audience segments** `segments.audience_segments` | ●  | ●  | ◐  | ◐  | ○  | ◐  |
-| **Segment builder** `segments.segment_builder`     | ●  | ●  | ○  | ○  | ○  | ◐  |
-| **Segment exports** `segments.segment_exports`     | ●  | ◐  | ○  | ○  | ○  | ◐  |
-
 ### Data
 
-**Manage Roles** groups **Data** under **System**. The module page is `/data`, its module-level rights are `LS-DA-01` and `LS-DA-02`, and it carries 4 action rights.
+**Manage Roles** groups **Data** under **System**. The module page is `/data` and it carries 4 action rights.
 
-| Sub-module                                                          | WA | DP | MS | SP | EX | VW |
-| ------------------------------------------------------------------- | -- | -- | -- | -- | -- | -- |
-| **Integrations** `data.integrations`                                | ●  | ●  | ○  | ○  | ○  | ◐  |
-| **Transformation rules** `data.transformation`                      | ●  | ●  | ○  | ○  | ○  | ◐  |
-| **Taxonomy management** `data.taxonomy`                             | ●  | ●  | ○  | ○  | ○  | ◐  |
-| **Pipeline config** `data.pipeline_config`                          | ●  | ◐  | ○  | ○  | ○  | ◐  |
-| **Schema editor** `data.schema_editor`                              | ●  | ◐  | ○  | ○  | ○  | ◐  |
-| **Data quality monitor** `data.dq_monitor`                          | ●  | ●  | ○  | ○  | ○  | ◐  |
-| **Connect Integration** `data.connect_integration` · action         | ●  | ●  | ●  | ○  | ○  | ○  |
-| **Delete Integration** `data.delete_integration` · action           | ●  | ●  | ○  | ○  | ○  | ○  |
-| **Edit / Delete Data Model** `data.edit_delete_data_model` · action | ●  | ●  | ○  | ○  | ○  | ○  |
-| **Add Tactic Mapping** `data.add_tactic_mapping` · action           | ●  | ●  | ●  | ○  | ○  | ○  |
-
-Marketing Scientist is ○ on all six non-action Data sub-modules and still opens Data, because `data.connect_integration` and `data.add_tactic_mapping` carry read. Both buttons work for that role.
-
-### Brain
-
-**Manage Roles** groups **Brain** under **System**. The module page is `/brain`, its module-level rights are `LS-BR-01` and `LS-BR-02`, and it carries no action rights.
-
-| Sub-module                                    | WA | DP | MS | SP | EX | VW |
-| --------------------------------------------- | -- | -- | -- | -- | -- | -- |
-| **Knowledge graph** `brain.knowledge_graph`   | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
-| **Node exploration** `brain.node_exploration` | ●  | ◐  | ◐  | ○  | ○  | ◐  |
+| Sub-module                            | WA | DP | MS | SP | EX | VW |
+| ------------------------------------- | -- | -- | -- | -- | -- | -- |
+| **Integrations**                      | ●  | ●  | ○  | ○  | ○  | ◐  |
+| **Transformation rules**              | ●  | ●  | ○  | ○  | ○  | ◐  |
+| **Taxonomy management**               | ●  | ●  | ○  | ○  | ○  | ◐  |
+| **Pipeline config**                   | ●  | ◐  | ○  | ○  | ○  | ◐  |
+| **Schema editor**                     | ●  | ◐  | ○  | ○  | ○  | ◐  |
+| **Data quality monitor**              | ●  | ●  | ○  | ○  | ○  | ◐  |
+| **Connect Integration** · action      | ●  | ●  | ●  | ○  | ○  | ○  |
+| **Delete Integration** · action       | ●  | ●  | ○  | ○  | ○  | ○  |
+| **Edit / Delete Data Model** · action | ●  | ●  | ○  | ○  | ○  | ○  |
+| **Add Tactic Mapping** · action       | ●  | ●  | ●  | ○  | ○  | ○  |
 
 ### Config
 
-**Manage Roles** groups **Config** under **System**. The module page is `/config`, its module-level rights are `LS-CF-01` and `LS-CF-02`, and it carries no action rights.
+**Manage Roles** groups **Config** under **System**. The module page is `/config` and it carries no action rights.
 
 | Sub-module                                              | WA | DP | MS | SP | EX | VW |
 | ------------------------------------------------------- | -- | -- | -- | -- | -- | -- |
@@ -287,42 +246,42 @@ Marketing Scientist is ○ on all six non-action Data sub-modules and still open
 
 ### Artifacts
 
-**Manage Roles** groups **Artifacts** under **Artifacts**. The module page is `/artifacts`, its module-level rights are `LS-AF-01` and `LS-AF-02`, and it carries no action rights.
+**Manage Roles** groups **Artifacts** under **Artifacts**. The module page is `/artifacts` and it carries no action rights.
 
-| Sub-module                                        | WA | DP | MS | SP | EX | VW |
-| ------------------------------------------------- | -- | -- | -- | -- | -- | -- |
-| **Artifact library** `artifacts.artifact_library` | ●  | ◐  | ◐  | ●  | ◐  | ◐  |
-| **Template builder** `artifacts.template_builder` | ●  | ○  | ◐  | ●  | ○  | ◐  |
-| **Publish settings** `artifacts.publish_settings` | ●  | ○  | ○  | ○  | ○  | ◐  |
+| Sub-module           | WA | DP | MS | SP | EX | VW |
+| -------------------- | -- | -- | -- | -- | -- | -- |
+| **Artifact library** | ●  | ◐  | ◐  | ●  | ◐  | ◐  |
+| **Template builder** | ●  | ○  | ◐  | ●  | ○  | ◐  |
+| **Publish settings** | ●  | ○  | ○  | ○  | ○  | ◐  |
 
 ### Team
 
 **Manage Roles** groups **Team** under **Workspace**. The module page is `/team`, its module-level rights are `LS-TM-01` and `LS-TM-02`, and it carries 4 action rights.
 
-| Sub-module                                            | WA | DP | MS | SP | EX | VW |
-| ----------------------------------------------------- | -- | -- | -- | -- | -- | -- |
-| **View team members** `team.view_members`             | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
-| **Add / deactivate members** `team.manage_members`    | ●  | ○  | ○  | ○  | ○  | ◐  |
-| **Edit member permissions** `team.manage_permissions` | ●  | ○  | ○  | ○  | ○  | ◐  |
-| **Add Users** `team.add_users` · action               | ●  | ○  | ○  | ○  | ○  | ○  |
-| **Edit Permissions** `team.edit_permissions` · action | ●  | ○  | ○  | ○  | ○  | ○  |
-| **Create New Role** `team.create_new_role` · action   | ●  | ○  | ○  | ○  | ○  | ○  |
-| **Deactivate User** `team.deactivate_user` · action   | ●  | ○  | ○  | ○  | ○  | ○  |
+| Sub-module                    | WA | DP | MS | SP | EX | VW |
+| ----------------------------- | -- | -- | -- | -- | -- | -- |
+| **View team members**         | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
+| **Add / deactivate members**  | ●  | ○  | ○  | ○  | ○  | ◐  |
+| **Edit member permissions**   | ●  | ○  | ○  | ○  | ○  | ◐  |
+| **Add Users** · action        | ●  | ○  | ○  | ○  | ○  | ○  |
+| **Edit Permissions** · action | ●  | ○  | ○  | ○  | ○  | ○  |
+| **Create New Role** · action  | ●  | ○  | ○  | ○  | ○  | ○  |
+| **Deactivate User** · action  | ●  | ○  | ○  | ○  | ○  | ○  |
 
 Team opens for every role at **View team members**. The four action rights are what separate a Workspace Admin from everyone else.
 
 ### Settings
 
-**Manage Roles** groups **Settings** under **Workspace**. The module page is `/settings`, its module-level rights are `LS-ST-01` and `LS-ST-02`, and it carries 3 action rights.
+**Manage Roles** groups **Settings** under **Workspace**. The module page is `/settings`, and it carries 3 action rights.
 
-| Sub-module                                                                  | WA | DP | MS | SP | EX | VW |
-| --------------------------------------------------------------------------- | -- | -- | -- | -- | -- | -- |
-| **Workspace configuration** `settings.workspace_config`                     | ●  | ○  | ○  | ○  | ○  | ◐  |
-| **Notification preferences** `settings.notification_prefs`                  | ●  | ●  | ●  | ●  | ●  | ◐  |
-| **API keys & webhooks** `settings.api_access`                               | ●  | ○  | ○  | ○  | ○  | ◐  |
-| **Configure Brand Kit** `settings.configure_brand_kit` · action             | ●  | ○  | ○  | ○  | ○  | ○  |
-| **Create New Brand Workspace** `settings.create_brand_workspace` · action   | ●  | ○  | ○  | ○  | ○  | ○  |
-| **Update Workspace Settings** `settings.update_workspace_settings` · action | ●  | ○  | ○  | ○  | ○  | ○  |
+| Sub-module                              | WA | DP | MS | SP | EX | VW |
+| --------------------------------------- | -- | -- | -- | -- | -- | -- |
+| **Workspace configuration**             | ●  | ○  | ○  | ○  | ○  | ◐  |
+| **Notification preferences**            | ●  | ●  | ●  | ●  | ●  | ◐  |
+| **API keys & webhooks**                 | ●  | ○  | ○  | ○  | ○  | ◐  |
+| **Configure Brand Kit** · action        | ●  | ○  | ○  | ○  | ○  | ○  |
+| **Create New Brand Workspace** · action | ●  | ○  | ○  | ○  | ○  | ○  |
+| **Update Workspace Settings** · action  | ●  | ○  | ○  | ○  | ○  | ○  |
 
 **Notification preferences** is the one Settings sub-module every role can change, which is why Settings reads ● for five of the six roles.
 
