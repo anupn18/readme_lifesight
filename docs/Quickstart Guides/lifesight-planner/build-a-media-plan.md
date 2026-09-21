@@ -106,7 +106,7 @@ Plans only appear in Plan List after you select **Save Plan**. Draft plans that 
 
 Yes. After your first scenario is created, you can add more scenarios to the same plan, either from scratch or by copying the active scenario, and compare their results side by side.
 
-Related Article
+## Related Article
 
 <Cards>
   <Card title="Build your first plan" href="https://docs.lifesight.io/v2.0/update/docs/create-a-media-plan" icon="fa-rocket">
