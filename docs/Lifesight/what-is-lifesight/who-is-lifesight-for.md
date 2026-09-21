@@ -15,7 +15,7 @@ Lifesight is built for consumer brands that want causal, finance‑ready marketi
 ### By Role
 
 * **CMO & VP of Growth** – Set mix and targets, defend budgets, balance brand vs. performance with causal proof.
-* **CFO & FP&A** – Tie marketing to revenue/margin, evaluate risk/return with confidence ranges and payback windows.
+* **CFO & FP\&A** – Tie marketing to revenue/margin, evaluate risk/return with confidence ranges and payback windows.
 * **Performance & Media** – Optimize campaigns using incrementality‑adjusted KPIs, not raw platform numbers.
 * **Analytics & Insights** – Govern data contracts, MMM quality, and a disciplined geo-test roadmap.
 
