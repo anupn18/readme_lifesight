@@ -6,6 +6,9 @@ excerpt: >-
 hidden: true
 metadata:
   title: Upload and Share Artifacts in Lifesight
+  description: >-
+    Upload your dashboards, reports, and decks to Lifesight so your team can
+    find and share them right next to the data they were built from.
   keywords:
     - Lifesight
     - Artifacts
@@ -60,7 +63,7 @@ Your artifact opens as soon as it's saved and appears in your artifacts list rig
 
 Open an artifact from the list to see the file itself, with a small toolbar above it.
 
-![An uploaded HTML page, rendered in the workspace with its toolbar above it](https://files.readme.io/decf94d4b33462260b8a526a779be9b398cbad7ee610edcdc8b089e99ed899c0-artifacts-uploaded-view.png)
+![](https://files.readme.io/d5ee3a8eac020942624b418f4334acabe0895d4e28ae348e9d7885e413db204e-Screenshot_2026-09-21_at_3.47.13_PM.png)
 
 | Control               | What it does                                                                |
 | --------------------- | --------------------------------------------------------------------------- |
