@@ -99,11 +99,11 @@ Review the model choice, dates, budget, constraints, forecast, and channel recom
 ## Related Articles
 
 <Cards>
-  <Card title="Card One" icon="fa-rocket">
+  <Card title="Build a media plan" icon="fa-rocket">
 
   </Card>
 
-  <Card title="Card Two" icon="fa-code">
+  <Card title="Custom budget pacing" icon="fa-code">
 
   </Card>
 </Cards>
