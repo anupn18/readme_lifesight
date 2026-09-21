@@ -1,11 +1,11 @@
 ---
-title: '[4.0][Updated] Get Started with Cockpit'
+title: Get Started with Cockpit
 excerpt: >-
   Start every day with the decisions that matter, and get answers to anything
   about your marketing in one place.
 hidden: true
 metadata:
-  title: The Lifesight Cockpit
+  title: Get Started with Cockpit
   keywords:
     - Lifesight
     - Cockpit
@@ -14,9 +14,9 @@ metadata:
 ---
 Th&#x65;**&#x20;Cockpit gets you to your next best decision faster**. It's the first thing you see when you open Lifesight, and instead of a wall of dashboards, it shows you **what needs your decision right now and gives you one place to ask anything.**
 
-Most analytics tools tell you what happened and leave you to figure out what to do next. The Cockpit works the other way around: your agents bring the important things to you, and you can see exactly why each one matters before you act.
+Most analytics tools tell you what happened and leave you to figure out what to do next. The Cockpit works the other way around: **your agents bring the important things to you, and you can see exactly why each one matters before you act**.
 
-![The Cockpit — the headline, the Ask box, and the cards your agents have raised](https://files.readme.io/e91a4859f6403a4e88803f40f5acdaccf885a2b323c7f6ad59329c4009374e60-cockpit-feed.png)
+![](https://files.readme.io/d200cfe0239b109bd37e9e3e57ac4b1caca7d8e3a01b8ebcf3c9a01606c17990-Screenshot_2026-09-21_at_12.09.58_PM.png)
 
 ***
 
@@ -24,9 +24,9 @@ Most analytics tools tell you what happened and leave you to figure out what to 
 
 The Cockpit has three parts:
 
-**Headline:&#x20;**&#x4F;ne line that tells you where your workspace is today. It updates as you connect data, promote a model (make it the one your plans use), and adopt a plan.
-**Ask box:&#x20;**&#x41;sk a question, run a skill (a ready-made analysis), or pick up a past conversation. Answers appear right on the page.
-**Your agents:** Cards your agents have raised for you. The top three are shown in full, and the rest wait in a queue below.
+- **Headline:&#x20;**&#x4F;ne line that tells you where your workspace is today. It updates as you connect data, promote a model (make it the one your plans use), and adopt a plan.
+- **Ask box:&#x20;**&#x41;sk a question, run a skill (a ready-made analysis), or pick up a past conversation. Answers appear right on the page.
+- **Your agents:** Cards your agents have raised for you. The top three are shown in full, and the rest wait in a queue below.
 
 | Part            | What it does                                                                                                                    |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -64,7 +64,7 @@ Each card also tells you what kind of response it needs:
 
 Every card follows the same layout, so you always know where to look:
 
-![A cue card — the agent, what it wants, the evidence, and one primary action](https://files.readme.io/7d5dfc17be0b5d265a991a1d857d8aeaf631e619a99fe64c76b304834cfc3c1b-cockpit-card.png)
+![](https://files.readme.io/b79389e1cf632299ad4d05605a8ea228038558f50e09d4574358af66e7ba3793-Screenshot_2026-09-21_at_12.11.43_PM.png)
 
 | Part               | What it is                                                                                  |
 | ------------------ | ------------------------------------------------------------------------------------------- |
@@ -88,7 +88,7 @@ Have a follow-up question? Click Ask on any card, and it opens a conversation wi
 
 Click Why am I seeing this? at the bottom of any card to see:
 
-![The reasoning behind a card — the evidence, its ranking, and where its figures came from](https://files.readme.io/8194c462e310c5e96887fc9c351935b5c6a5983b2368c5af1e7cb5ca48a2f6a1-cockpit-why.png)
+![](https://files.readme.io/2b50fa76aa77109448d540cf8f8f5d17062127b96a876ccb58b599ae8dac408c-Screenshot_2026-09-21_at_12.12.38_PM.png)
 
 | Line                | What it tells you                        |
 | ------------------- | ---------------------------------------- |
@@ -105,11 +105,15 @@ Cards are ranked for you personally, not the same for everyone. Cards about area
 
 Your top three cards are shown in full. Everything else sits in a queue underneath, in the same priority order.
 
-![The queue expanded, showing the cards waiting behind the three on screen](https://files.readme.io/5b952046f56b1c7e2d8015cdda6c3c28119fb0bfc2c2052ec833ba80d8d81269-cockpit-queue-open.png)
+![](https://files.readme.io/75452ea70cb7ca01e84914b6bb1a139c7eeef007df7df9b0cbf84cba304223e1-Screenshot_2026-09-21_at_12.17.31_PM.png)
 
 Click the queue to open it. Each row carries the title, the agent, what it wants, and why it ranked where it did. Click any row to open it as a full card, and **Fold back into the queue** to collapse it again.
 
-When you act on one of the three cards on screen — or set it aside — the top of the queue moves up to take its place.
+![](https://files.readme.io/b646bde0d5de2fea489569b2950cf697b7206045fba3c5012ebe2acc68ecaff8-Screenshot_2026-09-21_at_12.17.55_PM.png)
+
+<br />
+
+When you act on one of the three cards on screen  or set it aside the top of the queue moves up to take its place.
 
 ***
 
@@ -203,9 +207,25 @@ You can see exactly what's included in the context panel. Click **Remove** to as
 </Callout>
 
 <Callout icon="📘" theme="info">
-  **&#x20;I can't find my platform.** Browse the full list in Data → Integrations. If it's not there, raise a ticket with Lifesight, and upload your data as a CSV in the meantime.
+  **I can't find my platform.** Browse the full list in Data → Integrations. If it's not there, raise a ticket with Lifesight, and upload your data as a CSV in the meantime.
 </Callout>
 
 <Callout icon="📘" theme="info">
   **I do not have access to integrate.** Connecting a platform usually needs admin access on that platform. Invite the person who has it from **Settings → Team**, and they can complete the step for you.
 </Callout>
+
+## Related Articles
+
+<Cards>
+  <Card title="Card One" icon="fa-rocket">
+
+  </Card>
+
+  <Card title="Card Two" icon="fa-code">
+
+  </Card>
+
+  <Card title="Card Three" icon="fa-comments">
+
+  </Card>
+</Cards>
