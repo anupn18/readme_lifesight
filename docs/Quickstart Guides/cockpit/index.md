@@ -290,8 +290,8 @@ Rate any answer with a thumbs up or thumbs down. A thumbs down lets you tell Lif
 ## <br />Related Articles
 
 <Cards>
-  <Card title="Next up" icon="🔗">
-    Connect your Data
+  <Card title="Connect your Data" icon="🔗">
+    Bring all your marketing and business data into Lifesight.
   </Card>
 
   <Card title="Build your First Model (Marketing Mix Modeling)" icon="🎲">
