@@ -1,5 +1,5 @@
 ---
-title: '[4.0][ReadyForQA] Workspace Settings'
+title: '[4.0][ReadyForQA] Setting up your Workspace'
 excerpt: >-
   Settings > Workspace carries the workspace reporting defaults and the one-time
   week start lock.
@@ -8,7 +8,13 @@ hidden: true
 metadata:
   robots: index
 ---
+Your workspace is where your data, models, and reporting live in Lifesight. Setting it up correctly on day one means every report, model, and weekly check that follows lines up with the calendar your team already works to.
+
+Setup your workspace, before you invite your team or connect a data source.&#x20;
+
 **Settings > Workspace** holds the reporting defaults, the day each reporting and week begins.
+
+In the workspace setting the **Week Starts day** is one setting, the day your reporting week starts and **can be set only once**, so it is worth agreeing internally before you touch it.
 
 <Callout icon="📘" theme="info">
   ### Who can do this
@@ -20,10 +26,10 @@ metadata:
 ## Before you start
 
 - You are signed in to the workspace.
-- **Settings** is open on the **Workspace** tab.
-- For the lock, the **Week start day** row still shows a select and **Set & lock**.
+- Settings is open on the Workspace tab.
+- For the lock, the Week start day row still shows a select and a Set & lock button. If it shows a lock pill instead, someone has already locked it.
 
-## See your reporting defaults
+## Find your workspace settings
 
 <Callout icon="📘" theme="info">
   ### **Role:** Everyone
@@ -33,9 +39,11 @@ metadata:
 2. Select the **Workspace** tab.
 3. Read the **Timezone** and **Default Currency** rows on the **Workspace** card.
 
-Both rows are greyed out, with a `View only` tooltip on the information icon, and neither opens for any role.
+You are in the right place when you see the Workspace card with three rows on it: **Timezone, Default Currency, and Week start day.**
 
-## Lock the week start day
+Everything on this tab applies to the workspace you are currently in. If your organization runs more than one workspace, check the workspace name in the sidebar before you change anything.
+
+## Confirm your reporting defaults
 
 <Callout icon="📘" theme="info">
   ### **Role:** Workspace Admin for **Set & lock**
