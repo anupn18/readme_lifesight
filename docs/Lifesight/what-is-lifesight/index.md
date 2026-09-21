@@ -209,14 +209,6 @@ Together, these layers give you one connected measurement system: model-ready da
 * Budgets are shifting (new channels like CTV/retail media/influencer) and you must prove what works.
 * You want a repeatable cadence: refresh models, run smart tests, recalibrate, re-plan, and act—quarter after quarter.
 
-## Getting Started
-
-* Data readiness check: Confirm the minimum viable set and taxonomy.
-* Baseline MMM: Establish ROI and marginal curves; generate test backlog.
-* Priority geo test(s): Prove lift where the dollars are (or where confidence is low).
-* Calibrate & re-plan: Update KPIs and budgets with scenario planner.
-* Operationalize: Stand up the monthly optimization and quarterly planning cadence.
-
 ## Related Articles
 
 * [How Lifesight Works: Architecture & Workflow](how-lifesight-works)
