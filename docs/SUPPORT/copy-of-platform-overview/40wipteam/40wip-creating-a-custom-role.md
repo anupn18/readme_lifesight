@@ -1,11 +1,14 @@
 ---
-title: '[4.0][ReadyForQA] Create a custom role'
+title: '[4.0][Updated] Create a custom role'
 excerpt: >-
   Team > Manage Roles holds the five preset roles and the Read, Manage and
   Actions grid where a Workspace Admin creates, edits and deletes custom roles.
 deprecated: false
 hidden: true
 metadata:
+  title: Create a custom role in Lifesight
+  keywords:
+    - Lifesight custom role
   robots: index
 ---
 A role decides what a person can open and change in Lifesight. Five preset roles cover most teams, but when someone needs a combination no preset holds, you build a custom role: a set of rights you assemble yourself, module by module.
