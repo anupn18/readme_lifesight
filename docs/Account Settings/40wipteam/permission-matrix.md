@@ -115,7 +115,7 @@ Every Lifesight module appears here, one per row, so you can check what each rol
 
 **Legend:** ● F full access · ◐ R read only · ○ N no access. On a · action row, ● means the button works for that role, and both ◐ and ○ mean it does not.
 
-[Cockpit](#cockpit) · [Plan](#plan) · [Deploy](#deploy) · [Attribution](#attribution) · [Creative](#creative) · [Models](#models) · [Experiments](#experiments) · [Agents](#agents) · [Profiles](#profiles) · [Segments](#segments) · [Data](#data) · [Config](#config) · [Artifacts](#artifacts) · [Team](#team) · [Settings](#settings)
+[Cockpit](#cockpit) · [Plan](#plan) · [Deploy](#deploy) · [Attribution](#attribution) · [Creative](#creative) · [Models](#models) · [Experiments](#experiments) · [Data](#data) · [Config](#config) · [Artifacts](#artifacts) · [Team](#team) · [Settings](#settings)
 
 ### Cockpit
 
@@ -184,7 +184,7 @@ Every Lifesight module appears here, one per row, so you can check what each rol
 
 ### Models
 
-**Manage Roles** groups **Models** under **Causality**. The module page is `/models`, its module-level rights are `LS-MO-01` and `LS-MO-02`, and it carries 3 action rights.
+**Manage Roles** groups **Models** under **Causality**. The module page is `/models`, and it carries 3 action rights.
 
 | Sub-module                    | WA | DP | MS | SP | EX | VW |
 | ----------------------------- | -- | -- | -- | -- | -- | -- |
