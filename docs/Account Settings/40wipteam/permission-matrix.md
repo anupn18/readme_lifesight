@@ -93,12 +93,6 @@ Every Lifesight module appears here, one per row, so you can check what each rol
 | **Team**        | ●               | ◐                 | ◐                   | ◐                 | ◐         | ◐      |
 | **Settings**    | ●               | ●                 | ●                   | ●                 | ●         | ◐      |
 
-**Config is the most restricted module.** It is closed to four of the six roles.
-
-**Brain has no place in the sidebar in this build**, but its page can still be reached directly, and access to it still follows the role's rights.
-
-**Visits works the other way round.** It appears in the sidebar but has no row in this matrix in this build, so it is not one of the 16 modules counted here.
-
 **A ○ cell is what sends someone to Access Restricted,** where they can select **Request Access**. See
 
 [Ask for access, and review requests](doc:access-requests).
