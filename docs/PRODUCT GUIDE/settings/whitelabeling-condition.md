@@ -2,7 +2,7 @@
 title: Whitelabeling Conditions
 excerpt: ''
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

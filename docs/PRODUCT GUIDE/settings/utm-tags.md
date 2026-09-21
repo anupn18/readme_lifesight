@@ -4,7 +4,7 @@ excerpt: >-
   Setting up UTMs for accurate attribution. Use the recommended UTMs for
   accurate attribution data
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

@@ -2,7 +2,7 @@
 title: User roles
 excerpt: Understand access controls and restrictions amongst different user roles
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

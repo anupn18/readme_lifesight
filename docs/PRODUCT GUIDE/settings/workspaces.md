@@ -2,7 +2,7 @@
 title: Workspaces
 excerpt: Create & Manage workspaces
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

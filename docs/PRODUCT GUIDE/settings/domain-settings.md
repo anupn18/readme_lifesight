@@ -4,7 +4,7 @@ excerpt: >-
   Proxy the Lifesight SDK with first-party domain advantages to reduce signal
   loss
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

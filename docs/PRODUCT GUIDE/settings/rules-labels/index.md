@@ -2,7 +2,7 @@
 title: Rules & Labels
 excerpt: Manage rules and labels applied to your Attribution dashboard.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

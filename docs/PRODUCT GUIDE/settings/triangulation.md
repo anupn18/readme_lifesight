@@ -6,7 +6,7 @@ excerpt: >-
   grouping data for attribution, set algorithmic weights and set your anchor
   attribution methodology.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

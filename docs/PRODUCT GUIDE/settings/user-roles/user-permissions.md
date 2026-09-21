@@ -2,7 +2,7 @@
 title: User permissions
 excerpt: View permissions for each user role.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

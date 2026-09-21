@@ -2,7 +2,7 @@
 title: Reset your password
 excerpt: Steps to reset a forgotten password.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

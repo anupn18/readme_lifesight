@@ -4,7 +4,7 @@ excerpt: >-
   Create your own Rules to view your Attribution Dashboard based on your
   preferences.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

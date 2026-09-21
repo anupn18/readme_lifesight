@@ -2,7 +2,7 @@
 title: Profile
 excerpt: View your logged-in profile details and set your password
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

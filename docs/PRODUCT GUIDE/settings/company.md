@@ -2,7 +2,7 @@
 title: Company
 excerpt: View your basic workspace information
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

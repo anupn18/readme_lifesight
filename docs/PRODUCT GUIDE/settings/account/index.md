@@ -2,7 +2,7 @@
 title: Account
 excerpt: View and manage your account information
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

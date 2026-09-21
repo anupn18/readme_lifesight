@@ -4,7 +4,7 @@ excerpt: >-
   Learn how to view your profile details and change the password to your
   account.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

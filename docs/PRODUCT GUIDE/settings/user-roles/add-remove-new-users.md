@@ -4,7 +4,7 @@ excerpt: >-
   Learn how you can invite your teammates to work collaboratively on your
   projects.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
