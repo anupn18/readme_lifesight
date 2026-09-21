@@ -2,7 +2,7 @@
 title: Merging Models
 excerpt: Unify models for a single truth
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---

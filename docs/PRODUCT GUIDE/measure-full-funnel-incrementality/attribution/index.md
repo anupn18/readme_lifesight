@@ -2,7 +2,7 @@
 title: Attribution
 excerpt: Understand the fundamentals of Marketing Attribution.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

@@ -2,7 +2,7 @@
 title: Getting started with attribution
 excerpt: Learn everything you need to get started with Attribution.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

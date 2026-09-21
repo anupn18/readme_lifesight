@@ -2,7 +2,7 @@
 title: Geo Experiment Design
 excerpt: Design and Deploy your Geo Experiment
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---

@@ -2,7 +2,7 @@
 title: Overview
 excerpt: Get a quick summary of your overall ad performance across multiple channels
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

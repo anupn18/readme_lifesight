@@ -2,7 +2,7 @@
 title: Campaigns
 excerpt: Understanding campaign level insights
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

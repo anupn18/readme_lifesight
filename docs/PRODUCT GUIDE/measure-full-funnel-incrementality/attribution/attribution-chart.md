@@ -4,7 +4,7 @@ excerpt: >-
   Leverage a powerful Attribution chart to uncover hidden patterns and
   opportunities in your data.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

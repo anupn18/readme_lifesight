@@ -4,7 +4,7 @@ excerpt: >-
   Understand revenue contribution trends and investigate spending patterns for a
   Channel or Tactic
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---

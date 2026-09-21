@@ -4,7 +4,7 @@ excerpt: >-
   Your guide to configuring data, selecting variables, and launching your media
   mix model
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---

@@ -4,7 +4,7 @@ excerpt: >-
   Understand the definition for every metric tracked in your Attribution
   dashboard.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

@@ -2,7 +2,7 @@
 title: Model Retraining
 excerpt: Learn Why and How to retrain your Marketing Mix Models
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

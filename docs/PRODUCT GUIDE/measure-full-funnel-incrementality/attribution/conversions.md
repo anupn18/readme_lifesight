@@ -2,7 +2,7 @@
 title: Conversions
 excerpt: Analyze conversion across Channels and Events
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

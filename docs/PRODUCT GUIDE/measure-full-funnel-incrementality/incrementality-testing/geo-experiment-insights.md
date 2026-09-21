@@ -2,7 +2,7 @@
 title: Geo Experiment Insights
 excerpt: 'Interpreting your Geo Test Results '
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---

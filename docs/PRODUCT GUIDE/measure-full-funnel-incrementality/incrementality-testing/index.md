@@ -2,7 +2,7 @@
 title: Experiments
 excerpt: Learn how to navigate and use Experiments in Lifesight
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

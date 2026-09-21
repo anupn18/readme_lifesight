@@ -4,7 +4,7 @@ excerpt: >-
   Lifesight's MMM refresh provides real time MMM insights for agile decision
   making.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

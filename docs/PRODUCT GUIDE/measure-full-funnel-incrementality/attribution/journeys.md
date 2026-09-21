@@ -4,7 +4,7 @@ excerpt: >-
   View customer journeys across marketing touchpoints and see the most efficient
   path that led to a conversion.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

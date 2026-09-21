@@ -4,7 +4,7 @@ excerpt: >-
   Understand baseline revenue, channel contribution and profit insights from
   your Mix Model
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''

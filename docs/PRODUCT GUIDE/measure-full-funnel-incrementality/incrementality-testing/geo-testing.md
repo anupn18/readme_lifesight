@@ -4,7 +4,7 @@ excerpt: >-
   Understand the need for geo test and how it can help improve your marketing
   optimization.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
