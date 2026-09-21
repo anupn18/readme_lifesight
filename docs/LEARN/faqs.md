@@ -1,5 +1,5 @@
 ---
-title: 'General FAQs: Getting to Causal Answers With Lifesight'
+title: 'General FAQs: Getting Causal Answers With Lifesight'
 excerpt: Get answers to all your questions.
 deprecated: false
 hidden: false
