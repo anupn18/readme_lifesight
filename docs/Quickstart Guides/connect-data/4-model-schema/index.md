@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Model Schema: decide what your model gets to see'
+title: 'Model Schema: decide what your model gets to see'
 excerpt: >-
   Define what goes into a model: the outcome you are explaining, the media you
   think drives it, and the context that explains the rest.
