@@ -1,5 +1,6 @@
 ---
 title: Account Settings
+excerpt: Learn about Lifesight and its features
 deprecated: false
 hidden: false
 metadata:
