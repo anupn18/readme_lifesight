@@ -137,7 +137,7 @@ Rerun your scenarios whenever the promoted model, reference period, constraints,
 ## Related Articles
 
 <Cards>
-  <Card title="Card One" icon="fa-rocket">
+  <Card title="Create your media plan" href="https://docs.lifesight.io/v2.0/update/docs/build-a-media-plan" icon="fa-rocket">
 
   </Card>
 
