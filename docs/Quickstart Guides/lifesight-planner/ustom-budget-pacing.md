@@ -31,15 +31,23 @@ Pacing your budget this way gives you a more realistic forecast, since Planner m
 ## Set up custom pacing for your scenario
 
 1. Open a Planner scenario.
-2. Select **Advanced Config**.
-3. Open **Custom Pacing**.
+2. &#x20;If you select plan period as 1 month in configuration custom pacing wont appear. To edit the custom pacing setting ensure to select the plan period more than 1 month. Then select **Advanced Config**.
+
+   ![](https://files.readme.io/11d8261cd21970a5d7506dc24845f920ad614eb7db6f1cfd5d6558c5f9ffd383-Screenshot_2026-09-21_at_2.27.29_PM.png)
+
+
+3. Open **Custom Pacin tab**.
+
+   ![](https://files.readme.io/cac1a57a03b310a7de3fbf881a048ac84e5f36ae8d5b460735f5c3d7746da3a3-Screenshot_2026-09-21_at_2.29.38_PM.png)
 4. Review the current and planned budget for each month. Current budget reflects spend from your reference period (the past window used as your baseline).
+
+   ![](https://files.readme.io/2e1ef5decadbf4dcb4bad950f8bac742353c3b055b0088810312dc800561cfcb-Screenshot_2026-09-21_at_2.30.05_PM.png)
 5. Edit monthly budgets directly, or upload a pacing plan.
 6. Review channel constraints for each month and adjust them where needed.
+
+   ![](https://files.readme.io/7739b0928fe67c270048c116c1be647bb466d489336e1671e77ab0326cc6ddd8-Screenshot_2026-09-21_at_2.33.19_PM.png)
 7. Confirm that your monthly budgets add up to the total planned budget.
 8. Select **Apply** or **Done**, then run the simulation to see your updated forecast.
-
-\[VIDEO PLACEHOLDER: Editing monthly pacing and channel constraints]
 
 ## Understand how Planner fills in the months you don't edit
 
@@ -60,8 +68,6 @@ Before you can apply custom pacing, your plan needs to meet a few rules:
 - All monthly budgets must add up to the total planned budget.
 - Channel minimums cannot be negative.
 - Channel minimums cannot be higher than their maximums.
-
-\[IMAGE PLACEHOLDER: Custom pacing validation and allocated total]
 
 If you are uploading a pacing plan, start from the provided template and keep the CSV file under the file-size limit shown in the platform. Using the template makes sure your file is in the right format to upload.
 
@@ -104,3 +110,15 @@ Yes. Start from the template provided in **Custom Pacing**, fill in your monthly
 ### Do I need to rerun the simulation after changing pacing?
 
 Yes. After selecting **Apply** or **Done**, run the simulation so your forecast and recommendations reflect the new monthly pacing.
+
+## Related Articles
+
+<Cards>
+  <Card title="Custom Budget Pacing " icon="fa-rocket">
+
+  </Card>
+
+  <Card title="Interpreting a Plan" icon="fa-code">
+
+  </Card>
+</Cards>
