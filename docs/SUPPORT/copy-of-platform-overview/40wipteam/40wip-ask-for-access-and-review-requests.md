@@ -6,6 +6,9 @@ excerpt: >-
 deprecated: false
 hidden: true
 metadata:
+  title: Ask for access, and review requests
+  keywords:
+    - Lifesight Requests
   robots: index
 ---
 An access request asks for one module your role does not open; a Workspace Admin answers it. It starts on **Access Restricted** and lands on **Team > Access Requests**. This page covers both halves, plus the three unrelated controls also labeled **Request Access**.
