@@ -12,7 +12,7 @@ next:
 ---
 ## What does Lifesight do?
 
-Lifesight is an agentic Unified Marketing Measurement (UMM) platform that helps consumer brands grow by measuring what their marketing incrementally drives, not what ad platforms claim. It runs causal Marketing Mix Modeling (MMM), incrementality testing, and causal attribution as one orchestrated system in its Causal AI layer, with an Agentic AI layer on top that turns every result into answers, recommendations, and next steps.
+Lifesight is an Agentic Unified Marketing Measurement (UMM) platform that helps consumer brands grow by measuring what their marketing incrementally drives, not what ad platforms claim. It runs causal Marketing Mix Modeling (MMM), incrementality testing, and causal attribution as one orchestrated system in its Causal AI layer, with an Agentic AI layer on top that turns every result into answers, recommendations, and next steps.
 
 ## What is unified marketing measurement?
 
