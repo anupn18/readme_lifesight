@@ -1,5 +1,5 @@
 ---
-title: '[4.0][ReadyForQA] Setting up your Workspace'
+title: '[4.0][Updated] Setting up your Workspace'
 excerpt: >-
   Settings > Workspace carries the workspace reporting defaults and the one-time
   week start lock.
@@ -25,9 +25,11 @@ In the workspace setting the **Week Starts day** is one setting, the day your re
 
 ## Before you start
 
-- You are signed in to the workspace.
+- You are signed into a particular workspace which you want to setup.
 - Settings is open on the Workspace tab.
 - For the lock, the Week start day row still shows a select and a Set & lock button. If it shows a lock pill instead, someone has already locked it.
+
+![](https://files.readme.io/73dd798d5b6107577a7b45425f74f1ac244f34b1b6a48832845ca7a07120046b-Screenshot_2026-09-21_at_7.19.02_AM.png)
 
 ## Find your workspace settings
 
@@ -53,11 +55,12 @@ The **Week start day** row says `This can be set only once. After that, contactt
 
 1. On **Settings > Workspace**, find the **Week start day** row.
 2. Select a day. The list offers **Monday**, **Tuesday**, **Wednesday**, **Thursday**, **Friday**, **Saturday** and **Sunday**, and starts on **Monday**. The selection is not stored until you lock it; leave the page without **Set & lock** and the row returns to **Monday**.
-3. Select **Set & lock**.
-4. In **Lock reporting week start?**, enter the day name exactly as the list writes it.
-5. Select **Lock**.
 
-**Cancel** closes the dialog and changes nothing.
+![](https://files.readme.io/00e9577197c04da586c60bd3da9ee760bc663d1f0d4ffa60e1ae5d97d9953c2c-Screenshot_2026-09-21_at_7.19.19_AM.png)
+
+1. Select **Set & lock**.
+2. In **Lock reporting week start?**, enter the day name exactly as the list writes it.
+3. Select **Lock**.
 
 You're done when:
 
