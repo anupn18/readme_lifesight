@@ -294,7 +294,7 @@ Rate any answer with a thumbs up or thumbs down. A thumbs down lets you tell Lif
     Connect your Data
   </Card>
 
-  <Card icon="🎲">
-    Build your First Model (Marketing Mix Modeling)
+  <Card title="Build your First Model (Marketing Mix Modeling)" icon="🎲">
+    Measure the contribution of every channel.
   </Card>
 </Cards>
