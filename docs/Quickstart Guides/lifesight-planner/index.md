@@ -1,5 +1,5 @@
 ---
-title: Plan Your Budget with Confidence
+title: Plan your budget with confidence
 excerpt: >-
   Model scenarios, compare allocations, and find the spend mix most likely to
   hit your revenue goals.
