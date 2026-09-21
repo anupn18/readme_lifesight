@@ -1,44 +1,69 @@
 ---
-title: '[4.0][WIP] Plan your next budget'
-excerpt: Lifesight 4.0 WIP guide for Planner.
+title: Plan Your Budget with Confidence
+excerpt: >-
+  Model scenarios, compare allocations, and find the spend mix most likely to
+  hit your revenue goals.
 deprecated: false
 hidden: true
 metadata:
   robots: noindex
 ---
-# Planner
+Planner helps you decide where your next dollar should go before you spend it. Using your promoted Marketing Mix Model (the MMM your team has approved as the source of truth for planning), you can model different media and commercial scenarios, compare them side by side, and find the allocation most likely to hit your budget or revenue goals.
 
-Planner in Lifesight 4.0 lets you model, compare, and optimize media and commercial scenarios using a promoted Marketing Mix Model.
+![](https://files.readme.io/c5864bcd7b957a52b22503b49f8835e49b2fb5a132bbd18bd45b54b4ffc9b1a8-Screenshot_2026-09-21_at_12.35.14_PM.png)
 
-[IMAGE PLACEHOLDER: Planner workspace with scenario tabs and results]
+## What you can do with Planner
 
-## What you can do
+Planner gives you everything you need to move from "what if" to a plan you can act on:
 
-- Create plans with one or more scenarios
-- Optimize a fixed budget or work toward a revenue goal
-- Set planning and reference periods
-- Configure channel constraints and non-media drivers
-- Apply custom monthly pacing
-- Compare current and recommended allocations
-- Review forecast, efficiency, saturation, and pacing results
-- Promote a scenario to Decisions
+- **Build plans with one or more scenarios** so you can test different strategies against the same model and pick the strongest one.
+- **Optimize a fixed budget or work toward a revenue goal.** Tell Planner how much you have to spend and it recommends the best split, or tell it the revenue you need and it works out the spend required to get there.
+- **Set planning and reference periods.** The planning period is the time window you are planning for. The reference period (a past time window Planner uses as a baseline for spend and performance) anchors your forecast in real historical results.
+- **Configure channel constraints and non-media drivers.** Set minimum and maximum spend limits per channel to reflect contracts, commitments, or business rules, and account for non-media drivers (factors outside advertising that influence sales, such as pricing, promotions, or seasonality).
+- **Apply custom monthly pacing** (how your budget is distributed across months) to match seasonal peaks, launches, or cash flow needs.
+- **Compare current and recommended allocations** to see exactly where Planner suggests shifting spend and why.
+- **Review forecast, efficiency, saturation, and pacing results** to understand the expected revenue impact, return on spend, and the point at which each channel stops delivering meaningful additional returns (saturation).
+- **Promote a scenario to Decisions** so your chosen plan flows directly into execution.
 
-## Planner workspace
+## Find your way around the Planner workspace
 
-The left panel contains scenario configuration, periods, budgets, constraints, media variables, and control variables. Run the simulation after making changes to update results.
+The Planner workspace is split into two panels so you can set up your assumptions on one side and see the impact on the other.
 
-The right panel contains headline KPIs, recommendations, forecast charts and tables, the budget worksheet, saturation curves, pacing breakdowns, and dimension analysis.
+**Left panel: set up your scenario.** This is where you define everything Planner needs to build a recommendation:
 
-[VIDEO PLACEHOLDER: Navigating Planner configuration and results]
+- Scenario configuration, including whether you are optimizing a budget or targeting revenue
+- Planning and reference periods
+- Budgets
+- Channel constraints
+- Media variables (the paid channels and tactics in your model)
+- Control variables (the non-media factors, such as pricing or promotions, that the model accounts for)
 
-## Scenarios and plans
+After making any changes, run the simulation to refresh your results.
 
-A plan can contain multiple scenarios that use the same model. Create a scenario from scratch or copy the active scenario, change the assumptions, then run it for comparison.
+**Right panel: see the outcome.** Once the simulation runs, this panel shows you what your plan is likely to deliver:
 
-Save the plan after all scenarios have completed. Use **Plan List** to browse, load, archive, restore, delete, promote, or demote plans as permitted.
+- $Headline KPIs summarizing expected revenue, spend, and efficiency
+- Recommendations highlighting where to increase or reduce spend
+- Forecast charts and tables showing projected performance over the planning period
+- The budget worksheet, a channel-by-channel view of current versus recommended spend
+- Saturation curves showing where each channel starts to deliver diminishing returns
+- Pacing breakdowns showing how spend is distributed over time
+- Dimension analysis for exploring results by channel, region, or other breakdowns in your model.
 
-## Promoted scenario
+\[VIDEO PLACEHOLDER: Navigating Planner configuration and results]
 
-Promoting a scenario makes it available to Decisions and downstream deployment workflows. The promoted plan appears as the default Planner view and is read-only there. Open it from Plan List when you need an editable view.
+## Test ideas side by side with scenarios and plans
 
-> Planner results depend on the promoted model, reference period, constraints, and assumptions selected for each scenario.
+A plan can hold multiple scenarios, all built on the same model. This lets you compare strategies fairly, for example a conservative budget versus an aggressive growth push, or a plan with and without a specific channel.
+
+To create a scenario, start from scratch or copy the active scenario and adjust the assumptions you want to test. Run each scenario so its results are ready for comparison.
+
+Once all scenarios have finished running, save the plan. You can then use **Plan List** to browse, load, archive, restore, delete, promote, or demote plans, depending on your permissions.
+
+## Put your chosen plan to work by promoting a scenario
+
+When you have found the scenario you want to move forward with, promote it. Promoting a scenario makes it available in Decisions and to downstream deployment workflows, so your plan can go straight from modeling to execution.
+
+The promoted plan becomes the default view in Planner and is read-only there, which keeps your approved plan protected from accidental changes. If you need to make edits, open the plan from **Plan List** to get an editable view.
+
+> Your Planner results reflect the promoted model, reference period, constraints, and assumptions selected for each scenario. If any of these change, rerun your scenarios to keep your forecasts and recommendations accurate.
