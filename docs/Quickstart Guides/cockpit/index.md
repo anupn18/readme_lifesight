@@ -290,11 +290,11 @@ Rate any answer with a thumbs up or thumbs down. A thumbs down lets you tell Lif
 ## <br />Related Articles
 
 <Cards>
-  <Card title="Card One" icon="fa-rocket">
-
+  <Card title="Next up" icon="🔗">
+    Connect your Data
   </Card>
 
-  <Card title="Next up" icon="fa-code">
-    Connect your Data
+  <Card icon="🎲">
+    Build your First Model (Marketing Mix Modeling)
   </Card>
 </Cards>
