@@ -40,11 +40,14 @@ The exact steps depend on how the platform authenticates, but the mostly its alw
 
 ### Platforms you sign in to
 
-Most ad platforms use this flow. It has two steps.
+To add any integration follow these steps:
 
-1. Go to **Data > Integrations** and click **Add Integration**.
-2. Search for the platform and click **Connect** on its tile.
-3. On the **Authenticate** step, click **Sign in**. You are handed over to the platform's own login screen.
+1. From the navigaton bar to Hub in the bottom left **Data > Integrations** and click **Add Integration**.
+
+![](https://files.readme.io/564089ac3febfff1eacbe5c2d7696acf31a6fdc0856a5040d65ac6a4cdeaee82-Screenshot_2026-09-21_at_11.40.26_AM.png)
+
+1. Search for the platform and click **Connect** on its tile.
+2. On the **Authenticate** step, click **Sign in**. You are handed over to the platform's own login screen.
 
 ![The Authenticate step of the connection wizard](https://files.readme.io/7f2f1b7bdd9ddb368da1fba8a4775dec293d7fdecbd482ee4bdbf4744f2418cf-connect-step-authenticate.png)
 
