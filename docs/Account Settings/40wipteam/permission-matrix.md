@@ -277,13 +277,7 @@ Team opens for every role at **View team members**. The four action rights are w
 
 ## What each role cannot do
 
-The restriction list for each role, keyed on the role name. A denied module greys in
-the sidebar and opens **Access Restricted**. A denied action right leaves its button
-on screen at 50% opacity with the tooltip
-`Your role ({Role}) cannot {action}. Ask a workspace admin for access.`, where
-`{Role}` is the role key (`DataPractitioner`, not `Data Practitioner`) and
-`{action}` is the sub-module label in lower case. Denied items inside a row menu are
-greyed with no tooltip at all.
+The restriction list for each role, keyed on the role name. A denied module greys in the sidebar and opens **Access Restricted**. A denied action right leaves its button on screen at 50% opacity with the tooltip<br />`Your role ({Role}) cannot {action}. Ask a workspace admin for access.`, where `{Role}` is the role key (`DataPractitioner`, not `Data Practitioner`) and `{action}` is the sub-module label in lower case. Denied items inside a row menu are greyed with no tooltip at all.
 
 ### Workspace Admin cannot
 
