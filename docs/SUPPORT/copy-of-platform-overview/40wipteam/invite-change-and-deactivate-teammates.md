@@ -52,6 +52,8 @@ metadata:
 8. Optional: in **Personal message (optional)**, enter up to 500 characters.
 9. Select **Invite User**.
 
+![](https://files.readme.io/fbf95f71b208ccdd09438b0ba676603ffdfa4eb7fbcc1671f1e1871133ee0cc7-Screenshot_2026-09-21_at_7.49.54_AM.png)
+
 The button reads **Inviting...** while it works. If the dialog stays open, a field failed validation, fix the field named in red and return to step 9.
 
 You're done when:
@@ -60,7 +62,9 @@ You're done when:
 - The **Inactive** toggle shows a **Pending** row carrying the email address you entered.
 - That row's **Invited** date is today.
 
-**About the role list:&#x20;**&#x49;t offers Workspace Admin, Data Practitioner, Marketing Scientist, Strategic Planner, and Executive, then any custom role created in this browser session, then +**&#x20;Create Custom Role.** Selecting + Create Custom Role shows the link **Configure custom role permissions**, which opens Manage Roles. Submitting while it is selected shows the error toast `Please create a custom role in Manage Roles before inviting the user`, so buildthe role first on [Create a custom role](doc:custom-roles).
+**About the role list:&#x20;**&#x49;t offers Workspace Admin, Data Practitioner, Marketing Scientist, Strategic Planner, and Executive, then any custom role created in this browser session, then +**&#x20;Create Custom Role.** Selecting + Create Custom Role shows the link **Configure custom role permissions**, which opens Manage Roles.&#x20;
+
+Submitting while it is selected shows the error toast `Please create a custom role in Manage Roles before inviting the user`, so buildthe role first on [Create a custom role](doc:custom-roles).
 
 No invitation email, link, or token is generated in this build. Share the workspace URL with the person directly so they know where to sign in.
 
@@ -76,6 +80,8 @@ No invitation email, link, or token is generated in this build. Share the worksp
 2. Select **Change role**.
 3. Select the new role. The list marks the role they hold now `(current)`.
 4. Select **Apply**.
+
+![](https://files.readme.io/e267282d09ecf41e9d939182ac7338b8218187d8515dac9c4dd9dacfe2b772d7-Screenshot_2026-09-21_at_7.50.51_AM.png)
 
 You should see the toast `<Name>'s role updated to <roleValue>` and the new role on that member's row. **Apply** stays disabled until you pick a role different from the current one.
 
@@ -93,6 +99,8 @@ Changing a role here does not change what that person can open: a signed-in sess
 2. Select **Deactivate**.
 3. Read the dialog: `Are you sure you want to deactivate <Name>? They will immediately lose access to the workspace.`
 4. Select **Deactivate**.
+
+![](https://files.readme.io/df48ceaa832c5726513b55f46345a4efbf5891518db40cdb4c00ba9b220084cc-Screenshot_2026-09-21_at_7.51.14_AM.png)
 
 You should see the toast `User status updated` and the row leaves the **Active&#x20;**&#x6C;ist. The person does not reappear under **Inactive > Deactivated**.
 
@@ -115,6 +123,8 @@ You should see the toast `User status updated` and the row leaves the **Active&#
 3. Select **Re-invite**.
 4. If **Role** or **Persona** is blank, select a value in each.
 5. Select **Send Invite**.
+
+![](https://files.readme.io/e8e89d3caf55a20da5b7291c890fed781e54676a01a7d87c7eed77d57be16f57-Screenshot_2026-09-21_at_7.51.46_AM.png)
 
 The button reads **Sending...** while it works. You should see the toast `User re-invited` and a new row under **Inactive > Pending**. The **Expired** row stays: re-inviting adds a row rather than replacing one, so the same person is listed twice.
 
