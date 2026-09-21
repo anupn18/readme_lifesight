@@ -1,5 +1,5 @@
 ---
-title: What is Lifesight?
+title: What is Lifesight
 excerpt: 'Lifesight Overview: Know What Your Marketing Is Actually Causing'
 deprecated: false
 hidden: false
