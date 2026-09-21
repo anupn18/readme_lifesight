@@ -6,8 +6,10 @@ hidden: false
 link:
   new_tab: false
 metadata:
-  title: ''
-  description: ''
+  title: What is Lifesight?
+  description: 'Lifesight Overview: Know What Your Marketing Is Actually Causing'
+  keywords:
+    - What is lifesight
   robots: index
 ---
 Lifesight is an agentic Unified Marketing Measurement (UMM) platform that helps businesses grow by measuring the incremental impact of every channel, not the attributed performance ad platforms report.
