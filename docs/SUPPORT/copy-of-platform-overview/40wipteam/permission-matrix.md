@@ -1,5 +1,5 @@
 ---
-title: '[4.0][ReadyForQA]Permission Matrix'
+title: '[4.0][Doubts]Permission Matrix'
 excerpt: >-
   The generated grid of six Lifesight roles against 16 modules, 89 sub-modules
   and 23 action rights, plus one JSON block for validating requires_rights.
@@ -10,18 +10,25 @@ metadata:
 ---
 ## How to read this matrix
 
-Three glyphs carry every cell in every table below.
+This matrix shows what every role in Lifesight can open and change, module by module. Use it to check what a teammate will be able to do before you invite them or change their role, to spot where a preset role falls short and a custom role is needed, or to understand why a module shows **Access Restricted** for someone on your team.
 
-**Legend:** ● Manage (full) · ◐ Read · ○ No access (greyed sidebar, Access Restricted)
+Every cell in the tables below uses one of three symbols, so once you know them you can read any table on this page at a glance.
 
-In the per-module tables the glyph is the literal value in the source grid: ● is
-`F` (`read` and `fullAccess`), ◐ is `R` (`read` only), ○ is `N` (neither). In the
-module-level table ● means the role holds Manage access on at least one non-action
-sub-module, ◐ means the module opens without it, and ○ means the module does not
-open at all.
+**Legend:** ● Manage (full) · ◐ Read · ○ No access (grayed out in the sidebar, opens Access Restricted)
 
-Role columns in the per-module tables are abbreviated. The table below maps each
-abbreviation to its role and to the role key the code looks up.
+**In the per-module tables**, each symbol matches a value in the source grid:
+
+● is F: the role can read and has full access.
+◐ is R: the role can read only.
+○ is N: the role has neither.
+
+**In the module-level table,** the symbols summarize the whole module:
+
+● means the role holds Manage access on at least one non-action sub-module.
+◐ means the module opens, but without Manage access.
+○ means the module does not open at all.
+
+Role columns in the per-module tables are abbreviated to save space. The table below maps each abbreviation to its full role name and its role key.
 
 | Abbreviation | Role                | Role key in code     |
 | ------------ | ------------------- | -------------------- |
@@ -40,16 +47,9 @@ page renders.
 | Module opens         | Whether the module renders, or shows **Access Restricted** | The module opens when at least one of its sub-modules carries read. Action sub-modules count, because a granted action carries read as well                       |
 | Action right allowed | Whether one named button responds                          | The button works when its module opens and the action key itself carries `fullAccess`. An unlisted key is denied, and `read` on an action key is an explicit deny |
 
-**Settings**, **Team** and **Support** open for every role, and only the buttons
-inside them are gated. **Support** (`/help-center`) is hard-coded open. **Settings**
-(`/settings`) and **Team** (`/team`) open because every role grid carries read on
-`settings.notification_prefs` and `team.view_members`; the hard-coded fallback for
-those two only applies to a role with no grid at all (a custom or unrecognised role
-name). That is why both still appear as rows below.
+**Settings, Team, and Support** open for every role. Only the buttons inside them are limited by role. Support is always open. Settings and Team open because every role includes read access to notification preferences and to the team member list. A custom or unrecognized role with no rights set up still opens both. That is wh&#x79;**&#x20;Settings and Team** still appear as rows in the tables below.
 
-This page describes rights, not people. A session carries the role it was issued at
-sign-in, from the email address signed in with, and nothing changes that role while
-the session lasts — see [Sign in, stay signed in, and log out](doc:sign-in).
+This page describes rights, not people. Your session carries the role it was given when you signed in, based on the email address you signed in with, and that role does not change until you sign in again. See [Sign in, stay signed in, and log out](doc:sign-in).
 
 ## Roles
 
@@ -64,24 +64,15 @@ Six roles ship built in. The lookup key is the role name as the product writes i
 | **Executive**           | `Executive`          | Read-only strategic overview                     | 16 of 55    | **Invite User**, **Change role**, **Manage Roles** |
 | **Viewer**              | `Viewer`             | Read-only across every module                    | 16 of 55    | **Change role**                                    |
 
-There are 55 rights in total. Each of the 16 modules carries a **Read access**
-right and a **Manage access** right, and each of the 23 actions carries one right of
-its own. **Manage Roles** prints the count in the detail panel when you select a
-role — a bare number labelled _permissions_. Viewer is absent from **Manage Roles**
-and from the **Invite User** role list, so its 16 is computed from the same grid
-rather than read off a screen.
+**Lifesight has 55 rights in total.** Each of the 16 modules has a **Read access** right and a **Manage access** right, and each of the 23 actions has one right of its own. When you select a role on **Manage Roles,** the detail panel shows how many rights it holds, as a number labeled permissions. Viewer does not appear on **Manage Roles or in the Invite User role** list, so its count of 16 comes from the same grid rather than from a screen.
 
-Viewer and Executive both hold 16 rights, and they are not the same 16. Viewer holds
-read on all 16 modules and no action right at all. Executive holds four fewer
-modules and three action rights.
+**Viewer and Executive both hold 16 rights, but not the same 16.** Viewer can read all 16 modules and holds no action rights. Executive opens four fewer modules and holds three action rights.
 
-Legacy role values normalise before any lookup: `admin` resolves to
-`WorkspaceAdmin`, `analyst` to `DataPractitioner`, `executive` to `Executive` and
-`viewer` to `Viewer`.
+**Older role names map to current ones**. admin becomes `WorkspaceAdmin`, `analyst `becomes `Data Practitioner`, executive becomes` Executive`, and viewer becomes `Viewer.`
 
 ## Module access by role
 
-One row per module, including every module this guide does not otherwise document.
+Every Lifesight module appears here, one per row, so you can check what each role can open or manage, including modules that don't have their own article in this guide.
 
 **Legend:** ● Manage (full) · ◐ Read · ○ No access (greyed sidebar, Access Restricted)
 
@@ -104,27 +95,25 @@ One row per module, including every module this guide does not otherwise documen
 | **Team**        | ●               | ◐                 | ◐                   | ◐                 | ◐         | ◐      |
 | **Settings**    | ●               | ●                 | ●                   | ●                 | ●         | ◐      |
 
-**Config** is the only module closed to four of the six roles. **Brain** has no
-sidebar entry in this build, and `/brain` still routes and is still checked against
-the grid. **Visits** is the reverse case: it appears as a sidebar module but carries
-no row in this grid in this build, so it is not one of the 16 modules counted here. A
-○ cell is what sends a person to **Access Restricted** with **Request Access** on it —
-see [Ask for access, and review requests](doc:access-requests).
+**Config is the most restricted module.** It is closed to four of the six roles.
 
-Marketing Scientist reads ◐ on **Data** without holding **Read access** on it: the
-module opens because two granted action rights carry read. Every non-action Data
-sub-module is ○ for that role.
+**Brain has no place in the sidebar in this build**, but its page can still be reached directly, and access to it still follows the role's rights.
+
+**Visits works the other way round.** It appears in the sidebar but has no row in this matrix in this build, so it is not one of the 16 modules counted here.
+
+**A ○ cell is what sends someone to Access Restricted,** where they can select **Request Access**. See
+
+[Ask for access, and review requests](doc:access-requests).
+
+**Marketing Scientist can open Data without Read access on it.** Two of the action rights the role holds include read, so the module opens, and the table shows ◐. Every other part of Data stays ○ for that role.
 
 ## Sub-modules and action rights by role
 
-One table per module, in the order **Manage Roles** renders the modules. Inside a
-table the non-action sub-modules come first in registry order, then the action
-rights in registry order. Rows marked `· action` are the action rights that gate a
-named button, and their keys are the values an agent card's `requires_rights` list
-may use.
+**The tables below go module by module, in the same order&#x20;**&#x74;he modules appear on Manage Roles. Within each table, the module's regular rights come first, followed by its action rights.
 
-**Legend:** ● `F` fullAccess · ◐ `R` read only · ○ `N` neither. On a `· action` row,
-● is the button enabled, and both ◐ and ○ deny it.
+**Rows marked · action are action rights**. Each one controls a specific button in the product. The key on each action row is the same right code used in the agent cards across these pages.
+
+**Legend:** ● F full access · ◐ R read only · ○ N no access. On a · action row, ● means the button works for that role, and both ◐ and ○ mean it does not.
 
 [Cockpit](#cockpit) · [Plan](#plan) · [Deploy](#deploy) · [Attribution](#attribution) · [Creative](#creative) · [Models](#models) · [Experiments](#experiments) · [Agents](#agents) · [Profiles](#profiles) · [Segments](#segments) · [Data](#data) · [Brain](#brain) · [Config](#config) · [Artifacts](#artifacts) · [Team](#team) · [Settings](#settings)
 
@@ -184,7 +173,7 @@ may use.
 
 ### Creative
 
-**Manage Roles** groups **Creative** under **Intelligence**. The module page is `/creatives`, its module-level rights are `LS-CR-01` and `LS-CR-02`, and it carries no action rights.
+**Manage Roles** groups **Creative** under **Intelligence**. The module page is `creatives`, its module-level rights are `LS-CR-01` and `LS-CR-02`, and it carries no action rights.
 
 | Sub-module                                             | WA | DP | MS | SP | EX | VW |
 | ------------------------------------------------------ | -- | -- | -- | -- | -- | -- |
@@ -403,28 +392,18 @@ see [Ask for access, and review requests](doc:access-requests).
 
 ## Custom roles
 
-Nothing on this page describes a custom role. A custom role is edited as the same 55
-rights, and the rights it carries are held in browser storage rather than in the
-source grid. Two things create one.
+The tables on this page cover the six built-in roles only, not custom roles. A custom role is built from the same 55 rights, but the rights it holds are saved in your browser rather than in the tables here. There are two ways a custom role gets created.
 
 | How it is created                            | Where                                    | The name                              |
 | -------------------------------------------- | ---------------------------------------- | ------------------------------------- |
 | A Workspace Admin builds it                  | **Team > Manage Roles** > **New role**   | Whatever is typed in the name field   |
 | A Workspace Admin approves an access request | **Team > Access Requests** > **Approve** | Generated as `{Base role} + {Module}` |
 
-The generated name takes the label of the role the requester already holds, then
-each granted module label in registry order, joined by `+`. Executive plus a
-granted Data module becomes `Executive + Data`, and a second approval for the same
-person extends the same name, as in `Executive + Data + Config`. A requester who is
-already a Workspace Admin gets no generated role, because there is nothing to add.
-The modules a generated role restates for its base role come from a separate legacy
-per-role URL list (`ROLE_PERMISSIONS` in `frontend/lib/navigation.ts`), not from the
-grid on this page, so the two can differ.
+**How a generated role gets its name.&#x20;**&#x57;hen an access request is approved, the new role is named after the role the person already holds, followed by each module they were granted, joined by +. For example, Executive granted Data becomes Executive + Data. A second approval for the same person extends that name, as in Executive + Data + Config. A Workspace Admin never gets a generated role, because they already have access to everything.
 
-For validation, treat any role name outside the six keys in the table above as
-holding no right on this page: the action-right gate resolves a custom role by exact
-name from a browser store that no mounted screen writes, so every action right is
-denied for it. Building one is on [Create a custom role](doc:custom-roles).
+**A generated role may not match this page exactly.&#x20;**&#x54;he modules it carries over from the person's original role come from a separate, older list of role access, not from the tables on this page, so the two can differ.
+
+**Custom roles and action buttons.** Treat any role not listed in the table above as holding none of the rights on this page. In this build, action buttons are never enabled for a custom role, so every action right is denied for it. Building one is on [Create a custom role](doc:custom-roles).
 
 <Callout icon="🚧" theme="warn">
   ### Role definitions are not shared, and assigning one moves nobody
@@ -432,304 +411,7 @@ denied for it. Building one is on [Create a custom role](doc:custom-roles).
   A role definition is written to one browser tab's session storage and never leaves it, so no colleague and no other device sees the role. Assigning any role — preset, custom or generated — does not change what the assigned person can open, because a session's role is fixed at sign-in. See [What's live in this build](doc:whats-live-in-this-build).
 </Callout>
 
-## Machine-readable matrix
-
-One block, the same grid, for programmatic use. `roles[key].modules` gives the
-module-level result (`manage`, `read` or `none`), `roles[key].action_rights` gives
-every action key the role holds, and `modules[id].action_rights` gives every action
-key that exists. An agent card's `requires_rights` entry is valid when it appears in
-some `modules[id].action_rights`, and that card's `requires_role` list must equal
-the set of roles whose `action_rights` contains the key.
-
-```json permissions
-{
-  "generated_from": {
-    "sources": ["frontend/lib/role-defaults.ts#ROLE_SUB_MODULE_DEFAULTS", "frontend/lib/module-registry.ts#MODULE_REGISTRY", "frontend/lib/access-rights.ts#buildAccessRightsRegistry"],
-    "notation": {"manage": "F - read and fullAccess", "read": "R - read, no fullAccess", "none": "N - neither"},
-    "module_open_rule": "A module opens when at least one of its sub-modules carries read. Action sub-modules count, because a granted action carries read as well.",
-    "action_rule": "An action right is allowed only when its module opens and the action key itself carries fullAccess. An unlisted key is denied, and read on an action key is an explicit deny.",
-    "always_open": ["/help-center"],
-    "counts": {"modules": 16, "sub_modules": 89, "rights": 55, "read_rights": 16, "manage_rights": 16, "action_rights": 23, "modules_with_action_rights": 9},
-    "unregistered_keys": ["experiments.create_update_delete_experiment"],
-    "role_key_aliases": {"admin": "WorkspaceAdmin", "analyst": "DataPractitioner", "executive": "Executive", "viewer": "Viewer"},
-    "generated_on": "2026-09-13",
-    "hand_edited": false
-  },
-  "app_build": "ls4x@feature/LS4X-155-support-help-center",
-  "roles": {
-    "WorkspaceAdmin": {
-      "label": "Workspace Admin",
-      "tagline": "Full platform access",
-      "listed_in_manage_roles": true,
-      "offered_in_invite_user": true,
-      "rights_held": 55,
-      "rights_total": 55,
-      "closed_modules": [],
-      "modules": {"cockpit": "manage", "plan": "manage", "deploy": "manage", "attribution": "manage", "creative": "manage", "models": "manage", "experiments": "manage", "agents": "manage", "profiles": "manage", "segments": "manage", "data": "manage", "brain": "manage", "config": "manage", "artifacts": "manage", "team": "manage", "settings": "manage"},
-      "action_rights": [
-        "cockpit.publish_artifact",
-        "plan.promote_to_decision",
-        "plan.download_export_allocation",
-        "deploy.change_bid_budget",
-        "deploy.change_status",
-        "deploy.edit_geo_deploy",
-        "attribution.promote_model",
-        "attribution.set_benchmark",
-        "models.request_rollback",
-        "models.retrain_model",
-        "models.refresh",
-        "experiments.promote_experiment",
-        "data.connect_integration",
-        "data.delete_integration",
-        "data.edit_delete_data_model",
-        "data.add_tactic_mapping",
-        "team.add_users",
-        "team.edit_permissions",
-        "team.create_new_role",
-        "team.deactivate_user",
-        "settings.configure_brand_kit",
-        "settings.create_brand_workspace",
-        "settings.update_workspace_settings"
-      ]
-    },
-    "DataPractitioner": {
-      "label": "Data Practitioner",
-      "tagline": "Data pipelines & measurement infrastructure",
-      "listed_in_manage_roles": true,
-      "offered_in_invite_user": true,
-      "rights_held": 27,
-      "rights_total": 55,
-      "closed_modules": ["config"],
-      "modules": {"cockpit": "read", "plan": "read", "deploy": "read", "attribution": "manage", "creative": "read", "models": "manage", "experiments": "manage", "agents": "read", "profiles": "read", "segments": "manage", "data": "manage", "brain": "read", "config": "none", "artifacts": "read", "team": "read", "settings": "manage"},
-      "action_rights": ["models.request_rollback", "experiments.promote_experiment", "data.connect_integration", "data.delete_integration", "data.edit_delete_data_model", "data.add_tactic_mapping"]
-    },
-    "MarketingScientist": {
-      "label": "Marketing Scientist",
-      "tagline": "Attribution, experiments & creative intelligence",
-      "listed_in_manage_roles": true,
-      "offered_in_invite_user": true,
-      "rights_held": 29,
-      "rights_total": 55,
-      "closed_modules": ["config"],
-      "modules": {"cockpit": "read", "plan": "read", "deploy": "read", "attribution": "manage", "creative": "manage", "models": "read", "experiments": "manage", "agents": "read", "profiles": "read", "segments": "read", "data": "read", "brain": "read", "config": "none", "artifacts": "read", "team": "read", "settings": "manage"},
-      "action_rights": [
-        "plan.download_export_allocation",
-        "deploy.change_bid_budget",
-        "deploy.change_status",
-        "deploy.edit_geo_deploy",
-        "attribution.promote_model",
-        "attribution.set_benchmark",
-        "models.retrain_model",
-        "models.refresh",
-        "experiments.promote_experiment",
-        "data.connect_integration",
-        "data.add_tactic_mapping"
-      ]
-    },
-    "StrategicPlanner": {
-      "label": "Strategic Planner",
-      "tagline": "Campaign planning & budget deployment",
-      "listed_in_manage_roles": true,
-      "offered_in_invite_user": true,
-      "rights_held": 24,
-      "rights_total": 55,
-      "closed_modules": ["profiles", "data", "config"],
-      "modules": {"cockpit": "read", "plan": "manage", "deploy": "read", "attribution": "read", "creative": "read", "models": "read", "experiments": "read", "agents": "read", "profiles": "none", "segments": "read", "data": "none", "brain": "read", "config": "none", "artifacts": "manage", "team": "read", "settings": "manage"},
-      "action_rights": ["cockpit.publish_artifact", "plan.promote_to_decision", "plan.download_export_allocation", "deploy.change_bid_budget", "deploy.change_status", "deploy.edit_geo_deploy", "attribution.promote_model", "attribution.set_benchmark"]
-    },
-    "Executive": {
-      "label": "Executive",
-      "tagline": "Read-only strategic overview",
-      "listed_in_manage_roles": true,
-      "offered_in_invite_user": true,
-      "rights_held": 16,
-      "rights_total": 55,
-      "closed_modules": ["profiles", "segments", "data", "config"],
-      "modules": {"cockpit": "read", "plan": "read", "deploy": "read", "attribution": "read", "creative": "read", "models": "read", "experiments": "read", "agents": "read", "profiles": "none", "segments": "none", "data": "none", "brain": "read", "config": "none", "artifacts": "read", "team": "read", "settings": "manage"},
-      "action_rights": ["cockpit.publish_artifact", "plan.promote_to_decision", "plan.download_export_allocation"]
-    },
-    "Viewer": {
-      "label": "Viewer",
-      "tagline": "Read-only across every module",
-      "listed_in_manage_roles": false,
-      "offered_in_invite_user": false,
-      "rights_held": 16,
-      "rights_total": 55,
-      "closed_modules": [],
-      "modules": {"cockpit": "read", "plan": "read", "deploy": "read", "attribution": "read", "creative": "read", "models": "read", "experiments": "read", "agents": "read", "profiles": "read", "segments": "read", "data": "read", "brain": "read", "config": "read", "artifacts": "read", "team": "read", "settings": "read"},
-      "action_rights": []
-    }
-  },
-  "modules": {
-    "cockpit": {
-      "label": "Cockpit",
-      "code": "CK",
-      "route": "/cockpit",
-      "section": "Platform",
-      "read_right": "LS-CK-01",
-      "manage_right": "LS-CK-02",
-      "sub_modules": {"overview_dashboard": "Overview & KPIs", "recommendations": "Recommendations", "alerts_config": "Alert configuration"},
-      "action_rights": {"cockpit.publish_artifact": "Publish Artifact from Cockpit"}
-    },
-    "plan": {
-      "label": "Plan",
-      "code": "PL",
-      "route": "/planning",
-      "section": "Action",
-      "read_right": "LS-PL-01",
-      "manage_right": "LS-PL-02",
-      "sub_modules": {"scenario_workspace": "Scenario workspace", "budget_simulation": "Budget simulation", "export_plans": "Export plans", "run_simulation": "Run Simulation"},
-      "action_rights": {"plan.promote_to_decision": "Promote to Decision", "plan.download_export_allocation": "Download / Export Allocation"}
-    },
-    "deploy": {
-      "label": "Deploy",
-      "code": "DP",
-      "route": "/decisions",
-      "section": "Action",
-      "read_right": "LS-DP-01",
-      "manage_right": "LS-DP-02",
-      "sub_modules": {"decision_queue": "Decision queue", "review_approve": "Review & approve", "activity_log": "Activity log", "change_bid": "Change bid", "budget": "Budget"},
-      "action_rights": {"deploy.change_bid_budget": "Change Bid/Budget", "deploy.change_status": "Change Status", "deploy.edit_geo_deploy": "Edit Geo Deploy"}
-    },
-    "attribution": {
-      "label": "Attribution",
-      "code": "AT",
-      "route": "/attribution",
-      "section": "Intelligence",
-      "read_right": "LS-AT-01",
-      "manage_right": "LS-AT-02",
-      "sub_modules": {"channel_overview": "Channel overview", "attribution_rules": "Attribution rules", "conversion_events": "Conversion events", "revenue_mapping": "Revenue mapping", "scheduled_reports": "Scheduled reports", "data_exports": "Data exports"},
-      "action_rights": {"attribution.promote_model": "Promote a model from Attribution", "attribution.set_benchmark": "Set Benchmark"}
-    },
-    "creative": {
-      "label": "Creative",
-      "code": "CR",
-      "route": "/creatives",
-      "section": "Intelligence",
-      "read_right": "LS-CR-01",
-      "manage_right": "LS-CR-02",
-      "sub_modules": {"creative_library": "Creative library", "performance_scoring": "Performance scoring", "tag_taxonomy": "Tag taxonomy", "brand_safety": "Brand safety rules"},
-      "action_rights": {}
-    },
-    "models": {
-      "label": "Models",
-      "code": "MO",
-      "route": "/models",
-      "section": "Causality",
-      "read_right": "LS-MO-01",
-      "manage_right": "LS-MO-02",
-      "sub_modules": {"model_registry": "Model registry", "model_runs": "Model runs", "budget_allocations": "Budget allocations", "scenario_library": "Scenario library", "diagnostics": "Diagnostics", "export_results": "Export results", "create_update": "Create / Update", "merge_model": "Merge model", "refresh_model": "Refresh model", "archive_model": "Archive Model"},
-      "action_rights": {"models.request_rollback": "Request rollback", "models.retrain_model": "Re-train", "models.refresh": "Refresh"}
-    },
-    "experiments": {
-      "label": "Experiments",
-      "code": "EX",
-      "route": "/experiments",
-      "section": "Causality",
-      "read_right": "LS-EX-01",
-      "manage_right": "LS-EX-02",
-      "sub_modules": {"experiment_builder": "Experiment builder", "test_library": "Test library", "results_dashboard": "Results dashboard", "holdout_groups": "Holdout groups"},
-      "action_rights": {"experiments.promote_experiment": "Promote experiment"}
-    },
-    "agents": {
-      "label": "Agents",
-      "code": "AG",
-      "route": "/agents",
-      "section": "System",
-      "read_right": "LS-AG-01",
-      "manage_right": "LS-AG-02",
-      "sub_modules": {"agent_status": "Agent status", "findings": "Findings & recommendations", "execution_logs": "Execution logs", "agent_config": "Agent configuration"},
-      "action_rights": {}
-    },
-    "profiles": {
-      "label": "Profiles",
-      "code": "PR",
-      "route": "/profiles",
-      "section": "System",
-      "read_right": "LS-PR-01",
-      "manage_right": "LS-PR-02",
-      "sub_modules": {"customer_profiles": "Customer profiles", "profile_exports": "Profile exports"},
-      "action_rights": {}
-    },
-    "segments": {
-      "label": "Segments",
-      "code": "SG",
-      "route": "/segments",
-      "section": "System",
-      "read_right": "LS-SG-01",
-      "manage_right": "LS-SG-02",
-      "sub_modules": {"audience_segments": "Audience segments", "segment_builder": "Segment builder", "segment_exports": "Segment exports"},
-      "action_rights": {}
-    },
-    "data": {
-      "label": "Data",
-      "code": "DA",
-      "route": "/data",
-      "section": "System",
-      "read_right": "LS-DA-01",
-      "manage_right": "LS-DA-02",
-      "sub_modules": {"integrations": "Integrations", "transformation": "Transformation rules", "taxonomy": "Taxonomy management", "pipeline_config": "Pipeline config", "schema_editor": "Schema editor", "dq_monitor": "Data quality monitor"},
-      "action_rights": {"data.connect_integration": "Connect Integration", "data.delete_integration": "Delete Integration", "data.edit_delete_data_model": "Edit / Delete Data Model", "data.add_tactic_mapping": "Add Tactic Mapping"}
-    },
-    "brain": {
-      "label": "Brain",
-      "code": "BR",
-      "route": "/brain",
-      "section": "System",
-      "read_right": "LS-BR-01",
-      "manage_right": "LS-BR-02",
-      "sub_modules": {"knowledge_graph": "Knowledge graph", "node_exploration": "Node exploration"},
-      "action_rights": {}
-    },
-    "config": {
-      "label": "Config",
-      "code": "CF",
-      "route": "/config",
-      "section": "System",
-      "read_right": "LS-CF-01",
-      "manage_right": "LS-CF-02",
-      "sub_modules": {"cost_config": "Cost configuration", "value_settings": "Value settings (AOV & CLTV)", "keyword_config": "Keyword configuration", "algorithmic_weights": "Algorithmic weights"},
-      "action_rights": {}
-    },
-    "artifacts": {
-      "label": "Artifacts",
-      "code": "AF",
-      "route": "/artifacts",
-      "section": "Artifacts",
-      "read_right": "LS-AF-01",
-      "manage_right": "LS-AF-02",
-      "sub_modules": {"artifact_library": "Artifact library", "template_builder": "Template builder", "publish_settings": "Publish settings"},
-      "action_rights": {}
-    },
-    "team": {
-      "label": "Team",
-      "code": "TM",
-      "route": "/team",
-      "section": "Workspace",
-      "read_right": "LS-TM-01",
-      "manage_right": "LS-TM-02",
-      "sub_modules": {"view_members": "View team members", "manage_members": "Add / deactivate members", "manage_permissions": "Edit member permissions"},
-      "action_rights": {"team.add_users": "Add Users", "team.edit_permissions": "Edit Permissions", "team.create_new_role": "Create New Role", "team.deactivate_user": "Deactivate User"}
-    },
-    "settings": {
-      "label": "Settings",
-      "code": "ST",
-      "route": "/settings",
-      "section": "Workspace",
-      "read_right": "LS-ST-01",
-      "manage_right": "LS-ST-02",
-      "sub_modules": {"workspace_config": "Workspace configuration", "notification_prefs": "Notification preferences", "api_access": "API keys & webhooks"},
-      "action_rights": {"settings.configure_brand_kit": "Configure Brand Kit", "settings.create_brand_workspace": "Create New Brand Workspace", "settings.update_workspace_settings": "Update Workspace Settings"}
-    }
-  }
-}
-```
-
-The key `experiments.create_update_delete_experiment`, listed under
-`generated_from.unregistered_keys`, exists in every role grid and in no module, so
-no screen reads it as a right — only its `read` value counts, and only towards
-whether Experiments opens. Treat it as absent when validating a `requires_rights`
-list.
+<br />
 
 ## Related
 
