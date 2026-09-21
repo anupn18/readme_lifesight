@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Causal Attribution: See What Truly Drives Revenue'
+title: ' Causal Attribution: See What Truly Drives Revenue'
 excerpt: >-
   Measure the real impact of every channel and keep spend on track against your
   plan
