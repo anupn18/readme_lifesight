@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Build a schema for Geo Experiments'
+title: Build a schema for Geo Experiments
 excerpt: >-
   Define the KPI and geographic dimension a geo test needs, so incremental lift
   can be measured against matched control regions.
