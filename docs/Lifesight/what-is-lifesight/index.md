@@ -213,8 +213,16 @@ Together, these layers give you one connected measurement system: model-ready da
 
 ## Related Articles
 
-* [How Lifesight Works: Architecture & Workflow](how-lifesight-works)
-* [What Data Do I Need for Lifesight?](what-data-do-i-need-for-lifesight)
-* [Designing a Geo-Lift Test with Lifesight](designing-a-geo-lift-test-with-lifesight)
-* [From Attribution to Incrementality-Adjusted KPIs](from-attribution-to-incrementality-adjusted-kpis)
-* [Scenario Planning: Building Your Efficiency-to-Growth Curve](scenario-planning-building-your-efficiency-to-growth-curve)
+<Cards>
+  <Card title="Who is lifesight for" icon="🤵">
+    See if Lifesight is fit for you
+  </Card>
+
+  <Card title="How Lifesight Words" icon="⏳">
+    From Fragmented Data to Causal Decisions
+  </Card>
+
+  <Card title="Getting Started " icon="📖">
+    Quickstart guide
+  </Card>
+</Cards>
