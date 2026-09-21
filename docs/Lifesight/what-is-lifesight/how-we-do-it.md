@@ -6,10 +6,13 @@ hidden: false
 link:
   new_tab: false
 metadata:
-  title: ''
-  description: ''
+  title: How Lifesight Works
+  description: From Fragmented Data to Causal Decisions
+  keywords:
+    - How Lifesight Works
   robots: index
 next:
+  description: How Lifesight Works
   pages:
     - title: Modern Measurement Playbook by Google
       type: link
