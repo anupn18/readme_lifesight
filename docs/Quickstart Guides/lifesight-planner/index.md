@@ -67,3 +67,81 @@ When you have found the scenario you want to move forward with, promote it. Prom
 The promoted plan becomes the default view in Planner and is read-only there, which keeps your approved plan protected from accidental changes. If you need to make edits, open the plan from **Plan List** to get an editable view.
 
 > Your Planner results reflect the promoted model, reference period, constraints, and assumptions selected for each scenario. If any of these change, rerun your scenarios to keep your forecasts and recommendations accurate.
+
+***
+
+## Frequently asked questions<br />
+
+### What is Planner in Lifesight?
+
+Planner is the budget planning and optimization capability in Lifesight 4.0. It uses your promoted Marketing Mix Model (MMM) to forecast how different media and commercial scenarios will perform, so you can compare options and choose the budget allocation most likely to hit your revenue or spend goals before you commit budget.
+
+### How does Planner recommend a budget allocation?
+
+Planner runs a simulation using your promoted Marketing Mix Model, your selected planning and reference periods, channel constraints, and non-media drivers. It then compares your current allocation against a recommended allocation and shows where to increase or reduce spend by channel.
+
+### Can Planner optimize for a revenue target instead of a fixed budget?
+
+Yes. Planner supports two optimization goals. You can optimize a fixed budget, where Planner recommends the best split of the spend you have, or work toward a revenue goal, where Planner estimates the spend required to reach your target.
+
+### What is a promoted model in Planner?
+
+A promoted model is the Marketing Mix Model your team has approved as the source of truth for planning. Planner uses the promoted model for every scenario in a plan, so all scenarios are compared on the same basis.
+
+### What is the difference between the planning period and the reference period?
+
+The planning period is the future time window you are building a budget plan for. The reference period is a past time window that Planner uses as a baseline for spend and performance, which anchors your forecast in real historical results.
+
+### Can I set minimum or maximum spend limits for a channel?
+
+Yes. Planner lets you configure channel constraints, which are minimum and maximum spend limits for each channel. Use them to reflect media contracts, spend commitments, or business rules so recommendations stay realistic for your team.
+
+### What are non-media drivers and control variables in Planner?
+
+Non-media drivers, set up in Planner as control variables, are factors outside advertising that influence sales, such as pricing, promotions, or seasonality. Including them in a scenario helps Planner separate the impact of media spend from other business factors.
+
+### Can I control how budget is spread across months?
+
+Yes. Planner supports custom monthly pacing, which sets how your budget is distributed across each month of the planning period. This helps you plan around seasonal peaks, product launches, or cash flow needs.
+
+### What results does Planner show after a simulation?
+
+After you run a simulation, Planner shows headline KPIs for expected revenue, spend, and efficiency, along with spend recommendations, forecast charts and tables, a budget worksheet comparing current and recommended spend by channel, saturation curves, pacing breakdowns, and dimension analysis by channel, region, or other breakdowns in your model.
+
+### What do saturation curves show in Planner?
+
+Saturation curves show the point at which additional spend in a channel starts to deliver diminishing returns. They help you spot channels where you are overspending and channels that still have room to scale efficiently.
+
+### How do I compare multiple budget scenarios in Planner?
+
+Create a plan and add more than one scenario to it. You can build a scenario from scratch or copy the active scenario and change the assumptions you want to test, such as budget level or channel mix. Run each scenario, then compare the results side by side. All scenarios in a plan use the same model, so the comparison is consistent.
+
+### How do I save a plan in Planner?
+
+Save the plan after all of its scenarios have finished running. Saved plans appear in **Plan List**, where you can browse, load, archive, restore, delete, promote, or demote plans, depending on your permissions.
+
+### What happens when I promote a scenario?
+
+Promoting a scenario makes it available in Decisions and to downstream deployment workflows, so your chosen plan moves from modeling into execution. The promoted plan becomes the default view in Planner.
+
+### Why can't I edit my promoted plan?
+
+The promoted plan is read-only in the default Planner view to protect your approved plan from accidental changes. To make edits, open the plan from **Plan List**, which gives you an editable view.
+
+### When should I rerun my Planner scenarios?
+
+Rerun your scenarios whenever the promoted model, reference period, constraints, or other assumptions change. Planner results depend on these inputs, so rerunning keeps your forecasts and recommendations accurate.
+
+***
+
+## Related Articles
+
+<Cards>
+  <Card title="Card One" icon="fa-rocket">
+
+  </Card>
+
+  <Card title="Card Two" icon="fa-code">
+
+  </Card>
+</Cards>
