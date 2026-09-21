@@ -188,11 +188,7 @@ On the Artifacts page, click **See all**, then search by name or filter by **All
 ## Related Articles
 
 <Cards>
-  <Card title="Card One" icon="fa-rocket">
-
-  </Card>
-
-  <Card title="Card Two" icon="fa-code">
+  <Card title="Plan your budget " icon="fa-rocket">
 
   </Card>
 </Cards>
