@@ -6,7 +6,7 @@ excerpt: >-
   meant to do.
 hidden: true
 metadata:
-  title: '[ Data Taxonomy: Turn campaign names into a structure you can measure on'
+  title: 'Data Taxonomy: Turn campaign names into a structure you can measure on'
   keywords:
     - Lifesight Data Taxonomy
 ---
