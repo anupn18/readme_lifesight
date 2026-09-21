@@ -4,7 +4,7 @@ excerpt: >-
   How to measure full-funnel marketing effectiveness using multiple
   methodologies
 deprecated: false
-hidden: false
+hidden: true
 link:
   new_tab: false
 metadata:
