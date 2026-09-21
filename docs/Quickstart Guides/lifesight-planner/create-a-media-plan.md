@@ -204,11 +204,11 @@ The promoted scenario becomes the active input for Decisions and Deploy, so your
 ## Related Articles
 
 <Cards>
-  <Card title="Overview of the Plan" icon="fa-rocket">
+  <Card title="Causal Attribution" icon="fa-rocket">
 
   </Card>
 
-  <Card title="Card Two" icon="fa-code">
+  <Card title="Artifacts" icon="fa-code">
 
   </Card>
 </Cards>
