@@ -217,3 +217,13 @@ Yes. Agencies can plan and optimize to incrementality, run geo tests, and report
 
 **Where should we start?**
 Start where the stakes or the uncertainty are highest. To find the right starting point for your team, talk to our team about a data readiness check.
+
+<Cards>
+  <Card title="Previous" icon="❓">
+    What is Lifesight
+  </Card>
+
+  <Card title="Next" href="https://docs.lifesight.io/v2.0/update/docs/how-lifesight-works" icon="fa-code">
+    How Lifesight Works
+  </Card>
+</Cards>
