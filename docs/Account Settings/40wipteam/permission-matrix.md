@@ -1,8 +1,6 @@
 ---
 title: '[4.0][Doubts]Permission Matrix'
-excerpt: >-
-  The generated grid of six Lifesight roles against 16 modules, 89 sub-modules
-  and 23 action rights, plus one JSON block for validating requires_rights.
+excerpt: The generated grid of six Lifesight roles.
 deprecated: false
 hidden: true
 metadata:
