@@ -246,7 +246,7 @@ Every Lifesight module appears here, one per row, so you can check what each rol
 
 ### Team
 
-**Manage Roles** groups **Team** under **Workspace**. The module page is `/team`, its module-level rights are `LS-TM-01` and `LS-TM-02`, and it carries 4 action rights.
+**Manage Roles** groups **Team** under **Workspace**. The module page is `/team`and it carries 4 action rights.
 
 | Sub-module                    | WA | DP | MS | SP | EX | VW |
 | ----------------------------- | -- | -- | -- | -- | -- | -- |
