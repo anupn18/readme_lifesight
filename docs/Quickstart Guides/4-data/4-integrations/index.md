@@ -1,11 +1,11 @@
 ---
-title: '[4.0][Updated] Integrations'
+title: '[4.0][Updated] How to add Integrations'
 excerpt: >-
   Connect your ad platforms, files, and warehouses to Lifesight, and keep an eye
   on whether the data is still populating..
 hidden: true
 metadata:
-  title: Lifesight Integrations
+  title: How to add Integrations
   keywords:
     - Lifesight
     - Integrations
