@@ -4,6 +4,10 @@ excerpt: Learn about Lifesight and its features
 deprecated: false
 hidden: false
 metadata:
+  title: Account Settings
+  description: Learn about Lifesight and its features
+  keywords:
+    - Account settings
   robots: index
 ---
 Lifesight is a **agentic unified marketing measurement (UMM) platform**. It tells you how much of your revenue your media actually drove, and then helps you act on it.&#x20;
