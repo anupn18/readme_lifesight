@@ -110,6 +110,6 @@ Related Article
 
 <Cards>
   <Card title="Build your first plan" href="https://docs.lifesight.io/v2.0/update/docs/create-a-media-plan" icon="fa-rocket">
-
+    Create a scenario, forecast its impact, and turn the strongest option into a plan your team can act on
   </Card>
 </Cards>
