@@ -1,5 +1,5 @@
 ---
-title: '[4.0][ReadyForQA] Creating a Custom Role'
+title: '[4.0][ReadyForQA] Create a custom role'
 excerpt: >-
   Team > Manage Roles holds the five preset roles and the Read, Manage and
   Actions grid where a Workspace Admin creates, edits and deletes custom roles.
@@ -8,18 +8,24 @@ hidden: true
 metadata:
   robots: index
 ---
-A custom role is a set of rights you assemble yourself, module by module, on
-**Team > Manage Roles** — the tab that also shows the five preset roles read-only.
+A role decides what a person can open and change in Lifesight. Five preset roles cover most teams, but when someone needs a combination no preset holds, you build a custom role: a set of rights you assemble yourself, module by module.
+
+Everything happens on **Team > Manage Roles**, the tab that also shows the five preset roles read-only. Start by reading a preset that comes close to what you need, so you can see the shape you are aiming for before you tick anything.
 
 <Callout icon="📘" theme="info">
   ### Who can do this
 
-  **Role:** Workspace Admin. Every role can open the tab and read the grid. For everyone else **New role** stays visible at 50% opacity with the tooltip `Your role ({Role}) cannot create new role. Ask a workspace admin for access.`
-  **Where:** Sidebar user menu > **Team** > **Manage Roles**
-  **Time:** About 3 minutes per role.
+  **Role:** Workspace Admin. Every role can open the tab and read the grid. For everyone else **New role** stays visible at 50% opacity with the tooltip `Your role ({Role}) cannot create new role. Ask a workspace admin for access.`<br />**Where:** Sidebar user menu > **Team** > **Manage Roles**<br />**Time:** About 3 minutes per role.
 </Callout>
 
-## Look at a preset role first
+## Before you start
+
+- You are signed in as a Workspace Admin.
+- Team > Manage Roles is open.
+- You know which modules the person needs to open, which they need to change, and which named actions they need to run.
+- You have checked whether a preset already covers it. Moving someone onto a preset is one step on Manage Team.
+
+## Read a preset role first
 
 **Manage Roles** opens on **Workspace Admin**.
 
@@ -45,7 +51,7 @@ You should see the role name in the right pane, the tagline, and the number of r
   ### **Role:** Workspace Admin
 </Callout>
 
-1. On **Team > Manage Roles**, select **New role**.
+1. In **Team > Manage Roles**, select **New role**.
 2. In the name field, enter a name for the role.
 3. Optional: in **Filter by label or type…**, enter a label, a right code such as `LS-DA-03`, or `read`, `manage` or `action`.
 4. Tick **Read** on every module the role should open.
@@ -53,11 +59,11 @@ You should see the role name in the right pane, the tagline, and the number of r
 6. Select the chips in **Actions** that the role should be able to use.
 7. Select **Create role**.
 
-You should see the toast `Role "{name}" saved`, the role under **Custom Roles**, and the right pane headed by the role name with an **Editing** badge. **Create role** stays disabled until the name field has text, so a blank name raises `Enter a role name` only if you press Enter in the empty field. If the toast reads `A role with that name already exists`, change the name and return to step 7.
+![](https://files.readme.io/b18963e9a4a0b23866d951c7bad65b1d9bbf0c19f590bbed1b778316f90b204b-Screenshot_2026-09-21_at_7.58.35_AM.png)
 
-The name field carries the placeholder **Custom Role Name**, takes focus on its own,
-and saves on Enter. The counter above the grid reads `{n} of 55 permissions selected`
-and updates as you tick. **Clear** empties the filter.
+<br />You should see the toast `Role "{name}" saved`, the role under **Custom Roles**, and the right pane headed by the role name with an **Editing** badge.&#x20;
+
+**Create role** stays disabled until the name field has text, so a blank name raises `Enter a role name` only if you press Enter in the empty field. If the toast reads `A role with that name already exists`, change the name and return to step 7.
 
 You're done when:
 
@@ -65,12 +71,11 @@ You're done when:
 - The counter matches the rights you meant to grant.
 - The role is offered in **Invite User** and **Change role** on **Manage Team**.
 
-## &#x20;the Read, Manage and Actions columns work
+## Understand the Read, Manage, and Actions columns
 
-The grid has four columns — **Module**, **Read**, **Manage** and **Actions** — and its
-rows are grouped under **Platform**, **Action**, **Intelligence**, **Causality**,
-**System**, **Artifacts** and **Workspace**. It holds 55 rights: a read and a manage
-right for each of the 16 modules, plus one right per action, 23 in all.
+The grid has four columns, Module, Read, Manage, and Actions, with rows grouped under Platform, Action, Intelligence, Causality, System, Artifacts, and Workspace.
+
+It holds 55 rights in total: a read and a manage right for each of the 16 modules, plus one right per action, 23 in all..
 
 | Column      | What it grants                                    | The rule                                                                                                            |
 | ----------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -78,24 +83,43 @@ right for each of the 16 modules, plus one right per action, 23 in all.
 | **Manage**  | Changes and configures the module                 | Ticking **Manage** ticks **Read** on that module                                                                    |
 | **Actions** | One named button, such as **Connect Integration** | Chips are independent of **Read** and **Manage**, and an action right stays denied while the module has no **Read** |
 
-Nine modules carry action rights: Cockpit 1, Plan 2, Deploy 3, Attribution 2, Models 3,
-Experiments 1, Data 4, Team 4 and Settings 3. The other seven — Creative, Agents,
-Profiles, Segments, Brain, Config and Artifacts — have none; their **Actions** cell is
-always `—`.
+Because of that last rule, always grant Read on a module before you select its action chips. An action chip on a module with no Read grants nothing.
 
-Outside edit mode the grid lists only the modules that hold at least one right. A cell
-reads `✓` when the right is granted and `—` when it is not, and granted action rights
-appear as chips. A custom role with nothing ticked reads `No permissions granted` with
-the line `Use the pencil beside this role to add permissions`. A filter that matches
-nothing reads `No rights match your search`.
+**Which modules carry actions:** Nine do: Cockpit 1, Plan 2, Deploy 3, Attribution 2, Models 3, Experiments 1, Data 4, Team 4, and Settings 3. The other seven, Creative, Agents, Profiles, Segments, Brain, Config, and Artifacts, have none, and their Actions cell always reads `—`
+
+Outside edit mode the grid lists only the modules that hold at least one right. A cell reads ✓ when the right is granted and when it is not, and granted action rights appear as chips. A custom role with nothing ticked reads `No permissions granted` with the line `Use the pencil beside this role to add permissions`. A filter that matches nothing reads No rights match your search.
 
 The full role-by-module-by-right matrix is on [Permissions matrix](doc:permissions-matrix-reference).
 
 ## FAQ
 
-### Should I create a custom role or move the person onto a preset?
+**Should I create a custom role or move the person onto a preset?**
 
-Move the person onto a preset when one of the five covers their needs — one step on **Manage Team**. Create a custom role for a combination no preset holds.
+Move the person onto a preset when one of the five covers their needs, which is one step on Manage Team. Create a custom role for a combination no preset holds.
+
+**Should I create a custom role or move the person onto a preset?**
+
+Move the person onto a preset when one of the five covers their needs, which is one step on Manage Team. Create a custom role for a combination no preset holds.
+
+**How many rights are there in total?**
+
+55: a read and a manage right for each of the 16 modules, plus 23 action rights spread across nine modules.
+
+**Why did Read tick itself when I ticked Manage?**
+
+You cannot change a module you cannot open, so Manage always carries Read with it. The reverse also holds: removing Read removes Manage.
+
+**Can I grant an action without granting the module?**
+
+You can tick the chip, but it will not work. An action right stays denied while the module has no Read.
+
+**Where does the role get used?**
+
+Once saved, it appears in Invite User and Change role on Manage Team. See Invite, change, and deactivate teammates.
+
+**Can I create a custom role from the invite dialog?**
+
+No. Selecting + Create Custom Role there sends you here. Build the role first, then invite.
 
 ## Related
 
