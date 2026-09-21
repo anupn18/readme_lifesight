@@ -6,6 +6,10 @@ hidden: false
 link:
   new_tab: false
 metadata:
+  title: Who is Lifesight For?
+  description: See if Lifesight is a fit for you and your organization
+  keywords:
+    - Lifesight customers
   robots: index
 ---
 Lifesight is built for busiensses that want causal, finance-ready marketing decisions, from board-level budget allocation down to day-to-day optimization, without depending on user-level tracking. If you care about incremental ROI, profit-aligned forecasting, and guardrails grounded in measured lift, you're in the right place.
