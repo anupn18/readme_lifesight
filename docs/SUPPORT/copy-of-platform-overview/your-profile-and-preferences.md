@@ -13,9 +13,8 @@ Your profile and preferences decide how Lifesight looks and behaves for you. Pic
 <Callout icon="📘" theme="info">
   ### Who can do this
 
-  **Role:** Everyone, no control on **Preferences** or **Edit Profile** is role-gated
+  **Role:** Everyone, no control on **Preferences** or **Edit Profile** is role-gated<br />
   **Where:** Sidebar user menu > **Settings** > **Preferences**
-  **Time:** About 2 minutes.
 </Callout>
 
 ## Before you start
