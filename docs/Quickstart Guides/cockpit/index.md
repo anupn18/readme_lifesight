@@ -214,18 +214,87 @@ You can see exactly what's included in the context panel. Click **Remove** to as
   **I do not have access to integrate.** Connecting a platform usually needs admin access on that platform. Invite the person who has it from **Settings → Team**, and they can complete the step for you.
 </Callout>
 
-## Related Articles
+## Frequently asked questions
+
+**What is the Cockpit in Lifesight?**
+The Cockpit is the home screen of Lifesight and the first thing you see when you log in. Instead of a set of dashboards, it shows what needs your decision right now and gives you one place to ask questions about your marketing performance. It has three parts: a headline showing where your workspace stands, an Ask box for questions and skills (ready-made analyses), and cards raised by your agents.
+
+**How is the Lifesight Cockpit different from a regular analytics dashboard?**
+A regular analytics dashboard shows what happened and leaves you to work out what to do next. The Lifesight Cockpit works the other way around: agents monitor your workspace, bring the items that need your action to you, and show the evidence behind each one before you decide.
+
+**What are agents in the Lifesight Cockpit?**
+Agents are AI assistants that watch your Lifesight workspace and raise cards when something needs your attention. There are three: the Onboarding Agent helps you set up a new workspace and build your first model, the Data Agent makes sure data keeps flowing in from your connected platforms, and the Growth Agent monitors your models, plans, budget changes, and experiments.
+
+**What are cards in the Lifesight Cockpit?**
+Cards are alerts your agents raise about something happening in your workspace right now, such as a data connector that stopped syncing or experiment results waiting to be read out. Each card shows which agent raised it, what happened, the supporting evidence, and one primary action. Cards clear on their own once the underlying issue is resolved.
+
+**What do the card labels "For your attention," "Needs your input," and "Needs your approval" mean in Lifesight?**
+The label tells you what kind of response a card needs. "For your attention" means something happened that you should act on or acknowledge. "Needs your input" means a decision only you can make. "Needs your approval" means a recommendation that affects your ad spend.
+
+**How does Lifesight decide which Cockpit cards to show first?**
+Cards in the Lifesight Cockpit are ranked for each user individually. Cards about areas you own rank first, and cards addressed to you rank above ones a teammate is already handling. Questions and approvals move up the longer they wait, anything close to expiring jumps to the top, and critical issues such as a broken data connection always get a spot because they affect everyone.
+
+**Why is the Lifesight Cockpit different for each user?**
+The Lifesight Cockpit is tailored to your persona (your role in the platform): Measurement Analyst, Growth Marketer, Media Planner, Marketing Ops, Marketing Leader, or Generalist. Your persona decides which cards appear first and which questions are suggested under the Ask box. It is set when you are invited, and you can change it anytime in Settings → Profile.
+
+**How can I see why a card appeared in my Lifesight Cockpit?**
+Click "Why am I seeing this?" at the bottom of any Cockpit card. It shows the evidence that raised the card, why it ranks where it does in your list, which data the evidence was pulled from, and what dismissing the card will actually do.
+
+**Why is a card still showing in the Lifesight Cockpit after I clicked its action?**
+Clicking an action on a Cockpit card, such as Reconnect, only takes you to the right page. The card stays until the underlying issue is resolved, for example the connection is fixed, the model is promoted, or the budget changes are applied. It then clears at the next check.
+
+**Why did a dismissed card come back in the Lifesight Cockpit?**
+Dismissing a Cockpit card hides that specific card for you. If something new happens, such as the same connection failing again or a new week of budget recommendations arriving, the agent raises a new card.
+
+**Where do I find Cockpit cards that aren't shown on screen?**
+The Lifesight Cockpit shows your top three cards in full, and the rest wait in a queue underneath in the same priority order. Click the queue to open it and see each card's title, agent, request, and ranking reason. When you act on or set aside one of the top three, the next card in the queue moves up.
+
+**How do I set up a new Lifesight workspace from the Cockpit?**
+In a new workspace, the Onboarding Agent guides you through three steps, one card at a time: connect your ad platforms, onboard your conversion data (connect Shopify or upload a conversion file), and build a model. Each step completes when the setup is actually live, and the next card appears automatically.
+
+**What format should a conversion data file be in when uploading to Lifesight?**
+A conversion file uploaded during Lifesight onboarding must match one of two formats. National data needs the columns `date, orders, revenue`. Geographic data needs the columns `date, state, orders, revenue`.
+
+**Do I need to complete Lifesight setup steps from the Cockpit?**
+No. If you connect a platform from Data → Integrations or train a model from Models, the matching setup card in the Cockpit completes automatically, so you never have to do a step twice.
+
+**Why is the Lifesight Cockpit still asking me to connect an ad platform?**
+The setup step only counts an integration that is fully active. If a connector is still authorizing or its authorization has expired, the step will not complete. Open Data → Integrations in Lifesight and check the connector's status.
+
+**What if I don't have access to connect an ad platform to Lifesight?**
+Connecting a platform to Lifesight usually requires admin access on that ad platform. Invite the teammate who has admin access from Settings → Team, and they can complete the connection for you.
+
+**What if my platform isn't listed in Lifesight integrations?**
+Browse the full list in Data → Integrations first. If your platform isn't there, raise a ticket with Lifesight and upload your data as a CSV in the meantime so your measurement isn't held up.
+
+**What cards will I see in the Lifesight Cockpit after setup is complete?**
+Once your data is in, Cockpit cards shift to day-to-day decisions. These include a model that is promoted but has no plan yet, trained models waiting for you to pick a champion (the model your plans use), a channel spending ahead of or behind plan, weekly budget changes ready to apply, a connector that is down, and experiments waiting to be read out or scheduled.
+
+**How does the Ask box work in the Lifesight Cockpit?**
+Type a question into the Ask box and press Enter, and the answer streams in right on the page. You can also run a skill (a ready-made analysis) or reopen one of your three most recent conversations shown under the box. Use Home to return to the Cockpit, New thread to start fresh, and History to search past conversations.
+
+**Can I ask a follow-up question about a specific Cockpit card?**
+Yes. Click Ask on any Lifesight Cockpit card to open a conversation with that card already attached, so you can ask something like "what does this affect?" without explaining the context again.
+
+**Can I use Lifesight's Ask feature outside the Cockpit?**
+Yes. Your Ask conversation follows you across Lifesight. Start a question in the Cockpit, move to Attribution, and the same conversation is waiting in the side panel. Open it anywhere with the Ask button in the top bar or by pressing Alt + C.
+
+**Does Lifesight Ask know which page and filters I'm looking at?**
+Yes. When you ask from anywhere in Lifesight, Ask automatically includes your brand, the page and tab you're on, your date range, and your filters. You can see exactly what's included in the context panel, and click Remove to ask without it or Restore to add it back.
+
+**How do I give feedback on an answer in Lifesight Ask?**
+Rate any answer with a thumbs up or thumbs down. A thumbs down lets you tell Lifesight what went wrong. Suggested follow-up questions also appear under each answer to keep the conversation going.
+
+***
+
+## <br />Related Articles
 
 <Cards>
   <Card title="Card One" icon="fa-rocket">
 
   </Card>
 
-  <Card title="Card Two" icon="fa-code">
-
-  </Card>
-
-  <Card title="Card Three" icon="fa-comments">
-
+  <Card title="Next up" icon="fa-code">
+    Connect your Data
   </Card>
 </Cards>
