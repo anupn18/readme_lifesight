@@ -1,5 +1,5 @@
 ---
-title: '[4.0][WIP] Overview of plan'
+title: Overview of plan
 excerpt: >-
   See how the scenario wizard turns your model, goals, and constraints into a
   plan you can act on.
@@ -105,3 +105,15 @@ Plans only appear in Plan List after you select **Save Plan**. Draft plans that 
 ### Can I add more scenarios after creating a plan?
 
 Yes. After your first scenario is created, you can add more scenarios to the same plan, either from scratch or by copying the active scenario, and compare their results side by side.
+
+Related Articles
+
+<Cards>
+  <Card title="Build your first plan" href="https://docs.lifesight.io/v2.0/update/docs/create-a-media-plan" icon="fa-rocket">
+
+  </Card>
+
+  <Card title="Card Two" icon="fa-code">
+
+  </Card>
+</Cards>
