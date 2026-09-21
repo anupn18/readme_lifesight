@@ -53,14 +53,14 @@ This page describes rights, not people. Your session carries the role it was giv
 
 Six roles ship built in. The lookup key is the role name as the product writes it.
 
-| Role                    | Key                  | Tagline                                          | Rights held | Offered in                                         |
-| ----------------------- | -------------------- | ------------------------------------------------ | ----------- | -------------------------------------------------- |
-| **Workspace Admin**     | `WorkspaceAdmin`     | Full platform access                             | 55 of 55    | **Invite User**, **Change role**, **Manage Roles** |
-| **Data Practitioner**   | `DataPractitioner`   | Data pipelines & measurement infrastructure      | 27 of 55    | **Invite User**, **Change role**, **Manage Roles** |
-| **Marketing Scientist** | `MarketingScientist` | Attribution, experiments & creative intelligence | 29 of 55    | **Invite User**, **Change role**, **Manage Roles** |
-| **Strategic Planner**   | `StrategicPlanner`   | Campaign planning & budget deployment            | 24 of 55    | **Invite User**, **Change role**, **Manage Roles** |
-| **Executive**           | `Executive`          | Read-only strategic overview                     | 16 of 55    | **Invite User**, **Change role**, **Manage Roles** |
-| **Viewer**              | `Viewer`             | Read-only across every module                    | 16 of 55    | **Change role**                                    |
+| Role                    | Key                  | Tagline                                          | Offered in                                         |
+| ----------------------- | -------------------- | ------------------------------------------------ | -------------------------------------------------- |
+| **Workspace Admin**     | `WorkspaceAdmin`     | Full platform access                             | **Invite User**, **Change role**, **Manage Roles** |
+| **Data Practitioner**   | `DataPractitioner`   | Data pipelines & measurement infrastructure      | **Invite User**, **Change role**, **Manage Roles** |
+| **Marketing Scientist** | `MarketingScientist` | Attribution, experiments & creative intelligence | **Invite User**, **Change role**, **Manage Roles** |
+| **Strategic Planner**   | `StrategicPlanner`   | Campaign planning & budget deployment            | **Invite User**, **Change role**, **Manage Roles** |
+| **Executive**           | `Executive`          | Read-only strategic overview                     | **Invite User**, **Change role**, **Manage Roles** |
+| **Viewer**              | `Viewer`             | Read-only across every module                    | **Change role**                                    |
 
 **Lifesight has 55 rights in total.** Each of the 16 modules has a **Read access** right and a **Manage access** right, and each of the 23 actions has one right of its own. When you select a role on **Manage Roles,** the detail panel shows how many rights it holds, as a number labeled permissions. Viewer does not appear on **Manage Roles or in the Invite User role** list, so its count of 16 comes from the same grid rather than from a screen.
 
