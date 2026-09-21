@@ -206,8 +206,6 @@ Every Lifesight module appears here, one per row, so you can check what each rol
 | **Holdout groups**              | ●  | ●  | ●  | ○  | ○  | ◐  |
 | **Promote experiment** · action | ●  | ●  | ●  | ○  | ○  | ○  |
 
-Every role grid also carries the key `experiments.create_update_delete_experiment`, which the module registry does not define. No screen reads it as a right, and only its `read` value counts towards whether Experiments opens. It changes nothing today, because Experiments already opens for every role.
-
 ### Data
 
 **Manage Roles** groups **Data** under **System**. The module page is `/data` and it carries 4 action rights.
