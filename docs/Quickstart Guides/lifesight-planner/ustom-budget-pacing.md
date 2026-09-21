@@ -14,6 +14,10 @@ metadata:
 ---
 Custom budget pacing lets you control how your planned budget is spread across each month of your plan period, instead of splitting it evenly. You can set a budget for each month and apply month-specific channel constraints (spend limits per channel), so your scenario forecasts results based on when you actually plan to spend.
 
+![](https://files.readme.io/20a564e787df0002e1a8264ac5bf65d8789a64b644d96806547967d938662852-Screenshot_2026-09-21_at_2.13.33_PM.png)
+
+<br />
+
 \[IMAGE PLACEHOLDER: Advanced Configuration Custom Pacing tab]
 
 ## Know when custom pacing will improve your plan
@@ -69,7 +73,21 @@ Before you can apply custom pacing, your plan needs to meet a few rules:
 - Channel minimums cannot be negative.
 - Channel minimums cannot be higher than their maximums.
 
-If you are uploading a pacing plan, start from the provided template and keep the CSV file under the file-size limit shown in the platform. Using the template makes sure your file is in the right format to upload.
+If these are not met you might face errors such as appearing in the image below like `Monthly budgets don't add up to the total planned budget — adjust a month before continuing. `
+
+Each month has its own tab at the top of Custom Pacing (for example, Sep 26 and Oct 26), and each month has its own planned budget. The channel budgets you set within a month cannot add up to more than that month's planned budget.
+
+For example, if Sep 26 has a planned budget of $1,000,000 and your channel budgets for September add up to $1,200,000, Planner shows an error because you've assigned $200,000 more than the month allows. Reduce one or more channel budgets until the total is $1,000,000 or less, then repeat the check for each month.
+
+![](https://files.readme.io/a5518d116f48e95f954af4c4d44cb5d248be3fec59a47e964560173b1a4a6f2f-Screenshot_2026-09-21_at_2.47.45_PM.png)
+
+Also,if you are uploading a pacing plan, start from the provided template and keep the CSV file under the file-size limit shown in the platform. Using the template makes sure your file is in the right format to upload.
+
+![](https://files.readme.io/3bf58373c7d25916bb308ee29eb130ff83ea5fda3729a91b7405c90d4364c915-Screenshot_2026-09-21_at_3.00.32_PM.png)
+
+If you are not able to edit the variable constraints ensure you have selected the manaual option from the dropdown on the right.
+
+![](https://files.readme.io/b3314d6a0e392eeeaf023d86e61b5527a98288d36713af97ec048f0ebc12e32e-Screenshot_2026-09-21_at_2.59.09_PM.png)
 
 ***
 
@@ -85,7 +103,11 @@ Use custom pacing when your spend should not be spread evenly. Common reasons in
 
 ### How do I set up custom pacing in Planner?
 
-Open a Planner scenario, select **Advanced Config**, and open **Custom Pacing**. Review the current and planned budget by month, then edit monthly budgets or upload a pacing plan. Review channel constraints for each month, confirm the monthly totals match your planned budget, select **Apply** or **Done**, and run the simulation.
+Open a Planner scenario with a plan period longer than one month, select **Advanced Config**, and open **Custom Pacing**. Review the current and planned budget by month, then edit monthly budgets or upload a pacing plan. Review channel constraints for each month, confirm the monthly totals match your planned budget, select **Apply** or **Done**, and run the simulation.
+
+### Why can't I see Custom Pacing in Advanced Config?
+
+Custom pacing is only available when your plan period is longer than one month. If your plan period is set to one month, update it to two months or more in your scenario configuration, then open **Advanced Config** again.
 
 ### Do I need to set a budget for every month?
 
@@ -97,24 +119,42 @@ The final unmodified month absorbs any rounding, so your monthly budgets always 
 
 ### How are channel constraints applied with custom pacing?
 
-Each month's channel limits are scaled from that month's planned budget and applied as constraints for that period. Months with larger budgets get proportionally larger channel limits.
+Each month has its own tab in **Custom Pacing**, such as **Sep 26** and **Oct 26**, with its own planned budget. Each month's channel limits are scaled from that month's planned budget and applied as constraints for that period. Months with larger budgets get proportionally larger channel limits.
+
+### Why can't I edit the variable constraints?
+
+Make sure **Manual** is selected in the dropdown on the right of **Variable Constraints**. Once Manual is selected, you can set your own minimum and maximum spend limits for each channel.
+
+### Why am I seeing an error when I apply custom pacing?
+
+Errors appear when your pacing plan doesn't meet the validation rules. A common one is "Monthly budgets don't add up to the total planned budget," which means you need to adjust a month before continuing. Errors also appear when the channel budgets within a month add up to more than that month's planned budget.
+
+### What happens if my channel budgets add up to more than the month's planned budget?
+
+Planner shows an error. For example, if **Sep 26** has a planned budget of $1,000,000 and your channel budgets for September add up to $1,200,000, you've assigned $200,000 more than the month allows. Reduce one or more channel budgets until the total is $1,000,000 or less, then check each remaining month.
 
 ### Why can't I apply my custom pacing plan?
 
-Your pacing plan must meet validation rules before it can be applied. Every monthly budget must be greater than zero, stay within allowed limits, and add up to the total planned budget. Channel minimums cannot be negative or higher than their maximums.
+Your pacing plan must meet validation rules before it can be applied. Every monthly budget must be greater than zero, stay within allowed limits, and add up to the total planned budget. Channel budgets within a month cannot exceed that month's planned budget, and channel minimums cannot be negative or higher than their maximums.
 
 ### Can I upload a pacing plan instead of editing months manually?
 
-Yes. Start from the template provided in **Custom Pacing**, fill in your monthly budgets, and upload it as a CSV file under the file-size limit shown in the platform.
+Yes. Select **Template** in **Custom Pacing** to download the template, fill in your monthly budgets, and select **Upload Plan** to upload it as a CSV file.
+
+### Is there a file-size limit for uploading a pacing plan?
+
+Yes. Keep your CSV file under the file-size limit shown in the platform. Starting from the provided template also makes sure your file is in the right format to upload.
 
 ### Do I need to rerun the simulation after changing pacing?
 
 Yes. After selecting **Apply** or **Done**, run the simulation so your forecast and recommendations reflect the new monthly pacing.
 
+***
+
 ## Related Articles
 
 <Cards>
-  <Card title="Custom Budget Pacing " icon="fa-rocket">
+  <Card title="Set a default scenario" icon="fa-rocket">
 
   </Card>
 
