@@ -2,7 +2,7 @@
 title: Settings
 excerpt: Manage your workspace with customizable settings
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
