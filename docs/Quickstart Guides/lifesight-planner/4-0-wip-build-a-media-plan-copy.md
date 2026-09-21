@@ -4,6 +4,9 @@ excerpt: Lifesight 4.0 WIP guide for Creating a plan.
 deprecated: false
 hidden: true
 metadata:
+  title: ' Creating a plan'
+  keywords:
+    - media plan
   robots: noindex
 ---
 # Creating a Plan
