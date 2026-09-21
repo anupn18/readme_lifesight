@@ -218,7 +218,7 @@ Together, these layers give you one connected measurement system: model-ready da
     See if Lifesight is fit for you
   </Card>
 
-  <Card title="How Lifesight Words" icon="⏳">
+  <Card title="How Lifesight Words" href="https://docs.lifesight.io/v2.0/update/docs/how-lifesight-works" icon="⏳">
     From Fragmented Data to Causal Decisions
   </Card>
 
