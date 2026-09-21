@@ -1,5 +1,5 @@
 ---
-title: Who is Lifesight For?
+title: Who is Lifesight For
 excerpt: See if Lifesight is a fit for you and your organization
 deprecated: false
 hidden: false
