@@ -115,61 +115,61 @@ Every Lifesight module appears here, one per row, so you can check what each rol
 
 **Legend:** ● F full access · ◐ R read only · ○ N no access. On a · action row, ● means the button works for that role, and both ◐ and ○ mean it does not.
 
-[Cockpit](#cockpit) · [Plan](#plan) · [Deploy](#deploy) · [Attribution](#attribution) · [Creative](#creative) · [Models](#models) · [Experiments](#experiments) · [Agents](#agents) · [Profiles](#profiles) · [Segments](#segments) · [Data](#data) · [Brain](#brain) · [Config](#config) · [Artifacts](#artifacts) · [Team](#team) · [Settings](#settings)
+[Cockpit](#cockpit) · [Plan](#plan) · [Deploy](#deploy) · [Attribution](#attribution) · [Creative](#creative) · [Models](#models) · [Experiments](#experiments) · [Agents](#agents) · [Profiles](#profiles) · [Segments](#segments) · [Data](#data) · [Config](#config) · [Artifacts](#artifacts) · [Team](#team) · [Settings](#settings)
 
 ### Cockpit
 
-**Manage Roles** groups **Cockpit** under **Platform**. The module page is `/cockpit`, its module-level rights are `LS-CK-01` and `LS-CK-02`, and it carries 1 action right.
+**Manage Roles** groups **Cockpit** under **Platform**. The module page is `/cockpit` and it carries 1 action right.
 
-| Sub-module                                                            | WA | DP | MS | SP | EX | VW |
-| --------------------------------------------------------------------- | -- | -- | -- | -- | -- | -- |
-| **Overview & KPIs** `cockpit.overview_dashboard`                      | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
-| **Recommendations** `cockpit.recommendations`                         | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
-| **Alert configuration** `cockpit.alerts_config`                       | ●  | ○  | ○  | ○  | ○  | ◐  |
-| **Publish Artifact from Cockpit** `cockpit.publish_artifact` · action | ●  | ○  | ○  | ●  | ●  | ○  |
+| Sub-module                                 | WA | DP | MS | SP | EX | VW |
+| ------------------------------------------ | -- | -- | -- | -- | -- | -- |
+| **Overview & KPIs**                        | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
+| **Recommendations**                        | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
+| **Alert configuration**                    | ●  | ○  | ○  | ○  | ○  | ◐  |
+| **Publish Artifact from Cockpit** · action | ●  | ○  | ○  | ●  | ●  | ○  |
 
 ### Plan
 
-**Manage Roles** groups **Plan** under **Action**. The module page is `/planning`, its module-level rights are `LS-PL-01` and `LS-PL-02`, and it carries 2 action rights.
+**Manage Roles** groups **Plan** under **Action**. The module page is `/planning`, and it carries 2 action rights.
 
-| Sub-module                                                                  | WA | DP | MS | SP | EX | VW |
-| --------------------------------------------------------------------------- | -- | -- | -- | -- | -- | -- |
-| **Scenario workspace** `plan.scenario_workspace`                            | ●  | ◐  | ◐  | ●  | ◐  | ◐  |
-| **Budget simulation** `plan.budget_simulation`                              | ●  | ◐  | ◐  | ●  | ○  | ◐  |
-| **Export plans** `plan.export_plans`                                        | ●  | ◐  | ○  | ●  | ○  | ◐  |
-| **Run Simulation** `plan.run_simulation`                                    | ●  | ○  | ○  | ○  | ○  | ◐  |
-| **Promote to Decision** `plan.promote_to_decision` · action                 | ●  | ○  | ○  | ●  | ●  | ○  |
-| **Download / Export Allocation** `plan.download_export_allocation` · action | ●  | ○  | ●  | ●  | ●  | ○  |
+| Sub-module                                | WA | DP | MS | SP | EX | VW |
+| ----------------------------------------- | -- | -- | -- | -- | -- | -- |
+| **Scenario workspace**                    | ●  | ◐  | ◐  | ●  | ◐  | ◐  |
+| **Budget simulation**                     | ●  | ◐  | ◐  | ●  | ○  | ◐  |
+| **Export plans**                          | ●  | ◐  | ○  | ●  | ○  | ◐  |
+| **Run Simulation**                        | ●  | ○  | ○  | ○  | ○  | ◐  |
+| **Promote to Decision** · action          | ●  | ○  | ○  | ●  | ●  | ○  |
+| **Download / Export Allocation** · action | ●  | ○  | ●  | ●  | ●  | ○  |
 
 ### Deploy
 
-**Manage Roles** groups **Deploy** under **Action**. The module page is `/decisions`, its module-level rights are `LS-DP-01` and `LS-DP-02`, and it carries 3 action rights.
+**Manage Roles** groups **Deploy** under **Action**. The module page is `/decisions`, and it carries 3 action rights.
 
-| Sub-module                                                | WA | DP | MS | SP | EX | VW |
-| --------------------------------------------------------- | -- | -- | -- | -- | -- | -- |
-| **Decision queue** `deploy.decision_queue`                | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
-| **Review & approve** `deploy.review_approve`              | ●  | ○  | ○  | ○  | ○  | ◐  |
-| **Activity log** `deploy.activity_log`                    | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
-| **Change bid** `deploy.change_bid`                        | ●  | ○  | ○  | ○  | ○  | ◐  |
-| **Budget** `deploy.budget`                                | ●  | ○  | ○  | ○  | ○  | ◐  |
-| **Change Bid/Budget** `deploy.change_bid_budget` · action | ●  | ○  | ●  | ●  | ○  | ○  |
-| **Change Status** `deploy.change_status` · action         | ●  | ○  | ●  | ●  | ○  | ○  |
-| **Edit Geo Deploy** `deploy.edit_geo_deploy` · action     | ●  | ○  | ●  | ●  | ○  | ○  |
+| Sub-module                     | WA | DP | MS | SP | EX | VW |
+| ------------------------------ | -- | -- | -- | -- | -- | -- |
+| **Decision queue**             | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
+| **Review & approve**           | ●  | ○  | ○  | ○  | ○  | ◐  |
+| **Activity log**               | ●  | ◐  | ◐  | ◐  | ◐  | ◐  |
+| **Change bid**                 | ●  | ○  | ○  | ○  | ○  | ◐  |
+| **Budget**                     | ●  | ○  | ○  | ○  | ○  | ◐  |
+| **Change Bid/Budget** · action | ●  | ○  | ●  | ●  | ○  | ○  |
+| **Change Status** · action     | ●  | ○  | ●  | ●  | ○  | ○  |
+| **Edit Geo Deploy** · action   | ●  | ○  | ●  | ●  | ○  | ○  |
 
 ### Attribution
 
-**Manage Roles** groups **Attribution** under **Intelligence**. The module page is `/attribution`, its module-level rights are `LS-AT-01` and `LS-AT-02`, and it carries 2 action rights.
+**Manage Roles** groups **Attribution** under **Intelligence**. The module page is `/attribution`, and it carries 2 action rights.
 
-| Sub-module                                                                | WA | DP | MS | SP | EX | VW |
-| ------------------------------------------------------------------------- | -- | -- | -- | -- | -- | -- |
-| **Channel overview** `attribution.channel_overview`                       | ●  | ◐  | ●  | ◐  | ◐  | ◐  |
-| **Attribution rules** `attribution.attribution_rules`                     | ●  | ●  | ●  | ○  | ○  | ◐  |
-| **Conversion events** `attribution.conversion_events`                     | ●  | ●  | ●  | ○  | ○  | ◐  |
-| **Revenue mapping** `attribution.revenue_mapping`                         | ●  | ●  | ●  | ○  | ○  | ◐  |
-| **Scheduled reports** `attribution.scheduled_reports`                     | ●  | ◐  | ●  | ◐  | ◐  | ◐  |
-| **Data exports** `attribution.data_exports`                               | ●  | ○  | ◐  | ○  | ○  | ◐  |
-| **Promote a model from Attribution** `attribution.promote_model` · action | ●  | ○  | ●  | ●  | ○  | ○  |
-| **Set Benchmark** `attribution.set_benchmark` · action                    | ●  | ○  | ●  | ●  | ○  | ○  |
+| Sub-module                                    | WA | DP | MS | SP | EX | VW |
+| --------------------------------------------- | -- | -- | -- | -- | -- | -- |
+| **Channel overview**                          | ●  | ◐  | ●  | ◐  | ◐  | ◐  |
+| **Attribution rules**                         | ●  | ●  | ●  | ○  | ○  | ◐  |
+| **Conversion events**                         | ●  | ●  | ●  | ○  | ○  | ◐  |
+| **Revenue mapping**                           | ●  | ●  | ●  | ○  | ○  | ◐  |
+| **Scheduled reports**                         | ●  | ◐  | ●  | ◐  | ◐  | ◐  |
+| **Data exports**                              | ●  | ○  | ◐  | ○  | ○  | ◐  |
+| **Promote a model from Attribution** · action | ●  | ○  | ●  | ●  | ○  | ○  |
+| **Set Benchmark** · action                    | ●  | ○  | ●  | ●  | ○  | ○  |
 
 ### Creative
 
