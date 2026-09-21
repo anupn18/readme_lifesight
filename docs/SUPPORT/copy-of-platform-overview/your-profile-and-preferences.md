@@ -1,5 +1,5 @@
 ---
-title: '[4.0][ReadyForQA]Your profile and preferences'
+title: '[4.0][ReadyForQA]Set up your profile and preferences'
 excerpt: >-
   Set your persona, hide sidebar modules you never open, and change your profile
   photo, from Settings > Preferences and Edit Profile.
@@ -8,41 +8,40 @@ hidden: true
 metadata:
   robots: index
 ---
-Your persona, profile photo, sidebar modules, and theme are personal — nobody
-else sees them. Set them on the **Preferences** tab of **Settings** and the
-**Edit Profile** page one click beyond it.
+Your profile and preferences decide how Lifesight looks and behaves for you. Pick the persona that matches how you work and Lifesight puts the right things first in your Cockpit, Ask answers, and alerts. Hide the modules you never open and your sidebar carries only what you use.<br /><br />Set them on the **Preferences** >> **Settings** >> **Edit Profile**.
 
 <Callout icon="📘" theme="info">
   ### Who can do this
 
-  **Role:** Everyone — no control on **Preferences** or **Edit Profile** is role-gated
+  **Role:** Everyone, no control on **Preferences** or **Edit Profile** is role-gated
   **Where:** Sidebar user menu > **Settings** > **Preferences**
   **Time:** About 2 minutes.
 </Callout>
 
 ## Before you start
 
-- You are signed in to Lifesight.
+- You are working in the workspace you want these preferences to apply to. Your persona, hidden modules, and theme are stored in that workspace, so they will not follow you to a different workspace or device.
 
 ## Edit your profile
 
-1. In the sidebar, open the user menu and select **Settings**.
-2. Select the **Preferences** tab.
-3. On the **Your profile** card, select **Edit profile** — the pencil button.
-4. Select **Save changes**.
+1. On the **Preferences tab,** find the Your profile card.
+2. Select **Edit profile**, the pencil button.
+3. Make your changes on the **Edit Profile page**, headed Update your `profile photo, persona, and password.`
+4. Select **Save changes.**
 
-The toast `Profile updated` appears.
+The toast **Profile updated** appears. Back to Settings returns you to the Preferences tab.
 
-**Edit Profile** is headed `Update your profile photo, persona, and password.`
-**Back to Settings** returns you to the **Preferences** tab.
+The page holds three rows: **Profile photo, Persona, and Password.**
 
-The **Password** row offers **Reset password**, promising
-`We'll email a reset link to <email>. It expires in 1 hour.` It opens a
-confirmation dialog, `Send a password reset link?`; **Send reset link** sends it.
-The row then reports `Reset link sent` and the button reads **Send again** — but
-nothing is delivered; the server only writes the link to its own console.
+Profile photo offers **Upload, Replace, and Remove profile photo**, described as `shown on your profile card and anywhere your account appears`. Treat the photo as a preview only in this build. It shows in the tab you uploaded it in and is not kept after a reload.
 
-## Choose your persona
+<Callout icon="📘" theme="info">
+  `We'll email a reset link to <email>. It expires in 1 hour.` It opens a confirmation dialog, `Send a password reset link?`; **Send reset link** sends it. The row then reports `Reset link sent` and the button reads **Send again**, but nothing is delivered; the server only writes the link to its own console.
+</Callout>
+
+## Choose the persona that matches how you work
+
+Your persona tailors your Cockpit, Ask answers, and alerts to the work you actually do. It does not change what you can open.
 
 1. On **Edit Profile**, open the **Persona** select.
 2. Select a persona.
@@ -51,7 +50,7 @@ nothing is delivered; the server only writes the link to its own console.
 The toast `Profile updated` appears, and the label under your name in the sidebar
 user menu changes to it.
 
-`Persona personalizes your experience across the platform`. Persona is not access control — it changes what those put first, not which modules you can open. Role decides that — see [Roles: what each one opens, and what it can do](doc:roles-and-permissions).
+`Persona personalizes your experience across the platform`. Persona is not access control, it changes what those put first, not which modules you can open. Role decides that, see [Roles: what each one opens, and what it can do](doc:roles-and-permissions).
 
 | Persona             | The starting persona for |
 | ------------------- | ------------------------ |
@@ -72,50 +71,46 @@ Those six are the whole list, in select order. Until you pick one, Lifesight use
 4. In the **Action** column, select the eye button on that row.
 5. Select **Save changes** in the footer.
 
+![](https://files.readme.io/4cb25298aa26d348bf4f3a94d077a93fcc2db500760de4f58195306f4e8e633f-Screenshot_2026-09-21_at_7.31.04_AM.png)
+
 The toast `Capabilities saved` appears, and the sidebar drops the module **Customize Menu** is introduced as `Toggle the visibility of modules you have access to. Hidden modules won't appear in your sidebar.`
 
 See the FAQ if a module returns.
 
-## Additional Capabilities
+## Ask for access to a module your role can't open
 
-Below **Customize Menu**, a second table headed
-`Modules not included in your current role. Request access to enable them.` gives each module your role cannot open a **Request Access** button; a Workspace Admin never sees this table. The button opens the dialog `Request Access: <Module>`, offering **Read-only** and **Manage / Edit**. For modules with special actions, a **Special Actions** checklist appears below — dimmed under **Read-only**, tickable under **Manage / Edit** — and ticked actions are appended to the toast.<br />
-**Submit Request** shows a toast such as `Access requested for <Module>: Read` and leaves the row reading **Requested**.&#x20;
+<br />
+
+Below **Customize Menu**, a second table headed Modules not included in your current role. **Request access&#x20;**&#x74;o enable them lists the modules outside your role, each with a Request Access button. A Workspace Admin never sees this table, because no module is closed to that role.
+
+To raise a request that reaches an admin, open the module from the sidebar and use the dialog on the Access Restricted screen.&#x20;
+
+- Find the module's row and select **Request Access.**
+- In the **Request Access:&#x20;**<Module> dialog, choose Read-only or Manage / Edit.
+- If the module has a **Special Actions** checklist, tick the actions you need. The list is dimmed under **Read-only** and tickable unde&#x72;**&#x20;Manage / Edit.**
+- Select **Submit Request.**
 
 ## FAQ
 
 ### Should I hide a module or request access to it?
 
-Hide a module you can open but never use — it leaves your sidebar. Request access
-to a module your role cannot open: those are greyed in the sidebar, show
-**Access Restricted** when selected, and appear under **Additional Capabilities**,
-not **Customize Menu**. A Viewer is the exception — that table is wrong here.
+Hide a module you can open but never use, and it leaves your sidebar. Request access to a module your role cannot open. Those are grayed in the sidebar, show Access Restricted when selected, and appear under Additional Capabilities rather than Customize Menu.
 
 ### Does my persona change what I can open?
 
-Persona changes nothing about what you can open — it tailors the Cockpit, Ask
-answers and alerts to how you work. Your role opens modules and enables buttons.
+No. Persona tailors your Cockpit, Ask answers, and alerts to how you work. Your role opens modules and enables buttons.
 
 ### Why does my profile card show someone else's name?
 
-The card reads from a demo directory whose addresses never match sign-in
-addresses, so everyone sees a demo Workspace Admin record and its role pill. The
-persona line always reads **Generalist** — the demo persona isn't
-one of the six, so it collapses to the default. Your real name, persona and role
-are in the sidebar user menu.
+The card reads from a demo directory whose addresses never match sign-in addresses, so everyone sees a demo Workspace Admin record and its role pill. The persona line always reads Generalist, because the demo persona is not one of the six and collapses to the default. Your real name, persona, and role are in the sidebar user menu.
 
 ### Why are my hidden modules back?
 
-Hidden modules are stored in the browser you saved them in. A different browser,
-device, private window or cleared site data all start from every module visible,
-and newly released modules arrive visible. Hide them again on
-**Settings > Preferences > Customize Menu**.
+They are stored in the browser you saved them in. A different browser, device, private window, or cleared site data all start from every module visible. Hide them again on Settings > Preferences > Customize Menu.
 
 ### I asked for a password reset link and nothing arrived
 
-No password reset email is sent in this build, whichever screen you ask from. The
-link is generated and goes nowhere, and your current password keeps working. See
-[Find your symptom](doc:troubleshooting).
+No password reset email is sent in this build, whichever screen you ask from. The link goes nowhere and your current password keeps working. See [Find your symptom](doc:troubleshooting).
 
 ## Related
 
