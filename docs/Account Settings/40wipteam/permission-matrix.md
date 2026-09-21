@@ -364,14 +364,6 @@ The tables on this page cover the six built-in roles only, not custom roles. A c
 
 **Custom roles and action buttons.** Treat any role not listed in the table above as holding none of the rights on this page. In this build, action buttons are never enabled for a custom role, so every action right is denied for it. Building one is on [Create a custom role](doc:custom-roles).
 
-<Callout icon="🚧" theme="warn">
-  ### Role definitions are not shared, and assigning one moves nobody
-
-  A role definition is written to one browser tab's session storage and never leaves it, so no colleague and no other device sees the role. Assigning any role — preset, custom or generated — does not change what the assigned person can open, because a session's role is fixed at sign-in. See [What's live in this build](doc:whats-live-in-this-build).
-</Callout>
-
-<br />
-
 ## Related
 
 <Cards columns="2">
