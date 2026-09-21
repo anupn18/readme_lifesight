@@ -1,11 +1,14 @@
 ---
-title: '[4.0][ReadyForQA]Set up your profile and preferences'
+title: '[4.0][Updated]Set up your profile and preferences'
 excerpt: >-
   Set your persona, hide sidebar modules you never open, and change your profile
   photo, from Settings > Preferences and Edit Profile.
 deprecated: false
 hidden: true
 metadata:
+  title: Set up your profile and preferences
+  keywords:
+    - Lifesight profile setup
   robots: index
 ---
 Your profile and preferences decide how Lifesight looks and behaves for you. Pick the persona that matches how you work and Lifesight puts the right things first in your Cockpit, Ask answers, and alerts. Hide the modules you never open and your sidebar carries only what you use.<br /><br />Set them on the **Preferences** >> **Settings** >> **Edit Profile**.
