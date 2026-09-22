@@ -150,11 +150,11 @@ All of this rests on a platform built to be privacy-safe, transparent, and relia
 ## Related Articles
 
 <Cards>
-  <Card title="Previous" icon="🤵">
-    Who is Lifesight for
+  <Card title="Who is Lifesight for" icon="🤵">
+
   </Card>
 
-  <Card title="Next" icon="📖">
-    Getting Started
+  <Card title="Getting Started" href="https://docs.lifesight.io/v2.0/docs/cockpit" icon="📖">
+
   </Card>
 </Cards>
