@@ -1,5 +1,5 @@
 ---
-title: Build your First Model (Marketing Mix Modeling)
+title: Model Overview (Marketing Mix Modeling)
 excerpt: >-
   Measure the contribution of every channel, including the ones you cannot
   track, and use it to decide where the next dollar goes.
