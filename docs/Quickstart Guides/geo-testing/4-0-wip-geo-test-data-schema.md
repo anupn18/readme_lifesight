@@ -1,11 +1,14 @@
 ---
-title: '[4.0][Updated] Geo test data schema'
+title: Geo test data schema
 excerpt: >-
   Set up and map your data so every Geo Experiment is built on a reliable
   baseline.
 deprecated: false
 hidden: true
 metadata:
+  title: Geo test data schema
+  keywords:
+    - Lifesight experiments
   robots: noindex
 ---
 **Prepare Your Data for Reliable Geo Experiment Results**
