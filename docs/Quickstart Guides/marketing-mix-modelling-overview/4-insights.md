@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Insights'
+title: Model Insights
 excerpt: Explore model-generated insights and business recommendations.
 deprecated: false
 hidden: true
