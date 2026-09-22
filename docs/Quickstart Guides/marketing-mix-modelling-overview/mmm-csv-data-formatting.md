@@ -1,6 +1,6 @@
 ---
 title: CSV Data Formatting Guidelines
-excerpt: Prepare CSV data for Marketing Mix Modeling in Lifesight 4.0.
+excerpt: Prepare CSV data for Marketing Mix Modeling in Lifesight.
 deprecated: false
 hidden: true
 metadata:
