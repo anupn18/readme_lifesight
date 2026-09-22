@@ -11,7 +11,9 @@ metadata:
     - Lifesight Marketing Mix Modeling
   robots: noindex
 ---
-Causal MMM (Marketing Mix Modeling) shows you how all of your marketing works together to drive your business goals, so you can see what's actually growing revenue and where to invest next. It's the foundation of your **Unified Marketing Measurement (UMM)** stack in Lifesight, giving you a top-down, holistic view of performance and a trusted baseline for every analysis that follows.
+Causal MMM (Marketing Mix Modeling) shows you how all of your marketing works together to drive your business goals, so you can see what's actually growing revenue and where to invest next.&#x20;
+
+It's the foundation of your **Unified Marketing Measurement (UMM)** stack in Lifesight, giving you a top-down, holistic view of performance and a trusted baseline for every analysis that follows.
 
 Causal MMM explains how paid media, organic activity, contextual factors (outside influences such as seasonality, holidays, or promotions), halo effects (when one channel lifts results in another), and baseline demand (sales that would happen without marketing) each contribute to a business outcome.
 
@@ -22,7 +24,9 @@ Unlike attribution, which starts with individual customer touchpoints, MMM uses 
 <br />
 
 <Callout icon="📘" theme="info">
-  **What is a top-down approach?** Attribution models look at individual user touchpoints, which is a bottom-up approach. MMM starts with your total outcome, such as total weekly sales, and works out how much credit each channel, such as TV, Paid Search, or Social Media, should get for that result.
+  **What is a top-down approach?**&#x20;
+
+  Attribution models look at individual user touchpoints, which is a bottom-up approach. MMM starts with your total outcome, such as total weekly sales, and works out how much credit each channel, such as TV, Paid Search, or Social Media, should get for that result.
 </Callout>
 
 ## Go from raw data to confident decisions
@@ -67,63 +71,63 @@ Start with [**Setting up your Mix Model**](https://docs.lifesight.io/v2.0/docs/s
 
 ## Frequently asked questions <br />
 
-### What is Causal MMM in Lifesight?
+**What is Causal MMM in Lifesight?**
 
 Causal MMM (Marketing Mix Modeling) measures how paid media, organic activity, contextual factors, halo effects, and baseline demand each contribute to a business outcome. It uses causal relationships between these factors, rather than correlation alone, to give you a top-down view of what's actually driving results.
 
-### How is Causal MMM different from attribution?
+**How is Causal MMM different from attribution?**
 
 Attribution starts with individual customer touchpoints and builds up. MMM starts with your total outcome and uses aggregated time-series data to determine how much credit each channel deserves. This makes MMM better for measuring channels where user-level data is incomplete or unavailable.
 
-### What does top-down measurement mean?
+**What does top-down measurement mean?**
 
 Top-down measurement starts with a total result, such as weekly sales, and works out how much of it each channel contributed. Bottom-up measurement, like attribution, starts from individual user interactions.
 
-### Why is Causal MMM the first step in Unified Marketing Measurement?
+**Why is Causal MMM the first step in Unified Marketing Measurement?**
 
 Causal MMM establishes a holistic, trusted baseline of how all your marketing works together. Other measurement methods in your UMM stack build on that baseline.
 
-### Which channels can Causal MMM measure?
+**Which channels can Causal MMM measure?**
 
 Causal MMM can measure paid media, organic activity, and contextual factors. Because it uses aggregated data, it works well for channels without user-level tracking, such as TV, CTV, and offline media.
 
-### What are halo effects?
+**What are halo effects?**
 
 Halo effects are when activity in one channel lifts results in another. For example, a TV campaign that increases branded search. Causal MMM accounts for these effects when measuring contribution.
 
-### What is baseline demand?
+**What is baseline demand?**
 
 Baseline demand is the portion of your outcome that would happen without marketing, driven by factors such as brand awareness or loyal customers.
 
-### How do I build a model in Lifesight?
+**How do I build a model in Lifesight?**
 
 Prepare your data and create a model schema, then create a model and define its variables, configuration, calibration evidence, and causal relationships. Review it in the Models workspace, promote it once it's reliable, and use it in Planner.
 
-### What is calibration evidence?
+**What is calibration evidence?**
 
 Calibration evidence is experiment results, such as geo holdout tests, that you add to a model to ground it in real-world incremental lift.
 
-### What can I review in the Models workspace?
+**What can I review in the Models workspace?**
 
 The Models workspace includes the Data, Diagnostics, Graph, Contribution, Creatives, Interaction, Insights, and Refresh tabs. Some tabs are hidden by default and can be turned on from **Customize Tabs**.
 
-### Why can't I see all the tabs for my model?
+**Why can't I see all the tabs for my model?**
 
 Models that are still processing or have failed only show tabs with available results. Some tabs are also hidden by default and can be turned on from **Customize Tabs**. What you can see may also depend on the model's status and your permissions.
 
-### When should I promote a model?
+**When should I promote a model?**
 
 Promote a model once its data, diagnostics, causal structure, and contribution results are reliable enough for decision-making. A promoted model can then be used in Planner.
 
-### Is a high accuracy score enough to trust a model?
+**Is a high accuracy score enough to trust a model?**
 
 No. Review the model as a complete system. Backtesting, plausible causal relationships, stable channel behavior, and business context all matter alongside accuracy.
 
-### What is the difference between refreshing and retraining a model?
+**What is the difference between refreshing and retraining a model?**
 
 Refresh a model when new time periods follow the same schema and structure. Retrain it when you need to change its variables, causal assumptions, calibration evidence, or configuration.
 
-### What can I do with a promoted model?
+**What can I do with a promoted model?**
 
 Use a promoted model in Planner to create budget scenarios and optimize your media mix, or refresh and retrain it as new data and evidence become available.
 
