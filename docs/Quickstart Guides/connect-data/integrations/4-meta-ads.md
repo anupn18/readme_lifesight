@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Meta Ads'
+title: Meta Ads
 excerpt: >-
   Brings Facebook and Instagram spend into Lifesight, so prospecting and
   retargeting are measured separately rather than averaged into one figure.
