@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Build a geo experiment that proves incremental impact'
+title: Build a geo experiment that proves incremental impact
 excerpt: >-
   Set up your treatment and control groups in a few steps and get a clear read
   on lift
