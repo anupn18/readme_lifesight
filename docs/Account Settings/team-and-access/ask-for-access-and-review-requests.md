@@ -11,124 +11,123 @@ metadata:
     - Lifesight Requests
   robots: index
 ---
-An access request asks for one module your role does not open; a Workspace Admin answers it. It starts on **Access Restricted** and lands on **Team > Access Requests**. This page covers both halves, plus the three unrelated controls also labeled **Request Access**.
+An access request lets you ask for one module your role doesn't open, so you can get what you need without changing your whole role. A Workspace Admin reviews and answers it. Requests start on the **Access Restricted** screen and land in **Team > Access Requests**. This page covers both sides: raising a request and reviewing one.
 
-<Callout icon="📘" theme="info">
-  ### Who can do this
+**Who can do this**
 
-  **Role:** Everyone can raise a request.
-  **Approve or reject:** Workspace Admin only (`team.edit_permissions`). Every other role sees the full list with **Approve** and **Reject** (greyed) and the tooltip `Your role (<Role>) cannot edit permissions. Ask a workspace admin for access.`
-</Callout>
+- **Raise a request:** everyone.
+- **Approve or reject:** Workspace Admin only. Every other role sees the full list, with **Approve** and **Reject** dimmed and the tooltip "Your role (<Role>) cannot edit permissions. Ask a workspace admin for access."
 
-## How a request travels
+## How a request works
 
-A disabled module opens **Access Restricted**, where **Request Access** creates a pending request that a Workspace Admin approves or rejects.
+A module your role can't open opens **Access Restricted**, where **Request Access** creates a pending request. A Workspace Admin then approves or rejects it.
 
-<Tabs>
-  <Tab title="If you hit Access Restricted">
-    A module your role cannot open still appears, dimmed, and opens the **Access Restricted page** instead. **Data, Profiles, Segments, and Config** sit in the Hub dropdown at the bottom of the sidebar, and every other module sits in the sidebar itself.
-  </Tab>
+**If you see Access Restricted**
 
-  <Tab title="If you're a Workspace Admin">
-    Requests land on **Team > Access Requests**, whose tab label carries an amber badge.
-  </Tab>
-</Tabs>
+A module your role can't open still appears, dimmed, and opens the **Access Restricted** screen instead. **Data**, **Profiles**, **Segments**, and **Config** sit in the **Hub** dropdown at the bottom of the sidebar. Every other module sits in the sidebar itself.
+
+**If you're a Workspace Admin**
+
+Requests land in **Team > Access Requests**, which shows an amber badge when requests are waiting.
 
 ## Request access to a module
 
-<Callout icon="📘" theme="info">
-  ### **Role:** Everyone. Nothing in this dialog is gated.
-</Callout>
+**Role:** everyone
 
-1. In the sidebar or **Hub** dropdown, select the greyed module.
+1. In the sidebar or **Hub** dropdown, select the dimmed module.
 2. On **Access Restricted**, select **Request Access**.
 3. Select **Read access** or **Manage access**.
-4. Optional: add a reason in **Why do you need this access? (optional)**.
+4. Optional: explain what you need it for in **Why do you need this access? (optional)**. A clear reason helps your admin decide faster.
 5. Select **Send request**.
 
-**Send request** stays disabled until you select a card and reads **Sending…** while it works. On success the toast `Access request sent to your admin` appears, the dialog closes, and your name shows under **PENDING** on **Team > Access Requests**. If it reads `Failed to send request. Please try again.`, return to step 5.
+**Choosing the right access level**
 
-Sending also raises the notification `Access request from <Name>` in the Notification pannel under the **Access** category, linking to **Team > Access Requests**.
+| Option        | Tag    | What it asks for                                    |
+| ------------- | ------ | --------------------------------------------------- |
+| Read access   | READ   | View <module>: browse data, dashboards, and reports |
+| Manage access | MANAGE | Edit and configure <module>, including read access  |
 
-## Review a request and decide who gets access
+Only these two levels can be requested. Request cards can also show an ACTION tag for individual buttons, but those can't be requested from the dialog.
 
-<Callout icon="📘" theme="info">
-  ### **Role:** Workspace Admin&#x20;
-</Callout>
+**What happens next**
+
+**Send request** stays unavailable until you select an access level, and reads **Sending…** while it works. When it succeeds:
+
+- A confirmation appears: "Access request sent to your admin."
+- The dialog closes.
+- Your name appears under **PENDING** in **Team > Access Requests**.
+- Admins receive a notification, "Access request from <Name>," under the **Access** category in the notification panel, linking to **Team > Access Requests**.
+
+If you see "Failed to send request. Please try again.", select **Send request** again.
+
+## Review a request
+
+**Role:** Workspace Admin
 
 1. In the sidebar, open the user menu and select **Team**.
-2. Select the **Access Requests** tab.
-3. Under **PENDING**, find the request by the person's name and the line `<Permission> · <Module>`.
+2. Select **Access Requests**.
+3. Under **PENDING**, find the request by the person's name and the line "<Permission> · <Module>."
 4. Select **Approve**.
-5. In `Approve access request?`, read which role the person moves onto. If it names no role, the requester has no matching **Manage Team** record and approving changes no role.
+5. In **Approve access request?**, check which role the person will move onto. If no role is named, the requester has no matching **Manage Team** record, and approving won't change any role.
 6. Select **Approve**.
 
-To decline instead, select Reject at **step 4**. There is no confirmation dialog, and the card moves to **REVIEWED&#x20;**&#x61;t once.
+**To reject a request**
+
+Select **Reject** at step 4 instead. There is no confirmation, and the card moves to **REVIEWED** immediately.
 
 **You're done when:**
 
-- An approval shows the toast Access granted to <Name>. When a **Manage Team** record matched, it carries the description Created role "<Role>". or Assigned existing role "<Role>".
-- The card sits under **REVIEWED**, reading Approved by WorkspaceAdmin.
+- A confirmation appears: "Access granted to <Name>." When a **Manage Team** record matched, it adds "Created role "<Role>"." or "Assigned existing role "<Role>"."
+- The card sits under **REVIEWED**, reading "Approved by WorkspaceAdmin."
 
-### **What an approval changes**
+**What an approval changes**
 
-An approval shows the toast Access granted to <Name>. When a **Manage Team** record matched, the toast adds Created role "<Role>". or Assigned existing role "<Role>". The card then moves to **REVIEWED**, reading `Approved by WorkspaceAdmin`. A rejection shows Request rejected, and the card reads` Rejected by WorkspaceAdmin`. Every review is recorded as `WorkspaceAdmin,` whoever performed it.
+Approving creates a custom role named after the person's current role plus the requested module. It keeps everything their current role allows and adds the new module. For example, an Executive requesting Data becomes **Executive + Data**, and the person's **Manage Team** record moves onto that role. A second approval extends the name, such as **Executive + Data + Config**.
 
-Approving builds a custom role named {Base role} + {Module} that keeps everything the person's current role allows and adds the requested module. For example, Executive plus Data becomes `Executive + Data`. The person's record on Manage Team moves onto that role. A second approval extends the name, as in `Executive + Data + Config`. When the requester matches no Manage Team record, no role is generated, no member record changes, and the toast carries no description. The generated role lives in the browser tab you approved from.
+- If the requester has no matching **Manage Team** record, no role is created, no member record changes, and the confirmation has no extra description.
+- The generated role is available in the browser tab you approved from.
+- Approving also records a permission grant that any admin can view under **Team > Manage Team > Edit Permissions**, from any browser.
 
-Approving also records a permission grant on the server, which any admin can read under **Team > Manage Team > Edit Permissions** from any browser.
+**What a rejection shows**
 
-If the toast reads` Failed to approve request,` the approval did not go through. This usually means the request was already reviewed elsewhere, but it can also mean the server is unreachable. Return to step 2 and re-read the list.`  Failed to reject request  `works the same way.
+A confirmation appears: "Request rejected," and the card reads "Rejected by WorkspaceAdmin."
 
-| Option        | Tag      | What it asks for                                       |
-| ------------- | -------- | ------------------------------------------------------ |
-| Read access   | `READ`   | `View {Module} — browse data, dashboards, and reports` |
-| Manage access | `MANAGE` | `Edit and configure {Module} — includes read access`   |
+Every review is recorded as "WorkspaceAdmin," whoever performed it.
 
-A third tag, `ACTION`, exists on request cards for individual buttons, but the dialog never offers one — only these two are requestable.
+**If a review fails**
 
-## FAQ
+If you see "Failed to approve request" or "Failed to reject request," the review didn't go through. This usually means the request was already reviewed elsewhere, but it can also mean the service is unreachable. Reopen **Access Requests** and check the list again.
 
-**My request was approved. Why do I still see Access Restricted?**
+***
 
-An approval moves your member record onto a new role and records a permission grant, but a signed-in session keeps the role it was given at sign-in. Nothing re-reads either when you open a module, so it stays closed. See [What's live in this build](doc:whats-live-in-this-build).
+## Frequently Asked Questions
+
+**Who can approve or reject requests?**
+Only a Workspace Admin. Other roles can view every request, but **Approve** and **Reject** are dimmed.
 
 **Should I request access or ask for a different role?**
+Request access when your role fits your job and you need one extra module. Ask for a role change when your job has changed and several modules no longer fit. An approval adds one module to what you have; a role change replaces the whole set.
 
-Request access when your role fits your job and you need one extra module. Ask for a role change when the job changed and several modules are wrong. An approval adds one module to what you have; a role change replaces the whole set.
+**Can I request access to a specific button or action?**
+No. You can request **Read access** or **Manage access** to a module, but not individual actions.
+
+**My request was approved. Why do I still see Access Restricted?**
+In the current release, a signed-in session keeps the access of the role it had at sign-in, so the module may stay closed after approval. See **What's live in this build**.
+
+**Will the requester be notified of my decision?**
+No notification is sent to the requester. Admins are notified when a request is raised, not when it is reviewed. Let the person know yourself, especially after a rejection, since their **Access Restricted** screen looks the same either way.
 
 **Why does every reviewed request say WorkspaceAdmin?**
-
-Every review is recorded as `WorkspaceAdmin`, whoever pressed the button, so **REVIEWED** cards read `Approved by WorkspaceAdmin` or `Rejected by WorkspaceAdmin`. The actual admin's name is not stored anywhere you can read.
-
-**Does the requester hear about my decision?**
-
-No message reaches the requester. The bell notification fires when a request is raised, not when it is reviewed, so tell the person yourself. This matters most after a rejection, since thei&#x72;**&#x20;Access Restricted** page looks the same either way. The seeded Access request approved notification everyone sees is a demo, not a reply to anything you sent.
+Every review is recorded as "WorkspaceAdmin," whoever made the decision. The individual admin's name isn't shown.
 
 **Can I withdraw a request I sent?**
+No. Requests can't be withdrawn, edited, or canceled, and they don't expire. Sending a second request for the same module creates a second card rather than replacing the first. Ask a Workspace Admin to reject any you no longer need.
 
-A request cannot be withdrawn, edited or cancelled from your side, and it does not expire. A second request for the same module creates a second card, not a replacement. Ask a Workspace Admin to reject any you no longer need.
+**What happens if the same person requests the same module twice?**
+Each request creates its own card. Approve one and reject the duplicate.
 
-**The Access Requests tab is empty. Where did the requests go?**
+**Can a reviewed request be reopened?**
+No. If the person still needs access, ask them to raise a new request.
 
-Requests are held on the server in memory, so a server restart empties the list, reviewed cards included. With no seeded requests, a fresh environment shows `No pending requests` and `No reviewed requests yet` until someone raises one.
-
-## Related
-
-<Cards columns="2">
-  <Card title="Roles and permissions" href="doc:roles-and-permissions" icon="fa-user-shield">
-    Why a module is closed to you in the first place.
-  </Card>
-
-  <Card title="Invite, change, and deactivate teammates" href="doc:manage-your-team" icon="fa-user-plus">
-    The other way to change what someone holds.
-  </Card>
-
-  <Card title="Create a custom role" href="doc:custom-roles" icon="fa-sliders">
-    Where a generated role shows up afterwards.
-  </Card>
-
-  <Card title="What's live in this build" href="doc:whats-live-in-this-build" icon="fa-circle-half-stroke">
-    What saves, what stays in this browser, what only previews.
-  </Card>
-</Cards>
+**The Access Requests list is empty. Where did the requests go?**
+When there are no requests, the list shows "No pending requests" and "No reviewed requests yet." In the current release, requests can also be cleared when the service restarts, including reviewed ones.
