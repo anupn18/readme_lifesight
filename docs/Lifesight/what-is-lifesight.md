@@ -69,7 +69,7 @@ Each capability delivers an outcome and feeds the next:
 
 Because Lifesight orchestrates these methods instead of offering any one on its own, your results stay consistent, explainable, and actionable for the C-suite and channel owners alike.
 
-## Where Measurement Breaks Down, and What It Costs You
+### Where Measurement Breaks Down, and What It Costs You
 
 To see why a triangulated approach matters, it helps to look at where marketing measurement usually breaks down. These problems rarely show up alone. One tends to cause the next.
 
