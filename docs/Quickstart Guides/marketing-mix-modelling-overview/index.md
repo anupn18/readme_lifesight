@@ -59,8 +59,6 @@ Models move through training, review, promotion, refresh, and retraining. Models
 - **Refresh** your model when new time periods follow the same schema and model structure.
 - **Retrain** your model when you need to change its variables, causal assumptions, calibration evidence, or configuration.
 
-**\[VIDEO PLACEHOLDER: From model creation to model review and planning]**
-
 ## Get started
 
 Start with [**Setting up your Mix Model**](https://docs.lifesight.io/v2.0/docs/setting-up-your-mix-model), then use [**Model review**](https://docs.lifesight.io/v2.0/update/docs/model-review) to find your way around the Models workspace. Each tab has its own page explaining what the results mean and how to use them.
