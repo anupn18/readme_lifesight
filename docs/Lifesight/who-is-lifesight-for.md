@@ -12,79 +12,79 @@ metadata:
     - Lifesight customers
   robots: index
 ---
-Lifesight is built for busiensses that want causal, finance-ready marketing decisions, from board-level budget allocation down to day-to-day optimization, without depending on user-level tracking. If you care about incremental ROI, profit-aligned forecasting, and guardrails grounded in measured lift, you're in the right place.
+Lifesight helps businesses make causal, finance-ready marketing decisions, from board-level budget allocation down to day-to-day optimization, without depending on user-level tracking. If you care about incremental ROI, profit-aligned forecasting, and guardrails grounded in measured lift, you're in the right place.
 
-The brands that get the most out of Lifesight share three traits.**&#x20;They run multi-channel media mixes and need to know which channels are truly incremental. They answer to finance and the board, not just to platform-reported ROAS. And they would rather prove what works with experiments than debate it.**
+The brands that get the most out of Lifesight share three traits. They run multi-channel media mixes and need to know which channels are truly incremental. They answer to finance and the board, not just to platform-reported ROAS. And they would rather prove what works with experiments than debate it.
 
 You also don't need a perfect data warehouse or a dedicated data engineering team to start. Data OS handles ingestion, transformation, and orchestration, which is where most measurement programs stall. Agents then sit on top of your measurement so the right people get the right answer without digging for it.
 
-## The Teams We Serve: One Causal Truth, Shaped to Every Role
+## One Causal Truth, Shaped Around Every Team
 
-Because every team works from the same causal measurement, Lifesight can shape what each person sees around the decisions they own.&#x20;
+Because every team works from the same causal measurement, Lifesight can shape what each person sees around the decisions they own.
 
 Roles control which parts of the platform someone can access. Personas go further and tailor the agent cues and notifications each person receives, so a CFO isn't reading a creative fatigue alert and a channel lead isn't waiting on a quarterly board readout.
 
-### By Role
+### Answers Built for the Decisions Each Role Owns
 
 **CMO & VP of Growth: Set the Mix and Defend It With Causal Proof**
 
-- **What you own:** the overall media mix, growth targets, and the brand versus performance balance.
+- **What you own:** The overall media mix, growth targets, and the brand versus performance balance.
 - **Questions you bring:** Where should the next dollar go? Is upper-funnel actually incremental? How do I defend this budget to the board?
-- **What you get:** incremental contribution and mROAS from MMM, geo test results that settle debates, and budget scenarios with clear trade-offs. Cues flag when the mix drifts off plan or a channel approaches saturation.
+- **What you get:** Incremental contribution and mROAS from MMM, geo test results that settle debates, and budget scenarios with clear trade-offs. Cues flag when the mix drifts off plan or a channel approaches saturation.
 
 **CFO & FP\&A: Tie Marketing to Revenue, Margin, and Payback**
 
-- **What you own:** capital allocation, forecast accuracy, and the return on every marketing dollar.
+- **What you own:** Capital allocation, forecast accuracy, and the return on every marketing dollar.
 - **Questions you bring:** What is marketing incrementally contributing to revenue and margin? What is the risk if we cut or scale? When does this spend pay back?
-- **What you get:** incremental revenue and iROAS you can reconcile to the P\&L, forecasts with confidence intervals, and payback windows by channel. Every number traces back to its model, test, and assumptions.
+- **What you get:** Incremental revenue and iROAS you can reconcile to the P\&L, forecasts with confidence intervals, and payback windows by channel. Every number traces back to its model, test, and assumptions.
 
 **Performance & Media: Optimize Daily to What's Truly Incremental**
 
-- **What you own:** campaign performance, bids, budgets, creative, and audiences, often day to day.
+- **What you own:** Campaign performance, bids, budgets, creative, and audiences, often day to day.
 - **Questions you bring:** Which campaigns should I scale or pause today? Are retargeting and brand search over-attributed? Which creative is actually driving lift?
-- **What you get:** causal attribution that replaces platform-reported numbers with incrementality-adjusted KPIs, daily reads calibrated to test-measured lift, and guardrails on over-attributed tactics. Cues surface creative fatigue, pacing issues, and scaling opportunities as they happen.
+- **What you get:** Causal attribution that replaces platform-reported numbers with incrementality-adjusted KPIs, daily reads calibrated to test-measured lift, and guardrails on over-attributed tactics. Cues surface creative fatigue, pacing issues, and scaling opportunities as they happen.
 
 **Analytics & Insights: Govern the Measurement System Everyone Relies On**
 
-- **What you own:** data quality, model governance, experiment design, and a disciplined geo test roadmap.
+- **What you own:** Data quality, model governance, experiment design, and a disciplined geo test roadmap.
 - **Questions you bring:** Is our data clean and consistent? Are the models still accurate? Which tests should we run next, and are they powered to detect lift?
-- **What you get:** Data OS for schema mapping, taxonomy, and data modeling in one place, AI-guided model assistance, versioned models with audit trails, drift monitoring, and power analysis and MDE guidance for every test.
+- **What you get:** Data OS for schema mapping, taxonomy, and data modeling in one place, AI-guided model assistance, versioned models with audit trails, drift monitoring, and power analysis and MDE (minimum detectable effect) guidance for every test.
 
 Roles tell you who uses Lifesight. Industry shapes what they need to measure.
 
-### By Industry
+### Measurement Built for How Your Industry Grows
 
 **DTC & Ecommerce: Scale Prospecting Without Overpaying for Retargeting**
 
-- **Common challenges:** heavy reliance on Meta and Google, over-attributed retargeting and brand search, and frequent promos that blur what's truly incremental.
+- **Common challenges:** Heavy reliance on Meta and Google, over-attributed retargeting and brand search, and frequent promos that blur what's truly incremental.
 - **What Lifesight measures:** SKU and offer cadence, promo and price effects, new versus returning customers, and the incremental lift of prospecting versus retargeting.
-- **Typical decisions:** how far to scale prospecting, where to cap retargeting, and whether a new channel like CTV or influencer earns a bigger budget.
+- **Typical decisions:** How far to scale prospecting, where to cap retargeting, and whether a new channel like CTV or influencer earns a bigger budget.
 
 **Retail & CPG: See the Full Omnichannel Picture, Online and In Store**
 
-- **Common challenges:** a large share of revenue happens offline, retail media is growing fast, and platform reporting can't see in-store sales.
-- **What Lifesight measures:** omnichannel readouts across ecommerce and retail POS, CTV and YouTube effects, retail media effects, and halo from digital to in-store.
-- **Typical decisions:** how to split budget between retail media and national media, where to run geo tests by market, and how to prove brand spend drives incremental store sales.
+- **Common challenges:** A large share of revenue happens offline, retail media is growing fast, and platform reporting can't see in-store sales.
+- **What Lifesight measures:** Omnichannel readouts across ecommerce and retail POS (point-of-sale) data, CTV and YouTube effects, retail media effects, and halo (the lift digital media drives in store).
+- **Typical decisions:** How to split budget between retail media and national media, where to run geo tests by market, and how to prove brand spend drives incremental store sales.
 
 **Consumer Services & Apps: Grow Subscribers at a Payback You Can Defend**
 
-- **Common challenges:** long customer lifetimes, signal loss that limits user-level tracking, and constant creative testing.
-- **What Lifesight measures:** LTV and payback targets, subscriptions and app events, and creative and audience lift, all through privacy-safe methods.
-- **Typical decisions:** which acquisition channels hit payback targets, how much to spend on creative testing, and when to scale into new channels.
+- **Common challenges:** Long customer lifetimes, signal loss that limits user-level tracking, and constant creative testing.
+- **What Lifesight measures:** LTV (lifetime value) and payback targets, subscriptions and app events, and creative and audience lift, all through privacy-safe methods.
+- **Typical decisions:** Which acquisition channels hit payback targets, how much to spend on creative testing, and when to scale into new channels.
 
-## What Lifesight Helps You Achieve
+## The Outcomes You Can Expect
 
 Whatever your role or industry, the outcomes follow the same measurement loop.
 
 - **Measure** full-funnel incrementality across channels, tactics (specific ways of running a channel, such as prospecting or retargeting), geos, and time, so every team works from the same causal read.
 - **Forecast** to hit profit and growth goals, with confidence intervals that show the realistic range, not false precision.
-- **Optimize** channel and campaign spend using marginal returns and lift-calibrated KPIs, so budget moves go where the next dollar earns the highest incremental return.
+- **Optimize** channel and campaign spend using marginal returns and lift-calibrated KPIs, so budget goes where the next dollar earns the highest incremental return.
 - **Analyze** from one causal truth that aligns marketing, finance, and the board, ending the debate between platform-reported numbers and business results.
 - **Act** on agent recommendations that arrive with the evidence attached, instead of hunting for insights across dashboards.
 
 These outcomes are within reach for most multi-channel brands. The checklist below helps you see how closely your team fits today.
 
-## Is Lifesight Right for You? The Fit Checklist
+## Is Lifesight the Right Fit? A Quick Checklist
 
 You're a strong fit if most of these are true:
 
@@ -95,14 +95,14 @@ You're a strong fit if most of these are true:
 - **Finance alignment.** You track payback, profit, or contribution, not only platform-reported ROAS. Lifesight is built to answer the questions finance and the board ask.
 - **Privacy posture.** You prefer aggregate and geo-level methods over user-level tracking. Lifesight works without cookies or cross-site identity.
 
-### Edge Cases That Still Work Well With Lifesight
+### Still a Strong Fit, Even If...
 
-- **Early-stage brands with limited history but a willingness to test.** Start with geo tests and causal attribution to get causal answers quickly, then grow into MMM as data accrues.
-- **Large offline revenue components.** Bring retail and POS data and regional variation, and Lifesight reads halo and omnichannel effects that platform reporting misses.
-- **Messy or scattered data.** Custom sources, inconsistent naming, and non-standard schemas are handled inside Data OS rather than through a separate engineering project.
-- **Agency-led media.** Agencies can plan, optimize, and report to incrementality inside the same shared source of truth your internal teams use.
+- **You're an early-stage brand with limited history but a willingness to test.** Start with geo tests and causal attribution to get causal answers quickly, then grow into MMM as data accrues.
+- **A large share of your revenue is offline.** Bring retail and POS data and regional variation, and Lifesight reads halo and omnichannel effects that platform reporting misses.
+- **Your data is messy or scattered.** Custom sources, inconsistent naming, and non-standard schemas are handled inside Data OS rather than through a separate engineering project.
+- **Your media is agency-led.** Agencies can plan, optimize, and report to incrementality inside the same shared source of truth your internal teams use.
 
-### Not Yet a Fit If
+### When Lifesight Isn't the Right Fit Yet
 
 - **You need a real-time, user-level source of truth for all attribution.** Lifesight calibrates with causal truth and does not do identity-level stitching.
 - **You won't run or accept experiments** and only want to optimize to last-click or platform-reported ROAS.
@@ -110,26 +110,26 @@ You're a strong fit if most of these are true:
 
 If you fit, the next question is what data you need. The answer is less than most teams expect.
 
-## Minimum Data to Get Started: Start Lean, Add Depth Over Time
+## Start Measuring With Less Data Than You Think
 
 You can start lean and add depth over time. Lifesight supports staged onboarding, and Data OS maps, cleans, and structures whatever you bring so it's model-ready, typically in days rather than weeks.
 
-### Good (Minimum Viable)
+### Good: Get Your First Causal Answers
 
-- **Outcomes:** orders and revenue, weekly or daily, with new versus returning if available.
-- **Media:** channel-level spend, weekly, for your active paid channels.
-- **Context:** seasonality and calendar, such as holidays and sales events.
+- **Outcomes:** Orders and revenue, weekly or daily, with new versus returning if available.
+- **Media:** Channel-level spend, weekly, for your active paid channels.
+- **Context:** Seasonality and calendar, such as holidays and sales events.
 - **Attribution hygiene:** UTMs, rules, and consistent naming so platforms map cleanly. If your naming is inconsistent today, taxonomy can be applied inside Data OS.
 
 _What this unlocks:_ causal attribution and your first geo tests.
 
-### Better
+### Better: Sharpen Your MMM and Omnichannel Reads
 
 - Promo and price calendars, product and inventory flags, geo splits where you sell and ship, retail and POS roll-ups, and high-level creative or audience tags.
 
 _What this unlocks:_ sharper MMM, promo and price effects, omnichannel reads, and better-targeted geo tests.
 
-### Best
+### Best: Unlock the Most Precise Optimization
 
 - Additional demand drivers such as competitor or macro proxies, brand and traffic indicators like share of search and sessions, and richer geo and campaign granularity.
 
@@ -139,7 +139,7 @@ _Related: What Data Do I Need for Lifesight?_
 
 Once your data is in, here's how Lifesight turns it into measurement you can act on.
 
-## How We Measure: Two AI Layers, One Causal System
+## Causal Answers You Can Trust, From Two AI Layers Working as One
 
 Lifesight runs on two AI layers that work as one. The Causal AI layer combines three measurement methods so each one calibrates the others. The Agentic AI layer sits on top and keeps the results in front of the people who act on them.
 
@@ -157,42 +157,44 @@ _Methodology deep dives are linked at the end of this article._
 
 You don't need to switch everything on at once. Most brands start with one method and expand from there.
 
-## Typical Adoption Paths: Pick Your Starting Line
+## Start Where Your Biggest Question Is
 
 There's no single right place to start. Pick the path that matches your most pressing question.
 
-### Calibrate the Day-to-Day
+### Get Fast Scale-or-Cut Clarity on Daily Spend
 
-- **Best for:** teams that already run sizable media and need fast scale-or-cut clarity.
-- **What you do:** apply incrementality factors to platform reporting and re-rank channels and tactics by incremental performance.
-- **What you get:** a clear view of which campaigns are truly incremental, and where spend is over-attributed.
+- **Best for:** Teams that already run sizable media and need fast scale-or-cut clarity.
+- **What you do:** Apply incrementality factors to platform reporting and re-rank channels and tactics by incremental performance.
+- **What you get:** A clear view of which campaigns are truly incremental, and where spend is over-attributed.
 
-### Prove Lift With Targeted Geo Tests
+### Settle Big Bets With Targeted Geo Tests
 
-- **Best for:** brands facing big, debatable bets, such as CTV, YouTube, brand search, or retargeting levels.
-- **What you do:** design and run geo tests with power analysis and MDE guidance, then feed the lift into attribution and planning.
-- **What you get:** causal proof that settles internal debates and removes over-attribution from your reporting.
+- **Best for:** Brands facing big, debatable bets, such as CTV, YouTube, brand search, or retargeting levels.
+- **What you do:** Design and run geo tests with power analysis and MDE guidance, then feed the lift into attribution and planning.
+- **What you get:** Causal proof that settles internal debates and removes over-attribution from your reporting.
 
-### Plan With MMM and Response Curves
+### Plan Budgets With Clear Trade-offs Using MMM
 
-- **Best for:** teams setting quarterly budgets and running monthly re-plans across many channels.
-- **What you do:** use causal MMM to see incremental contribution and saturation, then build budget scenarios in the planner.
-- **What you get:** a budget plan with clear trade-offs, calibrated with your test results for higher confidence in forecasts.
+- **Best for:** Teams setting quarterly budgets and running monthly re-plans across many channels.
+- **What you do:** Use causal MMM to see incremental contribution and saturation, then build budget scenarios in the planner.
+- **What you get:** A budget plan with clear trade-offs, calibrated with your test results for higher confidence in forecasts.
 
 You can start anywhere. Most brands run all three within the first one to two quarters, and each one makes the others more accurate.
 
-## What Good Looks Like After One to Two Cycles
+## Where You'll Be After One to Two Planning Cycles
 
 Whichever path you start on, this is where teams typically land after one to two planning cycles.
 
 - **One causal readout** used by the CMO, CFO, and channel owners, each at the level of detail they need.
 - **Lift-calibrated KPIs** guiding weekly optimization and monthly re-plans, replacing platform-reported numbers.
 - **Sensible guardrails** on lower-funnel spend, retargeting, and brand search, so budget isn't wasted on over-attributed tactics.
-- **Scenario discipline:** budgets chosen with clear trade-offs and confidence intervals, not gut feel.
-- **Fewer debates, faster learning:** a running backlog of geo tests tied to real decisions.
-- **Proactive decisions:** cues reach the right person while the decision still matters, instead of waiting for someone to check a dashboard.
+- **Scenario discipline:** Budgets chosen with clear trade-offs and confidence intervals, not gut feel.
+- **Fewer debates, faster learning:** A running backlog of geo tests tied to real decisions.
+- **Proactive decisions:** Cues reach the right person while the decision still matters, instead of waiting for someone to check a dashboard.
 
-## FAQ
+## Frequently asked questions
+
+<br />
 
 **Do we need a huge budget to benefit?**
 No. Spend variation and willingness to test matter more than sheer budget. Smaller teams can start with geo tests and causal attribution, then progress to MMM.
@@ -215,8 +217,11 @@ Yes. Agents run inside the Lifesight Agent Harness and answer only from your own
 **Can our agency use Lifesight too?**
 Yes. Agencies can plan and optimize to incrementality, run geo tests, and report from the same shared source of truth as your internal team.
 
-**Where should we start?**
-Start where the stakes or the uncertainty are highest. To find the right starting point for your team, talk to our team about a data readiness check.
+**Where should we start?**<br />Start where the stakes or the uncertainty are highest. To find the right starting point for your team, talk to our team about a data readiness check.
+
+***
+
+## Related Articles
 
 <Cards>
   <Card title="Previous" href="https://docs.lifesight.io/v2.0/update/docs/what-is-lifesight" icon="❓">
