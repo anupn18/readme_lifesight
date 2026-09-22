@@ -111,7 +111,7 @@ Incrementality figures are modeled relationships from your promoted model. They 
 
 ***
 
-## Frequently Asked Questions
+## Frequently Asked Questions<br />
 
 **Why can't I see Incrementality results?**
 Incrementality unlocks once you promote a model on the **Models** page. Incremental returns come from your champion model, never from a default, so no results appear until a model is promoted.
