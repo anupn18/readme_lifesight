@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Invite, Change, and deactivate Teammates'
+title: ' Invite, Change, and deactivate Teammates'
 excerpt: >-
   Invite people to your workspace from Team > Manage Team, change the role a
   member holds, and deactivate, re-invite or revoke access.
