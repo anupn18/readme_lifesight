@@ -276,64 +276,6 @@ Team opens for every role at **View team members**. The four action rights are w
 
 **Notification preferences** is the one Settings sub-module every role can change, which is why Settings reads ● for five of the six roles.
 
-## What each role cannot do
-
-The restriction list for each role, keyed on the role name. A denied module greys in the sidebar and opens **Access Restricted**. A denied action right leaves its button on screen at 50% opacity with the tooltip<br />`Your role ({Role}) cannot {action}. Ask a workspace admin for access.`, where `{Role}` is the role key (`DataPractitioner`, not `Data Practitioner`) and `{action}` is the sub-module label in lower case. Denied items inside a row menu are greyed with no tooltip at all.
-
-### Workspace Admin cannot
-
-- Meet a restriction. No module is closed, and all 23 action rights are held.
-- Change what another person's signed-in session opens. A role change is recorded against the member record, and that person's session keeps the role it was issued at sign-in.
-
-### Data Practitioner cannot
-
-- Open **Config**.
-- Use 17 of the 23 action rights. It holds `models.request_rollback`, `experiments.promote_experiment`, `data.connect_integration`, `data.delete_integration`, `data.edit_delete_data_model` and `data.add_tactic_mapping`, and nothing else.
-- Use `cockpit.publish_artifact`, `plan.promote_to_decision` or `plan.download_export_allocation`.
-- Use any Deploy or Attribution action right: `deploy.change_bid_budget`, `deploy.change_status`, `deploy.edit_geo_deploy`, `attribution.promote_model`, `attribution.set_benchmark`.
-- Use `models.retrain_model` or `models.refresh`.
-- Use any Team action right: `team.add_users`, `team.edit_permissions`, `team.create_new_role`, `team.deactivate_user`.
-- Use any Settings action right: `settings.configure_brand_kit`, `settings.create_brand_workspace`, `settings.update_workspace_settings`.
-
-### Marketing Scientist cannot
-
-- Open **Config**.
-- Read any non-action part of **Data**. It holds `data.connect_integration` and `data.add_tactic_mapping` and nothing else in Data, and those two grants are what keep the module open.
-- Use `data.delete_integration` or `data.edit_delete_data_model`.
-- Use `cockpit.publish_artifact`, `plan.promote_to_decision` or `models.request_rollback`.
-- Use any Team action right: `team.add_users`, `team.edit_permissions`, `team.create_new_role`, `team.deactivate_user`.
-- Use any Settings action right: `settings.configure_brand_kit`, `settings.create_brand_workspace`, `settings.update_workspace_settings`.
-
-### Strategic Planner cannot
-
-- Open **Profiles**, **Data** or **Config**.
-- Use any Models or Experiments action right: `models.request_rollback`, `models.retrain_model`, `models.refresh`, `experiments.promote_experiment`.
-- Use any Data action right: `data.connect_integration`, `data.delete_integration`, `data.edit_delete_data_model`, `data.add_tactic_mapping`.
-- Use any Team action right: `team.add_users`, `team.edit_permissions`, `team.create_new_role`, `team.deactivate_user`.
-- Use any Settings action right: `settings.configure_brand_kit`, `settings.create_brand_workspace`, `settings.update_workspace_settings`.
-
-### Executive cannot
-
-- Open **Profiles**, **Segments**, **Data** or **Config**.
-- Hold more than three action rights. `cockpit.publish_artifact`, `plan.promote_to_decision` and `plan.download_export_allocation` are the whole set, and the other 20 are denied.
-- Use any Deploy or Attribution action right: `deploy.change_bid_budget`, `deploy.change_status`, `deploy.edit_geo_deploy`, `attribution.promote_model`, `attribution.set_benchmark`.
-- Use any Models or Experiments action right: `models.request_rollback`, `models.retrain_model`, `models.refresh`, `experiments.promote_experiment`.
-- Use any Data, Team or Settings action right.
-- Hold Manage access on anything except **Settings**, where the one manage grant is `settings.notification_prefs`.
-
-### Viewer cannot
-
-- Use any action right anywhere. All 23 are denied, which makes Viewer the only role that triggers nothing.
-- Hold Manage access on any sub-module of any module. Of its 89 cells, 66 read ◐ and the 23 action rights read ○.
-- Be selected in **Invite User**, or appear in the **Preset Roles** list in **Manage Roles**. Put someone on Viewer with **Change role** on their **Manage Team** row.
-
-No module is closed to a Viewer. All 16 read ◐, including **Data**, **Config** and
-**Team**.
-
-None of these lists is a dead end. Select **Request Access** on the **Access
-Restricted** page, or ask a Workspace Admin to move the person onto another role —
-see [Ask for access, and review requests](doc:access-requests).
-
 ## Custom roles
 
 The tables on this page cover the six built-in roles only, not custom roles. A custom role is built from the same 55 rights, but the rights it holds are saved in your browser rather than in the tables here. There are two ways a custom role gets created.
