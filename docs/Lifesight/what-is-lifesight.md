@@ -14,9 +14,13 @@ metadata:
 ---
 Lifesight is an agentic Unified Marketing Measurement (UMM) platform that helps businesses grow by measuring the incremental impact of every channel, not the attributed performance ad platforms report.
 
-Every marketing team faces the same question: what is the incremental return on the next dollar? Platform-reported ROAS, last-click attribution, and black-box models all give different answers, and by the time a reliable read arrives, the planning window has often closed. Lifesight answers that question with causal evidence, in timely manner.
+Every marketing team faces the same question: what is the incremental return on the next dollar? Platform-reported ROAS, last-click attribution, and black-box models all give different answers, and by the time a reliable read arrives, the planning window has often closed.&#x20;
 
-It does this through two AI layers working as one. Causal AI runs Marketing Mix Modeling (MMM), geo incrementality testing, and causal attribution as one orchestrated system. Lift tests calibrate the MMM, the MMM and test results calibrate attribution, and your numbers stay consistent from quarterly planning down to daily optimization. Agentic AI is built on that same calibrated system, so agents can act on it directly, surfacing what changed and recommending the next budget move.
+Lifesight answers that question with causal evidence, in timely manner.
+
+It does this through two AI layers working as one. Causal AI runs Marketing Mix Modeling (MMM), geo incrementality testing, and causal attribution as one orchestrated system. Lift tests calibrate the MMM, the MMM and test results calibrate attribution, and your numbers stay consistent from quarterly planning down to daily optimization.&#x20;
+
+Agentic AI is built on that same calibrated system, so agents can act on it directly, surfacing what changed and recommending the next budget move.
 
 **What this means for your team:**
 
@@ -82,7 +86,9 @@ Each capability below is one step in the measurement loop, in the order the loop
 
 ### 1. Data OS: Model-Ready Data in Days, Not Weeks
 
-The loop starts with your data, because that is where measurement usually stalls. Around 80% of MMM complexity sits in ingestion, transformation, and orchestration. Data OS removes that bottleneck, getting your data model-ready in days instead of weeks and keeping your models on a continuous refresh without engineering support.
+The loop starts with your data, because that is where measurement usually stalls. Around 80% of MMM complexity sits in ingestion, transformation, and orchestration.&#x20;
+
+Data OS removes that bottleneck, getting your data model-ready in days instead of weeks and keeping your models on a continuous refresh without engineering support.
 
 **What it covers**
 
@@ -129,7 +135,9 @@ MMM estimates what each channel is worth. The next step is validating it with ex
 
 ### 3. Geo Incrementality Testing: Prove Lift Before You Scale
 
-Geo incrementality testing measures causal lift by comparing test markets against matched control markets, built for the realities of how brands actually run media. It validates channel performance before you commit more budget, and feeds experimental results back into your MMM as calibration priors so the model gets more accurate over time.
+Geo incrementality testing measures causal lift by comparing test markets against matched control markets, built for the realities of how brands actually run media.&#x20;
+
+It validates channel performance before you commit more budget, and feeds experimental results back into your MMM as calibration priors so the model gets more accurate over time.
 
 **What it covers**
 
@@ -178,7 +186,9 @@ The Causal AI layer tells you what is working and what to do about it. The Agent
 
 ### 6. Agents: Get Answers and Next Steps, Not Just Dashboards
 
-Agents close the loop. Built on the Lifesight Agent Harness and Marketing Context Graph, they understand your business, your data, and your measurement guardrails. Every response is grounded in your measurement system, with no hallucinations and no guesswork, and every recommendation is causality-first, built to drive outcomes rather than vanity metrics.
+Agents close the loop. Built on the Lifesight Agent Harness and Marketing Context Graph, they understand your business, your data, and your measurement guardrails.
+
+&#x20;Every response is grounded in your measurement system, with no hallucinations and no guesswork, and every recommendation is causality-first, built to drive outcomes rather than vanity metrics.
 
 Agents work on demand when you ask, and run quietly in the background 24/7 when you don't.
 
