@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Getting Started With Causal Attribution'
+title: ' Getting Started With Causal Attribution'
 excerpt: Go From Connected Data to Confident Budget Decisions
 deprecated: false
 hidden: true
