@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Snapchat Ads'
+title: Snapchat Ads
 excerpt: >-
   Connect Snapchat Ads to see what vertical video and AR spend returns, and
   decide whether it deserves more budget.
