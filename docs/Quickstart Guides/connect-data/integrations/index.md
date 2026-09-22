@@ -297,18 +297,30 @@ Each integration reports data in the timezone shown under **Connection Details**
 
 ***
 
-## Next up
+## Related articles
 
-### Platform guides
+<Cards>
+  <Card title="Meta Ads" icon="🔗">
 
-The pages below cover what each source provides, what you need before you start, and the exact steps for that platform.
+  </Card>
 
-- <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-meta-ads">Meta Ads</Anchor>
-- <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-google-ads">Google Ads</Anchor>
-- <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-microsoft-ads">Microsoft Ads</Anchor>
-- <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-snapchat-ads">Snapchat Ads</Anchor>
-- <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-reddit-ads">Reddit Ads</Anchor>
-- [RTB House](https://docs.lifesight.io/docs/4-0-wip-rtb-house)
-- <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-stackadapt">StackAdapt</Anchor>
-- <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-csv-import">CSV Import</Anchor>
-- <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-google-sheets">Google Sheets</Anchor>
+  <Card title="Google Ads" icon="🔗">
+
+  </Card>
+
+  <Card title="Microsoft Ads" icon="🔗">
+
+  </Card>
+
+  <Card title="Snapchat Ads" icon="🔗">
+
+  </Card>
+
+  <Card title="Reddit Ads" icon="🔗">
+
+  </Card>
+
+  <Card title="RTB House" icon="🔗">
+
+  </Card>
+</Cards>
