@@ -220,11 +220,11 @@ Yes. Agencies can plan and optimize to incrementality, run geo tests, and report
 ## Related Articles
 
 <Cards>
-  <Card title="Previous" href="https://docs.lifesight.io/v2.0/update/docs/what-is-lifesight" icon="❓">
-    What is Lifesight
+  <Card title="What is Lifesight" href="https://docs.lifesight.io/v2.0/update/docs/what-is-lifesight" icon="❓">
+
   </Card>
 
-  <Card title="Next" href="https://docs.lifesight.io/v2.0/update/docs/how-lifesight-works" icon="⌛">
-    How Lifesight Works
+  <Card title="How Lifesight Works" href="https://docs.lifesight.io/v2.0/update/docs/how-lifesight-works" icon="⌛">
+
   </Card>
 </Cards>
