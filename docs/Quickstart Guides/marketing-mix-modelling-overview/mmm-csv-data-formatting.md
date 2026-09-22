@@ -91,8 +91,6 @@ Sample size alone does not identify coefficients; independent variation in spend
 4. Add paid, organic, contextual, and halo variables.
 5. Review any unused fields before proceeding.
 
-**\[VIDEO PLACEHOLDER: Uploading and mapping an MMM CSV in Lifesight 4.0]**
-
 ## Troubleshooting and Support
 
 If the file cannot be read, confirm that it is a CSV with a valid header row and is below the upload limit. For missing data, unusual time series, or questions about variable selection, contact your Lifesight Marketing Science team before replacing values or removing fields.
