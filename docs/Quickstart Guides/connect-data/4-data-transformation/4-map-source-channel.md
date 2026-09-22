@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Map a source to a channel'
+title: Map a source to a channel
 excerpt: >-
   Tell Lifesight which channel a source's data belongs to, so its spend is
   grouped with the right marketing activity.
