@@ -157,7 +157,13 @@ Integrations usually sits with whoever has admin access to the ad accounts. Data
 
 ***
 
-## Next up
+## Related Articles
+
+<Cards>
+  <Card title="Integrations" href="https://docs.lifesight.io/docs/4-0-wip-integrations" icon="fa-rocket">
+
+  </Card>
+</Cards>
 
 Connect your data with <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-integrations">Integrations</Anchor>
 
