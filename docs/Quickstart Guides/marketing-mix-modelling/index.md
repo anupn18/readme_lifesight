@@ -63,7 +63,7 @@ Models move through training, review, promotion, refresh, and retraining. Models
 
 ## Get started
 
-Start with [**Setting up your Mix Model**](https://docs.lifesight.io/v2.0/docs/setting-up-your-mix-model), then use [**Model Overview**](https://docs.lifesight.io/v2.0/update/docs/model-overview) to find your way around the Models workspace. Each tab has its own page explaining what the results mean and how to use them.
+Start with [**Setting up your Mix Model**](https://docs.lifesight.io/v2.0/docs/setting-up-your-mix-model), then use [**Model review**](https://docs.lifesight.io/v2.0/update/docs/model-review) to find your way around the Models workspace. Each tab has its own page explaining what the results mean and how to use them.
 
 ***
 
@@ -71,7 +71,7 @@ Start with [**Setting up your Mix Model**](https://docs.lifesight.io/v2.0/docs/s
 
 ### What is Causal MMM in Lifesight?
 
-Causal MMM is Lifesight's marketing mix model. It shows how paid media, organic activity, contextual factors, halo effects, and baseline demand each contribute to a business outcome, giving you a top-down view of what's driving results.
+Causal MMM (Marketing Mix Modeling) measures how paid media, organic activity, contextual factors, halo effects, and baseline demand each contribute to a business outcome. It uses causal relationships between these factors, rather than correlation alone, to give you a top-down view of what's actually driving results.
 
 ### How is Causal MMM different from attribution?
 
@@ -138,7 +138,7 @@ Use a promoted model in Planner to create budget scenarios and optimize your med
 
   </Card>
 
-  <Card title="Setting up your First Model" icon="fa-code">
+  <Card title="Setting up your First Model" href="https://docs.lifesight.io/v2.0/docs/setting-up-your-mix-model" icon="fa-code">
 
   </Card>
 </Cards>
