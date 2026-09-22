@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Overview: separate reported revenue from incremental revenue'
+title: 'Overview: separate reported revenue from incremental revenue'
 excerpt: >-
   Compare platform-reported numbers against incremental results, and see how
   much of your budget is genuinely working.
