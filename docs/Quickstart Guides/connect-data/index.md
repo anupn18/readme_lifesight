@@ -160,7 +160,7 @@ Integrations usually sits with whoever has admin access to the ad accounts. Data
 ## Related Articles
 
 <Cards>
-  <Card title="Integrations" href="https://docs.lifesight.io/docs/4-0-wip-integrations" icon="fa-rocket">
+  <Card title="Integrations" href="https://docs.lifesight.io/v2.0/update/docs/integrations" icon="fa-rocket">
 
   </Card>
 </Cards>
