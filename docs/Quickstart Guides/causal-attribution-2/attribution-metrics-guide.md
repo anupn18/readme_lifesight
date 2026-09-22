@@ -9,11 +9,9 @@ metadata:
   title: Attribution metrics guide
   robots: noindex
 ---
-<br />
-
 Attribution in Lifesight gives you every number you need to judge your marketing in one place, from what platforms report to what your spend actually caused and whether it's on plan. It combines four groups of metrics: incremental performance, platform-reported performance, spend and pacing, and recommendations.&#x20;
 
-\[IMAGE PLACEHOLDER: Attribution Breakdown with metric columns]
+![](https://files.readme.io/939dca0956ecea5a948e89b34f5255d9e7060f0ad346b3447dd1db1e65f6370d-Screenshot_2026-09-22_at_12.35.35_PM.png)
 
 ## Measure what your marketing caused
 
