@@ -1,5 +1,5 @@
 ---
-title: '[4.0][ReadyForQA]Team and Access'
+title: Team and Access
 deprecated: false
 hidden: true
 metadata:
