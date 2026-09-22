@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Setting up your Marketing Mix Model'
+title: Setting up your Marketing Mix Model
 excerpt: >-
   Your guide to configure data, select variables, and launching your marketing
   mix model
