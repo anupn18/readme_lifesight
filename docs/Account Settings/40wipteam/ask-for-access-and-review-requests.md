@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Ask for access, and review requests'
+title: Ask for access, and review requests
 excerpt: >-
   Ask for Read or Manage access from the Access Restricted page, then approve or
   reject the request on Team > Access Requests.
