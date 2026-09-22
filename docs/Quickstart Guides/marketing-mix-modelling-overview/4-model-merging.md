@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Merging Models'
+title: Merging Models
 excerpt: Go From Five Models to One Set of Numbers You Can Present
 deprecated: false
 hidden: true
