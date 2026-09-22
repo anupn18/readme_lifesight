@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Causal Graph: See how your channels work together'
+title: 'Causal Graph: See how your channels work together'
 excerpt: Use causal graph relationships to understand modeled effects.
 deprecated: false
 hidden: true
