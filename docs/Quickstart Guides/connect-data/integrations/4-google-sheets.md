@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Google Sheets'
+title: Google Sheets
 excerpt: >-
   Link Google Sheet so data your team maintains by hand refreshes into Lifesight
   automatically.
