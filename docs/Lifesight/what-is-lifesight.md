@@ -206,20 +206,20 @@ Agents work on demand when you ask, and run quietly in the background 24/7 when 
 
 Together, these layers give you one connected measurement system: model-ready data, calibrated MMM, proven lift, causal attribution, optimized plans, and agents that keep it all moving. To see how it can work for your brand, book a demo with our team.
 
-## Measure With Confidence, Without Compromising Privacy
+**Measure With Confidence, Without Compromising Privacy**
 
 - **Data minimization:** Only the data required for measurement use cases.
 - **Privacy-safe modeling:** MMM and geo testing operate on aggregate signals; attribution uses calibrated, policy-compliant inputs.
 - **Governance:** Role-based access, auditable changes, environment segregation, and documented model versions.
 
-## Key Terms at a Glance
+**Key Terms at a Glance**
 
 - **Incrementality:** The causal lift attributable to an intervention versus a valid counterfactual.
 - **iROAS vs. mROAS:** Average ROI across historical spend vs. marginal ROI for the next dollar. Use mROAS for scaling decisions.
 - **Calibration:** Using causal lift and MMM temporal factors to adjust platform and attribution numbers so daily reads line up with reality.
 - **Saturation:** The point at which additional spend yields diminishing marginal returns (where mROAS drops below your hurdle rate).
 
-## Signs Lifesight Is Right for You
+**Signs Lifesight Is Right for You**
 
 - You need one version of the truth across marketing, finance, and agencies.
 - Budgets are shifting into new channels like CTV, retail media, and influencer, and you must prove what works.
