@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] CSV Import'
+title: CSV Import
 excerpt: >-
   Upload a CSV to bring in spend from sources Lifesight cannot connect to
   directly, so nothing sits outside your measurement.
