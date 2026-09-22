@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Setting up your Workspace'
+title: Setting up your Workspace
 excerpt: >-
   Settings > Workspace carries the workspace reporting defaults and the one-time
   week start lock.
