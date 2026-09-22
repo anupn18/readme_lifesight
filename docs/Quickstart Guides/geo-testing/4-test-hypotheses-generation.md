@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Test hypotheses for clear budget decisions'
+title: Test hypotheses for clear budget decisions
 excerpt: >-
   Define what you want to learn from your Geo Experiment so every result tells
   you where to invest next.
