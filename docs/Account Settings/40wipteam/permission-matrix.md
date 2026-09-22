@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Doubts]Permission Matrix'
+title: Permission Matrix
 excerpt: The generated grid of six Lifesight roles.
 deprecated: false
 hidden: true
