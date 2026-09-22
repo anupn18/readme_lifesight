@@ -38,6 +38,8 @@ A merged model is intended for consolidated review. Some outputs from a fully tr
 
 Do not interpret a missing merged-model field as a zero value. Return to the source models when you need model-specific uncertainty, diagnostics, or response behaviour.
 
+***
+
 ## Frequently asked questions <br />
 
 **What does Merge Models do in Lifesight?**
