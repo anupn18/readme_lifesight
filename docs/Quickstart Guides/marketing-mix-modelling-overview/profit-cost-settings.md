@@ -9,7 +9,7 @@ metadata:
     - Lifesight Configuration
   robots: noindex
 ---
-Cost Settings let you turn measured revenue into a clear view of profit. By defining the financial assumptions behind your results, you can see incremental profit, incremental profit margin, iPOAS (incremental profit on ad spend), and LTV-to-CPA (customer lifetime value compared with cost per acquisition) in Lifesight 4.0, so you can judge channels by what they actually earn, not just what they bring in.
+Cost Settings let you turn measured revenue into a clear view of profit. By defining the financial assumptions behind your results, you can see incremental profit, incremental profit margin, iPOAS (incremental profit on ad spend), and LTV-to-CPA (customer lifetime value compared with cost per acquisition) in Lifesight, so you can judge channels by what they actually earn, not just what they bring in.
 
 ## Open Cost Settings
 
