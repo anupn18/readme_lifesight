@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-[GDPR](https://docs.lifesight.io/docs/gdpr)
+[GDPR](https://docs.lifesight.io/v2.0/update/docs/gdpr)
 
 [SOC2](https://docs.lifesight.io/docs/soc-2)
 
