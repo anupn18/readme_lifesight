@@ -11,7 +11,7 @@ metadata:
 ---
 The target scenario sets the plan your marketing is measured against in Attribution, so every pacing figure and recommendation reflects the goals you've committed to. It controls the benchmark, planned spend, and causal recommendations displayed in Attribution. Choosing the right scenario keeps your spend decisions tied to a plan that is current and relevant.
 
-\[IMAGE PLACEHOLDER: Target scenario control in the Attribution header]
+![](https://files.readme.io/a60afc066bb53cacd6b321167fbfc10e1c6ff7796031db5afdbc674277d6a55e-Screenshot_2026-09-22_at_12.39.31_PM.png)
 
 ## Set your target scenario
 
@@ -54,7 +54,9 @@ After confirmation, the selected benchmark appears in the scenario chip, so you 
 
 Review the **Overview** and **Breakdown** again after changing the scenario. Planned spend, pacing, and recommendations can all change with the active scenario. For example, a channel marked **Maintain** under one scenario may show **Scale** under a scenario with a higher planned budget.
 
-\[IMAGE PLACEHOLDER: Updated pacing and recommendations after benchmark selection]
+![](https://files.readme.io/a3a4dab450e14b5c1bfd2af00654340150800e9034bded8c25ee3fd8505cabfa-Screenshot_2026-09-22_at_12.38.56_PM.png)
+
+<br />
 
 **Note:** Use a scenario and analysis period that are relevant to the current decision. Recommendations based on an outdated plan may no longer be actionable.
 
