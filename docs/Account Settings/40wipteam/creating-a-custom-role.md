@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Create a custom role'
+title: Create a custom role
 excerpt: >-
   Team > Manage Roles holds the five preset roles and the Read, Manage and
   Actions grid where a Workspace Admin creates, edits and deletes custom roles.
