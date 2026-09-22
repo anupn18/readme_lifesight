@@ -1,9 +1,12 @@
 ---
-title: '[4.0][Updated] CSV Data Formatting Guidelines'
+title: CSV Data Formatting Guidelines
 excerpt: Prepare CSV data for Marketing Mix Modeling in Lifesight 4.0.
 deprecated: false
 hidden: true
 metadata:
+  title: CSV Data Formatting Guidelines
+  keywords:
+    - Lifesight CSV Model
   robots: noindex
 ---
 High-quality input data is the foundation of an accurate and actionable Marketing Mix Model. In Lifesight, you can create a model from an existing Data Model or upload a CSV file and map every field manually.
