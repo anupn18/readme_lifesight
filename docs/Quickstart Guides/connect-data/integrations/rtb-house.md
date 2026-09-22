@@ -3,7 +3,7 @@ title: RTB House
 excerpt: >-
   Connect RTB House to see what personalized retargeting actually returns, and
   whether it earns more budget.
-hidden: true
+hidden: false
 metadata:
   title: Lifesight X RTB
   keywords:
