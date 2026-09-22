@@ -16,4 +16,4 @@ next:
 
 [ISO 27001](https://docs.lifesight.io/v2.0/update/docs/iso-27001)
 
-[POLICY](https://docs.lifesight.io/docs/hipaa)
+[POLICY](https://docs.lifesight.io/v2.0/update/docs/hipaa)
