@@ -148,9 +148,7 @@ The response curve's **Period** selector works independently of the page date ra
 
 Immediate and carryover effects are shown in **Diagnostics**.
 
-***
-
-## Related Cards
+##
 
 <br />
 
