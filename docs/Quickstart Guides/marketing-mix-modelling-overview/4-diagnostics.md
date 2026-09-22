@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Diagnostics'
+title: Model Diagnostics
 excerpt: Interpret causal evidence and confidence signals in Marketing Mix Modeling.
 deprecated: false
 hidden: true
