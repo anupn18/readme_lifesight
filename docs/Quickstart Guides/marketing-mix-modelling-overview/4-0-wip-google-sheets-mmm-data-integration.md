@@ -4,6 +4,7 @@ excerpt: Connect Google Sheets data to a Lifesight 4.0 MMM workflow.
 deprecated: false
 hidden: true
 metadata:
+  title: Google Sheets MMM data integration
   robots: noindex
 ---
 # Google Sheets MMM Data Integration
