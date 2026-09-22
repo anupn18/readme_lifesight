@@ -6,9 +6,7 @@ excerpt: >-
 deprecated: false
 hidden: true
 metadata:
-  title: >-
-    Casual [4.0][Updated] Causal Attribution: See What Truly Drives Revenue in
-    Lifesight
+  title: 'Causal Attribution: See What Truly Drives Revenue in Lifesight'
   keywords:
     - Lifesight Causal Attribution
   robots: noindex
