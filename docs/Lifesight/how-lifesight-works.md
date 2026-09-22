@@ -21,7 +21,11 @@ next:
 ---
 Lifesight turns fragmented marketing data into a single causal decision system, so every budget move, from quarterly allocation to daily optimization, is grounded in what your marketing actually caused.
 
-It does this with two AI layers working as one, on top of a data foundation built for speed. Data OS gets your data model-ready. The Causal AI layer unifies causal Marketing Mix Modeling (MMM), geo incrementality testing, and causal attribution, so each method calibrates the others. The Agentic AI layer then turns that measurement into decisions through the cockpit, ambient cues, and artifacts. The result is one loop where every insight can be proven, every plan simulated, and every daily decision aligned to business outcomes.
+It does this with two AI layers working as one, on top of a data foundation built for speed. Data OS gets your data model-ready.&#x20;
+
+The Causal AI layer unifies causal Marketing Mix Modeling (MMM), geo incrementality testing, and causal attribution, so each method calibrates the others. The Agentic AI layer then turns that measurement into decisions through the cockpit, ambient cues, and artifacts.
+
+The result is one loop where every insight can be proven, every plan simulated, and every daily decision aligned to business outcomes.
 
 ## One Loop From Data to Decisions
 
