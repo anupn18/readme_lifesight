@@ -6,6 +6,7 @@ excerpt: >-
 deprecated: false
 hidden: true
 metadata:
+  title: Team and Access
   robots: index
 ---
 Give every person on your team access to exactly what they need, so they can do their job in Lifesight without seeing or changing more than they should.&#x20;
