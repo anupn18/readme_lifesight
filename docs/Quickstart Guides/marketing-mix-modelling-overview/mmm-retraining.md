@@ -67,6 +67,8 @@ If the challenger performs better and its changes make sense, promote it. If not
 
 Use a name that identifies the reason or period for retraining, for example "Q3 2026 geo test calibration" or "Post-CTV expansion retrain." Clear names make it easy to compare models side by side and to manage your model lifecycle as your list grows.
 
+***
+
 ## Frequently Asked Questions
 
 **Does retraining change or replace my current model?**
