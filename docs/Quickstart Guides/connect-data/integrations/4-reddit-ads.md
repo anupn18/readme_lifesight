@@ -1,5 +1,5 @@
 ---
-title: '[4.0][Updated] Reddit Ads'
+title: Reddit Ads
 excerpt: >-
   Connect Reddit Ads to see what community-driven advertising actually returns,
   and whether it earns a larger share of budget.
