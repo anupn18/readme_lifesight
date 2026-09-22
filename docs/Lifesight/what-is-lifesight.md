@@ -223,14 +223,16 @@ Together, these layers give you one connected measurement system: model-ready da
 
 - You need one version of the truth across marketing, finance, and agencies.
 - Budgets are shifting into new channels like CTV, retail media, and influencer, and you must prove what works.
-- You want a repeatable cadence: refresh models, run smart tests, recalibrate, re-plan, and act, quarter after quarter.
+- You want a repeatable cadence: refresh models, run smart tests, recalibrate, re-plan, and act, quarter after quarter.<br /><br />
+  ***
+  ## Related Articles
 
-## Keep Exploring
+<Cards>
+  <Card title="Who is Lifesight For" href="https://docs.lifesight.io/v2.0/update/docs/who-is-lifesight-for" icon="fa-rocket">
 
-- [Who Is Lifesight For](https://docs.lifesight.io/v2.0/update/docs/who-is-lifesight-for): See if Lifesight is a fit for you
-- [How Lifesight Works](https://docs.lifesight.io/v2.0/update/docs/how-lifesight-works): From fragmented data to causal decisions
-- Getting Started: Quickstart guide
+  </Card>
 
-***
+  <Card title="How Lifesight works" href="https://docs.lifesight.io/v2.0/update/docs/how-lifesight-works" icon="fa-code">
 
-The Getting Started card had no link in the source, so you'll need to add that URL.
+  </Card>
+</Cards>
