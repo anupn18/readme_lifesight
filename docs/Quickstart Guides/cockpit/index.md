@@ -214,6 +214,10 @@ You can see exactly what's included in the context panel. Click **Remove** to as
   **I do not have access to integrate.** Connecting a platform usually needs admin access on that platform. Invite the person who has it from **Settings → Team**, and they can complete the step for you.
 </Callout>
 
+<br />
+
+***
+
 ## Frequently asked questions
 
 **What is the Cockpit in Lifesight?**
