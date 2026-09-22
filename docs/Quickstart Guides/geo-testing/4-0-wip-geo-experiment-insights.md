@@ -1,11 +1,14 @@
 ---
-title: '[4.0][Updated] Geo Experiment Insights'
+title: Geo Experiment Insights
 excerpt: >-
   See the incremental lift your marketing created and know exactly where to
   invest next
 deprecated: false
 hidden: true
 metadata:
+  title: Geo Experiment Insights
+  keywords:
+    - Lifesight Geo Experiment Insights
   robots: noindex
 ---
 Geo Experiment results compare the observed KPI in treatment markets with a synthetic control that estimates what would likely have happened without the treatment.
