@@ -4,7 +4,7 @@ excerpt: >-
   Compare platform-reported numbers against incremental results, and see how
   much of your budget is genuinely working.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: 'Overview: separate reported revenue from incremental revenue'
   keywords:

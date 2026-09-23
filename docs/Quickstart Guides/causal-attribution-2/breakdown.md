@@ -4,7 +4,7 @@ excerpt: >-
   Move from channels down to ad sets, compare planned spend with what actually
   worked, and act on the specific line items driving your results.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: >-
     Breakdown: Causal attribution across channels, tactics, campaigns, and ad

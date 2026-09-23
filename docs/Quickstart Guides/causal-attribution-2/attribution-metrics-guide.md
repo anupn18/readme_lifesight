@@ -4,7 +4,7 @@ excerpt: >-
   Know what every Attribution metric measures, how it's calculated, and which
   one to lead with for each budget decision.  #
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Attribution metrics guide
   robots: noindex

@@ -2,7 +2,7 @@
 title: ' Getting Started With Causal Attribution'
 excerpt: Go From Connected Data to Confident Budget Decisions
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Getting Started With Causal Attribution
   keywords:

@@ -4,7 +4,7 @@ excerpt: >-
   Set the plan Attribution measures you against, so pacing and recommendations
   reflect the decision you're making now.  #
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Target benchmark
   robots: noindex
