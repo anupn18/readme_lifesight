@@ -141,7 +141,7 @@ No. A refresh retains the current model structure. To change configuration or ca
 
   </Card>
 
-  <Card title="Measure incrementality of ad creatives" icon="🔗">
+  <Card title="Measure incrementality of ad creatives" href="https://docs.lifesight.io/update/docs/creatives" icon="🔗">
 
   </Card>
 </Cards>
