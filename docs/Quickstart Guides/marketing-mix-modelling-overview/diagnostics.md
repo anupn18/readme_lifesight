@@ -126,7 +126,7 @@ Investigate the gap before promoting the model. Review the experiment period, co
 
   </Card>
 
-  <Card title="Model Review" icon="🔗">
+  <Card title="Model Review" href="https://docs.lifesight.io/update/docs/model-review" icon="🔗">
 
   </Card>
 </Cards>
