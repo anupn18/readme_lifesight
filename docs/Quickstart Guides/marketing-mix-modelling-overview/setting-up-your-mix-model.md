@@ -279,7 +279,7 @@ Open your model to review its performance, contribution insights, response curve
 ## Related Articles
 
 <Cards>
-  <Card title="Csv data formatting" icon="🔗">
+  <Card title="Csv data formatting" href="https://docs.lifesight.io/update/docs/mmm-csv-data-formatting" icon="🔗">
 
   </Card>
 
