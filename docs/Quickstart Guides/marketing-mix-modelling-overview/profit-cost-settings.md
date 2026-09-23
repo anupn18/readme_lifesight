@@ -125,11 +125,11 @@ Revisit them whenever prices, margins, fees, or customer value change, and keep 
 ## Related Articles
 
 <Cards>
-  <Card title="Measure incrementality of your creatives" icon="fa-rocket">
+  <Card title="Measure incrementality of your creatives" icon="🔗">
 
   </Card>
 
-  <Card title="Model Insights" icon="fa-code">
+  <Card title="Model Insights" icon="🔗">
 
   </Card>
 </Cards>
