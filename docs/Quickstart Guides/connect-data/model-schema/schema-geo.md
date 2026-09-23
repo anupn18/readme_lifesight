@@ -88,3 +88,15 @@ Granular enough to give you enough matched markets to compare, coarse enough tha
 
 **Do I need contextual variables for a geo test?**
 They help. A regional promotion or a store opening during the test window can look exactly like a treatment effect if the model has no way to know about it.
+
+## Related Articles
+
+<Cards>
+  <Card title="Model Overview" icon="fa-rocket">
+
+  </Card>
+
+  <Card title="Create a geo experiment" icon="fa-code">
+
+  </Card>
+</Cards>
