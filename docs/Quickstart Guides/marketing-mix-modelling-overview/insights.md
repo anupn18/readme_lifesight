@@ -2,7 +2,7 @@
 title: Model Insights
 excerpt: Explore model-generated insights and business recommendations.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: MMM Insights
   keywords:

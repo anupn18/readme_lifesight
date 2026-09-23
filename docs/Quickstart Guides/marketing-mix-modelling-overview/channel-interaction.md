@@ -4,7 +4,7 @@ title: >-
   out
 excerpt: Explore modeled interactions between marketing variables.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: >-
     Interaction: See which channels lift each other and which cancel each other

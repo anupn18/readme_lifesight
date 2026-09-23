@@ -2,7 +2,7 @@
 title: Profit & Cost Settings in Lifesight
 excerpt: Configure cost assumptions for profit-based MMM metrics.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Profit & Cost Settings in Lifesight
   keywords:

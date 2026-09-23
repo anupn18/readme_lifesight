@@ -2,7 +2,7 @@
 title: Merging Models
 excerpt: Go From Five Models to One Set of Numbers You Can Present
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Merging Model
   keywords:

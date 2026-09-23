@@ -4,7 +4,7 @@ excerpt: >-
   Your guide to configure data, select variables, and launching your marketing
   mix model
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: 'Setting up your Marketing Mix Model '
   keywords:

@@ -2,7 +2,7 @@
 title: 'Model Refresh: Refresh your marketing model with the latest data'
 excerpt: Refresh a successful model with newly available observations.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: 'Model Refresh: Refresh your marketing model with the latest data'
   keywords:

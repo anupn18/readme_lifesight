@@ -2,7 +2,7 @@
 title: 'Causal Graph: See how your channels work together'
 excerpt: Use causal graph relationships to understand modeled effects.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: ' Causal Graph: See how your channels work together'
   keywords:

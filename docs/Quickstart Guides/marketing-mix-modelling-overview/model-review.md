@@ -2,7 +2,7 @@
 title: Model Review
 excerpt: Review model health, performance, contribution, and insights in Lifesight.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Model Review
   keywords:

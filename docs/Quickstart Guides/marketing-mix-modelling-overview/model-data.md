@@ -2,7 +2,7 @@
 title: Model Data
 excerpt: See what your model is built on, so you can trust what it tells you.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Data
   keywords:

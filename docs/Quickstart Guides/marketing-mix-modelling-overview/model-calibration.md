@@ -5,7 +5,7 @@ excerpt: >-
   what your tests actually proved. evidence during model creation or
   calibration.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: 'Model Calibration: Make the model agree with your experiments'
   keywords:

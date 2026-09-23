@@ -4,7 +4,7 @@ excerpt: >-
   Spin up a new model version with updated configuration and calibration,
   without starting over.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: ' Model Retraining: Keep the model fresh as your data changes'
   keywords:

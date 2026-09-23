@@ -2,7 +2,7 @@
 title: 'Contribution: Understand what each channel contributes to revenue'
 excerpt: Review channel contribution, efficiency, response, and uncertainty.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: 'Contribution: Understand what each channel contributes to revenue'
   keywords:

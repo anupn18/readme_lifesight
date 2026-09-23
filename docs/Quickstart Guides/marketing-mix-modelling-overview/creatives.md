@@ -2,7 +2,7 @@
 title: How Your Creatives Contribute
 excerpt: See how each ad is doing, whether the result is real, and what to do about it.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: ' How Your Creatives Contribute'
   keywords:

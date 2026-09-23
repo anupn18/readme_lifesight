@@ -2,7 +2,7 @@
 title: Model Diagnostics
 excerpt: Interpret causal evidence and confidence signals in Marketing Mix Modeling.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Diagnostics
   keywords:
