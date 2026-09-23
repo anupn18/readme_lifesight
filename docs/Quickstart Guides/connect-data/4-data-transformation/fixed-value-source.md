@@ -84,7 +84,7 @@ No, and that is the point. A value identical on every row carries no information
 
   </Card>
 
-  <Card title="Data Taxonomy" icon="🔗">
+  <Card title="Data Taxonomy" href="https://docs.lifesight.io/update/docs/data-taxonomy" icon="🔗">
 
   </Card>
 
