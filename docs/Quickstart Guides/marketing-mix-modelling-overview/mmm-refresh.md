@@ -137,7 +137,7 @@ No. A refresh retains the current model structure. To change configuration or ca
 ## Related Articles
 
 <Cards>
-  <Card title="Profit and cost settings" icon="🔗">
+  <Card title="Profit and cost settings" href="https://docs.lifesight.io/update/docs/profit-cost-settings" icon="🔗">
 
   </Card>
 
