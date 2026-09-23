@@ -133,11 +133,11 @@ When the selected period, totals, variable classifications, and time-series patt
 ## Related Articles
 
 <Cards>
-  <Card title="Card One" icon="🔗">
+  <Card title="Model Review" icon="🔗">
 
   </Card>
 
-  <Card title="Card Two" icon="🔗">
+  <Card title="Create a geo experiment" icon="🔗">
 
   </Card>
 </Cards>
