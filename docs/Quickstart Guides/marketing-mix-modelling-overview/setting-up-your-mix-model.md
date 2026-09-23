@@ -279,11 +279,11 @@ Open your model to review its performance, contribution insights, response curve
 ## Related Articles
 
 <Cards>
-  <Card title="Model Overview" icon="fa-rocket">
+  <Card title="Csv data formatting" icon="fa-code">
 
   </Card>
 
-  <Card title="Csv data formatting" icon="fa-code">
+  <Card title="Model calibration" icon="🔗">
 
   </Card>
 </Cards>
