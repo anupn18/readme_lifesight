@@ -4,7 +4,7 @@ excerpt: >-
   Define what you want to learn from your Geo Experiment so every result tells
   you where to invest next.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Test hypotheses for clear budget decisions
   keywords:

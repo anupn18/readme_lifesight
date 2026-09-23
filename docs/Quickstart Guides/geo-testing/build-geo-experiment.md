@@ -4,7 +4,7 @@ excerpt: >-
   Set up your treatment and control groups in a few steps and get a clear read
   on lift
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Build a geo experiment that proves incremental impactesign a Geo Experiment
   keywords:

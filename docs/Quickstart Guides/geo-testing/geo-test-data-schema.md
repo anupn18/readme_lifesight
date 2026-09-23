@@ -4,7 +4,7 @@ excerpt: >-
   Set up and map your data so every Geo Experiment is built on a reliable
   baseline.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Geo test data schema
   keywords:

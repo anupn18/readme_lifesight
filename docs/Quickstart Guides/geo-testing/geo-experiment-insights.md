@@ -4,7 +4,7 @@ excerpt: >-
   See the incremental lift your marketing created and know exactly where to
   invest next
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Geo Experiment Insights
   keywords:
