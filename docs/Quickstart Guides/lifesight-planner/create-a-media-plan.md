@@ -4,7 +4,7 @@ excerpt: >-
   Create a scenario, forecast its impact, and turn the strongest option into a
   plan your team can act on
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Build a media plan
   description: >-

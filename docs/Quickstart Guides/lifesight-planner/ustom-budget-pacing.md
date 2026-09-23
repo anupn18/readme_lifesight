@@ -2,7 +2,7 @@
 title: Custom Budget Pacing
 excerpt: Align your monthly spend with seasonality, promotions, and media commitments.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Custom Budget Pacing
   description: >-

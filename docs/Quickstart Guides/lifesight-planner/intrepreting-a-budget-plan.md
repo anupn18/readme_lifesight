@@ -4,7 +4,7 @@ excerpt: >-
   Understand what your forecast, recommendations, and saturation curves mean so
   you can act on your plan with confidence.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Intrepreting a plan
   description: >-

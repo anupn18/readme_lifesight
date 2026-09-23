@@ -4,7 +4,7 @@ excerpt: >-
   Promote your strongest scenario so your team plans, paces, and deploys from
   the same approved plan.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Set your default scenario
   description: >-
