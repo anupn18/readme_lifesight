@@ -113,7 +113,7 @@ Yes. Total revenue and new customer acquisition are different questions deservin
 ## Related Articles
 
 <Cards>
-  <Card title="Build a schema for geo experiment" icon="fa-rocket">
+  <Card title="Build a schema for geo experiment" icon="🔗">
 
   </Card>
 
