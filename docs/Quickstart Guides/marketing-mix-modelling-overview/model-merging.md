@@ -95,7 +95,7 @@ Merged models are designed for consolidated review. Since response curves and ma
 
   </Card>
 
-  <Card title="Model training" icon="🔗">
+  <Card title="Model training" href="https://docs.lifesight.io/update/docs/mmm-retraining" icon="🔗">
 
   </Card>
 </Cards>
