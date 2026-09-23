@@ -205,7 +205,7 @@ Planner and Optimizer work by tactic, so unclassified spend is invisible to them
 
   </Card>
 
-  <Card title="Marketing Mix Modeling" icon="🔗">
+  <Card title="Marketing Mix Modeling" href="https://docs.lifesight.io/update/docs/marketing-mix-modelling-overview" icon="🔗">
 
   </Card>
 </Cards>
