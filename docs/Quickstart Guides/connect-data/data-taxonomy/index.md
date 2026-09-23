@@ -113,79 +113,79 @@ Start by hand to learn which patterns exist, then write rules so your taxonomy m
 
 <br />
 
-### What is Data Taxonomy in Lifesight?
+**What is Data Taxonomy in Lifesight?**
 
 Data Taxonomy is where you group campaigns into tactics, the units you want to measure. Instead of measuring spend by platform or account, you measure it by what each campaign was meant to do, such as brand defense or prospecting.
 
-### What is a tactic?
+**What is a tactic?**
 
 A tactic groups campaigns by their purpose rather than where they ran. It usually combines a channel with an intent and often a funnel position, such as Paid Search Brand Upper or Paid Social Retargeting Lower.
 
-### Why can't I just measure performance by ad platform?
+**Why can't I just measure performance by ad platform?**
 
 Campaigns in the same platform often do very different jobs. A brand search campaign may show a high return because people were going to buy anyway, while a prospecting campaign may look weaker but drive real growth. Measuring them together hides which one is actually working.
 
-### How many tactics should I create?
+**How many tactics should I create?**
 
 Keep the list small. Create a tactic only when you would realistically change its budget independently of everything else. Half a dozen well-understood tactics works better than dozens nobody maintains.
 
-### Should I assign tactics at campaign level or ad set level?
+**Should I assign tactics at campaign level or ad set level?**
 
 Start at campaign level. Switch to ad set level when one campaign contains several tactics, which is most common on Meta.
 
-### Why does a campaign show as partially mapped?
+**Why does a campaign show as partially mapped?**
 
 Tactics are assigned at the ad set level. A campaign is partially mapped when some of its ad sets have a tactic and others don't. The spend in the unmapped ad sets won't reach your model.
 
-### How do I find partially mapped campaigns?
+**How do I find partially mapped campaigns?**
 
 Open the status filter on the **Tactic** column and filter for **Partially mapped** or **Partially mapped, split**. Checking this monthly catches campaigns that have added new ad sets.
 
-### Is it a problem if a campaign is split across tactics?
+**Is it a problem if a campaign is split across tactics?**
 
 No. A campaign that's **Fully mapped, split** has every ad set mapped, just to different tactics. This is perfectly valid.
 
-### Can a campaign belong to two tactics?
+**Can a campaign belong to two tactics?**
 
 A single campaign can't be assigned two tactics directly. If a campaign is genuinely doing two jobs, split it at ad set level by assigning its ad sets to different tactics.
 
-### How do I know how much of my spend is classified?
+**How do I know how much of my spend is classified?**
 
 Check the **spend mapped** percentage in the progress bar at the bottom of the mapper. Focus on spend rather than campaign count, since unmapped high-spend campaigns matter far more than low-spend ones.
 
-### Can I export my campaigns to plan tactics in a spreadsheet?
+**Can I export my campaigns to plan tactics in a spreadsheet?**
 
 Yes. Click the download icon to export the current view as a CSV.
 
-### Should I assign tactics manually or with rules?
+**Should I assign tactics manually or with rules?**
 
 Most teams use both. Assign tactics by hand for your first pass, exceptions, and small campaigns. Write rules for anything that follows a repeating naming pattern, so new campaigns are classified automatically.
 
-### How do I classify new campaigns?
+**How do I classify new campaigns?**
 
 Sort by the **New** column in the Tactic mapper and assign tactics to anything that has appeared. Rules can also classify new campaigns automatically if their names match a pattern.
 
-### What happens to campaigns I never classify?
+**What happens to campaigns I never classify?**
 
 They stay unassigned. Their spend is still recorded, but it can't be measured as part of a tactic.
 
-### Do I need to classify every campaign?
+**Do I need to classify every campaign?**
 
 No. Campaigns with very little spend can stay unassigned without affecting your model.
 
-### If I rename a campaign, do I lose its tactic?
+**If I rename a campaign, do I lose its tactic?**
 
 No. Tactic assignments follow the campaign ID, not its name.
 
-### Does Data Taxonomy change my campaigns in the ad platform?
+**Does Data Taxonomy change my campaigns in the ad platform?**
 
 No. Nothing in Data Taxonomy writes back to the ad platform.
 
-### Where are tactics used in Lifesight?
+**Where are tactics used in Lifesight?**
 
 Tactics are mainly used in [Model Schema](https://docs.lifesight.io/docs/4-0-wip-model-schema), where paid media variables are defined by channel and tactic, and in reporting, where you want performance grouped the way you run your marketing.
 
-### What is the difference between Data Taxonomy and Data Transformation?
+**What is the difference between Data Taxonomy and Data Transformation?**
 
 Data Transformation defines what each column in your data means. Data Taxonomy groups campaigns into tactics so you can measure them by purpose.<br />
 
