@@ -1,5 +1,5 @@
 ---
-title: How Your Creatives Contribute
+title: Measure Incrementality of Creatives
 excerpt: See how each ad is doing, whether the result is real, and what to do about it.
 deprecated: false
 hidden: false
@@ -142,3 +142,17 @@ Yes. Click any cell to open its ads in **Intelligence**, pre-filtered to that co
 
 **Should I move large budgets based on Incrementality alone?**
 Treat big findings as hypotheses to test first. Incrementality figures are modeled relationships that complement, rather than replace, controlled creative testing and platform delivery analysis.
+
+***
+
+## Related Articles
+
+<Cards>
+  <Card title="Model Insights" icon="🔗">
+
+  </Card>
+
+  <Card title="Model Diagnostics" icon="🔗">
+
+  </Card>
+</Cards>
