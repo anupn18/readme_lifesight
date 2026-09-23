@@ -298,7 +298,7 @@ Rate any answer with a thumbs up or thumbs down. A thumbs down lets you tell Lif
     Bring all your marketing and business data into Lifesight.
   </Card>
 
-  <Card title="Build your First Model (Marketing Mix Modeling)" href="https://docs.lifesight.io/v2.0/update/docs/marketing-mix-modelling" icon="🎲">
+  <Card title="Build your First Model (Marketing Mix Modeling)" href="https://docs.lifesight.io/update/docs/marketing-mix-modelling-overview" icon="🎲">
     Measure the contribution of every channel.
   </Card>
 </Cards>
