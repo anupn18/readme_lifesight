@@ -105,3 +105,17 @@ Investigate it before using it. Check campaign context, audience targeting, and 
 
 **Will interaction results change over time?**
 Results reflect the selected model and data period. If you switch models or the data period changes, the interaction results may change too.
+
+***
+
+## Related Articles
+
+<Cards>
+  <Card title="Card One" icon="🔗">
+
+  </Card>
+
+  <Card title="Card Two" icon="🔗">
+
+  </Card>
+</Cards>
