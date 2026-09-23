@@ -201,7 +201,7 @@ Planner and Optimizer work by tactic, so unclassified spend is invisible to them
 ## Related Articles
 
 <Cards>
-  <Card title="Model Schema" icon="🔗">
+  <Card title="Model Schema" href="https://docs.lifesight.io/update/docs/model-schema" icon="🔗">
 
   </Card>
 
