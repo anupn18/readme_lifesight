@@ -133,11 +133,11 @@ No. The Causal Graph shows the structure the model uses. To change relationships
 ## Related Articles
 
 <Cards>
-  <Card title="Contribution" icon="🔗">
+  <Card title="Mergining Models" href="https://docs.lifesight.io/update/docs/model-merging" icon="🔗">
 
   </Card>
 
-  <Card title="Mergining Models" href="https://docs.lifesight.io/update/docs/model-merging" icon="🔗">
+  <Card title="Contribution" icon="🔗">
 
   </Card>
 </Cards>
