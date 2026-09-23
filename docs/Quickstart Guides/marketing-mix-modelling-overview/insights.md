@@ -97,11 +97,11 @@ Baseline changes are driven by non-media factors. Compare their timing with pric
 ## Related Articles
 
 <Cards>
-  <Card title="Card One" icon="🔗">
+  <Card title="Model Diagnostics" icon="🔗">
 
   </Card>
 
-  <Card title="Card Two" icon="🔗">
+  <Card title="Model Data" icon="🔗">
 
   </Card>
 </Cards>
