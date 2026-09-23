@@ -91,11 +91,11 @@ Merged models are designed for consolidated review. Since response curves and ma
 ## Related Articles
 
 <Cards>
-  <Card title="Card One" icon="fa-rocket">
+  <Card title="Contribution" icon="🔗">
 
   </Card>
 
-  <Card title="Card Two" icon="fa-code">
+  <Card title="Model training" icon="🔗">
 
   </Card>
 </Cards>
