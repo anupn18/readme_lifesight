@@ -125,7 +125,7 @@ Revisit them whenever prices, margins, fees, or customer value change, and keep 
 ## Related Articles
 
 <Cards>
-  <Card title="Measure incrementality of your creatives" icon="🔗">
+  <Card title="Measure incrementality of your creatives" href="https://docs.lifesight.io/update/docs/creatives" icon="🔗">
 
   </Card>
 
