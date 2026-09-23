@@ -153,11 +153,11 @@ Immediate and carryover effects are shown in **Diagnostics**.
 ## Related Articles
 
 <Cards>
-  <Card title="Card One" icon="🔗">
+  <Card title="Model training" icon="🔗">
 
   </Card>
 
-  <Card title="Card Two" icon="🔗">
+  <Card title="Interaction" icon="🔗">
 
   </Card>
 </Cards>
