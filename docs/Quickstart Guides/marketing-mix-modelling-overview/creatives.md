@@ -148,7 +148,7 @@ Treat big findings as hypotheses to test first. Incrementality figures are model
 ## Related Articles
 
 <Cards>
-  <Card title="Model Insights" icon="🔗">
+  <Card title="Model Insights" href="https://docs.lifesight.io/update/docs/insights" icon="🔗">
 
   </Card>
 
