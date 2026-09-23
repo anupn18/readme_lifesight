@@ -117,3 +117,17 @@ Calibration inputs are configured during model creation or retraining. You can r
 
 **Can I recover an archived model?**
 Yes. Archived models can be restored from **Model List**, depending on your permissions.
+
+***
+
+## Related Articles
+
+<Cards>
+  <Card title="Card One" icon="🔗">
+
+  </Card>
+
+  <Card title="Card Two" icon="🔗">
+
+  </Card>
+</Cards>
