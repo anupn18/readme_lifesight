@@ -97,3 +97,17 @@ Check whether the shift lines up with the changes you made, such as new calibrat
 
 **Can I retrain a model more than once?**
 Each retrain creates a new model from a source model, so you can retrain again whenever new evidence or changes call for it. Clear naming helps you keep track of each version.
+
+***
+
+## Related Articles
+
+<Cards>
+  <Card title="Card One" icon="🔗">
+
+  </Card>
+
+  <Card title="Card Two" icon="🔗">
+
+  </Card>
+</Cards>
