@@ -84,86 +84,84 @@ Tactics aren't just a reporting label. They're the unit several parts of Lifesig
 
 ***
 
-## Frequently asked questions<br />
+## Frequently Asked Questions
 
-### When should I assign tactics manually instead of using rules?
+**When should I assign tactics manually instead of using rules?**
 
 Assign tactics manually for your first pass, small accounts, one-off campaigns, and campaigns whose names don't reflect what they do. Use rules for anything that repeats or for campaigns that don't exist yet.
 
-### Do I need to classify every campaign?
+**Do I need to classify every campaign?**
 
 No. Focus on the campaigns that carry your budget. Campaigns with very little spend can stay unassigned without affecting your model.
 
-### How do I assign tactics manually in Lifesight?
+**How do I assign tactics manually in Lifesight?**
 
 Go to **Data > Data Taxonomy**, stay on **Tactic mapper** in the **Campaigns** view, and sort by **Spend**, highest first. Select the campaigns that belong to the same tactic, assign the tactic, and save your changes.
 
-### Can I assign a tactic to several campaigns at once?
+**Can I assign a tactic to several campaigns at once?**
 
 Yes. Select multiple campaigns and assign the tactic to the whole selection.
 
-### Why should I sort by spend first?
+**Why should I sort by spend first?**
 
 Sorting by spend puts your biggest budgets at the top, so you classify the campaigns that matter most to your measurement first.
 
-### How do I measure my progress?
+**How do I measure my progress?**
 
 Track the **spend mapped** percentage at the bottom of the mapper rather than the campaign count. A high share of mapped spend means most of your budget can be measured by tactic.
 
-### When should I work at ad set level?
+**When should I work at ad set level?**
 
 Switch to **Ad Sets** when a campaign genuinely contains more than one tactic, such as a Meta campaign that mixes prospecting and retargeting audiences.
 
-### What happens when I assign a tactic to a campaign?
+**What happens when I assign a tactic to a campaign?**
 
 The tactic is applied to all of the campaign's ad sets, since tactics are attached at the ad set level.
 
-### What does partially mapped mean?
+**What does partially mapped mean?**
 
 A partially mapped campaign has some ad sets with a tactic and some without. The spend in the unmapped ad sets doesn't reach your model, and no error is shown.
 
-### How do I find partially mapped campaigns?
+**How do I find partially mapped campaigns?**
 
 Use the status filter on the **Tactic** column to show **Partially mapped** and **Partially mapped, split** campaigns. Open the **Tactic** cell to see how many ad sets are mapped and how much spend is still unclassified.
 
-### Is a split campaign a problem?
+**Is a split campaign a problem?**
 
 No. **Fully mapped, split** means every ad set is mapped, just to different tactics. Only partial states need fixing.
 
-### Should I split every campaign at ad set level?
+**Should I split every campaign at ad set level?**
 
 No. Only split campaigns that genuinely do more than one job. Splitting campaigns unnecessarily adds maintenance with no benefit.
 
-### How do I decide which tactics to create?
+**How do I decide which tactics to create?**
 
 Create a tactic when you would realistically change its budget independently of everything else. Start with a small set everyone understands, and split tactics later if you need to.
 
-### Why do tactics matter for Marketing Mix Modeling?
+**Why do tactics matter for Marketing Mix Modeling?**
 
 Marketing Mix Modeling estimates a separate contribution and saturation curve for each tactic. Combining different tactics, such as brand and non-brand search, gives you one blended result that describes neither accurately.
 
-### Where else are tactics used in Lifesight?
+**Where else are tactics used in Lifesight?**
 
 Tactics are used in Model Schema, Marketing Mix Modeling, Channel Deep Dive and Campaigns reporting, Planner, Optimizer, and Attribution.
 
-### What happens to campaigns I never classify?
+**What happens to campaigns I never classify?**
 
 They stay unassigned. Their spend is still recorded, but it can't be measured as a tactic, so a model can't separate its effect.
 
-### Can a campaign belong to two tactics?
+**Can a campaign belong to two tactics?**
 
 A campaign can't be assigned two tactics directly. If it's genuinely doing two jobs, split it at ad set level.
 
-### If I rename a campaign, do I lose its tactic?
+**If I rename a campaign, do I lose its tactic?**
 
 No. Tactic assignments follow the campaign ID, not its name.
 
-### Does assigning tactics change my campaigns in the ad platform?
+**Does assigning tactics change my campaigns in the ad platform?**
 
 No. Nothing in Data Taxonomy writes back to the ad platform.
 
-### How often should I review my tactic assignments?
+**How often should I review my tactic assignments?**
 
 Monthly is enough. Sort by the **New** column, classify anything that has appeared, and check for partially mapped campaigns.
-
-<br />
