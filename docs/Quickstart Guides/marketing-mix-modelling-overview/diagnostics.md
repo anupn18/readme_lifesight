@@ -116,3 +116,17 @@ It is the experiment evidence supplied during model creation or retraining. To a
 
 **What should I do if the calibration evidence and the model estimate don't match?**
 Investigate the gap before promoting the model. Review the experiment period, confidence, and incremental efficiency alongside the model estimate to understand the difference.
+
+***
+
+## Related Articles
+
+<Cards>
+  <Card title="Model Data" icon="🔗">
+
+  </Card>
+
+  <Card title="Model Review" icon="🔗">
+
+  </Card>
+</Cards>
