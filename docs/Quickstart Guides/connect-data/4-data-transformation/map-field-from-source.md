@@ -100,7 +100,9 @@ A mapping is not a filing exercise. It is the reason the rest of the platform ca
 
 The practical consequence: fixing a mapping here fixes it everywhere at once, and it applies to the history you already hold rather than only to new data.
 
-## Common questions
+***
+
+## Frequently asked questions
 
 **Do I have to map every column?**
 No. Map what you will use. Ignoring a column is reversible.
