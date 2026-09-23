@@ -253,7 +253,7 @@ Campaign classification happens in [Data Taxonomy](https://docs.lifesight.io/doc
 
   </Card>
 
-  <Card title="Set a Source to a channel" icon="🔗">
+  <Card title="Map a Source to a channel" icon="🔗">
 
   </Card>
 </Cards>
