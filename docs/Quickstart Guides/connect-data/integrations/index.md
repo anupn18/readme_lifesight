@@ -300,27 +300,27 @@ Each integration reports data in the timezone shown under **Connection Details**
 ## Related articles
 
 <Cards>
-  <Card title="Meta Ads" icon="🔗">
+  <Card title="Meta Ads" href="https://docs.lifesight.io/update/docs/meta-ads" icon="🔗">
 
   </Card>
 
-  <Card title="Google Ads" icon="🔗">
+  <Card title="Google Ads" href="https://docs.lifesight.io/update/docs/google-ads" icon="🔗">
 
   </Card>
 
-  <Card title="Microsoft Ads" icon="🔗">
+  <Card title="Microsoft Ads" href="https://docs.lifesight.io/update/docs/microsoft-ads" icon="🔗">
 
   </Card>
 
-  <Card title="Snapchat Ads" icon="🔗">
+  <Card title="Snapchat Ads" href="https://docs.lifesight.io/update/docs/snapchat-ads" icon="🔗">
 
   </Card>
 
-  <Card title="Reddit Ads" icon="🔗">
+  <Card title="Reddit Ads" href="https://docs.lifesight.io/update/docs/reddit-ads" icon="🔗">
 
   </Card>
 
-  <Card title="RTB House" icon="🔗">
+  <Card title="RTB House" href="https://docs.lifesight.io/update/docs/rtb-house" icon="🔗">
 
   </Card>
 </Cards>
