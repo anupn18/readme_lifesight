@@ -3,7 +3,7 @@ title: Artifacts (Manual Upload)
 excerpt: >-
   Upload your dashboards, reports, and decks to Lifesight so your team can find
   and share them right next to the data they were built from.
-hidden: true
+hidden: false
 metadata:
   title: Upload and Share Artifacts in Lifesight
   description: >-
