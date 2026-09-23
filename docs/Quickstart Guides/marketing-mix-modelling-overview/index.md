@@ -4,7 +4,7 @@ excerpt: >-
   Measure the contribution of every channel, including the ones you cannot
   track, and use it to decide where the next dollar goes.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: 'Marketing Mix Modeling: see what your marketing is actually driving'
   keywords:
