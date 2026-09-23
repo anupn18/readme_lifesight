@@ -96,7 +96,7 @@ They help. A regional promotion or a store opening during the test window can lo
 
   </Card>
 
-  <Card title="Create a geo experiment" icon="fa-code">
+  <Card title="Create a geo experiment" href="https://docs.lifesight.io/update/docs/geo-testing" icon="fa-code">
 
   </Card>
 </Cards>
