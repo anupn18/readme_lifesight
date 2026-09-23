@@ -121,7 +121,7 @@ Not from a single mapping row. Map it once, save, then create a second custom fi
 ## Related Articles
 
 <Cards>
-  <Card title="Set a fixed value for a source" icon="fa-rocket">
+  <Card title="Set a fixed value for a source" href="https://docs.lifesight.io/update/docs/fixed-value-source" icon="fa-rocket">
 
   </Card>
 
