@@ -92,7 +92,7 @@ They help. A regional promotion or a store opening during the test window can lo
 ## Related Articles
 
 <Cards>
-  <Card title="Model Overview" icon="fa-rocket">
+  <Card title="Model overview" icon="fa-rocket">
 
   </Card>
 
