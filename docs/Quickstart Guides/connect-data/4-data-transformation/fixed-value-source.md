@@ -80,15 +80,15 @@ No, and that is the point. A value identical on every row carries no information
 ## Related Articles
 
 <Cards>
-  <Card title="Map a Source to a Channel" icon="fa-rocket">
+  <Card title="Map a Source to a Channel" icon="🔗">
 
   </Card>
 
-  <Card title="Data Taxonomy" icon="fa-code">
+  <Card title="Data Taxonomy" icon="🔗">
 
   </Card>
 
-  <Card title="Model Schema" icon="fa-comments">
+  <Card title="Model Schema" icon="🔗">
 
   </Card>
 </Cards>
