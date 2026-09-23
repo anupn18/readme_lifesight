@@ -195,3 +195,7 @@ Marketing Mix Modeling uses tactics as paid media variables. Unclassified spend 
 **How does unclassified spend affect Planner and Optimizer?**
 
 Planner and Optimizer work by tactic, so unclassified spend is invisible to them. A plan can look balanced while a meaningful share of your budget is missing.
+
+***
+
+## Related Articles
