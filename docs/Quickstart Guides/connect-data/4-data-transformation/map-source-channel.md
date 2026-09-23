@@ -88,7 +88,9 @@ Channel is one of the primary grouping keys in the platform, so getting it wrong
 
 **Attribution** and **Analyse dashboards** group spend and performance by channel, so this is what stops an uploaded file appearing as an unlabelled row.
 
-## Common questions
+***
+
+## Frequently asked questions<br />
 
 **My file has two channels mixed together in one column.**
 That is the second shape, and it is exactly what it is for. Map each value separately.
