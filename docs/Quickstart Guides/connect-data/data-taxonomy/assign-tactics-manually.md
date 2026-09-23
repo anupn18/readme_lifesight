@@ -165,3 +165,17 @@ No. Nothing in Data Taxonomy writes back to the ad platform.
 **How often should I review my tactic assignments?**
 
 Monthly is enough. Sort by the **New** column, classify anything that has appeared, and check for partially mapped campaigns.
+
+***
+
+## Related Articles
+
+<Cards>
+  <Card title="Assign tactics automatically" icon="🔗">
+
+  </Card>
+
+  <Card title="Model Schema" icon="🔗">
+
+  </Card>
+</Cards>
