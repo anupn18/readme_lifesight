@@ -80,7 +80,7 @@ No, and that is the point. A value identical on every row carries no information
 ## Related Articles
 
 <Cards>
-  <Card title="Map a Source to a Channel" icon="🔗">
+  <Card title="Map a Source to a Channel" href="https://docs.lifesight.io/update/docs/map-source-channel" icon="🔗">
 
   </Card>
 
