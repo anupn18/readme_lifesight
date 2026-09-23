@@ -133,7 +133,7 @@ When the selected period, totals, variable classifications, and time-series patt
 ## Related Articles
 
 <Cards>
-  <Card title="Model Review" icon="🔗">
+  <Card title="Model Review" href="https://docs.lifesight.io/update/docs/model-review" icon="🔗">
 
   </Card>
 
