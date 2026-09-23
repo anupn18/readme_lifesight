@@ -3,7 +3,7 @@ title: Get Started with Cockpit
 excerpt: >-
   Start every day with the decisions that matter, and get answers to anything
   about your marketing in one place.
-hidden: true
+hidden: false
 metadata:
   title: Get Started with Cockpit
   keywords:
