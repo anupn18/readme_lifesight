@@ -61,7 +61,9 @@ Fixed values are quiet, and they are usually the difference between a source bei
 
 **Geo Experiments** depend on a geographic dimension being present and consistent. Sources that cannot report geography per row, but which are known to cover one market, are made usable by a fixed value.
 
-## Common questions
+***
+
+## Frequently asked Questions
 
 **Can I change the value later?**
 Yes. Edit the field and save. It applies to the history already held as well as to new data.
@@ -74,3 +76,5 @@ Yes, though it is rarer. Connectors usually report their own dimensions. It is o
 
 **Does a fixed value count as data the model can learn from?**
 No, and that is the point. A value identical on every row carries no information on its own. Its job is to let this source be grouped and compared alongside the others.
+
+<br />
