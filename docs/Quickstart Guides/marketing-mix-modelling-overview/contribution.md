@@ -157,7 +157,7 @@ Immediate and carryover effects are shown in **Diagnostics**.
 
   </Card>
 
-  <Card title="Interaction" icon="🔗">
+  <Card title="Interaction" href="https://docs.lifesight.io/update/docs/channel-interaction" icon="🔗">
 
   </Card>
 </Cards>
