@@ -137,7 +137,7 @@ No. The Causal Graph shows the structure the model uses. To change relationships
 
   </Card>
 
-  <Card title="Contribution" icon="🔗">
+  <Card title="Contribution" href="https://docs.lifesight.io/update/docs/contribution" icon="🔗">
 
   </Card>
 </Cards>
