@@ -3,7 +3,7 @@ title: Build a schema for Marketing Mix Modelling
 excerpt: >-
   Define the KPI, media and context for a mix model, so it can decompose what
   actually drove your results.
-hidden: true
+hidden: false
 metadata:
   title: Build a schema for Marketing Mix Modelling
   keywords:

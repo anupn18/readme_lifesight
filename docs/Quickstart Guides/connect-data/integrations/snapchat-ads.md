@@ -3,7 +3,7 @@ title: Snapchat Ads
 excerpt: >-
   Connect Snapchat Ads to see what vertical video and AR spend returns, and
   decide whether it deserves more budget.
-hidden: true
+hidden: false
 metadata:
   title: Lifesight X Snapchat
   keywords:

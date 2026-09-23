@@ -3,7 +3,7 @@ title: Google Sheets
 excerpt: >-
   Link Google Sheet so data your team maintains by hand refreshes into Lifesight
   automatically.
-hidden: true
+hidden: false
 metadata:
   title: Lifesight X Google Sheets
   keywords:

@@ -3,7 +3,7 @@ title: Google Ads
 excerpt: >-
   Connect your Google Ads accounts to measure search, shopping, video and
   Performance Max spend alongside every other channel in Lifesight.
-hidden: true
+hidden: false
 metadata:
   title: Lifesight X Google Ads
   keywords:

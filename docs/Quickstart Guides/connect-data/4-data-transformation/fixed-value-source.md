@@ -3,7 +3,7 @@ title: Set a fixed value for a source
 excerpt: >-
   Stamp the same value on every row from a source, so data that is missing a
   column still lines up with everything else.
-hidden: true
+hidden: false
 metadata:
   title: Set a Fixed Value for Every Source
   keywords:

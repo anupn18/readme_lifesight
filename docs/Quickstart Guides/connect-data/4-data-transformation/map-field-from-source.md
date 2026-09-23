@@ -3,7 +3,7 @@ title: Map a field from a source
 excerpt: >-
   Point a column in your source at a Lifesight field, so the number it carries
   can be read by models and reports.
-hidden: true
+hidden: false
 metadata:
   title: Map Field From Source in Lifesight
   keywords:

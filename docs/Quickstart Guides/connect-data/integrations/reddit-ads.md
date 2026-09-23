@@ -3,7 +3,7 @@ title: Reddit Ads
 excerpt: >-
   Connect Reddit Ads to see what community-driven advertising actually returns,
   and whether it earns a larger share of budget.
-hidden: true
+hidden: false
 metadata:
   title: Lifesight X Reddit Ads
   keywords:

@@ -3,7 +3,7 @@ title: How to add Integrations
 excerpt: >-
   Connect your ad platforms, files, and warehouses to Lifesight, and keep an eye
   on whether the data is still populating..
-hidden: true
+hidden: false
 metadata:
   title: How to add Integrations
   keywords:

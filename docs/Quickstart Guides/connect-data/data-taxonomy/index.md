@@ -4,7 +4,7 @@ excerpt: >-
   Group your campaigns into tactics (sets of campaigns that work the same way,
   like prospecting or retargeting) so your results roll up by what the spend was
   meant to do.
-hidden: true
+hidden: false
 metadata:
   title: 'Data Taxonomy: Turn campaign names into a structure you can measure on'
   keywords:

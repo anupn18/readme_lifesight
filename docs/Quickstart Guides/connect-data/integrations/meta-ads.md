@@ -3,7 +3,7 @@ title: Meta Ads
 excerpt: >-
   Brings Facebook and Instagram spend into Lifesight, so prospecting and
   retargeting are measured separately rather than averaged into one figure.
-hidden: true
+hidden: false
 metadata:
   title: Lifesight X Meta Ads
   keywords:

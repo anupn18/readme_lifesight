@@ -3,7 +3,7 @@ title: Build a schema for Geo Experiments
 excerpt: >-
   Define the KPI and geographic dimension a geo test needs, so incremental lift
   can be measured against matched control regions.
-hidden: true
+hidden: false
 metadata:
   title: ' Build a schema for Geo Experiments'
   keywords:

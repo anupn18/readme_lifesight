@@ -3,7 +3,7 @@ title: Assign tactics automatically with rules
 excerpt: >-
   Write rules that classify campaigns by pattern, including campaigns that do
   not exist yet, so your taxonomy maintains itself.
-hidden: true
+hidden: false
 metadata:
   title: Assign tactics automatically with rules
   keywords:

@@ -3,7 +3,7 @@ title: CSV Import
 excerpt: >-
   Upload a CSV to bring in spend from sources Lifesight cannot connect to
   directly, so nothing sits outside your measurement.
-hidden: true
+hidden: false
 metadata:
   title: Lifesight CSV Import
   keywords:

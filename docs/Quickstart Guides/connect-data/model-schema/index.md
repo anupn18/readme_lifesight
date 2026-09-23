@@ -3,7 +3,7 @@ title: 'Model Schema: decide what your model gets to see'
 excerpt: >-
   Define what goes into a model: the outcome you are explaining, the media you
   think drives it, and the context that explains the rest.
-hidden: true
+hidden: false
 metadata:
   title: 'Model Schema: decide what your model gets to see'
   keywords:

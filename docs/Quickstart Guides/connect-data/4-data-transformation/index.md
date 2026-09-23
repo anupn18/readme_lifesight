@@ -3,7 +3,7 @@ title: Data Transformation
 excerpt: >-
   Data Transformation gives every number one meaning, so your models and reports
   stop arguing about what spend is.
-hidden: true
+hidden: false
 metadata:
   title: Data Transformation Lifesight
   keywords:

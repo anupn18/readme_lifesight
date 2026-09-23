@@ -3,7 +3,7 @@ title: Map a source to a channel
 excerpt: >-
   Tell Lifesight which channel a source's data belongs to, so its spend is
   grouped with the right marketing activity.
-hidden: true
+hidden: false
 metadata:
   title: Map a source to a channel
   keywords:

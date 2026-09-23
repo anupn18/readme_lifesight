@@ -3,7 +3,7 @@ title: Microsoft Ads
 excerpt: >-
   Connect Microsoft Ads to see what Bing search actually contributes, and
   whether it earns more budget.
-hidden: true
+hidden: false
 metadata:
   title: Lifesight X Microsoft
   keywords:

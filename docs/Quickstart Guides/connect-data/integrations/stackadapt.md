@@ -3,7 +3,7 @@ title: StackAdapt
 excerpt: >-
   Connect your StackAdapt programmatic account with an API key to see what
   native, display, video, CTV and audio each return, and fund them accordingly.
-hidden: true
+hidden: false
 metadata:
   title: Lifesight X StackAdapt
   keywords:
