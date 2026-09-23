@@ -283,7 +283,7 @@ Open your model to review its performance, contribution insights, response curve
 
   </Card>
 
-  <Card title="Model calibration" icon="🔗">
+  <Card title="Model calibration" href="https://docs.lifesight.io/update/docs/model-calibration" icon="🔗">
 
   </Card>
 </Cards>
