@@ -3,7 +3,7 @@ title: Connect your Data
 excerpt: >-
   Bring all your marketing and business data into Lifesight, integrate your
   sources and shape it into the inputs your models run on.
-hidden: true
+hidden: false
 metadata:
   title: Connect your Data to Start Running Models
   keywords:
