@@ -136,7 +136,7 @@ Use a promoted model in Planner to create budget scenarios and optimize your med
 ## Related Articles
 
 <Cards>
-  <Card title="Connect your Data" icon="fa-rocket">
+  <Card title="Connect your Data" href="https://docs.lifesight.io/update/docs/connect-data" icon="fa-rocket">
 
   </Card>
 
