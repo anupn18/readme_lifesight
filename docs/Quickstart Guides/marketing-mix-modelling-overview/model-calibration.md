@@ -128,7 +128,7 @@ Calibration works best when the experiment covers a channel and period included 
 ## Related Articles
 
 <Cards>
-  <Card title="Causal Graph" icon="🔗">
+  <Card title="Causal Graph" href="https://docs.lifesight.io/update/docs/causal-graph" icon="🔗">
 
   </Card>
 
