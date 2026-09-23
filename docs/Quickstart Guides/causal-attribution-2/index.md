@@ -4,7 +4,7 @@ excerpt: >-
   Measure the real impact of every channel and keep spend on track against your
   plan
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: 'Causal Attribution: See What Truly Drives Revenue in Lifesight'
   keywords:
