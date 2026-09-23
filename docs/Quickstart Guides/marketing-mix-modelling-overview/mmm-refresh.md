@@ -131,3 +131,17 @@ Review **Contribution** and **Diagnostics** before using the updated results. Al
 
 **Does a refresh change my model's configuration or calibration?**
 No. A refresh retains the current model structure. To change configuration or calibration evidence, retrain the model.
+
+***
+
+## Related Articles
+
+<Cards>
+  <Card title="Card One" icon="fa-rocket">
+
+  </Card>
+
+  <Card title="Card Two" icon="fa-code">
+
+  </Card>
+</Cards>
