@@ -154,7 +154,7 @@ All of this rests on a platform built to be privacy-safe, transparent, and relia
 ## Related Articles
 
 <Cards>
-  <Card title="Who is Lifesight for" href="https://docs.lifesight.io/v2.0/update/docs/who-is-lifesight-for" icon="🤵">
+  <Card title="Who is Lifesight for" href="https://docs.lifesight.io/update/docs/who-is-lifesight-for" icon="🤵">
 
   </Card>
 
