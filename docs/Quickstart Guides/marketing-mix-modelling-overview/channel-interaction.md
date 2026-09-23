@@ -111,7 +111,7 @@ Results reflect the selected model and data period. If you switch models or the 
 ## Related Articles
 
 <Cards>
-  <Card title="Model refresh" icon="🔗">
+  <Card title="Model refresh" href="https://docs.lifesight.io/update/docs/mmm-refresh" icon="🔗">
 
   </Card>
 
