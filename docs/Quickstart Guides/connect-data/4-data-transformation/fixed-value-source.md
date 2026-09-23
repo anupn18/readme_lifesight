@@ -77,4 +77,18 @@ Yes, though it is rarer. Connectors usually report their own dimensions. It is o
 **Does a fixed value count as data the model can learn from?**
 No, and that is the point. A value identical on every row carries no information on its own. Its job is to let this source be grouped and compared alongside the others.
 
-<br />
+## Related Articles
+
+<Cards>
+  <Card title="Map a Source to a Channel" icon="fa-rocket">
+
+  </Card>
+
+  <Card title="Data Taxonomy" icon="fa-code">
+
+  </Card>
+
+  <Card title="Model Schema" icon="fa-comments">
+
+  </Card>
+</Cards>
