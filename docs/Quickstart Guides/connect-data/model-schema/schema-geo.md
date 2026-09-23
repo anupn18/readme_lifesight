@@ -73,7 +73,9 @@ For a geo schema the checklist is narrower: is the KPI reportable per region, is
 
 **Automated deployment of experiments** can push the resulting campaign changes to Meta or Google, which relies on the tested media being correctly classified.
 
-## Common questions
+***
+
+## Frequently asked questions
 
 **My revenue has no region. Can I still run a geo test?**
 Not meaningfully. The comparison is between regions, so the outcome has to be attributable to one. Getting regional data into Lifesight is the prerequisite.
