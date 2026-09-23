@@ -279,7 +279,7 @@ Open your model to review its performance, contribution insights, response curve
 ## Related Articles
 
 <Cards>
-  <Card title="Csv data formatting" icon="fa-code">
+  <Card title="Csv data formatting" icon="🔗">
 
   </Card>
 
