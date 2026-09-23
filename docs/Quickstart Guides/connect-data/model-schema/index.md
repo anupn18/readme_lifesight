@@ -54,7 +54,9 @@ The schema appears in the Model Schema list, where you can open it to see its co
 
 From there a schema can be used to train models, refreshed as new data arrives, and edited when your marketing changes. Adding a new channel next quarter means editing the schema rather than rebuilding from scratch.
 
-## Common questions
+***
+
+## Frequently asked questions
 
 **A field I need is not in the list.** It has not been mapped, or it has been mapped to the wrong category. Go to [Data Transformation](https://docs.lifesight.io/docs/4-0-wip-data-transformation) and check the field.
 
