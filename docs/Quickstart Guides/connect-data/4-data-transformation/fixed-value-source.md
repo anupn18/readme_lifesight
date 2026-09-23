@@ -88,7 +88,7 @@ No, and that is the point. A value identical on every row carries no information
 
   </Card>
 
-  <Card title="Model Schema" icon="🔗">
+  <Card title="Model Schema" href="https://docs.lifesight.io/update/docs/model-schema" icon="🔗">
 
   </Card>
 </Cards>
