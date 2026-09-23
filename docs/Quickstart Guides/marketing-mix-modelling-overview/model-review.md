@@ -123,11 +123,11 @@ Yes. Archived models can be restored from **Model List**, depending on your perm
 ## Related Articles
 
 <Cards>
-  <Card title="Card One" icon="🔗">
+  <Card title="Create a geo experiment" icon="🔗">
 
   </Card>
 
-  <Card title="Card Two" icon="🔗">
+  <Card title="Casual Attribution" icon="🔗">
 
   </Card>
 </Cards>
