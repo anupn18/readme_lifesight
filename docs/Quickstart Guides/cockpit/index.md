@@ -294,7 +294,7 @@ Rate any answer with a thumbs up or thumbs down. A thumbs down lets you tell Lif
 ## <br />Related Articles
 
 <Cards>
-  <Card title="Connect your Data" href="https://docs.lifesight.io/v2.0/update/docs/connect-data" icon="🔗">
+  <Card title="Connect your Data" href="https://docs.lifesight.io/update/docs/connect-data" icon="🔗">
     Bring all your marketing and business data into Lifesight.
   </Card>
 
