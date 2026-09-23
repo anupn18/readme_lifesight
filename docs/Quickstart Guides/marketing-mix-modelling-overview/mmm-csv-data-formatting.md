@@ -190,7 +190,7 @@ Contact your Lifesight Marketing Science team before replacing values or removin
 ## Related Articles
 
 <Cards>
-  <Card title="Model calibration" icon="🔗">
+  <Card title="Model calibration" href="https://docs.lifesight.io/update/docs/model-calibration" icon="🔗">
 
   </Card>
 
