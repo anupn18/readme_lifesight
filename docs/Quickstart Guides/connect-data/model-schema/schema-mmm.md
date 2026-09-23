@@ -96,7 +96,9 @@ At **Preview** they notice affiliate spend is missing entirely, go back to conne
 
 **Model Calibration** folds experiment results back in, so a geo test can sharpen the estimate the mix model produced.
 
-## Common questions
+***
+
+## Frequently asked questions
 
 **How many variables should I have?**
 Fewer than you think. Two years of weekly data is around 100 observations, and thirty variables will overfit. Start with what you can act on.
