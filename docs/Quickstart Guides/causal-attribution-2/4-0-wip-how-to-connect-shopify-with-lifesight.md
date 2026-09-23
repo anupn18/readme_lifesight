@@ -2,7 +2,7 @@
 title: '[4.0][WIP] How to connect Shopify with Lifesight'
 excerpt: Lifesight 4.0 WIP guide for How to connect Shopify with Lifesight.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: noindex
 ---
