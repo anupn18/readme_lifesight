@@ -127,7 +127,7 @@ Yes. Archived models can be restored from **Model List**, depending on your perm
 
   </Card>
 
-  <Card title="Casual Attribution" icon="🔗">
+  <Card title="Casual Attribution" href="https://docs.lifesight.io/update/docs/causal-attribution-2" icon="🔗">
 
   </Card>
 </Cards>
