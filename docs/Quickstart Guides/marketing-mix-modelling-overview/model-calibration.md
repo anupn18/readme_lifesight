@@ -128,11 +128,11 @@ Calibration works best when the experiment covers a channel and period included 
 ## Related Articles
 
 <Cards>
-  <Card title="Setting up your MMM" icon="fa-rocket">
+  <Card title="Causal Graph" icon="🔗">
 
   </Card>
 
-  <Card title="Causal Graph" icon="fa-code">
+  <Card title="Merging Models" icon="🔗">
 
   </Card>
 </Cards>
