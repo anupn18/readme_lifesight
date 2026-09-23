@@ -115,3 +115,17 @@ Yes, both to the same Lifesight field. That is what makes them comparable.
 
 **Can one column feed two Lifesight fields?**
 Not from a single mapping row. Map it once, save, then create a second custom field pointed at the same column.
+
+***
+
+## Related Articles
+
+<Cards>
+  <Card title="Set a fixed value for a source" icon="fa-rocket">
+
+  </Card>
+
+  <Card title="Map a source to channel" icon="fa-code">
+
+  </Card>
+</Cards>
