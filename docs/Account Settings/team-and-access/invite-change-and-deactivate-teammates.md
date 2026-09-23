@@ -4,7 +4,7 @@ excerpt: >-
   Invite people to your workspace from Team > Manage Team, change the role a
   member holds, and deactivate, re-invite or revoke access.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Invite, Change, and deactivate Teammates in Lifesight
   keywords:
