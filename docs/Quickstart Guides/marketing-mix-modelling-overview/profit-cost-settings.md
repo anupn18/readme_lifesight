@@ -119,3 +119,17 @@ Yes. Confirm that cost coverage is complete for the relevant channels and period
 
 **How often should I update my cost assumptions?**
 Revisit them whenever prices, margins, fees, or customer value change, and keep them aligned with finance-approved values.
+
+***
+
+## Related Articles
+
+<Cards>
+  <Card title="Measure incrementality of your creatives" icon="fa-rocket">
+
+  </Card>
+
+  <Card title="Model Insights" icon="fa-code">
+
+  </Card>
+</Cards>
