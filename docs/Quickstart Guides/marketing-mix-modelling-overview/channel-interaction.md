@@ -111,11 +111,11 @@ Results reflect the selected model and data period. If you switch models or the 
 ## Related Articles
 
 <Cards>
-  <Card title="Card One" icon="🔗">
+  <Card title="Model refresh" icon="🔗">
 
   </Card>
 
-  <Card title="Card Two" icon="🔗">
+  <Card title="Profit and Cost settings " icon="🔗">
 
   </Card>
 </Cards>
