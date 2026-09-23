@@ -123,7 +123,7 @@ Yes. Archived models can be restored from **Model List**, depending on your perm
 ## Related Articles
 
 <Cards>
-  <Card title="Create a geo experiment" icon="🔗">
+  <Card title="Create a geo experiment" href="https://docs.lifesight.io/update/docs/geo-testing" icon="🔗">
 
   </Card>
 
