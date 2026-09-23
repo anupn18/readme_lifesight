@@ -117,7 +117,7 @@ Yes. Total revenue and new customer acquisition are different questions deservin
 
   </Card>
 
-  <Card title="Marketing mix modeling" icon="🔗">
+  <Card title="Marketing mix modeling" href="https://docs.lifesight.io/update/docs/marketing-mix-modelling-overview" icon="🔗">
 
   </Card>
 </Cards>
