@@ -4,7 +4,7 @@ excerpt: >-
   Model scenarios, compare allocations, and find the spend mix most likely to
   hit your revenue goals.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: noindex
 ---
