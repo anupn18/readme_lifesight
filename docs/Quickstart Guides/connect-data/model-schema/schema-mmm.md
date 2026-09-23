@@ -107,3 +107,17 @@ Fewer than you think. Two years of weekly data is around 100 observations, and t
 
 **Can I have more than one schema?**
 Yes. Total revenue and new customer acquisition are different questions deserving different variable sets.
+
+***
+
+## Related Articles
+
+<Cards>
+  <Card title="Build a schema for geo experiment" icon="fa-rocket">
+
+  </Card>
+
+  <Card title="Marketing mix modeling" icon="🔗">
+
+  </Card>
+</Cards>
