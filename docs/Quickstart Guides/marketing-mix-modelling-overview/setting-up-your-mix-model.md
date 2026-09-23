@@ -283,7 +283,7 @@ Open your model to review its performance, contribution insights, response curve
 
   </Card>
 
-  <Card title="Model Calibration" icon="fa-code">
+  <Card title="Csv data formatting" icon="fa-code">
 
   </Card>
 </Cards>
