@@ -17,8 +17,9 @@ Getting roles right on the way in saves work later. Decide what access a person 
 
 **Who can do this**
 
-- **Role:** Workspace Admin. Other roles can open the page and view both lists, but the buttons are dimmed with the tooltip "Your role cannot add users. Ask a workspace admin for access."
-- **Where:** sidebar user menu > **Team** > **Manage Team**
+**Role:** Workspace Admin. Other roles can open the page and view both lists, but the buttons are dimmed with the tooltip "Your role cannot add users. Ask a workspace admin for access."
+
+**Where:** sidebar user menu > **Team** > **Manage Team**
 
 ## Before you start
 
@@ -29,7 +30,7 @@ Getting roles right on the way in saves work later. Decide what access a person 
 
 ## Bring someone into your workspace
 
-### Invite a teammate
+**Invite a teammate**
 
 **Role:** Workspace Admin
 
@@ -53,19 +54,19 @@ The button reads **Inviting...** while it works. If the dialog stays open, a fie
 - Under **Inactive**, a **Pending** row shows the email address you entered.
 - That row's **Invited** date is today.
 
-### Choose from the role list
+**Choose from the role list**
 
 The list offers Workspace Admin, Data Practitioner, Marketing Scientist, Strategic Planner, and Executive, followed by any custom roles created in this browser session, then **+ Create Custom Role**.
 
 Selecting **+ Create Custom Role** shows the link **Configure custom role permissions**, which opens **Manage Roles**. If you submit the invite with it selected, you'll see the error "Please create a custom role in Manage Roles before inviting the user." Build the role first in **Create a custom role**, then invite the person.
 
-### Share the workspace URL
+**Share the workspace URL**
 
 In the current release, no invitation email or link is sent. Share the workspace URL with the person directly so they know where to sign in.
 
 ## Keep access current as roles change
 
-### Change someone's role
+**Change someone's role**
 
 **Role:** Workspace Admin
 
@@ -80,7 +81,7 @@ A confirmation appears: "<Name>'s role updated to <Role>," and the new role show
 
 A person who is already signed in keeps the access of the role they had when they signed in.
 
-### Deactivate a member
+**Deactivate a member**
 
 **Role:** Workspace Admin
 
@@ -91,13 +92,13 @@ A person who is already signed in keeps the access of the role they had when the
 
 ![](https://files.readme.io/df48ceaa832c5726513b55f46345a4efbf5891518db40cdb4c00ba9b220084cc-Screenshot_2026-09-21_at_7.51.14_AM.png)
 
-A confirmation appears: "User status updated." The row leaves the **Active** list and does not reappear under **Inactive > Deactivated**.
+<br />A confirmation appears: "User status updated." The row leaves the **Active** list and does not reappear under **Inactive > Deactivated**.
 
 **Important: there is no undo.** Deactivating removes the member from the list, and there is no reactivate option. To bring the person back, invite them again as a new member. They start as **Pending**.
 
 ## Manage invitations that haven't landed
 
-### Re-invite an expired invitee
+**Re-invite an expired invitee**
 
 **Role:** Workspace Admin
 
@@ -109,9 +110,9 @@ A confirmation appears: "User status updated." The row leaves the **Active** lis
 
 ![](https://files.readme.io/e8e89d3caf55a20da5b7291c890fed781e54676a01a7d87c7eed77d57be16f57-Screenshot_2026-09-21_at_7.51.46_AM.png)
 
-The button reads **Sending...** while it works. A confirmation appears: "User re-invited," and a new row appears under **Inactive > Pending**. The **Expired** row stays, since re-inviting adds a row rather than replacing one, so the same person is listed twice.
+<br />The button reads **Sending...** while it works. A confirmation appears: "User re-invited," and a new row appears under **Inactive > Pending**. The **Expired** row stays, since re-inviting adds a row rather than replacing one, so the same person is listed twice.
 
-### Revoke a pending invitation
+**Revoke a pending invitation**
 
 **Role:** Workspace Admin
 
