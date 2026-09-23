@@ -97,15 +97,11 @@ Baseline changes are driven by non-media factors. Compare their timing with pric
 ## Related Articles
 
 <Cards>
-  <Card title="Card One" icon="fa-rocket">
+  <Card title="Card One" icon="🔗">
 
   </Card>
 
-  <Card title="Card Two" icon="fa-code">
-
-  </Card>
-
-  <Card title="Card Three" icon="fa-comments">
+  <Card title="Card Two" icon="🔗">
 
   </Card>
 </Cards>
