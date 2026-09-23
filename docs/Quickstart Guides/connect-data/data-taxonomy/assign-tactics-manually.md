@@ -175,7 +175,7 @@ Monthly is enough. Sort by the **New** column, classify anything that has appear
 
   </Card>
 
-  <Card title="Model Schema" icon="🔗">
+  <Card title="Model Schema" href="https://docs.lifesight.io/update/docs/model-schema" icon="🔗">
 
   </Card>
 </Cards>
