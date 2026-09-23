@@ -91,3 +91,21 @@ No. Insights are analysis views. Validate media findings in **Contribution**, **
 
 **Why does a baseline change not match any media activity?**
 Baseline changes are driven by non-media factors. Compare their timing with pricing, distribution, promotional, seasonal, and market events to find the likely cause.
+
+***
+
+## Related Articles
+
+<Cards>
+  <Card title="Card One" icon="fa-rocket">
+
+  </Card>
+
+  <Card title="Card Two" icon="fa-code">
+
+  </Card>
+
+  <Card title="Card Three" icon="fa-comments">
+
+  </Card>
+</Cards>
