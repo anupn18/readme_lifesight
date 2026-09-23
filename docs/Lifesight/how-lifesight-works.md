@@ -158,7 +158,7 @@ All of this rests on a platform built to be privacy-safe, transparent, and relia
 
   </Card>
 
-  <Card title="Getting Started" href="https://docs.lifesight.io/v2.0/docs/cockpit" icon="📖">
+  <Card title="Getting Started" href="https://docs.lifesight.io/update/docs/cockpit" icon="📖">
 
   </Card>
 </Cards>
