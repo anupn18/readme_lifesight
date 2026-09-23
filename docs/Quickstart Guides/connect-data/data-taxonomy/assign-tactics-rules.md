@@ -199,3 +199,13 @@ Planner and Optimizer work by tactic, so unclassified spend is invisible to them
 ***
 
 ## Related Articles
+
+<Cards>
+  <Card title="Model Schema" icon="🔗">
+
+  </Card>
+
+  <Card title="Marketing Mix Modeling" icon="🔗">
+
+  </Card>
+</Cards>
