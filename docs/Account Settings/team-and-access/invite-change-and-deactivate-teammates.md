@@ -64,7 +64,7 @@ Selecting **+ Create Custom Role** shows the link **Configure custom role permis
 
 In the current release, no invitation email or link is sent. Share the workspace URL with the person directly so they know where to sign in.
 
-## Keep access current as roles change
+## Update or remove a member's access
 
 **Change someone's role**
 
