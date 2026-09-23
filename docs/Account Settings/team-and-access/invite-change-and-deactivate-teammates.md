@@ -19,7 +19,7 @@ metadata:
 
     **Who can do this**
 
-    - **Role:** Workspace Admin. Other roles can open the page and view both lists, but the buttons are dimmed with the tooltip "Your role (<Role>) cannot add users. Ask a workspace admin for access."
+    - **Role:** Workspace Admin. Other roles can open the page and view both lists, but the buttons are dimmed with the tooltip "Your role cannot add users. Ask a workspace admin for access."
     - **Where:** sidebar user menu > **Team** > **Manage Team**
 
     ## Before you start
