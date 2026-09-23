@@ -232,7 +232,7 @@ Together, these layers give you one connected measurement system: model-ready da
 
   </Card>
 
-  <Card title="How Lifesight works" href="https://docs.lifesight.io/v2.0/update/docs/how-lifesight-works" icon="fa-code">
+  <Card title="How Lifesight works" href="https://docs.lifesight.io/update/docs/how-lifesight-works" icon="fa-code">
 
   </Card>
 </Cards>
