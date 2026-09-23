@@ -137,11 +137,11 @@ No. A refresh retains the current model structure. To change configuration or ca
 ## Related Articles
 
 <Cards>
-  <Card title="Card One" icon="fa-rocket">
+  <Card title="Profit and cost settings" icon="🔗">
 
   </Card>
 
-  <Card title="Card Two" icon="fa-code">
+  <Card title="Measure incrementality of ad creatives" icon="🔗">
 
   </Card>
 </Cards>
