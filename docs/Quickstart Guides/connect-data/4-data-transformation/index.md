@@ -249,7 +249,7 @@ Campaign classification happens in [Data Taxonomy](https://docs.lifesight.io/doc
 
   </Card>
 
-  <Card title="Set a Fixed Value For Source" icon="🔗">
+  <Card title="Set a Fixed Value For Source" href="https://docs.lifesight.io/update/docs/fixed-value-source" icon="🔗">
 
   </Card>
 
