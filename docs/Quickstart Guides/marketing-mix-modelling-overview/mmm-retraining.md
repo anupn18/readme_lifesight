@@ -103,11 +103,11 @@ Each retrain creates a new model from a source model, so you can retrain again w
 ## Related Articles
 
 <Cards>
-  <Card title="Card One" icon="🔗">
+  <Card title="Interaction" icon="🔗">
 
   </Card>
 
-  <Card title="Card Two" icon="🔗">
+  <Card title="Model Refresh" icon="🔗">
 
   </Card>
 </Cards>
