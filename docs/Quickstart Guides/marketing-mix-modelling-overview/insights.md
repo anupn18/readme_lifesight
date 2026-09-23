@@ -101,7 +101,7 @@ Baseline changes are driven by non-media factors. Compare their timing with pric
 
   </Card>
 
-  <Card title="Model Data" icon="🔗">
+  <Card title="Model Data" href="https://docs.lifesight.io/update/docs/model-data" icon="🔗">
 
   </Card>
 </Cards>
