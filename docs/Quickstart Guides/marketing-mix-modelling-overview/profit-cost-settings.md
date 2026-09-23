@@ -129,7 +129,7 @@ Revisit them whenever prices, margins, fees, or customer value change, and keep 
 
   </Card>
 
-  <Card title="Model Insights" icon="🔗">
+  <Card title="Model Insights" href="https://docs.lifesight.io/update/docs/insights" icon="🔗">
 
   </Card>
 </Cards>
