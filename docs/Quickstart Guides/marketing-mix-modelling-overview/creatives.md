@@ -152,7 +152,7 @@ Treat big findings as hypotheses to test first. Incrementality figures are model
 
   </Card>
 
-  <Card title="Model Diagnostics" icon="🔗">
+  <Card title="Model Diagnostics" href="https://docs.lifesight.io/update/docs/diagnostics" icon="🔗">
 
   </Card>
 </Cards>
