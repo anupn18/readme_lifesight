@@ -125,7 +125,7 @@ Not from a single mapping row. Map it once, save, then create a second custom fi
 
   </Card>
 
-  <Card title="Map a source to channel" icon="fa-code">
+  <Card title="Map a source to channel" href="https://docs.lifesight.io/update/docs/map-source-channel" icon="fa-code">
 
   </Card>
 </Cards>
