@@ -127,3 +127,17 @@ Be aware that their individual effects may be harder to separate. Review how the
 
 **When am I ready to move on to Diagnostics?**
 When the selected period, totals, variable classifications, and time-series patterns are consistent with your source data and business context.
+
+***
+
+## Related Articles
+
+<Cards>
+  <Card title="Card One" icon="🔗">
+
+  </Card>
+
+  <Card title="Card Two" icon="🔗">
+
+  </Card>
+</Cards>
