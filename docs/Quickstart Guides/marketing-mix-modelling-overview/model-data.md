@@ -137,7 +137,7 @@ When the selected period, totals, variable classifications, and time-series patt
 
   </Card>
 
-  <Card title="Create a geo experiment" icon="🔗">
+  <Card title="Create a geo experiment" href="https://docs.lifesight.io/update/docs/geo-testing" icon="🔗">
 
   </Card>
 </Cards>
