@@ -107,7 +107,7 @@ Each retrain creates a new model from a source model, so you can retrain again w
 
   </Card>
 
-  <Card title="Model Refresh" icon="🔗">
+  <Card title="Model Refresh" href="https://docs.lifesight.io/update/docs/mmm-refresh" icon="🔗">
 
   </Card>
 </Cards>
