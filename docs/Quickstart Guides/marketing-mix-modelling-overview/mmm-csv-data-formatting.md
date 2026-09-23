@@ -194,7 +194,7 @@ Contact your Lifesight Marketing Science team before replacing values or removin
 
   </Card>
 
-  <Card title="Causal graph" icon="🔗">
+  <Card title="Causal graph" href="https://docs.lifesight.io/update/docs/causal-graph" icon="🔗">
 
   </Card>
 </Cards>
