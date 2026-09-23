@@ -140,7 +140,7 @@ Use a promoted model in Planner to create budget scenarios and optimize your med
 
   </Card>
 
-  <Card title="Setting up your First Model" href="https://docs.lifesight.io/v2.0/docs/setting-up-your-mix-model" icon="fa-code">
+  <Card title="Setting up your First Model" href="https://docs.lifesight.io/v2.0/docs/setting-up-your-mix-modelhttps://docs.lifesight.io/update/docs/setting-up-your-mix-model" icon="fa-code">
 
   </Card>
 </Cards>
