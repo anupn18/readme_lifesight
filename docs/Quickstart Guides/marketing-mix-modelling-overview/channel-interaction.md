@@ -115,7 +115,7 @@ Results reflect the selected model and data period. If you switch models or the 
 
   </Card>
 
-  <Card title="Profit and Cost settings " icon="🔗">
+  <Card title="Profit and Cost settings " href="https://docs.lifesight.io/update/docs/profit-cost-settings" icon="🔗">
 
   </Card>
 </Cards>
