@@ -91,7 +91,7 @@ Merged models are designed for consolidated review. Since response curves and ma
 ## Related Articles
 
 <Cards>
-  <Card title="Contribution" icon="🔗">
+  <Card title="Contribution" href="https://docs.lifesight.io/update/docs/contribution" icon="🔗">
 
   </Card>
 
