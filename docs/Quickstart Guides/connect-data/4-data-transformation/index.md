@@ -245,11 +245,15 @@ Yes. A mapping is a definition, not a one-time import, so updated mappings apply
 Campaign classification happens in [Data Taxonomy](https://docs.lifesight.io/docs/4-0-wip-data-taxonomy), not Data Transformation. Data Transformation defines what columns mean, while Data Taxonomy groups campaigns into tactics (the marketing approach a campaign uses, such as prospecting or retargeting).
 
 <Cards>
-  <Card title="Card One" icon="fa-rocket">
+  <Card title="Map a Field From Source" icon="fa-rocket">
 
   </Card>
 
-  <Card title="Card Two" icon="fa-code">
+  <Card title="Set a Fixed Value For Source" icon="fa-code">
+
+  </Card>
+
+  <Card title="Set a Source to a channel">
 
   </Card>
 </Cards>
