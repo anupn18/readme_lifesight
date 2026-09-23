@@ -171,7 +171,7 @@ Monthly is enough. Sort by the **New** column, classify anything that has appear
 ## Related Articles
 
 <Cards>
-  <Card title="Assign tactics automatically" icon="🔗">
+  <Card title="Assign tactics automatically" href="https://docs.lifesight.io/update/docs/assign-tactics-rules" icon="🔗">
 
   </Card>
 
