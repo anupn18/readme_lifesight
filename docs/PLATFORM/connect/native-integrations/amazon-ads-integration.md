@@ -3,6 +3,8 @@ title: Amazon Ads
 excerpt: Integrate your Amazon Ads Account with Lifesight
 deprecated: false
 hidden: false
+link:
+  url: https://docs.lifesight.io/amazon-ads
 metadata:
   title: ''
   description: ''
