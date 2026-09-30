@@ -6,6 +6,8 @@ hidden: true
 metadata:
   robots: index
 ---
+Not yet available. The settings on this page are planned, not shipped. None of them is configurable in the product today, and recommendations currently run on system defaults. Read this as intended behaviour rather than something you can change now.
+
 Recommendations are generated automatically, but you have control over how they behave. Configurable settings at the workspace level let you fine tune the balance between caution and aggressiveness.
 
 These settings act as guardrails, shaping how recommendations are distributed and applied across campaigns.
