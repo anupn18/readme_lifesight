@@ -28,7 +28,7 @@ Each of the three major approaches is a genuine advance in service of a real que
 None of these methods is lying. Each is simply a partial answer being sold as a complete one - over-claiming in exactly the dimension where it is strong, and going quiet in exactly the dimension where it is weak.
 
 <Callout icon="📘" theme="info">
-  ### The first and most expensive mistake in measurement is not the choice of any particular method. It is the belief that a single method is sufficient.
+  The first and most expensive mistake in measurement is not the choice of any particular method. It is the belief that a single method is sufficient.
 </Callout>
 
 ***
