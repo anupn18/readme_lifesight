@@ -15,6 +15,10 @@ No single model or number can settle what your marketing is worth. The problem h
 
 UMM takes the opposite view. It combines several imperfect reads, each with a different blind spot, so they keep each other honest.
 
+![](https://files.readme.io/d45a7ca611f476b30f8e871ab10e5a23ece552d4119a9145f1031dae2a0013b3-umm-system.png)
+
+<br />
+
 ## The problem with one method<br />
 
 ### Each method answers one question
