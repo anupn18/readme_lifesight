@@ -1,44 +1,35 @@
 ---
-title: '[WIP] Configurable Settings'
+title: Configurable Settings
+excerpt: Workspace guardrails that shape how recommendations are generated and applied.
 deprecated: false
 hidden: true
 metadata:
   robots: index
 ---
-The Optimizer works automatically, but you also have control over how it behaves. **Configurable settings** at the workspace level let you fine-tune the balance between caution and aggressiveness in budget recommendations.
+Recommendations are generated automatically, but you have control over how they behave. Configurable settings at the workspace level let you fine tune the balance between caution and aggressiveness.
 
 These settings act as guardrails, shaping how recommendations are distributed and applied across campaigns.
 
-### Allocation Weight
+## Allocation weight
 
-This setting determines how much emphasis the Optimizer places on:
+This setting determines how much emphasis is placed on spend share, which prioritises campaigns with larger budgets, against conversion share, which prioritises campaigns delivering more results. Adjusting it controls whether recommendations lean toward scaling high spend campaigns or high performing ones.
 
-* **Spend share** → Prioritizes campaigns with larger budgets.
-* **Conversion share** → Prioritizes campaigns delivering more results.
+## Cap percentage
 
-By adjusting the allocation weight, you can control whether Optimizer leans more towards scaling **high-spend campaigns** or **high-performing campaigns**.
+To prevent sudden swings, you can cap weekly budget increases. A 20 percent cap ensures no campaign's budget grows more than 20 percent per week, even if the recommendation is higher. This keeps changes manageable and avoids shocking campaigns out of their learning phase.
 
-### Cap Percentage
+## Minimum days remaining
 
-To prevent sudden swings, you can set a **cap on weekly budget increases**.
+Campaigns with only a few days left in their schedule are not good candidates for scaling. This setting defines the minimum number of days a campaign must have left to be eligible for a recommendation.
 
-* For example, a 20% cap ensures no campaign’s budget grows more than 20% per week, even if the recommendation is higher.
-* This keeps changes manageable and avoids shocking campaigns out of their learning phase.
+## Lifetime spending threshold
 
-### Minimum Days Remaining
+This ensures campaigns close to exhausting their lifetime budgets do not receive unnecessary increases. Campaigns that are nearly capped are deprioritised automatically.
 
-Campaigns with only a few days left in their schedule aren’t good candidates for scaling. This setting defines the **minimum number of days a campaign must have left** to be eligible for recommendations.
+## Why these settings matter
 
-### Lifetime Spending Threshold
+They let you balance risk against growth, deciding whether recommendations behave conservatively or aggressively. They keep recommendations aligned with campaign realities such as pacing, end dates and caps. And they let different teams set the level of automation that suits their strategy.
 
-This setting ensures that campaigns close to exhausting their lifetime budgets don’t receive unnecessary increases. The Optimizer will automatically deprioritize campaigns that are nearly capped.
+These settings apply workspace wide. Once configured, every plan in that workspace follows the same guardrails.
 
-### Why These Settings Matter
-
-These controls let you:
-
-* **Balance risk vs growth** → Decide if you want Optimizer to behave more conservatively or aggressively.
-* **Align with campaign realities** → Respect pacing, end dates, and caps.
-* **Customize to your strategy** → Different teams may prefer different levels of automation, and these settings let you set the tone.
-
-> 📘 _Tip:_ These settings apply **workspace-wide**. Once configured, all plans and scenarios in that workspace will follow the same guardrails.
+<br />
