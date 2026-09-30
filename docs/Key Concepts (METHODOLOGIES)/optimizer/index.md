@@ -60,6 +60,4 @@ Bid target recommendations are planned. Until they ship, treat bidding in Deploy
 
 Recommendations reflect your promoted plan and your promoted incrementality source. They are a considered starting point rather than an instruction. Platform delivery behaviour, seasonality and commitments outside the plan are context only you have.
 
-\[VIDEO PLACEHOLDER: Reviewing recommendations and deploying a budget change]
-
 <br />
