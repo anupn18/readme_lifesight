@@ -1,5 +1,6 @@
 ---
 title: What is Unified Marketing Measurement
+excerpt: Why measurement takes a system, not a single tool.
 deprecated: false
 hidden: false
 metadata:
