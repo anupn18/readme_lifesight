@@ -33,7 +33,7 @@ None of these methods is wrong. Each is a partial answer that gets sold as a com
   The most expensive mistake in measurement is believing that one method is enough.
 </Callout>
 
-### Decisions happen at three levels
+Decisions happen at three levels
 
 Before you pick a method, ask what decision it needs to support. A method that works well for one level can be useless for another.
 
