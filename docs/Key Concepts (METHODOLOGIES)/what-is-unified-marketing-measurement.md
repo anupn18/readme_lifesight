@@ -3,6 +3,9 @@ title: What is Unified Marketing Measurement
 deprecated: false
 hidden: false
 metadata:
+  title: What is Unified Marketing Measurement
+  keywords:
+    - Unified Marketing Measurement
   robots: index
 ---
 Unified Marketing Measurement (UMM) is the practice of running Marketing Mix Modeling, Incrementality Testing, and Causal Attribution together as one orchestrated system - on a single data foundation - so that each method strengthens the others, rather than treating any one of them as a complete answer on its own.
