@@ -22,7 +22,14 @@ Informational, for a campaign near its end date, a lifetime budget with little r
 
 ## Configurable settings
 
-No setting is configurable today, and recommendations run on system defaults. Planned: allocation weight, cap percentage, minimum days remaining and lifetime spending threshold, applied workspace wide. See the Configurable Settings page for what each one will do.
+No setting is configurable today. Recommendations run on system defaults, and there is nothing in the product to change them. Four settings are planned, each applied workspace wide, so that once configured every plan in that workspace follows the same guardrails.
+
+* Allocation weight. How much emphasis is placed on spend share, which prioritises campaigns with larger budgets, against conversion share, which prioritises campaigns delivering more results. It controls whether recommendations lean toward scaling high spend campaigns or high performing ones.
+* Cap percentage. A ceiling on weekly budget increases. A 20 percent cap would mean no campaign's budget grows more than 20 percent in a week, even where the recommendation is higher, which keeps changes manageable and avoids shocking campaigns out of their learning phase.
+* Minimum days remaining. The least number of days a campaign must have left in its schedule to be eligible for a recommendation, since a campaign about to end is a poor candidate for scaling.
+* Lifetime spending threshold. Campaigns close to exhausting their lifetime budgets are deprioritised automatically, so they do not receive increases they cannot spend.
+
+<br />
 
 ## Eligibility moving upstream
 
