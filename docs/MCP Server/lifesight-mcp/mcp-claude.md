@@ -12,21 +12,9 @@ metadata:
     - Setup Guide Claude
   robots: index
 ---
-Every Lifesight workspace can now connect to Claude in a few minutes. Once connected, your team can ask about budgets, channels and experiments in plain language, right where they already work. This guide walks you through setup, explains what the connector can do, and helps you fix common issues.
+**Bring your marketing measurement insights into Claude with the Lifesight Connector and make confident marketing decisions, faster.**
 
-1. What it is
-2. Install
-3. Your first connection
-4. Workspaces
-5. What it can do
-6. Writes and approvals
-7. Permissions
-8. Guided workflows
-9. Example prompts
-10. Limits
-11. Troubleshooting
-12. Privacy and security
-13. FAQs
+Every Lifesight workspace can now connect to Claude in a few minutes. Once connected, your team can ask about budgets, channels and experiments in plain language, right where they already work. This guide walks you through setup, explains what the connector can do, and helps you fix common issues.
 
 ***
 
@@ -45,7 +33,7 @@ The Lifesight Connector is built on the Model Context Protocol (MCP). Once you c
 
 **Every answer follows two rules.**
 
-First, the numbers always come from the Lifesight platform. Some are calculated from platform numbers by the Lifesight server, and those are clearly labeled. Claude never makes up a number. Each result includes a `provenance` block that shows where each number came from, along with its unit and currency.
+First, the numbers always come from the Lifesight platform. Some are calculated from platform numbers by the Lifesight server, and those are clearly labeled. Each result includes a `provenance` block that shows where each number came from, along with its unit and currency, so you can always check it.
 
 Second, every request is limited to the workspace you have selected. Lifesight checks your membership and permissions on every request. Claude cannot access a workspace you don't belong to, or do anything your account isn't allowed to do.
 
@@ -119,7 +107,7 @@ Your connection includes **every workspace you belong to**. A good first questio
 What can you tell me about my marketing in Lifesight?
 ```
 
-Claude will run `get_workspace_context` to get its bearings. This shows your workspaces, which one is active, its champion models (with their KPI, currency and data window), the promoted plan, and three questions that workspace can answer today. It doesn't return any numbers. It just gives Claude the context it needs before answering.
+Claude will run `get_workspace_context` to understand your setup. This shows your workspaces, which one is active, its champion models (with their KPI, currency and data window), the promoted plan, and three questions that workspace can answer today. It doesn't return any numbers. It just gives Claude the context it needs before answering.
 
 ***
 
@@ -141,7 +129,7 @@ Claude runs `switch_workspace`, and everything after that happens in the new wor
 
 ## What it can do
 
-The connector has 28 tools. 20 only read data and run without interrupting you. 8 make a change, so they **ask for your confirmation first**.
+The connector has 28 tools. Of these, 20 only read data and run without interrupting you. The other 8 make a change, so they **ask for your confirmation first**.
 
 | Tool                            | What it does                         | Behavior   |
 | :------------------------------ | :----------------------------------- | :--------- |
@@ -183,7 +171,7 @@ You don't need to know any tool names. Just ask your question in plain language,
 
 ### Long tasks don't hold you up
 
-If a budget optimization or an investigation finishes quickly, you get the answer right away. If it takes longer, Claude gets a reference and checks back with `get_budget_optimisation` or `get_investigation`. Each response includes `poll_after_s`, which tells Claude how many seconds to wait before checking again, so it doesn't check too often.
+If a budget optimization or an investigation finishes quickly, you get the answer right away. If it takes longer, Claude gets a task ID and checks back with `get_budget_optimisation` or `get_investigation`. Each response includes `poll_after_s`, which tells Claude how many seconds to wait before checking again, so it doesn't check too often.
 
 ***
 
@@ -211,7 +199,7 @@ By default, a connection can only read data. A workspace admin can give it more 
 | **Write**  | Use `save_budget_plan` and `raise_support_ticket`                  | Workspace admin |
 | **Decide** | Use `request_plan_promotion` (still needs approval in the product) | Workspace admin |
 
-Admins set these for each workspace in **Lifesight → Settings → MCP**. From there, they can also turn the connector off for the whole workspace, or choose which AI assistants are allowed to use it. If a connection doesn't have the access a tool needs, the tool won't run, and you'll see a message telling you where to turn it on. Nothing is partly saved.
+Admins set these for each workspace in **Settings → MCP**. From there, they can also turn the connector off for the whole workspace, or choose which AI assistants are allowed to use it. If a connection doesn't have the access a tool needs, the tool won't run, and you'll see a message telling you where to turn it on. Nothing is partly saved.
 
 <Callout icon="📌" theme="default">
   ### **New access needs a fresh connection.** Your access is set when you sign in. If an admin gives you write or decide access later, remove the connector and add it again. Until you do, write actions will keep being refused.
@@ -223,14 +211,18 @@ Admins set these for each workspace in **Lifesight → Settings → MCP**. From 
 
 The connector comes with twelve ready-made workflows. They are available as MCP prompts, and as skills in Claude Code. Each one covers a question teams ask often, and already knows which data to pull to answer it.
 
-| Workflow                   | Workflow            |
-| :------------------------- | :------------------ |
-| Weekly performance readout | Budget reallocation |
-| Saturation and headroom    | Scenario planning   |
-| Model health check         | Data health         |
-| Experiment readout         | Experiment roadmap  |
-| Attribution reconciliation | Anomaly triage      |
-| P\&L translation           | Board briefing      |
+- Weekly performance readout
+- Budget reallocation
+- Saturation and headroom
+- Scenario planning
+- Model health check
+- Data health
+- Experiment readout
+- Experiment roadmap
+- Attribution reconciliation
+- Anomaly triage
+- P\&L translation
+- Board briefing
 
 ***
 
@@ -241,10 +233,7 @@ Each of these works as written in any workspace that has a marketing mix model. 
 **Where should next quarter's budget go, and why?**
 
 ```
-Reallocate next quarter's budget across my channels at the same total
-spend. Show me what moves, what the expected outcome is, and explain
-each move from the response curves rather than just giving me the
-split.
+Reallocate next quarter's budget across my channels at the same total spend. Show me what moves, what the expected outcome is, and explain each move from the response curves rather than just giving me the split.
 ```
 
 Claude runs the model's optimizer and explains each change using the saturation curves behind it. Nothing is saved unless you ask.
@@ -252,9 +241,7 @@ Claude runs the model's optimizer and explains each change using the saturation 
 **Where am I saturated, and where is there still room?**
 
 ```
-Which of my channels are saturating and which still have headroom?
-Give me the marginal return at current spend for each, and tell me
-where the next unit of spend works hardest.
+Which of my channels are saturating and which still have headroom? Give me the marginal return at current spend for each, and tell me where the next unit of spend works hardest.
 ```
 
 You get the marginal return and headroom for each channel, taken from the model's response curves.
@@ -262,9 +249,7 @@ You get the marginal return and headroom for each channel, taken from the model'
 **What did the experiment prove, and what changes because of it?**
 
 ```
-What did our most recent geo experiment show? Give me the lift, how
-confident we should be in it, and what we should change in the plan
-as a result.
+What did our most recent geo experiment show? Give me the lift, how confident we should be in it, and what we should change in the plan as a result.
 ```
 
 You get the lift with its confidence interval and significance, plus a recommendation based on the result. If the result isn't statistically significant, Claude tells you so instead of treating it as final.
@@ -272,10 +257,7 @@ You get the lift with its confidence interval and significance, plus a recommend
 **Can I trust this channel's number?**
 
 ```
-Take my largest channel by spend. Put the MMM contribution, the
-causal read, the channel's own reporting and the last lift test side
-by side. Do they agree? Tell me which to plan on and what would
-settle it.
+Take my largest channel by spend. Put the MMM contribution, the causal read, the channel's own reporting and the last lift test side by side. Do they agree? Tell me which to plan on and what would settle it.
 ```
 
 You get four measurements of the same channel, each with its own context (confidence interval, attribution window, significance). You also see how far apart they are and which one to plan on. They are never averaged into one number.
@@ -283,9 +265,7 @@ You get four measurements of the same channel, each with its own context (confid
 **What happens if I move spend?**
 
 ```
-What happens to the outcome if I cut my smallest channel by 30% and
-move that spend into my largest? Show me the before and after per
-channel, and tell me how confident the model is at that spend level.
+What happens to the outcome if I cut my smallest channel by 30% and move that spend into my largest? Show me the before and after per channel, and tell me how confident the model is at that spend level.
 ```
 
 You get a scenario run against the model, along with how confident the model is at the spend level you're proposing.
@@ -293,9 +273,7 @@ You get a scenario run against the model, along with how confident the model is 
 **Explain the plan to the CFO**
 
 ```
-Translate our current plan into finance terms: the spend, the forecast
-outcome, the return per unit of spend, and how we are tracking
-against plan so far. No jargon, this is going to the CFO.
+Translate our current plan into finance terms: the spend, the forecast outcome, the return per unit of spend, and how we are tracking against plan so far. No jargon. This is going to the CFO.
 ```
 
 You get the plan explained in terms of spend, return and variance. Every number still shows its source, so finance can check where any figure came from.
@@ -363,13 +341,20 @@ Make sure your browser isn't blocking the pop-up, and that you're signing in to 
 ## Privacy and security
 
 - **What Claude receives:** only the results of the tools it uses, from the workspace you've selected, and only within your permissions. Lifesight reads your workspace using your sign-in. Your marketing data warehouse is read by Lifesight using its own service credentials, limited to your workspace's dataset.
-- **What Lifesight receives and stores:** the inputs to each tool request, including your question when you start an Ask Lifesight investigation, along with the results. These are saved in a thread linked to your account and workspace. Lifesight also keeps one audit record per request. It shows who made the request, which workspace, which assistant, which tool, a one-way digest of the inputs, the result and how long it took. The audit record doesn't include the inputs themselves.
+- **What Lifesight receives and stores:** the inputs to each tool request, including your question when you start an Ask Lifesight investigation, along with the results. These are saved in a thread linked to your account and workspace. Lifesight also keeps one audit record per request. Each record shows:
+
+  - Who made the request
+  - Which workspace, assistant and tool were used
+  - A one-way digest of the inputs
+  - The result and how long it took
+
+  The audit record doesn't include the inputs themselves.
 - **What Lifesight does not receive:** the rest of your conversation with the assistant, your other files, or your other connected services.
 - **How long data is kept:** threads and audit records are kept for two years.
 - **Sign-in:** uses OAuth 2.1 with PKCE. No API key is created or stored. The assistant never sees your Lifesight password.
 - **Revoking access:** disconnect in your assistant, or revoke access from **Settings → MCP** in the Lifesight console. An admin can also turn off the connector for a whole workspace from the same page.
 
-You can find full details in the Lifesight privacy policy.
+You can find full details in the [Lifesight privacy policy](https://lifesight.io/privacy-policy/).
 
 ***
 
@@ -385,7 +370,7 @@ No. There's no tool that can transfer money, make a payment, or change spend on 
 
 **Where do the numbers come from?**
 
-Always from the Lifesight platform. Claude is not allowed to calculate business numbers. Every result includes a `provenance` block that shows where each number came from, along with its unit and currency. You can also ask Claude to run `check_figures` on any draft, and it will tell you which numbers are actually backed by the results in that conversation.
+Always from the Lifesight platform. Every result includes a `provenance` block that shows where each number came from, along with its unit and currency. You can also ask Claude to run `check_figures` on any draft, and it will tell you which numbers are actually backed by the results in that conversation.
 
 **Can I use it with more than one workspace?**
 
