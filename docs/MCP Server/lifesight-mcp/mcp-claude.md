@@ -1,5 +1,5 @@
 ---
-title: ' Lifesight Connector for Claude: setup and help'
+title: ' Lifesight Connector for Claude '
 excerpt: >-
   Bring your marketing measurment insights in Claude with MCP connector and make
   confident marketing decisions, faster.
