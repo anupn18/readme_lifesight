@@ -234,7 +234,7 @@ The connector comes with twelve ready-made workflows. They are available as MCP 
 
 Each of these works as written in any workspace that has a marketing mix model. You don't need to name your channels, because Claude gets them from your workspace. Each prompt asks several things at once. Claude answers every part, and tells you if one part can't be answered.
 
-### Where should next quarter's budget go, and why?
+**Where should next quarter's budget go, and why?**
 
 ```
 Reallocate next quarter's budget across my channels at the same total
@@ -245,7 +245,7 @@ split.
 
 Claude runs the model's optimizer and explains each change using the saturation curves behind it. Nothing is saved unless you ask.
 
-### Where am I saturated, and where is there still room?
+**Where am I saturated, and where is there still room?**
 
 ```
 Which of my channels are saturating and which still have headroom?
@@ -255,7 +255,7 @@ where the next unit of spend works hardest.
 
 You get the marginal return and headroom for each channel, taken from the model's response curves.
 
-### What did the experiment prove, and what changes because of it?
+**What did the experiment prove, and what changes because of it?**
 
 ```
 What did our most recent geo experiment show? Give me the lift, how
@@ -265,7 +265,7 @@ as a result.
 
 You get the lift with its confidence interval and significance, plus a recommendation based on the result. If the result isn't statistically significant, Claude tells you so instead of treating it as final.
 
-### Can I trust this channel's number?
+**Can I trust this channel's number?**
 
 ```
 Take my largest channel by spend. Put the MMM contribution, the
@@ -276,7 +276,7 @@ settle it.
 
 You get four measurements of the same channel, each with its own context (confidence interval, attribution window, significance). You also see how far apart they are and which one to plan on. They are never averaged into one number.
 
-### What happens if I move spend?
+**What happens if I move spend?**
 
 ```
 What happens to the outcome if I cut my smallest channel by 30% and
@@ -286,7 +286,7 @@ channel, and tell me how confident the model is at that spend level.
 
 You get a scenario run against the model, along with how confident the model is at the spend level you're proposing.
 
-### Explain the plan to the CFO
+**Explain the plan to the CFO**
 
 ```
 Translate our current plan into finance terms: the spend, the forecast
