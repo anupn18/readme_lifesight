@@ -4,7 +4,7 @@ excerpt: >-
   Bring your marketing measurment insights in Claude with MCP connector and make
   confident marketing decisions, faster.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Setup Guide Claude
   description: Connect Lifesight MCP to Claude in 2 minutes.
