@@ -6,8 +6,11 @@ hidden: false
 link:
   new_tab: false
 metadata:
-  title: What is Lifesight?
-  description: 'Lifesight Overview: Know What Your Marketing Is Actually Causing'
+  title: What Is Lifesight? | Agentic Unified Marketing Measurement
+  description: >-
+    What is Lifesight? Learn how Lifesight combines MMM, incrementality,
+    attribution, and forecasting to deliver a unified view of marketing
+    performance.
   keywords:
     - What is lifesight
   robots: index
