@@ -1,8 +1,8 @@
 ---
 title: 'Ask Lifesight for Claude: setup and help'
 excerpt: >-
-  Bring your Lifesight measurement insights into Claude with MCP connector and
-  make confident marketing decisions, faster.
+  Bring your marketing measurment insights in Claude with MCP connector and make
+  confident marketing decisions, faster.
 deprecated: false
 hidden: true
 metadata:
