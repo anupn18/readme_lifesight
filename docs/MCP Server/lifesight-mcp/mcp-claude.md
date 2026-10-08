@@ -1,8 +1,8 @@
 ---
 title: ' Lifesight Connector for Claude '
 excerpt: >-
-  Bring your marketing measurment insights in Claude with MCP connector and make
-  confident marketing decisions, faster.
+  Bring your marketing measurement insights into Claude with the Lifesight
+  Connector and make confident marketing decisions, faster.
 deprecated: false
 hidden: false
 metadata:
@@ -12,8 +12,6 @@ metadata:
     - Setup Guide Claude
   robots: index
 ---
-**Bring your marketing measurement insights into Claude with the Lifesight Connector and make confident marketing decisions, faster.**
-
 Every Lifesight workspace can now connect to Claude in a few minutes. Once connected, your team can ask about budgets, channels and experiments in plain language, right where they already work. This guide walks you through setup, explains what the connector can do, and helps you fix common issues.
 
 ***
