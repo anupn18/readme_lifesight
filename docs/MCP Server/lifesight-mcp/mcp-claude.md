@@ -51,6 +51,10 @@ Go to **Settings → Connectors**, find **Lifesight Connector** in the directory
 
 If you don't see it in the directory yet, choose **Add custom connector** and paste the URL above.
 
+![](https://files.readme.io/0acfb5786586ea45b18bfa01c09a56e1a98b3ec921fdbeac9dfd3f9d4b50c64c-Screenshot_2026-10-08_at_2.07.41_PM.png)
+
+<br />
+
 ### Claude Code
 
 Install the plugin. It adds the connector and twelve guided workflows:
