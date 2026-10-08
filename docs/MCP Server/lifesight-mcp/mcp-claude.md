@@ -65,8 +65,6 @@ Go to **Settings → Connectors**, find **Lifesight Connector** in the directory
 
 If you don't see it in the directory yet, choose **Add custom connector** and paste the URL above.
 
-![](https://files.readme.io/455b731c0fcc8e35bdf713f7d5c2ba59ec43227f1d5c4796efece770d8e38c19-Screenshot_2026-10-08_at_1.11.29_PM.png)
-
 ### Claude Code
 
 Install the plugin. It adds the connector and twelve guided workflows:
@@ -240,7 +238,7 @@ The connector comes with twelve ready-made workflows. They are available as MCP 
 
 Each of these works as written in any workspace that has a marketing mix model. You don't need to name your channels, because Claude gets them from your workspace. Each prompt asks several things at once. Claude answers every part, and tells you if one part can't be answered.
 
-### Where should next quarter's budget go, and why?
+**Where should next quarter's budget go, and why?**
 
 ```
 Reallocate next quarter's budget across my channels at the same total
@@ -251,7 +249,7 @@ split.
 
 Claude runs the model's optimizer and explains each change using the saturation curves behind it. Nothing is saved unless you ask.
 
-### Where am I saturated, and where is there still room?
+**Where am I saturated, and where is there still room?**
 
 ```
 Which of my channels are saturating and which still have headroom?
@@ -261,7 +259,7 @@ where the next unit of spend works hardest.
 
 You get the marginal return and headroom for each channel, taken from the model's response curves.
 
-### What did the experiment prove, and what changes because of it?
+**What did the experiment prove, and what changes because of it?**
 
 ```
 What did our most recent geo experiment show? Give me the lift, how
@@ -271,7 +269,7 @@ as a result.
 
 You get the lift with its confidence interval and significance, plus a recommendation based on the result. If the result isn't statistically significant, Claude tells you so instead of treating it as final.
 
-### Can I trust this channel's number?
+**Can I trust this channel's number?**
 
 ```
 Take my largest channel by spend. Put the MMM contribution, the
@@ -282,7 +280,7 @@ settle it.
 
 You get four measurements of the same channel, each with its own context (confidence interval, attribution window, significance). You also see how far apart they are and which one to plan on. They are never averaged into one number.
 
-### What happens if I move spend?
+**What happens if I move spend?**
 
 ```
 What happens to the outcome if I cut my smallest channel by 30% and
@@ -292,7 +290,7 @@ channel, and tell me how confident the model is at that spend level.
 
 You get a scenario run against the model, along with how confident the model is at the spend level you're proposing.
 
-### Explain the plan to the CFO
+**Explain the plan to the CFO**
 
 ```
 Translate our current plan into finance terms: the spend, the forecast
@@ -322,7 +320,7 @@ You can see the current values for each of these in the console under **Settings
 
 ## Troubleshooting
 
-### Most tools suddenly fail with a message about additional properties
+**Most tools suddenly fail with a message about additional properties**
 
 If almost every tool returns an error like `data must NOT have additional properties`, your app is checking results against an old copy of our schema. It saved that copy when you first connected, and we've since added a new field.
 
@@ -332,31 +330,31 @@ If almost every tool returns an error like `data must NOT have additional proper
   ### **Reconnect in every app you use.** Claude.ai, Claude Desktop and Claude Code each keep their own saved copy. Reconnecting in one app doesn't fix the others.
 </Callout>
 
-### A write is refused even though my admin gave me access
+**A write is refused even though my admin gave me access**
 
 Your access is set when you sign in. If your admin gave you access after you connected, remove the connector and add it again. If it still fails, ask your admin to check that **Settings → MCP** shows write or decide access for that workspace. Access is set per workspace, not per account.
 
-### "Workspace … is not one you hold"
+**"Workspace … is not one you hold"**
 
 Your workspaces are added when you connect. If you were added to this workspace later, remove the connector and add it again. If it still happens, ask your admin to make sure your membership is active and not still a pending invite.
 
-### "MCP is switched off for this workspace by its admin"
+**"MCP is switched off for this workspace by its admin"**
 
 An admin has turned off the connector for this workspace in **Settings → MCP**. Your other workspaces aren't affected. Use `switch_workspace` to move to a workspace where it's turned on.
 
-### "… cannot be served right now: its MCP settings could not be read"
+**"… cannot be served right now: its MCP settings could not be read"**
 
 This is a different issue. We couldn't read the workspace's settings, so we pause access instead of guessing. This usually clears up quickly. Try again in a little while. Nobody needs to change anything.
 
-### A result looks cut off
+**A result looks cut off**
 
 Large results are shortened to fit. Check the warnings, which tell you what was left out and how to narrow your question. Asking for one section, a shorter time period, or a single channel usually gets you the full result.
 
-### Claude says it can't answer because there's no model
+**Claude says it can't answer because there's no model**
 
 Most questions need a champion marketing mix model in your workspace. Without one, you can still ask about data health, experiments and saved plans. Promote a model in the product to unlock everything else.
 
-### Sign-in opens but never finishes
+**Sign-in opens but never finishes**
 
 Make sure your browser isn't blocking the pop-up, and that you're signing in to the Lifesight account that has the workspace you want. If your organization limits outside network access, allow `ask.lifesight.io`.
 
@@ -377,31 +375,31 @@ You can find full details in the Lifesight privacy policy.
 
 ## FAQs
 
-### Can Claude see data I can't see?
+**Can Claude see data I can't see?**
 
 No. Every request is limited to the workspace you've selected, and your membership and permissions are checked before anything is read.
 
-### Can Claude spend money or change my ad campaigns?
+**Can Claude spend money or change my ad campaigns?**
 
 No. There's no tool that can transfer money, make a payment, or change spend on an ad platform. The most a change can do is propose a plan, which you then approve inside the Lifesight product.
 
-### Where do the numbers come from?
+**Where do the numbers come from?**
 
 Always from the Lifesight platform. Claude is not allowed to calculate business numbers. Every result includes a `provenance` block that shows where each number came from, along with its unit and currency. You can also ask Claude to run `check_figures` on any draft, and it will tell you which numbers are actually backed by the results in that conversation.
 
-### Can I use it with more than one workspace?
+**Can I use it with more than one workspace?**
 
 Yes. Every workspace you belong to is included. Switch by just asking, or name a workspace for a single question.
 
-### Can my whole team use it?
+**Can my whole team use it?**
 
 Yes. Each person connects with their own account and sees only what their permissions allow. Admins decide, for each workspace, whether the connector is on, which assistants can use it, and whether connections can make changes.
 
-### Does it work in ChatGPT or other assistants?
+**Does it work in ChatGPT or other assistants?**
 
 It's a standard MCP server, so any app that supports streamable HTTP and OAuth can connect. Workspace admins choose which assistants are allowed for each workspace.
 
-### What happens to a conversation thread?
+**What happens to a conversation thread?**
 
 It belongs to your account and workspace. It shows up in your Lifesight conversation list next to your product conversations, so you can go back and see what Claude asked and what came back.
 
