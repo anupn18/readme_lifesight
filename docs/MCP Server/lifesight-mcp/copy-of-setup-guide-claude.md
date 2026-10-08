@@ -316,7 +316,7 @@ You can see the current values for each of these in the console under **Settings
 
 ## Troubleshooting
 
-### Most tools suddenly fail with a message about additional properties
+**Most tools suddenly fail with a message about additional properties**
 
 If almost every tool returns an error like `data must NOT have additional properties`, your app is checking results against an old copy of our schema. It saved that copy when you first connected, and we've since added a new field.
 
@@ -326,31 +326,31 @@ If almost every tool returns an error like `data must NOT have additional proper
   ### **Reconnect in every app you use.** Claude.ai, Claude Desktop and Claude Code each keep their own saved copy. Reconnecting in one app doesn't fix the others.
 </Callout>
 
-### A write is refused even though my admin gave me access
+**A write is refused even though my admin gave me access**
 
 Your access is set when you sign in. If your admin gave you access after you connected, remove the connector and add it again. If it still fails, ask your admin to check that **Settings → MCP** shows write or decide access for that workspace. Access is set per workspace, not per account.
 
-### "Workspace … is not one you hold"
+**"Workspace … is not one you hold"**
 
 Your workspaces are added when you connect. If you were added to this workspace later, remove the connector and add it again. If it still happens, ask your admin to make sure your membership is active and not still a pending invite.
 
-### "MCP is switched off for this workspace by its admin"
+**"MCP is switched off for this workspace by its admin"**
 
 An admin has turned off the connector for this workspace in **Settings → MCP**. Your other workspaces aren't affected. Use `switch_workspace` to move to a workspace where it's turned on.
 
-### "… cannot be served right now: its MCP settings could not be read"
+**"… cannot be served right now: its MCP settings could not be read"**
 
 This is a different issue. We couldn't read the workspace's settings, so we pause access instead of guessing. This usually clears up quickly. Try again in a little while. Nobody needs to change anything.
 
-### A result looks cut off
+**A result looks cut off**
 
 Large results are shortened to fit. Check the warnings, which tell you what was left out and how to narrow your question. Asking for one section, a shorter time period, or a single channel usually gets you the full result.
 
-### Claude says it can't answer because there's no model
+**Claude says it can't answer because there's no model**
 
 Most questions need a champion marketing mix model in your workspace. Without one, you can still ask about data health, experiments and saved plans. Promote a model in the product to unlock everything else.
 
-### Sign-in opens but never finishes
+**Sign-in opens but never finishes**
 
 Make sure your browser isn't blocking the pop-up, and that you're signing in to the Lifesight account that has the workspace you want. If your organization limits outside network access, allow `ask.lifesight.io`.
 
