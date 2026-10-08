@@ -37,9 +37,9 @@ Agentic AI is built on that same calibrated system, so agents can act on it dire
 
 When your measurement tells one consistent, causal story, each benefit builds on the last.
 
-It starts with **clear line of sight from spend to profit.** Once you can see the incremental contribution of each channel, **smarter budget allocation** follows naturally, because spend moves away from over-attributed channels and toward those with the strongest iROAS and headroom on the response curve.
+It starts with clear line of sight from spend to profit. Once you can see the incremental contribution of each channel, smarter budget allocation follows naturally, because spend moves away from over-attributed channels and toward those with the strongest iROAS and headroom on the response curve.
 
-That shift delivers **higher marketing efficiency** and **incremental revenue lift** above your baseline. Because every test and model feeds the next decision, you also get **faster learning cycles**, so each quarter's plan is better calibrated than the last.
+That shift delivers higher marketing efficiency and incremental revenue lift above your baseline. Because every test and model feeds the next decision, you also get faster learning cycles, so each quarter's plan is better calibrated than the last.
 
 **Built for brands like yours**
 
@@ -49,7 +49,7 @@ These outcomes matter most to advertisers running multi-channel media mixes who 
 - Omnichannel retail and CPG
 - Consumer apps and subscriptions
 
-### Causal Clarity in Hours, Incrementality You Can Prove
+## Causal Clarity in Hours, Incrementality You Can Prove
 
 What sets Lifesight apart is that unification. It is not another single-method tool, and it is not AI added onto a reporting stack. Lifesight 4.0 is built on agentic AI from the ground up.
 
@@ -59,7 +59,7 @@ What sets Lifesight apart is that unification. It is not another single-method t
 
 The result: causal clarity in hours, not weeks, and incrementality you can prove to the board.
 
-### From Raw Data to Your Next Budget Move
+## From Raw Data to Your Next Budget Move
 
 Each capability delivers an outcome and feeds the next:
 
@@ -72,7 +72,7 @@ Each capability delivers an outcome and feeds the next:
 
 Because Lifesight orchestrates these methods instead of offering any one on its own, your results stay consistent, explainable, and actionable for the C-suite and channel owners alike.
 
-### Where Measurement Breaks Down, and What It Costs You
+## Where Measurement Breaks Down, and What It Costs You
 
 To see why a triangulated approach matters, it helps to look at where marketing measurement usually breaks down. These problems rarely show up alone. One tends to cause the next.
 
