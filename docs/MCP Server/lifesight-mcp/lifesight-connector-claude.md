@@ -12,8 +12,6 @@ metadata:
     - Setup Guide Claude
   robots: index
 ---
-Bring your marketing measurement insights into Claude and make confident marketing decisions, faster.
-
 Every Lifesight workspace can now connect to Claude in a few minutes. Once connected, your team can ask about budgets, channels and experiments in plain language, right where they already work.
 
 This guide walks you through setup, explains what the connector can do, and helps you fix common issues.
@@ -232,37 +230,37 @@ The connector comes with twelve ready-made workflows. They are available as MCP 
 
 Each of these works as written in any workspace that has a marketing mix model. You don't need to name your channels, because Claude gets them from your workspace. Each prompt asks several things at once. Claude answers every part, and tells you if one part can't be answered.
 
-### Where should next quarter's budget go, and why?
+**Where should next quarter's budget go, and why?**
 
 > Reallocate next quarter's budget across my channels at the same total spend. Show me what moves, what the expected outcome is, and explain each move from the response curves rather than just giving me the split.
 
 Claude runs the model's optimizer and explains each change using the saturation curves behind it. Nothing is saved unless you ask.
 
-### Where am I saturated, and where is there still room?
+**Where am I saturated, and where is there still room?**
 
 > Which of my channels are saturating and which still have headroom? Give me the marginal return at current spend for each, and tell me where the next unit of spend works hardest.
 
 You get the marginal return and headroom for each channel, taken from the model's response curves.
 
-### What did the experiment prove, and what changes because of it?
+**What did the experiment prove, and what changes because of it?**
 
 > What did our most recent geo experiment show? Give me the lift, how confident we should be in it, and what we should change in the plan as a result.
 
 You get the lift with its confidence interval and significance, plus a recommendation based on the result. If the result isn't statistically significant, Claude tells you so instead of treating it as final.
 
-### Can I trust this channel's number?
+**Can I trust this channel's number?**
 
 > Take my largest channel by spend. Put the MMM contribution, the causal read, the channel's own reporting and the last lift test side by side. Do they agree? Tell me which to plan on and what would settle it.
 
 You get four measurements of the same channel, each with its own context (confidence interval, attribution window, significance). You also see how far apart they are and which one to plan on. They are never averaged into one number.
 
-### What happens if I move spend?
+**What happens if I move spend?**
 
 > What happens to the outcome if I cut my smallest channel by 30% and move that spend into my largest? Show me the before and after per channel, and tell me how confident the model is at that spend level.
 
 You get a scenario run against the model, along with how confident the model is at the spend level you're proposing.
 
-### Explain the plan to the CFO
+**How do I explain the plan to the CFO?**
 
 > Translate our current plan into finance terms: the spend, the forecast outcome, the return per unit of spend, and how we are tracking against plan so far. No jargon. This is going to the CFO.
 
@@ -284,49 +282,49 @@ You can see the current values for each of these in the console under **Settings
 
 ## Troubleshooting
 
-### Most tools suddenly fail with a message about additional properties
+**Why do most tools suddenly fail with a message about additional properties?**
 
 If almost every tool returns an error like `data must NOT have additional properties`, your app is checking results against an old copy of our schema. It saved that copy when you first connected, and we've since added a new field.
 
-**Fix:** remove the connector and add it again. Server updates don't fix a connection that's already open. Only reconnecting refreshes the saved schema and tool list.
+To fix it, remove the connector and add it again. Server updates don't fix a connection that's already open. Only reconnecting refreshes the saved schema and tool list.
 
 <Callout icon="📌" theme="default">
   ### **Reconnect in every app you use.** Claude.ai, Claude Desktop and Claude Code each keep their own saved copy. Reconnecting in one app doesn't fix the others.
 </Callout>
 
-### A write is refused even though my admin gave me access
+**Why is a write refused even though my admin gave me access?**
 
 Your access is set when you sign in. If your admin gave you access after you connected, remove the connector and add it again. If it still fails, ask your admin to check that **Settings → Claude & MCP** shows write or decide access for that workspace. Access is set per workspace, not per account.
 
-### "Workspace … is not one you hold"
+**What does "Workspace … is not one you hold" mean?**
 
 Your workspaces are added when you connect. If you were added to this workspace later, remove the connector and add it again. If it still happens, ask your admin to make sure your membership is active and not still a pending invite.
 
-### "MCP is switched off for this workspace by its admin"
+**What does "MCP is switched off for this workspace by its admin" mean?**
 
 An admin has turned off the connector for this workspace in **Settings → Claude & MCP**. Your other workspaces aren't affected. Use `switch_workspace` to move to a workspace where it's turned on.
 
-### "… cannot be served right now: its MCP settings could not be read"
+**What does "… cannot be served right now: its MCP settings could not be read" mean?**
 
 This is a different issue. We couldn't read the workspace's settings, so we pause access instead of guessing. This usually clears up quickly. Try again in a little while. Nobody needs to change anything.
 
-### The sign-in page is missing connection details
+**Why is the sign-in page missing connection details?**
 
 Start from the connect or sign-in step in your assistant. Don't open the Lifesight connection page on its own as a login link.
 
-### A result looks cut off
+**Why does a result look cut off?**
 
 Large results are shortened to fit. Check the warnings, which tell you what was left out and how to narrow your question. Asking for one section, a shorter time period, or a single channel usually gets you the full result.
 
-### Claude says it can't answer because there's no model
+**Why does Claude say it can't answer because there's no model?**
 
 Most questions need a champion marketing mix model in your workspace. Without one, you can still ask about data health, experiments and saved plans. Promote a model in the product to unlock everything else.
 
-### Sign-in opens but never finishes
+**Why does sign-in open but never finish?**
 
 Make sure your browser isn't blocking the pop-up, and that you're signing in to the Lifesight account that has the workspace you want. If your organization limits outside network access, allow `ask.lifesight.io`.
 
-### A tool fails unexpectedly
+**What should I do if a tool fails unexpectedly?**
 
 Note the tool name and any support reference in the error, then contact Lifesight support. Never include passwords or tokens.
 
