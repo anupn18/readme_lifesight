@@ -254,6 +254,10 @@ You get the lift with its confidence interval and significance, plus a recommend
 
 You get four measurements of the same channel, each with its own context (confidence interval, attribution window, significance). You also see how far apart they are and which one to plan on. They are never averaged into one number.
 
+**Is anything off with my spend or my data?**
+
+> Review recent spend anomalies in my workspace and check data-source health. Summarize the reported anomalies, cite the available evidence, and explain what needs further investigation. Clearly distinguish observed facts from possible explanations.
+
 **What happens if I move spend?**
 
 > What happens to the outcome if I cut my smallest channel by 30% and move that spend into my largest? Show me the before and after per channel, and tell me how confident the model is at that spend level.
