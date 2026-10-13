@@ -53,6 +53,8 @@ https://ask.lifesight.io/mcp
 3. If adding it yourself, enter **Lifesight Connector** as the name and paste the URL above.
 4. Follow Claude's prompts to connect and sign in. See **Your first connection** below.
 
+![Add custom connector dialog in Claude with the Lifesight Connector URL](https://files.readme.io/0acfb5786586ea45b18bfa01c09a56e1a98b3ec921fdbeac9dfd3f9d4b50c64c-Screenshot_2026-10-08_at_2.07.41_PM.png)
+
 For Claude's current setup steps, including administrator steps, see [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp).
 
 ### Claude Code
@@ -230,6 +232,24 @@ The connector comes with twelve ready-made workflows. They are available as MCP 
 
 Each of these works as written in any workspace that has a marketing mix model. You don't need to name your channels, because Claude gets them from your workspace. Each prompt asks several things at once. Claude answers every part, and tells you if one part can't be answered.
 
+**Which workspace and models do I have?**
+
+> Which Lifesight workspace am I connected to, and which MMM models are available?
+
+You get your active workspace, any other workspaces you can switch to, and the models available in each.
+
+**Which models can I use, and what do they cover?**
+
+> List the champion MMM models in my workspace, including their KPIs and available data periods.
+
+You get each champion model with its KPI and the data period it covers, so you know which periods you can ask about.
+
+**How are my channels performing?**
+
+> For my champion MMM model, show channel contributions and model accuracy for a period with data. Explain the units and identify any unavailable sections.
+
+You get each channel's contribution and how accurate the model is, with units explained. If a section isn't available, Claude tells you.
+
 **Where should next quarter's budget go, and why?**
 
 > Reallocate next quarter's budget across my channels at the same total spend. Show me what moves, what the expected outcome is, and explain each move from the response curves rather than just giving me the split.
@@ -254,9 +274,23 @@ You get the lift with its confidence interval and significance, plus a recommend
 
 You get four measurements of the same channel, each with its own context (confidence interval, attribution window, significance). You also see how far apart they are and which one to plan on. They are never averaged into one number.
 
-**Is anything off with my spend or my data?**
+**Is my data healthy?**
+
+> List my connected data sources and show which need attention. Then show recent sync health for Meta Ads, if it is connected.
+
+You get every connected source with the ones that need attention flagged, plus recent sync health for the source you named.
+
+**What's behind my recent spend anomalies?**
 
 > Review recent spend anomalies in my workspace and check data-source health. Summarize the reported anomalies, cite the available evidence, and explain what needs further investigation. Clearly distinguish observed facts from possible explanations.
+
+You get a summary of recent anomalies with the evidence behind each one. What Claude observed is kept separate from what might explain it.
+
+**What does my model measure for creatives?**
+
+> Show the creative tactics my selected MMM model measures and the first page of reported spend by tactic. Tell me whether another page is available.
+
+You get the tactics your model measures and a first page of reported spend by tactic. This is reported spend, not an MMM contribution estimate.
 
 **What happens if I move spend?**
 
@@ -269,6 +303,8 @@ You get a scenario run against the model, along with how confident the model is 
 > Translate our current plan into finance terms: the spend, the forecast outcome, the return per unit of spend, and how we are tracking against plan so far. No jargon. This is going to the CFO.
 
 You get the plan explained in terms of spend, return and variance. Every number still shows its source, so finance can check where any figure came from.
+
+Results depend on your workspace's data, your model and your permissions. A missing model, a disconnected source, or a date range outside your data can return an unavailable or no-data result.
 
 <Callout icon="📌" theme="default">
   ### **Tip: ask for everything at once.** "Give me the quarterly plan, tell me which channel needs calibration, and explain it for the CFO" is three questions. Claude works through each one, and if one can't be answered, it tells you instead of skipping it.
