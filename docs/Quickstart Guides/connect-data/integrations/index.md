@@ -34,6 +34,24 @@ When you click **Add Integration** you land on the catalogue, which is grouped i
 
 ![](https://files.readme.io/86831a0011a8b58ca51fc7d0d96780a965607bb7cc14e184ba60698f1a2d420a-Screenshot_2026-09-21_at_3.49.54_PM.png)
 
+<br />
+
+## Supported Connectors
+
+Lifesight connects to the platforms below. Platforms with a setup guide are linked. The in-app catalog always shows the latest list. If the platform you need is missing, request it from the **App Wishlist**.
+
+| Category                             | Connectors                                                                                                                                                |
+| :----------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Search, social and AI**            | Google Ads, Meta Ads, Microsoft Ads, TikTok Ads, Snapchat Ads, Pinterest Ads, Reddit Ads, LinkedIn Ads, X Ads (Twitter), ChatGPT Ads, Facebook Lead Forms |
+| **Programmatic, display and native** | Google DV360, StackAdapt, RTB House, Criteo, AdRoll, Taboola, Outbrain                                                                                    |
+| **Retail media**                     | Amazon Ads, Walmart Connect                                                                                                                               |
+| **CTV and audio**                    | Roku, Vibe, Spotify Ads                                                                                                                                   |
+| **Mobile app**                       | AppLovin, Moloco Ads                                                                                                                                      |
+| **Ecommerce and analytics**          | Shopify, Salesforce Commerce Cloud, Google Analytics                                                                                                      |
+| **CRM, email and SMS**               | HubSpot, Klaviyo, Attentive                                                                                                                               |
+| **Files and spreadsheets**           | CSV Import, Google Sheets                                                                                                                                 |
+| **Data warehouses**                  | BigQuery, Snowflake                                                                                                                                       |
+
 ## Adding an Integration
 
 The exact steps depend on how the platform authenticates, but the mostly its always the same.
