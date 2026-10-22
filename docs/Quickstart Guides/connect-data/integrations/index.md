@@ -320,7 +320,7 @@ Each integration reports data in the timezone shown under **Connection Details**
 
   </Card>
 
-  <Card title="RTB House" href="https://docs.lifesight.io/update/docs/rtb-house" icon="🔗">
+  <Card title="RTB House" href="https://docs.lifesight.io/docs/rtb-house" icon="🔗">
 
   </Card>
 </Cards>
