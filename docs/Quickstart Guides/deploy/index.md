@@ -139,7 +139,7 @@ Treat recommendations as a considered starting point. Platform delivery behavior
 ## Next up
 
 <Cards>
-  <Card title="Deploy Recommedations" icon="fa-rocket">
+  <Card title="Deploy Recommedations" href="https://docs.lifesight.io/docs/recommendations" icon="fa-rocket">
 
   </Card>
 </Cards>
