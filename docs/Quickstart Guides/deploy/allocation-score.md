@@ -91,7 +91,7 @@ No. The score decides each campaign's share of a change. If the plan calls for a
 ## Next up
 
 <Cards>
-  <Card title="Deploy Logs" icon="fa-rocket">
+  <Card title="Deploy Logs" href="https://docs.lifesight.io/docs/logging-monitoring" icon="fa-rocket">
 
   </Card>
 </Cards>
