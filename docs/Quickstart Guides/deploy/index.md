@@ -1,5 +1,5 @@
 ---
-title: 'Deploy: Turn Your Plan Into Budget Decisions'
+title: 'Deploy: Review and Apply Budget Changes'
 excerpt: >-
   Review what your measurement recommends, adjust it, and send the change to
   your ad platforms.
