@@ -42,8 +42,6 @@ Without calibration, there is nothing to recommend against. Without a plan, ther
 8. **Confirm and verify.** Check current against new values in the confirmation step, apply, then open **Logs** from the Deploy header to see what changed, who changed it and when.
 9. **Come back in a few days.** Recheck pacing and new recommendations. Deploy works best as a regular loop.
 
-<br />
-
 ## See where your plan stands
 
 The plan badge shows the plan's state and length, for example Live, 92-day plan. Four cards then give you the shape of the period before you read a single row.
