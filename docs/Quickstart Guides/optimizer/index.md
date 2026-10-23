@@ -6,6 +6,7 @@ excerpt: >-
 deprecated: false
 hidden: true
 metadata:
+  title: Deploy
   robots: index
 ---
 Deploy turns your plan into real budget and bid changes in your ad accounts, so the results your plan forecasts actually reach your campaigns. It answers three questions: how is the plan pacing, what should change, and what happens when you apply it. Today it has one tab, Budget & Bid, covering budget and bid changes at campaign and ad set level.
