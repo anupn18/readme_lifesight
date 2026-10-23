@@ -1,6 +1,6 @@
 ---
 title: Deploy Recommendations
-excerpt: Where the numbers come from, what governs them, and who can act on them.
+excerpt: Know Which Budgets to Scale or Reduce
 deprecated: false
 hidden: true
 metadata:
