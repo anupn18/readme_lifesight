@@ -95,3 +95,11 @@ Yes. You can export Logs for reporting or audit.
 **Who can see Logs?**
 
 Everyone in the workspace. Only Managers and Admins can apply changes, but every logged action is visible to the whole workspace.
+
+## Next up
+
+<Cards>
+  <Card title="What is planned" icon="fa-rocket">
+
+  </Card>
+</Cards>
