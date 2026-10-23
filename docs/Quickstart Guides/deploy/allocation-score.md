@@ -87,3 +87,11 @@ It is ineligible, for example because it has no spend or conversions. Ineligible
 **Does a high score always mean a budget increase?**
 
 No. The score decides each campaign's share of a change. If the plan calls for a decrease, the score shapes how that reduction is shared too.
+
+## Next up
+
+<Cards>
+  <Card title="Deploy Logs" icon="fa-rocket">
+
+  </Card>
+</Cards>
