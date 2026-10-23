@@ -99,7 +99,7 @@ Everyone in the workspace. Only Managers and Admins can apply changes, but every
 ## Next up
 
 <Cards>
-  <Card title="What is planned" icon="fa-rocket">
+  <Card title="What is planned" href="https://docs.lifesight.io/docs/what-is-planned" icon="fa-rocket">
 
   </Card>
 </Cards>
