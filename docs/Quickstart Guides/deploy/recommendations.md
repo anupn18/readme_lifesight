@@ -118,3 +118,11 @@ Yes. A confirmation step shows current values against new ones before anything i
 **How do I see what was changed and by whom?**
 
 Every applied change is recorded in Logs, with what changed, who changed it, and when.
+
+## Next up
+
+<Cards>
+  <Card title="Allocation Score" icon="fa-rocket">
+
+  </Card>
+</Cards>
