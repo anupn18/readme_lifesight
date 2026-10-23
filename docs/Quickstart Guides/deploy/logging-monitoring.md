@@ -96,10 +96,4 @@ Yes. You can export Logs for reporting or audit.
 
 Everyone in the workspace. Only Managers and Admins can apply changes, but every logged action is visible to the whole workspace.
 
-## Next up
-
-<Cards>
-  <Card title="What is planned" href="https://docs.lifesight.io/docs/what-is-planned" icon="fa-rocket">
-
-  </Card>
-</Cards>
+<br />
