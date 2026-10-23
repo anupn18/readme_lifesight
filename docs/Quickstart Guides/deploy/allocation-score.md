@@ -88,10 +88,4 @@ It is ineligible, for example because it has no spend or conversions. Ineligible
 
 No. The score decides each campaign's share of a change. If the plan calls for a decrease, the score shapes how that reduction is shared too.
 
-## Next up
-
-<Cards>
-  <Card title="Deploy Logs" href="https://docs.lifesight.io/docs/logging-monitoring" icon="fa-rocket">
-
-  </Card>
-</Cards>
+<br />
