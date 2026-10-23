@@ -140,8 +140,4 @@ Check pacing again a few days after you apply changes. Deploy works best as a re
 
 Treat recommendations as a considered starting point. Platform delivery behavior, seasonality and commitments outside the plan are context only you have, so review before you apply.
 
-<Cards>
-  <Card>
-
-  </Card>
-</Cards>
+<br />
