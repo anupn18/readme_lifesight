@@ -25,6 +25,8 @@ Recommendations come from Causal Attribution, measured against your promoted pla
 
 The plan badge shows the plan's state and length, for example Live, 181-day plan. Four cards then give you the shape of the period before you read a single row.
 
+<br />
+
 **Planned Budget** is what the plan allocates. It also shows the percentage change against what is set in your ad accounts today.
 
 **Forecasted Revenue, Forecasted iROAS and Forecasted ROAS** are the outcomes the plan projects. If your workspace optimizes for conversions, you see conversions and iCPA (incremental cost per acquisition) in their place.
