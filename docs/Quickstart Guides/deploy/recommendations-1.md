@@ -4,6 +4,7 @@ excerpt: Know Which Budgets to Scale or Reduce
 deprecated: false
 hidden: true
 metadata:
+  title: Deploy Recommendations
   robots: index
 ---
 Deploy Recommendations tell you exactly where to move budget, so each campaign and ad set spends in line with what it actually returns. Deploy shows one recommendation per entity (a campaign or an ad set): Scale, Reduce or Maintain, with an amount. This page covers where those recommendations come from, what governs them, and who can apply them.
