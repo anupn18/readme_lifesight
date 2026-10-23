@@ -119,10 +119,4 @@ Yes. A confirmation step shows current values against new ones before anything i
 
 Every applied change is recorded in Logs, with what changed, who changed it, and when.
 
-## Next up
-
-<Cards>
-  <Card title="Allocation Score" href="https://docs.lifesight.io/docs/allocation-score" icon="fa-rocket">
-
-  </Card>
-</Cards>
+<br />
