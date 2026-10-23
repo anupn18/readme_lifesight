@@ -61,6 +61,8 @@ Applied changes are pushed to the ad platform and recorded in **Logs**, showing 
 
 ## Frequently Asked Questions
 
+<br />
+
 **What do Scale, Reduce and Maintain mean?**
 
 Scale means increase the budget, Reduce means lower it, and Maintain means keep it as it is. Each recommendation shows the amount of the change.
