@@ -4,7 +4,7 @@ excerpt: >-
   Review what your measurement recommends, adjust it, and send the change to
   your ad platforms.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Deploy
   robots: index
