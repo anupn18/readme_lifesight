@@ -9,9 +9,13 @@ metadata:
   title: Deploy
   robots: index
 ---
-Deploy turns your plan into real budget and bid changes in your ad accounts, so the results your plan forecasts actually reach your campaigns. It answers three questions: how is the plan pacing, what should change, and what happens when you apply it. Today it has one tab, Budget & Bid, covering budget and bid changes at campaign and ad set level.
+Deploy turns your plan into real budget and bid changes in your ad accounts, so the results your plan forecasts actually reach your campaigns.&#x20;
 
-Recommendations come from Causal Attribution, measured against your promoted plan. They unlock once you have two things: a calibrated incrementality source (a promoted model or an adopted geo experiment) and a promoted plan. Without calibration, there is nothing to recommend against. Without a plan, there is no target to pace toward.
+It answers three questions: how is the plan pacing, what should change, and what happens when you apply it. Today it has one tab, Budget & Bid, covering budget and bid changes at campaign and ad set level.
+
+Recommendations come from Causal Attribution, measured against your promoted plan.
+
+&#x20;They unlock once you have two things: a calibrated incrementality source (a promoted model or an adopted geo experiment) and a promoted plan. Without calibration, there is nothing to recommend against. Without a plan, there is no target to pace toward.
 
 ![](https://files.readme.io/d126c593c10d5a52932042358c8fe30637776da57df0a17fd0502065c76ab114-Screenshot_2026-10-23_at_3.44.27_PM.png)
 
