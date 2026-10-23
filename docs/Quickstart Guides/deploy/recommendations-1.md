@@ -1,5 +1,5 @@
 ---
-title: Recommendations
+title: Deploy Recommendations
 excerpt: Where the numbers come from, what governs them, and who can act on them.
 deprecated: false
 hidden: true
