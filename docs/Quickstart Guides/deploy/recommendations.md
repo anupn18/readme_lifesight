@@ -2,7 +2,7 @@
 title: Deploy Recommendations
 excerpt: Know Which Budgets to Scale or Reduce
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Deploy Recommendations
   robots: index

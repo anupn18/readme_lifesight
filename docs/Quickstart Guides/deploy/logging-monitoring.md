@@ -2,7 +2,7 @@
 title: Logs
 excerpt: A record of every change Deploy has applied, what it was, and who made it.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---

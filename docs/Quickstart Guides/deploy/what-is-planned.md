@@ -2,7 +2,7 @@
 title: What is planned
 excerpt: Work that is specified but not yet shipped in Deploy.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---

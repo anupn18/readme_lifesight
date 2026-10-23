@@ -4,7 +4,7 @@ excerpt: >-
   How the causal engine decides which campaigns get a bigger share of a budget
   change.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
