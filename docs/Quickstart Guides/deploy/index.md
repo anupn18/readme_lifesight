@@ -34,12 +34,26 @@ Without calibration, there is nothing to recommend against. Without a plan, ther
 2. **Check where your plan stands.** Read the header first. Compare Planned Budget with your current budget, check the forecasted outcomes, and look at Budget Pace to see if spend is on track.
 
    ![](https://files.readme.io/8791b61caa0388c2bc8c3b9f57cde10d7686888260a641c8beb02ee560780c30-Screenshot_2026-10-23_at_3.44.27_PM.png)
-3. **See how much needs action.** The **Budget recommendations outstanding** card shows how many recommendations are waiting, out of all actionable entities (campaigns or ad sets that can take a change).
-4. **Pick the right view.** In **Budget & Bid**, choose **Campaigns** or **Ad Sets**. Each entity shows in the view where its budget lives.
-5. **Narrow the list.** Filter by channel, tactic or recommendation type, or search by campaign name.
+3. **See how much needs action.** The **Budget recommendations outstanding** card shows how many recommendations are waiting, out of all actionable entities (campaigns or ad sets that can take a change).<br />
+
+   ![](https://files.readme.io/cb1fd618ffb381c81006f8d32cf5b9180507865aac59cb8f8498392a77f27b68-Step_3_-_See_how_much_needs_action.png)
+4. **Pick the right view.** In **Budget & Bid**, choose **Campaigns** or **Ad Sets**. Each entity shows in the view where its budget lives.<br /><br />
+
+   ![](https://files.readme.io/ac40aa8709f8798bceab9547b29b9efc051c823c6fa9fc2d7438071665191dd7-Step_4_-_Pick_the_right_view.png)
+
+
+5. **Narrow the list.** Filter by channel, tactic or recommendation type, or search by campaign name.<br />
+
+   ![](https://files.readme.io/2e1330f6f3b5caad5efb8280647d867326c4ce614bcdd0c5211876130e4a269f-Step_5_-_Narrow_the_list.png)
 6. **Review each recommendation.** Compare the recommended budget with the current budget, spend in the last 7 days and budget utilization before you act.
-7. **Apply changes.** Open a row's menu to change one entity, or use **Select multiple** to apply the same action to several rows. Take the recommended figure or switch to **Custom** to enter your own.
-8. **Confirm and verify.** Check current against new values in the confirmation step, apply, then open **Logs** from the Deploy header to see what changed, who changed it and when.
+
+   ![](https://files.readme.io/3c69e8c610e6358433cfcf1506262403260521b209d4a5e162dfb59eb3f1c31d-Step_6_-_Review_each_recommendation.png)
+7. **Apply changes.** Open a row's menu to change one entity, or use **Select multiple** to apply the same action to several rows. Take the recommended figure or switch to **Custom** to enter your own.<br />
+
+   ![](https://files.readme.io/271eb9b3d52fcd1520e75d40048f783da71461169b46dac79fafa2276fe4fadf-Step_8_-_Confirm_and_verify_Logs.png)
+8. **Confirm and verify.** Check current against new values in the confirmation step, apply, then open **Logs** from the Deploy header to see what changed, who changed it and when.<br />
+
+   ![](https://files.readme.io/c2270fa90645e9e0212ab501509f0a4a77a80ce9e65102e86757dac30a5c1254-Step_8_-_Confirm_and_verify_Logs.png)
 9. **Come back in a few days.** Recheck pacing and new recommendations. Deploy works best as a regular loop.
 
 ## See where your plan stands
