@@ -1,19 +1,19 @@
 ---
-title: 'Deploy: Review and Apply Budget and Bid Changes'
+title: 'Deploy: Review and Apply Budget Changes'
 excerpt: >-
   Review what your measurement recommends, adjust it, and send the change to
-  your ad platforms.
+  your ad platformforms.
 deprecated: false
 hidden: false
 metadata:
   title: Deploy
   robots: index
 ---
-Deploy turns your promoted plan into changes on your ad accounts. This guide shows you how to review the recommendations, apply budget and bid changes, pause ads that are losing money, and check what changed.
+Deploy turns your promoted plan into budget changes on your ad accounts. This guide shows you how to review the recommendations, apply budget changes, update bid targets and statuses, pause ads that are losing money, and check what changed.
 
 **Before you start**
 
-* A calibrated incrementality source: a promoted model or an adopted geo experiment.
+* A promoted model, calibrated in Causal Attribution.
 * A promoted plan.
 * A connected ad account for each platform you want to change from Lifesight.
 
@@ -21,32 +21,33 @@ Deploy turns your promoted plan into changes on your ad accounts. This guide sho
 
 **Platforms**
 
-| What you can do | Platforms |
-| --- | --- |
-| Apply budget, bid target and status changes from Lifesight | Google Ads, Meta, Snapchat |
-| Pause ads from the Creative tab | Google Ads, Meta |
-| See recommendations and apply them yourself in the ad platform | TikTok, Pinterest, LinkedIn, Microsoft Ads |
-| Edit geo targeting from Deploy | Coming soon |
+| What you can do from Deploy | Google Ads | Meta | Snapchat |
+| --- | --- | --- | --- |
+| Change budgets | Campaigns | Campaigns and ad sets | Campaigns and ad squads |
+| Change bid targets | Campaigns on Target CPA, Target ROAS or Maximize Conversion Value; ad groups on Manual or Enhanced CPC | Campaigns and ad sets | Ad squads |
+| Change status (active or paused) | Campaigns and ad groups | Campaigns and ad sets | Campaigns and ad squads |
+| Pause ads from the Creative tab | Yes | Yes | Not yet |
+
+Other channels in your plan still get budget recommendations in Deploy, but their rows can't be selected. Apply those changes in the ad platform. Geo targeting is view-only in Deploy for now.
 
 **What's automated**
 
-* Recommendations are built every day from your promoted plan and Causal Attribution: Scale, Reduce or Maintain for each campaign and ad set, for the next 7 days.
-* Deploy works out where each budget lives (the campaign for CBO, the ad set for ABO), so every change goes to the right level.
-* Bid target recommendations come with budget increases when a campaign or ad set isn't spending its current budget.
-* Applied changes are pushed to the ad platform for you, for one row or many at once.
+* Recommendations are refreshed once a day from Causal Attribution, measured against your promoted plan: Scale, Reduce or Maintain for each campaign and ad set, with the budget for the next 7 days.
+* Deploy shows each campaign or ad set where its budget lives (the campaign for CBO, the ad set for ABO), so every change goes to the right level.
+* When you apply, Deploy pushes the change to the ad platform for you, for one row or many at once.
 * Every applied change is recorded in Logs.
 
-Deploy never changes your ad accounts on its own. Every change needs someone to review and apply it.
+Deploy recommends budgets only. It shows each entity's current bid strategy and bid target, and you can set a new bid target yourself. Deploy never changes your ad accounts on its own: every change needs someone to review and apply it.
 
 **Human checks and controls**
 
-* **Review before you apply.** Every dialog shows the current and new value for each row, the size of the move and the total against your plan.
-* **Use your own number.** Switch from Recommended to Custom to set your own budget or bid.
-* **Budget only, or budget and bid.** When a bid change is recommended, you choose whether to apply it.
-* **Warnings before you apply.** Deploy flags budget increases over 25% and bid changes large enough to restart platform learning.
-* **Bid guardrails.** A bid change is only recommended when the budget is going up and the campaign spends under 85% of it. Bids are only loosened, by at most 20% per step, with a 7-day wait after each change.
-* **Clear results.** Changes that fail keep their previous value, and you can see which ones failed.
-* **A full record.** Logs shows what changed, who changed it and when.
+* **Review before you apply.** The dialog lists each selected row with its current and new value. For budgets in Recommended mode, it also shows the size of the move.
+* **Use your own number.** Switch from Recommended to Custom to set your own budget or bid target.
+* **Only what can change.** Rows that can't take the change you picked are left out, and the dialog tells you how many.
+* **Permissions.** Changing budgets and bids, and changing statuses, are separate permissions. People without them don't see these actions.
+* **Check each result.** After you apply, each row's Deploy Status shows whether the change went through.
+* **Pause with care.** When a pause would remove more than half of a tactic's pause-candidate spend, Deploy warns you first. You can undo a pause from the row before you leave the page.
+* **A full record.** Logs shows who made each change, the entity, the action, the value before and after, and the outcome.
 
 ## Put your plan into action
 
@@ -78,30 +79,25 @@ Deploy never changes your ad accounts on its own. Every change needs someone to 
 
 8. **Confirm and verify.** Check current against new values in the confirmation step, apply, then open **Logs** from the Deploy header to see what changed, who changed it and when.<br />
 
-   ![](https://files.readme.io/352e0d42bfb781dd477a90035bd740e7299b53694442774ee1f4348eef830d57-screenshot-1792757626130-fff693d7.png)
+   ![](https://files.readme.io/1e5a9c653106425ee06c7c3e498b1c0f8f9093e0d52d2d58f870176342e18690-deploy-step-8-budget-dialog.png)
 
 9. **Come back in a few days.** Recheck pacing and new recommendations. Deploy works best as a regular loop.
 
-## Apply a bid recommendation
+## Change a bid target
 
-When a campaign isn't spending the budget it already has, raising the budget won't help on its own. Its bid target is often what's holding it back. So when Deploy recommends a budget increase for a campaign or ad set that spent less than 85% of its budget over the last 7 days, it also recommends loosening the bid target.
+Deploy doesn't recommend bid targets yet, so you set them yourself.
 
-1. Open **Change Budget** for a row with a **Scale** recommendation.
-2. If a bid change is recommended, the dialog offers **Review bid changes**. Select it.
-
-   ![](https://files.readme.io/1555f08514dd654707b2ea85718d602b9b465b80c2863afd895d863c1fac99ba-screenshot-1792757654660-dc0d614a.png)
-3. Check each row's strategy, current target and new target. A ROAS target goes down and a CPA or cost target goes up, by at most 20% in one step. **Moving towards** means the full move is larger, so it comes in steps.
-4. Keep the recommendation, or switch to **Custom** to set your own target.
-5. Select **Apply budget and bid**. To change the budget only, go back and apply the budget on its own.
-
-Bid recommendations cover strategies with a target: Target ROAS, Target CPA, Cost Cap, Minimum ROAS and Target Cost. Automated strategies and bid caps are left as they are, and Deploy never tightens a bid. Bid changes restart platform learning, so give delivery a few days to settle. Deploy waits 7 days after a bid change before it recommends another.
+1. Open a row's menu and choose **Change Bid Value**, or use **Select multiple** and choose it from the bar.
+2. The dialog shows each row's bid strategy and current bid target. Rows on automated bidding have no target to change.
+3. Enter the new bid target for each row, using the current value as your reference.
+4. Apply the change. It goes live on the ad platform and is recorded in **Logs**.
 
 ## Pause an ad that's losing money
 
 1. Open the **Creative** tab.
 2. Review the pause candidates. **Underperforming** ads are losing money against breakeven. **Fatigued** ads have a worn-out audience, for example a falling CTR.
 3. Check weekly spend, KPI against the average, strength, fatigue status and the reason to pause.
-4. Select **Pause ad** and confirm. Pausing is available for Google and Meta ads.
+4. Select **Pause ad** and confirm. Pausing is available for Google Ads and Meta ads.
 
    ![](https://files.readme.io/16eb8f0411cfe27399a56562e8f494ccc9affd556a7efe28de510fb288146339-screenshot-1792757748993-9ec97aca.png)
 
@@ -109,10 +105,10 @@ The Creative tab also shows the estimated spend you can recover each week by pau
 
 ## If something doesn't look right
 
-* **No recommendations.** Check that you have a promoted model or an adopted geo experiment, and a promoted plan. After you promote a new plan, its recommendations appear after the next daily update.
+* **No recommendations.** Check that you have a promoted model calibrated in Causal Attribution and a promoted plan. After you promote a new plan, its recommendations appear after the next daily update.
+* **A row can't be selected.** Deploy can't change that channel or that field yet. Apply the change in the ad platform.
 * **The Ad Sets view is empty.** Your campaigns hold their own budgets (CBO), so everything shows under Campaigns. This is expected.
-* **No bid recommendation on a row.** The budget isn't going up, the row is already spending its budget, its strategy has no target to change, or its bid changed in the last 7 days.
-* **A change failed.** The row keeps its previous value. Check Logs, then try again.
+* **A change didn't go through.** Check the row's Deploy Status and Logs, then try again.
 
 ## Reference: what you see in Deploy
 
@@ -141,7 +137,7 @@ Each campaign or ad set appears in the view where its budget lives. You can see 
 * **Bid Strategy** and **Bid Target**: the current bidding setup, for example Target CPA at $42.00. Automated strategies show no target, because there is none to set.
 * **Deploy Status**: whether the recommendation has been actioned, for example Pending.
 
-**Geo Targeting** lists the campaigns and ad sets from your plan, with their ad account, current geo targeting and last geo change. Live geo targeting edits from Deploy are coming soon.
+**Geo Targeting** lists the campaigns and ad sets from your plan, with their ad account, current geo targeting and last geo change. Editing geo targeting from Deploy is coming soon.
 
 ## Get the most from Deploy
 
@@ -157,76 +153,47 @@ Recommendations reflect your promoted plan and your promoted incrementality sour
 
 **What does Deploy do?**
 
-Deploy connects your promoted plan to your ad accounts. It shows how the plan is pacing, recommends what to change in each campaign and ad set, and lets you apply those changes from Lifesight.
+Deploy connects your promoted plan to your ad accounts. It shows how the plan is pacing, recommends a budget for each campaign and ad set, and lets you apply budget, bid target and status changes from Lifesight.
 
 **Which ad platforms can Deploy change?**
 
-Budget and bid changes go live on Google, Meta and Snapchat. For other platforms, Deploy shows the recommendation for you to apply in the platform. Pausing ads from the Creative tab is available for Google and Meta.
+Google Ads, Meta and Snapchat. See the Platforms table above for what you can change on each. Other channels in your plan show budget recommendations that you apply in the ad platform.
 
 **Does Deploy change anything automatically?**
 
-No. Every change needs someone to review and apply it. Applied changes go live on the ad platform straight away and are recorded in Logs.
-
-**What happens if some changes fail?**
-
-Changes that succeed go live. Changes that fail keep their previous value. Check Logs, then try again.
-
-**How do I get started with Deploy?**
-
-Select Deploy in the left navigation, read the header to check pacing, then review the recommendations in Budget & Bid and apply the ones you agree with.
+No. Every change needs someone to review and apply it. Applied changes go live on the ad platform and are recorded in Logs.
 
 **Why can't I see any recommendations?**
 
-Recommendations need two things: a calibrated incrementality source (a promoted model or an adopted geo experiment) and a promoted plan. If either is missing, Deploy has nothing to measure against. After you promote a new plan, its recommendations appear after the next daily update.
+Recommendations need a promoted model calibrated in Causal Attribution and a promoted plan. After you promote a new plan, its recommendations appear after the next daily update.
 
 **What time period do recommendations cover?**
 
 Budget recommendations cover the next 7 days and refresh once a day.
 
-**What does Budget recommendations outstanding mean?**
-
-It shows how many recommendations are waiting for action, out of all actionable entities in the plan.
-
 **What do Scale, Reduce and Maintain mean?**
 
 Scale means move the budget up, Reduce means lower it, and Maintain means keep it as it is. Each recommendation shows the target budget.
 
-**Why does a campaign appear but not its ad sets?**
+**Does Lifesight recommend bid targets?**
 
-The campaign uses CBO (campaign budget optimization), so the budget sits at campaign level. Deploy shows each entity only at the level where you can change its budget.
-
-**Why is my Ad Sets view empty?**
-
-Your workspace runs entirely on campaign budgets, so all entities appear in the Campaigns view. This is expected.
-
-**Does Budget Pace show underspend early in a plan?**
-
-No. Budget Pace only compares the days that have passed. Being early in a long plan reads as early, not as underspend.
-
-**Can I change budgets for several campaigns at once?**
-
-Yes. Use Select multiple, tick the rows you want, and apply the same action from the bar that appears.
+Not yet. You can see and edit bid targets in Deploy, but the Recommendation column is about budget only.
 
 **Can I use my own budget figures instead of the recommended ones?**
 
-Yes. In the budget dialog, switch from Recommended to Custom and type your own figure for each entity.
+Yes. In the budget dialog, switch from Recommended to Custom and type your own figure for each row.
 
-**Does Lifesight recommend bid targets?**
+**Why does a campaign appear but not its ad sets?**
 
-Yes, alongside budget increases, when a campaign or ad set isn't spending its current budget and its strategy has a target. The target moves toward what the plan expects the next dollar to return, at most 20% at a time. See Apply a bid recommendation above.
+The campaign uses CBO (campaign budget optimization), so the budget sits at campaign level. Deploy shows each campaign or ad set only at the level where you can change its budget.
 
+**Can I undo a change?**
 
-**Can I edit geo targeting from Deploy?**
-
-Not yet. The Geo Targeting tab shows current targeting for each campaign and ad set. Live edits from Deploy are coming soon.
-
-**What does the Creative tab show?**
-
-Ads that Creative Intelligence flags as pause candidates, split into underperforming and fatigued, with the spend you can recover each week.
+You can undo an ad pause from the Creative tab before you leave the page. Budget, bid and status changes can't be undone from Deploy; apply a new change instead. Every change is recorded in Logs.
 
 **How do I check what was changed?**
 
-Open Logs from the Deploy header. Every applied change is recorded with what changed, who changed it and when.
+Open Logs from the Deploy header. Every applied change is recorded with who made it, what changed, the value before and after, and the outcome.
 
 **Should I apply every recommendation as it is?**
 
