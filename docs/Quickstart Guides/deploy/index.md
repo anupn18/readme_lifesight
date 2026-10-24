@@ -21,12 +21,14 @@ Deploy turns your promoted plan into budget and bid changes on your ad accounts.
 
 **Platforms**
 
-| What you can do from Deploy | Google Ads | Meta | Snapchat |
-| --- | --- | --- | --- |
-| Change budgets | Campaigns | Campaigns and ad sets | Campaigns and ad squads |
-| Change bid targets | Campaigns on Target CPA, Target ROAS or Maximize Conversion Value; ad groups on Manual or Enhanced CPC | Campaigns and ad sets | Ad squads |
-| Change status (active or paused) | Campaigns and ad groups | Campaigns and ad sets | Campaigns and ad squads |
-| Pause ads from the Creative tab | Yes | Yes | Not yet |
+| What you can do from Deploy | Google Ads | Meta | Snapchat | TikTok (rolling out) | Pinterest (rolling out) |
+| --- | --- | --- | --- | --- | --- |
+| Change budgets | Campaigns | Campaigns and ad sets | Campaigns and ad squads | Campaigns and ad groups | Campaigns and ad groups |
+| Change bid targets | Campaigns on Target CPA, Target ROAS or Maximize Conversion Value; ad groups on Manual or Enhanced CPC | Campaigns and ad sets | Ad squads | Ad groups | Ad groups |
+| Change status (active or paused) | Campaigns and ad groups | Campaigns and ad sets | Campaigns and ad squads | Campaigns and ad groups | Campaigns and ad groups |
+| Pause ads from the Creative tab | Yes | Yes | Not yet | Not yet | Not yet |
+
+TikTok and Pinterest support is rolling out to all workspaces soon.
 
 Other channels in your plan still get budget recommendations in Deploy, but their rows can't be selected. Apply those changes in the ad platform. Geo targeting is view-only in Deploy for now.
 
@@ -182,7 +184,7 @@ Deploy connects your promoted plan to your ad accounts. It shows how the plan is
 
 **Which ad platforms can Deploy change?**
 
-Google Ads, Meta and Snapchat. See the Platforms table above for what you can change on each. Other channels in your plan show budget recommendations that you apply in the ad platform.
+Google Ads, Meta and Snapchat, with TikTok and Pinterest rolling out soon. See the Platforms table above for what you can change on each. Other channels in your plan show budget recommendations that you apply in the ad platform.
 
 **Does Deploy change anything automatically?**
 
