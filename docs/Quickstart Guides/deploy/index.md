@@ -90,6 +90,18 @@ Deploy never changes your ad accounts on its own: every change needs someone to 
 
 When a campaign isn't spending the budget it already has, raising the budget won't help on its own. Its bid target is often what's holding it back. So alongside a budget increase, Deploy recommends loosening the bid target for campaigns and ad sets that spent less than 85% of their budget over the last 7 days.
 
+**How Deploy works out a bid recommendation**
+
+A bid change is recommended only when all three are true:
+
+* The plan recommends a budget increase for the campaign or ad set.
+* It spent less than 85% of its budget over the last 7 days.
+* Its strategy has a target Deploy can move, such as Target ROAS, Target CPA, Cost Cap or Target Cost.
+
+The new target moves toward the plan's marginal return: the return (or cost per conversion) the plan expects from the next dollar spent in that channel. A ROAS target is lowered toward the plan's marginal ROAS, and a CPA or cost target is raised toward the plan's marginal CPA, by at most 20% in one step. If the target is already at or past the plan's marginal, there's no bid change, because the bid isn't what's holding delivery back. After a bid change, Deploy waits 7 days before recommending another, so the platform can settle.
+
+**Apply it**
+
 1. Open **Change Budget** for a row with a **Scale** recommendation.
 2. If a bid change is recommended, the dialog offers **Review bid changes**. Select it.
 
