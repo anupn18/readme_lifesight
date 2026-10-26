@@ -1,6 +1,8 @@
 ---
 title: 'Designing Geo-Experiments: Identifying Geos'
-excerpt: ''
+excerpt: >-
+  Choose the right geos and follow key requirements to get accurate, localized
+  results.
 deprecated: false
 hidden: false
 metadata:
