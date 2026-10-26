@@ -1,6 +1,8 @@
 ---
 title: View Through Attribution
-excerpt: ''
+excerpt: >-
+  See how ad views that didn’t get a click still earn credit for direct and
+  organic visits and conversions.
 deprecated: false
 hidden: false
 metadata:
