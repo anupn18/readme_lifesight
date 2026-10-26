@@ -1,5 +1,8 @@
 ---
 title: Geo Experiments - Insights & Validation
+excerpt: >-
+  Understand the key metrics in your experiment results and how to validate the
+  lift you see.
 deprecated: false
 hidden: false
 metadata:
