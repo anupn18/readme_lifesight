@@ -41,4 +41,4 @@ Both groups are otherwise alike. So any difference in conversions between them i
 * You want a fast, direct read on a channel, campaign, or audience.
 * You need clean results to calibrate your Marketing Mix Model.
 
-When user-level tracking is limited, [Geo-Testing]() measures lift through regional differences instead.
+When user-level tracking is limited, [Geo-Testing](https://docs.lifesight.io/update/docs/what-is-geo-testing) measures lift through regional differences instead.
