@@ -14,7 +14,9 @@ next:
 ---
 Touch-based attribution gives credit for a conversion to the marketing touchpoints a customer interacted with before converting. A touchpoint can be an ad click, an ad view, an email, or a website visit from any channel.
 
-Each method answers the same question in a different way: which touchpoints should get credit, and how much? The right choice depends on your sales cycle, the channels you run, and the decisions you need to make.
+Each method answers the same question in a different way: which touchpoints should get credit, and how much?&#x20;
+
+The right choice depends on your sales cycle, the channels you run, and the decisions you need to make.
 
 ## Attribution methods
 
@@ -36,6 +38,6 @@ You can use more than one method side by side to compare how channel credit shif
 
 ## Things to keep in mind
 
-Touch-based attribution shows which touchpoints were present before a conversion. It does not on its own prove that a touchpoint caused the conversion. To measure true incremental impact, pair these methods with [Causal Attribution](#) and [Incrementality Testing](#).
+Touch-based attribution shows which touchpoints were present before a conversion. It does not on its own prove that a touchpoint caused the conversion. To measure true incremental impact, pair these methods with Casual Attribution and Incrementality Testing.
 
 <br />
