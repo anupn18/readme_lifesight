@@ -2,7 +2,7 @@
 title: What is planned(Coming soon)
 excerpt: Work that is specified but not yet shipped in Deploy.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
