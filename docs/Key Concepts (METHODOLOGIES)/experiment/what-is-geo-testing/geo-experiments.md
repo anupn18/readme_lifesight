@@ -1,6 +1,6 @@
 ---
 title: 'Geo Experiments : Power Analysis'
-excerpt: ''
+excerpt: Make sure your experiment can detect a real effect before you launch it.
 deprecated: false
 hidden: false
 metadata:
