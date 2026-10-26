@@ -1,6 +1,8 @@
 ---
 title: Algorithmic Attribution
-excerpt: ''
+excerpt: >-
+  Learn how touchpoints are credited by their real impact on conversion, using
+  both converting and non-converting journeys.
 deprecated: false
 hidden: false
 metadata:
