@@ -18,10 +18,10 @@ Platform-reported numbers often count conversions that would have happened anywa
 
 ## Testing methods
 
-| Method                                                                   | How it works                                      | Best for                                                                                             |
-| ------------------------------------------------------------------------ | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| [Split Testing](https://docs.lifesight.io/update/docs/split-testing)     | Splits users into treatment and control groups    | Measuring lift at the audience or user level                                                         |
-| [Geo-Testing](https://docs.lifesight.io/update/docs/what-is-geo-testing) | Splits regions into treatment and control markets | Measuring lift for channels you can't track at the user level, like CTV, offline, or brand campaigns |
+| Method                                                            | How it works                                      | Best for                                                                                             |
+| ----------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Split Testing                                                     | Splits users into treatment and control groups    | Measuring lift at the audience or user level                                                         |
+| [Geo-Testing](https://docs.lifesight.io/docs/what-is-geo-testing) | Splits regions into treatment and control markets | Measuring lift for channels you can't track at the user level, like CTV, offline, or brand campaigns |
 
 To understand why experiments matter, start with [Why Experiments?](https://docs.lifesight.io/docs/why-experiment)
 
@@ -33,4 +33,4 @@ To understand why experiments matter, start with [Why Experiments?](https://docs
 
 ## How experiments fit into measurement
 
-Experiment results do more than measure a single test. They can be used to calibrate your Marketing Mix Model and power [Causal Attribution](#), so every report reflects true incremental impact.
+Experiment results do more than measure a single test. They can be used to calibrate your Marketing Mix Model and power [Causal Attribution, ](https://docs.lifesight.io/docs/causal-attribution)so every report reflects true incremental impact.
