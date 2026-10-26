@@ -18,8 +18,6 @@ View Through Attribution (VTA) in Lifesight helps you understand the impact of a
 2. As Lifesight has complete visibility into Website traffic , collected via Lifesight SDK, Lifesight could then use pattern between hourly deliver in impression and the corresponding spikes in web traffic to "spike" model for the impact of impressions on conversions
 3. The Lag effect of impression to traffic is assumed to be under 24 hours
 
-<br />
-
 ### Steps in Lifesight's View Through Attribution:
 
 1. **Collecting Total Impressions by Channel**
