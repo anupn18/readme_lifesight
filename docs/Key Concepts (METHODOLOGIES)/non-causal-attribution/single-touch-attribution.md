@@ -1,6 +1,8 @@
 ---
 title: Single-Touch Attribution
-excerpt: ''
+excerpt: >-
+  Learn how full credit for a conversion goes to either the first or the last
+  touchpoint in the customer journey.
 deprecated: false
 hidden: false
 metadata:
