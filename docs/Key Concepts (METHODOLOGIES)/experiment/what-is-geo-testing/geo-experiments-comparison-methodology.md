@@ -1,6 +1,8 @@
 ---
 title: 'Geo Experiments: Comparison between methodologies'
-excerpt: ''
+excerpt: >-
+  See how synthetic control methods compare and why GeoLift gives more reliable
+  lift estimates.
 deprecated: false
 hidden: false
 metadata:
