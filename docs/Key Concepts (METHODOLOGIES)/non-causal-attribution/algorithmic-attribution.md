@@ -38,17 +38,13 @@ At Lifesight, we employ **Logistic Regression** to model attribution. This sophi
 
 #### Step-by-Step Process
 
-1. **Data Aggregation**\
-   Lifesight aggregates marketing touchpoints across all channels, including social media, search, and email, for each user interaction, whether they result in conversions or not. This data provides a complete view of customer journeys, both converting and non-converting, and is formatted for further model analysis.
+1. **Data Aggregation**<br />Lifesight aggregates marketing touchpoints across all channels, including social media, search, and email, for each user interaction, whether they result in conversions or not. This data provides a complete view of customer journeys, both converting and non-converting, and is formatted for further model analysis.
 
-2. **Logistic Regression Analysis**\
-   The core of Lifesight’s algorithmic attribution lies in running a logistic regression, assigning weights to each marketing channel based on their influence on conversions. The model considers both conversion and non-conversion paths, offering a comprehensive analysis.
+2. **Logistic Regression Analysis**<br />The core of Lifesight’s algorithmic attribution lies in running a logistic regression, assigning weights to each marketing channel based on their influence on conversions. The model considers both conversion and non-conversion paths, offering a comprehensive analysis.
 
-3. **Normalization of Weights**\
-   Once the regression analysis is complete, the weights are normalized, meaning the total credit for each conversion adds up to 100%. This step provides an interpretable view of how each channel contributes to conversion, relative to others.
+3. **Normalisation of Weights**<br />Once the regression analysis is complete, the weights are normalized, meaning the total credit for each conversion adds up to 100%. This step provides an interpretable view of how each channel contributes to conversion, relative to others.
 
-4. **Application of Weights to Attribution Reports**\
-   The calculated weights are stored in Lifesight’s backend systems and reflected in the Multi-Touch Attribution (MTA) reports. These weights are updated when new data or channels become available, and they are applied to each marketing touchpoint, giving marketers granular insights into the effectiveness of their strategies.
+4. **Application of Weights to Attribution Reports**<br />The calculated weights are stored in Lifesight’s backend systems and reflected in the Multi-Touch Attribution (MTA) reports. These weights are updated when new data or channels become available, and they are applied to each marketing touchpoint, giving marketers granular insights into the effectiveness of their strategies.
 
 ***
 
@@ -64,4 +60,6 @@ At Lifesight, we employ **Logistic Regression** to model attribution. This sophi
 
 ### Summary
 
-Lifesight’s Algorithmic Attribution provides a data-driven, precise method for understanding the real impact of your marketing touchpoints. With logistic regression, it delivers insights into both converting and non-converting paths, while adjusting for data loss and complementing view-through modeling. This empowers marketers to make data-backed, strategic decisions for continuous improvement and growth.
+Lifesight’s Algorithmic Attribution provides a data-driven, precise method for understanding the real impact of your marketing touchpoints.&#x20;
+
+With logistic regression, it delivers insights into both converting and non-converting paths, while adjusting for data loss and complementing view-through modeling. This empowers marketers to make data-backed, strategic decisions for continuous improvement and growth.
