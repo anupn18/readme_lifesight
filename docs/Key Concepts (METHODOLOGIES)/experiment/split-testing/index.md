@@ -33,7 +33,7 @@ Both groups are otherwise alike. So any difference in conversions between them i
 | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
 | [Statistical Significance](https://docs.lifesight.io/docs/statistical-significance)                               | How to tell if your test results are reliable         |
 | [Treatment / Control Assignment](https://docs.lifesight.io/docs/split-testing-treatment-control-assignment)       | How users are split into test and holdout groups      |
-| [Understanding Normalized Control](https://docs.lifesight.io/docs/split-testing-understanding-normalized-control) | How the control group is scaled for a fair comparison |
+| [Understanding Normalised Control](https://docs.lifesight.io/docs/split-testing-understanding-normalized-control) | How the control group is scaled for a fair comparison |
 
 ## When to use split testing
 
