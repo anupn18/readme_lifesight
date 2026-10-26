@@ -1,6 +1,8 @@
 ---
 title: Causal Attribution
-excerpt: ''
+excerpt: >-
+  Calibrate platform-reported results with incrementality to see each channel’s
+  true impact.
 deprecated: false
 hidden: false
 metadata:
