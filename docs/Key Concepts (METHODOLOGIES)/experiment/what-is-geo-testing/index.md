@@ -1,6 +1,8 @@
 ---
 title: Geo-Testing
-excerpt: ''
+excerpt: >-
+  Plan, design, and run a geo experiment to measure the incremental impact of
+  your marketing by region.
 deprecated: false
 hidden: false
 metadata:
