@@ -29,11 +29,11 @@ Both groups are otherwise alike. So any difference in conversions between them i
 
 ## Learn more
 
-| Article                               | What it covers                                        |
-| ------------------------------------- | ----------------------------------------------------- |
-| [Statistical Significance](#)         | How to tell if your test results are reliable         |
-| [Treatment / Control Assignment](#)   | How users are split into test and holdout groups      |
-| [Understanding Normalized Control](#) | How the control group is scaled for a fair comparison |
+| Article                                                                                                           | What it covers                                        |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| [Statistical Significance](https://docs.lifesight.io/docs/statistical-significance)                               | How to tell if your test results are reliable         |
+| [Treatment / Control Assignment](https://docs.lifesight.io/docs/split-testing-treatment-control-assignment)       | How users are split into test and holdout groups      |
+| [Understanding Normalized Control](https://docs.lifesight.io/docs/split-testing-understanding-normalized-control) | How the control group is scaled for a fair comparison |
 
 ## When to use split testing
 
@@ -41,4 +41,4 @@ Both groups are otherwise alike. So any difference in conversions between them i
 * You want a fast, direct read on a channel, campaign, or audience.
 * You need clean results to calibrate your Marketing Mix Model.
 
-When user-level tracking is limited, [Geo-Testing](#) measures lift through regional differences instead.
+When user-level tracking is limited, [Geo-Testing]() measures lift through regional differences instead.
