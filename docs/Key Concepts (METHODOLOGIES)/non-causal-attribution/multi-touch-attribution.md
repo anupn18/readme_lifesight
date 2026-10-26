@@ -1,6 +1,8 @@
 ---
 title: Multi-Touch Attribution
-excerpt: ''
+excerpt: >-
+  Learn how credit for a conversion is shared across every touchpoint in the
+  customer journey.
 deprecated: false
 hidden: false
 metadata:
