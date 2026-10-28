@@ -94,10 +94,6 @@ Lifesight validates models statistically and calibrates them with Experiments. M
 
 Lifesight measures any online or offline channel, including search, social, CTV, OOH, retail media, affiliates, influencer, and in-store. It reports KPIs such as iROAS, mROAS, ROAS, CPA, CAC, and incremental revenue.
 
-## How much does it cost?
-
-The platform fee starts at $20,000 per year to measure up to $5M in annual marketing spend. Custom pricing depends on your number of channels and media spend. To get a quote tailored to your needs, contact our team.
-
 ## How is Lifesight different from other platforms?
 
 Lifesight is not a single-method tool, and it is not AI added onto a reporting stack. It triangulates causal MMM, incrementality testing, and causal attribution in one engine so results stay consistent and explainable, then puts agents on top so every answer is grounded in your own measurement. Data OS gets you there faster by removing the data prep that stalls most measurement programs.
