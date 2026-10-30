@@ -4,7 +4,7 @@ excerpt: >-
   Set your persona, hide sidebar modules you never open, and change your profile
   photo, from Settings > Preferences and Edit Profile.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Set up your profile and preferences
   keywords:
