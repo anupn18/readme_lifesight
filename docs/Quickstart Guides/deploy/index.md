@@ -133,7 +133,7 @@ The Creative tab also shows the estimated spend you can recover each week by pau
 * **A row can't be selected.** Deploy can't change that channel or that field yet. Apply the change in the ad platform.
 * **No bid recommendation on a row.** The budget isn't going up, the row is already spending 85% or more of its budget, its strategy has no target to change, or its bid changed in the last 7 days.
 * **The Ad Sets view is empty.** Your campaigns hold their own budgets (CBO), so everything shows under Campaigns. This is expected.
-* **A change didn't go through.** Check the row's Deploy Status and Logs, then try again.
+* **A change didn't go through.** The row shows Failed and keeps its previous value. Check Logs, then try again.
 
 ## Reference: what you see in Deploy
 
@@ -154,13 +154,26 @@ Each campaign or ad set appears in the view where its budget lives. You can see 
 
 **Each row**
 
+* **Ad Account**: the ad account the campaign or ad set runs in.
 * **Tactic**: the role the campaign plays, such as prospecting or retargeting, from your taxonomy mapping.
 * **Recommendation**: Scale, Reduce or Maintain, with the target budget for the next 7 days. It comes from the plan's allocation measured against the row's incremental return, not from platform-reported performance.
 * **Current Budget**: what is set on the platform today.
 * **Spend (Last 7d)**: delivery over the last 7 days. It tells you whether a recommended change is a small correction or a large swing.
 * **Budget Utilisation**: how much of the current budget is being spent.
 * **Bid Strategy** and **Bid Target**: the current bidding setup, for example Target CPA at $42.00. Automated strategies show no target, because there is none to set.
-* **Deploy Status**: whether the recommendation has been actioned, for example Pending.
+* **Deploy Status**: where the recommendation is in its lifecycle (see below).
+
+**Deploy Status**
+
+A recommendation moves from Pending to Pacing to Deployed. Overridden or Failed can happen instead.
+
+| Status | What it means |
+| --- | --- |
+| Pending | The recommendation hasn't been applied yet. |
+| Pacing | The change is live on the ad platform and spend is adjusting to the new budget or bid. |
+| Deployed | Spend has settled at the new level. The recommendation shows Maintain until the next daily update finds something new. |
+| Overridden | Someone set a value that goes against the recommendation. |
+| Failed | The ad platform didn't accept the change. The row keeps its previous value. |
 
 **Geo Targeting** lists the campaigns and ad sets from your plan, with their ad account, current geo targeting and last geo change. Editing geo targeting from Deploy is coming soon.
 
