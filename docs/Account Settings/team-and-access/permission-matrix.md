@@ -2,7 +2,7 @@
 title: Permission Matrix
 excerpt: The generated grid of six Lifesight roles.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Permission Matrix
   robots: index
