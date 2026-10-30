@@ -4,7 +4,7 @@ excerpt: >-
   Control who can see and change what in Lifesight, with preset roles, custom
   roles, and access requests.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Team and Access
   robots: index
