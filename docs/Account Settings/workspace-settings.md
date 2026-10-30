@@ -4,7 +4,7 @@ excerpt: >-
   Settings > Workspace carries the workspace reporting defaults and the one-time
   week start lock.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Setting up your Lifesight Workspace
   keywords:
