@@ -59,7 +59,7 @@ Persona changes what Lifesight puts first, not which modules you can open. Your 
 | Persona             | Starting persona for    |
 | ------------------- | ----------------------- |
 | Measurement Analyst | Marketing Scientist     |
-| Growth Marketer     | No role starts here     |
+| Growth Marketer     | Strategic Planner       |
 | Media Planner       | Strategic Planner       |
 | Marketing Ops       | Data Practitioner       |
 | Marketing Leader    | Executive               |
