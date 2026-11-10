@@ -2,7 +2,7 @@
 title: Ensemble Forecasting
 excerpt: How it works and how Lifesight implements it end‑to‑end.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
