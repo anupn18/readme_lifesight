@@ -205,12 +205,16 @@ When this is done, you should have these to hand for the next section: the priva
 
 ## Connecting Snowflake
 
+With the Snowflake user ready, connecting takes a few minutes. The setup has four steps: **Name & Connect**, **Select tables**, **Data setup**, and **Schedule & sync**.
+
+### 1. Name and connect
+
 1. Go to **Data > Integrations** and click **Add Integration**.
 2. Open the **Data Warehouses** tab and click **Connect** on the Snowflake tile.
 
 ![The Data Warehouses tab with the Snowflake tile](https://files.readme.io/92c4a9953852d347d4ad0c052e6d1f09fbe2e3828f6a63360c1f974cdba78273-snowflake-data-warehouses.png)
 
-3. On the **Name & Connect** step, enter an **Integration Name**. This is the name shown on your integrations list, so name it after the data, for example `Paid media daily`.
+3. Enter an **Integration Name**. This is the name shown on your integrations list, so name it after the data, for example `Paid media daily`.
 
 ![The Name & Connect step of the Snowflake setup](https://files.readme.io/f63624857f5c7623cdd9864a72661d4b63f33e85074e2655428880ba4b2dda12-snowflake-name-and-connect.png)
 
@@ -230,43 +234,97 @@ When this is done, you should have these to hand for the next section: the priva
 ![The Add Snowflake credential dialog](https://files.readme.io/1354f72506e225a23919f5df430fe1aa0e2ffdbd2489d07092edcc490cb17aa2-snowflake-credential-form.png)
 
 5. Click **Test and save**. Lifesight signs in to Snowflake and checks that it can read each schema you listed. The credential is saved only when the test passes. Your private key is stored encrypted and is never shown again.
-6. Choose the **Database** and **Schema** for this integration, then click **Verify and continue**.
-7. On **Select tables**, pick the table you want to bring in. Its columns show on the right.
-8. On **Data setup**, check the sample rows, choose the column that holds the date, and pick what kind of data this is.
-9. On **Schedule & sync**, choose how often Lifesight should refresh the data: **Daily**, **Weekly**, **Monthly** or **Manual**.
-10. Click **Connect**.
+6. Choose the **Database** and **Schema** this integration reads, then click **Verify and continue**.
 
-The first sync starts as soon as you connect, then repeats on your schedule.
+### 2. Select a table
+
+Pick the table you want to bring in. Each row shows how many rows and columns the table has, its size and when it was last updated. When you pick a table, its columns and their types show on the right.
+
+* **One table per integration.** To bring in more tables, add another integration afterwards and reuse the credential.
+* **Use the search box** to find a table by name in a large schema.
+* **A table that is already connected cannot be picked again**, so the same data is never counted twice.
+* **Table not there?** Check that the role has `SELECT` on it. See [Troubleshooting](#troubleshooting).
+
+Click **Continue**.
+
+### 3. Data setup
+
+Lifesight shows a sample of the table and asks how to read it.
+
+| What you confirm | What it means |
+| :-- | :-- |
+| Which column has the date? | The column Lifesight uses to read your data over time. Lifesight checks that the dates are consistent and tells you if any are missing. |
+| Granularity | Whether each row is a day, a week or a month. |
+| How is your data laid out? | **Stacked rows** if every row is one record and channels appear as values in a column. **Pivoted columns** if every row is one date and each channel has its own column. |
+| What kind of data is this? | **Paid Marketing**, **KPI**, **Contextual**, **Organic** or **Other**. This decides how the data is used. Other keeps the table for reference only. |
+| Columns to import (optional) | All columns by default. Choose specific columns if you only need some. |
+
+Click **Continue**.
+
+### 4. Schedule and sync
+
+**How often.** Choose when Lifesight refreshes the data.
+
+| Frequency | What you set |
+| :-- | :-- |
+| Daily | The time of day. |
+| Weekly | The day of the week and the time. |
+| Monthly | The day of the month and the time. |
+| Manual | Nothing. Data refreshes only when you click **Sync now** on the integration. |
+
+Syncs are scheduled in UTC. The page shows the same time in your own time zone.
+
+**How much to read each time.**
+
+| Option | What it does | Use it when |
+| :-- | :-- | :-- |
+| Full reload (recommended) | Reads the whole table every time and replaces what was loaded before. | Most tables. It is the simplest and always matches Snowflake. |
+| Incremental by date column | Reads only the rows that are new since the last sync, plus a few days back to pick up late changes. | Very large tables that have a date or timestamp column. |
+
+Click **Connect**. The first sync starts straight away, then repeats on your schedule.
 
 ## After connecting
 
-**Map the fields -** Open **Data > Data Transformation**, find your Snowflake source, and map its columns to Lifesight fields. Warehouse tables use your own column names, so nothing is mapped until you do this.
+Your table is now in Lifesight, but its columns still use your own names. Two things to do next:
 
-**Add more tables -** Each integration reads one table. To bring in another, add a new Snowflake integration and pick the same credential. You do not need to create another user.
+1. **Map the fields.** Open **Data > [Data Transformation](https://docs.lifesight.io/docs/4-data-transformation)**, find your Snowflake source and match its columns to Lifesight fields. Nothing is mapped until you do this. The guide [Map a field from a source](https://docs.lifesight.io/docs/map-field-from-source) walks through it.
+2. **Fill in what the table does not say.** If the whole table belongs to one channel or one country, set that once with [Set a fixed value for a source](https://docs.lifesight.io/docs/fixed-value-source) or [Map a source to a channel](https://docs.lifesight.io/docs/map-source-channel).
+
+> 👍 Bringing in more tables
+>
+> Each integration reads one table. To add another, click **Add Integration**, choose Snowflake and pick the same credential. You do not need to create another Snowflake user.
 
 ***
 
 ## Troubleshooting
 
-**Snowflake rejected the sign-in**<br />Check the username, and that the private key you pasted belongs to the public key set on that user. If you regenerated the key pair, update the user in Snowflake with the new public key.
+### Signing in
 
-**Snowflake has no account with that name**<br />Enter only the account identifier, the part before `.snowflakecomputing.com`, not the full URL.
+| What you see | What to do |
+| :-- | :-- |
+| Snowflake rejected the sign-in | Check the username, and that the private key you pasted belongs to the public key set on that user. If you created a new key pair, put the new public key on the Snowflake user. |
+| Snowflake has no account with that name | Enter only the account identifier, the part before `.snowflakecomputing.com`, not the full URL. |
+| "JWT token is invalid" | The public key on the Snowflake user is missing, or was pasted with the `BEGIN` and `END` lines or with line breaks. Run step 2 of the script again with the key as a single line. |
+| The private key is not accepted | Lifesight needs a key that starts with `-----BEGIN PRIVATE KEY-----`. One that starts with `-----BEGIN RSA PRIVATE KEY-----` is an older format. Create it again with the commands in [Step 1](#step-1-create-the-two-key-files). |
+| The test fails only from Lifesight | Your account probably has a network policy. Allow Lifesight's IP address, as described in [Creating a Snowflake user for Lifesight](#creating-a-snowflake-user-for-lifesight). |
 
-**The user cannot use the role**<br />Make sure the role was granted to the user, or leave **Role** empty to use the user's default role.
+### Role and warehouse
 
-**"JWT token is invalid"**<br />The public key on the Snowflake user is missing or was pasted with the `BEGIN` and `END` lines or with line breaks. Run step 2 of the script again with the key as a single line, and check that `RSA_PUBLIC_KEY_FP` has a value in `DESC USER`.
+| What you see | What to do |
+| :-- | :-- |
+| The user cannot use the role | Make sure the role was granted to the user, or leave **Role** empty to use the user's default role. |
+| The warehouse cannot be used | Check the warehouse name, and that the role has `USAGE` on it. |
+| "No active warehouse" | The warehouse in the script is not the one you entered in Lifesight. Use the same name in both. |
 
-**"No active warehouse"**<br />The warehouse in the script is not the one you entered in Lifesight. Use the same name in both.
+### Databases, schemas and tables
 
-**The warehouse cannot be used**<br />Check the warehouse name and that the role has `USAGE` on it.
+| What you see | What to do |
+| :-- | :-- |
+| Lifesight cannot read a database or schema | Check the spelling against Snowflake, and that the role has `USAGE` on both the database and the schema. |
+| My table is not listed | Check that the role has `SELECT` on the table, that it is a table or materialized view, and that it is not already connected through another integration. |
+| A table I added later does not appear | Add a `GRANT SELECT` line for it and run the script again, or use Option B so future tables are included. |
 
-**Lifesight cannot read a database or schema**<br />Check the spelling against Snowflake, and that the role has `USAGE` on both the database and the schema.
-
-**My table is not listed**<br />Only tables and materialized views are shown. Check that the role has `SELECT` on the table, and that the table is not already connected through another integration.
-
-**The private key is not accepted**<br />Lifesight needs the key in PKCS#8 format, which starts with `-----BEGIN PRIVATE KEY-----`. A key that starts with `-----BEGIN RSA PRIVATE KEY-----` is in an older format. Generate it again with the commands above.
-
-**The test fails only from Lifesight**<br />Your account probably has a network policy. Allow Lifesight's IP address as described in Before you start.
+Still stuck? Contact Lifesight support and include the message you see.
 
 ***
 
