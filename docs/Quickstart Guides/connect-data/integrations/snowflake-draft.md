@@ -39,16 +39,53 @@ You need three things.
 
 ### Creating a Snowflake user for Lifesight
 
-Lifesight signs in to Snowflake as a service user with a key pair, not a password. You create the user once.
+Lifesight signs in to Snowflake as its own user, with a key pair instead of a password. You set this up once.
 
-1. Generate a key pair on your computer. This creates a private key (`rsa_key.p8`) and a public key (`rsa_key.pub`).
+> 👍 You do not have to do this yourself
+>
+> This part is usually done by whoever looks after Snowflake at your company, such as your data or IT team. Send them a link to this section. It takes about ten minutes, and they send you back one file (the private key) plus the names you need for the form.
+
+**What is a key pair?** Two small text files that belong together. The **public key** goes on the Snowflake user, like a lock. The **private key** goes into Lifesight, like the key that opens it. Only the private key is secret.
+
+#### Step 1: Create the two key files
+
+1. Open the **Terminal** app. On a Mac, press `Cmd + Space`, type `Terminal` and press Enter. On Windows, use **Git Bash**, or ask your IT team to run this step.
+2. Copy the two lines below, paste them into Terminal and press Enter.
 
 ```bash
 openssl genrsa 2048 | openssl pkcs8 -topk8 -inform PEM -out rsa_key.p8 -nocrypt
 openssl rsa -in rsa_key.p8 -pubout -out rsa_key.pub
 ```
 
-2. In Snowflake, open a new SQL worksheet and run the script below. Replace the values in angle brackets. For the public key, paste the contents of `rsa_key.pub` without the `BEGIN` and `END` lines and without line breaks.
+Two new files now sit in your home folder:
+
+| File | What it is | Where it goes |
+| :-- | :-- | :-- |
+| `rsa_key.pub` | The public key. Not secret. | Into the Snowflake script in step 2. |
+| `rsa_key.p8` | The private key. Keep it secret. | Into Lifesight, when you add the credential. |
+
+Both are plain text. Opened in a text editor, the public key looks like this. The private key looks the same, but is longer and says `PRIVATE KEY`.
+
+```text
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu7Tq9xw2LkP4vGm1Zc8H
+Rn3JfQyE6bWdS0aKtNvXo5Ll2pMhCzYs9gUeI1AjB7rFxD4kVtq8ZnWmPc3oRbLy
+... a few more lines like these ...
+8QIDAQAB
+-----END PUBLIC KEY-----
+```
+
+#### Step 2: Create the user in Snowflake
+
+1. Get the public key ready to paste. Snowflake wants it as one line, without the `BEGIN` and `END` lines. This command prints it in exactly that form. Select the output and copy it.
+
+```bash
+grep -v "PUBLIC KEY" rsa_key.pub | tr -d '\n'
+```
+
+2. In Snowflake, click **+** and open a new **SQL Worksheet**.
+3. Paste the script below. Replace each value in angle brackets with your own, and paste the public key in place of `<PUBLIC_KEY>`, keeping the quotes around it.
+4. Run the whole script.
 
 ```sql
 USE ROLE ACCOUNTADMIN;
@@ -75,9 +112,28 @@ GRANT SELECT ON ALL TABLES IN SCHEMA <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFES
 -- GRANT SELECT ON TABLE <DATABASE_NAME>.<SCHEMA_NAME>.<TABLE_NAME> TO ROLE LIFESIGHT_READER;
 ```
 
-3. Keep the private key file (`rsa_key.p8`) to hand. You paste it into Lifesight in the next section.
+Repeat the three `GRANT` lines that mention a database or schema for each extra database or schema you want Lifesight to read.
 
-Repeat the three `GRANT` lines for each extra database or schema you want Lifesight to read.
+#### Step 3: Copy the private key and keep it safe
+
+The private key is what you paste into Lifesight. Copy all of it, including the `-----BEGIN PRIVATE KEY-----` and `-----END PRIVATE KEY-----` lines.
+
+* **On a Mac,** this command copies the whole file to your clipboard, ready to paste:
+
+```bash
+pbcopy < rsa_key.p8
+```
+
+* **On any computer,** open `rsa_key.p8` in a plain text editor such as TextEdit or Notepad, select everything and copy it.
+
+Treat the private key like a password:
+
+* **Save it in your company password manager**, such as 1Password or Bitwarden. Lifesight stores it encrypted and never shows it again, so keep your own copy.
+* **Do not send it by email or chat.** If a teammate created it for you, ask them to share it through the password manager.
+* **Delete the file from your computer** once it is saved in the password manager.
+* **If it is ever lost or shared by mistake,** create a new key pair, put the new public key on the Snowflake user, and give Lifesight the new private key.
+
+When this is done, you should have these to hand for the next section: the private key, your account identifier, the warehouse name, the user name (`SVC_LIFESIGHT`), the role (`LIFESIGHT_READER`), and the databases and schemas you granted.
 
 > 📘 Does your Snowflake account restrict sign-in by IP?
 >
@@ -111,7 +167,7 @@ Repeat the three `GRANT` lines for each extra database or schema you want Lifesi
 | Role (optional) | The role to use, for example `LIFESIGHT_READER`. Leave empty to use the user's default role. |
 | Username | The service user, for example `SVC_LIFESIGHT`. |
 | Passphrase (optional) | Only if your private key is encrypted. |
-| Private key | The full contents of `rsa_key.p8`, starting with `-----BEGIN PRIVATE KEY-----`. |
+| Private key | Everything in `rsa_key.p8`, from `-----BEGIN PRIVATE KEY-----` to `-----END PRIVATE KEY-----`. |
 | Databases and schemas | Every database and schema you want to read. Click **Add database** for more. |
 
 ![The Add Snowflake credential dialog](https://files.readme.io/873ef6f3e89c79e112178eaa6523549186a5ce61c9a64af8ec36fe9024f5fe44-snowflake-add-credential.png)
