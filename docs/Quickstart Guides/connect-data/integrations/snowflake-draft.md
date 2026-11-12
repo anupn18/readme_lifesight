@@ -278,7 +278,6 @@ Click **Continue**.
 | Daily | The time of day. |
 | Weekly | The day of the week and the time. |
 | Monthly | The day of the month and the time. |
-| Manual | Nothing. Data refreshes only when you click **Sync now** on the integration. |
 
 Syncs are scheduled in UTC. The page shows the same time in your own time zone.
 
