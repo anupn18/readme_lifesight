@@ -88,31 +88,83 @@ grep -v "PUBLIC KEY" rsa_key.pub | tr -d '\n'
 4. Run the whole script.
 
 ```sql
-USE ROLE ACCOUNTADMIN;
+-- ============================================================================
+-- LIFESIGHT: SNOWFLAKE SETUP
+-- ============================================================================
+-- Creates a read-only service user that Lifesight signs in as. Sign-in is by
+-- key pair only: no password is created or stored.
+--
+-- BEFORE YOU RUN
+--   1. Replace every <PLACEHOLDER> with your own value.
+--   2. Run the whole script in a worksheet as ACCOUNTADMIN.
+--   3. It is safe to run again. It never removes existing grants.
+-- ============================================================================
 
--- A read-only role for Lifesight
-CREATE ROLE IF NOT EXISTS LIFESIGHT_READER;
+-- STEP 1: Create the service user
+USE ROLE USERADMIN;
 
--- A service user that signs in with the key pair
-CREATE USER IF NOT EXISTS SVC_LIFESIGHT
-  TYPE = SERVICE
-  DEFAULT_ROLE = LIFESIGHT_READER
+CREATE USER IF NOT EXISTS LIFESIGHT
+  LOGIN_NAME   = 'LIFESIGHT'
+  DISPLAY_NAME = 'Lifesight Integration'
+  COMMENT      = 'Read-only service user for the Lifesight integration';
+
+-- STEP 2: Key-pair sign-in, user type and default warehouse
+-- These run every time, so they also apply if the user already existed.
+ALTER USER LIFESIGHT UNSET PASSWORD;
+ALTER USER LIFESIGHT SET TYPE = SERVICE;
+ALTER USER LIFESIGHT SET
   DEFAULT_WAREHOUSE = <WAREHOUSE_NAME>
-  RSA_PUBLIC_KEY = '<PUBLIC_KEY>';
+  RSA_PUBLIC_KEY    = '<PUBLIC_KEY>';
+-- ^ The public key as one line, without the BEGIN/END lines or line breaks.
 
-GRANT ROLE LIFESIGHT_READER TO USER SVC_LIFESIGHT;
+-- STEP 3: Create the read-only role and give it to the user
+USE ROLE SECURITYADMIN;
 
--- What Lifesight is allowed to read
+CREATE ROLE IF NOT EXISTS LIFESIGHT_READER;
+GRANT ROLE LIFESIGHT_READER TO USER LIFESIGHT;
+GRANT ROLE LIFESIGHT_READER TO ROLE SYSADMIN;   -- lets your own admins manage it later
+ALTER USER LIFESIGHT SET DEFAULT_ROLE = LIFESIGHT_READER;
+
+-- STEP 4: Let the role use the warehouse
 GRANT USAGE ON WAREHOUSE <WAREHOUSE_NAME> TO ROLE LIFESIGHT_READER;
-GRANT USAGE ON DATABASE <DATABASE_NAME> TO ROLE LIFESIGHT_READER;
-GRANT USAGE ON SCHEMA <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
-GRANT SELECT ON ALL TABLES IN SCHEMA <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
 
--- To share one table only, use this line instead of the one above:
--- GRANT SELECT ON TABLE <DATABASE_NAME>.<SCHEMA_NAME>.<TABLE_NAME> TO ROLE LIFESIGHT_READER;
+-- STEP 5: Let the role see the database and schema (this gives no data access)
+-- Repeat the SCHEMA line for each extra schema.
+GRANT USAGE ON DATABASE <DATABASE_NAME>               TO ROLE LIFESIGHT_READER;
+GRANT USAGE ON SCHEMA   <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
+
+-- STEP 6: Give read access to your data. Choose ONE option.
+
+-- OPTION A: only the tables you list. One line per table or view.
+GRANT SELECT ON TABLE <DATABASE_NAME>.<SCHEMA_NAME>.<TABLE_NAME> TO ROLE LIFESIGHT_READER;
+-- GRANT SELECT ON TABLE <DATABASE_NAME>.<SCHEMA_NAME>.<TABLE_NAME_2> TO ROLE LIFESIGHT_READER;
+-- GRANT SELECT ON VIEW  <DATABASE_NAME>.<SCHEMA_NAME>.<VIEW_NAME>    TO ROLE LIFESIGHT_READER;
+
+-- OPTION B: every table and view in the schema, including ones created later.
+-- To use it, delete the Option A line above and remove the leading "-- " below.
+-- GRANT SELECT ON ALL    TABLES IN SCHEMA <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
+-- GRANT SELECT ON FUTURE TABLES IN SCHEMA <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
+-- GRANT SELECT ON ALL    VIEWS  IN SCHEMA <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
+-- GRANT SELECT ON FUTURE VIEWS  IN SCHEMA <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
+
+-- STEP 7: Check the result
+DESC USER LIFESIGHT;
+SHOW GRANTS TO ROLE LIFESIGHT_READER;
 ```
 
-Repeat the three `GRANT` lines that mention a database or schema for each extra database or schema you want Lifesight to read.
+**Which read access should I choose?**
+
+| Option | What Lifesight can read | Choose it when |
+| :-- | :-- | :-- |
+| A: listed tables | Only the tables and views you name, one line each. | You want to share as little as possible. |
+| B: the whole schema | Every table and view in the schema, including any created in future. | New tables appear regularly and you do not want to come back to this script. |
+
+**Check it worked.** The last two lines of the script print what was set up:
+
+* `DESC USER LIFESIGHT` should show `TYPE` as `SERVICE`, a value in `RSA_PUBLIC_KEY_FP`, a default warehouse and role, and `HAS_PASSWORD` as `false`.
+* `SHOW GRANTS TO ROLE LIFESIGHT_READER` should list `USAGE` on the warehouse, database and schema, and `SELECT` on each table or view you granted.
+
+To add another database, schema or table later, add the matching lines and run the script again.
 
 #### Step 3: Copy the private key and keep it safe
 
@@ -133,7 +185,7 @@ Treat the private key like a password:
 * **Delete the file from your computer** once it is saved in the password manager.
 * **If it is ever lost or shared by mistake,** create a new key pair, put the new public key on the Snowflake user, and give Lifesight the new private key.
 
-When this is done, you should have these to hand for the next section: the private key, your account identifier, the warehouse name, the user name (`SVC_LIFESIGHT`), the role (`LIFESIGHT_READER`), and the databases and schemas you granted.
+When this is done, you should have these to hand for the next section: the private key, your account identifier, the warehouse name, the user name (`LIFESIGHT`), the role (`LIFESIGHT_READER`), and the databases and schemas you granted.
 
 > 📘 Does your Snowflake account restrict sign-in by IP?
 >
@@ -143,7 +195,7 @@ When this is done, you should have these to hand for the next section: the priva
 > CREATE NETWORK POLICY LIFESIGHT_NETWORK_POLICY
 >   ALLOWED_IP_LIST = ('34.46.164.161');
 >
-> ALTER USER SVC_LIFESIGHT SET NETWORK_POLICY = 'LIFESIGHT_NETWORK_POLICY';
+> ALTER USER LIFESIGHT SET NETWORK_POLICY = 'LIFESIGHT_NETWORK_POLICY';
 > ```
 
 ## Connecting Snowflake
@@ -165,7 +217,7 @@ When this is done, you should have these to hand for the next section: the priva
 | Account identifier | The part of your Snowflake URL before `.snowflakecomputing.com`. |
 | Warehouse | The warehouse name only, for example `LIFESIGHT_WH`. |
 | Role (optional) | The role to use, for example `LIFESIGHT_READER`. Leave empty to use the user's default role. |
-| Username | The service user, for example `SVC_LIFESIGHT`. |
+| Username | The service user, for example `LIFESIGHT`. |
 | Passphrase (optional) | Only if your private key is encrypted. |
 | Private key | Everything in `rsa_key.p8`, from `-----BEGIN PRIVATE KEY-----` to `-----END PRIVATE KEY-----`. |
 | Databases and schemas | Every database and schema you want to read. Click **Add database** for more. |
@@ -196,6 +248,10 @@ The first sync starts as soon as you connect, then repeats on your schedule.
 **Snowflake has no account with that name**<br />Enter only the account identifier, the part before `.snowflakecomputing.com`, not the full URL.
 
 **The user cannot use the role**<br />Make sure the role was granted to the user, or leave **Role** empty to use the user's default role.
+
+**"JWT token is invalid"**<br />The public key on the Snowflake user is missing or was pasted with the `BEGIN` and `END` lines or with line breaks. Run step 2 of the script again with the key as a single line, and check that `RSA_PUBLIC_KEY_FP` has a value in `DESC USER`.
+
+**"No active warehouse"**<br />The warehouse in the script is not the one you entered in Lifesight. Use the same name in both.
 
 **The warehouse cannot be used**<br />Check the warehouse name and that the role has `USAGE` on it.
 
