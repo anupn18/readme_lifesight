@@ -122,7 +122,6 @@ USE ROLE SECURITYADMIN;
 
 CREATE ROLE IF NOT EXISTS LIFESIGHT_READER;
 GRANT ROLE LIFESIGHT_READER TO USER LIFESIGHT;
-GRANT ROLE LIFESIGHT_READER TO ROLE SYSADMIN;   -- lets your own admins manage it later
 ALTER USER LIFESIGHT SET DEFAULT_ROLE = LIFESIGHT_READER;
 
 -- STEP 4: Let the role use the warehouse
@@ -134,35 +133,36 @@ GRANT USAGE ON DATABASE <DATABASE_NAME>               TO ROLE LIFESIGHT_READER;
 GRANT USAGE ON SCHEMA   <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
 
 -- STEP 6: Give read access to your data. Choose ONE option.
+-- Lifesight only needs SELECT on the tables you want to sync.
 
--- OPTION A: only the tables you list. One line per table or view.
+-- OPTION A (recommended): only the tables you list. One line per table.
 GRANT SELECT ON TABLE <DATABASE_NAME>.<SCHEMA_NAME>.<TABLE_NAME> TO ROLE LIFESIGHT_READER;
 -- GRANT SELECT ON TABLE <DATABASE_NAME>.<SCHEMA_NAME>.<TABLE_NAME_2> TO ROLE LIFESIGHT_READER;
--- GRANT SELECT ON VIEW  <DATABASE_NAME>.<SCHEMA_NAME>.<VIEW_NAME>    TO ROLE LIFESIGHT_READER;
+-- GRANT SELECT ON MATERIALIZED VIEW <DATABASE_NAME>.<SCHEMA_NAME>.<VIEW_NAME> TO ROLE LIFESIGHT_READER;
 
--- OPTION B: every table and view in the schema, including ones created later.
+-- OPTION B (broader): every table in the schema, including ones created later.
 -- To use it, delete the Option A line above and remove the leading "-- " below.
 -- GRANT SELECT ON ALL    TABLES IN SCHEMA <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
 -- GRANT SELECT ON FUTURE TABLES IN SCHEMA <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
--- GRANT SELECT ON ALL    VIEWS  IN SCHEMA <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
--- GRANT SELECT ON FUTURE VIEWS  IN SCHEMA <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
 
 -- STEP 7: Check the result
 DESC USER LIFESIGHT;
 SHOW GRANTS TO ROLE LIFESIGHT_READER;
 ```
 
+**What the script allows.** The role gets the minimum Lifesight needs and nothing more: `USAGE` on one warehouse, `USAGE` on the databases and schemas you name, and `SELECT` on the tables you choose. It cannot write, create, change or delete anything, and it cannot see data you did not grant.
+
 **Which read access should I choose?**
 
 | Option | What Lifesight can read | Choose it when |
 | :-- | :-- | :-- |
-| A: listed tables | Only the tables and views you name, one line each. | You want to share as little as possible. |
-| B: the whole schema | Every table and view in the schema, including any created in future. | New tables appear regularly and you do not want to come back to this script. |
+| A: listed tables (recommended) | Only the tables you name, one line each. | You want to share as little as possible. This is all Lifesight needs. |
+| B: the whole schema | Every table in the schema, including any created in future. | New tables appear regularly and you do not want to come back to this script. |
 
 **Check it worked.** The last two lines of the script print what was set up:
 
 * `DESC USER LIFESIGHT` should show `TYPE` as `SERVICE`, a value in `RSA_PUBLIC_KEY_FP`, a default warehouse and role, and `HAS_PASSWORD` as `false`.
-* `SHOW GRANTS TO ROLE LIFESIGHT_READER` should list `USAGE` on the warehouse, database and schema, and `SELECT` on each table or view you granted.
+* `SHOW GRANTS TO ROLE LIFESIGHT_READER` should list `USAGE` on the warehouse, database and schema, and `SELECT` on each table you granted. Nothing else should be listed.
 
 To add another database, schema or table later, add the matching lines and run the script again.
 
