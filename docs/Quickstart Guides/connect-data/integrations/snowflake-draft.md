@@ -40,11 +40,11 @@ A credential is saved only once it passes a connection test, so the order is: fi
 3. On the first step, **Name & Connect**, click **Add credential**.
 4. Fill in the fields below.
 
-[[IMG01]]
+![The Data Warehouses tab of Add Integration, showing Snowflake and BigQuery](https://files.readme.io/52c381587621b90956d4444442f1443b024ec634b574a3066e6c9fd6c00a2872-01-add-integration-data-warehouses.jpg)
 
-[[IMG02]]
+![Step 1 of the Snowflake wizard, Name & Connect, with the Add credential button](https://files.readme.io/7c8551e6b88e6618255ecb3364e22cc049d9e1823a916f118839c51d9b81fd42-02-step1-name-and-connect.jpg)
 
-[[IMG03]]
+![The Add Snowflake credential dialog with its fields filled in](https://files.readme.io/444a3b5f0737f5cdc4001d917b3de420e17138e7cb2785b1070e9eae1aea8ee9-03-add-credential.jpg)
 
 | Field | What to enter | Example |
 | :-- | :-- | :-- |
@@ -59,7 +59,7 @@ List every database and schema you plan to read, not only the first one. The cre
 
 If a value does not fit these rules, the field says what to fix before you can test.
 
-[[IMG06]]
+![The credential dialog showing validation messages for a duplicate name, a pasted URL and qualified names](https://files.readme.io/96e85f0c29fec310bac3ad839f079dfc3b64ed790c0371e929e0fd279e2f9459-06-validation-errors.jpg)
 
 The user and role are not fields. Lifesight always signs in as the user `LIFESIGHT` with the role `LS_ADMIN`, and the setup script creates both.
 
@@ -67,7 +67,7 @@ The user and role are not fields. Lifesight always signs in as the user `LIFESIG
 
 Below the fields, the **Setup script** section holds the SQL that gives Lifesight access. It is built from what you typed, so the warehouse, databases and schemas are already filled in.
 
-[[IMG04]]
+![The Setup script section, with Grant read on set to One table and all placeholders filled](https://files.readme.io/ce85f4661b1fad2981b09f99fe89b4a2983eed9d6ec92da1197a604460441eb9-04-setup-script.jpg)
 
 1. Under **Grant read on**, choose how much Lifesight may read:
    * **One table** grants `SELECT` on a single named table in each schema. Type the table name in the **Table** field. This is the narrowest access.
@@ -104,7 +104,7 @@ The last two statements print what was set up. Before you return to Lifesight, c
 
 If your Snowflake account uses a network policy, allow Lifesight's IP address `35.206.86.230`, or the user will not be able to sign in. The optional **Firewall** section of the credential dialog has the script ready to copy:
 
-[[IMG05]]
+![The Firewall section of the credential dialog, with the network policy script](https://files.readme.io/80593f5b816e4b93496e8e334795841aa1afcb510f1f77160f02b87979b61352-05-firewall.jpg)
 
 ```sql
 CREATE NETWORK POLICY LIFESIGHT_NETWORK_POLICY
@@ -127,15 +127,15 @@ With a credential in place, the wizard has four steps: **Name & Connect**, **Sel
 3. Choose the **Database** and **Schema** this integration reads. Only the ones listed on the credential are offered.
 4. Click **Verify and continue**.
 
-[[IMG07]]
+![The credential picker, grouping credentials under Access verified and Partial access](https://files.readme.io/740f5df07f1928ebeb87dae753536319d44a5e548a7f7e9c2369db4b0412b437-07-credential-picker.jpg)
 
-[[IMG08]]
+![Step 1 with a credential, database and schema selected](https://files.readme.io/42789feb7bd3ec1daa42c874207e34e26d8efff9f3e073bbbfb5eb8c2ca2e5a5-08-step1-credential-selected.jpg)
 
 ### 2. Select tables
 
 Pick the one table to sync. Each row shows the table's row count, column count, size and when it was last updated, and selecting a table lists its columns and their types on the right.
 
-[[IMG09]]
+![Step 2, Select a table, with one table selected and its columns listed](https://files.readme.io/b9e0db397db276bf996f44ce8f371f828e325d14c34881d7287c8e4227151837-09-step2-select-table.jpg)
 
 A few things to know about this list:
 
@@ -149,7 +149,7 @@ A few things to know about this list:
 
 Lifesight shows the row and column counts and a preview of the first rows, then asks two questions.
 
-[[IMG10]]
+![Step 3, Data setup, with the date column, granularity and layout choices](https://files.readme.io/5aefe0497127c2b270c9cd12b118f37845d5a6a9e12ea5958e35493fa8ad6a75-10-step3-data-setup.jpg)
 
 **Which column has the date?** Pick the date column and its granularity, such as Daily. Lifesight checks that the dates are consistent before ingesting.
 
@@ -160,7 +160,7 @@ Lifesight shows the row and column counts and a preview of the first rows, then 
 
 Below the two questions, a preview shows the first 15 rows of the table.
 
-[[IMG11]]
+![The data preview on step 3, showing the first 15 rows](https://files.readme.io/e91839fcfcc25cfb111858cf068afc7b68c1de8f6fae661b039c3167dec09851-11-step3-preview.jpg)
 
 ### 4. Schedule & sync
 
@@ -173,7 +173,7 @@ Below the two questions, a preview shows the first 15 rows of the table.
 | Monthly | The day of the month and the time. |
 | Manual | Nothing. Data refreshes only when you sync from the integration page. |
 
-[[IMG12]]
+![Step 4, Schedule, with frequency and time](https://files.readme.io/bedf8023fb83893e379b1a47b52d8211bb87f068439aee741d16e034a567c289-12-step4-schedule.jpg)
 
 **Each time we refresh.** Choose what happens to the data Lifesight already has:
 
@@ -184,7 +184,7 @@ Below the two questions, a preview shows the first 15 rows of the table.
 
 Use **Replace and append** when the table grows over time and occasionally corrects recent rows. Use **Full replace** when the table is always the complete, current picture.
 
-[[IMG13]]
+![The two refresh options on step 4, Replace and append and Full replace](https://files.readme.io/7b6dbaab225cd77ea99a3d90efa664d30525ac5d7a170e06e50a6a81e9fb9a28-13-step4-refresh-options.jpg)
 
 Rows are matched on the date column to begin with. After the first sync you set the source's real keys in Data Transformation.
 
@@ -194,11 +194,11 @@ Click **Connect** to finish.
 
 A confirmation reads **Integration successful**, and you return to the Add Integration page. The first sync can take 24 to 48 hours to complete.
 
-[[IMG14]]
+![The Integration successful confirmation](https://files.readme.io/d89c1bd15c250447cba1a381b8718310997b5a7465102f1101ed75d28ff64be7-14-integration-successful.jpg)
 
 On **Data > Integrations**, the Snowflake row shows its status, who connected it and the time of its last sync. Expand the row to see each data source and when it last synced.
 
-[[IMG15]]
+![The integrations list with the Snowflake row expanded](https://files.readme.io/4a1a04fa17e73d3db52fef0b03cf2ca976744531263fe55e30ab5e709bfe6568-15-integrations-list.jpg)
 
 Next, open **Data > Data Transformation**, find the source in the list, map its columns to Lifesight fields, and set its keys.
 
@@ -210,7 +210,7 @@ To sync another table, add another Snowflake integration and pick the same crede
 
 On step 1 of the wizard, pick the credential and click **Edit**. The dialog lists the integrations that use it.
 
-[[IMG16]]
+![The Edit credential dialog, with the account identifier locked and the sign-in shown read-only](https://files.readme.io/eb5c5fbb71871ea104fdf48af981d9dea7ca7f26af835d0a549959a40abd05b8-16-edit-credential.jpg)
 
 **You can change** the credential's name, the warehouse, and the databases and schemas it lists. After adding a database or schema, open **Setup script**, copy it again, re-run it in Snowflake, then click **Test and save**.
 
@@ -220,7 +220,7 @@ On step 1 of the wizard, pick the credential and click **Edit**. The dialog list
 
 **Removing a database or schema stops the integrations that read it.** Anything an integration reads is marked **In use**. If you remove it, Lifesight names the integrations that will stop refreshing before you save. Data already loaded stays, and the integration refreshes again once it is pointed at something the credential can read.
 
-[[IMG17]]
+![The warning shown after removing a schema that an integration reads](https://files.readme.io/6865978a7a8ac634757050f2e7be9bad8d8ea9002acb5f85dd241727c192c53e-17-edit-credential-warning.jpg)
 
 ## Troubleshooting
 
