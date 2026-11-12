@@ -1,14 +1,14 @@
 ---
 title: Snowflake
 excerpt: >-
-  Connect Snowflake so the tables your data team already maintains refresh into
-  Lifesight on a schedule.
+  Connect Snowflake to bring any data stored in your warehouse into Lifesight,
+  from paid and organic performance to KPIs and contextual factors.
 deprecated: false
 hidden: true
 metadata:
   robots: index
 ---
-If your spend, orders or offline sales are already modeled in Snowflake, there is no reason to export them. Lifesight reads the table directly, on the schedule you set, and only ever reads. It cannot write to, change or delete anything in your account.
+If your data is already stored in Snowflake, there is no reason to export it. That covers paid media, organic activity, KPIs such as revenue and orders, and contextual factors such as pricing and promotions. Lifesight reads the table directly, on the schedule you set, and only ever reads. It cannot write to, change or delete anything in your account.
 
 Setting it up has two parts, and it helps to keep them apart:
 
