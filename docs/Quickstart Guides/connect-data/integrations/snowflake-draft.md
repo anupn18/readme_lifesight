@@ -12,108 +12,114 @@ Snowflake is the cloud data warehouse where many teams keep the data that does n
 
 Connecting Snowflake lets Lifesight read those tables on a schedule, so nobody has to export and upload files.
 
-**On this page**
+## The steps at a glance
 
-1. [What Lifesight brings in](#what-lifesight-brings-in)
-2. [Before you start](#before-you-start): what to have ready
-3. [Set up the Snowflake credential](#creating-a-snowflake-user-for-lifesight): done once, usually by your data or IT team
-   * [Step 1: Create the two key files](#step-1-create-the-two-key-files)
-   * [Step 2: Create the user in Snowflake](#step-2-create-the-user-in-snowflake)
-   * [Step 3: Copy the private key and keep it safe](#step-3-copy-the-private-key-and-keep-it-safe)
-4. [Connect Snowflake](#connecting-snowflake): done in Lifesight, once per table
-   * [Name and connect](#1-name-and-connect)
-   * [Select a table](#2-select-a-table)
-   * [Data setup](#3-data-setup)
-   * [Schedule and sync](#4-schedule-and-sync)
-5. [After connecting](#after-connecting): map your fields
-6. [Troubleshooting](#troubleshooting)
+There are seven steps, in two parts.
+
+| Step | What you do | Where |
+| :-- | :-- | :-- |
+| **Part 1: Set up the Snowflake credential** | Done once, usually by your data or IT team | |
+| [Step 1](#step-1-create-the-two-key-files) | Create the two key files | Your computer |
+| [Step 2](#step-2-create-the-user-in-snowflake) | Create the user | Snowflake |
+| [Step 3](#step-3-save-the-private-key) | Save the private key | Your password manager |
+| **Part 2: Connect Snowflake in Lifesight** | Done for each table | |
+| [Step 4](#step-4-name-and-connect) | Name the integration and add the credential | Lifesight |
+| [Step 5](#step-5-select-a-table) | Select a table | Lifesight |
+| [Step 6](#step-6-set-up-the-data) | Set up the data | Lifesight |
+| [Step 7](#step-7-schedule-and-sync) | Schedule and sync | Lifesight |
+
+Also on this page: [What Lifesight brings in](#what-lifesight-brings-in), [After connecting](#after-connecting) and [Troubleshooting](#troubleshooting).
 
 ***
 
 ## What Lifesight brings in
 
-* **Only the tables you choose.** Tables and materialized views in the databases and schemas you give access to.
-* **One table per integration.** Add an integration for each table and reuse the same credential.
-* **Read only.** Lifesight never writes to, changes or deletes anything in Snowflake.
-
-You tell Lifesight what kind of data each table holds when you connect it:
-
-| Kind of data | Examples |
+| | |
 | :-- | :-- |
-| Paid Marketing | Spend, impressions and clicks from channels without a native connector |
-| KPI | Revenue, orders, leads, sign-ups |
-| Organic | Email sends, organic social, search visibility |
-| Contextual | Pricing, promotions, seasonality, stock levels |
+| **What it reads** | Only the tables and materialized views you choose. |
+| **How many** | One table per integration. Add an integration for each table and reuse the same credential. |
+| **What it can do** | Read only. Lifesight never writes to, changes or deletes anything in Snowflake. |
+| **Kinds of data** | Paid Marketing, KPI, Organic or Contextual. You choose the kind for each table in step 6. |
 
 ***
 
 ## Before you start
 
-You need:
+| You need | Details |
+| :-- | :-- |
+| A Snowflake admin | Someone who can run a script as `ACCOUNTADMIN`. This can be you or your data or IT team. |
+| Your account identifier | The part of your Snowflake URL before `.snowflakecomputing.com`. In `acme-xy12345.snowflakecomputing.com`, it is `acme-xy12345`. |
+| A warehouse name | An X-Small warehouse is enough. |
+| The database, schema and table names | What you want Lifesight to read. |
 
-1. **A Snowflake admin**, to create a user for Lifesight. This can be you or your data or IT team.
-2. **Your account identifier.** The part of your Snowflake URL before `.snowflakecomputing.com`. In `acme-xy12345.snowflakecomputing.com`, it is `acme-xy12345`.
-3. **The names of what Lifesight should read:**
-   * the warehouse (an X-Small warehouse is enough)
-   * the databases and schemas
-   * the tables
+***
 
-### Creating a Snowflake user for Lifesight
+## Part 1: Set up the Snowflake credential
 
-Lifesight signs in to Snowflake as its own read-only user, with a key pair instead of a password.
+Lifesight signs in to Snowflake as its own read-only user, with a key pair instead of a password. You do this part once.
 
 > 👍 You do not have to do this yourself
 >
-> Send this section to whoever looks after Snowflake at your company. It takes about ten minutes. They send you back the private key file and the names you need for the form.
+> Send this part to whoever looks after Snowflake at your company. It takes about ten minutes. They send you back the private key and the names you need in step 4.
 
-#### Step 1: Create the two key files
+### Step 1: Create the two key files
 
 1. Open a terminal:
    * **Mac:** press `Cmd + Space`, type `Terminal` and press Enter.
-   * **Windows:** use **Git Bash**, or ask your IT team to run this step.
-2. Paste the two lines below and press Enter.
+   * **Windows:** open **Git Bash**, or ask your IT team to run this step.
+2. Paste these two lines and press Enter:
 
 ```bash
 openssl genrsa 2048 | openssl pkcs8 -topk8 -inform PEM -out rsa_key.p8 -nocrypt
 openssl rsa -in rsa_key.p8 -pubout -out rsa_key.pub
 ```
 
-3. Check that two new files are in your home folder:
+**Result:** two new files in your home folder.
 
-| File | What it is | Where it goes |
+| File | What it is | Used in |
 | :-- | :-- | :-- |
-| `rsa_key.pub` | The public key. Not secret. | On the Snowflake user, in step 2. |
-| `rsa_key.p8` | The private key. Keep it secret. | Into Lifesight, when you add the credential. |
+| `rsa_key.pub` | The public key. Not secret. | Step 2 |
+| `rsa_key.p8` | The private key. Keep it secret. | Steps 3 and 4 |
 
-Both are plain text files. The public key looks like this. The private key looks the same, but is longer and says `PRIVATE KEY`.
+> 📘 What a key file looks like
+>
+> Both are plain text. The private key looks the same as this one, but is longer and says `PRIVATE KEY`.
+>
+> ```text
+> -----BEGIN PUBLIC KEY-----
+> MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu7Tq9xw2LkP4vGm1Zc8H
+> ... a few more lines like this ...
+> 8QIDAQAB
+> -----END PUBLIC KEY-----
+> ```
 
-```text
------BEGIN PUBLIC KEY-----
-MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu7Tq9xw2LkP4vGm1Zc8H
-Rn3JfQyE6bWdS0aKtNvXo5Ll2pMhCzYs9gUeI1AjB7rFxD4kVtq8ZnWmPc3oRbLy
-... a few more lines like these ...
-8QIDAQAB
------END PUBLIC KEY-----
-```
+### Step 2: Create the user in Snowflake
 
-#### Step 2: Create the user in Snowflake
-
-1. Print the public key as one line, the form Snowflake needs. Run this, then select the output and copy it.
+1. Print the public key as one line, the form Snowflake needs. Run this in the terminal, then copy the output:
 
 ```bash
 grep -v "PUBLIC KEY" rsa_key.pub | tr -d '\n'
 ```
 
 2. In Snowflake, click **+** and open a new **SQL Worksheet**.
-3. Paste the script below and replace each placeholder:
-   * `<WAREHOUSE_NAME>`: your warehouse
-   * `<DATABASE_NAME>` and `<SCHEMA_NAME>`: where your data is
-   * `<TABLE_NAME>`: the table to share
-   * `<PUBLIC_KEY>`: the line you copied, inside the quotes
-4. Choose the read access in step 6 of the script:
-   * **Option A (recommended):** only the tables you name, one line each. This is all Lifesight needs.
-   * **Option B:** every table in the schema, including ones created later. Use it if new tables appear regularly.
-5. Run the whole script as `ACCOUNTADMIN`. It is safe to run again later.
+3. Paste the script below into the worksheet.
+4. Replace each placeholder:
+
+| Placeholder | Replace with |
+| :-- | :-- |
+| `<WAREHOUSE_NAME>` | Your warehouse |
+| `<DATABASE_NAME>` and `<SCHEMA_NAME>` | Where your data is |
+| `<TABLE_NAME>` | The table to share |
+| `<PUBLIC_KEY>` | The line you copied in action 1, inside the quotes |
+
+5. Choose the read access in section 6 of the script:
+
+| Option | What Lifesight can read | Choose it when |
+| :-- | :-- | :-- |
+| A (recommended) | Only the tables you name, one line each | You want to share as little as possible. This is all Lifesight needs. |
+| B | Every table in the schema, including ones created later | New tables appear regularly |
+
+6. Run the whole script as `ACCOUNTADMIN`.
 
 ```sql
 -- ============================================================================
@@ -128,7 +134,7 @@ grep -v "PUBLIC KEY" rsa_key.pub | tr -d '\n'
 --   3. It is safe to run again. It never removes existing grants.
 -- ============================================================================
 
--- STEP 1: Create the service user
+-- SECTION 1: Create the service user
 USE ROLE USERADMIN;
 
 CREATE USER IF NOT EXISTS LIFESIGHT
@@ -136,7 +142,7 @@ CREATE USER IF NOT EXISTS LIFESIGHT
   DISPLAY_NAME = 'Lifesight Integration'
   COMMENT      = 'Read-only service user for the Lifesight integration';
 
--- STEP 2: Key-pair sign-in, user type and default warehouse
+-- SECTION 2: Key-pair sign-in, user type and default warehouse
 -- These run every time, so they also apply if the user already existed.
 ALTER USER LIFESIGHT UNSET PASSWORD;
 ALTER USER LIFESIGHT SET TYPE = SERVICE;
@@ -145,22 +151,22 @@ ALTER USER LIFESIGHT SET
   RSA_PUBLIC_KEY    = '<PUBLIC_KEY>';
 -- ^ The public key as one line, without the BEGIN/END lines or line breaks.
 
--- STEP 3: Create the read-only role and give it to the user
+-- SECTION 3: Create the read-only role and give it to the user
 USE ROLE SECURITYADMIN;
 
 CREATE ROLE IF NOT EXISTS LIFESIGHT_READER;
 GRANT ROLE LIFESIGHT_READER TO USER LIFESIGHT;
 ALTER USER LIFESIGHT SET DEFAULT_ROLE = LIFESIGHT_READER;
 
--- STEP 4: Let the role use the warehouse
+-- SECTION 4: Let the role use the warehouse
 GRANT USAGE ON WAREHOUSE <WAREHOUSE_NAME> TO ROLE LIFESIGHT_READER;
 
--- STEP 5: Let the role see the database and schema (this gives no data access)
+-- SECTION 5: Let the role see the database and schema (this gives no data access)
 -- Repeat the SCHEMA line for each extra schema.
 GRANT USAGE ON DATABASE <DATABASE_NAME>               TO ROLE LIFESIGHT_READER;
 GRANT USAGE ON SCHEMA   <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
 
--- STEP 6: Give read access to your data. Choose ONE option.
+-- SECTION 6: Give read access to your data. Choose ONE option.
 -- Lifesight only needs SELECT on the tables you want to sync.
 
 -- OPTION A (recommended): only the tables you list. One line per table.
@@ -173,43 +179,27 @@ GRANT SELECT ON TABLE <DATABASE_NAME>.<SCHEMA_NAME>.<TABLE_NAME> TO ROLE LIFESIG
 -- GRANT SELECT ON ALL    TABLES IN SCHEMA <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
 -- GRANT SELECT ON FUTURE TABLES IN SCHEMA <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
 
--- STEP 7: Check the result
+-- SECTION 7: Check the result
 DESC USER LIFESIGHT;
 SHOW GRANTS TO ROLE LIFESIGHT_READER;
 ```
 
-6. Check the output of the last two lines:
-   * `DESC USER LIFESIGHT` shows `TYPE` as `SERVICE`, a value in `RSA_PUBLIC_KEY_FP`, a default warehouse and role, and `HAS_PASSWORD` as `false`.
-   * `SHOW GRANTS TO ROLE LIFESIGHT_READER` lists `USAGE` on the warehouse, database and schema, and `SELECT` on each table you granted. Nothing else.
+7. Check the output of the last two lines:
 
-The role can only read what you granted. It cannot write, create, change or delete anything.
+| Line | It should show |
+| :-- | :-- |
+| `DESC USER LIFESIGHT` | `TYPE` is `SERVICE`, `RSA_PUBLIC_KEY_FP` has a value, `HAS_PASSWORD` is `false` |
+| `SHOW GRANTS TO ROLE LIFESIGHT_READER` | `USAGE` on the warehouse, database and schema, and `SELECT` on each table you granted. Nothing else. |
 
-To add a database, schema or table later, add the matching lines and run the script again.
+**Result:** the user `LIFESIGHT` exists with the role `LIFESIGHT_READER`, and can only read what you granted.
 
-#### Step 3: Copy the private key and keep it safe
-
-1. Copy everything in `rsa_key.p8`, including the `BEGIN` and `END` lines:
-   * **Mac:** run `pbcopy < rsa_key.p8` in Terminal. The key is now on your clipboard.
-   * **Any computer:** open the file in a plain text editor such as TextEdit or Notepad, select all and copy.
-2. Save it in your company password manager, such as 1Password or Bitwarden. Lifesight never shows the key again, so keep your own copy.
-3. Delete the file from your computer.
-
-Treat the private key like a password:
-
-* Do not send it by email or chat. Share it through the password manager.
-* If it is lost or shared by mistake, create a new key pair, put the new public key on the Snowflake user, and give Lifesight the new private key.
-
-You should now have:
-
-* the private key
-* your account identifier
-* the warehouse name
-* the user (`LIFESIGHT`) and role (`LIFESIGHT_READER`)
-* the databases and schemas you granted
-
-> 📘 Does your Snowflake account restrict sign-in by IP?
+> 📘 Adding more later
 >
-> If your account uses a network policy, allow Lifesight's IP address `34.46.164.161`, or the connection test will fail.
+> To add a database, schema or table, add the matching lines and run the script again. It is safe to run more than once.
+
+> 🚧 Does your Snowflake account restrict sign-in by IP?
+>
+> If your account uses a network policy, also run this, or the connection test in step 4 will fail. Lifesight's IP address is `34.46.164.161`.
 >
 > ```sql
 > CREATE NETWORK POLICY LIFESIGHT_NETWORK_POLICY
@@ -218,20 +208,45 @@ You should now have:
 > ALTER USER LIFESIGHT SET NETWORK_POLICY = 'LIFESIGHT_NETWORK_POLICY';
 > ```
 
+### Step 3: Save the private key
+
+1. Copy everything in `rsa_key.p8`, including the `BEGIN` and `END` lines:
+   * **Mac:** run `pbcopy < rsa_key.p8` in the terminal. The key is now on your clipboard.
+   * **Windows:** open the file in Notepad, select all and copy.
+2. Save it in your company password manager, such as 1Password or Bitwarden.
+3. Delete `rsa_key.p8` from your computer.
+
+**Result:** the private key is stored safely and ready to paste in step 4.
+
+> 🚧 Treat the private key like a password
+>
+> Do not send it by email or chat. Share it through the password manager. Lifesight never shows the key again, so keep your copy. If it is lost or shared by mistake, repeat steps 1 to 3 to create a new one.
+
+**Before you go on to Part 2, check you have:**
+
+| What | Example |
+| :-- | :-- |
+| Private key | Saved in your password manager |
+| Account identifier | `acme-xy12345` |
+| Warehouse | `LIFESIGHT_WH` |
+| User | `LIFESIGHT` |
+| Role | `LIFESIGHT_READER` |
+| Databases and schemas | `ANALYTICS` with `MARKETING` |
+
 ***
 
-## Connecting Snowflake
+## Part 2: Connect Snowflake in Lifesight
 
-The setup has four steps.
+You do this part for each table you want to bring in. The credential from Part 1 is reused every time.
 
-### 1. Name and connect
+### Step 4: Name and connect
 
 1. Go to **Data > Integrations** and click **Add Integration**.
 2. Open the **Data Warehouses** tab and click **Connect** on the Snowflake tile.
 
 ![The Data Warehouses tab with the Snowflake tile](https://files.readme.io/92c4a9953852d347d4ad0c052e6d1f09fbe2e3828f6a63360c1f974cdba78273-snowflake-data-warehouses.png)
 
-3. Enter an **Integration Name**, for example `Paid media daily`. It is shown on your integrations list.
+3. Enter an **Integration Name**, for example `Paid media daily`.
 
 ![The Name & Connect step of the Snowflake setup](https://files.readme.io/f63624857f5c7623cdd9864a72661d4b63f33e85074e2655428880ba4b2dda12-snowflake-name-and-connect.png)
 
@@ -239,82 +254,93 @@ The setup has four steps.
 
 | Field | What to enter |
 | :-- | :-- |
-| Credential name | Any name that helps you recognise this sign-in, for example `Acme analytics`. |
-| Account identifier | Your account identifier, for example `acme-xy12345`. Not the full URL. |
-| Warehouse | The warehouse name only, for example `LIFESIGHT_WH`. |
-| Role (optional) | `LIFESIGHT_READER`. Leave empty to use the user's default role. |
+| Credential name | Any name that helps you recognise this sign-in, for example `Acme analytics` |
+| Account identifier | Your account identifier. Not the full URL. |
+| Warehouse | Your warehouse name |
+| Role (optional) | `LIFESIGHT_READER` |
 | Username | `LIFESIGHT` |
-| Passphrase (optional) | Leave empty, unless your private key is encrypted. |
-| Private key | The private key you copied. |
+| Passphrase (optional) | Leave empty |
+| Private key | Paste the private key from your password manager |
 | Databases and schemas | Every database and schema you granted. Click **Add database** for more. |
 
 ![The Add Snowflake credential dialog](https://files.readme.io/1354f72506e225a23919f5df430fe1aa0e2ffdbd2489d07092edcc490cb17aa2-snowflake-credential-form.png)
 
-5. Click **Test and save**. Lifesight signs in and checks it can read each schema. The credential is saved only if the test passes.
+5. Click **Test and save**.
 6. Choose the **Database** and **Schema** for this integration.
 7. Click **Verify and continue**.
 
-### 2. Select a table
+**Result:** the credential is saved and you move to the table list. If the test fails, see [Troubleshooting](#troubleshooting).
 
-1. Find the table you want to bring in. Use the search box in a large schema.
+> 📘 Next time, skip the form
+>
+> The credential is saved. For your next table, pick it from the list in action 4.
+
+### Step 5: Select a table
+
+1. Find the table you want. Use the search box in a large schema.
 2. Select it. Its columns and their types show on the right.
 3. Click **Continue**.
 
 ![The Select a table step, with a table chosen and its columns listed on the right](https://files.readme.io/235d1fff60bfd448bef5bb33fdb061ba860c84fe150d24c3f2d3e14578fa86c4-snowflake-select-table.png)
 
-Good to know:
+> 📘 Cannot pick a table?
+>
+> A table that is already connected cannot be picked again, so the same data is never counted twice. If your table is not in the list, see [Troubleshooting](#databases-schemas-and-tables).
 
-* Each row shows the table's rows, columns, size and when it was last updated.
-* A table that is already connected cannot be picked again, so the same data is never counted twice.
-* If your table is missing, see [Troubleshooting](#databases-schemas-and-tables).
+### Step 6: Set up the data
 
-### 3. Data setup
+1. Answer the questions about your table:
 
-1. Tell Lifesight how to read the table:
-
-| What you confirm | What it means |
+| Question | What to choose |
 | :-- | :-- |
-| Which column has the date? | The column Lifesight uses to read your data over time. It warns you if dates are inconsistent or missing. |
-| Granularity | Whether each row is a day, a week or a month. |
-| How is your data laid out? | **Stacked rows:** every row is one record, and channels are values in a column. **Pivoted columns:** every row is one date, and each channel has its own column. |
-| What kind of data is this? | **Paid Marketing**, **KPI**, **Contextual**, **Organic** or **Other**. Other keeps the table for reference only. |
-| Columns to import (optional) | All columns by default. Choose specific ones if you only need some. |
+| Which column has the date? | The column that says which day, week or month each row belongs to |
+| Granularity | Daily, Weekly or Monthly |
+| How is your data laid out? | **Stacked rows**: every row is one record, and channels appear as values in a column |
+| What kind of data is this? | Paid Marketing, KPI, Contextual, Organic or Other. Other keeps the table for reference only. |
+| Columns to import (optional) | All columns, or only the ones you need |
 
 ![The Data setup step, with the date column, granularity and layout choices](https://files.readme.io/bb982678c1a1aab40c282328f6b16826d98f53b6a47d0e137caab30587c3f433-snowflake-data-setup.png)
 
-2. Check the **Preview** of the first rows to make sure it is the right table.
+2. Check the **Preview** to make sure it is the right table.
 
 ![The preview of the first rows of the table on the Data setup step](https://files.readme.io/b1e65f3d803911a2e6c43f4a6570176d48d4317d2b8275ab6913df19c3b16bea-snowflake-preview.png)
 
 3. Click **Continue**.
 
-### 4. Schedule and sync
+### Step 7: Schedule and sync
 
 1. Choose how often Lifesight refreshes the data:
-   * **Daily:** set the time of day.
-   * **Weekly:** set the day of the week and the time.
-   * **Monthly:** set the day of the month and the time.
 
-   Syncs are scheduled in UTC. The page also shows the time in your own time zone.
+| Frequency | What you set |
+| :-- | :-- |
+| Daily | The time of day |
+| Weekly | The day of the week and the time |
+| Monthly | The day of the month and the time |
+
 2. Choose how much to read each time:
-   * **Full reload (recommended):** reads the whole table and replaces what was loaded before. Right for most tables.
-   * **Incremental by date column:** reads only new rows, plus a few days back to pick up late changes. Use it for very large tables that have a date or timestamp column.
+
+| Option | What it does | Use it for |
+| :-- | :-- | :-- |
+| Full reload (recommended) | Reads the whole table and replaces what was loaded before | Most tables |
+| Incremental by date column | Reads only new rows, plus a few days back for late changes | Very large tables with a date or timestamp column |
+
 3. Click **Connect**.
 
-The first sync starts straight away, then repeats on your schedule.
+**Result:** the integration is connected. The first sync starts straight away, then repeats on your schedule.
+
+> 📘 Time zone
+>
+> Syncs are scheduled in UTC. The page also shows the time in your own time zone.
 
 ***
 
 ## After connecting
 
-1. **Map the fields.** Open **Data > [Data Transformation](https://docs.lifesight.io/docs/4-data-transformation)**, find your Snowflake source and match its columns to Lifesight fields. Nothing is mapped until you do this. See [Map a field from a source](https://docs.lifesight.io/docs/map-field-from-source).
-2. **Fill in what the table does not say.** If the whole table belongs to one channel or one country, set that once:
-   * [Set a fixed value for a source](https://docs.lifesight.io/docs/fixed-value-source)
-   * [Map a source to a channel](https://docs.lifesight.io/docs/map-source-channel)
-
-> 👍 Bringing in more tables
->
-> Click **Add Integration**, choose Snowflake and pick the same credential. You do not need another Snowflake user.
+| Next | What to do | Guide |
+| :-- | :-- | :-- |
+| Map the fields | Open **Data > Data Transformation**, find your Snowflake source and match its columns to Lifesight fields. Nothing is mapped until you do this. | [Data Transformation](https://docs.lifesight.io/docs/4-data-transformation), [Map a field from a source](https://docs.lifesight.io/docs/map-field-from-source) |
+| Fill in what the table does not say | If the whole table belongs to one channel or one country, set that once. | [Set a fixed value for a source](https://docs.lifesight.io/docs/fixed-value-source), [Map a source to a channel](https://docs.lifesight.io/docs/map-source-channel) |
+| Bring in another table | Repeat steps 4 to 7 and pick the same credential. You do not need another Snowflake user. | [Part 2](#part-2-connect-snowflake-in-lifesight) |
 
 ***
 
@@ -326,9 +352,9 @@ The first sync starts straight away, then repeats on your schedule.
 | :-- | :-- |
 | Snowflake rejected the sign-in | Check the username, and that the private key belongs to the public key set on that user. |
 | Snowflake has no account with that name | Enter only the account identifier, not the full URL. |
-| "JWT token is invalid" | The public key on the Snowflake user is missing or has line breaks. Run step 2 of the script again with the key as one line. |
-| The private key is not accepted | The key must start with `-----BEGIN PRIVATE KEY-----`. If it starts with `-----BEGIN RSA PRIVATE KEY-----`, create it again with [Step 1](#step-1-create-the-two-key-files). |
-| The test fails only from Lifesight | Your account probably has a network policy. Allow Lifesight's IP address `34.46.164.161`. |
+| "JWT token is invalid" | The public key on the Snowflake user is missing or has line breaks. Run section 2 of the script again with the key as one line. |
+| The private key is not accepted | The key must start with `-----BEGIN PRIVATE KEY-----`. If it starts with `-----BEGIN RSA PRIVATE KEY-----`, repeat [step 1](#step-1-create-the-two-key-files). |
+| The test fails only from Lifesight | Your account probably has a network policy. Allow Lifesight's IP address `34.46.164.161`, as shown in [step 2](#step-2-create-the-user-in-snowflake). |
 
 ### Role and warehouse
 
