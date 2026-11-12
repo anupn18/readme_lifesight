@@ -4,7 +4,7 @@ excerpt: >-
   Connect Snowflake to bring any data stored in your warehouse into Lifesight,
   from paid and organic performance to KPIs and contextual factors.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
