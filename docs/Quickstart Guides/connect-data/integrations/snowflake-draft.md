@@ -17,6 +17,8 @@ Connecting Snowflake lets Lifesight read those tables directly on a schedule, so
 * [Set up the Snowflake credential](#creating-a-snowflake-user-for-lifesight): create the user and key Lifesight signs in with. You do this once.
 * [Connect Snowflake](#connecting-snowflake): add the credential in Lifesight and bring in a table.
 
+***
+
 ## What Lifesight brings in
 
 Lifesight reads the tables you choose, and nothing else:
@@ -33,6 +35,8 @@ Any kind of data can come through Snowflake. You tell Lifesight which kind each 
 | KPI | Revenue, orders, leads, sign-ups |
 | Organic | Email sends, organic social, search visibility |
 | Contextual | Pricing, promotions, seasonality, stock levels |
+
+***
 
 ## Before you start
 
@@ -203,6 +207,8 @@ When this is done, you should have these to hand for the next section: the priva
 > ALTER USER LIFESIGHT SET NETWORK_POLICY = 'LIFESIGHT_NETWORK_POLICY';
 > ```
 
+***
+
 ## Connecting Snowflake
 
 With the Snowflake user ready, connecting takes a few minutes. The setup has four steps: **Name & Connect**, **Select tables**, **Data setup**, and **Schedule & sync**.
@@ -289,6 +295,8 @@ Syncs are scheduled in UTC. The page shows the same time in your own time zone.
 | Incremental by date column | Reads only the rows that are new since the last sync, plus a few days back to pick up late changes. | Very large tables that have a date or timestamp column. |
 
 Click **Connect**. The first sync starts straight away, then repeats on your schedule.
+
+***
 
 ## After connecting
 
