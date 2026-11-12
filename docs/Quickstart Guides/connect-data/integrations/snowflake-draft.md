@@ -16,17 +16,22 @@ Connecting Snowflake lets Lifesight read those tables on a schedule, so nobody h
 
 There are seven steps, in two parts.
 
-| Step | What you do | Where |
+**Part 1: Set up the Snowflake credential.** Done once. It needs someone who manages Snowflake, so most marketers hand this part to their IT or data team.
+
+| Step | What happens | Who does it |
 | :-- | :-- | :-- |
-| **Part 1: Set up the Snowflake credential** | Done once, usually by your data or IT team | |
-| [Step 1](#step-1-create-the-two-key-files) | Create the two key files | Your computer |
-| [Step 2](#step-2-create-the-user-in-snowflake) | Create the user | Snowflake |
-| [Step 3](#step-3-save-the-private-key) | Save the private key | Your password manager |
-| **Part 2: Connect Snowflake in Lifesight** | Done for each table | |
-| [Step 4](#step-4-name-and-connect) | Name the integration and add the credential | Lifesight |
-| [Step 5](#step-5-select-a-table) | Select a table | Lifesight |
-| [Step 6](#step-6-set-up-the-data) | Set up the data | Lifesight |
-| [Step 7](#step-7-schedule-and-sync) | Schedule and sync | Lifesight |
+| [Step 1: Create the two key files](#step-1-create-the-two-key-files) | Two key files are created. Lifesight uses them to sign in instead of a password. | Your IT or data team, or you |
+| [Step 2: Create the user in Snowflake](#step-2-create-the-user-in-snowflake) | A script creates a read-only Snowflake user for Lifesight. | Your IT or data team, or you |
+| [Step 3: Save the private key](#step-3-save-the-private-key) | The private key is stored safely and passed to whoever does Part 2. | Your IT or data team, or you |
+
+**Part 2: Connect Snowflake in Lifesight.** Done for each table. No Snowflake knowledge needed.
+
+| Step | What happens | Who does it |
+| :-- | :-- | :-- |
+| [Step 4: Name and connect](#step-4-name-and-connect) | You name the integration and add the credential from Part 1. | You |
+| [Step 5: Select a table](#step-5-select-a-table) | You pick the table to bring in. | You |
+| [Step 6: Set up the data](#step-6-set-up-the-data) | You tell Lifesight how to read the table. | You |
+| [Step 7: Schedule and sync](#step-7-schedule-and-sync) | You choose how often the data refreshes. | You |
 
 Also on this page: [What Lifesight brings in](#what-lifesight-brings-in), [After connecting](#after-connecting) and [Troubleshooting](#troubleshooting).
 
@@ -327,10 +332,6 @@ You do this part for each table you want to bring in. The credential from Part 1
 3. Click **Connect**.
 
 **Result:** the integration is connected. The first sync starts straight away, then repeats on your schedule.
-
-> 📘 Time zone
->
-> Syncs are scheduled in UTC. The page also shows the time in your own time zone.
 
 ***
 
