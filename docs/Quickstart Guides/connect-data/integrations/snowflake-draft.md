@@ -14,8 +14,19 @@ Connecting Snowflake lets Lifesight read those tables on a schedule, so nobody h
 
 **On this page**
 
-* [Set up the Snowflake credential](#creating-a-snowflake-user-for-lifesight): done once, usually by your data or IT team.
-* [Connect Snowflake](#connecting-snowflake): add the credential in Lifesight and bring in a table.
+1. [What Lifesight brings in](#what-lifesight-brings-in)
+2. [Before you start](#before-you-start): what to have ready
+3. [Set up the Snowflake credential](#creating-a-snowflake-user-for-lifesight): done once, usually by your data or IT team
+   * [Step 1: Create the two key files](#step-1-create-the-two-key-files)
+   * [Step 2: Create the user in Snowflake](#step-2-create-the-user-in-snowflake)
+   * [Step 3: Copy the private key and keep it safe](#step-3-copy-the-private-key-and-keep-it-safe)
+4. [Connect Snowflake](#connecting-snowflake): done in Lifesight, once per table
+   * [Name and connect](#1-name-and-connect)
+   * [Select a table](#2-select-a-table)
+   * [Data setup](#3-data-setup)
+   * [Schedule and sync](#4-schedule-and-sync)
+5. [After connecting](#after-connecting): map your fields
+6. [Troubleshooting](#troubleshooting)
 
 ***
 
