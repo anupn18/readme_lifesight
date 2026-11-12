@@ -240,6 +240,8 @@ With the Snowflake user ready, connecting takes a few minutes. The setup has fou
 
 Pick the table you want to bring in. Each row shows how many rows and columns the table has, its size and when it was last updated. When you pick a table, its columns and their types show on the right.
 
+![The Select a table step, with a table chosen and its columns listed on the right](https://files.readme.io/235d1fff60bfd448bef5bb33fdb061ba860c84fe150d24c3f2d3e14578fa86c4-snowflake-select-table.png)
+
 * **One table per integration.** To bring in more tables, add another integration afterwards and reuse the credential.
 * **Use the search box** to find a table by name in a large schema.
 * **A table that is already connected cannot be picked again**, so the same data is never counted twice.
@@ -251,6 +253,8 @@ Click **Continue**.
 
 Lifesight shows a sample of the table and asks how to read it.
 
+![The Data setup step, with the date column, granularity and layout choices](https://files.readme.io/bb982678c1a1aab40c282328f6b16826d98f53b6a47d0e137caab30587c3f433-snowflake-data-setup.png)
+
 | What you confirm | What it means |
 | :-- | :-- |
 | Which column has the date? | The column Lifesight uses to read your data over time. Lifesight checks that the dates are consistent and tells you if any are missing. |
@@ -258,6 +262,10 @@ Lifesight shows a sample of the table and asks how to read it.
 | How is your data laid out? | **Stacked rows** if every row is one record and channels appear as values in a column. **Pivoted columns** if every row is one date and each channel has its own column. |
 | What kind of data is this? | **Paid Marketing**, **KPI**, **Contextual**, **Organic** or **Other**. This decides how the data is used. Other keeps the table for reference only. |
 | Columns to import (optional) | All columns by default. Choose specific columns if you only need some. |
+
+Below these, a **Preview** shows the first rows of the table, so you can check it is the right one before you continue.
+
+![The preview of the first rows of the table on the Data setup step](https://files.readme.io/b1e65f3d803911a2e6c43f4a6570176d48d4317d2b8275ab6913df19c3b16bea-snowflake-preview.png)
 
 Click **Continue**.
 
