@@ -12,6 +12,11 @@ Snowflake is the cloud data warehouse where many teams keep the data that does n
 
 Connecting Snowflake lets Lifesight read those tables directly on a schedule, so nobody has to export and upload files, and warehouse data sits alongside every other source in your measurement.
 
+**On this page**
+
+* [Set up the Snowflake credential](#creating-a-snowflake-user-for-lifesight): create the user and key Lifesight signs in with. You do this once.
+* [Connect Snowflake](#connecting-snowflake): add the credential in Lifesight and bring in a table.
+
 ## What Lifesight brings in
 
 Lifesight reads the tables you choose, and nothing else:
