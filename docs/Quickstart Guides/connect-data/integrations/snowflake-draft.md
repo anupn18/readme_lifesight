@@ -222,7 +222,7 @@ When this is done, you should have these to hand for the next section: the priva
 | Private key | Everything in `rsa_key.p8`, from `-----BEGIN PRIVATE KEY-----` to `-----END PRIVATE KEY-----`. |
 | Databases and schemas | Every database and schema you want to read. Click **Add database** for more. |
 
-![The Add Snowflake credential dialog](https://files.readme.io/873ef6f3e89c79e112178eaa6523549186a5ce61c9a64af8ec36fe9024f5fe44-snowflake-add-credential.png)
+![The Add Snowflake credential dialog](https://files.readme.io/1354f72506e225a23919f5df430fe1aa0e2ffdbd2489d07092edcc490cb17aa2-snowflake-credential-form.png)
 
 5. Click **Test and save**. Lifesight signs in to Snowflake and checks that it can read each schema you listed. The credential is saved only when the test passes. Your private key is stored encrypted and is never shown again.
 6. Choose the **Database** and **Schema** for this integration, then click **Verify and continue**.
