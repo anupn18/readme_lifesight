@@ -299,7 +299,7 @@ You do this part for each table you want to bring in. The credential from Part 1
 | What kind of data is this? | Paid Marketing, KPI, Contextual, Organic or Other. Other keeps the table for reference only. |
 | Columns to import (optional) | All columns, or only the ones you need |
 
-![The Data setup step, with the date column, granularity and layout choices](https://files.readme.io/bb982678c1a1aab40c282328f6b16826d98f53b6a47d0e137caab30587c3f433-snowflake-data-setup.png)
+![The Data setup step, with the date column, granularity and layout choices](https://files.readme.io/9abe23b1e9ff5ddfb54f1c20280af7b224d647da43f8c8849b7f07058a4eba96-snowflake-data-setup-stacked.png)
 
 2. Check the **Preview** to make sure it is the right table.
 
