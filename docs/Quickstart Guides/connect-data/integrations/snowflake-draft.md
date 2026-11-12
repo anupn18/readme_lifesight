@@ -8,130 +8,155 @@ hidden: true
 metadata:
   robots: index
 ---
-If your data is already stored in Snowflake, there is no reason to export it. That covers paid media, organic activity, KPIs such as revenue and orders, and contextual factors such as pricing and promotions.
+Snowflake is the cloud data warehouse where many teams keep the data that does not live in an ad platform: orders and revenue, organic and CRM activity, pricing, promotions, and spend from channels with no connector of their own.
 
-Lifesight only reads your data. It never writes, changes or deletes anything in Snowflake.
+Connecting Snowflake lets Lifesight read those tables directly on a schedule, so nobody has to export and upload files, and warehouse data sits alongside every other source in your measurement.
 
-Setup has three steps. You do the first two once, and the third for each table you want to bring in.
+## What Lifesight brings in
+
+Lifesight reads the tables you choose, and nothing else:
+
+* **Tables and materialized views** in the databases and schemas you give access to.
+* **One table per integration.** To bring in several tables, add an integration for each and reuse the same credential.
+* **Read only.** Lifesight never writes to, changes or deletes anything in Snowflake.
+
+Any kind of data can come through Snowflake. You tell Lifesight which kind each table holds when you connect it:
+
+| Kind of data | Examples |
+| :-- | :-- |
+| Paid Marketing | Spend, impressions and clicks from channels without a native connector |
+| KPI | Revenue, orders, leads, sign-ups |
+| Organic | Email sends, organic social, search visibility |
+| Contextual | Pricing, promotions, seasonality, stock levels |
 
 ## Before you start
 
-Have these ready:
+You need three things.
 
-* **A Snowflake admin.** Someone who can run a script as `ACCOUNTADMIN`.
-* **Your account identifier.** The part of your Snowflake URL before `.snowflakecomputing.com`, for example `acme-xy12345`.
-* **A warehouse name.** An X-Small warehouse is enough.
-* **The database, schema and table names** you want to bring in.
+* **Someone with admin rights in Snowflake**, to create a user for Lifesight. Running the script below as `ACCOUNTADMIN` is the simplest way.
+* **Your account identifier.** This is the part of your Snowflake URL before `.snowflakecomputing.com`. In `acme-xy12345.snowflakecomputing.com`, it is `acme-xy12345`.
+* **The names of the warehouse, databases, schemas and tables** you want Lifesight to read. An X-Small warehouse is enough.
 
-You do not need to create a user or share a password. Lifesight signs in with a secure key pair, and nothing secret is typed or pasted.
+### Creating a Snowflake user for Lifesight
 
-## Step 1: Add your Snowflake credential
+Lifesight signs in to Snowflake as a service user with a key pair, not a password. You create the user once.
 
-A credential is the saved sign-in to your Snowflake account. You add it once and reuse it for every table.
+1. Generate a key pair on your computer. This creates a private key (`rsa_key.p8`) and a public key (`rsa_key.pub`).
 
-1. Go to **Data > Integrations** and click **Add Integration**.
-2. Open the **Data Warehouses** tab and click **Connect** on Snowflake.
+```bash
+openssl genrsa 2048 | openssl pkcs8 -topk8 -inform PEM -out rsa_key.p8 -nocrypt
+openssl rsa -in rsa_key.p8 -pubout -out rsa_key.pub
+```
 
-![The Data Warehouses tab of Add Integration, showing Snowflake](https://files.readme.io/cc2e92e4b1dbc937ce23613539d04f9d4b0a7f104bd155f1e28e254b8934d0ca-snowflake-add-integration.jpg)
+2. In Snowflake, open a new SQL worksheet and run the script below. Replace the values in angle brackets. For the public key, paste the contents of `rsa_key.pub` without the `BEGIN` and `END` lines and without line breaks.
 
-3. Click **Add credential**.
-4. Fill in the four fields.
+```sql
+USE ROLE ACCOUNTADMIN;
 
-| Field | What to enter | Example |
-| :-- | :-- | :-- |
-| Credential name | Any name that helps you recognise this sign-in. | `Acme analytics` |
-| Account identifier | The part of your Snowflake URL before `.snowflakecomputing.com`. Not the full URL. | `acme-xy12345` |
-| Warehouse | The warehouse name only. | `LIFESIGHT_WH` |
-| Databases and schemas | Every database and schema you plan to read. Click **Add database** to add more. | `ANALYTICS` with `MARKETING`, `FINANCE` |
+-- A read-only role for Lifesight
+CREATE ROLE IF NOT EXISTS LIFESIGHT_READER;
 
-![The Add Snowflake credential dialog with its fields filled in](https://files.readme.io/ab071ae62d8e791cf5293e0204878c9dacba9488094db632c2d214dbc773cfd7-snowflake-add-credential.jpg)
+-- A service user that signs in with the key pair
+CREATE USER IF NOT EXISTS SVC_LIFESIGHT
+  TYPE = SERVICE
+  DEFAULT_ROLE = LIFESIGHT_READER
+  DEFAULT_WAREHOUSE = <WAREHOUSE_NAME>
+  RSA_PUBLIC_KEY = '<PUBLIC_KEY>';
 
-> 📘 Enter names on their own
->
-> Type `ANALYTICS` as the database and `MARKETING` as the schema, not `ANALYTICS.MARKETING`. If a name has spaces or lowercase letters, wrap it in double quotes.
+GRANT ROLE LIFESIGHT_READER TO USER SVC_LIFESIGHT;
 
-## Step 2: Run the setup script
+-- What Lifesight is allowed to read
+GRANT USAGE ON WAREHOUSE <WAREHOUSE_NAME> TO ROLE LIFESIGHT_READER;
+GRANT USAGE ON DATABASE <DATABASE_NAME> TO ROLE LIFESIGHT_READER;
+GRANT USAGE ON SCHEMA <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
+GRANT SELECT ON ALL TABLES IN SCHEMA <DATABASE_NAME>.<SCHEMA_NAME> TO ROLE LIFESIGHT_READER;
 
-The setup script creates a read-only user for Lifesight in your Snowflake account and gives it access to the data you listed. It is already filled in with what you typed in step 1.
+-- To share one table only, use this line instead of the one above:
+-- GRANT SELECT ON TABLE <DATABASE_NAME>.<SCHEMA_NAME>.<TABLE_NAME> TO ROLE LIFESIGHT_READER;
+```
 
-1. Under **Grant read on**, choose **One table** and type the table name, or choose **All tables** to include every table in the schemas you listed.
-2. Click **Copy**.
-3. In Snowflake, paste the script into a worksheet and run all of it as `ACCOUNTADMIN`.
-4. Back in Lifesight, click **Test and save**.
+3. Keep the private key file (`rsa_key.p8`) to hand. You paste it into Lifesight in the next section.
 
-![The Setup script section of the credential dialog, with the Copy button](https://files.readme.io/289ba4e2c5df2a6b57a88e3d12e0303d95c86376f2df6003418ae812b6dbadc9-snowflake-setup-script.jpg)
-
-When the test passes, the credential is saved and marked **Access verified**.
-
-The script is safe to run again. Re-run it whenever you add a database, schema or table.
+Repeat the three `GRANT` lines for each extra database or schema you want Lifesight to read.
 
 > 📘 Does your Snowflake account restrict sign-in by IP?
 >
-> Allow Lifesight's IP address `35.206.86.230`. Open **Firewall** in the same dialog, copy the script, and run it in Snowflake.
+> If your account uses a network policy, allow Lifesight's IP address `34.46.164.161` for this user, or the connection test will fail.
+>
+> ```sql
+> CREATE NETWORK POLICY LIFESIGHT_NETWORK_POLICY
+>   ALLOWED_IP_LIST = ('34.46.164.161');
+>
+> ALTER USER SVC_LIFESIGHT SET NETWORK_POLICY = 'LIFESIGHT_NETWORK_POLICY';
+> ```
 
-## Step 3: Connect a table
+## Connecting Snowflake
 
-Each Snowflake integration brings in one table. Repeat this step for every table, using the same credential.
+1. Go to **Data > Integrations** and click **Add Integration**.
+2. Open the **Data Warehouses** tab and click **Connect** on the Snowflake tile.
 
-### Name and connect
+![The Data Warehouses tab with the Snowflake tile](https://files.readme.io/92c4a9953852d347d4ad0c052e6d1f09fbe2e3828f6a63360c1f974cdba78273-snowflake-data-warehouses.png)
 
-Enter an **Integration Name**, pick your **Credential**, choose the **Database** and **Schema**, then click **Verify and continue**.
+3. On the **Name & Connect** step, enter an **Integration Name**. This is the name shown on your integrations list, so name it after the data, for example `Paid media daily`.
 
-![Step 1 of the wizard with a credential, database and schema selected](https://files.readme.io/5a04e43f580557c3977b37a6190b82fff36f2c0909844d5883cb00575e06386c-snowflake-name-and-connect.jpg)
+![The Name & Connect step of the Snowflake setup](https://files.readme.io/f63624857f5c7623cdd9864a72661d4b63f33e85074e2655428880ba4b2dda12-snowflake-name-and-connect.png)
 
-### Select a table
+4. Click **Add credential** and fill in the details of the user you created.
 
-Pick the table you want to bring in. Its columns show on the right. Then click **Continue**.
+| Field | What to enter |
+| :-- | :-- |
+| Credential name | Any name that helps you recognise this sign-in, for example `Acme analytics`. |
+| Account identifier | The part of your Snowflake URL before `.snowflakecomputing.com`. |
+| Warehouse | The warehouse name only, for example `LIFESIGHT_WH`. |
+| Role (optional) | The role to use, for example `LIFESIGHT_READER`. Leave empty to use the user's default role. |
+| Username | The service user, for example `SVC_LIFESIGHT`. |
+| Passphrase (optional) | Only if your private key is encrypted. |
+| Private key | The full contents of `rsa_key.p8`, starting with `-----BEGIN PRIVATE KEY-----`. |
+| Databases and schemas | Every database and schema you want to read. Click **Add database** for more. |
 
-![Step 2 of the wizard with a table selected and its columns listed](https://files.readme.io/07ef82670b5e30a9ee2fcfe3598c3d6b25c3991ba42b59fd70e05447958e8432-snowflake-select-table.jpg)
+![The Add Snowflake credential dialog](https://files.readme.io/873ef6f3e89c79e112178eaa6523549186a5ce61c9a64af8ec36fe9024f5fe44-snowflake-add-credential.png)
 
-* Only tables and materialized views are listed.
-* A table that is already connected is greyed out, so it is never counted twice.
+5. Click **Test and save**. Lifesight signs in to Snowflake and checks that it can read each schema you listed. The credential is saved only when the test passes. Your private key is stored encrypted and is never shown again.
+6. Choose the **Database** and **Schema** for this integration, then click **Verify and continue**.
+7. On **Select tables**, pick the table you want to bring in. Its columns show on the right.
+8. On **Data setup**, check the sample rows, choose the column that holds the date, and pick what kind of data this is.
+9. On **Schedule & sync**, choose how often Lifesight should refresh the data: **Daily**, **Weekly**, **Monthly** or **Manual**.
+10. Click **Connect**.
 
-### Data setup
+The first sync starts as soon as you connect, then repeats on your schedule.
 
-Check the preview, then confirm two things: which column holds the date, and whether your data is laid out as **Stacked rows** or **Pivoted columns**.
+## After connecting
 
-![Step 3 of the wizard with the date column and layout choices](https://files.readme.io/b3aea3e746640e1d78388588e58ce75ee388d522db0720ca9b6c5bedaff1c729-snowflake-data-setup.jpg)
+**Map the fields -** Open **Data > Data Transformation**, find your Snowflake source, and map its columns to Lifesight fields. Warehouse tables use your own column names, so nothing is mapped until you do this.
 
-### Schedule and sync
+**Add more tables -** Each integration reads one table. To bring in another, add a new Snowflake integration and pick the same credential. You do not need to create another user.
 
-Choose how often Lifesight should refresh the data: **Daily**, **Weekly**, **Monthly** or **Manual**.
-
-![Step 4 of the wizard with the refresh frequency and time](https://files.readme.io/88c90c2203a84e07f07366eafc515d47c6fcddc7c17eb9dbe8398a69f2a89d48-snowflake-schedule.jpg)
-
-Then choose what happens on each refresh:
-
-| Option | What it does | Use it when |
-| :-- | :-- | :-- |
-| Replace and append (recommended) | Updates matching rows, adds new rows and keeps the rest. | Your table grows over time. |
-| Full replace | Replaces everything with the latest copy of the table. | Your table is always the complete, current picture. |
-
-Click **Connect**. The first sync starts straight away and can take 24 to 48 hours to complete.
-
-## What happens next
-
-* Your Snowflake integration appears on **Data > Integrations** with its status and last sync time.
-* Open **Data > Data Transformation** to map the table's columns to Lifesight fields.
-* To bring in another table, repeat step 3 with the same credential.
-
-## Changing a credential
-
-On the first step of the wizard, pick the credential and click **Edit**.
-
-* You can change its name, warehouse, and databases and schemas. After adding a database or schema, re-run the setup script and click **Test and save**.
-* You cannot change the account identifier once an integration uses the credential. Add a new credential instead.
-* If you remove a database or schema that an integration reads, that integration stops refreshing. Lifesight warns you before you save, and data already loaded stays.
+***
 
 ## Troubleshooting
 
-| What you see | What to do |
-| :-- | :-- |
-| "We could not sign in to your account" | Make sure the whole setup script was run as `ACCOUNTADMIN`, wait a minute, then click **Test and save** again. |
-| "Lifesight cannot read database" or "schema" | Check the name is spelled exactly as in Snowflake, re-run the setup script, then test again. |
-| "Enter only the part before .snowflakecomputing.com" | Enter only the account identifier, for example `acme-xy12345`, not the full URL. |
-| "JWT token is invalid" in Snowflake | Copy the script again from Lifesight and run it without editing the key. |
-| A table is missing from the list | Check that it is a table or materialized view, and that its schema is listed on the credential. |
-| Sign-in fails and your account uses a network policy | Allow Lifesight's IP `35.206.86.230` using the **Firewall** script. |
+**Snowflake rejected the sign-in**<br />Check the username, and that the private key you pasted belongs to the public key set on that user. If you regenerated the key pair, update the user in Snowflake with the new public key.
 
-Still stuck? Contact Lifesight support and include the message you see.
+**Snowflake has no account with that name**<br />Enter only the account identifier, the part before `.snowflakecomputing.com`, not the full URL.
+
+**The user cannot use the role**<br />Make sure the role was granted to the user, or leave **Role** empty to use the user's default role.
+
+**The warehouse cannot be used**<br />Check the warehouse name and that the role has `USAGE` on it.
+
+**Lifesight cannot read a database or schema**<br />Check the spelling against Snowflake, and that the role has `USAGE` on both the database and the schema.
+
+**My table is not listed**<br />Only tables and materialized views are shown. Check that the role has `SELECT` on the table, and that the table is not already connected through another integration.
+
+**The private key is not accepted**<br />Lifesight needs the key in PKCS#8 format, which starts with `-----BEGIN PRIVATE KEY-----`. A key that starts with `-----BEGIN RSA PRIVATE KEY-----` is in an older format. Generate it again with the commands above.
+
+**The test fails only from Lifesight**<br />Your account probably has a network policy. Allow Lifesight's IP address as described in Before you start.
+
+***
+
+## Next up
+
+Connect your:
+
+* Google Sheets
+* CSV Import
+* Google Ads
