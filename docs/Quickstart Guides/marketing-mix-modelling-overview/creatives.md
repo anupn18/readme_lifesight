@@ -56,8 +56,6 @@ The score measures how the ad performed, not the creative in isolation. The info
 
 A low score alone never triggers **Pause**. An ad is only recommended for pausing when it also fails the economics check (it is not returning its spend) or its delivery has collapsed from audience fatigue (the audience has seen it so often that it no longer responds). This protects ads that score modestly but still pay for themselves.
 
-**\[IMAGE PLACEHOLDER: Incrementality tab with summary tiles and matrix]**
-
 ## See what's truly incremental
 
 **Incrementality** tells you whether an ad's results are real revenue you wouldn't otherwise have earned, or demand that would have arrived anyway.
