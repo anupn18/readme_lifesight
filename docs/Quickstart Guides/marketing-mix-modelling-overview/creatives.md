@@ -66,6 +66,8 @@ A low score alone never triggers **Pause**. An ad is only recommended for pausin
 
 ![](https://files.readme.io/1d23e87d3001378dc1e39af0ea9e63c23a0630654111df272c9a38424ccd6feb-Screenshot_2026-11-17_at_7.46.31_AM.png)
 
+<br />
+
 The summary tiles give you the overall picture before you read any rows:
 
 - **Synergy Pairs:** tactic and format combinations where strong creative is running on a genuinely incremental tactic.
