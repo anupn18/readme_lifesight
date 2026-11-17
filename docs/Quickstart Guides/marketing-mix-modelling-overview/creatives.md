@@ -47,7 +47,7 @@ The score measures how the ad performed, not the creative in isolation. The info
 
 ![](https://files.readme.io/212e70b9b673c67fff04f99394ea20b4c80a061856d72e138ffbba7972a431c8-Screenshot_2026-11-17_at_7.47.59_AM.png)
 
-**Recommended actions**
+<br />**Recommended actions**
 
 - **Scale:** the ad is strong and profitable. Put more budget behind it.
 - **Refresh:** fix or rotate the creative.
