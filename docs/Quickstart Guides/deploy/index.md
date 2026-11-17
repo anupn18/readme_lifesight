@@ -36,6 +36,7 @@ Other channels in your plan still get budget recommendations in Deploy, but thei
 * Deploy shows each campaign or ad set where its budget lives (the campaign for CBO, the ad set for ABO), so every change goes to the right level.
 * When a campaign or ad set is due a budget increase but spent less than 85% of its budget over the last 7 days, Deploy also recommends loosening its bid target, so the extra budget can be spent.
 * When you apply, Deploy pushes the change to the ad platform for you, for one row or many at once.
+* Deploy checks every recommendation each day and flags the ones that carry a risk, so you see a warning before you apply.
 * Every applied change is recorded in Logs.
 
 Deploy never changes your ad accounts on its own: every change needs someone to review and apply it.
@@ -49,6 +50,7 @@ Deploy never changes your ad accounts on its own: every change needs someone to 
 * **Only what can change.** Rows that can't take the change you picked are left out, and the dialog tells you how many.
 * **Permissions.** Changing budgets and bids, and changing statuses, are separate permissions. People without them don't see these actions.
 * **Check each result.** After you apply, each row's Deploy Status shows whether the change went through.
+* **Warnings before you apply.** When a change could cause a problem, such as a very large move or a campaign that ends this week, Deploy flags it on the row and in the dialog. A warning never blocks you. You decide whether to go ahead.
 * **Pause with care.** When a pause would remove more than half of a tactic's pause-candidate spend, Deploy warns you first. You can undo a pause from the row before you leave the page.
 * **A full record.** Logs shows who made each change, the entity, the action, the value before and after, and the outcome.
 
@@ -56,7 +58,7 @@ Deploy never changes your ad accounts on its own: every change needs someone to 
 
 1. Select **Deploy** in the left navigation.
 
-2. **Check where your plan stands.** Read the header first. Compare Planned Budget with your current budget, check the forecasted outcomes, and look at Budget Pace to see if spend is on track.
+2. **Check where your plan stands.** Read the header first. Compare Planned Budget with your current budget, check the forecasted outcomes, and look at the Spend Pacing graph to see if spend is on track.
 
    ![](https://files.readme.io/177b93679538cf24befc016d024a4a006d94ff1367a17b07a49ad441278c67e8-deploy-step-2-plan-header.png)
 
@@ -80,7 +82,7 @@ Deploy never changes your ad accounts on its own: every change needs someone to 
 
    ![](https://files.readme.io/ffea2a32bb88ba85c6e1c3c7a1ccc8507899646e5bab712eca938209428b0274-screenshot-1792757599788-f67bc2be.png)
 
-8. **Confirm and verify.** Check current against new values in the confirmation step, apply, then open **Logs** from the Deploy header to see what changed, who changed it and when.<br />
+8. **Confirm and verify.** Check current against new values in the confirmation step and read any warnings. Apply, then open **Logs** from the Deploy header to see what changed, who changed it and when.<br />
 
    ![](https://files.readme.io/1e5a9c653106425ee06c7c3e498b1c0f8f9093e0d52d2d58f870176342e18690-deploy-step-8-budget-dialog.png)
 
@@ -116,6 +118,28 @@ Bid recommendations cover strategies with a target, such as Target ROAS, Target 
 
 Open a row's menu and choose **Change Bid Value**, switch to **Custom**, enter the new target, and apply. Rows on automated bidding have no target to change.
 
+## Warnings before you apply
+
+Deploy warns you when a change could cause a problem you might not expect. A warning tells you what Deploy found and what could happen, then asks if you want to go ahead. It never stops you from applying.
+
+**Where you see them**
+
+* **In the table.** A row with a warning shows a warning icon. Hover over it to read the reason.
+* **In the dialog.** When you open **Change Budget**, **Change Bid Value** or **Change Status**, the dialog lists each warning with the number of rows it affects and marks those rows. You can take them out of the selection in one step, or apply anyway.
+
+**What Deploy warns about today**
+
+| Warning | When you see it | Why it matters |
+| --- | --- | --- |
+| Large change | The new budget or bid target is more than 20% away from the current one. | A big move can send a campaign back into the ad platform's learning phase. |
+| Recent change | The budget or bid was changed through Deploy in the last 7 days. | Another change now can restart learning before the last one settles. |
+| Budget may not deliver | Deploy recommends more budget, but the campaign or ad set spent less than 85% of its budget over the last 7 days and its bid target is already loose. | The extra budget may not get spent. |
+| Shared budget | A Google Ads campaign shares its budget with other campaigns. | Changing the budget moves spend for those campaigns too. |
+| Ending soon | The campaign or ad set ends within 7 days, or has used more than 90% of its lifetime budget. | The change has little time to take effect. |
+| Many at once | You select more than 10 rows, or the selected rows add up to more than 25% of the plan budget. | It is worth reviewing the full list before you apply. |
+
+More warnings will be added in upcoming releases.
+
 ## Pause an ad that's losing money
 
 1. Open the **Creative** tab.
@@ -143,7 +167,8 @@ The Creative tab also shows the estimated spend you can recover each week by pau
 * **Planned Budget**: what the plan allocates, with the change against your current budget over the plan period.
 * **Forecasted Revenue** and **Forecasted iROAS**: the outcomes the plan projects. Workspaces that optimize for conversions see conversions and iCPA (incremental cost per acquisition) instead.
 * **Budget recommendations outstanding**: how many recommendations are waiting, out of all campaigns and ad sets that can take a change.
-* **Budget Pace**: attributed spend to date against the plan total, with today marked (for example Wk 1, Day 3). It only compares the days that have passed, so being early in a long plan reads as early, not as underspend.
+* **Spend Pacing**: a graph of planned spend against actual spend across the plan, with today marked. The line above the graph tells you whether spend is on pace, over plan or under-pacing, and by how much. Below the graph you see spend to date and the plan total.
+* **Plan Progress**: how far through the plan you are, for example Wk 4, Day 22.
 
 **Campaigns and Ad Sets**
 
@@ -200,6 +225,10 @@ Google Ads, Meta, Snapchat, TikTok and Pinterest. See the Platforms table above 
 **Does Deploy change anything automatically?**
 
 No. Every change needs someone to review and apply it. Applied changes go live on the ad platform and are recorded in Logs.
+
+**What happens when Deploy shows a warning?**
+
+Nothing is blocked. The warning tells you what Deploy found and what could happen. You can take the affected rows out of the selection or apply anyway. See Warnings before you apply for the current list.
 
 **Why can't I see any recommendations?**
 
