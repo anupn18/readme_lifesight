@@ -192,7 +192,7 @@ Data Transformation defines what each column in your data means. Data Taxonomy g
 ## Related Articles
 
 <Cards>
-  <Card title="Data Transformation" icon="fa-rocket">
+  <Card title="Data Transformation" href="https://docs.lifesight.io/docs/4-data-transformation" icon="fa-rocket">
 
   </Card>
 
