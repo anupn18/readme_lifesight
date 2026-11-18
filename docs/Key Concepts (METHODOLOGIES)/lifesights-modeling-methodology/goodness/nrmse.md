@@ -52,8 +52,6 @@ NRMSE provides a standardized way to assess the prediction accuracy of marketing
 
 ## Visual Representation
 
-![NRMSE Visualization](https://files.readme.io/aa5fa7f-image.png)
-
 This graph illustrates how NRMSE compares predicted values to actual values, with the normalization providing a consistent scale for evaluation.
 
 ## Interpretation
