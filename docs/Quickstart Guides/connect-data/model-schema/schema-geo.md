@@ -21,7 +21,7 @@ Choose this schema type when you want to:
 - prove whether a channel is worth its budget, rather than inferring it
 - produce a result you can use to calibrate a mix model
 
-If you want to decompose contribution across all channels over time instead, use [Build a schema for Marketing Mix Modelling](https://docs.lifesight.io/docs/4-0-wip-schema-mmm).
+If you want to decompose contribution across all channels over time instead, use [Build a schema for Marketing Mix Modelling](https://docs.lifesight.io/docs/schema-mmm).
 
 ## What it needs
 
@@ -31,9 +31,9 @@ That third requirement is worth dwelling on. A geo test compares regions, so you
 
 This is usually where the earlier tabs matter:
 
-- The geographic dimension must be mapped in [Data Transformation](https://docs.lifesight.io/docs/4-0-wip-data-transformation) and flagged as a measurement dimension
-- Sources that cover one market but do not report geography per row need a country or region set with [Set a fixed value for a source](https://docs.lifesight.io/docs/4-0-wip-fixed-value-source)
-- Media being tested needs to be classified in [Data Taxonomy](https://docs.lifesight.io/docs/4-0-wip-data-taxonomy) so the test can target a specific tactic
+- The geographic dimension must be mapped in [Data Transformation](https://docs.lifesight.io/docs/data-transformation) and flagged as a measurement dimension
+- Sources that cover one market but do not report geography per row need a country or region set with [Set a fixed value for a source](https://docs.lifesight.io/docs/fixed-value-source)
+- Media being tested needs to be classified in [Data Taxonomy](https://docs.lifesight.io/docs/data-taxonomy) so the test can target a specific tactic
 
 ## Step 1: Model Schema Type
 
@@ -92,11 +92,11 @@ They help. A regional promotion or a store opening during the test window can lo
 ## Related Articles
 
 <Cards>
-  <Card title="Model overview" href="https://docs.lifesight.io/update/docs/marketing-mix-modelling-overview" icon="fa-rocket">
+  <Card title="Model overview" href="https://docs.lifesight.io/docs/marketing-mix-modelling-overview" icon="fa-rocket">
 
   </Card>
 
-  <Card title="Create a geo experiment" href="https://docs.lifesight.io/update/docs/geo-testing" icon="fa-code">
+  <Card title="Create a geo experiment" href="https://docs.lifesight.io/docs/geo-testing" icon="fa-code">
 
   </Card>
 </Cards>
