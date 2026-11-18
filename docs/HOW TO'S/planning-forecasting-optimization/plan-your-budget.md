@@ -19,7 +19,7 @@ next:
 
 ### How to Plan your budget to achieve your forecasted revenue:
 
-* The first step for this is to **Create a plan**: The steps for creating a plan are mentioned [here](https://dash.readme.com/project/lifesight/v1.0/docs/how-to-build-a-plan) : 
+* The first step for this is to **Create a plan**: The steps for creating a plan are mentioned [here](https://docs.lifesight.io/docs/create-a-media-plan) : 
 * The **primary** parameters to consider when creating a plan are: 
 
 <Table align={["left","left"]}>
