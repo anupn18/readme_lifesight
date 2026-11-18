@@ -13,7 +13,7 @@ A model schema is a saved answer to the question _what should this model look at
 
 It is worth being clear about what a schema is not. It is not the model. Training a model is a separate step. A schema is the recipe, and it can be reused, refreshed and adjusted without starting from nothing each time.
 
-This is also where the earlier tabs pay off. A schema can only offer you fields that [Data Transformation](https://docs.lifesight.io/docs/4-0-wip-data-transformation) mapped, and only tactics that [Data Taxonomy](https://docs.lifesight.io/docs/4-0-wip-data-taxonomy) assigned. If something you expect is missing here, the fix is usually one tab upstream.
+This is also where the earlier tabs pay off. A schema can only offer you fields that [Data Transformation](https://docs.lifesight.io/docs/data-transformation) mapped, and only tactics that [Data Taxonomy](https://docs.lifesight.io/docs/data-taxonomy) assigned. If something you expect is missing here, the fix is usually one tab upstream.
 
 ![](https://files.readme.io/3359434b26aacbab0b02823e8f356cc108a88576e9433f16ab71d5166cc791e6-Screenshot_2026-09-08_at_8.52.37_AM.png)
 
@@ -25,8 +25,8 @@ Click **Create Data Model** and the first step asks what the schema is for. The 
 
 | Use case                                                                         | Schema type                                            | Read more                                                                                       |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
-| Understand how much each channel contributed, and where the next pound should go | **Marketing Mix Modelling / Time Testing Experiments** | [Build a schema for Marketing Mix Modelling](https://docs.lifesight.io/docs/4-0-wip-schema-mmm) |
-| Measure incremental lift by comparing matched test and control regions           | **Geo Experiments**                                    | [Build a schema for Geo Experiments](https://docs.lifesight.io/docs/4-0-wip-schema-geo)         |
+| Understand how much each channel contributed, and where the next pound should go | **Marketing Mix Modelling / Time Testing Experiments** | [Build a schema for Marketing Mix Modelling](https://docs.lifesight.io/docs/schema-mmm) |
+| Measure incremental lift by comparing matched test and control regions           | **Geo Experiments**                                    | [Build a schema for Geo Experiments](https://docs.lifesight.io/docs/schema-geo)         |
 
 A schema can serve both. One well defined variable set can power either method, so select both types if you intend to do both. That also makes calibration easier later, because a geo test result can be fed back into a mix model when the two speak about the same KPI and the same tactics.
 
@@ -58,9 +58,9 @@ From there a schema can be used to train models, refreshed as new data arrives, 
 
 ## Frequently asked questions
 
-**A field I need is not in the list.** It has not been mapped, or it has been mapped to the wrong category. Go to [Data Transformation](https://docs.lifesight.io/docs/4-0-wip-data-transformation) and check the field.
+**A field I need is not in the list.** It has not been mapped, or it has been mapped to the wrong category. Go to [Data Transformation](https://docs.lifesight.io/docs/data-transformation) and check the field.
 
-**A tactic I need is not offered.** It has not been created or assigned in [Data Taxonomy](https://docs.lifesight.io/docs/4-0-wip-data-taxonomy).
+**A tactic I need is not offered.** It has not been created or assigned in [Data Taxonomy](https://docs.lifesight.io/docs/data-taxonomy).
 
 **How many variables should a model have?**
 Fewer than you think. Every variable needs enough data behind it to estimate its effect. Two years of weekly data is around 100 observations, and thirty variables will overfit.
