@@ -10,10 +10,10 @@ metadata:
 next:
   description: ''
 ---
-[GDPR](https://docs.lifesight.io/v2.0/update/docs/gdpr)
+[GDPR](https://docs.lifesight.io/docs/gdpr)
 
-[SOC2](https://docs.lifesight.io/v2.0/update/docs/soc-2)
+[SOC2](https://docs.lifesight.io/docs/soc-2)
 
-[ISO 27001](https://docs.lifesight.io/v2.0/update/docs/iso-27001)
+[ISO 27001](https://docs.lifesight.io/docs/iso-27001)
 
-[POLICY](https://docs.lifesight.io/v2.0/update/docs/hipaa)
+[POLICY](https://docs.lifesight.io/docs/hipaa)
