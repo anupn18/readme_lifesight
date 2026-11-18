@@ -34,4 +34,10 @@ Before you change any spend, Lifesight shows the smallest lift your test can rel
 - **Hold-out:** pause or cut spend on the channel. Measures what you would lose without it.
 - **Scale-up:** increase spend on the channel. Measures what more spend would return.
 
-##
+## Up Next:
+
+<Cards>
+  <Card title="Build a Time Testing Experiment" icon="fa-rocket">
+
+  </Card>
+</Cards>
