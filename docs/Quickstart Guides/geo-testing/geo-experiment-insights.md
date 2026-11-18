@@ -135,8 +135,6 @@ Use the market table to identify where the result is concentrated. One unusually
 
 The entity retrospective shows how selected campaigns behaved during the test, including spend against plan and geographic execution. Use it to confirm that the treatment was implemented as designed. If campaigns didn't run as planned, the result may not reflect the change you intended to test.
 
-**\[IMAGE PLACEHOLDER: Result cards, treatment-versus-control chart, and cell or market breakdown]**
-
 ## Read completed results in the right order
 
 Use this order when interpreting a completed experiment:
