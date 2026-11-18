@@ -202,3 +202,7 @@ Live dashboards are turned on per workspace. A Workspace Admin can ask Lifesight
     Your logo, colors and fonts on every dashboard.
   </Card>
 </Cards>
+
+<br />
+
+<br />
