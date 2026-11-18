@@ -97,11 +97,11 @@ Baseline changes are driven by non-media factors. Compare their timing with pric
 ## Related Articles
 
 <Cards>
-  <Card title="Model Diagnostics" href="https://docs.lifesight.io/update/docs/diagnostics" icon="🔗">
+  <Card title="Model Diagnostics" href="https://docs.lifesight.io/docs/diagnostics" icon="🔗">
 
   </Card>
 
-  <Card title="Model Data" href="https://docs.lifesight.io/update/docs/model-data" icon="🔗">
+  <Card title="Model Data" href="https://docs.lifesight.io/docs/model-data" icon="🔗">
 
   </Card>
 </Cards>
