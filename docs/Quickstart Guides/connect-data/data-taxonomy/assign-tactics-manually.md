@@ -20,7 +20,7 @@ The goal isn't to classify every campaign. It's to classify the campaigns that c
 - **One-off campaigns** that will never repeat, so a rule isn't worth writing
 - **Campaigns whose names are misleading,** where what the name says and what the campaign does are two different things
 
-For anything that repeats, and for campaigns that don't exist yet, use [Assign tactics automatically with rules](https://docs.lifesight.io/docs/4-0-wip-assign-tactics-rules) instead.
+For anything that repeats, and for campaigns that don't exist yet, use [Assign tactics automatically with rules](https://docs.lifesight.io/docs/assign-tactics-rules) instead.
 
 ## Classify your highest-spend campaigns first
 
@@ -171,11 +171,11 @@ Monthly is enough. Sort by the **New** column, classify anything that has appear
 ## Related Articles
 
 <Cards>
-  <Card title="Assign tactics automatically" href="https://docs.lifesight.io/update/docs/assign-tactics-rules" icon="🔗">
+  <Card title="Assign tactics automatically" href="https://docs.lifesight.io/docs/assign-tactics-rules" icon="🔗">
 
   </Card>
 
-  <Card title="Model Schema" href="https://docs.lifesight.io/update/docs/model-schema" icon="🔗">
+  <Card title="Model Schema" href="https://docs.lifesight.io/docs/model-schema" icon="🔗">
 
   </Card>
 </Cards>
