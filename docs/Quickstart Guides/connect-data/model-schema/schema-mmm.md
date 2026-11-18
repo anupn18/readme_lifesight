@@ -37,7 +37,7 @@ This is the step that determines whether the model is any good.
 
 ![Choosing KPI, paid media, organic and contextual variables](https://files.readme.io/33f2c89ed584e193201ddafef6667d47ef4101256d3f74172b1757e86048936e-model-schema-variables.png)
 
-**Primary KPI.** The one metric the model exists to explain. Only fields categorised as KPI in [Data Transformation](https://docs.lifesight.io/docs/data-transformation) are offered.
+**Primary KPI.** The one metric the model exists to explain. Only fields categorised as KPI in [Data Transformation](https://docs.lifesight.io/docs/4-data-transformation) are offered.
 
 Choose what the business is actually judged on. If that is profit, modelling revenue will tell you how to sell more at any margin, which is a different question.
 
@@ -103,7 +103,7 @@ At **Preview** they notice affiliate spend is missing entirely, go back to conne
 **How many variables should I have?**
 Fewer than you think. Two years of weekly data is around 100 observations, and thirty variables will overfit. Start with what you can act on.
 
-**A field or tactic I need is not offered.** It has not been mapped in [Data Transformation](https://docs.lifesight.io/docs/data-transformation) or assigned in [Data Taxonomy](https://docs.lifesight.io/docs/data-taxonomy).
+**A field or tactic I need is not offered.** It has not been mapped in [Data Transformation](https://docs.lifesight.io/docs/4-data-transformation) or assigned in [Data Taxonomy](https://docs.lifesight.io/docs/data-taxonomy).
 
 **Can I have more than one schema?**
 Yes. Total revenue and new customer acquisition are different questions deserving different variable sets.
