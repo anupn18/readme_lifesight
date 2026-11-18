@@ -9,15 +9,17 @@ metadata:
     - Lifesight Geo Experiment
   robots: noindex
 ---
-#
-
 A time test measures the incremental impact of one channel. You change that channel's spend for a set period: pause it, cut it, or raise it. Lifesight compares your KPI during that period with a forecast built from your own history. The gap between the two is the channel's incremental impact.
 
 Time tests need no geo split and no user-level tracking. They work for channels that run everywhere at once, such as national TV, radio, podcasts, influencer and sponsorships. They also work for brands with too few regions for a geo test.
 
 Before you change any spend, Lifesight shows the smallest lift your test can reliably detect. So you know the test is worth running before you touch the budget.
 
-\[Image: 04b-create-experiment.jpg | Create Experiment screen with Time Testing selected]
+Create Experiment screen with Time Testing as an option
+
+![](https://files.readme.io/ce5b9d9fc22bdad47e2680dbaefccb58233b90e10ceeb5675c30f29fa1265cd3-image-01-choose-time-testing.png)
+
+<br />
 
 ## Go from question to measured result
 
@@ -90,7 +92,7 @@ Before you upload, check that:
 - KPI and spend cells hold numbers only. No currency symbols, text or blanks.
 - The last row is recent. The test is planned from the latest date in your file.
 
-## Create a time test
+## Create a time test<br />
 
 ### Open Time Testing
 
@@ -98,7 +100,11 @@ Before you upload, check that:
 2. Click **New Experiment**.
 3. Under **How do you want to test?**, choose **Time Testing**.
 
-\[Image: 04-experiments-page.jpg | Experiments page with the New Experiment button]
+**\[Image 2: image-02-experiments-page.png]**&#x20;
+
+<br />
+
+Experiments page with the New Experiment button
 
 > **Tip: Find your time tests.** On the Experiments page, use the **All tests / Geo / Time** filter to see only your time tests.
 
@@ -114,9 +120,9 @@ Tell Lifesight what you want to learn.
 6. **KPI:** choose the outcome the lift is measured on, for example Revenue.
 7. Click **Continue to data**.
 
-\[Image: 05-setup.jpg | Setup step: name, test type and hypothesis]
+**\[Image 3: image-03-setup-name-hypothesis.png]** Setup step: name, test type and hypothesis
 
-\[Image: 05b-setup-change.jpg | Setup step: the change, channel and KPI]
+**\[Image 4: image-04-setup-change-channel-kpi.png]** Setup step: the change, channel and KPI
 
 > **Warning: Pick a quiet window.** A time test compares your KPI with a forecast of its own history. Anything else unusual in the test window, such as a sale, a stock-out, a price change or a news spike, shows up as lift. Pick a window with nothing else going on.
 
@@ -136,9 +142,9 @@ Upload your KPI history and map its columns.
    - **History to learn from:** how far back to learn, counted from the latest date in your file. 15 months is the default.
 5. Click **Validate**.
 
-\[Image: 06-data-source.jpg | Data step: choose where the history comes from]
+**\[Image 5: image-05-data-upload.png]** Data step: Upload a CSV selected and file added
 
-\[Image: 07-data-mapping.jpg | Data step: column mapping and history settings]
+**\[Image 6: image-06-data-map-columns.png]** Data step: column mapping and history settings
 
 When the file passes, you'll see **Validation passed** with a summary:
 
@@ -149,7 +155,7 @@ When the file passes, you'll see **Validation passed** with a summary:
 
 If the file doesn't pass, Lifesight tells you which row to fix. Fix the file, upload it again and click **Validate again**.
 
-\[Image: 08-validation-passed.jpg | Data step: validation passed]
+**\[Image 7: image-07-data-validation-passed.png]** Data step: validation passed
 
 Then click **Continue to design**.
 
@@ -163,11 +169,11 @@ Under **How long will the test run?**, choose 14, 21, 30, 45, 60 or 90 days, or 
 
 Lifesight adds a **post-treatment window** after the test, to check whether the effect lingers. For example, a 60-day test gets a 30-day post-treatment window.
 
-\[Image: 09-design-length-budget.jpg | Design step: test length and budget]
+**\[Image 8: image-08-design-test-length.png]** Design step: test length options and post-treatment window
 
 If too few data points fall in the window, Lifesight warns you. Run the test longer, or use daily data if you have it.
 
-\[Image: 11-design-warning.jpg | Design step: warning when the test window is too short]
+**\[Image 9: image-09-design-warning.png]** Design step: warning when the test window is too short
 
 **Smallest detectable lift**
 
@@ -179,7 +185,7 @@ Click **How this is worked out** to see the inputs:
 - **Variation:** how much the KPI typically moves from period to period.
 - **Test data points:** the number of periods in the test window.
 
-\[Image: 10-design-detectable-lift.jpg | Design step: smallest detectable lift and how it's worked out]
+**\[Image 10: image-10-design-detectable-lift.png]** Design step: smallest detectable lift and how it's worked out
 
 > **Note: Check the detectable lift against your hypothesis.** If you expect a 5% drop and the test can detect 2.3%, the test is well sized. If the detectable lift is bigger than the effect you expect, run the test longer or make a bigger spend change. Real data has trends and streaks, so the lift a test can really detect is usually somewhat larger than this estimate.
 
@@ -189,17 +195,19 @@ Click **How this is worked out** to see the inputs:
 - **Planned spend during the test:** enter what you plan to spend over the test window. For a full pause, enter 0.
 - **Spend scenarios:** turn this on to also check the test's sensitivity if the change were 10%, 20%, 30% or 50% bigger or smaller.
 
+**\[Image 11: image-11-design-budget.png]** Design step: budget and spend scenarios
+
 Click **Review**.
 
 ### Step 4: Review
 
 Check the summary of your **Setup**, **Data** and **Design**. Use **Edit setup**, **Edit data** or **Edit design** to change anything.
 
-\[Image: 12-review-summary.jpg | Review step: summary of setup, data and design]
+**\[Image 12: image-12-review-summary.png]** Review step: summary of setup, data and design
 
 Click **Start design** when you're ready. You can also click **Save draft** to come back later.
 
-\[Image: 13-review-next-steps.jpg | Review step: what happens next]
+**\[Image 13: image-13-review-next-steps.png]** Review step: what happens next, with the Start design button
 
 ## Run the test
 
@@ -217,7 +225,7 @@ After you start the design, the test moves through four stages.
 - **Avoid promotions and launches.** Sales, new products, price changes and stock-outs all move the KPI.
 - **Log anything unexpected**, such as a PR mention, an outage or a competitor promotion. It helps you read the result later.
 
-\[Image placeholder: Experiments page showing the time test as Running]
+**\[Image 14: to capture once a test is running]** Experiments page showing the time test as Running
 
 ## Get results you can act on
 
@@ -230,9 +238,9 @@ When you upload the KPI for the test window, Lifesight shows:
 - **Readout:** a plain-language summary of what the result means for the channel.
 - **Post-treatment effect:** whether the impact continued after spend returned to normal.
 
-\[Image placeholder: Results chart showing actual vs. baseline, with the test and post-treatment windows shaded]
+**\[Image 15: to capture once a test has results]** Results chart showing actual vs. baseline, with the test and post-treatment windows shaded
 
-\[Image placeholder: Results tiles for lift, incremental KPI, iROAS and verdict, with the readout]
+**\[Image 16: to capture once a test has results]** Results tiles for lift, incremental KPI, iROAS and verdict, with the readout
 
 ### How to read the verdict
 
