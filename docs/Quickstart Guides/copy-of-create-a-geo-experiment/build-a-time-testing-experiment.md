@@ -2,7 +2,7 @@
 title: Build a Time Testing Experiment
 excerpt: Find out what a channel truly drives, without splitting by region.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
