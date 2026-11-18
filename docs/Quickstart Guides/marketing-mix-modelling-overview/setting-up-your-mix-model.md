@@ -29,7 +29,7 @@ To build a model with data already in Lifesight, select an existing Data Model f
 
 You can also build a model using historical data stored in a CSV file. The file needs to meet the required formatting and validation rules to avoid errors during model creation.
 
-See the [CSV Data Formatting Guidelines](https://docs.lifesight.io/v2.0/update/docs/mmm-csv-data-formatting) for details on preparing your file.
+See the [CSV Data Formatting Guidelines](https://docs.lifesight.io/docs/mmm-csv-data-formatting) for details on preparing your file.
 
 ![](https://files.readme.io/e4931e78d18df9e42200653c9e88a65f8ba02112ccf80c98a6901f5a110e24b3-Screenshot_2026-09-08_at_9.02.28_AM.png)
 
@@ -279,11 +279,11 @@ Open your model to review its performance, contribution insights, response curve
 ## Related Articles
 
 <Cards>
-  <Card title="Csv data formatting" href="https://docs.lifesight.io/update/docs/mmm-csv-data-formatting" icon="🔗">
+  <Card title="Csv data formatting" href="https://docs.lifesight.io/docs/mmm-csv-data-formatting" icon="🔗">
 
   </Card>
 
-  <Card title="Model calibration" href="https://docs.lifesight.io/update/docs/model-calibration" icon="🔗">
+  <Card title="Model calibration" href="https://docs.lifesight.io/docs/model-calibration" icon="🔗">
 
   </Card>
 </Cards>
