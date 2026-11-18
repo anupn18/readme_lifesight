@@ -6,6 +6,10 @@ hidden: false
 metadata:
   robots: index
 ---
+A time test in Lifesight has four steps: Setup, Data, Design and Review. In Setup, you pick the channel, the KPI, and whether to pause, cut or raise spend. In Data, you upload your KPI history. Design shows the smallest lift the test can detect and how long it should run. Review lets you check every setting before the test starts.
+
+Once the test is live, you make the spend change in the channel yourself. Lifesight compares the results with a baseline built from your history. When the test ends, you get the channel’s lift, incremental revenue and iROAS. Use them to decide whether to keep, cut or grow its budget.
+
 ## When to use a time test
 
 | Your situation                                                       | Best fit                          | Why                                                                                                                               |
