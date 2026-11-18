@@ -133,11 +133,11 @@ When the selected period, totals, variable classifications, and time-series patt
 ## Related Articles
 
 <Cards>
-  <Card title="Model Review" href="https://docs.lifesight.io/update/docs/model-review" icon="🔗">
+  <Card title="Model Review" href="https://docs.lifesight.io/docs/model-review" icon="🔗">
 
   </Card>
 
-  <Card title="Create a geo experiment" href="https://docs.lifesight.io/update/docs/geo-testing" icon="🔗">
+  <Card title="Create a geo experiment" href="https://docs.lifesight.io/docs/geo-testing" icon="🔗">
 
   </Card>
 </Cards>
