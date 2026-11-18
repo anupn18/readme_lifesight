@@ -89,4 +89,4 @@ By grounding decisions in a robust measurement framework — and by leveraging t
 
 ***
 
-If you’re ready to go deeper into the mechanics, the next step is understanding how regularised ridge regression underpins stable, reliable MMM models. Start [here](https://docs.lifesight.io/update/docs/ridge-regression#/)
+If you’re ready to go deeper into the mechanics, the next step is understanding how regularised ridge regression underpins stable, reliable MMM models. Start [here](https://docs.lifesight.io/docs/ridge-regression)
