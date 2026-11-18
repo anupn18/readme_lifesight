@@ -16,10 +16,6 @@ Custom budget pacing lets you control how your planned budget is spread across e
 
 ![](https://files.readme.io/20a564e787df0002e1a8264ac5bf65d8789a64b644d96806547967d938662852-Screenshot_2026-09-21_at_2.13.33_PM.png)
 
-<br />
-
-\[IMAGE PLACEHOLDER: Advanced Configuration Custom Pacing tab]
-
 ## Know when custom pacing will improve your plan
 
 Use custom pacing when your spend should not be spread evenly across the plan period. Common reasons include:
