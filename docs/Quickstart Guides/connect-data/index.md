@@ -74,7 +74,7 @@ The tabs after Integrations stay locked until you have at least one active integ
 
 A sensible first pass looks like this.
 
-1. **Connect one source you know well.** Your largest ad platform is usually the right choice, since a wrong number will stand out to you immediately. To see how to connect each of your sources, go to <Anchor target="_blank" href="https://docs.lifesight.io/docs/4-0-wip-integrations">Integrations.</Anchor>
+1. **Connect one source you know well.** Your largest ad platform is usually the right choice, since a wrong number will stand out to you immediately. To see how to connect each of your sources, go to <Anchor target="_blank" href="https://docs.lifesight.io/docs/integrations">Integrations.</Anchor>
 2. **Wait for the first sync.** The initial pull covers your full history, so it takes longer than later refreshes. The integration shows as Healthy once it completes.
 3. **Review your fields in Data Transformation.&#x20;**&#x4D;ost columns from a native platform are mapped for you. Confirm that the ones that matter (spend, revenue, the date column) landed on the right Lifesight fields, and correct anything that did not.
 4. **Connect your remaining sources.&#x20;**&#x57;ith a known-good setup to compare against, the rest go faster.
