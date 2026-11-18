@@ -22,7 +22,7 @@ Use a field from this source whenever the value changes from row to row and the 
 - the date column, which nearly everything else depends on
 - descriptive columns such as country, device or campaign name
 
-If the answer would be identical on every row of the source, you want [Set a fixed value for a source](https://docs.lifesight.io/docs/4-0-wip-fixed-value-source) instead.
+If the answer would be identical on every row of the source, you want [Set a fixed value for a source](https://docs.lifesight.io/docs/fixed-value-source) instead.
 
 ## How to do it
 
@@ -121,11 +121,11 @@ Not from a single mapping row. Map it once, save, then create a second custom fi
 ## Related Articles
 
 <Cards>
-  <Card title="Set a fixed value for a source" href="https://docs.lifesight.io/update/docs/fixed-value-source" icon="fa-rocket">
+  <Card title="Set a fixed value for a source" href="https://docs.lifesight.io/docs/fixed-value-source" icon="fa-rocket">
 
   </Card>
 
-  <Card title="Map a source to channel" href="https://docs.lifesight.io/update/docs/map-source-channel" icon="fa-code">
+  <Card title="Map a source to channel" href="https://docs.lifesight.io/docs/map-source-channel" icon="fa-code">
 
   </Card>
 </Cards>
