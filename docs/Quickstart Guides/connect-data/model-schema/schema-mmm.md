@@ -21,7 +21,7 @@ Choose this schema type when you want to:
 - find where the next pound is best spent, and where you are already saturated
 - run pre and post or hold-out tests along a time axis
 
-If you want to compare matched test and control regions instead, use [Build a schema for Geo Experiments](https://docs.lifesight.io/docs/4-0-wip-schema-geo).
+If you want to compare matched test and control regions instead, use [Build a schema for Geo Experiments](https://docs.lifesight.io/docs/schema-geo).
 
 ## Step 1: Model Schema Type
 
@@ -37,7 +37,7 @@ This is the step that determines whether the model is any good.
 
 ![Choosing KPI, paid media, organic and contextual variables](https://files.readme.io/33f2c89ed584e193201ddafef6667d47ef4101256d3f74172b1757e86048936e-model-schema-variables.png)
 
-**Primary KPI.** The one metric the model exists to explain. Only fields categorised as KPI in [Data Transformation](https://docs.lifesight.io/docs/4-0-wip-data-transformation) are offered.
+**Primary KPI.** The one metric the model exists to explain. Only fields categorised as KPI in [Data Transformation](https://docs.lifesight.io/docs/data-transformation) are offered.
 
 Choose what the business is actually judged on. If that is profit, modelling revenue will tell you how to sell more at any margin, which is a different question.
 
@@ -45,7 +45,7 @@ Choose what the business is actually judged on. If that is profit, modelling rev
 
 **Dimensional / hierarchical model.** Turn this on to fit separate coefficients per country, product line or similar. Only turn it on when media genuinely behaves differently across those groups and each group has enough data to stand alone. Splitting a thin dataset into ten pieces gives you ten unreliable answers instead of one solid one.
 
-**Paid Media.** Add the channels whose spend you want measured, and narrow each to a tactic where the split matters. Tactics come from [Data Taxonomy](https://docs.lifesight.io/docs/4-0-wip-data-taxonomy). Once you pick a channel, its spend, impressions and clicks fill in from the mappings you already made.
+**Paid Media.** Add the channels whose spend you want measured, and narrow each to a tactic where the split matters. Tactics come from [Data Taxonomy](https://docs.lifesight.io/docs/data-taxonomy). Once you pick a channel, its spend, impressions and clicks fill in from the mappings you already made.
 
 Include every channel you can plausibly change. Leaving a real channel out does not make it neutral. The model attributes its effect to whatever is left in, which inflates the others.
 
@@ -103,7 +103,7 @@ At **Preview** they notice affiliate spend is missing entirely, go back to conne
 **How many variables should I have?**
 Fewer than you think. Two years of weekly data is around 100 observations, and thirty variables will overfit. Start with what you can act on.
 
-**A field or tactic I need is not offered.** It has not been mapped in [Data Transformation](https://docs.lifesight.io/docs/4-0-wip-data-transformation) or assigned in [Data Taxonomy](https://docs.lifesight.io/docs/4-0-wip-data-taxonomy).
+**A field or tactic I need is not offered.** It has not been mapped in [Data Transformation](https://docs.lifesight.io/docs/data-transformation) or assigned in [Data Taxonomy](https://docs.lifesight.io/docs/data-taxonomy).
 
 **Can I have more than one schema?**
 Yes. Total revenue and new customer acquisition are different questions deserving different variable sets.
@@ -113,11 +113,11 @@ Yes. Total revenue and new customer acquisition are different questions deservin
 ## Related Articles
 
 <Cards>
-  <Card title="Build a schema for geo experiment" href="https://docs.lifesight.io/update/docs/schema-geo" icon="🔗">
+  <Card title="Build a schema for geo experiment" href="https://docs.lifesight.io/docs/schema-geo" icon="🔗">
 
   </Card>
 
-  <Card title="Marketing mix modeling" href="https://docs.lifesight.io/update/docs/marketing-mix-modelling-overview" icon="🔗">
+  <Card title="Marketing mix modeling" href="https://docs.lifesight.io/docs/marketing-mix-modelling-overview" icon="🔗">
 
   </Card>
 </Cards>
