@@ -90,8 +90,8 @@ Most teams use both approaches.
 
 | Use case                                                          | Approach                                   | Read more                                                                                              |
 | ----------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| Your first pass, exceptions, and the long tail of small campaigns | Select campaigns and assign them directly  | [Assign tactics by hand](https://docs.lifesight.io/docs/4-0-wip-assign-tactics-manually)               |
-| Anything that repeats, including campaigns that don't exist yet   | Write a rule that matches a naming pattern | [Assign tactics automatically with rules](https://docs.lifesight.io/docs/4-0-wip-assign-tactics-rules) |
+| Your first pass, exceptions, and the long tail of small campaigns | Select campaigns and assign them directly  | [Assign tactics by hand](https://docs.lifesight.io/docs/assign-tactics-manually)               |
+| Anything that repeats, including campaigns that don't exist yet   | Write a rule that matches a naming pattern | [Assign tactics automatically with rules](https://docs.lifesight.io/docs/assign-tactics-rules) |
 
 Start by hand to learn which patterns exist, then write rules so your taxonomy maintains itself.
 
@@ -183,7 +183,7 @@ No. Nothing in Data Taxonomy writes back to the ad platform.
 
 **Where are tactics used in Lifesight?**
 
-Tactics are mainly used in [Model Schema](https://docs.lifesight.io/docs/4-0-wip-model-schema), where paid media variables are defined by channel and tactic, and in reporting, where you want performance grouped the way you run your marketing.
+Tactics are mainly used in [Model Schema](https://docs.lifesight.io/docs/model-schema), where paid media variables are defined by channel and tactic, and in reporting, where you want performance grouped the way you run your marketing.
 
 **What is the difference between Data Taxonomy and Data Transformation?**
 
