@@ -31,7 +31,7 @@ That third requirement is worth dwelling on. A geo test compares regions, so you
 
 This is usually where the earlier tabs matter:
 
-- The geographic dimension must be mapped in [Data Transformation](https://docs.lifesight.io/docs/data-transformation) and flagged as a measurement dimension
+- The geographic dimension must be mapped in [Data Transformation](https://docs.lifesight.io/docs/4-data-transformation) and flagged as a measurement dimension
 - Sources that cover one market but do not report geography per row need a country or region set with [Set a fixed value for a source](https://docs.lifesight.io/docs/fixed-value-source)
 - Media being tested needs to be classified in [Data Taxonomy](https://docs.lifesight.io/docs/data-taxonomy) so the test can target a specific tactic
 
