@@ -96,7 +96,7 @@ Workspace Admins can change a live template for the whole workspace: rename it, 
    - **Sections:** use the arrows to change the order, type a new name for a section, turn a section on or off with **Show**, and tick the tiles to show inside it.
 3. Select **Save**.
 
-![The Customise CMO Dashboard dialog, with the name, default date range, headline tiles and sections](https://files.readme.io/d0007b4177c919bc46f488729342d95284a20248f329ad7e1f3667c6c471cb96-12-templates-customise.png)
+<Image align="center" width="520px" alt="The Customise CMO Dashboard dialog, with the name, default date range, headline tiles and sections" src="https://files.readme.io/d0007b4177c919bc46f488729342d95284a20248f329ad7e1f3667c6c471cb96-12-templates-customise.png" />
 
 Your changes apply to every dashboard built from this template in your workspace, the next time each one opens. Web page, PDF and deck templates can't be customized.
 

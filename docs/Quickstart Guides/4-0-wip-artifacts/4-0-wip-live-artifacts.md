@@ -50,7 +50,7 @@ A new dashboard starts as a **draft**. The banner across the top says **Only you
 
 The dashboard joins your library, and **Share** and **Pin** appear in its toolbar.
 
-![The Name your dashboard dialog, with the suggested name selected](https://files.readme.io/4c2ca9cefd7594d18909a5191b342ee9e251c4fa35c53ffbc57012f8c07fdf60-15-live-save.png)
+<Image align="center" width="380px" alt="The Name your dashboard dialog, with the suggested name selected" src="https://files.readme.io/4c2ca9cefd7594d18909a5191b342ee9e251c4fa35c53ffbc57012f8c07fdf60-15-live-save.png" />
 
 <Callout icon="📘" theme="info">
   **Note:** A draft you don't save expires after 30 days. To get it back after that, ask Lifesight to build it again.

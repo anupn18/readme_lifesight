@@ -84,7 +84,7 @@ The suggestions under the box are ready-made requests. Select one to send it, or
 3. Check the **Artifact name**. You can rename the artifact later; the file itself never changes.
 4. Select **Add to repository**.
 
-![The Upload an artifact dialog, with its drop area for HTML, PDF and PPTX files](https://files.readme.io/262dc5a9f6015a75d0a9a5e0ed65d88899bf51846d11c52de8abc3f10e264948-03-artifacts-upload.png)
+<Image align="center" width="440px" alt="The Upload an artifact dialog, with its drop area for HTML, PDF and PPTX files" src="https://files.readme.io/262dc5a9f6015a75d0a9a5e0ed65d88899bf51846d11c52de8abc3f10e264948-03-artifacts-upload.png" />
 
 | File            | Extension | What people see when they open it                                          |
 | --------------- | --------- | -------------------------------------------------------------------------- |
@@ -154,7 +154,7 @@ Folders group the artifacts that belong together, such as every quarterly review
 
 The new folder opens straight away, ready for you to fill.
 
-![The New folder dialog with a folder name typed in](https://files.readme.io/8c1db2e8c5feba62e70f6035279655f767dd0a58b31196ac6a5f8b7e1dfe5380-08-folders-new.png)
+<Image align="center" width="360px" alt="The New folder dialog with a folder name typed in" src="https://files.readme.io/8c1db2e8c5feba62e70f6035279655f767dd0a58b31196ac6a5f8b7e1dfe5380-08-folders-new.png" />
 
 ### Move an artifact into a folder
 
@@ -164,7 +164,7 @@ The new folder opens straight away, ready for you to fill.
 
 A message confirms the move, with **Undo** if you picked the wrong folder.
 
-![The Move to folder menu on an open artifact, listing three folders, Unfiled and New folder](https://files.readme.io/0fbf4f9e76cf8f7b4b2babb2d7100de259236d9d8b6f1860a831c1c203d17f1a-09-folders-move.png)
+<Image align="center" width="380px" alt="The Move to folder menu on an open artifact, listing three folders, Unfiled and New folder" src="https://files.readme.io/0fbf4f9e76cf8f7b4b2babb2d7100de259236d9d8b6f1860a831c1c203d17f1a-09-folders-move.png" />
 
 <Callout icon="📘" theme="info">
   **Tip:** Open a folder before you select **Upload**, and the file you upload goes straight into that folder.
@@ -177,7 +177,7 @@ Open the folder, then select **⋯** beside its name, or select **⋯** on the f
 - **Rename** changes the folder's name.
 - **Delete folder** removes the folder only. The artifacts in it are kept and move to **Unfiled**.
 
-![A folder open in the library, with its Rename and Delete folder menu](https://files.readme.io/4147c898b07be4a7035069ebbc140e24363f1b5143668cf5edeb819b003bd5ef-10-folders-menu.png)
+<Image align="center" width="540px" alt="A folder open in the library, with its Rename and Delete folder menu" src="https://files.readme.io/4147c898b07be4a7035069ebbc140e24363f1b5143668cf5edeb819b003bd5ef-10-folders-menu.png" />
 
 ***
 
