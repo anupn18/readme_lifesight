@@ -91,11 +91,11 @@ Merged models are designed for consolidated review. Since response curves and ma
 ## Related Articles
 
 <Cards>
-  <Card title="Contribution" href="https://docs.lifesight.io/update/docs/contribution" icon="🔗">
+  <Card title="Contribution" href="https://docs.lifesight.io/docs/contribution" icon="🔗">
 
   </Card>
 
-  <Card title="Model training" href="https://docs.lifesight.io/update/docs/mmm-retraining" icon="🔗">
+  <Card title="Model training" href="https://docs.lifesight.io/docs/mmm-retraining" icon="🔗">
 
   </Card>
 </Cards>
