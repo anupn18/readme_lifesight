@@ -17,7 +17,7 @@ It is worth taking seriously. In most measurement projects the missing piece is 
 
 Use **CSV** for data that is fixed, historical, or updated rarely. A year of offline sales. A one off export from a system being retired.
 
-Use [Google Sheets](https://docs.lifesight.io/docs/4-0-wip-google-sheets) instead when the data is maintained on an ongoing basis and you want it refreshed automatically. If someone updates the numbers every week, a linked sheet saves you re-uploading it every week.
+Use [Google Sheets](https://docs.lifesight.io/docs/google-sheets) instead when the data is maintained on an ongoing basis and you want it refreshed automatically. If someone updates the numbers every week, a linked sheet saves you re-uploading it every week.
 
 Use a **data warehouse** connection when the data already lives in BigQuery or Snowflake.
 
@@ -67,7 +67,7 @@ Two things are worth doing for almost every uploaded file.
 
 CSV is a point in time upload. When you have newer data, re-upload it against the same integration rather than creating a new one. That keeps the field mappings you already set up, and keeps the history in one place instead of scattering it across several near identical sources.
 
-If you find yourself re-uploading the same file every month, move it to [Google Sheets](https://docs.lifesight.io/docs/4-0-wip-google-sheets) and let it refresh on a schedule.
+If you find yourself re-uploading the same file every month, move it to [Google Sheets](https://docs.lifesight.io/docs/google-sheets) and let it refresh on a schedule.
 
 ***
 
