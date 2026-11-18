@@ -12,8 +12,10 @@ next:
 ---
 ### Problem Statement:
 
-* In today’s competitive market, allocating your marketing budget efficiently is crucial to achieving your forecasted revenue goals. However, determining the optimal budget distribution across various channels and strategies remains a significant challenge due to the complex and nonlinear relationships between ad spend and revenue. Without a clear understanding of these relationships, you risk underinvesting in high-impact areas or overspending on low-return channels, ultimately falling short of your revenue targets.
-* The scenario planner aims to address this challenge by providing a data-driven approach to budget planning. By leveraging historical data and advanced modeling techniques (like ridge regression), the tool helps you simulate different budget scenarios and forecast their potential impact on revenue. This enables you to make informed decisions and strategically allocate your resources to maximize return on investment (ROI) and achieve your forecasted revenue.
+* In today’s competitive market, allocating your marketing budget efficiently is crucial to achieving your forecasted revenue goals.&#x20;
+  <br />
+  However, determining the optimal budget distribution across various channels and strategies remains a significant challenge due to the complex and nonlinear relationships between ad spend and revenue. Without a clear understanding of these relationships, you risk underinvesting in high-impact areas or overspending on low-return channels, ultimately falling short of your revenue targets.
+* The scenario planner aims to address this challenge by providing a data-driven approach to budget planning. <br /><br />By leveraging historical data and advanced modeling techniques (like ridge regression), the tool helps you simulate different budget scenarios and forecast their potential impact on revenue. This enables you to make informed decisions and strategically allocate your resources to maximize return on investment (ROI) and achieve your forecasted revenue.
 
 ***
 
