@@ -90,15 +90,11 @@ Tell Lifesight what you want to learn.
 6. **KPI:** choose the outcome the lift is measured on, for example Revenue.
 7. Click **Continue to data**.
 
-<br />
-
-![](https://files.readme.io/676358b118c2a99bb1af97d04e0031701d693b7820ff82ad317a78d8178d01e2-image-03-setup-name-hypothesis.png)
+![](https://files.readme.io/ab31e2a093c2d1de9915c77e9bae4060815fe8d0be3c4d77b16c97fb89adff20-image-03-setup-name-hypothesis.png)
 
 <br />
 
-**\[Image 4: image-04-setup-change-channel-kpi.png]** Setup step: the change, channel and KPI
-
-![](https://files.readme.io/1364f2eeb5c98f21c4bc5d9eb68bcbac69506a6a47bf6422b8ca81dee4bb3fc3-image-04-setup-change-channel-kpi.png)
+![](https://files.readme.io/39b2f4c3d9be1e8b73d31b4dfc9b2d2f04b0a5b23f9a0cd7d0df1e4a1b98887a-image-04-setup-change-channel-kpi.png)
 
 <br />
 
@@ -120,11 +116,15 @@ Upload your KPI history and map its columns.
    - **History to learn from:** how far back to learn, counted from the latest date in your file. 15 months is the default.
 5. Click **Validate**.
 
-**\[Image 5: image-05-data-upload.png]** Data step: Upload a CSV selected and file added
+![](https://files.readme.io/c9f9bcd71b54becb76f4a7dce651180add4c0835dfbfbd4c76879fa67cc84fe6-image-05-data-upload.png)
 
-/image
+<br />
 
-**\[Image 6: image-06-data-map-columns.png]** Data step: column mapping and history settings
+**\[Image 6: image-06-data-map-columns.png]**&#x20;
+
+![](https://files.readme.io/cb047e897a3265b8aa5f00c9c767a63141d47a982676b00da471b54d3dcb32a2-image-06-data-map-columns.png)
+
+<br />
 
 When the file passes, you'll see **Validation passed** with a summary:
 
@@ -135,7 +135,9 @@ When the file passes, you'll see **Validation passed** with a summary:
 
 If the file doesn't pass, Lifesight tells you which row to fix. Fix the file, upload it again and click **Validate again**.
 
-**\[Image 7: image-07-data-validation-passed.png]** Data step: validation passed
+![](https://files.readme.io/3a9404cba6963a8fe24cb70b47870c05c678b8137bcf9dddd79f01e5f7de4fc4-image-07-data-validation-passed.png)
+
+<br />
 
 Then click **Continue to design**.
 
@@ -149,11 +151,15 @@ Under **How long will the test run?**, choose 14, 21, 30, 45, 60 or 90 days, or 
 
 Lifesight adds a **post-treatment window** after the test, to check whether the effect lingers. For example, a 60-day test gets a 30-day post-treatment window.
 
-**\[Image 8: image-08-design-test-length.png]** Design step: test length options and post-treatment window
+![](https://files.readme.io/27a6a0be3bbbc1bfbaa577b52baf47932655a39e39757a9aa3695f5580d3b66c-image-08-design-test-length.png)
+
+<br />
 
 If too few data points fall in the window, Lifesight warns you. Run the test longer, or use daily data if you have it.
 
-**\[Image 9: image-09-design-warning.png]** Design step: warning when the test window is too short
+![](https://files.readme.io/3401e3d2d013289f94f096e2047f84d34a5fe12abe612a52740e9be1d93c7d92-image-09-design-warning.png)
+
+<br />
 
 **Smallest detectable lift**
 
@@ -165,7 +171,11 @@ Click **How this is worked out** to see the inputs:
 - **Variation:** how much the KPI typically moves from period to period.
 - **Test data points:** the number of periods in the test window.
 
-**\[Image 10: image-10-design-detectable-lift.png]** Design step: smallest detectable lift and how it's worked out
+
+
+![](https://files.readme.io/314fdc85f17820ae8c1e0501fc8e3071984f393ca715b4f6b0b0eea207c4703a-image-10-design-detectable-lift.png)
+
+<br />
 
 > **Note: Check the detectable lift against your hypothesis.** If you expect a 5% drop and the test can detect 2.3%, the test is well sized. If the detectable lift is bigger than the effect you expect, run the test longer or make a bigger spend change. Real data has trends and streaks, so the lift a test can really detect is usually somewhat larger than this estimate.
 
@@ -175,7 +185,11 @@ Click **How this is worked out** to see the inputs:
 - **Planned spend during the test:** enter what you plan to spend over the test window. For a full pause, enter 0.
 - **Spend scenarios:** turn this on to also check the test's sensitivity if the change were 10%, 20%, 30% or 50% bigger or smaller.
 
-**\[Image 11: image-11-design-budget.png]** Design step: budget and spend scenarios
+
+
+![](https://files.readme.io/51c41a2444ae5ea6a4b5d7ccaa34a1e1c5520dc15d44914ac39d94f01d266a41-image-11-design-budget.png)
+
+<br />
 
 Click **Review**.
 
@@ -183,11 +197,15 @@ Click **Review**.
 
 Check the summary of your **Setup**, **Data** and **Design**. Use **Edit setup**, **Edit data** or **Edit design** to change anything.
 
-**\[Image 12: image-12-review-summary.png]** Review step: summary of setup, data and design
+![](https://files.readme.io/659748babcec0cdca7e6a34b59c0eb4287cc5a439831cb258c0b37366fad96c9-image-12-review-summary.png)
+
+<br />
 
 Click **Start design** when you're ready. You can also click **Save draft** to come back later.
 
-**\[Image 13: image-13-review-next-steps.png]** Review step: what happens next, with the Start design button
+![](https://files.readme.io/769feca81f9d5fa8ba9f308fa88b7fd845ce17621e41be041cfd4ce3e18b21ed-image-13-review-next-steps.png)
+
+<br />
 
 ## Run the test
 
@@ -205,8 +223,6 @@ After you start the design, the test moves through four stages.
 - **Avoid promotions and launches.** Sales, new products, price changes and stock-outs all move the KPI.
 - **Log anything unexpected**, such as a PR mention, an outage or a competitor promotion. It helps you read the result later.
 
-**\[Image 14: to capture once a test is running]** Experiments page showing the time test as Running
-
 ## Get results you can act on
 
 When you upload the KPI for the test window, Lifesight shows:
@@ -217,10 +233,6 @@ When you upload the KPI for the test window, Lifesight shows:
 - **Verdict:** significant lift, significant drop, or inconclusive.
 - **Readout:** a plain-language summary of what the result means for the channel.
 - **Post-treatment effect:** whether the impact continued after spend returned to normal.
-
-**\[Image 15: to capture once a test has results]** Results chart showing actual vs. baseline, with the test and post-treatment windows shaded
-
-**\[Image 16: to capture once a test has results]** Results tiles for lift, incremental KPI, iROAS and verdict, with the readout
 
 ### How to read the verdict
 
