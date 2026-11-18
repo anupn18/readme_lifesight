@@ -20,7 +20,7 @@ A rule looks for a pattern and assigns a tactic automatically. Most importantly,
 - **New campaigns launch regularly,** and you don't want to revisit your taxonomy every week
 - **Several accounts share a naming convention,** so one rule can cover all of them
 
-For exceptions and the long tail of campaigns that no pattern describes, use [Assign tactics by hand](https://docs.lifesight.io/docs/4-0-wip-assign-tactics-manually).
+For exceptions and the long tail of campaigns that no pattern describes, use [Assign tactics by hand](https://docs.lifesight.io/docs/assign-tactics-manually).
 
 ## Create a rule in a few steps
 
@@ -201,11 +201,11 @@ Planner and Optimizer work by tactic, so unclassified spend is invisible to them
 ## Related Articles
 
 <Cards>
-  <Card title="Model Schema" href="https://docs.lifesight.io/update/docs/model-schema" icon="🔗">
+  <Card title="Model Schema" href="https://docs.lifesight.io/docs/model-schema" icon="🔗">
 
   </Card>
 
-  <Card title="Marketing Mix Modeling" href="https://docs.lifesight.io/update/docs/marketing-mix-modelling-overview" icon="🔗">
+  <Card title="Marketing Mix Modeling" href="https://docs.lifesight.io/docs/marketing-mix-modelling-overview" icon="🔗">
 
   </Card>
 </Cards>
