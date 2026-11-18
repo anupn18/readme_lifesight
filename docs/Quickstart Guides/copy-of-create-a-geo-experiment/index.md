@@ -15,8 +15,7 @@ Time tests need no geo split and no user-level tracking. They work for channels 
 
 Before you change any spend, Lifesight shows the smallest lift your test can reliably detect. So you know the test is worth running before you touch the budget.
 
-
-<Image src="https://files.readme.io/ce5b9d9fc22bdad47e2680dbaefccb58233b90e10ceeb5675c30f29fa1265cd3-image-01-choose-time-testing.png" width="800px" />
+![](https://files.readme.io/91f031adc33d1d281721557bb39c076adafdd18dc928df16a7e7c37aa236f47b-image-01-choose-time-testing.png)
 
 <br />
 
