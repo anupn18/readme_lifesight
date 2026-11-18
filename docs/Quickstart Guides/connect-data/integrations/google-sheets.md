@@ -17,7 +17,7 @@ Linking a Google Sheet means Lifesight re-reads it on a schedule, so that data s
 
 Use **Google Sheets** when the data is maintained on an ongoing basis. Finance updates it monthly, marketing adds a row per promotion, someone appends last week's numbers every Monday.
 
-Use [CSV Import](https://docs.lifesight.io/docs/4-0-wip-csv-import) when the data is fixed and historical, or a genuine one off.
+Use [CSV Import](https://docs.lifesight.io/docs/csv-import) when the data is fixed and historical, or a genuine one off.
 
 The rule of thumb: if you would otherwise be re-uploading the same file repeatedly, link the sheet instead.
 
