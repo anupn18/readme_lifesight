@@ -68,8 +68,9 @@ Before you upload, check that:
 1. Go to **Measurement** > **Experiments**.
 2. Click **New Experiment**.
 3. Under **How do you want to test?**, choose **Time Testing**.
+4.
 
-**\[Image 2: image-02-experiments-page.png]**&#x20;
+![](https://files.readme.io/aa571919d4eec1b703cf8c30f455b3bc3bd697c58f185fd3c12e8e8dddd32337-image-02-experiments-page.png)
 
 <br />
 
@@ -89,9 +90,17 @@ Tell Lifesight what you want to learn.
 6. **KPI:** choose the outcome the lift is measured on, for example Revenue.
 7. Click **Continue to data**.
 
-**\[Image 3: image-03-setup-name-hypothesis.png]** Setup step: name, test type and hypothesis
+<br />
+
+![](https://files.readme.io/676358b118c2a99bb1af97d04e0031701d693b7820ff82ad317a78d8178d01e2-image-03-setup-name-hypothesis.png)
+
+<br />
 
 **\[Image 4: image-04-setup-change-channel-kpi.png]** Setup step: the change, channel and KPI
+
+![](https://files.readme.io/1364f2eeb5c98f21c4bc5d9eb68bcbac69506a6a47bf6422b8ca81dee4bb3fc3-image-04-setup-change-channel-kpi.png)
+
+<br />
 
 > **Warning: Pick a quiet window.** A time test compares your KPI with a forecast of its own history. Anything else unusual in the test window, such as a sale, a stock-out, a price change or a news spike, shows up as lift. Pick a window with nothing else going on.
 
@@ -112,6 +121,8 @@ Upload your KPI history and map its columns.
 5. Click **Validate**.
 
 **\[Image 5: image-05-data-upload.png]** Data step: Upload a CSV selected and file added
+
+/image
 
 **\[Image 6: image-06-data-map-columns.png]** Data step: column mapping and history settings
 
