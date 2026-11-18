@@ -141,10 +141,10 @@ When you edit a field, the section called **How this field gets its value** offe
 
 | Use case                                                     | Choose                          | Read more                                                                                   |
 | ------------------------------------------------------------ | ------------------------------- | ------------------------------------------------------------------------------------------- |
-| The source reports the value, and it changes from row to row | **A field from this source**    | [Map a field from a source](https://docs.lifesight.io/docs/4-0-wip-map-field-from-source)   |
-| The value is the same on every row from this source          | **A fixed value for every row** | [Set a fixed value for a source](https://docs.lifesight.io/docs/4-0-wip-fixed-value-source) |
+| The source reports the value, and it changes from row to row | **A field from this source**    | [Map a field from a source](https://docs.lifesight.io/docs/map-field-from-source)   |
+| The value is the same on every row from this source          | **A fixed value for every row** | [Set a fixed value for a source](https://docs.lifesight.io/docs/fixed-value-source) |
 
-Before either of these, the source needs a channel: [Map a source to a channel](https://docs.lifesight.io/docs/4-0-wip-map-source-channel).
+Before either of these, the source needs a channel: [Map a source to a channel](https://docs.lifesight.io/docs/map-source-channel).
 
 The test is simple. If the value would be the same on every row of this source, use a fixed value. If it changes, it needs to come from a column, even a messy one.
 
@@ -242,7 +242,7 @@ Yes. A mapping is a definition, not a one-time import, so updated mappings apply
 
 ### Where do I classify campaigns into tactics?
 
-Campaign classification happens in [Data Taxonomy](https://docs.lifesight.io/docs/4-0-wip-data-taxonomy), not Data Transformation. Data Transformation defines what columns mean, while Data Taxonomy groups campaigns into tactics (the marketing approach a campaign uses, such as prospecting or retargeting).
+Campaign classification happens in [Data Taxonomy](https://docs.lifesight.io/docs/data-taxonomy), not Data Transformation. Data Transformation defines what columns mean, while Data Taxonomy groups campaigns into tactics (the marketing approach a campaign uses, such as prospecting or retargeting).
 
 <Cards>
   <Card title="Map a Field From Source" href="https://docs.lifesight.io/docs/map-field-from-source" icon="🔗">
@@ -253,7 +253,7 @@ Campaign classification happens in [Data Taxonomy](https://docs.lifesight.io/doc
 
   </Card>
 
-  <Card title="Map a Source to a channel" href="https://docs.lifesight.io/update/docs/map-source-channel" icon="🔗">
+  <Card title="Map a Source to a channel" href="https://docs.lifesight.io/docs/map-source-channel" icon="🔗">
 
   </Card>
 </Cards>
