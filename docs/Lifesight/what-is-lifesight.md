@@ -231,11 +231,11 @@ Together, these layers give you one connected measurement system: model-ready da
   ## Related Articles
 
 <Cards>
-  <Card title="Who is Lifesight For" href="https://docs.lifesight.io/v2.0/update/docs/who-is-lifesight-for" icon="fa-rocket">
+  <Card title="Who is Lifesight For" href="https://docs.lifesight.io/docs/who-is-lifesight-for" icon="fa-rocket">
 
   </Card>
 
-  <Card title="How Lifesight works" href="https://docs.lifesight.io/update/docs/how-lifesight-works" icon="fa-code">
+  <Card title="How Lifesight works" href="https://docs.lifesight.io/docs/how-lifesight-works" icon="fa-code">
 
   </Card>
 </Cards>
