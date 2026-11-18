@@ -128,7 +128,7 @@ What is actually arriving. A date range selector sits at the top, and under it t
 
 Open this tab(overview) first when a number looks wrong elsewhere in the platform, because it answers the question worth asking up front: is the data coming through, and does its shape look right. A flat line where there should be spend, or a sudden step change, usually points to a sync issue or an account that stopped being included.
 
-If the source is connected and syncing but its fields have not been mapped yet, this tab will tell you so rather than show empty charts.That points you to [Data Transformation](https://docs.lifesight.io/docs/data-transformation), and is not a fault with the connection.
+If the source is connected and syncing but its fields have not been mapped yet, this tab will tell you so rather than show empty charts.That points you to [Data Transformation](https://docs.lifesight.io/docs/4-data-transformation), and is not a fault with the connection.
 
 ![](https://files.readme.io/db92e0d8d9f302af7db9992eceaf795fe8609b0687526a069b8d04dfd242ebd3-Screenshot_2026-09-01_at_4.38.22_PM.png)
 
