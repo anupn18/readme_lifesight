@@ -196,7 +196,7 @@ Data Transformation defines what each column in your data means. Data Taxonomy g
 
   </Card>
 
-  <Card title="Model Schema" icon="fa-code">
+  <Card title="Model Schema" href="https://docs.lifesight.io/docs/model-schema" icon="fa-code">
 
   </Card>
 </Cards>
