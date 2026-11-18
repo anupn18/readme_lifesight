@@ -65,7 +65,7 @@ Six roles ship built in. The lookup key is the role name as the product writes i
 
 **Lifesight has 55 rights in total.** Each of the 16 modules has a **Read access** right and a **Manage access** right, and each of the 23 actions has one right of its own. When you select a role on **Manage Roles,** the detail panel shows how many rights it holds, as a number labeled permissions. Viewer does not appear on **Manage Roles or in the Invite User role** list, so its count of 16 comes from the same grid rather than from a screen.
 
-**Viewer and Executive both hold 16 rights, but not the same 16.** Viewer can read all 16 modules and holds no action rights. Executive opens four fewer modules and holds three action rights.
+**Viewer holds 16 rights and Executive 17, and they are different rights.** Viewer can read all 16 modules and holds no Manage or action rights. Executive opens four fewer modules, can manage Artifacts and Settings, and holds three action rights.
 
 **Older role names map to current ones**. admin becomes `WorkspaceAdmin`, `analyst `becomes `Data Practitioner`, executive becomes` Executive`, and viewer becomes `Viewer.`
 
@@ -90,7 +90,7 @@ Every Lifesight module appears here, one per row, so you can check what each rol
 | **Data**        | ●               | ●                 | ◐                   | ○                 | ○         | ◐      |
 | **Brain**       | ●               | ◐                 | ◐                   | ◐                 | ◐         | ◐      |
 | **Config**      | ●               | ○                 | ○                   | ○                 | ○         | ◐      |
-| **Artifacts**   | ●               | ◐                 | ◐                   | ●                 | ◐         | ◐      |
+| **Artifacts**   | ●               | ●                 | ●                   | ●                 | ●         | ◐      |
 | **Team**        | ●               | ◐                 | ◐                   | ◐                 | ◐         | ◐      |
 | **Settings**    | ●               | ●                 | ●                   | ●                 | ●         | ◐      |
 
@@ -241,9 +241,11 @@ Every Lifesight module appears here, one per row, so you can check what each rol
 
 | Sub-module           | WA | DP | MS | SP | EX | VW |
 | -------------------- | -- | -- | -- | -- | -- | -- |
-| **Artifact library** | ●  | ◐  | ◐  | ●  | ◐  | ◐  |
-| **Template builder** | ●  | ○  | ◐  | ●  | ○  | ◐  |
+| **Artifact library** | ●  | ●  | ●  | ●  | ●  | ◐  |
+| **Template builder** | ●  | ◐  | ◐  | ●  | ◐  | ◐  |
 | **Publish settings** | ●  | ○  | ○  | ○  | ○  | ◐  |
+
+**Every role can open Artifacts, the template gallery, and the artifacts shared with it.** Viewer can only look. Every other role holds Manage on **Artifact library**, so it can also build, change, save, move and delete the artifacts it owns or can edit.
 
 ### Team
 
@@ -310,8 +312,8 @@ A module opens when at least one of its sub-modules carries read, and action rig
 **Why do Settings, Team, and Support open for every role?**
 Support is always open. Settings and Team open because every role includes read access to notification preferences and to the team member list. Only the buttons inside them are limited by role.
 
-**Viewer and Executive both hold 16 rights. Are they the same?**
-No. Viewer can read all 16 modules and holds no action rights. Executive opens four fewer modules but holds three action rights.
+**How do Viewer's and Executive's rights differ?**
+Viewer holds 16 rights: it can read all 16 modules but holds no Manage or action rights. Executive holds 17: it opens four fewer modules, can manage Artifacts and Settings, and holds three action rights.
 
 **Why doesn't Viewer appear in Manage Roles or the Invite User list?**
 Viewer is a built-in role that isn't offered in those lists. Its count of 16 rights comes from the permissions grid rather than from a screen.

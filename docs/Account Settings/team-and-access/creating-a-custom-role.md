@@ -41,10 +41,10 @@ The right pane shows the role name, its tagline, and the number of rights it hol
 | Preset role             | Tagline                                          | Rights held |
 | ----------------------- | ------------------------------------------------ | ----------- |
 | **Workspace Admin**     | Full platform access                             | 55 of 55    |
-| **Data Practitioner**   | Data pipelines & measurement infrastructure      | 27 of 55    |
-| **Marketing Scientist** | Attribution, experiments & creative intelligence | 29 of 55    |
+| **Data Practitioner**   | Data pipelines & measurement infrastructure      | 28 of 55    |
+| **Marketing Scientist** | Attribution, experiments & creative intelligence | 30 of 55    |
 | **Strategic Planner**   | Campaign planning & budget deployment            | 24 of 55    |
-| **Executive**           | Read-only strategic overview                     | 16 of 55    |
+| **Executive**           | Read-only strategic overview                     | 17 of 55    |
 
 **Viewer** is a sixth built-in role. See **Roles: what each one opens, and what it can do**. Under **Custom Roles**, below the presets, "None yet" shows until you create one.
 
