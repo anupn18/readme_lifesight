@@ -153,11 +153,11 @@ Immediate and carryover effects are shown in **Diagnostics**.
 ## Related Articles
 
 <Cards>
-  <Card title="Model training" href="https://docs.lifesight.io/update/docs/mmm-retraining" icon="🔗">
+  <Card title="Model training" href="https://docs.lifesight.io/docs/mmm-retraining" icon="🔗">
 
   </Card>
 
-  <Card title="Interaction" href="https://docs.lifesight.io/update/docs/channel-interaction" icon="🔗">
+  <Card title="Interaction" href="https://docs.lifesight.io/docs/channel-interaction" icon="🔗">
 
   </Card>
 </Cards>
