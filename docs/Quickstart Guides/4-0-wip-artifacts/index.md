@@ -1,340 +1,287 @@
 ---
 title: Artifacts
 excerpt: >-
-  Turn any question into a live dashboard, report, deck or page built from your
-  workspace data or upload one you already have.
+  Build live dashboards, reports and decks from your workspace data, upload the
+  files you already have, and keep them all in one library your team can share.
+deprecated: false
 hidden: true
 metadata:
-  title: Create and Share Artifacts in Lifesight
+  title: Create, organize and share Artifacts in Lifesight
+  description: >-
+    Build live dashboards, reports and decks from your workspace data, upload
+    the files you already have, and keep them all in one library your team can
+    share.
   keywords:
     - Lifesight
     - Artifacts
     - Dashboards
     - Reports
+    - Templates
+  robots: noindex
 ---
-Artifacts turn your marketing data into dashboards, reports, and decks you can share with your team and leadership. An **artifact** is anything you can hand to someone else: a live dashboard, a static page, a PDF report, or a slide deck. You'll find them under **Artifacts** in the left navigation.
+An **artifact** is anything you make in Lifesight to hand to someone else: a live dashboard, a web page, a PDF report or a PowerPoint deck. Every artifact lives in one library, so your team always knows where the latest version is. You'll find it under **Artifacts** in the left navigation.
 
-There are two ways to create one. You can **describe what you want** and let Lifesight build it from your live workspace data, or you can **upload a file you already have**. Describing gives you an artifact that refreshes with your latest numbers. Uploading gives your existing reports one home, right next to everything else.
+There are three ways to make one:
 
-![](https://files.readme.io/ce4de6e325f09778ec33525c201c54d9522b908f259a214a2ff03849cf441649-Screenshot_2026-09-21_at_3.34.20_PM.png)
+- **Describe it.** Tell Lifesight what you need in plain words, and it builds it from your workspace data.
+- **Start from a template.** Pick a ready-made dashboard, report or deck from the template gallery.
+- **Upload it.** Add an HTML page, PDF or PowerPoint deck you already have.
 
-<br />
-
-<Callout icon="📘" theme="info">
-  **Note:** You don't build a generated artifact by dragging widgets onto a blank grid. You describe it in plain English, Lifesight runs the analysis on your live workspace data, and the canvas is built from the results. **Every number on it comes from your data.**
-</Callout>
+![The Artifacts page: a box to describe what to create, a strip to upload a file, and suggested requests](https://files.readme.io/ad9c078303a72236bc7f9db503d11cff875f1d956798a1042e815b02af867557-01-artifacts-home.png)
 
 ***
 
-## Choose the format that fits how it will be used
+## Know the three kinds of artifact
 
-| Format           | What it is                                                                            | Best for                                         |
-| ---------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| **Live page**    | A dashboard connected to your live data. Regenerate it to pull in the latest numbers. | Standing dashboards, monitoring, pacing trackers |
-| **Static page**  | A page created once and kept as is                                                    | Snapshots, recaps, post-mortems                  |
-| **PDF**          | A paginated document                                                                  | Reports, memos, one-pagers, briefs               |
-| **Presentation** | A set of 16:9 slides                                                                  | QBRs, board reviews, leadership decks            |
+Each artifact in your library carries a tag that tells you what kind it is.
 
-> <Callout icon="📘" theme="info">
->   **Note:** You don't pick the format from a menu. Your words decide it. Say **deck**, **slides**, **presentation**, or **QBR** to get a presentation. Say **report**, **PDF**, **memo**, or **one-pager** to get a PDF. Say **snapshot**, **summary**, or **recap** to get a static page. Anything else, including requests that mention **live**, **dashboard**, **real-time**, or **tracker**, gives you a live page. If you get the wrong format, include the format word in your request and generate again.
-> </Callout>
+| Tag        | What it is                                                                                                   | How it stays current                                                       |
+| ---------- | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
+| **Live**   | A dashboard that reads your workspace data every time it opens.                                              | Always shows the latest figures. See [Live Artifacts](doc:4-0-wip-live-artifacts). |
+| **Static** | A web page, PDF report or PowerPoint deck that Lifesight made for you.                                       | Keeps the figures it was made with. Ask for a new one when you need fresh numbers. |
+| **Manual** | A file you uploaded.                                                                                         | Stays exactly as you uploaded it.                                          |
 
 ***
 
-## Pick the fastest way to create your artifact
+## Who can use Artifacts
 
-| Route                     | Use it when                                           |
-| ------------------------- | ----------------------------------------------------- |
-| **From the composer**     | You know what you want to build                       |
-| **From a template**       | You want a proven layout to start from                |
-| **From an answer in Ask** | You've already asked the question and like the answer |
-| **By uploading a file**   | The report already exists outside Lifesight           |
+Everyone in a workspace can open **Artifacts**, browse the template gallery, and open the artifacts shared with them.
 
-### From the composer
+**Viewers** can look but not change anything: they can't build, change, save, move or delete artifacts. Every other role can do all of these for the artifacts they own or can edit.
+
+Two things are kept for **Workspace Admins**:
+
+- Changing a live template for the whole workspace with **Customise**. See [Templates](doc:4-0-wip-artifact-templates).
+- Setting up the workspace's brand kit. See [Brand Kit](doc:4-0-wip-brand-kit).
+
+To check what a role can do across Lifesight, see the [Permission Matrix](doc:permission-matrix).
+
+***
+
+## Describe what you want and let Lifesight build it
 
 1. Go to **Artifacts**.
-2. In the box under **What will you create today?**, describe your artifact, for example "Create a live CMO dashboard with revenue, ROAS and channel mix."
-3. Press **Enter**.
-4. The editor opens and building begins. Cards appear on the canvas as each one is ready.
+2. In the box under **What will you create today?**, describe what you need. For example: "Create a live CMO dashboard with revenue, ROAS and channel mix" or "Build a QBR deck for the leadership review".
+3. Press **Enter**, or select the send button.
 
-The chips under the composer are starter prompts. Click one to add it to the box, then edit it before sending.
+Lifesight opens a conversation, reads your workspace data, and builds what you asked for. When it's done, the reply shows what it produced:
 
-<Callout icon="📘" theme="info">
-  **Tip:** Be specific about the metrics and how you want them broken down. "Revenue and ROAS by channel for the last 90 days, plus a weekly trend" gives you a much better first draft than "a performance dashboard." You can always refine it afterward in the chat.
-</Callout>
+- **A web page, PDF or deck** goes straight into your library. Select **Open in Artifacts** on the reply to open it, or download it, copy its link or share it from the same card.
+- **A live dashboard** arrives as a draft that only you can see. Select **View draft**, check it, then save it to your library. See [Live Artifacts](doc:4-0-wip-live-artifacts#save-a-draft-to-your-library).
 
-Sometimes Lifesight needs one detail it can't guess, such as a date range, a market, or which KPI you mean. When that happens, the canvas asks you for it. Answer in the panel on the right, and your artifact is built from your answer.
-
-### From a template
-
-Templates are ready-made layouts, one for each output format.
-
-| Template                          | Format       | What's included                                                                     |
-| --------------------------------- | ------------ | ----------------------------------------------------------------------------------- |
-| **CMO Dashboard**                 | Live page    | Revenue, blended ROAS, spend, and conversion KPIs, plus revenue and ROAS by channel |
-| **Pacing Recommendations**        | Static page  | This week's pacing summary, spend and CPA KPIs, and daily spend trend               |
-| **QBR Deck**                      | Presentation | Title slide, quarterly revenue, revenue by channel, spend mix, and scorecard        |
-| **Ad Channel Performance Report** | PDF          | Summary, spend and blended CPA, ROAS by channel, and a detail table                 |
-
-Scroll to **Templates** on the Artifacts page, or click **See all** to open the full library, where you can search and filter by **Executive**, **Performance**, or **Analytics**. Click **Use template** and the editor opens with it right away.
-
-### From an answer in Ask
-
-This is the fastest route, because the analysis is already done.
-
-1. Ask a question anywhere: the Cockpit, the docked **Ask** panel, or the fullscreen Ask view.
-2. Under the answer, click **Add to artifact**.
-3. Choose **New artifact**, or pick an existing artifact to add to.
-4. Add any extra direction, such as "a board-ready deck" or "focus on Q4 efficiency."
-5. Click **Create artifact**.
-
-The editor opens with the Ask panel already holding the conversation that produced the answer, so you can keep refining without explaining anything again.
+The suggestions under the box are ready-made requests. Select one to send it, or select **×** to hide it.
 
 <Callout icon="📘" theme="info">
-  **Note:** You can also just ask for it. Type "create a report of this conversation" or "turn this into a deck" in Ask, and Lifesight builds the artifact from everything you've discussed so far.
-</Callout>
-
-### By uploading a file
-
-Bring in an HTML page, PDF, or PowerPoint deck you already have.
-
-1. On the Artifacts page, click **Upload**.
-2. Choose your file by dragging it onto the dialog or clicking to browse.
-3. Give it a name. The filename is filled in for you with the extension removed.
-4. Click **Add to repository**.
-
-![The upload dialog, with a file picked and its name ready to edit](https://files.readme.io/b5563134cbd0324b39c792f80514347328e94d816cbfc1ab04b5742029cb8c41-artifacts-upload-dialog-only.png)
-
-| Format              | Extensions  | What happens when someone opens it                                      |
-| ------------------- | ----------- | ----------------------------------------------------------------------- |
-| **HTML page**       | .html, .htm | Displays directly in the page                                           |
-| **PDF document**    | .pdf        | Displays directly in the page                                           |
-| **PowerPoint deck** | .pptx       | Available as a download, since browsers can't display decks in the page |
-
-Files can be up to **25 MB**.
-
-<Callout icon="📘" theme="info">
-  **Note:** Uploaded artifacts are presentation-only (view and share, not edit). There's no canvas or chat editing, the file is stored exactly as uploaded, and it downloads as the same file. Renaming never changes the file. Uploaded HTML pages run in a sandbox (a secure, isolated space) and can't access your Lifesight session.
+  **Tip:** Name the format, the figures and the period you want. "A PDF report on paid channel efficiency over the last 30 days" gives a better first result than "a performance report". If the result isn't quite right, keep asking in the same conversation.
 </Callout>
 
 ***
 
-## Refine your artifact in the editor
+## Upload a file you already have
 
-Generated artifacts open in the editor, with the canvas on the left and the **Ask** panel on the right.
+1. Go to **Artifacts** and select **Upload file**, or select **Upload** in the library.
+2. Drag your file onto the dialog, or select **Choose a file**.
+3. Check the **Artifact name**. You can rename the artifact later; the file itself never changes.
+4. Select **Add to repository**.
 
-### Toolbar
+![The Upload an artifact dialog, with its drop area for HTML, PDF and PPTX files](https://files.readme.io/262dc5a9f6015a75d0a9a5e0ed65d88899bf51846d11c52de8abc3f10e264948-03-artifacts-upload.png)
 
-| Control        | What it does                                                                |
-| -------------- | --------------------------------------------------------------------------- |
-| **Name**       | Click the title to rename it. Press **Enter** to save or **Esc** to cancel. |
-| **Regenerate** | Reruns the analysis and pulls in your latest numbers                        |
-| **Share**      | Copy a private link, or create, copy, and revoke a public read-only link    |
-| **Export**     | Download as HTML, PDF, or PPTX                                              |
-| **Pin**        | Pin the artifact to the left sidebar                                        |
-| **Save**       | Save it to your artifacts. Shows **Saved** once it's up to date.            |
+| File            | Extension | What people see when they open it                                          |
+| --------------- | --------- | -------------------------------------------------------------------------- |
+| HTML page       | .html     | The page, shown in Lifesight                                               |
+| PDF document    | .pdf      | The document, shown in Lifesight                                           |
+| PowerPoint deck | .pptx     | A **Download PPTX** button. An uploaded deck can't be shown in the page.   |
 
-The line next to **Regenerate** shows when your data was last refreshed, and whether the last run rebuilt the layout or only updated the numbers.
+Files can be up to **50 MB**. Uploaded artifacts are tagged **Manual**. They're for presenting and sharing: you can't edit their content in Lifesight or through Ask Lifesight, and they always download in the format you uploaded.
 
-### Editing with the chat
+***
 
-What happens depends on what you type:
+## Open a web page, report or deck
 
-- **Ask for a change,** and the canvas updates itself. For example, "Add a ROAS by channel breakdown" or "Focus on the top 5 channels only."
-- **Ask a question,** and it's answered in the chat without changing the canvas.
+Select any artifact to open it. Pages and PDFs show in the page. Decks that Lifesight made show slide by slide; decks you uploaded open with a **Download PPTX** button.
 
-When an answer includes data worth keeping, click **Add this answer to the canvas** underneath it.
+![A QBR deck open in Artifacts, with its format, version and Download, Copy private link, Share and Pin buttons](https://files.readme.io/4445a7aee2ea07c58718d52ce28fbdecab5cb167df653e9bb1ea989155424788-04-artifacts-file-page.png)
 
-### Arranging the canvas
+The bar above the artifact tells you:
 
-Live and static pages sit on a 12-column grid you can rearrange. Your layout is kept everywhere the artifact appears, including shared links and exports, and widgets you've positioned yourself stay in place the next time you regenerate.
+- its format (**HTML**, **PDF** or **PPTX**),
+- who can see it (**Only you**, **Shared**, or **Workspace**),
+- its version, for example **v2**,
+- and its tag (**Static** or **Manual**).
 
-| Action                   | How                                                |
-| ------------------------ | -------------------------------------------------- |
-| Move a widget            | Drag it by its move handle                         |
-| Resize a widget          | Drag the right, bottom, or bottom-right handle     |
-| Move with the keyboard   | Select it, then use **← ↑ → ↓**                    |
-| Resize with the keyboard | Select it, then use **Shift + ← ↑ → ↓**            |
-| Remove a widget          | Click its **×**, or select it and press **Delete** |
+From the same bar you can **Download** the file, **Copy private link**, **Share**, and **Pin** it. The **⋯** menu holds **Rename**, **Version history** and **Delete**.
+
+**Version history** lists every version of the artifact, with **View** and **Download** for each one.
+
+***
+
+## Find anything in your library
+
+Select **See all** next to **Your artifacts** to open the full library.
+
+![The artifact library: views on the left, and cards for uploaded files, files Lifesight made and live dashboards](https://files.readme.io/311b3dd3b2fba72592234ba9b00a2f5d03167a65e525df77ba0390ebd7e5fe62-02-artifacts-library.png)
+
+| To                          | Do this                                                                                     |
+| --------------------------- | ------------------------------------------------------------------------------------------- |
+| See only your own artifacts | Select **Mine**. **Shared with me** shows what others have shared with you.                 |
+| Find one by name            | Type in **Search artifacts**.                                                               |
+| Change the layout           | Switch between the grid and the list.                                                       |
+| Change the order            | Select **Sort**: **Last updated**, **Newest first**, **Oldest first**, **Name A–Z** or **Name Z–A**. |
+| Narrow the list             | Select **Filter**. **Type** filters by **HTML page**, **PDF report** or **PPTX deck**. **Source** filters by **Manual**, **Static** or **Live**. |
+
+Each card shows a preview, the name, the tag, who can see it, the version and when it was last updated. A globe beside **Workspace** or **Shared** means the artifact has a public link.
+
+The **⋯** menu on a card holds the quick actions: **Download** (files only), **Copy private link**, **Share**, **Rename** (files only), **Pin** and **Delete**.
+
+***
+
+## Keep related artifacts together in folders
+
+Folders group the artifacts that belong together, such as every quarterly review or every weekly pacing report. They sit under **Folders**, beside the library's views.
+
+![The library with three folders in the side list and as cards above the artifacts](https://files.readme.io/e3780f7d8b81d4fa9a74e67464d78ba1a1c46c227da434439a9d70a1b4c76503-07-folders-library.png)
+
+- A folder holds artifacts, not other folders.
+- An artifact sits in one folder at most. An artifact in no folder is **Unfiled**.
+- Folder names are unique in a workspace, whatever their capitals.
+- When **All artifacts** is open, folders show as cards above your artifacts, and each card shows the name of the folder it's in.
+
+### Create a folder
+
+1. In the library, select the **New folder** button beside **Folders**, or the **New folder** card.
+2. Type a name, for example "Quarterly reviews".
+3. Select **Create folder**.
+
+The new folder opens straight away, ready for you to fill.
+
+![The New folder dialog with a folder name typed in](https://files.readme.io/8c1db2e8c5feba62e70f6035279655f767dd0a58b31196ac6a5f8b7e1dfe5380-08-folders-new.png)
+
+### Move an artifact into a folder
+
+1. Select **⋯** on the artifact's card, or **⋯** at the top right of the open artifact.
+2. Select **Move to folder**.
+3. Choose the folder. To take the artifact out of its folder, choose **Unfiled**. To start a new folder for it, choose **New folder…**.
+
+A message confirms the move, with **Undo** if you picked the wrong folder.
+
+![The Move to folder menu on an open artifact, listing three folders, Unfiled and New folder](https://files.readme.io/0fbf4f9e76cf8f7b4b2babb2d7100de259236d9d8b6f1860a831c1c203d17f1a-09-folders-move.png)
 
 <Callout icon="📘" theme="info">
-  **Note:** PDFs and decks follow the layout of their format (document pages and slides), so there's no free grid to drag within. Dragging and resizing work on desktop only. On screens smaller than a tablet, the canvas stacks into a single column.
+  **Tip:** Open a folder before you select **Upload**, and the file you upload goes straight into that folder.
 </Callout>
 
-***
+### Rename or delete a folder
 
-## Save your artifact so your team can find it
+Open the folder, then select **⋯** beside its name, or select **⋯** on the folder in the side list.
 
-**Every generated artifact starts as a draft.** It won't appear in your artifacts list until you click **Save**. Unsaved drafts only appear under the **Drafts** tab. Uploads aren't drafts; they're saved the moment you add them.
+- **Rename** changes the folder's name.
+- **Delete folder** removes the folder only. The artifacts in it are kept and move to **Unfiled**.
 
-***
-
-## Share your artifact with the right people
-
-Open the **Share** menu on any artifact:
-
-| Option                        | Who can open it                                         |
-| ----------------------------- | ------------------------------------------------------- |
-| **Copy private link**         | Only people who can sign in to your workspace           |
-| **Create / Copy public link** | Anyone with the link, read-only, with no sign-in needed |
-| **Revoke public link**        | Stops the public link from working, immediately         |
-
-<Callout icon="📘" theme="info">
-  **Important: where artifacts are stored today.** In this release, your artifact repository is stored in the browser where it was created. This means a share link only opens in that browser, and artifacts don't yet carry over between devices. When you need something to open anywhere, export or download it and send the file.
-</Callout>
+![A folder open in the library, with its Rename and Delete folder menu](https://files.readme.io/4147c898b07be4a7035069ebbc140e24363f1b5143668cf5edeb819b003bd5ef-10-folders-menu.png)
 
 ***
 
-## Export your artifact in the format you need
+## Share an artifact with the right people
 
-You can export a **generated** artifact in any of three formats, whatever its original format:
+Select **Share** on an open artifact, or **Share** from the **⋯** menu on its card.
 
-| Export   | What you get                                                   |
-| -------- | -------------------------------------------------------------- |
-| **HTML** | A self-contained page with charts built in that opens anywhere |
-| **PDF**  | Your canvas as a paginated document                            |
-| **PPTX** | One slide per chart, using native PowerPoint charts            |
+![The Share this artifact dialog with link sharing on the left and invitations on the right](https://files.readme.io/45c4e52c7e7b7f69232cba31d2252f332fea39b98a86fdfcf07a53d0b96fd0aa-05-artifacts-share.png)
 
-An **uploaded** artifact has **Download** instead. It isn't converted to any other format, so you get back exactly what was uploaded, under its original filename.
+| To                                 | Do this                                                                                                            |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Give a teammate access             | Type their email address, choose **Can view** or **Can edit**, and select **Send invite**. **Quick add** suggests teammates you work with. |
+| Give your whole workspace access   | Select **+** beside **Share with workspace**.                                                                      |
+| Send a link to someone in Lifesight | Select **Copy private link**. Only people who can sign in to your workspace can open it.                          |
+| Send a link to someone outside     | Select **Create public link**. Anyone with the link can view the artifact without signing in, but can't change it. |
+| Stop a public link working         | Select **×** beside **Public link active**. The link stops working at once.                                        |
 
-![](https://files.readme.io/6106a38bc01a1250733955accb78c75c3fe8cc2fee03c7608ce369a7524a7d45-Screenshot_2026-09-21_at_3.32.38_PM.png)
-
-***
-
-## Find and organize your artifacts quickly
-
-The Artifacts page shows your most recent artifacts. Click **See all** for the full list.
-
-![](https://files.readme.io/cfb3caeeb34a9a6f0a2ab59d6c7b988b69fbf1f6c2f4e833f5ee5684c0cf2f64-Screenshot_2026-09-21_at_3.32.07_PM.png)
-
-From the list, you can:
-
-- **Search** by name or by the prompt that created the artifact.
-- Switch between **All**, **Yours**, **Drafts**, and **Shared with you**.
-- **Pin** or **Unpin** any artifact from the **⋯** menu on its card.
-- **Delete** an artifact from the same menu.
-
-Each card shows a preview, the format, and an **Uploaded** badge for uploaded files.
+Public links are for web pages, reports and decks. Only the artifact's owner can create one. Live dashboards are shared by invitation or with the whole workspace. See [Live Artifacts](doc:4-0-wip-live-artifacts#share-a-dashboard).
 
 ***
 
-## Get better results with the right request
+## Pin the artifacts you open most
 
-| You want                  | Ask for                                                                                     |
-| ------------------------- | ------------------------------------------------------------------------------------------- |
-| A standing executive view | "A live CMO dashboard with revenue, ROAS, spend mix and channel trend for the last 90 days" |
-| A weekly readout          | "A static summary of last week's performance by channel with the biggest movers called out" |
-| Something to present      | "A QBR deck covering quarterly revenue, channel mix and what changed vs last quarter"       |
-| A document for the inbox  | "A PDF report on paid channel efficiency over the last 30 days, with recommendations"       |
-| To watch your budget      | "A live tracker of budget pacing against plan by channel"                                   |
+Select **Pin** on an open artifact, or **Pin** from the **⋯** menu on its card:
 
-***
+- **Pin for me** adds it to your own sidebar.
+- **Pin for workspace** adds it to everyone's sidebar in the workspace.
 
-## Fix common issues
-
-**The canvas is empty.**
-If building finished and nothing appeared, ask for the content directly in the panel, for example "Add revenue, ROAS and spend KPIs, then a revenue trend by channel."
-
-**Regenerate rebuilt my layout instead of just updating the numbers.**
-This happens when the new analysis no longer matches the charts on your canvas. Rebuilding prevents charts from showing numbers that no longer belong to them. Rearrange your layout again, and it will be kept on future runs.
-
-**My artifact isn't in the list.**
-It's probably still a draft. Open the **Drafts** tab, open the artifact, and click **Save**.
-
-**My upload was rejected.**
-Only .html, .htm, .pdf, and .pptx files are accepted. Files must also be under 25 MB and not empty. Re-save older Office formats in the newer format, or export them to PDF.
-
-**The uploaded file is no longer stored in this browser.**
-The artifact's record is still there, but the file behind it isn't. This usually happens when browser storage has been cleared or the artifact was created in a different browser. Upload the file again to restore it.
+Pinned artifacts appear under **Artifacts** in the left navigation, one click away. To remove one, select **Unpin** from the **⋯** menu on its card. Only someone who can edit an artifact can change a pin made for the whole workspace.
 
 ***
 
-## Frequently asked questions about Artifacts<br />
+## Give dashboards your brand's look
 
-### What are Artifacts in Lifesight?
+Live dashboards use your workspace's brand kit: your logo and brand name beside the title, and your colors and fonts on the page. A Workspace Admin sets it up once in **Settings > Brand Kit**. See [Brand Kit](doc:4-0-wip-brand-kit).
 
-Artifacts are dashboards, reports, and decks you can share with others. You can create them by describing what you need, so Lifesight builds them from your live workspace data, or by uploading files you already have. You'll find them under **Artifacts** in the left navigation.
+***
 
-### How do I create an artifact in Lifesight?
+## Frequently asked questions about Artifacts
 
-You can create an artifact four ways: describe it in the composer, start from a template, turn an answer in Ask into an artifact, or upload an existing HTML, PDF, or PowerPoint file.
+### What is an artifact in Lifesight?
 
-### Where does the data in a generated artifact come from?
+An artifact is a dashboard, web page, PDF report or PowerPoint deck that you make or upload in Lifesight to share with others. All of them live in the library under **Artifacts** in the left navigation.
 
-Every number in a generated artifact comes from your live Lifesight workspace data. Lifesight runs the analysis and builds the canvas from the results.
+### What's the difference between Live, Static and Manual?
 
-### What formats can Lifesight create?
+**Live** artifacts are dashboards that read your workspace data every time they open. **Static** artifacts are web pages, reports and decks that Lifesight made for you; they keep the figures they were made with. **Manual** artifacts are files you uploaded, kept exactly as they are.
 
-Lifesight can create live pages, static pages, PDFs, and presentations. Live pages stay connected to your data and can be regenerated with the latest numbers. Static pages are created once and kept as is.
+### How do I create an artifact?
 
-### How do I choose the format of my artifact?
+Describe what you need in the box on the **Artifacts** page, start from a template in the gallery, or upload an HTML, PDF or PowerPoint file.
 
-Your words decide the format. Say deck, slides, presentation, or QBR for a presentation. Say report, PDF, memo, or one-pager for a PDF. Say snapshot, summary, or recap for a static page. Anything else, including live, dashboard, real-time, or tracker, gives you a live page.
+### Where does the data in an artifact come from?
 
-### What should I do if Lifesight creates the wrong format?
+Artifacts that Lifesight builds use your workspace's own data: your connected sources, your models, your plans and your experiments. Uploaded files contain whatever was in the file.
 
-Include the format word in your request, such as "deck" or "PDF," and generate again.
+### Can I change an artifact Lifesight made?
 
-### What templates are available?
+Yes. Ask for the change in the conversation that made it, or open the artifact and use **Ask Lifesight**. Each change to a web page, report or deck is saved as a new version, and **Version history** keeps the earlier ones. To change a live dashboard, see [Live Artifacts](doc:4-0-wip-live-artifacts#change-a-dashboard-by-asking).
 
-Lifesight includes four templates: **CMO Dashboard** (live page), **Pacing Recommendations** (static page), **QBR Deck** (presentation), and **Ad Channel Performance Report** (PDF). Open the full library with **See all** to search and filter by Executive, Performance, or Analytics.
+### Can I edit an uploaded file?
 
-### How do I turn an answer from Ask into an artifact?
+No. Uploaded files are for presenting and sharing. You can rename them, move them into a folder, share them and pin them, but their content stays exactly as uploaded.
 
-Under the answer, click **Add to artifact**, choose **New artifact** or an existing one, add any extra direction, and click **Create artifact**. You can also type "turn this into a deck" or "create a report of this conversation" in Ask.
+### Which files can I upload?
 
-### How do I edit a generated artifact?
+HTML pages (.html), PDF documents (.pdf) and PowerPoint decks (.pptx), up to 50 MB each.
 
-Use the chat in the **Ask** panel. Ask for a change, such as "Add a ROAS by channel breakdown," and the canvas updates. Ask a question, and it's answered in the chat without changing the canvas. You can also drag, resize, and remove widgets on live and static pages.
+### Why can't I see the slides of a deck I uploaded?
 
-### Does regenerating an artifact keep my layout?
+Lifesight can't show an uploaded PowerPoint deck in the page, so it opens with **Download PPTX** instead, and the deck downloads exactly as you uploaded it. Decks that Lifesight made show slide by slide. To show an uploaded deck in the page, save it as a PDF and upload the PDF.
 
-Yes, widgets you've positioned yourself stay in place. If the new analysis no longer matches the charts on your canvas, Lifesight rebuilds the layout so charts don't show numbers that no longer belong to them. Rearrange your layout again, and it will be kept on future runs.
+### Who can see my artifacts?
 
-### Why isn't my artifact in my artifacts list?
+Only you, until you share them. You can invite teammates, share with the whole workspace, or, for web pages, reports and decks, create a public read-only link.
 
-It's probably still a draft. Every generated artifact starts as a draft and only appears in your list after you click **Save**. Find it under the **Drafts** tab.
+### What can Viewers do?
 
-### Can I export an artifact?
+Viewers can open Artifacts, browse the template gallery, and open anything shared with them. They can't build, change, save, move or delete artifacts.
 
-Yes. Generated artifacts can be exported as HTML, PDF, or PPTX, whatever their original format. Uploaded artifacts can be downloaded as the original file only.
+### Does deleting a folder delete the artifacts in it?
 
-### What file types can I upload?
+No. Deleting a folder only removes the folder. Its artifacts move to **Unfiled**, and you can file them again at any time.
 
-You can upload HTML pages (.html, .htm), PDF documents (.pdf), and PowerPoint decks (.pptx), up to 25 MB each.
+### Can I put a folder inside another folder?
 
-### Can I edit an uploaded artifact?
+No. Folders are one level deep, and each artifact sits in one folder at most.
 
-No. Uploaded artifacts are presentation-only. There's no canvas or chat editing, and the file is stored and downloaded exactly as uploaded. You can rename it without changing the file.
+## Related pages
 
-### Why won't my PowerPoint deck display in the page?
-
-Browsers can't display .pptx files in the page, so uploaded decks show as a download. Export the deck to PDF before uploading if you want it to display in the page.
-
-### How do I share an artifact?
-
-Open the **Share** menu. Copy a private link for people who can sign in to your workspace, or create a public read-only link that anyone can open without signing in. Revoke the public link at any time to stop it working immediately.
-
-### Why doesn't my share link open on another device?
-
-In this release, artifacts are stored in the browser where they were created, so share links only open in that browser. To share with someone on another device, export or download the artifact and send the file.
-
-### What should I do if my canvas is empty?
-
-Ask for the content directly in the panel, for example "Add revenue, ROAS and spend KPIs, then a revenue trend by channel."
-
-## Reated Articles
-
-<Cards>
-  <Card title="Card One" icon="fa-rocket">
-
+<Cards columns={2}>
+  <Card title="Live Artifacts" href="https://docs.lifesight.io/docs/4-0-wip-live-artifacts" icon="📊">
+    Dashboards that read your workspace data every time they open.
   </Card>
 
-  <Card title="Card Two" icon="fa-code">
-
+  <Card title="Templates" href="https://docs.lifesight.io/docs/4-0-wip-artifact-templates" icon="🧩">
+    Ready-made dashboards, reports and decks to start from.
   </Card>
 
-  <Card title="Card Three" icon="fa-comments">
+  <Card title="Brand Kit" href="https://docs.lifesight.io/docs/4-0-wip-brand-kit" icon="🎨">
+    Your logo, colors and fonts on every dashboard.
+  </Card>
 
+  <Card title="Permission Matrix" href="https://docs.lifesight.io/docs/permission-matrix" icon="🔐">
+    What each role can open and change.
   </Card>
 </Cards>
