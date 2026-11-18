@@ -1,6 +1,6 @@
 ---
-title: Copy of Create a Geo Experiment
-excerpt: Get a causal answer on performance before you commit more budget
+title: Create a Time Testing Experiment
+excerpt: Measure what a channel adds, even when you can't test it by region.
 deprecated: false
 hidden: true
 metadata:
@@ -9,82 +9,279 @@ metadata:
     - Lifesight Geo Experiment
   robots: noindex
 ---
-Geo Experiments show you the true incremental impact of your marketing, so you can see which changes actually drive results and invest with confidence.
+#
 
-Platform-reported metrics tell you what happened after someone saw an ad, but not whether the ad caused it. Some of those conversions would have happened anyway. A geo experiment answers the question that matters most: how much additional revenue, conversions, or new customers did this marketing change create?
+A time test measures the incremental impact of one channel. You change that channel's spend for a set period: pause it, cut it, or raise it. Lifesight compares your KPI during that period with a forecast built from your own history. The gap between the two is the channel's incremental impact.
 
-Geo Testing measures incremental impact by comparing selected test markets with a synthetic control (a benchmark built by combining comparable markets so that it closely mirrors how your test markets would have performed without the change).
+Time tests need no geo split and no user-level tracking. They work for channels that run everywhere at once, such as national TV, radio, podcasts, influencer and sponsorships. They also work for brands with too few regions for a geo test.
 
-![](https://files.readme.io/d07a4e707f008d35fc179ce0379a956375adf9dd9ac11e1b9fdba6a08c33f9a6-Screenshot_2026-09-16_at_3.20.16_PM.png)
+Before you change any spend, Lifesight shows the smallest lift your test can reliably detect. So you know the test is worth running before you touch the budget.
 
-## Go from question to proven result
+\[Image: 04b-create-experiment.jpg | Create Experiment screen with Time Testing selected]
 
-Geo Testing takes you from a business question to a measured answer in seven steps:
+## Go from question to measured result
 
-1. **Define the business hypothesis and treatment.** Decide what you want to prove, such as "Does our CTV spend drive incremental revenue?", and what change you'll make to test it.
-2. **Upload historical geo-level KPI data.** Provide past performance data by market for the outcome you want to measure, such as revenue or orders.
-3. **Configure test cells, duration, markets, and statistical settings.** Test cells are the groups of markets that receive a treatment. Your settings determine how long the test runs and how confident the result will be.
-4. **Let Lifesight identify recommended test and control market combinations.** Lifesight finds the combinations best suited to produce a reliable result.
-5. **Select markets and campaigns, then schedule the test.**
-6. **Monitor progress and calculate lift.** Track the test as it runs and measure the difference between test and control markets.
-7. **Review incremental lift, iROAS, confidence, and market results.** See how much your change added and how certain the result is.
+1. **Set up the test.** Name it, write your hypothesis, and choose the channel, the change and the KPI.
+2. **Upload your KPI history.** Add a CSV with dates, your KPI and, optionally, spend.
+3. **Design the test.** Pick the test length and see the smallest lift it can detect.
+4. **Review and start the design.** Lifesight builds the baseline and checks the test's sensitivity.
+5. **Schedule and run the test.** Pick a start date and make the spend change in the channel yourself.
+6. **Upload results and measure.** When the window ends, upload your KPI for it. Lifesight measures the lift.
+7. **Check what lingers.** After the post-treatment window, upload that data too.
 
 ## Choose how to test the change
 
-**Treatment options**
+- **Hold-out:** pause or cut spend on the channel. Measures what you would lose without it.
+- **Scale-up:** increase spend on the channel. Measures what more spend would return.
 
-- **Hold-out:** pauses or excludes selected activity in test markets. Use it to find out what you'd lose without a channel or campaign, for example, whether your branded search spend is capturing demand that would have come in anyway.
-- **Scale-up:** increases activity in test markets and compares the change with control behavior. Use it to find out whether spending more would drive more results, for example, before committing a larger budget to a new channel.
+## When to use a time test
 
-The available treatment can depend on the selected hypothesis.
+| Your situation                                                       | Best fit                          | Why                                                                                                                               |
+| -------------------------------------------------------------------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| The channel can't be split by region                                 | Time test                         | National TV, radio, podcasts, influencer and sponsorships run everywhere at once, so there is no control region.                  |
+| You have too few regions                                             | Time test                         | Geo tests need about 20 or more comparable regions. Single-country and smaller brands often have fewer.                           |
+| Regional targeting is unreliable                                     | Time test                         | A time test needs no regional split, so location targeting and spillover between regions don't affect it.                         |
+| The channel can be split by region and you have enough regions       | Geo test                          | A control group running at the same time removes seasonality and other events from the comparison. This gives the strongest read. |
+| The test window overlaps a sale, launch, price change or peak season | Geo test, or move the time test   | A time test counts any other change in the window as lift.                                                                        |
+| You want to split budget across all channels                         | MMM, calibrated with test results | Tests measure one channel at a time. MMM covers all channels and uses test results to sharpen its estimates.                      |
+
+> **Note: A time test is not a replacement for a geo test.** Without a control group running at the same time, the result depends on the forecast. When a channel and market allow a geo test, run one. When they don't, a time test in a normal period gives you a measured answer instead of a guess.
+
+## Before you begin
+
+### What you need
+
+- **One KPI to measure**, such as revenue, orders, conversions, sign-ups, leads or app installs.
+- **One channel to test**, where you control spend on specific dates.
+- **A history file (CSV)** with your KPI at daily or weekly level.
+- **A normal period to run the test**, away from sales, launches, price changes and peak season.
+
+### How much history
+
+| Granularity | Minimum  | Recommended | Maximum used |
+| ----------- | -------- | ----------- | ------------ |
+| Daily       | 56 days  | 15 months   | 24 months    |
+| Weekly      | 16 weeks | 15 months   | 24 months    |
+
+Fifteen months lets the forecast learn a full year of seasonality plus your recent trend. The more history, the steadier the baseline. Monthly data is not supported.
+
+### File format
+
+Your CSV needs a header row and one row per date.
+
+| Column | Required | What it holds                                                                                                | Example    |
+| ------ | -------- | ------------------------------------------------------------------------------------------------------------ | ---------- |
+| Date   | Yes      | One row per day or per week. No gaps, same spacing throughout.                                               | 2026-01-05 |
+| KPI    | Yes      | The outcome you want to measure, as a number.                                                                | 48250      |
+| Spend  | Optional | Spend on the test channel for that day or week. Used to read spend before the change and to calculate iROAS. | 6200       |
+
+**Example file:**
+
+| date       | revenue | spend |
+| ---------- | ------- | ----- |
+| 2026-01-05 | 48250   | 6200  |
+| 2026-01-12 | 51100   | 6400  |
+| 2026-01-19 | 49870   | 6100  |
+
+Before you upload, check that:
+
+- Every date between the first and last row is present.
+- All rows use the same spacing (every day, or every week on the same weekday).
+- KPI and spend cells hold numbers only. No currency symbols, text or blanks.
+- The last row is recent. The test is planned from the latest date in your file.
+
+## Create a time test
+
+### Open Time Testing
+
+1. Go to **Measurement** > **Experiments**.
+2. Click **New Experiment**.
+3. Under **How do you want to test?**, choose **Time Testing**.
+
+\[Image: 04-experiments-page.jpg | Experiments page with the New Experiment button]
+
+> **Tip: Find your time tests.** On the Experiments page, use the **All tests / Geo / Time** filter to see only your time tests.
+
+### Step 1: Setup
+
+Tell Lifesight what you want to learn.
+
+1. **Name:** give the test a name that is unique among your time tests, for example "Podcast hold-out Q1".
+2. **What do you want to do?** Choose **Plan a new test**. This changes spend from a future date and measures what it did.
+3. **Hypothesis:** under **What do you expect to happen?**, write the result you expect. For example: "Pausing podcast ads for four weeks will reduce weekly revenue by at least 5%."
+4. **What will you change?** Choose **Hold-out** (pause or cut spend) or **Scale-up** (increase spend).
+5. **Channel:** enter the channel whose spend changes, for example Meta, TV or OOH.
+6. **KPI:** choose the outcome the lift is measured on, for example Revenue.
+7. Click **Continue to data**.
+
+\[Image: 05-setup.jpg | Setup step: name, test type and hypothesis]
+
+\[Image: 05b-setup-change.jpg | Setup step: the change, channel and KPI]
+
+> **Warning: Pick a quiet window.** A time test compares your KPI with a forecast of its own history. Anything else unusual in the test window, such as a sale, a stock-out, a price change or a news spike, shows up as lift. Pick a window with nothing else going on.
+
+### Step 2: Data
+
+Upload your KPI history and map its columns.
+
+1. Under **Where does the history come from?**, choose **Upload a CSV**.
+2. Click **Upload a CSV** and select your file. Lifesight shows the file name, the number of rows and the number of columns.
+3. Under **Map the columns**, set:
+   - **Date column:** the column with one row per date.
+   - **Date format:** how the dates are written, for example yyyy-mm-dd.
+   - **KPI column:** the column with the values to measure.
+   - **Spend column (optional):** the channel's spend. It is used to read the spend before the change.
+4. Under **History**, set:
+   - **Data frequency:** Daily or Weekly.
+   - **History to learn from:** how far back to learn, counted from the latest date in your file. 15 months is the default.
+5. Click **Validate**.
+
+\[Image: 06-data-source.jpg | Data step: choose where the history comes from]
+
+\[Image: 07-data-mapping.jpg | Data step: column mapping and history settings]
+
+When the file passes, you'll see **Validation passed** with a summary:
+
+- **Learning from:** the date range used to build the baseline.
+- **Data points:** how many rows fall in that range.
+- **Frequency:** daily or weekly.
+- **Average KPI per period:** for example, average revenue per week.
+
+If the file doesn't pass, Lifesight tells you which row to fix. Fix the file, upload it again and click **Validate again**.
+
+\[Image: 08-validation-passed.jpg | Data step: validation passed]
+
+Then click **Continue to design**.
+
+### Step 3: Design
+
+Size the test before any budget moves.
+
+**Test length**
+
+Under **How long will the test run?**, choose 14, 21, 30, 45, 60 or 90 days, or enter a **Custom** number of days. Lifesight shows how many data points fall in the test window.
+
+Lifesight adds a **post-treatment window** after the test, to check whether the effect lingers. For example, a 60-day test gets a 30-day post-treatment window.
+
+\[Image: 09-design-length-budget.jpg | Design step: test length and budget]
+
+If too few data points fall in the window, Lifesight warns you. Run the test longer, or use daily data if you have it.
+
+\[Image: 11-design-warning.jpg | Design step: warning when the test window is too short]
+
+**Smallest detectable lift**
+
+Lifesight shows the **smallest lift this test would reliably detect**, estimated from your history at 95% confidence and 80% power. A lift that size is detected 8 times in 10.
+
+Click **How this is worked out** to see the inputs:
+
+- **Baseline:** the average KPI per period over recent history.
+- **Variation:** how much the KPI typically moves from period to period.
+- **Test data points:** the number of periods in the test window.
+
+\[Image: 10-design-detectable-lift.jpg | Design step: smallest detectable lift and how it's worked out]
+
+> **Note: Check the detectable lift against your hypothesis.** If you expect a 5% drop and the test can detect 2.3%, the test is well sized. If the detectable lift is bigger than the effect you expect, run the test longer or make a bigger spend change. Real data has trends and streaks, so the lift a test can really detect is usually somewhat larger than this estimate.
+
+**Budget (optional)**
+
+- **Spend before the change:** Lifesight reads the channel's spend from your file for the period before the test.
+- **Planned spend during the test:** enter what you plan to spend over the test window. For a full pause, enter 0.
+- **Spend scenarios:** turn this on to also check the test's sensitivity if the change were 10%, 20%, 30% or 50% bigger or smaller.
+
+Click **Review**.
+
+### Step 4: Review
+
+Check the summary of your **Setup**, **Data** and **Design**. Use **Edit setup**, **Edit data** or **Edit design** to change anything.
+
+\[Image: 12-review-summary.jpg | Review step: summary of setup, data and design]
+
+Click **Start design** when you're ready. You can also click **Save draft** to come back later.
+
+\[Image: 13-review-next-steps.jpg | Review step: what happens next]
+
+## Run the test
+
+After you start the design, the test moves through four stages.
+
+1. **Design.** Lifesight builds the baseline from your history and checks the test's sensitivity. This runs in the background.
+2. **Schedule.** Pick a start date. Lifesight doesn't change budgets. You make the change in the channel yourself on that date.
+3. **Run and measure.** When the test window ends, upload your KPI for it. Lifesight measures the lift against the baseline.
+4. **Post-treatment.** After the post-treatment window, upload that data too, to see whether the effect lingered.
+
+### Keep the test window clean
+
+- **Keep the change steady.** Don't switch the channel back on early or change the amount mid-test.
+- **Keep other channels steady.** A budget shift elsewhere shows up as lift on the test channel.
+- **Avoid promotions and launches.** Sales, new products, price changes and stock-outs all move the KPI.
+- **Log anything unexpected**, such as a PR mention, an outage or a competitor promotion. It helps you read the result later.
+
+\[Image placeholder: Experiments page showing the time test as Running]
 
 ## Get results you can act on
 
-**What a geo experiment provides**
+When you upload the KPI for the test window, Lifesight shows:
 
-- **Measured lift:** the additional outcome your change created.
-- **Confidence intervals:** the range within which the true result is likely to fall.
-- **P-value:** how likely it is that the result happened by chance. Lower values mean stronger evidence.
-- **Power:** how likely the test is to detect a real effect if one exists.
-- **iROAS:** incremental revenue generated for every dollar spent.
-- **Treatment-versus-control trends:** how test and control markets performed over time.
-- **Market breakdowns:** results for individual markets.
-- **Recommendations:** suggested next steps based on the results.
+- **Lift:** how far the KPI moved from the baseline during the test.
+- **Incremental KPI:** the extra (scale-up) or lost (hold-out) revenue, orders or conversions.
+- **iROAS and cost per incremental result:** when you include spend.
+- **Verdict:** significant lift, significant drop, or inconclusive.
+- **Readout:** a plain-language summary of what the result means for the channel.
+- **Post-treatment effect:** whether the impact continued after spend returned to normal.
 
-**Where promoted results go next**
+\[Image placeholder: Results chart showing actual vs. baseline, with the test and post-treatment windows shaded]
 
-Use promoted results to support causal Attribution and eligible MMM calibration workflows. This means the lift you prove in a geo experiment can strengthen the accuracy of your other measurement, anchoring attribution and MMM results to real-world outcomes.
+\[Image placeholder: Results tiles for lift, incremental KPI, iROAS and verdict, with the readout]
+
+### How to read the verdict
+
+- **Significant drop in a hold-out:** the channel was driving results. Pausing it cost you the incremental KPI shown. Weigh that against the spend you saved.
+- **Significant lift in a scale-up:** extra spend brought extra results. Compare the iROAS with your target to decide whether to keep the higher budget.
+- **Inconclusive:** the KPI didn't move further from the baseline than normal variation. This does not mean the channel has no effect. The effect may be smaller than the test could detect. Run a longer test, or make a bigger spend change.
+
+**Where results go next:** use the result to adjust the channel's budget, and to check your MMM's estimate for the channel. You can enter the result into your MMM manually to calibrate it.
+
+## Best practices
+
+- **Test one channel at a time.** Two changes in one window can't be separated.
+- **Use 15 months of history** so the baseline covers a full year of seasonality.
+- **Check the smallest detectable lift first.** Only run the test if it is smaller than the effect you expect.
+- **Make a meaningful change.** A pause or a large cut is easier to detect than a 10% change.
+- **Use daily data for short tests.** More data points in the window make smaller lifts detectable.
+- **Pick a quiet period.** Avoid holidays, peak season, sales and launches.
+- **Include spend** to get iROAS and cost per incremental result.
 
 ***
 
 ## Frequently Asked Questions
 
-**Why can't I rely on platform-reported metrics?**
-Platform metrics show what happened after someone saw an ad, not whether the ad caused it. Some of those conversions would have happened anyway. A geo experiment measures only the additional impact your marketing created.
+**Are time tests as reliable as geo tests?**
+No. A geo test has a control group running at the same time, so it removes seasonality and other events from the comparison. A time test depends on the baseline forecast. Use a geo test when the channel and market allow one, and a time test when they don't.
 
-**What is a synthetic control?**
-A synthetic control is a benchmark built from comparable markets. It shows how your test markets would likely have performed without the change, so the difference between the two reflects the true impact.
+**How much history do I need?**
+At least 16 weeks of weekly data or 56 days of daily data. We recommend 15 months. Up to 24 months is used.
 
-**What data do I need to run a geo experiment?**
-You need historical geo-level KPI data, meaning past performance by market for the outcome you want to measure.
+**Can I use monthly data?**
+No. Time tests support daily and weekly data.
 
-**Do I have to choose test and control markets myself?**
-No. Lifesight identifies recommended test and control market combinations. You then select the markets and campaigns before scheduling the test.
+**How long should my test run?**
+Between 7 and 180 days. The Design step shows the smallest lift your chosen length can detect, and warns you if the window has too few data points.
 
-**What is the difference between Hold-out and Scale-up?**
-Hold-out pauses or excludes activity in test markets to measure what you'd lose without it. Scale-up increases activity in test markets to measure what you'd gain from spending more.
+**Does Lifesight change my budgets?**
+No. You make the spend change in the channel on the scheduled start date.
 
-**Why is only one treatment available for my test?**
-The available treatment can depend on the selected hypothesis.
+**What can break a time test?**
+Anything else that changes the KPI in the window: a sale, a launch, a price change, a stock-out, news coverage, or another channel's budget changing.
 
-**How do I know if my result is reliable?**
-Review the confidence intervals, p-value, and power together. A narrow confidence interval, a low p-value, and high power indicate a reliable result.
+**Why is my result inconclusive?**
+The KPI didn't differ from the baseline by more than normal variation. The channel may still have an effect that is smaller than the test could detect. Try a longer test, daily data, or a bigger spend change.
 
-**What is iROAS?**
-iROAS (incremental return on ad spend) is the incremental revenue generated for every dollar spent, based only on the additional impact your marketing created.
+**Can I measure a spend change that already happened?**
+Not yet. **Measure a past change** is coming soon. Today, time tests are planned before the spend change.
 
-**Can I use geo experiment results in my MMM?**
-Yes. Promoted results can support eligible MMM calibration workflows, as well as causal Attribution.
+**Can I use my model's data instead of uploading a file?**
+Not yet. **Use a model** is coming soon. Today, time tests use an uploaded CSV.
 
-**Can I track a test while it's running?**
-Yes. You can monitor progress and calculate lift during the test.
+**Does a time test result update my MMM automatically?**
+Not today. You can enter the result into your MMM manually to calibrate it.
