@@ -4,9 +4,9 @@ excerpt: Measure what a channel adds, even when you can't test it by region.
 deprecated: false
 hidden: false
 metadata:
-  title: Lifesight Geo Experiment
+  title: Lifesight Time Testing Experiment
   keywords:
-    - Lifesight Geo Experiment
+    - Lifesight Time Testing Experiment
   robots: noindex
 ---
 A time test measures the incremental impact of one channel. You change that channel's spend for a set period: pause it, cut it, or raise it. Lifesight compares your KPI during that period with a forecast built from your own history. The gap between the two is the channel's incremental impact.
