@@ -80,15 +80,15 @@ No, and that is the point. A value identical on every row carries no information
 ## Related Articles
 
 <Cards>
-  <Card title="Map a Source to a Channel" href="https://docs.lifesight.io/update/docs/map-source-channel" icon="🔗">
+  <Card title="Map a Source to a Channel" href="https://docs.lifesight.io/docs/map-source-channel" icon="🔗">
 
   </Card>
 
-  <Card title="Model Schema" href="https://docs.lifesight.io/update/docs/model-schema" icon="🔗">
+  <Card title="Model Schema" href="https://docs.lifesight.io/docs/model-schema" icon="🔗">
 
   </Card>
 
-  <Card title="Data Taxonomy" href="https://docs.lifesight.io/update/docs/data-taxonomy" icon="🔗">
+  <Card title="Data Taxonomy" href="https://docs.lifesight.io/docs/data-taxonomy" icon="🔗">
 
   </Card>
 </Cards>
