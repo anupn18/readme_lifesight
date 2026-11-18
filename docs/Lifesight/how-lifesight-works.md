@@ -16,8 +16,7 @@ next:
   pages:
     - title: Modern Measurement Playbook by Google
       type: link
-      url: >-
-        https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/data-and-measurement/drive-business-goals-modern-measurement/
+      url: https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/data-and-measurement/drive-business-goals-modern-measurement/
 ---
 Lifesight turns fragmented marketing data into a single causal decision system, so every budget move, from quarterly allocation to daily optimization, is grounded in what your marketing actually caused.
 
@@ -154,11 +153,11 @@ All of this rests on a platform built to be privacy-safe, transparent, and relia
 ## Related Articles
 
 <Cards>
-  <Card title="Who is Lifesight for" href="https://docs.lifesight.io/update/docs/who-is-lifesight-for" icon="🤵">
+  <Card title="Who is Lifesight for" href="https://docs.lifesight.io/docs/who-is-lifesight-for" icon="🤵">
 
   </Card>
 
-  <Card title="Getting Started" href="https://docs.lifesight.io/update/docs/cockpit" icon="📖">
+  <Card title="Getting Started" href="https://docs.lifesight.io/docs/cockpit" icon="📖">
 
   </Card>
 </Cards>
