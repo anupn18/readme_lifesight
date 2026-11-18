@@ -111,11 +111,11 @@ Results reflect the selected model and data period. If you switch models or the 
 ## Related Articles
 
 <Cards>
-  <Card title="Model refresh" href="https://docs.lifesight.io/update/docs/mmm-refresh" icon="🔗">
+  <Card title="Model refresh" href="https://docs.lifesight.io/docs/mmm-refresh" icon="🔗">
 
   </Card>
 
-  <Card title="Profit and Cost settings " href="https://docs.lifesight.io/update/docs/profit-cost-settings" icon="🔗">
+  <Card title="Profit and Cost settings " href="https://docs.lifesight.io/docs/profit-cost-settings" icon="🔗">
 
   </Card>
 </Cards>
