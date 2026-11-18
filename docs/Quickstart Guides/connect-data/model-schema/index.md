@@ -13,7 +13,7 @@ A model schema is a saved answer to the question _what should this model look at
 
 It is worth being clear about what a schema is not. It is not the model. Training a model is a separate step. A schema is the recipe, and it can be reused, refreshed and adjusted without starting from nothing each time.
 
-This is also where the earlier tabs pay off. A schema can only offer you fields that [Data Transformation](https://docs.lifesight.io/docs/data-transformation) mapped, and only tactics that [Data Taxonomy](https://docs.lifesight.io/docs/data-taxonomy) assigned. If something you expect is missing here, the fix is usually one tab upstream.
+This is also where the earlier tabs pay off. A schema can only offer you fields that [Data Transformation](https://docs.lifesight.io/docs/4-data-transformation) mapped, and only tactics that [Data Taxonomy](https://docs.lifesight.io/docs/data-taxonomy) assigned. If something you expect is missing here, the fix is usually one tab upstream.
 
 ![](https://files.readme.io/3359434b26aacbab0b02823e8f356cc108a88576e9433f16ab71d5166cc791e6-Screenshot_2026-09-08_at_8.52.37_AM.png)
 
@@ -58,7 +58,7 @@ From there a schema can be used to train models, refreshed as new data arrives, 
 
 ## Frequently asked questions
 
-**A field I need is not in the list.** It has not been mapped, or it has been mapped to the wrong category. Go to [Data Transformation](https://docs.lifesight.io/docs/data-transformation) and check the field.
+**A field I need is not in the list.** It has not been mapped, or it has been mapped to the wrong category. Go to [Data Transformation](https://docs.lifesight.io/docs/4-data-transformation) and check the field.
 
 **A tactic I need is not offered.** It has not been created or assigned in [Data Taxonomy](https://docs.lifesight.io/docs/data-taxonomy).
 
