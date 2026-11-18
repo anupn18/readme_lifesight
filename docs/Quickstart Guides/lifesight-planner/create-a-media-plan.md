@@ -80,8 +80,6 @@ Finally, configure non-media drivers (factors outside advertising that affect sa
 
 If you chose **Hit Revenue Goal**, also review the efficiency threshold (the minimum return spend should deliver to be worth adding) and the target settings available for your selected model.
 
-\[IMAGE PLACEHOLDER: Constraints step with channel bounds]
-
 ![](https://files.readme.io/d1a3b161fa93c12c70d33ab85cb7f6c45525627c80cdde1e27f1f8df706677f1-Screenshot_2026-09-21_at_1.01.29_PM.png)
 
 ### Run the scenario
@@ -114,8 +112,6 @@ Adding scenarios to a plan lets you test different strategies fairly, for exampl
 Select **New Scenario** to add another scenario to the active plan. Every scenario in a plan must use the same model, which keeps comparisons consistent.
 
 You can build a new scenario from scratch or copy the active scenario. Copying is the best option when you want to test a controlled change, such as adjusting only the budget, the time period, or a single constraint, so you can see exactly how that one change affects results.
-
-\[IMAGE PLACEHOLDER: Multiple scenario tabs in a plan]
 
 ![](https://files.readme.io/8a45d5d5f3232a85bdceaeeae37abb3c2080cb032fba5d076e99900e80967837-Screenshot_2026-09-21_at_12.52.57_PM.png)
 
