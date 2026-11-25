@@ -87,7 +87,7 @@ We measure ad actions based on clicks and views of your ad:
 * **Click-through attribution:** A person clicked your ad and took an action.
 * **View-through attribution:** A person saw your ad, didn't click it, but took an action within the attribution window.
 
-Read more on how View-Through Attribution works (coming soon)
+Read more on [how view-through attribution works](https://docs.lifesight.io/docs/view-through-attribution).
 
 ![](https://files.readme.io/78b4e629539cab849a99e5fa8fb77ae032edc5dfe5cd39a738187b8d490d6fa2-image.png)
 
