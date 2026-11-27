@@ -91,8 +91,12 @@ Once the **Adstock** and **Saturation transformations** are applied, we calculat
 Finally, the **mROAS** for that channel is calculated as:
 
 ```plaintext
-mROAS = KPI(current spend + 1) - KPI(current spend)
+Current KPI = KPI the response curve predicts at the current spend level
+Next KPI    = KPI the response curve predicts after adding one unit of spend
+mROAS       = Next KPI - Current KPI
 ```
+
+Because the extra spend is exactly one unit, the difference between the two KPI values is the marginal KPI per unit of spend.
 
 This process is repeated for all channels. On the Contribution tab, this value is shown as **miROAS**.
 
@@ -122,8 +126,12 @@ Both columns are calculated over the **period you select** for the saturation cu
 #### Formula:
 
 ```plaintext
-miROAS = Incremental Revenue(current spend + 1) - Incremental Revenue(current spend)
+Current Revenue = incremental revenue the response curve predicts at the current spend level
+Next Revenue    = incremental revenue the response curve predicts after adding one dollar of spend
+miROAS          = Next Revenue - Current Revenue
 ```
+
+For example, if the curve predicts $10,000.00 of incremental revenue at the current spend level and $10,001.50 after one more dollar, miROAS is 1.50.
 
 ### mcROAS
 
@@ -187,15 +195,18 @@ For models whose KPI is conversions, installs, store visits or another count, Li
 * **miCPA** is the cost of the **next** conversion at the current spend level:
 
 ```plaintext
-miCPA = 1 / (Incremental Conversions(current spend + 1) - Incremental Conversions(current spend))
+Current Conversions = incremental conversions the response curve predicts at the current spend level
+Next Conversions    = incremental conversions the response curve predicts after adding one dollar of spend
+miCPA               = 1 / (Next Conversions - Current Conversions)
 ```
 
 * **mcCPA** follows the same steps as mcROAS, with incremental conversions in place of incremental revenue:
 
 ```plaintext
-Extra Conversions    = Marginal Conversions per Dollar × Delta
-Adjusted Conversions = Incremental Conversions + Extra Conversions
-mcCPA                = (Spend + Delta) / Adjusted Conversions
+Marginal Conversions per Dollar = Next Conversions - Current Conversions
+Extra Conversions               = Marginal Conversions per Dollar × Delta
+Adjusted Conversions            = Incremental Conversions + Extra Conversions
+mcCPA                           = (Spend + Delta) / Adjusted Conversions
 ```
 
 For CPA, **lower is better**. A miCPA that is higher than the channel's average CPA means the next conversion costs more than the average one, so the channel is saturating.
