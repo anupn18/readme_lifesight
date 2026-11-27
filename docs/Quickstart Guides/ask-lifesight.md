@@ -85,7 +85,7 @@ Not sure where to start? Suggested questions are always one click away.
 * **On the Cockpit**, three suggested questions sit under the Ask box, chosen for your persona. Select one to ask it, or select **×** to dismiss it.
 * **In the side panel**, each page offers starters about what that page shows.
 
-![The Ask box on the Cockpit, with suggested questions and your most recent conversations underneath](https://files.readme.io/6fd9d445cb4a1f9a13dbdeb636973dbe26539c6864c13a27fa9b7512260da519-ask-cockpit-askbox.png)
+![The Ask box on the Cockpit with a question typed in, and suggested questions and recent conversations underneath](https://files.readme.io/2d1f80fbb1b21d6ad864cdac148ab1ab460936df31428309680b45a2d8acfcd2-ask-cockpit-askbox-v2.png)
 
 | Page            | Starters you'll see                                                        |
 | --------------- | -------------------------------------------------------------------------- |
@@ -103,7 +103,7 @@ When you ask from the side panel, Ask Lifesight already knows where you are. The
 
 It also uses the settings on the page. Ask "Which channels moved most vs the comparison period and why?" on Attribution, and Ask Lifesight works from the date range, scenario, and level (such as **Channels**) you have selected, then compares them with the period before. You don't have to explain any of it.
 
-To ask about a different period, channel, or scenario, say so in your question, for example "for the last 90 days" or "using Scenario 2".
+Each answer states the dates it used, in its source note or under **Window & assumptions**. To ask about a different period, channel, or scenario, say so in your question, for example "for the last 90 days" or "using Scenario 2".
 
 ***
 
@@ -151,7 +151,7 @@ Under every answer you will find:
 * **Read aloud:** plays the answer as audio.
 * **Helpful** (👍) and **Not helpful** (👎): tell us how the answer landed.
 
-When you select **Not helpful**, a box asks "What was off? A wrong figure, the wrong model, missing detail..." Add a note and select **Send**, or select **Skip the note**. Your ratings and notes go to the Lifesight team and help improve future answers.
+When you select **Not helpful**, a box asks "What was off? A wrong figure, the wrong model, missing detail..." Add a note and select **Send**, or select **Skip the note**. Your ratings and notes go to the Lifesight team and help improve future answers. If an answer missed the mark, ask again with more detail, such as the date range or model you expected.
 
 ![Follow-up questions under an answer, and the note box that opens after selecting Not helpful](https://files.readme.io/2d867f3754490e88d777e76e87380ec7ad0633e753b386fb1f22d58e9b3cad54-ask-followups-feedback.png)
 
@@ -159,7 +159,7 @@ When you select **Not helpful**, a box asks "What was off? A wrong figure, the w
 
 ## Pick up where you left off
 
-Every conversation is saved and titled for you from your first question, so you can come back to it any time.
+Every conversation is saved and titled for you from your first question, so you can come back to it any time. When you search, use the topic of the conversation rather than your exact words.
 
 | Where                    | What you can do                                                                                                                                                                                     |
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -183,28 +183,6 @@ Every conversation is saved and titled for you from your first question, so you 
 * **Be specific.** Name the metric, the period, and the level you care about. "Facebook campaigns over the last 14 days, by iROAS" gets a sharper answer than "How is Facebook doing?"
 * **Ask from the right page.** Open the page that shows what you mean, then ask from the side panel, and Ask Lifesight starts from that view.
 * **Keep going in the same conversation.** Ask Lifesight remembers what you have discussed, so a follow-up like "Now break that down by campaign" just works.
-
-***
-
-## Fix common issues
-
-**The answer is taking a while.**
-Questions that need more than one analysis take longer. Ask Lifesight shows each step as it runs, so you can see what it is doing. To stop, select the stop button (■).
-
-**The answer used a different date range than I expected.**
-Answers state the dates they used, in the source note or under **Window & assumptions**. From the side panel, Ask Lifesight starts from the dates on your page. Ask again with the dates you want, for example "for 1 to 30 November".
-
-**A number in the answer has an asterisk.**
-Ask Lifesight calculated that figure itself, for example the change between two periods, rather than reading it directly from a report. The end of the answer shows how it was worked out.
-
-**I can't find the Ask Lifesight button on the Cockpit.**
-It is hidden on the Cockpit, because the whole page is your Ask space. Use the Ask box at the top of the page.
-
-**I can't find an old conversation.**
-Open History and search by title. Titles are generated from your first question, so search for the topic rather than your exact words.
-
-**An answer looks wrong.**
-Select **Not helpful** and tell us what was off, such as a wrong figure, the wrong model, or missing detail. Then ask again with more detail, for example the date range or model you expected.
 
 ***
 
