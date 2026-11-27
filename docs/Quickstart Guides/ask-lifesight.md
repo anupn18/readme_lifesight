@@ -1,8 +1,8 @@
 ---
 title: 'Ask Lifesight: Get Answers From Your Marketing Data'
 excerpt: >-
-  Ask anything about your marketing in plain English, run a ready-made analysis
-  with a skill, and get answers built from your own workspace data.
+  Ask anything about your marketing in plain English and get answers built from
+  your own workspace data.
 deprecated: false
 hidden: false
 metadata:
@@ -44,7 +44,7 @@ Many answers draw on more than one source. When a budget change is rejected by a
 
 | Where you are          | How to open it                                                                                       | Best for                                       |
 | ---------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| **Cockpit**            | Type into the Ask box at the top of the page                                                         | Starting your day, broad questions, and skills |
+| **Cockpit**            | Type into the Ask box at the top of the page                                                         | Starting your day and broad questions          |
 | **Any other page**     | Select **Ask Lifesight** in the top bar, or press **Alt + C**                                        | Questions about what is on your screen         |
 | **A card on the Cockpit** | Select the card's Ask button, such as **Ask what went wrong** or **Ask what breaks downstream**   | Following up on an alert without explaining it |
 | **A dashboard**        | Select **Ask Lifesight why** on a tile, or **Ask why** next to the dashboard's summary               | Understanding a number before you act on it    |
@@ -97,41 +97,6 @@ Not sure where to start? Suggested questions are always one click away.
 
 ***
 
-## Run a skill for a ready-made analysis
-
-A **skill** is a ready-made analysis that Ask Lifesight runs the same way every time, such as a full Meta account audit or a CFO dashboard. Use a skill when you want a complete, repeatable analysis rather than a quick answer.
-
-Skills run from the Ask box on the Cockpit.
-
-1. Type **/** in the Ask box, or select the skills button (the wand) to browse and search the list.
-2. Keep typing to filter the list. For example, **/fore** narrows it to **/forecast**.
-3. Press **Enter** to pick the highlighted skill. It is added to the box.
-4. Add any detail you want, such as a channel or a date range, and press **Enter** to run it.
-
-![The Copilot skills list, opened by typing / in the Ask box on the Cockpit](https://files.readme.io/1fb4ed9aca6ee9c4c227e670559d83e7d18d245a49f5982211c2f2977e82f3ef-ask-skills-menu.png)
-
-| Category               | Skill                     | What it does                                                                                               |
-| ---------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **Ad platform audits** | `/meta-audit`             | Audit your Meta ad account metrics, platform-reported metrics and efficiency, and run root-cause analysis.        |
-|                        | `/google-audit`           | Audit your Google Ads account metrics, platform-reported metrics and efficiency, and run root-cause analysis.     |
-|                        | `/tiktok-audit`           | Audit your TikTok Ads account metrics, platform-reported metrics and efficiency, and run root-cause analysis.     |
-|                        | `/pinterest-audit`        | Audit your Pinterest Ads account metrics, platform-reported metrics and efficiency, and run root-cause analysis.  |
-| **Performance**        | `/campaign-insights`      | Break down performance and drivers at the campaign level.                                                  |
-|                        | `/adset-insights`         | Break down performance and drivers at the ad set level.                                                    |
-|                        | `/creative-intelligence`  | Analyze creative performance, fatigue, and winning patterns.                                               |
-| **Models**             | `/model-insights`         | Surface the key drivers and insights from a model.                                                         |
-|                        | `/model-comparison`       | Compare model versions on accuracy and fit.                                                                |
-|                        | `/model-diagnostics`      | Run health and stability diagnostics on a model.                                                           |
-| **Plans and budget**   | `/plan-insight`           | Explain a plan's recommendations and expected impact.                                                      |
-|                        | `/pacing-insights`        | Track budget pacing against plan and flag over/under-pacing.                                               |
-|                        | `/forecast`               | Forecast revenue and KPIs across channels and scenarios.                                                   |
-| **Dashboards and reports** | `/cmo-dashboard`      | Generate a CMO-level marketing performance dashboard.                                                      |
-|                        | `/cfo-dashboard`          | Generate a CFO-level finance and efficiency dashboard.                                                     |
-|                        | `/performance-dashboard`  | Generate a channel performance dashboard.                                                                  |
-|                        | `/value-report`           | Generate an incremental value report across channels.                                                      |
-
-***
-
 ## Ask about what you're looking at
 
 When you ask from the side panel, Ask Lifesight already knows where you are. The line above the box tells you what it is using, such as **Asking about this attribution view** or **Asking about Creative**.
@@ -148,7 +113,7 @@ Answers lead with the finding, then show the evidence.
 
 | Part                          | What it shows                                                                                                                                   |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Headline**                  | The main finding in one line. Answers from a skill or analysis carry its label, such as **Model insights**.                                     |
+| **Headline**                  | The main finding in one line. Answers from an analysis carry its label, such as **Model insights**.                                     |
 | **Explanation**               | A short summary and the points behind it, with the key numbers highlighted                                                                      |
 | **Tables and charts**         | The evidence, shown in the answer                                                                                                               |
 | **Source note**               | The model, plan, or date range the figures come from, such as "All figures come from your champion model..." or **Window & assumptions**       |
@@ -214,7 +179,6 @@ Every conversation is saved and titled for you from your first question, so you 
 | To understand a change            | "Which channels moved most vs the previous 30 days, and why?"                |
 | A budget decision                 | "Where should I reallocate spend to improve ROAS next month?"                |
 | To check on your plan             | "Is my budget pacing to plan this week? Which channels are off pace?"        |
-| A complete, repeatable analysis   | "/meta-audit for the last 30 days"                                           |
 
 * **Be specific.** Name the metric, the period, and the level you care about. "Facebook campaigns over the last 14 days, by iROAS" gets a sharper answer than "How is Facebook doing?"
 * **Ask from the right page.** Open the page that shows what you mean, then ask from the side panel, and Ask Lifesight starts from that view.
@@ -260,9 +224,6 @@ From your Lifesight workspace: your promoted model, causal attribution, plans an
 
 **What does an asterisk (\*) next to a number mean in Ask Lifesight?**
 It marks a figure Ask Lifesight calculated itself, such as the change between two periods, rather than reading it directly from a Lifesight report or ad platform. The end of the answer explains how each marked figure was worked out.
-
-**What are skills in Ask Lifesight?**
-Skills are ready-made analyses that Ask Lifesight runs the same way every time, such as a Meta account audit, a forecast, model diagnostics, or a CFO dashboard. Type **/** in the Ask box on the Cockpit to see all 17 skills, pick one, add any detail, and press **Enter**.
 
 **Does Ask Lifesight know which page I'm on?**
 Yes. When you ask from the side panel, Ask Lifesight uses the page you are on and its settings, such as the date range, scenario, and level on Attribution. The line above the box, such as "Asking about this attribution view", shows what it is using.
