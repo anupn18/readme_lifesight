@@ -29,7 +29,7 @@ Incremental metrics show the revenue and conversions your advertising actually d
 **How to read them together**
 
 - **iROAS versus Marginal ROAS:** iROAS is the average return across all spend to date. Marginal ROAS is the return on the next dollar. A campaign with a strong iROAS but a falling Marginal ROAS has likely saturated, so extra spend won't return at the same rate.
-- **Incrementality Factor:** a factor of 0.4 means Lifesight estimates about 40% of what the platform reports for that row and period is incremental. The rest is likely demand that was already coming. It isn't a fixed discount to apply to other rows or periods.
+- **Incrementality Factor:** a factor of 0.4 means Lifesight estimates about 40% of what the platform reports for that row and period is incremental. The rest is likely demand that was already coming.
 
 ## Compare with what platforms report
 
