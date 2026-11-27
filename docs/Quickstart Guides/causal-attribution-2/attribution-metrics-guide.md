@@ -48,6 +48,42 @@ Platform-reported metrics show performance as each advertising platform records 
 
 Platforms credit their ads for every conversion that follows an exposure, including ones that would have happened anyway. iROAS counts only the revenue your spend actually created, so the distance between the two shows how much credit platforms are claiming for conversions they didn't cause.
 
+**Why the numbers differ**
+
+Beyond conversions that would have happened anyway, four more things push platform-reported numbers away from incremental ones.
+
+* **The same conversion claimed by several platforms:** a customer sees a Meta ad, later clicks a Google ad, then converts. Both platforms report it, so platform totals add up to more than you actually sold.
+* **Attribution windows:** platforms keep counting conversions for days after a click or a view, whether or not the ad drove them.
+* **Conversions the platform can't see:** sales that happen offline or through other channels never reach the platform, so its numbers miss them.
+* **Effects that arrive later:** awareness ads often lead to conversions weeks later, or through search and direct visits, outside the platform's window.
+
+**What to expect by funnel stage**
+
+The closer an ad sits to the purchase, the more platforms tend to over-credit it. The further away it sits, the more they under-credit it. How big the gap gets depends on your brand, market and account setup.
+
+| Funnel stage | Typical channels | Platform vs incremental | Why |
+| --- | --- | --- | --- |
+| Lower funnel | Brand search, retargeting | Platform usually higher | Most of the people reached were already close to buying |
+| Mid funnel | Non-brand search, prospecting with a conversion goal, shopping | Closer, can go either way | People are still shopping around, so more of the reported conversions are new |
+| Upper funnel | Video, YouTube, CTV, display, audio | Platform can be lower | Few people click, and conversions come later through search or direct visits |
+| Offline | TV, print, OOH, events, PR | Platform reports nothing | Measure these with your model or a geo experiment |
+
+**What to expect by platform**
+
+These are each platform's default windows. Most can be changed in the ad account, so compare at the window the account actually uses.
+
+| Platform | Default window | What it means |
+| --- | --- | --- |
+| Meta | 7-day click, 1-day view | Retargeting and view credit push numbers up |
+| Google Search | 30-day click | Brand terms look best in the platform but add the least. Non-brand holds up better |
+| YouTube | 3-day engaged view (web conversions) | Usually under-reported. Much of video's effect shows up later in search and direct visits |
+| LinkedIn | 30-day click, 7-day view | Long sales cycles and view credit can move it either way |
+| TikTok | 7-day click, 1-day view | Similar to Meta |
+
+**Example**
+
+In a large field experiment, eBay switched off its brand-keyword search ads. Sales barely moved in the short term, because shoppers clicked the organic listing instead. The ads had been getting credit for sales that would have happened anyway. This is why brand search often shows a high Platform ROAS and a low Incrementality Factor.
+
 ## Track spend against your plan
 
 Spend and pacing metrics compare what you've spent with what your active scenario (the media plan you've selected as your benchmark) planned. Use them to catch overspend and underspend before the period closes.
@@ -97,11 +133,23 @@ iROAS is the average incremental return across all spend to date. Marginal ROAS 
 **How is the Incrementality Factor calculated?**
 Incremental Revenue divided by Platform Revenue. It shows the share of platform-reported revenue estimated to be incremental.
 
+**Can the Incrementality Factor be above 1?**
+Yes, though it's less common. It means the ads are driving more than the platform can see, which tends to happen on video and other upper-funnel channels whose conversions arrive later or through other channels.
+
+**Should I switch off a channel with a low Incrementality Factor?**
+Not necessarily. A low factor usually means the channel is harvesting existing demand, so rebalance spend rather than switching it off. Open the channel by tactic, campaign and ad set to see where the gap comes from, and move budget in steps rather than all at once.
+
+**Will the gap between platform and incremental numbers stay the same?**
+No. It changes with targeting, creative, seasonality and how saturated a channel is. Check it again after your model is retrained.
+
 **How are Incremental Conversions calculated?**
 Platform conversions are adjusted using incrementality evidence from your promoted measurement assets.
 
 **When should I use iCPA instead of iROAS?**
 Use iCPA when your goal is conversions rather than revenue. It shows the cost per incremental conversion.
+
+**Why is iCPA higher than Platform CPA?**
+Platform CPA divides spend by every conversion the platform credits, including ones that would have happened anyway. iCPA divides the same spend by incremental conversions only, so it is usually higher.
 
 **What does a Pacing value of 80% mean?**
 You've spent 80% of what your active scenario planned to date, meaning you're running under plan.
