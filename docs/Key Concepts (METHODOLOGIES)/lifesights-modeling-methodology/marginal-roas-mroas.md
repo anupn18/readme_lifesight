@@ -57,8 +57,11 @@ The response to marketing spend is not always immediate. For each channel, we ap
 #### Formula:
 
 ```plaintext
-Adstocked Spend (today) = Spend (today) + Decay Rate × Adstocked Spend (yesterday)
+Adstock today = Spend today + Decay Rate × Adstock yesterday
 ```
+
+* **Adstock** is the spend that still affects the KPI, including carryover from earlier days.
+* **Decay Rate** is the share of yesterday's adstock that carries over to today.
 
 This ensures that the mROAS calculation takes into account both **current and past spending effects** on the channel, resulting in a more accurate marginal KPI.
 
@@ -69,11 +72,12 @@ For each media channel, the relationship between spend and KPIs is **non-linear*
 #### Formula:
 
 ```plaintext
-Saturation = Adstocked Spend^alpha / (Adstocked Spend^alpha + Half Saturation Point^alpha)
+Saturation = Adstock^a / (Adstock^a + K^a)
 ```
 
-* **alpha** controls the shape of the curve (how quickly returns start to fall).
-* **Half Saturation Point** is the spend level at which the channel reaches half of its maximum response.
+* **Adstock** is the adstocked spend from step 1.
+* **a** (alpha) controls the shape of the curve (how quickly returns start to fall).
+* **K** is the half saturation point: the spend level at which the channel reaches half of its maximum response.
 
 This transformation ensures that as spend increases, the **marginal KPI** (and so mROAS) decreases, reflecting the reality of diminishing returns.
 
@@ -90,10 +94,11 @@ Once the **Adstock** and **Saturation transformations** are applied, we calculat
 
 Finally, the **mROAS** for that channel is calculated as:
 
+* **Current KPI**: the KPI the response curve predicts at the current spend level.
+* **Next KPI**: the KPI the response curve predicts after adding one unit of spend.
+
 ```plaintext
-Current KPI = KPI the response curve predicts at the current spend level
-Next KPI    = KPI the response curve predicts after adding one unit of spend
-mROAS       = Next KPI - Current KPI
+mROAS = Next KPI - Current KPI
 ```
 
 Because the extra spend is exactly one unit, the difference between the two KPI values is the marginal KPI per unit of spend.
@@ -125,10 +130,11 @@ Both columns are calculated over the **period you select** for the saturation cu
 
 #### Formula:
 
+* **Current Revenue**: the incremental revenue the response curve predicts at the current spend level.
+* **Next Revenue**: the incremental revenue the response curve predicts after adding one dollar of spend.
+
 ```plaintext
-Current Revenue = incremental revenue the response curve predicts at the current spend level
-Next Revenue    = incremental revenue the response curve predicts after adding one dollar of spend
-miROAS          = Next Revenue - Current Revenue
+miROAS = Next Revenue - Current Revenue
 ```
 
 For example, if the curve predicts $10,000.00 of incremental revenue at the current spend level and $10,001.50 after one more dollar, miROAS is 1.50.
@@ -194,19 +200,22 @@ For models whose KPI is conversions, installs, store visits or another count, Li
 
 * **miCPA** is the cost of the **next** conversion at the current spend level:
 
+  * **Current Conversions**: the incremental conversions the response curve predicts at the current spend level.
+  * **Next Conversions**: the incremental conversions the response curve predicts after adding one dollar of spend.
+
 ```plaintext
-Current Conversions = incremental conversions the response curve predicts at the current spend level
-Next Conversions    = incremental conversions the response curve predicts after adding one dollar of spend
-miCPA               = 1 / (Next Conversions - Current Conversions)
+miCPA = 1 / (Next Conversions - Current Conversions)
 ```
 
 * **mcCPA** follows the same steps as mcROAS, with incremental conversions in place of incremental revenue:
 
+  * **Marginal Conversions**: Next Conversions - Current Conversions (the extra conversions from one more dollar).
+  * **Incremental Conversions**: the channel's average monthly incremental conversions in the selected period.
+
 ```plaintext
-Marginal Conversions per Dollar = Next Conversions - Current Conversions
-Extra Conversions               = Marginal Conversions per Dollar × Delta
-Adjusted Conversions            = Incremental Conversions + Extra Conversions
-mcCPA                           = (Spend + Delta) / Adjusted Conversions
+Extra Conversions    = Marginal Conversions × Delta
+Adjusted Conversions = Incremental Conversions + Extra Conversions
+mcCPA                = (Spend + Delta) / Adjusted Conversions
 ```
 
 For CPA, **lower is better**. A miCPA that is higher than the channel's average CPA means the next conversion costs more than the average one, so the channel is saturating.
