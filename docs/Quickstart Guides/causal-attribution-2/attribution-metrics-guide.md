@@ -29,7 +29,7 @@ Incremental metrics show the revenue and conversions your advertising actually d
 **How to read them together**
 
 - **iROAS versus Marginal ROAS:** iROAS is the average return across all spend to date. Marginal ROAS is the return on the next dollar. A campaign with a strong iROAS but a falling Marginal ROAS has likely saturated, so extra spend won't return at the same rate.
-- **Incrementality Factor:** a factor of 0.4 means roughly 40 cents of every reported dollar is genuinely new revenue. The rest is demand that was already coming.
+- **Incrementality Factor:** a factor of 0.4 means Lifesight estimates about 40% of what the platform reports for that row and period is incremental. The rest is likely demand that was already coming. It isn't a fixed discount to apply to other rows or periods.
 
 ## Compare with what platforms report
 
@@ -130,29 +130,21 @@ Platform ROAS uses revenue reported by the advertising platform. iROAS uses incr
 **What is the difference between iROAS and Marginal ROAS?**
 iROAS is the average incremental return across all spend to date. Marginal ROAS is the incremental revenue expected from the next unit of spend, derived from your promoted model.
 
-**How is the Incrementality Factor calculated?**
-Incremental Revenue divided by Platform Revenue. It shows the share of platform-reported revenue estimated to be incremental.
+**How is the Incrementality Factor calculated?**<br />Incremental Revenue divided by Platform Revenue. It shows the share of platform-reported revenue estimated to be incremental.
 
-**Can the Incrementality Factor be above 1?**
-Yes, though it's less common. It means the ads are driving more than the platform can see, which tends to happen on video and other upper-funnel channels whose conversions arrive later or through other channels.
+**Can the Incrementality Factor be above 1?**<br />Yes, though it's less common. It means Lifesight estimates the ads are driving more than the platform can see, which tends to happen on video and other upper-funnel channels whose conversions arrive later or through other channels.
 
-**Should I switch off a channel with a low Incrementality Factor?**
-Not necessarily. A low factor usually means the channel is harvesting existing demand, so rebalance spend rather than switching it off. Open the channel by tactic, campaign and ad set to see where the gap comes from, and move budget in steps rather than all at once.
+**Should I switch off a channel with a low Incrementality Factor?**<br />Not necessarily. A low factor usually means the channel is harvesting existing demand, so rebalance spend rather than switching it off. Open the channel by tactic, campaign and ad set to see where the gap comes from, and move budget in steps rather than all at once.
 
-**Will the gap between platform and incremental numbers stay the same?**
-No. It changes with targeting, creative, seasonality and how saturated a channel is. Check it again after your model is retrained.
+**Will the gap between platform and incremental numbers stay the same?**<br />No. It changes with targeting, creative, seasonality and how saturated a channel is. Check it again after your model is retrained.
 
-**How are Incremental Conversions calculated?**
-Platform conversions are adjusted using incrementality evidence from your promoted measurement assets.
+**How are Incremental Conversions calculated?**<br />Platform conversions are adjusted using incrementality evidence from your promoted measurement assets.
 
-**When should I use iCPA instead of iROAS?**
-Use iCPA when your goal is conversions rather than revenue. It shows the cost per incremental conversion.
+**When should I use iCPA instead of iROAS?**<br />Use iCPA when your goal is conversions rather than revenue. It shows the cost per incremental conversion.
 
-**Why is iCPA higher than Platform CPA?**
-Platform CPA divides spend by every conversion the platform credits, including ones that would have happened anyway. iCPA divides the same spend by incremental conversions only, so it is usually higher.
+**Why is iCPA higher than Platform CPA?**<br />Platform CPA divides spend by every conversion the platform credits, including ones that would have happened anyway. iCPA divides the same spend by estimated incremental conversions only, so it is usually higher.
 
-**What does a Pacing value of 80% mean?**
-You've spent 80% of what your active scenario planned to date, meaning you're running under plan.
+**What does a Pacing value of 80% mean?**<br />You've spent 80% of what your active scenario planned to date, meaning you're running under plan.
 
 **How is Recommended Daily spend calculated?**
 Remaining Budget divided by Remaining Days. It gives you a catch-up adjusted daily spend for the next seven days.
